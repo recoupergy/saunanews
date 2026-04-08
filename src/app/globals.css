@@ -1,26 +1,308 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-cream: #FAF8F5;
+  --color-ivory: #F0EDE8;
+  --color-charcoal: #2C2C2C;
+  --color-slate: #1A1A2E;
+  --color-green: #4A6741;
+  --color-green-light: #5A7A51;
+  --color-brass: #B8935A;
+  --color-copper: #C4956A;
+  --color-stone: #D4D0CA;
+  --color-stone-dark: #8A8580;
+  --color-warm-gray: #6B6560;
+  --color-border: #E5E1DB;
+  --color-surface: #FFFFFF;
+
+  --color-dark-bg: #0F0F12;
+  --color-dark-surface: #1A1A1F;
+  --color-dark-border: #2A2A30;
+  --color-dark-text: #E8E6E3;
+  --color-dark-muted: #9A9590;
+
+  --font-serif: "Playfair Display", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  background: var(--color-cream);
+  color: var(--color-charcoal);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dark body {
+  background: var(--color-dark-bg);
+  color: var(--color-dark-text);
+}
+
+::selection {
+  background: var(--color-green);
+  color: white;
+}
+
+.font-editorial {
+  font-family: var(--font-serif);
+}
+
+/* Article body prose styles */
+.prose-editorial h2 {
+  font-family: var(--font-serif);
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.prose-editorial h3 {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose-editorial p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: var(--color-charcoal);
+}
+
+.dark .prose-editorial p {
+  color: var(--color-dark-text);
+}
+
+.prose-editorial blockquote {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5;
+  border-left: 3px solid var(--color-brass);
+  padding-left: 1.5rem;
+  margin: 2.5rem 0;
+  color: var(--color-warm-gray);
+}
+
+.dark .prose-editorial blockquote {
+  color: var(--color-dark-muted);
+}
+
+.prose-editorial ul, .prose-editorial ol {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.prose-editorial li {
+  margin-bottom: 0.5rem;
+}
+
+/* Callout box — general */
+.prose-editorial .callout {
+  background: var(--color-ivory);
+  border-left: 3px solid var(--color-green);
+  padding: 1.25rem 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0 0.375rem 0.375rem 0;
+  font-size: 0.95rem;
+}
+
+.dark .prose-editorial .callout {
+  background: var(--color-dark-surface);
+}
+
+/* Structured article section labels — Semafor/Axios inspired */
+.prose-editorial .section-label {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-green);
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  background: rgba(74, 103, 65, 0.08);
+  border-radius: 0.25rem;
+}
+
+.dark .prose-editorial .section-label {
+  color: var(--color-brass);
+  background: rgba(184, 147, 90, 0.12);
+}
+
+/* "Why It Matters" callout */
+.prose-editorial .why-it-matters {
+  background: rgba(74, 103, 65, 0.06);
+  border-left: 3px solid var(--color-green);
+  padding: 1.25rem 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.dark .prose-editorial .why-it-matters {
+  background: rgba(74, 103, 65, 0.1);
+}
+
+.prose-editorial .why-it-matters::before {
+  content: 'Why It Matters';
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-green);
+  margin-bottom: 0.5rem;
+}
+
+.dark .prose-editorial .why-it-matters::before {
+  color: var(--color-brass);
+}
+
+/* "By the Numbers" callout */
+.prose-editorial .by-the-numbers {
+  background: var(--color-ivory);
+  border: 1px solid var(--color-border);
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0.5rem;
+}
+
+.dark .prose-editorial .by-the-numbers {
+  background: var(--color-dark-surface);
+  border-color: var(--color-dark-border);
+}
+
+.prose-editorial .by-the-numbers::before {
+  content: 'By the Numbers';
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-brass);
+  margin-bottom: 0.75rem;
+}
+
+.prose-editorial .by-the-numbers ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.prose-editorial .by-the-numbers li {
+  padding-left: 1rem;
+  position: relative;
+}
+
+.prose-editorial .by-the-numbers li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--color-brass);
+  font-weight: 600;
+}
+
+/* "The Bottom Line" callout */
+.prose-editorial .bottom-line {
+  background: var(--color-charcoal);
+  color: var(--color-cream);
+  padding: 1.25rem 1.5rem;
+  margin: 2.5rem 0;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.dark .prose-editorial .bottom-line {
+  background: var(--color-dark-surface);
+  border: 1px solid var(--color-dark-border);
+}
+
+.prose-editorial .bottom-line::before {
+  content: 'The Bottom Line';
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-brass);
+  margin-bottom: 0.5rem;
+}
+
+.prose-editorial .bottom-line p {
+  color: var(--color-cream);
+  margin-bottom: 0;
+}
+
+.dark .prose-editorial .bottom-line p {
+  color: var(--color-dark-text);
+}
+
+/* Bold-lead paragraphs (Axios-style) — first strong in a paragraph stands out */
+.prose-editorial p > strong:first-child {
+  color: var(--color-charcoal);
+  font-weight: 700;
+}
+
+.dark .prose-editorial p > strong:first-child {
+  color: var(--color-cream);
+}
+
+/* "What's Next" section */
+.prose-editorial .whats-next {
+  border-top: 2px solid var(--color-border);
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+}
+
+.dark .prose-editorial .whats-next {
+  border-color: var(--color-dark-border);
+}
+
+.prose-editorial .whats-next::before {
+  content: "What's Next";
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-green);
+  margin-bottom: 0.75rem;
+}
+
+.dark .prose-editorial .whats-next::before {
+  color: var(--color-brass);
+}
+
+/* Headline ticker animation */
+@keyframes ticker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-ticker {
+  animation: ticker 60s linear infinite;
+}
+
+.animate-ticker:hover {
+  animation-play-state: paused;
+}
+
+/* Smooth transitions */
+.transition-editorial {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }

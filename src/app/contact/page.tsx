@@ -1,0 +1,166 @@
+'use client';
+
+export default function ContactPage() {
+  const inquiryTypes = [
+    {
+      title: 'Submit News or Announcements',
+      description: 'Have a press release, product launch, or company announcement? Send it to our editorial team for coverage consideration.',
+      icon: (
+        <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z" />
+        </svg>
+      ),
+    },
+    {
+      title: 'Suggest a Story',
+      description: 'Know about something we should be covering? We welcome story tips, trend observations, and leads from across the industry.',
+      icon: (
+        <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+        </svg>
+      ),
+    },
+    {
+      title: 'Sponsorship & Advertising',
+      description: 'Interested in reaching the sauna industry\'s most engaged professional audience? Let\'s discuss how we can work together.',
+      icon: (
+        <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5M9 11.25v1.5M12 9v3.75m3-6v6" />
+        </svg>
+      ),
+    },
+    {
+      title: 'General Inquiries',
+      description: 'Questions about SaunaNews, editorial partnerships, feedback, or anything else? We read every message.',
+      icon: (
+        <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z" />
+        </svg>
+      ),
+    },
+  ];
+
+  return (
+    <>
+      {/* Header */}
+      <section className="bg-cream dark:bg-dark-bg border-b border-border dark:border-dark-border">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+          <h1 className="font-editorial text-4xl sm:text-5xl font-bold text-charcoal dark:text-cream mb-4 tracking-tight">
+            Contact & Submit News
+          </h1>
+          <p className="text-lg text-warm-gray dark:text-dark-muted">
+            We welcome news submissions, story tips, partnership inquiries, and reader feedback.
+          </p>
+        </div>
+      </section>
+
+      {/* Inquiry Types */}
+      <section className="bg-surface dark:bg-dark-surface">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {inquiryTypes.map((t) => (
+              <div key={t.title} className="p-8 bg-cream dark:bg-dark-bg border border-border dark:border-dark-border rounded-xl">
+                <div className="w-12 h-12 bg-green/10 dark:bg-green/20 rounded-lg flex items-center justify-center mb-4 text-green dark:text-green-light">
+                  {t.icon}
+                </div>
+                <h3 className="font-editorial text-lg font-semibold text-charcoal dark:text-cream mb-2">{t.title}</h3>
+                <p className="text-sm text-stone-dark dark:text-dark-muted leading-relaxed">{t.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Form */}
+      <section className="bg-cream dark:bg-dark-bg border-t border-border dark:border-dark-border">
+        <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+          <h2 className="font-editorial text-2xl font-bold text-charcoal dark:text-cream mb-8">
+            Send Us a Message
+          </h2>
+          <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div>
+                <label className="block text-sm font-medium text-charcoal dark:text-dark-text mb-2">
+                  Name
+                </label>
+                <input
+                  type="text"
+                  className="w-full px-4 py-3 bg-surface dark:bg-dark-surface border border-border dark:border-dark-border rounded-lg text-sm focus:outline-none focus:border-green dark:focus:border-brass focus:ring-1 focus:ring-green dark:focus:ring-brass"
+                  placeholder="Your name"
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-charcoal dark:text-dark-text mb-2">
+                  Email
+                </label>
+                <input
+                  type="email"
+                  className="w-full px-4 py-3 bg-surface dark:bg-dark-surface border border-border dark:border-dark-border rounded-lg text-sm focus:outline-none focus:border-green dark:focus:border-brass focus:ring-1 focus:ring-green dark:focus:ring-brass"
+                  placeholder="your@email.com"
+                />
+              </div>
+            </div>
+
+            <div>
+              <label className="block text-sm font-medium text-charcoal dark:text-dark-text mb-2">
+                Organization
+              </label>
+              <input
+                type="text"
+                className="w-full px-4 py-3 bg-surface dark:bg-dark-surface border border-border dark:border-dark-border rounded-lg text-sm focus:outline-none focus:border-green dark:focus:border-brass focus:ring-1 focus:ring-green dark:focus:ring-brass"
+                placeholder="Company or organization (optional)"
+              />
+            </div>
+
+            <div>
+              <label className="block text-sm font-medium text-charcoal dark:text-dark-text mb-2">
+                Type of Inquiry
+              </label>
+              <select className="w-full px-4 py-3 bg-surface dark:bg-dark-surface border border-border dark:border-dark-border rounded-lg text-sm focus:outline-none focus:border-green dark:focus:border-brass">
+                <option>News Submission / Press Release</option>
+                <option>Story Tip or Idea</option>
+                <option>Sponsorship / Advertising</option>
+                <option>Partnership Inquiry</option>
+                <option>General Feedback</option>
+                <option>Other</option>
+              </select>
+            </div>
+
+            <div>
+              <label className="block text-sm font-medium text-charcoal dark:text-dark-text mb-2">
+                Message
+              </label>
+              <textarea
+                rows={6}
+                className="w-full px-4 py-3 bg-surface dark:bg-dark-surface border border-border dark:border-dark-border rounded-lg text-sm focus:outline-none focus:border-green dark:focus:border-brass focus:ring-1 focus:ring-green dark:focus:ring-brass resize-none"
+                placeholder="Tell us what you're reaching out about..."
+              />
+            </div>
+
+            <button
+              type="submit"
+              className="px-8 py-3 bg-charcoal dark:bg-cream text-cream dark:text-charcoal text-sm font-semibold rounded-lg hover:bg-slate dark:hover:bg-ivory transition-colors"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+
+      {/* Sponsorship callout */}
+      <section className="bg-ivory dark:bg-dark-surface border-t border-border dark:border-dark-border">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
+          <h2 className="font-editorial text-2xl font-bold text-charcoal dark:text-cream mb-4">
+            Sponsorship Opportunities
+          </h2>
+          <p className="text-base text-warm-gray dark:text-dark-muted leading-relaxed mb-2">
+            SaunaNews reaches a focused audience of sauna industry professionals, manufacturers, dealers, architects, hospitality operators, and serious enthusiasts.
+          </p>
+          <p className="text-base text-warm-gray dark:text-dark-muted leading-relaxed">
+            We offer tasteful, high-impact sponsorship placements that align with our editorial standards. Contact us to learn more about reaching this audience.
+          </p>
+        </div>
+      </section>
+    </>
+  );
+}

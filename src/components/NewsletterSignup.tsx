@@ -1,0 +1,66 @@
+'use client';
+
+interface NewsletterSignupProps {
+  variant?: 'inline' | 'hero' | 'footer';
+}
+
+export default function NewsletterSignup({ variant = 'inline' }: NewsletterSignupProps) {
+  if (variant === 'hero') {
+    return (
+      <section className="bg-charcoal dark:bg-slate text-cream py-20">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="font-editorial text-3xl sm:text-4xl font-bold mb-4">
+            Stay ahead of the curve.
+          </h2>
+          <p className="text-lg text-cream/70 mb-8 max-w-xl mx-auto">
+            Get the most important sauna industry news, product launches, and market intelligence delivered to your inbox every week.
+          </p>
+          <form
+            className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto"
+            onSubmit={(e) => e.preventDefault()}
+          >
+            <input
+              type="email"
+              placeholder="Enter your email"
+              className="flex-1 px-4 py-3 bg-cream/10 border border-cream/20 rounded-lg text-sm text-cream placeholder-cream/40 focus:outline-none focus:border-brass focus:ring-1 focus:ring-brass"
+            />
+            <button className="px-6 py-3 bg-brass text-charcoal text-sm font-semibold rounded-lg hover:bg-copper transition-colors shrink-0">
+              Subscribe Free
+            </button>
+          </form>
+          <p className="text-xs text-cream/40 mt-4">
+            Free weekly newsletter. No spam. Unsubscribe anytime.
+          </p>
+        </div>
+      </section>
+    );
+  }
+
+  return (
+    <div className="bg-ivory dark:bg-dark-surface border border-border dark:border-dark-border rounded-xl p-8 sm:p-10">
+      <div className="max-w-lg mx-auto text-center">
+        <div className="w-12 h-12 bg-green/10 dark:bg-green/20 rounded-lg flex items-center justify-center mx-auto mb-4">
+          <svg className="w-6 h-6 text-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+          </svg>
+        </div>
+        <h3 className="font-editorial text-xl font-bold text-charcoal dark:text-cream mb-2">
+          The SaunaNews Weekly
+        </h3>
+        <p className="text-sm text-stone-dark dark:text-dark-muted mb-6">
+          One email per week with the stories, data, and analysis that matter most in the sauna industry.
+        </p>
+        <form className="flex gap-2" onSubmit={(e) => e.preventDefault()}>
+          <input
+            type="email"
+            placeholder="Your email address"
+            className="flex-1 px-4 py-2.5 bg-surface dark:bg-dark-bg border border-border dark:border-dark-border rounded-lg text-sm focus:outline-none focus:border-green dark:focus:border-brass focus:ring-1 focus:ring-green dark:focus:ring-brass"
+          />
+          <button className="px-5 py-2.5 bg-charcoal dark:bg-cream text-cream dark:text-charcoal text-sm font-medium rounded-lg hover:bg-slate dark:hover:bg-ivory transition-colors shrink-0">
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </div>
+  );
+}
