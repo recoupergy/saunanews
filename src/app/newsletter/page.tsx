@@ -1,6 +1,40 @@
 'use client';
 
+import { useState } from 'react';
+import NewsletterSignup from '@/components/NewsletterSignup';
+
 export default function NewsletterPage() {
+  const [heroEmail, setHeroEmail] = useState('');
+  const [heroHoneypot, setHeroHoneypot] = useState('');
+  const [heroStatus, setHeroStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
+  const [heroMessage, setHeroMessage] = useState('');
+
+  async function handleHeroSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    if (!heroEmail.trim() || heroStatus === 'loading') return;
+    setHeroStatus('loading');
+
+    try {
+      const res = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: heroEmail.trim(), website: heroHoneypot, source: 'newsletter-page' }),
+      });
+      const data = await res.json();
+      if (data.success) {
+        setHeroStatus('success');
+        setHeroMessage(data.message);
+        setHeroEmail('');
+      } else {
+        setHeroStatus('error');
+        setHeroMessage(data.message);
+      }
+    } catch {
+      setHeroStatus('error');
+      setHeroMessage('Something went wrong. Please try again.');
+    }
+  }
+
   const benefits = [
     {
       icon: (
@@ -65,21 +99,52 @@ export default function NewsletterPage() {
             The SaunaNews Weekly
           </h1>
           <p className="text-xl text-cream/70 mb-8 max-w-xl mx-auto">
-            The most important sauna industry news, product launches, and market intelligence — delivered every Thursday.
+            The most important sauna industry news, product launches, and market intelligence, delivered every Thursday.
           </p>
-          <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto" onSubmit={(e) => e.preventDefault()}>
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-4 py-3.5 bg-cream/10 border border-cream/20 rounded-lg text-sm text-cream placeholder-cream/40 focus:outline-none focus:border-brass focus:ring-1 focus:ring-brass"
-            />
-            <button className="px-8 py-3.5 bg-brass text-charcoal text-sm font-semibold rounded-lg hover:bg-copper transition-colors shrink-0">
-              Subscribe Free
-            </button>
-          </form>
-          <p className="text-xs text-cream/40 mt-4">
-            Join 2,400+ industry professionals. Free. No spam. Unsubscribe anytime.
-          </p>
+          {heroStatus === 'success' ? (
+            <div className="flex items-center justify-center gap-2 text-emerald-400">
+              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <span className="font-medium">{heroMessage}</span>
+            </div>
+          ) : (
+            <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto" onSubmit={handleHeroSubmit}>
+              <input
+                type="email"
+                value={heroEmail}
+                onChange={(e) => setHeroEmail(e.target.value)}
+                placeholder="Enter your email"
+                required
+                className="flex-1 px-4 py-3.5 bg-cream/10 border border-cream/20 rounded-lg text-sm text-cream placeholder-cream/40 focus:outline-none focus:border-brass focus:ring-1 focus:ring-brass"
+              />
+              <input
+                type="text"
+                name="website"
+                value={heroHoneypot}
+                onChange={(e) => setHeroHoneypot(e.target.value)}
+                tabIndex={-1}
+                autoComplete="off"
+                aria-hidden="true"
+                style={{ position: 'absolute', left: '-9999px', opacity: 0 }}
+              />
+              <button
+                type="submit"
+                disabled={heroStatus === 'loading'}
+                className="px-8 py-3.5 bg-brass text-charcoal text-sm font-semibold rounded-lg hover:bg-copper transition-colors shrink-0 disabled:opacity-60"
+              >
+                {heroStatus === 'loading' ? 'Subscribing...' : 'Subscribe Free'}
+              </button>
+            </form>
+          )}
+          {heroStatus === 'error' && (
+            <p className="text-xs text-red-400 mt-3">{heroMessage}</p>
+          )}
+          {heroStatus !== 'success' && (
+            <p className="text-xs text-cream/40 mt-4">
+              Free. No spam. Unsubscribe anytime.
+            </p>
+          )}
         </div>
       </section>
 
@@ -140,29 +205,29 @@ export default function NewsletterPage() {
               <div className="flex items-start gap-3">
                 <span className="text-xs font-semibold text-brass mt-1 shrink-0">01</span>
                 <div>
-                  <h4 className="font-semibold text-charcoal dark:text-cream text-sm">Harvia-EOS Deal Reshapes European Market</h4>
-                  <p className="text-xs text-stone-dark dark:text-dark-muted mt-0.5">The 215M euro acquisition and what it means for dealers and competitors.</p>
+                  <h4 className="font-semibold text-charcoal dark:text-cream text-sm">Supreme Court IEEPA Ruling Reshapes Tariff Picture</h4>
+                  <p className="text-xs text-stone-dark dark:text-dark-muted mt-0.5">Section 122 replacement at 15% and what importers need to know.</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-xs font-semibold text-brass mt-1 shrink-0">02</span>
                 <div>
-                  <h4 className="font-semibold text-charcoal dark:text-cream text-sm">New U.S. Tariff: 18% on Finnish and Baltic Imports</h4>
-                  <p className="text-xs text-stone-dark dark:text-dark-muted mt-0.5">Timeline, impact analysis, and what to do before July 1.</p>
+                  <h4 className="font-semibold text-charcoal dark:text-cream text-sm">Harvia Q1 Revenue Hits EUR 52M, Up 22.7%</h4>
+                  <p className="text-xs text-stone-dark dark:text-dark-muted mt-0.5">ThermaSol integration driving growth ahead of schedule.</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-xs font-semibold text-brass mt-1 shrink-0">03</span>
                 <div>
-                  <h4 className="font-semibold text-charcoal dark:text-cream text-sm">Data: Outdoor Sauna Sales +34% YoY</h4>
-                  <p className="text-xs text-stone-dark dark:text-dark-muted mt-0.5">The numbers behind the backyard sauna boom.</p>
+                  <h4 className="font-semibold text-charcoal dark:text-cream text-sm">Homecraft Launches WiFi Controller for North American Market</h4>
+                  <p className="text-xs text-stone-dark dark:text-dark-muted mt-0.5">Canada's oldest heater maker adds app control at $825.</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-xs font-semibold text-brass mt-1 shrink-0">04</span>
                 <div>
-                  <h4 className="font-semibold text-charcoal dark:text-cream text-sm">HUUM Launches Industry-First Smart Heater</h4>
-                  <p className="text-xs text-stone-dark dark:text-dark-muted mt-0.5">Air quality monitoring comes to the sauna room.</p>
+                  <h4 className="font-semibold text-charcoal dark:text-cream text-sm">Thermory Signs Exclusive Japan Distribution Deal</h4>
+                  <p className="text-xs text-stone-dark dark:text-dark-muted mt-0.5">Bergman Co. brings thermowood to Japan's sauna renaissance.</p>
                 </div>
               </div>
             </div>
@@ -171,26 +236,7 @@ export default function NewsletterPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="bg-charcoal dark:bg-slate text-cream">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
-          <h2 className="font-editorial text-3xl font-bold mb-4">
-            Join the conversation.
-          </h2>
-          <p className="text-lg text-cream/70 mb-8">
-            Thousands of sauna industry professionals start their week with The SaunaNews Weekly.
-          </p>
-          <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto" onSubmit={(e) => e.preventDefault()}>
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-4 py-3.5 bg-cream/10 border border-cream/20 rounded-lg text-sm text-cream placeholder-cream/40 focus:outline-none focus:border-brass focus:ring-1 focus:ring-brass"
-            />
-            <button className="px-8 py-3.5 bg-brass text-charcoal text-sm font-semibold rounded-lg hover:bg-copper transition-colors shrink-0">
-              Subscribe Free
-            </button>
-          </form>
-        </div>
-      </section>
+      <NewsletterSignup variant="hero" source="newsletter-page-bottom" />
     </>
   );
 }

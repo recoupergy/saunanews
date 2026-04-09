@@ -5,8 +5,20 @@ import { useState, useEffect } from 'react';
 export default function StickyNewsletterBar() {
   const [visible, setVisible] = useState(false);
   const [dismissed, setDismissed] = useState(false);
+  const [email, setEmail] = useState('');
+  const [honeypot, setHoneypot] = useState('');
+  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
 
   useEffect(() => {
+    // Check if previously dismissed or subscribed
+    if (typeof window !== 'undefined') {
+      const wasDismissed = localStorage.getItem('saunanews-bar-dismissed');
+      if (wasDismissed) {
+        setDismissed(true);
+        return;
+      }
+    }
+
     function handleScroll() {
       const scrollPercent =
         window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
@@ -16,6 +28,44 @@ export default function StickyNewsletterBar() {
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  function handleDismiss() {
+    setDismissed(true);
+    localStorage.setItem('saunanews-bar-dismissed', 'true');
+  }
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    if (!email.trim() || status === 'loading') return;
+
+    setStatus('loading');
+
+    try {
+      const res = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          email: email.trim(),
+          website: honeypot,
+          source: 'sticky-bar',
+        }),
+      });
+
+      const data = await res.json();
+
+      if (data.success) {
+        setStatus('success');
+        // Auto-dismiss after showing success
+        setTimeout(() => {
+          handleDismiss();
+        }, 2500);
+      } else {
+        setStatus('error');
+      }
+    } catch {
+      setStatus('error');
+    }
+  }
 
   if (dismissed) return null;
 
@@ -39,22 +89,44 @@ export default function StickyNewsletterBar() {
 
           {/* Form + dismiss */}
           <div className="flex items-center gap-2 shrink-0">
-            <form
-              className="flex items-center gap-2"
-              onSubmit={(e) => e.preventDefault()}
-            >
-              <input
-                type="email"
-                placeholder="Your email"
-                className="w-44 sm:w-52 px-3 py-1.5 bg-cream/10 border border-cream/15 rounded text-sm text-cream placeholder-cream/35 focus:outline-none focus:border-brass focus:ring-1 focus:ring-brass"
-              />
-              <button className="px-4 py-1.5 bg-brass text-charcoal text-sm font-semibold rounded hover:bg-copper transition-colors whitespace-nowrap">
-                Subscribe
-              </button>
-            </form>
+            {status === 'success' ? (
+              <span className="text-sm text-emerald-400 font-medium">You&apos;re in!</span>
+            ) : (
+              <form
+                className="flex items-center gap-2"
+                onSubmit={handleSubmit}
+              >
+                <input
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="Your email"
+                  required
+                  className="w-44 sm:w-52 px-3 py-1.5 bg-cream/10 border border-cream/15 rounded text-sm text-cream placeholder-cream/35 focus:outline-none focus:border-brass focus:ring-1 focus:ring-brass"
+                />
+                {/* Honeypot */}
+                <input
+                  type="text"
+                  name="website"
+                  value={honeypot}
+                  onChange={(e) => setHoneypot(e.target.value)}
+                  tabIndex={-1}
+                  autoComplete="off"
+                  aria-hidden="true"
+                  style={{ position: 'absolute', left: '-9999px', opacity: 0 }}
+                />
+                <button
+                  type="submit"
+                  disabled={status === 'loading'}
+                  className="px-4 py-1.5 bg-brass text-charcoal text-sm font-semibold rounded hover:bg-copper transition-colors whitespace-nowrap disabled:opacity-60"
+                >
+                  {status === 'loading' ? '...' : 'Subscribe'}
+                </button>
+              </form>
+            )}
 
             <button
-              onClick={() => setDismissed(true)}
+              onClick={handleDismiss}
               className="ml-1 p-1 text-cream/30 hover:text-cream/60 transition-colors"
               aria-label="Dismiss newsletter bar"
             >
