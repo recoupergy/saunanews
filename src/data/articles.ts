@@ -720,7 +720,8 @@ export const articles: Article[] = [
     author: authors.sofia,
     publishDate: '2026-04-01',
     readingTime: 4,
-    featuredImage: 'https://images.unsplash.com/photo-1741601272844-05a3677463f3?w=1200&q=80',
+    featuredImage: 'https://homecraftsaunas.com/wp-content/uploads/2023/04/homecraft-saunas-timeless-07-scaled.jpg',
+    imageCaption: 'Homecraft sauna heater installation. Photo: Homecraft Saunas.',
     body: `<p>Homecraft, Canada's oldest sauna heater manufacturer (founded 1988, still family-run out of Surrey, British Columbia), has released the WiFi-enabled version of its TKE2-2 digital controller. It's an upgrade that Homecraft owners have been asking for: the ability to start, stop, and schedule their sauna from a phone.</p>
 
 <h2>What It Does</h2>

@@ -47,6 +47,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'dundalkleisurecraft.s3.ca-central-1.amazonaws.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'homecraftsaunas.com',
+      },
     ],
   },
 };
