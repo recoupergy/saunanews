@@ -3,8 +3,8 @@ import { NextRequest, NextResponse } from 'next/server';
 async function getRedis() {
   const { Redis } = await import('@upstash/redis');
   return new Redis({
-    url: process.env.UPSTASH_REDIS_REST_URL!,
-    token: process.env.UPSTASH_REDIS_REST_TOKEN!,
+    url: process.env.KV_REST_API_URL!,
+    token: process.env.KV_REST_API_TOKEN!,
   });
 }
 
@@ -17,7 +17,7 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
-  if (!process.env.UPSTASH_REDIS_REST_URL || !process.env.UPSTASH_REDIS_REST_TOKEN) {
+  if (!process.env.KV_REST_API_URL || !process.env.KV_REST_API_TOKEN) {
     return NextResponse.json({ error: 'Redis not configured' }, { status: 503 });
   }
 

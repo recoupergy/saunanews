@@ -14,8 +14,8 @@ async function getRedis() {
   // Dynamic import so the build doesn't fail without env vars
   const { Redis } = await import('@upstash/redis');
   return new Redis({
-    url: process.env.UPSTASH_REDIS_REST_URL!,
-    token: process.env.UPSTASH_REDIS_REST_TOKEN!,
+    url: process.env.KV_REST_API_URL!,
+    token: process.env.KV_REST_API_TOKEN!,
   });
 }
 
@@ -58,7 +58,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Check if Redis is configured
-    if (!process.env.UPSTASH_REDIS_REST_URL || !process.env.UPSTASH_REDIS_REST_TOKEN) {
+    if (!process.env.KV_REST_API_URL || !process.env.KV_REST_API_TOKEN) {
       // Graceful fallback: log the signup attempt if Redis isn't configured yet
       console.log(`[Newsletter Signup] ${trimmedEmail} at ${new Date().toISOString()}`);
       return NextResponse.json({
