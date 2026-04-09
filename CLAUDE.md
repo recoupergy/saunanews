@@ -1,1 +1,2 @@
 @AGENTS.md
+@.claude/EDITORIAL_GUIDELINES.md
