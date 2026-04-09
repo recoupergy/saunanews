@@ -56,7 +56,7 @@ export default function AboutPage() {
           <h2 className="font-editorial text-2xl font-bold text-charcoal dark:text-cream mb-6">Our Mission</h2>
           <div className="space-y-5 text-lg text-warm-gray dark:text-dark-muted leading-relaxed">
             <p>
-              The global sauna industry is growing at nearly 8% annually. Hundreds of manufacturers, thousands of dealers, and millions of consumers participate in a market worth over $3 billion. Yet until now, the industry has lacked a dedicated editorial voice with the depth, credibility, and design quality it deserves.
+              The global sauna equipment market passed $900 million in 2024 and is growing at roughly 6% annually, according to Grand View Research. Hundreds of manufacturers, thousands of dealers, and millions of consumers participate in an industry whose total addressable market is far larger when services, venues, and materials are included. Yet the industry has lacked a dedicated editorial voice with the depth, credibility, and design quality it deserves.
             </p>
             <p>
               SaunaNews was created to fill that gap. We provide daily reporting, market intelligence, product coverage, and editorial analysis for the professionals and enthusiasts who make up the sauna world.

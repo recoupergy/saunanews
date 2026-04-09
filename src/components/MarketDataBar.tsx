@@ -4,9 +4,9 @@ const dataPoints = [
   { label: 'Sauna Equipment Market', value: '$905M', change: '+6.3% CAGR', up: true },
   { label: 'Harvia Q1 Revenue', value: '€52M', change: '+22.7%', up: true },
   { label: 'Cold Plunge Market', value: '$380M', change: '+18%', up: true },
-  { label: 'Wellness Real Estate', value: '$439B', change: '+18% YoY', up: true },
-  { label: 'Thermory Global Share', value: '17%', change: '+27% capacity', up: true },
+  { label: 'Wellness Real Estate', value: '$584B', change: '+33% YoY', up: true },
   { label: 'Plunge (brand)', value: '$100M rev', change: '2024', up: true },
+  { label: 'Longevity VC', value: '$8.5B', change: '2024', up: true },
 ];
 
 export default function MarketDataBar() {

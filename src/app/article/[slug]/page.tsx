@@ -16,13 +16,30 @@ export function generateStaticParams() {
 }
 
 export function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
-  // We need to handle this synchronously for static generation
   return params.then(({ slug }) => {
     const article = getArticleBySlug(slug);
     if (!article) return { title: 'Article Not Found' };
     return {
       title: article.title,
       description: article.dek,
+      openGraph: {
+        title: article.title,
+        description: article.dek,
+        type: 'article',
+        publishedTime: article.publishDate,
+        authors: [article.author.name],
+        section: article.category,
+        tags: article.tags,
+        siteName: 'SaunaNews',
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title: article.title,
+        description: article.dek,
+      },
+      alternates: {
+        canonical: `/article/${article.slug}`,
+      },
     };
   });
 }
@@ -39,8 +56,36 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     .filter((a) => a.id !== article.id)
     .slice(0, 3);
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'NewsArticle',
+    headline: article.title,
+    description: article.dek,
+    datePublished: article.publishDate,
+    author: {
+      '@type': 'Person',
+      name: article.author.name,
+      jobTitle: article.author.role,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'SaunaNews',
+      url: 'https://saunanews.com',
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://saunanews.com/article/${article.slug}`,
+    },
+    articleSection: article.category,
+    keywords: article.tags.join(', '),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <ReadingProgressBar />
 
       {/* Article Header */}

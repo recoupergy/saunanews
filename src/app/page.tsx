@@ -25,8 +25,25 @@ export default function HomePage() {
   const editorsPickIds = ['3', '7', '11', '14'];
   const editorsPicks = articles.filter((a) => editorsPickIds.includes(a.id));
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'SaunaNews',
+    url: 'https://saunanews.com',
+    description: 'Daily reporting, market intelligence, and editorial analysis for the sauna industry.',
+    publisher: {
+      '@type': 'Organization',
+      name: 'SaunaNews',
+      url: 'https://saunanews.com',
+    },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Market Data Bar */}
       <MarketDataBar />
 
@@ -325,7 +342,7 @@ export default function HomePage() {
             </div>
             <div className="lg:col-span-3">
               <p className="text-base text-warm-gray dark:text-dark-muted leading-relaxed mb-4">
-                The sauna industry is growing at nearly 8% annually, attracting billions in investment, and reshaping wellness and hospitality. Yet it has lacked a dedicated editorial voice with the depth and credibility it deserves.
+                The sauna equipment market is growing at roughly 6% annually, attracting significant investment, and reshaping wellness and hospitality. Yet it has lacked a dedicated editorial voice with the depth and credibility it deserves.
               </p>
               <p className="text-base text-warm-gray dark:text-dark-muted leading-relaxed mb-6">
                 SaunaNews fills that gap. Independent reporting on the manufacturers, products, projects, and market forces shaping the category — for the people who build, sell, design, and follow the sauna world.

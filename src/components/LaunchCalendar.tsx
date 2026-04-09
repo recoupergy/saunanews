@@ -9,12 +9,12 @@ interface LaunchItem {
 }
 
 const upcomingLaunches: LaunchItem[] = [
-  { date: 'Apr 15', title: 'HUUM HIVE S Smart Heater', brand: 'HUUM', type: 'Product', href: '/article/huum-smart-heater-air-quality-monitoring' },
-  { date: 'Apr 22', title: 'Nordic Sauna Technology Conference', brand: 'Helsinki', type: 'Event' },
-  { date: 'May 1', title: 'Tylö Sense Series Availability', brand: 'Tylö', type: 'Product', href: '/article/tylo-sense-series-redesign-whisper-quiet' },
-  { date: 'May 8', title: 'Q1 Market Intelligence Report', brand: 'SaunaNews', type: 'Report' },
-  { date: 'May 15', title: 'SaunaLife CL4 Shipping Begins', brand: 'SaunaLife', type: 'Product', href: '/article/saunalife-modular-backyard-sauna-two-hour-assembly' },
-  { date: 'Jun 1', title: 'ISH Frankfurt — Sauna Track', brand: 'Messe Frankfurt', type: 'Event' },
+  { date: 'Apr 25', title: 'World Sauna Day 2026', brand: 'Global', type: 'Event' },
+  { date: 'May 1', title: 'Mondex Teno & Kalla Updated Models', brand: 'Mondex', type: 'Product', href: '/article/mondex-narvi-heater-updates-2026' },
+  { date: 'Jun 9-11', title: 'World Sauna Forum 2026', brand: 'Jyvaskyla, Finland', type: 'Event', href: '/article/world-sauna-forum-2026-jyvaskyla' },
+  { date: 'Sep 24-26', title: 'XIX Intl Sauna Congress', brand: 'Oslo, Norway', type: 'Event' },
+  { date: 'Oct 6-8', title: 'Interbad 2026', brand: 'Stuttgart, Germany', type: 'Event' },
+  { date: 'Now', title: 'Homecraft TKE2-2 WiFi Controller', brand: 'Homecraft', type: 'Product', href: '/article/homecraft-wifi-sauna-controller-launch' },
 ];
 
 const typeColors: Record<string, string> = {
