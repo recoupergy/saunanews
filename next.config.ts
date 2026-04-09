@@ -51,6 +51,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'homecraftsaunas.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'saunologia.b-cdn.net',
+      },
     ],
   },
 };

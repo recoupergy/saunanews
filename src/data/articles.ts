@@ -1085,6 +1085,55 @@ export const articles: Article[] = [
     featured: false,
     trending: false,
   },
+  {
+    id: '31',
+    title: 'Finnish Sauna Expert Lassi Liikkanen on the Design Mistakes Americans Keep Making',
+    slug: 'lassi-liikkanen-finnish-sauna-design-mistakes',
+    dek: 'The Saunologia.fi founder, who has published over 400 articles and multiple books on sauna design, walked through the fundamentals in a recent webinar. The takeaway: most problems trace back to three things.',
+    excerpt: 'In a recent webinar, Lassi Liikkanen of Saunologia.fi broke down the essential design principles of Finnish sauna construction and the most common mistakes he sees in projects outside Finland. High benches, proper heater sizing, and ventilation are where most builds go wrong.',
+    contentType: 'Analysis',
+    category: 'Commentary',
+    tags: ['design', 'Finnish sauna', 'construction', 'ventilation', 'Saunologia', 'education'],
+    author: authors.anna,
+    publishDate: '2026-04-07',
+    readingTime: 7,
+    featuredImage: 'https://saunologia.b-cdn.net/wp-content/uploads/2026/03/2026-march-webinar-ad-16x9-1.jpg',
+    imageCaption: 'Lassi Liikkanen\'s Finnish Sauna webinar, hosted by Saunologia. Image: Saunologia.fi.',
+    body: `<p>Lassi Liikkanen has been writing about Finnish sauna design for over a decade. He runs <a href="https://saunologia.fi" target="_blank">Saunologia.fi</a>, where he's published more than 400 articles on the technical side of sauna construction. He's written two books on the subject (Secrets of Finnish Sauna Design and the Finisana construction book, both <a href="https://finnishsaunadesign.fi/pages/knowledge" target="_blank">available globally</a>), and he provides architectural sauna design services through <a href="https://finnishsaunadesign.fi/" target="_blank">Finnish Sauna Design</a> to clients from Utah to Tampere. In a <a href="https://youtu.be/4YI4mj0eRSg" target="_blank">recent webinar now available on YouTube</a>, he walked through the fundamentals of what makes a Finnish sauna work and, more usefully, the specific design mistakes he keeps seeing in projects outside Finland.</p>
+
+<h2>What Makes a Finnish Sauna a Finnish Sauna</h2>
+<p>Liikkanen's definition is straightforward: a hot room with a visible heater containing rocks that allows people to create loyly (steam). Temperature ranges from 60 to 105 degrees Celsius (140 to 220 Fahrenheit). That range is broader than many people expect. He made a point of noting that in the landmark Finnish health studies by Professor Jari Laukkanen, the average sauna temperature used by participants was only 76 degrees Celsius, about 169 Fahrenheit. The popular idea that you need to push past 200F to get health benefits doesn't hold up in the research.</p>
+
+<p>The loyly is the key differentiator. When water hits hot rocks, it creates steam that condenses on your skin, transferring heat energy far more effectively than dry air alone. What looks like sweat in a Finnish sauna may actually be condensation. This is the mechanism that separates a Finnish sauna from an infrared cabin (dry, moderate temperature, no steam) or a steam room (fully saturated, low temperature, tiled).</p>
+
+<blockquote>Getting into the sauna must be more fun than getting out of the sauna.</blockquote>
+
+<h2>The Three Big Design Mistakes</h2>
+<p>Liikkanen identified three categories of problems that show up repeatedly in sauna projects, especially in North America:</p>
+
+<p><strong>1. The sauna is too big.</strong> Oversized saunas are expensive to heat, take forever to reach temperature, and feel uncomfortable when only one or two people are using them. Liikkanen recommends starting with design capacity (how many people?) and working backward. Each person needs roughly 2x2 feet of bench space. A comfortable minimum is about 6x5 or 6x6 feet of interior space.</p>
+
+<p><strong>2. The heater is the wrong size.</strong> You need approximately one kilowatt of power for every 35 cubic feet of sauna volume. Too powerful and the room heats up but the stones stay cold, so your loyly suffers. Too weak and you're fighting the one-hour UL 875 timer limit on North American heaters before the room even reaches temperature. Both problems are common. Getting the heater-to-room ratio right is one of the most consequential decisions in the whole build.</p>
+
+<p><strong>3. Ventilation is wrong.</strong> Too little ventilation and the air quality deteriorates, especially in commercial saunas. Too much and you're bleeding heat and losing your loyly to the exhaust. Ventilation is the number one source of heat loss in most saunas, so getting it right is a balancing act. For indoor installations, Liikkanen recommends full mechanical ventilation, especially for commercial setups.</p>
+
+<div class="callout">
+<strong>Finnish Sauna Design Checklist (per Liikkanen):</strong> Visible heater with rocks (allows loyly). High benches (40-48 inches from top bench to ceiling). Proper heater sizing (~1kW per 35 cubic feet). 4 inches of mineral wool insulation + vapor barrier. Mechanical ventilation for indoor installs. Drain on the floor (water is expected in a Finnish sauna). Benches at least 2 feet wide per person. 18 inches between bench levels.
+</div>
+
+<h2>The Bench Height Problem</h2>
+<p>If there was one point Liikkanen hammered home, it was bench height. Hot air rises, and all the heat and steam from loyly concentrates near the ceiling. If your top bench isn't high enough, you're sitting below the good stuff. The guideline: keep 40 to 48 inches between the top bench and the ceiling. This is where many North American builds fall short. Low ceilings, low benches, or both mean the sauna never delivers the experience it should.</p>
+
+<h2>On Materials</h2>
+<p>Liikkanen also flagged material choices. Spruce and pine can produce sap at high temperatures, which is fine on lower walls but becomes a problem on upper surfaces where it can get into your hair or stick to your back. And he noted that many modern saunas that look beautiful in photos are nearly impossible to keep clean, a practical consideration that often gets lost in the design process.</p>
+
+<h3>The Bottom Line</h3>
+<p>Good sauna design isn't mysterious. It comes down to getting the basics right: room size matched to heater output, benches high enough to reach the heat, ventilation balanced between air quality and heat retention, and materials that can handle the environment. The joy of a Finnish sauna, Liikkanen argues, should be reason enough to use it regularly. The longevity benefits that Professor Laukkanen's research has documented are a bonus.</p>
+
+<p>The <a href="https://youtu.be/4YI4mj0eRSg" target="_blank">full webinar recording is available on YouTube</a>. Liikkanen's design services and books are at <a href="https://finnishsaunadesign.fi/" target="_blank">finnishsaunadesign.fi</a>, and his extensive library of technical articles is at <a href="https://saunologia.fi" target="_blank">Saunologia.fi</a>. Sauna Marketplace carries heaters from several of the brands discussed, including Narvi and Homecraft, that are well-suited to properly designed Finnish sauna rooms.</p>`,
+    featured: true,
+    trending: true,
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
@@ -1096,7 +1145,9 @@ export function getArticlesByCategory(category: string): Article[] {
 }
 
 export function getFeaturedArticles(): Article[] {
-  return articles.filter((a) => a.featured);
+  return articles
+    .filter((a) => a.featured)
+    .sort((a, b) => new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime());
 }
 
 export function getTrendingArticles(): Article[] {
