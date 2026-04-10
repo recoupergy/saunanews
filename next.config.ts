@@ -55,6 +55,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'saunologia.b-cdn.net',
       },
+      {
+        protocol: 'https',
+        hostname: 'us.saunum.com',
+      },
     ],
   },
 };

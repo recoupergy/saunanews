@@ -1134,6 +1134,61 @@ export const articles: Article[] = [
     featured: true,
     trending: true,
   },
+  {
+    id: '32',
+    title: 'Saunum Air Perfect Is Now Available in the US',
+    slug: 'saunum-air-perfect-us-launch',
+    dek: 'The Estonian brand\'s most advanced heater integrates its patented air blending system directly into the unit. It won the Golden Wave 2024 award for technical innovation and is arriving in North America for the first time.',
+    excerpt: 'Saunum has brought its Air Perfect heater to the US market. The unit combines the company\'s patented air mixing technology with a self-contained climate equalizer, eliminating the need for a separate external device. Prices start at $4,770.',
+    contentType: 'Breaking',
+    category: 'Manufacturer News',
+    tags: ['Saunum', 'heaters', 'Estonia', 'product launch', 'US market', 'air quality'],
+    author: authors.sofia,
+    publishDate: '2026-04-10',
+    readingTime: 5,
+    featuredImage: 'https://us.saunum.com/wp-content/uploads/2023/09/16.jpg',
+    imageCaption: 'Saunum Air Perfect. Image: Saunum.',
+    body: `<p>Saunum, the Estonian sauna technology company best known for its Climate Equalizer, has brought its Air Perfect heater to the US market. It is the brand's most integrated product to date: the air blending system that previously required a separate external unit is built directly into the heater itself.</p>
+
+<h2>What the Air Perfect Does Differently</h2>
+<p>Every Saunum product addresses the same problem. In a conventional sauna, heat stratifies badly. Without intervention, the air near the ceiling can sit at 176–194°F while the floor stays at 68–86°F. Saunum measured this stratification in research conducted with Tallinn University of Technology, which formed the technical foundation of the whole product line.</p>
+
+<p>The original Saunum Air solves this with a flue system: it physically pulls hot air down from the ceiling via a duct, mixes it with cooler bench-level air, and redistributes it throughout the room. The mechanism works, but it requires a separate external Climate Equalizer unit and adds installation complexity.</p>
+
+<p>The Air Perfect takes a different approach to the same goal. It uses two rock baskets, and the air mixing happens between them: heat and steam are drawn from the space between the two basket layers rather than from the ceiling via a duct. The result is the same temperature equalization, claimed at over 60% reduction in the differential, but achieved inside a single, self-contained heater body with no external device needed.</p>
+
+<blockquote>It achieves the same result in a more elegant way and is easier to install and service. — Ben Burger, Sauna Marketplace</blockquote>
+
+<p>The heater is built from AISI 316 stainless steel with Magnelis® coating for corrosion resistance. Each package includes seven Himalayan salt spheres. Controls use the Saunum Air IQ, a Wi-Fi enabled system that works with iOS and Android apps. The Air Perfect is also compatible with the Saunum Fan Button, which lets users adjust heat and ventilation from inside the hot room without leaving to reach a wall panel.</p>
+
+<h2>Installation: What Buyers Need to Know</h2>
+<p>The Air Perfect is a 240V, single-phase unit. The 7 kW model (actual draw: 6,900W) requires a 40A breaker and #8 copper wiring. The 10 kW model (9,900W) needs a 50A breaker and #6 copper. Neither can use a GFCI breaker. Installation must be by a licensed electrician following NEC. The package weighs 121 lbs and requires two people to move.</p>
+
+<p>Physically, the unit is 19" wide × 14" deep × 45.7" tall. Minimum ceiling height is 77". Safety clearances are 3.2" all around the housing and 31.5" from the top of the stones to the ceiling. Keep 20" clear in front of the fan output while operating.</p>
+
+<p>One genuinely unusual installation option: the Air Perfect can be recessed into a raised floor, with the hot air distribution grille facing up, pushing conditioned air up through the floor slats. The manual specifies that the unit bottom must sit 7"–31.5" below the floor surface, and floor planks need a minimum ¼" gap between them for proper airflow. It is an installation approach not commonly seen in residential sauna heaters, and it opens up design options for builds where wall or corner placement is awkward.</p>
+
+<div class="callout">
+<strong>Technical Specs:</strong>
+7 kW model (TYP60C07): 6,900W / 240V / 1-phase / 40A breaker / #8 wire / 210–350 ft³ sauna.
+10 kW model (TYP60C10): 9,900W / 240V / 1-phase / 50A breaker / #6 wire / 318–565 ft³ sauna.
+Minimum ceiling height: 77". Dimensions: 19" W × 14" D × 45.7" H. Package weight: 121 lbs.
+Prices: $4,770 (7 kW) and $4,970 (10 kW). 2-year residential warranty.
+Full installation manual available from <a href="https://us.saunum.com/wp-content/uploads/2026/01/Saunum-Air-Perfect-ENG_US-V_26_1.1_WEB.pdf" target="_blank">Saunum US</a>.
+</div>
+
+<h2>The Award and the Timing</h2>
+<p>The Air Perfect won the Golden Wave 2024 award for technical innovation at Interbad, the biennial Stuttgart trade show that is the industry's main product showcase. That recognition preceded the North American launch, which Sauna Marketplace is now carrying as its featured Saunum product.</p>
+
+<p>Among the first Air Perfect units in the US is one belonging to Stephan Jenkins, the frontman of Third Eye Blind, an early adopter of the new heater.</p>
+
+<h2>Why It Matters</h2>
+<p>Saunum built its US niche by targeting buyers who care about air quality alongside heat. The Climate Equalizer concept resonated with people who found conventional sauna air too stratified or too hard to breathe during extended sessions. The Air Perfect tightens that proposition: one unit, no external device, a cleaner install, and serviceable from the front.</p>
+
+<p>At $4,770 to $4,970, it sits well above most residential electric heaters. The value proposition isn't raw power output. It's a qualitatively different session environment, backed by a decade of Saunum development and a legitimate Interbad award. Sauna Marketplace carries both sizes.</p>`,
+    featured: true,
+    trending: true,
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
