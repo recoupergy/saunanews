@@ -27,15 +27,14 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-8 h-8 bg-charcoal rounded flex items-center justify-center">
-              <span className="text-cream font-bold text-sm font-editorial">S</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="font-editorial text-xl font-bold tracking-tight text-charcoal leading-none">
-                SaunaNews
-              </span>
-            </div>
+          <Link href="/" className="flex items-center gap-1.5 group">
+            <svg width="16" height="22" viewBox="0 0 20 28" className="shrink-0">
+              <path d="M10,0 C4,9 0,15 0,19 C0,25 4,28 10,28 C16,28 20,25 20,19 C20,15 16,9 10,0Z" fill="#4A6741"/>
+              <path d="M11,12 C8,16 6,18 6,21 C6,25 8,26.5 10.5,26.5 C13,26.5 14.5,24 14.5,21 C14.5,18 13,16 11,12Z" fill="#FAF8F5"/>
+            </svg>
+            <span className="font-editorial text-xl font-bold tracking-tight leading-none">
+              <span className="text-charcoal">Sauna</span><span className="text-green">News</span>
+            </span>
           </Link>
 
           {/* Desktop nav */}
