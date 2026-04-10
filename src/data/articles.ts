@@ -391,50 +391,6 @@ export const articles: Article[] = [
     trending: false,
   },
   {
-    id: '11',
-    title: 'Interview: Sauna House Founder on Building a Sauna-Centric Social Venue from Scratch',
-    slug: 'interview-sauna-house-founder-asheville',
-    dek: 'Andrew Nehlig built Sauna House in Asheville after a formative experience in Nordic bathing culture. Now he\'s expanding to new markets.',
-    excerpt: 'In a wide-ranging conversation, Sauna House founder Andrew Nehlig discusses the business model, community building, and what it takes to create a new category of urban wellness venue from scratch.',
-    contentType: 'Interview',
-    category: 'Commentary',
-    tags: ['interview', 'Sauna House', 'Asheville', 'founder', 'social sauna', 'business model'],
-    author: authors.elise,
-    publishDate: '2023-09-20',
-    readingTime: 11,
-    featuredImage: 'https://images.unsplash.com/photo-1712659606957-b7395ba9ebb2?w=1200&q=80',
-    body: `<p>Andrew Nehlig didn't follow a traditional hospitality path. Before founding Sauna House in Asheville, North Carolina, his background was in wellness and outdoor culture. A formative experience in Nordic bathing traditions planted a seed that would grow into one of the most closely watched concepts in American wellness.</p>
-
-<h2>The Origin</h2>
-<p><strong>SaunaNews:</strong> Take us back to the beginning. What made you think Asheville needed a sauna social club?</p>
-
-<p><strong>Nehlig:</strong> It wasn't about Asheville specifically at first. It was about a format I couldn't find anywhere in the U.S. In Finland, the sauna is social infrastructure. It's where people go to decompress, connect, think. I wanted to bring that energy to the States, but in a way that felt contemporary and accessible, not like a traditional spa.</p>
-
-<p><strong>SaunaNews:</strong> How did you settle on the model?</p>
-
-<p><strong>Nehlig:</strong> Through a lot of iteration. The first version was much more minimal, basically a couple of saunas and a cold plunge. What we learned quickly is that the ritual matters. People want the full arc: heat, cold, rest, repeat. And they want good food and drink as part of that. So we built out the experience around the full contrast therapy cycle plus hospitality.</p>
-
-<blockquote>We're not selling sauna sessions. We're selling a better Saturday morning than scrolling on your phone at a coffee shop.</blockquote>
-
-<h2>The Business</h2>
-<p><strong>SaunaNews:</strong> Can you share anything about the economics?</p>
-
-<p><strong>Nehlig:</strong> What I'll say is that the unit economics are strong once you reach critical mass of membership. Our build-out costs are meaningful upfront, commercial-grade thermal equipment, plumbing, ventilation, but the operating costs per session are quite low. And our retention numbers are exceptional. Once people integrate the practice into their routine, they don't leave.</p>
-
-<div class="callout">
-<strong>Sauna House at a Glance:</strong> Founded 2019 in Asheville, NC. Expanded to Charlotte. Membership-based model with drop-in options. Multiple sauna types, cold plunge, rest areas, cafe.
-</div>
-
-<h3>What's Next</h3>
-<p><strong>SaunaNews:</strong> You've expanded to Charlotte. What does future growth look like?</p>
-
-<p><strong>Nehlig:</strong> We're looking at additional markets. The criteria are specific: strong wellness culture, outdoor recreation community, walkable urban neighborhood, the right real estate. We're not in a rush. Each location needs to feel like it belongs in its community, not like a franchise dropped from the sky.</p>
-
-<p>This interview has been edited and condensed for clarity.</p>`,
-    featured: false,
-    trending: false,
-  },
-  {
     id: '12',
     title: 'Tylö Unveils Redesigned Sense Series with Whisper-Quiet Operation',
     slug: 'tylo-sense-series-redesign-whisper-quiet',
