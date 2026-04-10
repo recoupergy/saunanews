@@ -189,7 +189,8 @@ export const articles: Article[] = [
     author: authors.marcus,
     publishDate: '2025-03-10',
     readingTime: 5,
-    featuredImage: 'https://www.steamsaunabath.com/sites/default/files/styles/large/public/2025-08/barrel-sauna-kits-ssb-home.jpg',
+    featuredImage: 'https://images.unsplash.com/photo-1759302085266-e27700d89751?w=1200&q=80',
+    imageCaption: 'Auroom Halo barrel sauna in a natural outdoor setting. Photo: Auroom Wellness / Unsplash.',
     body: `<p>Outdoor saunas have become the fastest-growing segment of the North American residential sauna market. Manufacturers, dealers, and building permit data all point in the same direction: barrel saunas, cabin saunas, and custom outdoor builds are where the growth is, and the trend has been accelerating for three consecutive years.</p>
 
 <h2>What's Driving Growth</h2>
