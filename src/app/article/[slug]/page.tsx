@@ -98,6 +98,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       },
       articleSection: article.category,
       keywords: article.tags.join(', '),
+      isAccessibleForFree: true,
     },
     {
       '@context': 'https://schema.org',

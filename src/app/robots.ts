@@ -7,7 +7,14 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: '*',
         allow: '/',
       },
+      {
+        userAgent: 'Googlebot-News',
+        allow: '/',
+      },
     ],
-    sitemap: 'https://saunanews.com/sitemap.xml',
+    sitemap: [
+      'https://saunanews.com/sitemap.xml',
+      'https://saunanews.com/news-sitemap.xml',
+    ],
   };
 }
