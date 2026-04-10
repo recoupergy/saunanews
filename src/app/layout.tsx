@@ -54,6 +54,9 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   alternates: {
     canonical: '/',
+    types: {
+      'application/rss+xml': 'https://saunanews.com/rss.xml',
+    },
   },
   openGraph: {
     title: siteTitle,

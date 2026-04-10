@@ -89,7 +89,9 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         url: 'https://saunanews.com',
         logo: {
           '@type': 'ImageObject',
-          url: 'https://saunanews.com/favicon.svg',
+          url: 'https://saunanews.com/logo.png',
+          width: 600,
+          height: 60,
         },
       },
       mainEntityOfPage: {

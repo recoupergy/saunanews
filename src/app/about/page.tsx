@@ -59,7 +59,7 @@ export default function AboutPage() {
     url: 'https://saunanews.com',
     description:
       'SaunaNews is the modern publication for the sauna industry, covering manufacturers, market trends, products, and wellness culture.',
-    logo: { '@type': 'ImageObject', url: 'https://saunanews.com/favicon.svg' },
+    logo: { '@type': 'ImageObject', url: 'https://saunanews.com/logo.png', width: 600, height: 60 },
     sameAs: ['https://twitter.com/saunanews'],
     foundingDate: '2025',
     knowsAbout: [
