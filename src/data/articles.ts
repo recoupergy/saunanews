@@ -1012,7 +1012,7 @@ export const articles: Article[] = [
     publishDate: '2026-04-10',
     readingTime: 4,
     featuredImage: 'https://saunamarketplace.com/wp-content/uploads/2025/07/dsc04064-scaled.jpg',
-    imageCaption: 'Saunum Air Perfect. Image: Sauna Marketplace.',
+    imageCaption: 'Saunum Air Perfect electric sauna heater.',
     body: `<p>Saunum, the Estonian sauna technology company, has brought its Air Perfect heater to the US market. It is the brand's newest and most self-contained model: unlike the standard Saunum Air and Air L, which equalize sauna climate via an external chimney-style flue, the Air Perfect does it entirely inside the heater body. No separate duct, no ceiling attachment. It stands on the floor and handles everything internally.</p>
 
 <img src="https://b1572463.smushcdn.com/1572463/wp-content/uploads/2024/10/Saunum-Air-Perfect-blending-electric-sauna-heater.jpg?lossy=0&strip=1&webp=1" alt="Saunum Air Perfect electric sauna heater" style="width:100%;border-radius:8px;margin:1.5rem 0;" />
@@ -1055,14 +1055,14 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 </div>
 
 <h2>The Award and the Timing</h2>
-<p>The Air Perfect won the Golden Wave 2024 award for technical innovation at Interbad, the biennial Stuttgart trade show and one of the industry's main product showcases. That recognition came before the North American launch. Sauna Marketplace is now carrying the full Air Perfect line as its featured Saunum product.</p>
+<p>The Air Perfect won the Golden Wave 2024 award for technical innovation at Interbad, the biennial Stuttgart trade show and one of the industry's main product showcases. That recognition came before the North American launch.</p>
 
 <p>Among the first Air Perfect units in the US is one belonging to Stephan Jenkins, the frontman of Third Eye Blind.</p>
 
 <img src="https://b1572463.smushcdn.com/1572463/wp-content/uploads/2024/10/Enjoy-the-Saunum-Air-Perfect.jpg?lossy=0&strip=1&webp=1" alt="Saunum Air Perfect in use" style="width:100%;border-radius:8px;margin:1.5rem 0;" />
 
 <h2>Bottom Line</h2>
-<p>The Air Perfect is the cleanest version of Saunum's core idea. Same equalization technology as the rest of the line, but self-contained, easier to site, and built for front-access servicing. At $4,770 to $4,970 it's priced above most residential electric heaters, but it's competing on session quality and install flexibility, not raw wattage. Sauna Marketplace carries both sizes.</p>`,
+<p>The Air Perfect is the cleanest version of Saunum's core idea. Same equalization technology as the rest of the line, but self-contained, easier to site, and built for front-access servicing. At $4,770 to $4,970 it's priced above most residential electric heaters, but it's competing on session quality and install flexibility, not raw wattage.</p>`,
     featured: true,
     trending: true,
   },
@@ -1142,7 +1142,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
     title: 'HUUM Core Now in the US: The Only Electric Heater That Disappears Into Your Bench',
     slug: 'huum-core-us-launch-bench-embedded-wood-heater',
     dek: 'The Estonian-made HUUM Core can be clad in the same wood as your sauna walls and benches, making it the first electric heater designed to visually vanish into the room.',
-    excerpt: 'HUUM\'s Core electric sauna heater is now available in the US through Sauna Marketplace. Its defining trick: a modular exterior that accepts custom wood panels in alder, aspen, or thermo-aspen, so the heater blends seamlessly into the sauna architecture rather than sitting in front of it.',
+    excerpt: 'HUUM\'s Core electric sauna heater has arrived in the US. Its defining trick: a modular exterior that accepts custom wood panels in alder, aspen, or thermo-aspen, so the heater blends seamlessly into the sauna architecture rather than sitting in front of it.',
     contentType: 'Product Launch',
     category: 'Product Launches',
     tags: ['HUUM', 'product launch', 'electric heater', 'Estonia', 'design', 'bench installation'],
@@ -1151,7 +1151,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
     readingTime: 6,
     featuredImage: 'https://huumsauna.com/wp-content/uploads/2025/06/huum-core-leil-guy.jpg',
     imageCaption: 'The HUUM Core in use: the stone basket sits flush at bench height, allowing bathers to ladle water without reaching to the floor.',
-    body: `<p>HUUM, the Estonian heater maker known for its sculptural DROP and HIVE designs, has made its Core series available in the US. The Core is now stocked and shipping through Sauna Marketplace. Its central design idea is one no American-made electric heater has matched: the unit accepts factory-engineered wood panels in alder, aspen, or thermo-aspen, the same species used to build most North American sauna interiors. Clad correctly, the heater disappears into the bench.</p>
+    body: `<p>HUUM, the Estonian heater maker known for its sculptural DROP and HIVE designs, has brought its Core series to the US market. Its central design idea is one no American-made electric heater has matched: the unit accepts factory-engineered wood panels in alder, aspen, or thermo-aspen, the same species used to build most North American sauna interiors. Clad correctly, the heater disappears into the bench.</p>
 
 <p>That is not a small thing if you care about how a sauna looks. Most residential electric heaters are industrial objects surrounded by a wood guard rail. The Core is designed to sit inside the bench structure itself, with only the stone basket visible above the bench surface. The effect is something closer to what you see in high-end spa installations, without the custom metalwork bill.</p>
 
@@ -1195,10 +1195,8 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <p>The UKU controller console supports temperatures between 104°F and 230°F, allows delayed start up to 48 hours in advance, and is available in multiple finishes including black, glass, mirror, gold, and wood housings.</p>
 
-<h2>Available Now Through Sauna Marketplace</h2>
-<p>Sauna Marketplace has the Core in stock across all three power ratings and panel finish options. The unit ships freight on a pallet to the contiguous 48 states. Orders can be canceled at no charge before the shipment leaves the warehouse, which matters for builders coordinating around permit timelines. Warranty coverage is three years for residential use, one year for commercial. Heating elements are excluded from warranty across all variants, which is standard in the industry.</p>
-
-<p>For buyers sizing the heater, Sauna Marketplace offers free one-on-one video and phone consultations. Given the electrical requirements, the bench framing specifications, and the cubic footage calculations that shift based on glass or stone surfaces in the room, that resource is worth using before ordering.</p>
+<h2>Where to Buy</h2>
+<p>The Core is available now through Sauna Marketplace in all three power ratings and panel finish options. The unit ships freight on a pallet to the contiguous 48 states. Orders can be canceled at no charge before the shipment leaves the warehouse, which matters for builders coordinating around permit timelines. Warranty coverage is three years for residential use, one year for commercial. Heating elements are excluded from warranty across all variants, which is standard in the industry. Free one-on-one video and phone consultations are available for buyers working through the sizing and electrical requirements.</p>
 
 <div class="why-it-matters">
 <p>Wood-clad sauna heaters exist in the European market. In the US, they have been a custom fabrication problem: expensive to execute and dependent on finding a builder who knows how to frame a heater safely into a bench. The Core makes this a product decision rather than a construction problem. For anyone building a sauna where the aesthetic matters as much as the performance, that changes the calculus significantly.</p>
