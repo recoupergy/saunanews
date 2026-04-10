@@ -1103,8 +1103,8 @@ export const articles: Article[] = [
     author: authors.sofia,
     publishDate: '2026-04-10',
     readingTime: 4,
-    featuredImage: 'https://us.saunum.com/wp-content/uploads/2023/09/16.jpg',
-    imageCaption: 'Saunum Air Perfect. Image: Saunum.',
+    featuredImage: 'https://b1572463.smushcdn.com/1572463/wp-content/uploads/2025/07/IMG_9119-scaled.jpeg?lossy=0&strip=1&webp=1',
+    imageCaption: 'Saunum Air Perfect. Image: Sauna Marketplace.',
     body: `<p>Saunum, the Estonian sauna technology company, has brought its Air Perfect heater to the US market. It is the brand's newest and most self-contained model: unlike the standard Saunum Air and Air L, which equalize sauna climate via an external chimney-style flue, the Air Perfect does it entirely inside the heater body. No separate duct, no ceiling attachment. It stands on the floor and handles everything internally.</p>
 
 <img src="https://b1572463.smushcdn.com/1572463/wp-content/uploads/2024/10/Saunum-Air-Perfect-blending-electric-sauna-heater.jpg?lossy=0&strip=1&webp=1" alt="Saunum Air Perfect electric sauna heater" style="width:100%;border-radius:8px;margin:1.5rem 0;" />
