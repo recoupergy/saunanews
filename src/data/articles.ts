@@ -1101,47 +1101,49 @@ export const articles: Article[] = [
     tags: ['Saunum', 'heaters', 'Estonia', 'product launch', 'US market', 'air quality'],
     author: authors.sofia,
     publishDate: '2026-04-10',
-    readingTime: 5,
+    readingTime: 4,
     featuredImage: 'https://us.saunum.com/wp-content/uploads/2023/09/16.jpg',
     imageCaption: 'Saunum Air Perfect. Image: Saunum.',
-    body: `<p>Saunum, the Estonian sauna technology company best known for its Climate Equalizer, has brought its Air Perfect heater to the US market. It is the brand's most integrated product to date: the air blending system that previously required a separate external unit is built directly into the heater itself.</p>
+    body: `<p>Saunum, the Estonian sauna technology company, has brought its Air Perfect heater to the US market. It is the brand's newest and most self-contained model: unlike the standard Saunum Air and Air L, which equalize sauna climate via an external chimney-style flue, the Air Perfect does it entirely inside the heater body. No separate duct, no ceiling attachment. It stands on the floor and handles everything internally.</p>
 
-<h2>What the Air Perfect Does Differently</h2>
-<p>Every Saunum product addresses the same problem. In a conventional sauna, heat stratifies badly. Without intervention, the air near the ceiling can sit at 176–194°F while the floor stays at 68–86°F. Saunum measured this stratification in research conducted with Tallinn University of Technology, which formed the technical foundation of the whole product line.</p>
+<h2>How Saunum's Climate Equalization Works</h2>
+<p>Every Saunum heater addresses the same physical problem. In a conventional sauna without intervention, the air near the ceiling sits at 176–194°F while the floor stays at 68–86°F. You're sitting in a significant gradient. Saunum measured this stratification through research with Tallinn University of Technology and built a product line around solving it.</p>
 
-<p>The original Saunum Air solves this with a flue system: it physically pulls hot air down from the ceiling via a duct, mixes it with cooler bench-level air, and redistributes it throughout the room. The mechanism works, but it requires a separate external Climate Equalizer unit and adds installation complexity.</p>
+<p>The standard Saunum Air achieves equalization with a chimney-style flue attached to the top of the heater that rises to the ceiling, captures the hot oxygen-depleted air pooled up there, and pulls it back down through the heater's rock basket before redistributing it at bench height. It works well, but the flue runs from the top of the heater to the ceiling and requires clear space for that vertical run.</p>
 
-<p>The Air Perfect takes a different approach to the same goal. It uses two rock baskets, and the air mixing happens between them: heat and steam are drawn from the space between the two basket layers rather than from the ceiling via a duct. The result is the same temperature equalization, claimed at over 60% reduction in the differential, but achieved inside a single, self-contained heater body with no external device needed.</p>
+<p>The Air Perfect takes a different physical approach. It uses two stacked rock baskets. The fan draws hot ceiling air through the core of the heater, between those two basket layers, mixes it with cooler floor-level air, and pushes the blended result out at the bottom. The equalization happens entirely inside the housing. No chimney. No ceiling attachment. Just 3.2" of clearance needed all around the unit.</p>
 
-<blockquote>It achieves the same result in a more elegant way and is easier to install and service. — Ben Burger, Sauna Marketplace</blockquote>
+<p>Saunum claims this reduces the ceiling-to-floor temperature differential by over 60%.</p>
 
-<p>The heater is built from AISI 316 stainless steel with Magnelis® coating for corrosion resistance. Each package includes seven Himalayan salt spheres. Controls use the Saunum Air IQ, a Wi-Fi enabled system that works with iOS and Android apps. The Air Perfect is also compatible with the Saunum Fan Button, which lets users adjust heat and ventilation from inside the hot room without leaving to reach a wall panel.</p>
+<h2>Serviceability: The Element Module</h2>
+<p>One detail worth noting for commercial and high-use installations: the Air Perfect's heating elements are designed to be replaced as a single pre-wired module. Per the installation manual, servicing requires removing the stones, front panel, and air tunnel, then disconnecting 12 element cables before unbolting and pulling out the entire element assembly in one piece. Replacing it is the reverse. The design means a technician can swap the full heating core without unwiring individual elements, which is useful in a commercial context where downtime matters.</p>
 
 <h2>Installation: What Buyers Need to Know</h2>
-<p>The Air Perfect is a 240V, single-phase unit. The 7 kW model (actual draw: 6,900W) requires a 40A breaker and #8 copper wiring. The 10 kW model (9,900W) needs a 50A breaker and #6 copper. Neither can use a GFCI breaker. Installation must be by a licensed electrician following NEC. The package weighs 121 lbs and requires two people to move.</p>
+<p>The Air Perfect is a 240V, single-phase unit. The 7 kW model (actual draw: 6,900W) needs a 40A breaker and #8 copper wire. The 10 kW model (9,900W) needs 50A and #6 copper. No GFCI breaker. A licensed electrician is required per NEC. The package weighs 121 lbs and needs two people to move it.</p>
 
-<p>Physically, the unit is 19" wide × 14" deep × 45.7" tall. Minimum ceiling height is 77". Safety clearances are 3.2" all around the housing and 31.5" from the top of the stones to the ceiling. Keep 20" clear in front of the fan output while operating.</p>
+<p>Physically, the unit is 19" wide × 14" deep × 45.7" tall. Minimum ceiling height is 77". Safety clearances: 3.2" all around the housing, 31.5" from the top of the stones to the ceiling, 20" clear in front of the fan output while operating.</p>
 
-<p>One genuinely unusual installation option: the Air Perfect can be recessed into a raised floor, with the hot air distribution grille facing up, pushing conditioned air up through the floor slats. The manual specifies that the unit bottom must sit 7"–31.5" below the floor surface, and floor planks need a minimum ¼" gap between them for proper airflow. It is an installation approach not commonly seen in residential sauna heaters, and it opens up design options for builds where wall or corner placement is awkward.</p>
+<p>One unusual option: the Air Perfect can be recessed into a raised floor, air grille facing up, pushing conditioned air upward through the floor slats. The manual specifies the unit bottom must sit 7"–31.5" below the finished floor surface, with floor planks gapped at least ¼". It opens up design options for builds where wall or corner placement is awkward.</p>
+
+<p>Controls are handled by the Saunum Air IQ, a Wi-Fi enabled touchscreen compatible with iOS and Android. The unit is also compatible with the Saunum Fan Button, a small in-sauna control that lets users adjust temperature and ventilation speed without leaving the bench.</p>
 
 <div class="callout">
 <strong>Technical Specs:</strong>
 7 kW model (TYP60C07): 6,900W / 240V / 1-phase / 40A breaker / #8 wire / 210–350 ft³ sauna.
 10 kW model (TYP60C10): 9,900W / 240V / 1-phase / 50A breaker / #6 wire / 318–565 ft³ sauna.
-Minimum ceiling height: 77". Dimensions: 19" W × 14" D × 45.7" H. Package weight: 121 lbs.
-Prices: $4,770 (7 kW) and $4,970 (10 kW). 2-year residential warranty.
-Full installation manual available from <a href="https://us.saunum.com/wp-content/uploads/2026/01/Saunum-Air-Perfect-ENG_US-V_26_1.1_WEB.pdf" target="_blank">Saunum US</a>.
+Dimensions: 19" W × 14" D × 45.7" H. Package weight: 121 lbs. Min. ceiling height: 77".
+AISI 316 stainless steel, Magnelis® coating. Includes Himalayan salt spheres (7 count).
+Prices: $4,770 (7 kW) and $4,970 (10 kW). 2-year residential / 1-year commercial warranty.
+Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026/01/Saunum-Air-Perfect-ENG_US-V_26_1.1_WEB.pdf" target="_blank">Saunum US (PDF)</a>.
 </div>
 
 <h2>The Award and the Timing</h2>
-<p>The Air Perfect won the Golden Wave 2024 award for technical innovation at Interbad, the biennial Stuttgart trade show that is the industry's main product showcase. That recognition preceded the North American launch, which Sauna Marketplace is now carrying as its featured Saunum product.</p>
+<p>The Air Perfect won the Golden Wave 2024 award for technical innovation at Interbad, the biennial Stuttgart trade show and one of the industry's main product showcases. That recognition came before the North American launch. Sauna Marketplace is now carrying the full Air Perfect line as its featured Saunum product.</p>
 
-<p>Among the first Air Perfect units in the US is one belonging to Stephan Jenkins, the frontman of Third Eye Blind, an early adopter of the new heater.</p>
+<p>Among the first Air Perfect units in the US is one belonging to Stephan Jenkins, the frontman of Third Eye Blind.</p>
 
-<h2>Why It Matters</h2>
-<p>Saunum built its US niche by targeting buyers who care about air quality alongside heat. The Climate Equalizer concept resonated with people who found conventional sauna air too stratified or too hard to breathe during extended sessions. The Air Perfect tightens that proposition: one unit, no external device, a cleaner install, and serviceable from the front.</p>
-
-<p>At $4,770 to $4,970, it sits well above most residential electric heaters. The value proposition isn't raw power output. It's a qualitatively different session environment, backed by a decade of Saunum development and a legitimate Interbad award. Sauna Marketplace carries both sizes.</p>`,
+<h2>Bottom Line</h2>
+<p>The Air Perfect is the cleanest version of Saunum's core idea. Same equalization technology as the rest of the line, but self-contained, easier to site, and built for front-access servicing. At $4,770 to $4,970 it's priced above most residential electric heaters, but it's competing on session quality and install flexibility, not raw wattage. Sauna Marketplace carries both sizes.</p>`,
     featured: true,
     trending: true,
   },
