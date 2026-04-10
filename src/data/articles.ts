@@ -1079,8 +1079,8 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
     author: authors.anna,
     publishDate: '2026-04-10',
     readingTime: 7,
-    featuredImage: 'https://images.unsplash.com/photo-1545579133-99bb5ad189be?w=1200&q=80',
-    imageCaption: 'Communal sauna bathing has measurable wellbeing benefits that go beyond heat alone, according to new peer-reviewed research.',
+    featuredImage: 'https://images.unsplash.com/photo-1755610146319-1ed7eeec584b?w=1200&q=80',
+    imageCaption: 'Communal sauna bathing has measurable wellbeing benefits that go beyond heat alone. Photo: HUUM / Unsplash.',
     body: `<p>The feeling of sitting shoulder-to-shoulder in a sauna with strangers, breathing the same steam, enduring the same heat, turns out to be doing more than passing time before the cold plunge. A peer-reviewed study published in <em>Social Science and Medicine</em> finds that collective sauna rituals produce measurable improvements in emotional wellbeing, driven by a specific mechanism: the sense of belonging that forms when a group of people shares a physically demanding, ritualized experience together.</p>
 
 <p>The research, led by Dr. Martha Newson of the Institute of Lifecourse Development at the University of Greenwich and Rachael McGrath of the London Interdisciplinary School, is the first experimental study conducted specifically on British sauna culture. It draws on data from 1,907 participants across three studies, including longitudinal and cross-sectional designs, making it one of the more rigorous examinations of sauna's social dimensions published to date. The paper appeared in February 2026 with the DOI 10.1016/j.socscimed.2026.119061.</p>
