@@ -561,20 +561,11 @@ export default function PlaceholderImage({
       )}
       style={{ aspectRatio }}
     >
-      {/* Light-mode layer */}
       <div
-        className="absolute inset-0 dark:hidden"
+        className="absolute inset-0"
         style={{ backgroundColor: light.bg }}
       >
         <Renderer fg={light.fg} accent={light.accent} hash={hash} />
-      </div>
-
-      {/* Dark-mode layer */}
-      <div
-        className="absolute inset-0 hidden dark:block"
-        style={{ backgroundColor: dark.bg }}
-      >
-        <Renderer fg={dark.fg} accent={dark.accent} hash={hash} />
       </div>
     </div>
   );

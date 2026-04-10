@@ -15,12 +15,6 @@
   --color-border: #E5E1DB;
   --color-surface: #FFFFFF;
 
-  --color-dark-bg: #0F0F12;
-  --color-dark-surface: #1A1A1F;
-  --color-dark-border: #2A2A30;
-  --color-dark-text: #E8E6E3;
-  --color-dark-muted: #9A9590;
-
   --font-serif: "Playfair Display", Georgia, "Times New Roman", serif;
   --font-sans: "Inter", system-ui, -apple-system, sans-serif;
 }
@@ -35,11 +29,6 @@ body {
   color: var(--color-charcoal);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.dark body {
-  background: var(--color-dark-bg);
-  color: var(--color-dark-text);
 }
 
 ::selection {
@@ -76,10 +65,6 @@ body {
   color: var(--color-charcoal);
 }
 
-.dark .prose-editorial p {
-  color: var(--color-dark-text);
-}
-
 .prose-editorial blockquote {
   font-family: var(--font-serif);
   font-size: 1.5rem;
@@ -89,10 +74,6 @@ body {
   padding-left: 1.5rem;
   margin: 2.5rem 0;
   color: var(--color-warm-gray);
-}
-
-.dark .prose-editorial blockquote {
-  color: var(--color-dark-muted);
 }
 
 .prose-editorial ul, .prose-editorial ol {
@@ -116,10 +97,6 @@ body {
   font-size: 0.95rem;
 }
 
-.dark .prose-editorial .callout {
-  background: var(--color-dark-surface);
-}
-
 /* Structured article section labels — Semafor/Axios inspired */
 .prose-editorial .section-label {
   display: inline-block;
@@ -136,11 +113,6 @@ body {
   border-radius: 0.25rem;
 }
 
-.dark .prose-editorial .section-label {
-  color: var(--color-brass);
-  background: rgba(184, 147, 90, 0.12);
-}
-
 /* "Why It Matters" callout */
 .prose-editorial .why-it-matters {
   background: rgba(74, 103, 65, 0.06);
@@ -148,10 +120,6 @@ body {
   padding: 1.25rem 1.5rem;
   margin: 2rem 0;
   border-radius: 0 0.5rem 0.5rem 0;
-}
-
-.dark .prose-editorial .why-it-matters {
-  background: rgba(74, 103, 65, 0.1);
 }
 
 .prose-editorial .why-it-matters::before {
@@ -166,10 +134,6 @@ body {
   margin-bottom: 0.5rem;
 }
 
-.dark .prose-editorial .why-it-matters::before {
-  color: var(--color-brass);
-}
-
 /* "By the Numbers" callout */
 .prose-editorial .by-the-numbers {
   background: var(--color-ivory);
@@ -177,11 +141,6 @@ body {
   padding: 1.5rem;
   margin: 2rem 0;
   border-radius: 0.5rem;
-}
-
-.dark .prose-editorial .by-the-numbers {
-  background: var(--color-dark-surface);
-  border-color: var(--color-dark-border);
 }
 
 .prose-editorial .by-the-numbers::before {
@@ -225,11 +184,6 @@ body {
   line-height: 1.6;
 }
 
-.dark .prose-editorial .bottom-line {
-  background: var(--color-dark-surface);
-  border: 1px solid var(--color-dark-border);
-}
-
 .prose-editorial .bottom-line::before {
   content: 'The Bottom Line';
   display: block;
@@ -247,18 +201,10 @@ body {
   margin-bottom: 0;
 }
 
-.dark .prose-editorial .bottom-line p {
-  color: var(--color-dark-text);
-}
-
 /* Bold-lead paragraphs (Axios-style) — first strong in a paragraph stands out */
 .prose-editorial p > strong:first-child {
   color: var(--color-charcoal);
   font-weight: 700;
-}
-
-.dark .prose-editorial p > strong:first-child {
-  color: var(--color-cream);
 }
 
 /* "What's Next" section */
@@ -266,10 +212,6 @@ body {
   border-top: 2px solid var(--color-border);
   margin-top: 2.5rem;
   padding-top: 1.5rem;
-}
-
-.dark .prose-editorial .whats-next {
-  border-color: var(--color-dark-border);
 }
 
 .prose-editorial .whats-next::before {
@@ -282,10 +224,6 @@ body {
   text-transform: uppercase;
   color: var(--color-green);
   margin-bottom: 0.75rem;
-}
-
-.dark .prose-editorial .whats-next::before {
-  color: var(--color-brass);
 }
 
 /* Headline ticker animation */
