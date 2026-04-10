@@ -21,7 +21,7 @@ export function generateMetadata({ params }: { params: Promise<{ slug: string }>
   return params.then(({ slug }) => {
     const article = getArticleBySlug(slug);
     if (!article) return { title: 'Article Not Found' };
-    const canonicalUrl = `https://saunanews.com/article/${article.slug}`;
+    const canonicalUrl = `https://www.saunanews.com/article/${article.slug}`;
     return {
       title: article.title,
       description: article.dek,
@@ -65,7 +65,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     .slice(0, 3);
 
   const categorySlug = article.category.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-');
-  const articleUrl = `https://saunanews.com/article/${article.slug}`;
+  const articleUrl = `https://www.saunanews.com/article/${article.slug}`;
 
   const jsonLd = [
     {
@@ -81,15 +81,15 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         '@type': 'Person',
         name: article.author.name,
         jobTitle: article.author.role,
-        url: `https://saunanews.com/author/${article.author.slug}`,
+        url: `https://www.saunanews.com/author/${article.author.slug}`,
       },
       publisher: {
         '@type': 'Organization',
         name: 'SaunaNews',
-        url: 'https://saunanews.com',
+        url: 'https://www.saunanews.com',
         logo: {
           '@type': 'ImageObject',
-          url: 'https://saunanews.com/logo.png',
+          url: 'https://www.saunanews.com/logo.png',
           width: 600,
           height: 60,
         },
@@ -106,8 +106,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       '@context': 'https://schema.org',
       '@type': 'BreadcrumbList',
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://saunanews.com' },
-        { '@type': 'ListItem', position: 2, name: article.category, item: `https://saunanews.com/category/${categorySlug}` },
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.saunanews.com' },
+        { '@type': 'ListItem', position: 2, name: article.category, item: `https://www.saunanews.com/category/${categorySlug}` },
         { '@type': 'ListItem', position: 3, name: article.title, item: articleUrl },
       ],
     },

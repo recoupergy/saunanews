@@ -29,12 +29,12 @@ export default function HomePage() {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'SaunaNews',
-    url: 'https://saunanews.com',
+    url: 'https://www.saunanews.com',
     description: 'Daily reporting, market intelligence, and editorial analysis for the sauna industry.',
     publisher: {
       '@type': 'Organization',
       name: 'SaunaNews',
-      url: 'https://saunanews.com',
+      url: 'https://www.saunanews.com',
     },
   };
 

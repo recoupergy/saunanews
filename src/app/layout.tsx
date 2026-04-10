@@ -20,7 +20,7 @@ const inter = Inter({
   display: 'swap',
 });
 
-const siteUrl = 'https://saunanews.com';
+const siteUrl = 'https://www.saunanews.com';
 const siteTitle = 'SaunaNews — The Business and Culture of Sauna';
 const siteDescription =
   'Daily reporting, launches, market shifts, and analysis for the people building, selling, designing, and following the sauna world.';
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
     types: {
-      'application/rss+xml': 'https://saunanews.com/rss.xml',
+      'application/rss+xml': 'https://www.saunanews.com/rss.xml',
     },
   },
   openGraph: {

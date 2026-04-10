@@ -3,7 +3,7 @@ import { articles } from '@/data/articles';
 import { categories } from '@/data/categories';
 import { authors } from '@/data/authors';
 
-const BASE_URL = 'https://saunanews.com';
+const BASE_URL = 'https://www.saunanews.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [

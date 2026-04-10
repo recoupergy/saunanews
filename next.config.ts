@@ -9,16 +9,6 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
-  async redirects() {
-    return [
-      {
-        source: '/:path*',
-        has: [{ type: 'host', value: 'www.saunanews.com' }],
-        destination: 'https://saunanews.com/:path*',
-        permanent: true,
-      },
-    ];
-  },
   async headers() {
     return [
       {

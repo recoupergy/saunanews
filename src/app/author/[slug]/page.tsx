@@ -13,7 +13,7 @@ export function generateMetadata({ params }: { params: Promise<{ slug: string }>
   return params.then(({ slug }) => {
     const author = getAuthorBySlug(slug);
     if (!author) return { title: 'Author Not Found' };
-    const canonicalUrl = `https://saunanews.com/author/${author.slug}`;
+    const canonicalUrl = `https://www.saunanews.com/author/${author.slug}`;
     return {
       title: `${author.name} — ${author.role}`,
       description: author.bio,
@@ -44,13 +44,13 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
 
   const authorArticles = getArticlesByAuthorSlug(slug);
 
-  const authorUrl = `https://saunanews.com/author/${author.slug}`;
+  const authorUrl = `https://www.saunanews.com/author/${author.slug}`;
   const personJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Person',
     name: author.name,
     jobTitle: author.role,
-    worksFor: { '@type': 'Organization', name: 'SaunaNews', url: 'https://saunanews.com' },
+    worksFor: { '@type': 'Organization', name: 'SaunaNews', url: 'https://www.saunanews.com' },
     url: authorUrl,
     description: author.bio,
   };
@@ -58,8 +58,8 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://saunanews.com' },
-      { '@type': 'ListItem', position: 2, name: 'Authors', item: 'https://saunanews.com/authors' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.saunanews.com' },
+      { '@type': 'ListItem', position: 2, name: 'Authors', item: 'https://www.saunanews.com/authors' },
       { '@type': 'ListItem', position: 3, name: author.name, item: authorUrl },
     ],
   };

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description:
       'The complete SaunaNews archive. Search, filter, and explore every article covering sauna manufacturers, products, market trends, and industry news.',
     type: 'website',
-    url: 'https://saunanews.com/news',
+    url: 'https://www.saunanews.com/news',
     siteName: 'SaunaNews',
   },
   twitter: {

@@ -6,13 +6,13 @@ export const metadata: Metadata = {
   title: 'About SaunaNews',
   description:
     'SaunaNews is the modern publication for the sauna industry — covering manufacturers, market trends, products, and wellness culture with editorial independence.',
-  alternates: { canonical: 'https://saunanews.com/about' },
+  alternates: { canonical: 'https://www.saunanews.com/about' },
   openGraph: {
     title: 'About SaunaNews',
     description:
       'SaunaNews is the modern publication for the sauna industry — covering manufacturers, market trends, products, and wellness culture with editorial independence.',
     type: 'website',
-    url: 'https://saunanews.com/about',
+    url: 'https://www.saunanews.com/about',
     siteName: 'SaunaNews',
   },
   twitter: {
@@ -56,10 +56,10 @@ export default function AboutPage() {
     '@context': 'https://schema.org',
     '@type': 'NewsMediaOrganization',
     name: 'SaunaNews',
-    url: 'https://saunanews.com',
+    url: 'https://www.saunanews.com',
     description:
       'SaunaNews is the modern publication for the sauna industry, covering manufacturers, market trends, products, and wellness culture.',
-    logo: { '@type': 'ImageObject', url: 'https://saunanews.com/logo.png', width: 600, height: 60 },
+    logo: { '@type': 'ImageObject', url: 'https://www.saunanews.com/logo.png', width: 600, height: 60 },
     sameAs: ['https://twitter.com/saunanews'],
     foundingDate: '2025',
     knowsAbout: [

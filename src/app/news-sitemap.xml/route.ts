@@ -2,7 +2,7 @@ import { articles } from '@/data/articles';
 
 export const dynamic = 'force-static';
 
-const BASE_URL = 'https://saunanews.com';
+const BASE_URL = 'https://www.saunanews.com';
 
 function escapeXml(str: string): string {
   return str

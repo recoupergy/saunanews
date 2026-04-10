@@ -29,7 +29,27 @@
       "WebFetch(domain:www.britishsaunasociety.org.uk)",
       "WebFetch(domain:www.prnewswire.co.uk)",
       "WebFetch(domain:www.sciencedirect.com)",
-      "Bash(node -e \"const {ImageResponse} = require\\('next/og'\\); console.log\\('ok'\\)\")"
+      "Bash(node -e \"const {ImageResponse} = require\\('next/og'\\); console.log\\('ok'\\)\")",
+      "Bash(curl -sI https://saunanews.com/logo.png)",
+      "Bash(curl -sI https://saunanews.com/rss.xml)",
+      "Bash(curl -sI https://saunanews.com/news-sitemap.xml)",
+      "Bash(curl -sI https://www.saunanews.com/logo.png)",
+      "Bash(curl -sI https://www.saunanews.com/rss.xml)",
+      "Bash(curl -sI https://www.saunanews.com/news-sitemap.xml)",
+      "Bash(curl -sL -o /dev/null -w \"%{http_code} %{url_effective}\" https://saunanews.com/logo.png)",
+      "Bash(curl -sL -o /dev/null -w \"%{http_code} %{url_effective}\" https://saunanews.com/rss.xml)",
+      "Bash(curl -sI https://saunanews.com/)",
+      "Bash(rm /Users/benjaminburger/Documents/Claude/saunanews/.git/index.lock)",
+      "Bash(curl -sI https://www.saunanews.com/)",
+      "Bash(curl -sL -o /dev/null -w \"%{http_code} %{url_effective}\\\\n\" https://www.saunanews.com/)",
+      "Bash(curl -sL -o /dev/null -w \"%{http_code} %{url_effective}\\\\n\" https://www.saunanews.com/rss.xml)",
+      "Bash(curl -sL -o /dev/null -w \"%{http_code} %{url_effective}\\\\n\" https://www.saunanews.com/logo.png)",
+      "Bash(curl -sL -o /dev/null -w \"%{http_code} %{url_effective}\\\\n\" https://www.saunanews.com/news-sitemap.xml)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code} %{url_effective}\\\\n\" --max-redirs 5 https://www.saunanews.com/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code} %{url_effective}\\\\n\" --max-redirs 5 https://saunanews.com/rss.xml)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code} %{url_effective}\\\\n\" --max-redirs 5 https://saunanews.com/logo.png)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code} %{url_effective}\\\\n\" --max-redirs 5 https://saunanews.com/news-sitemap.xml)",
+      "Bash(xargs sed:*)"
     ]
   }
 }

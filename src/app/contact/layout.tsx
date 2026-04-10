@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description:
       'Submit press releases, pitch story tips, ask about sponsorships, or send general feedback to the SaunaNews editorial team.',
     type: 'website',
-    url: 'https://saunanews.com/contact',
+    url: 'https://www.saunanews.com/contact',
     siteName: 'SaunaNews',
   },
   twitter: {

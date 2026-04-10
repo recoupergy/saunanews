@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description:
       'Get the most important sauna industry news, product launches, and market intelligence delivered every Thursday. Free. No spam.',
     type: 'website',
-    url: 'https://saunanews.com/newsletter',
+    url: 'https://www.saunanews.com/newsletter',
     siteName: 'SaunaNews',
   },
   twitter: {

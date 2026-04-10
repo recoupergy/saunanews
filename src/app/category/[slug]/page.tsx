@@ -14,7 +14,7 @@ export function generateMetadata({ params }: { params: Promise<{ slug: string }>
   return params.then(({ slug }) => {
     const cat = getCategoryBySlug(slug);
     if (!cat) return { title: 'Category Not Found' };
-    const canonicalUrl = `https://saunanews.com/category/${cat.slug}`;
+    const canonicalUrl = `https://www.saunanews.com/category/${cat.slug}`;
     return {
       title: cat.name,
       description: cat.description,
@@ -47,12 +47,12 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
   const featured = allArticles[0];
   const rest = allArticles.slice(1);
 
-  const categoryUrl = `https://saunanews.com/category/${category.slug}`;
+  const categoryUrl = `https://www.saunanews.com/category/${category.slug}`;
   const breadcrumbJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://saunanews.com' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.saunanews.com' },
       { '@type': 'ListItem', position: 2, name: category.name, item: categoryUrl },
     ],
   };
@@ -62,7 +62,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
     name: `${category.name} — SaunaNews`,
     description: category.description,
     url: categoryUrl,
-    publisher: { '@type': 'Organization', name: 'SaunaNews', url: 'https://saunanews.com' },
+    publisher: { '@type': 'Organization', name: 'SaunaNews', url: 'https://www.saunanews.com' },
   };
 
   return (
