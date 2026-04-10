@@ -49,7 +49,15 @@
       "Bash(curl -s -o /dev/null -w \"%{http_code} %{url_effective}\\\\n\" --max-redirs 5 https://saunanews.com/rss.xml)",
       "Bash(curl -s -o /dev/null -w \"%{http_code} %{url_effective}\\\\n\" --max-redirs 5 https://saunanews.com/logo.png)",
       "Bash(curl -s -o /dev/null -w \"%{http_code} %{url_effective}\\\\n\" --max-redirs 5 https://saunanews.com/news-sitemap.xml)",
-      "Bash(xargs sed:*)"
+      "Bash(xargs sed:*)",
+      "Bash(git rm:*)",
+      "Bash(git commit:*)",
+      "WebFetch(domain:huumsauna.com)",
+      "WebFetch(domain:unsplash.com)",
+      "WebFetch(domain:huum.eu)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code} -> %{redirect_url}\" https://www.saunanews.com/article/tylo-sense-series-redesign-whisper-quiet)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://www.saunanews.com/article/huum-core-us-launch-bench-embedded-wood-heater\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://www.saunanews.com/article/saunum-air-perfect-us-launch\")"
     ]
   }
 }
