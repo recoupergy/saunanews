@@ -9,6 +9,8 @@ import ReadingProgressBar from '@/components/ReadingProgressBar';
 import ArticleImage from '@/components/ArticleImage';
 import SponsorSlot from '@/components/SponsorSlot';
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return articles.map((article) => ({
     slug: article.slug,
