@@ -1162,7 +1162,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
     id: '33',
     title: 'The Social Science of Sweat: Research Confirms Shared Sauna Rituals Boost Mental Wellbeing',
     slug: 'collective-sauna-rituals-mental-wellbeing-research',
-    dek: 'A peer-reviewed study of 1,907 participants finds that communal sauna bathing creates measurable gains in emotional wellbeing — and the effect is strongest for lower-income participants.',
+    dek: 'A peer-reviewed study of 1,907 participants finds that communal sauna bathing creates measurable gains in emotional wellbeing, with the strongest benefits reported by lower-income participants.',
     excerpt: 'New peer-reviewed research in Social Science and Medicine finds that shared sauna rituals produce measurable improvements in emotional wellbeing, driven by social belonging and ritual synchrony. The study of 1,907 participants is the first experimental examination of British sauna culture.',
     contentType: 'Analysis',
     category: 'Wellness Trends',
