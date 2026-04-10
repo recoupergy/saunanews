@@ -1106,6 +1106,8 @@ export const articles: Article[] = [
     imageCaption: 'Saunum Air Perfect. Image: Saunum.',
     body: `<p>Saunum, the Estonian sauna technology company, has brought its Air Perfect heater to the US market. It is the brand's newest and most self-contained model: unlike the standard Saunum Air and Air L, which equalize sauna climate via an external chimney-style flue, the Air Perfect does it entirely inside the heater body. No separate duct, no ceiling attachment. It stands on the floor and handles everything internally.</p>
 
+<img src="https://b1572463.smushcdn.com/1572463/wp-content/uploads/2024/10/Saunum-Air-Perfect-blending-electric-sauna-heater.jpg?lossy=0&strip=1&webp=1" alt="Saunum Air Perfect electric sauna heater" style="width:100%;border-radius:8px;margin:1.5rem 0;" />
+
 <h2>How Saunum's Climate Equalization Works</h2>
 <p>Every Saunum heater addresses the same physical problem. In a conventional sauna without intervention, the air near the ceiling sits at 176–194°F while the floor stays at 68–86°F. You're sitting in a significant gradient. Saunum measured this stratification through research with Tallinn University of Technology and built a product line around solving it.</p>
 
@@ -1114,6 +1116,10 @@ export const articles: Article[] = [
 <p>The Air Perfect takes a different physical approach. It uses two stacked rock baskets. The fan draws hot ceiling air through the core of the heater, between those two basket layers, mixes it with cooler floor-level air, and pushes the blended result out at the bottom. The equalization happens entirely inside the housing. No chimney. No ceiling attachment. Just 3.2" of clearance needed all around the unit.</p>
 
 <p>Saunum claims this reduces the ceiling-to-floor temperature differential by over 60%.</p>
+
+<blockquote>It achieves the same result in a more elegant way and is easier to install and service. — Ben Burger, Sauna Marketplace</blockquote>
+
+<img src="https://b1572463.smushcdn.com/1572463/wp-content/uploads/2024/10/closeup-of-Saunum-Air-Perfect-grill.jpg?lossy=0&strip=1&webp=1" alt="Saunum Air Perfect grill and fan output" style="width:100%;border-radius:8px;margin:1.5rem 0;" />
 
 <h2>Serviceability: The Element Module</h2>
 <p>One detail worth noting for commercial and high-use installations: the Air Perfect's heating elements are designed to be replaced as a single pre-wired module. Per the installation manual, servicing requires removing the stones, front panel, and air tunnel, then disconnecting 12 element cables before unbolting and pulling out the entire element assembly in one piece. Replacing it is the reverse. The design means a technician can swap the full heating core without unwiring individual elements, which is useful in a commercial context where downtime matters.</p>
@@ -1126,6 +1132,8 @@ export const articles: Article[] = [
 <p>One unusual option: the Air Perfect can be recessed into a raised floor, air grille facing up, pushing conditioned air upward through the floor slats. The manual specifies the unit bottom must sit 7"–31.5" below the finished floor surface, with floor planks gapped at least ¼". It opens up design options for builds where wall or corner placement is awkward.</p>
 
 <p>Controls are handled by the Saunum Air IQ, a Wi-Fi enabled touchscreen compatible with iOS and Android. The unit is also compatible with the Saunum Fan Button, a small in-sauna control that lets users adjust temperature and ventilation speed without leaving the bench.</p>
+
+<img src="https://b1572463.smushcdn.com/1572463/wp-content/uploads/2024/10/Saunum-air-perfect-rocks.jpg?lossy=0&strip=1&webp=1" alt="Saunum Air Perfect dual rock baskets" style="width:100%;border-radius:8px;margin:1.5rem 0;" />
 
 <div class="callout">
 <strong>Technical Specs:</strong>
@@ -1141,6 +1149,8 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 <p>The Air Perfect won the Golden Wave 2024 award for technical innovation at Interbad, the biennial Stuttgart trade show and one of the industry's main product showcases. That recognition came before the North American launch. Sauna Marketplace is now carrying the full Air Perfect line as its featured Saunum product.</p>
 
 <p>Among the first Air Perfect units in the US is one belonging to Stephan Jenkins, the frontman of Third Eye Blind.</p>
+
+<img src="https://b1572463.smushcdn.com/1572463/wp-content/uploads/2024/10/Enjoy-the-Saunum-Air-Perfect.jpg?lossy=0&strip=1&webp=1" alt="Saunum Air Perfect in use" style="width:100%;border-radius:8px;margin:1.5rem 0;" />
 
 <h2>Bottom Line</h2>
 <p>The Air Perfect is the cleanest version of Saunum's core idea. Same equalization technology as the rest of the line, but self-contained, easier to site, and built for front-access servicing. At $4,770 to $4,970 it's priced above most residential electric heaters, but it's competing on session quality and install flexibility, not raw wattage. Sauna Marketplace carries both sizes.</p>`,
