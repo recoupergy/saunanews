@@ -26,13 +26,13 @@ export const articles: Article[] = [
 <p>Harvia now employs approximately 700 people in Finland, the United States, Germany, Romania, China, Hong Kong, Austria, Italy, Estonia, and Sweden. The company targets average annual revenue growth of 10% and an adjusted operating profit margin exceeding 20%.</p>
 
 <h2>What It Means for the Market</h2>
-<p>Harvia's 2024 full-year revenue totaled EUR 175.2 million. With Q1 2025 already at EUR 52 million, the company appears on pace to significantly exceed that figure this fiscal year. The growth reinforces Harvia's position as the only publicly traded pure-play sauna and spa company in the world.</p>
+<p>Harvia's 2024 full-year revenue totaled EUR 175.2 million. With Q1 2025 already at EUR 52 million, the company appears on pace to significantly exceed that figure this fiscal year. The growth reinforces <a href="/article/longevity-investors-case-for-sauna">Harvia's position as the only publicly traded pure-play sauna and spa company in the world</a>.</p>
 
 <div class="callout">
 <strong>Key Figures:</strong> Q1 2025 revenue: EUR 52.0M (+22.7% YoY). FY 2024 revenue: EUR 175.2M. ~700 employees across 10 countries. Long-term target: 10% annual growth, 20%+ adjusted operating margin.
 </div>
 
-<p>Competitors including TyloHelo (now part of Sauna360), KLAFS (acquired by Kohler in 2023), and HUUM are also investing in growth, but none match Harvia's scale or public-market access to capital. The ThermaSol deal has expanded Harvia's addressable market beyond traditional sauna into the broader steam and connected wellness space.</p>
+<p>Competitors including TyloHelo (now part of Sauna360), KLAFS (acquired by Kohler in 2023), and <a href="/article/huum-air-tunnel-upgrade-heater-line">HUUM</a> are also investing in growth, but none match Harvia's scale or public-market access to capital. The ThermaSol deal has expanded Harvia's addressable market beyond traditional sauna into the broader steam and connected wellness space.</p>
 
 <div class="why-it-matters">
 <p>Harvia's Q1 results signal that the sauna industry's largest player is pulling further ahead. For dealers and distributors, Harvia's expanding portfolio, now spanning sauna, steam, and smart controls, creates a one-stop procurement option that competitors will struggle to match.</p>
@@ -67,7 +67,7 @@ export const articles: Article[] = [
     body: `<p>The U.S. sauna industry is facing a new cost reality. A combination of broad tariffs on EU-origin goods and Section 232 duties on timber products has raised import costs on the heaters, controls, and thermally modified wood that form the backbone of premium sauna construction in North America. For an industry that sources heavily from Finland, Estonia, and Latvia, the pricing impact is hard to avoid.</p>
 
 <h2>What Changed</h2>
-<p>Under the current U.S.-EU trade framework, EU-origin goods face a general tariff rate of approximately 15%. Section 232 tariffs on timber and wood products, which took effect in late 2025, add further duties that affect thermally modified lumber imports. These measures are not sauna-specific, but sauna products sit squarely in the crosshairs because of where they're made and what they're made from.</p>
+<p>Under the current U.S.-EU trade framework, EU-origin goods face a general tariff rate of approximately 15%. Section 232 tariffs on timber and wood products, which took effect in late 2025, add further duties that affect <a href="/article/finnish-lumber-prices-18-month-high">thermally modified lumber imports</a>. These measures are not sauna-specific, but sauna products sit squarely in the crosshairs because of where they're made and what they're made from.</p>
 
 <p>The relevant HTS codes span electric sauna heaters (8516.29, with a base duty of 3.7%), prefabricated sauna cabins (9406.10, base duty 2.6%), and various thermally modified timber classifications under Chapter 44. The layering of broad EU tariffs on top of existing product-specific duties is what's creating the squeeze.</p>
 
@@ -76,7 +76,7 @@ export const articles: Article[] = [
 <p>The tariffs do not currently apply to Canadian-manufactured products or to infrared sauna panels, which are predominantly sourced from China and South Korea under different HTS classifications.</p>
 
 <h2>Industry Impact</h2>
-<p>Finnish and Estonian manufacturers dominate the premium sauna heater segment in the U.S. Harvia, HUUM, Narvi, and IKI are all based in Finland or Estonia, and their products are found in the majority of traditional saunas sold through specialty dealers. Latvia and Estonia are also major sources of thermally modified wood used in sauna construction.</p>
+<p>Finnish and Estonian manufacturers dominate the premium sauna heater segment in the U.S. <a href="/article/harvia-record-q1-revenue-thermasol-integration">Harvia</a>, HUUM, Narvi, and IKI are all based in Finland or Estonia, and their products are found in the majority of traditional saunas sold through specialty dealers. Latvia and Estonia are also major sources of thermally modified wood used in sauna construction.</p>
 
 <div class="callout">
 <strong>Key Context:</strong> EU-origin goods face ~15% tariff under the current U.S.-EU framework. Section 232 timber duties add further costs to wood imports. Base duties on sauna heaters (HTS 8516.29): 3.7%. Base duties on prefab sauna cabins (HTS 9406.10): 2.6%.
@@ -121,7 +121,7 @@ export const articles: Article[] = [
 <blockquote>Thermal bathing isn't an amenity anymore. It's the experience. Guests are traveling specifically for this.</blockquote>
 
 <h2>The Business Case</h2>
-<p>The investment makes financial sense. Industry consultants report that hotels with dedicated thermal bathing facilities see meaningfully higher spa revenue per guest compared to properties with conventional spa offerings. The trend is particularly pronounced in Nordic, Alpine, and Japanese-inspired hospitality concepts, where the bathing experience is woven into the architecture itself.</p>
+<p>The investment makes financial sense. Industry consultants report that hotels with dedicated thermal bathing facilities see meaningfully higher spa revenue per guest compared to properties with conventional spa offerings. The trend is particularly pronounced in Nordic, Alpine, and <a href="/article/japanese-onsen-influence-western-sauna-design">Japanese-inspired</a> hospitality concepts, where the bathing experience is woven into the architecture itself.</p>
 
 <div class="callout">
 <strong>Key Trends:</strong> Multi-room thermal circuits (sauna, steam, cold plunge) replacing single-room spas. Geothermal and sustainable heating as selling points. Finnish and Japanese design influences blending in new builds. Equipment partnerships with KLAFS, Harvia, and custom fabricators.
@@ -130,7 +130,7 @@ export const articles: Article[] = [
 <p>The shift is also changing how these projects get designed. Rather than bolting a sauna room onto a basement spa, architects are now integrating thermal suites into the primary guest experience, with natural light, outdoor access, and views treated as essential features.</p>
 
 <h3>Equipment and Partners</h3>
-<p>KLAFS, which Kohler acquired in 2023, has emerged as the dominant supplier for ultra-luxury hotel sauna installations globally. Harvia's commercial division is growing rapidly in this segment as well. Custom stone, glass, and wood fabrication is becoming standard in the high end, pushing projects well beyond what off-the-shelf manufacturers offer.</p>
+<p>KLAFS, which Kohler acquired in 2023, has emerged as the dominant supplier for ultra-luxury hotel sauna installations globally. <a href="/article/harvia-record-q1-revenue-thermasol-integration">Harvia</a>'s commercial division is growing rapidly in this segment as well. Custom stone, glass, and wood fabrication is becoming standard in the high end, pushing projects well beyond what off-the-shelf manufacturers offer.</p>
 
 <p>For the sauna industry, luxury hospitality represents both a revenue opportunity and a brand-building platform. A KLAFS installation in an Aman property does more for the brand than any trade show booth.</p>`,
     featured: true,
@@ -154,7 +154,7 @@ export const articles: Article[] = [
 <h2>Market Size and Growth</h2>
 <p>The global sauna equipment market was valued at approximately $905 million in 2024 by Grand View Research, with a projected CAGR of 6.3% through 2033. Within that, Grand View's data puts the traditional sauna segment (Finnish, smoke, and steam saunas) at roughly 43% of revenue, with infrared holding a larger share. The balance is split among hybrid designs and emerging categories like infrared panels and portable units.</p>
 
-<p>Both segments are growing, but at different rates and in different channels. Traditional saunas are growing faster in the custom-built residential and commercial segments, while infrared saunas dominate the direct-to-consumer and ecommerce channels.</p>
+<p>Both segments are growing, but at different rates and in different channels. Traditional saunas are growing faster in the <a href="/article/outdoor-sauna-demand-surges-north-america">custom-built residential</a> and commercial segments, while infrared saunas dominate the direct-to-consumer and ecommerce channels.</p>
 
 <blockquote>The framing of infrared vs. traditional as a winner-take-all contest misses the point entirely. These products solve different problems for different people.</blockquote>
 
@@ -166,7 +166,7 @@ export const articles: Article[] = [
 </div>
 
 <h3>Clinical Evidence</h3>
-<p>The clinical research base is deeper for traditional saunas, largely due to decades of Finnish epidemiological studies, including the landmark Kuopio Ischemic Heart Disease study. Infrared-specific research has accelerated since 2020, particularly in chronic pain management and cardiovascular markers.</p>
+<p>The clinical research base is deeper for traditional saunas, largely due to decades of Finnish epidemiological studies, including the landmark <a href="/article/longevity-investors-case-for-sauna">Kuopio Ischemic Heart Disease study</a>. Infrared-specific research has accelerated since 2020, particularly in chronic pain management and cardiovascular markers.</p>
 
 <p>Neither category has a monopoly on health benefits. The mechanisms differ: traditional saunas create benefits primarily through extreme heat exposure and the cardiovascular stress response that follows, while infrared saunas work through deeper tissue penetration at lower ambient temperatures.</p>
 
@@ -195,7 +195,7 @@ export const articles: Article[] = [
 <h2>What's Driving Growth</h2>
 <p>Several converging factors are fueling the outdoor sauna boom. Post-pandemic outdoor living investments continue to drive home improvement spending, while social media, particularly platforms that showcase backyard lifestyle content, has dramatically increased consumer awareness and aspiration.</p>
 
-<p>Barrel saunas remain the volume leader in the outdoor category. Their relatively accessible price point (many models start under $5,000), ease of installation, and distinctive aesthetic have made them the gateway product for first-time sauna buyers. Dundalk Leisurecraft, Almost Heaven, and SaunaLife are among the brands competing most visibly in this space.</p>
+<p>Barrel saunas remain the volume leader in the outdoor category. Their relatively accessible price point (many models start under $5,000), ease of installation, and distinctive aesthetic have made them the gateway product for first-time sauna buyers. <a href="/article/leisurecraft-expands-australia-barrel-sauna-global">Dundalk Leisurecraft</a>, Almost Heaven, and SaunaLife are among the brands competing most visibly in this space.</p>
 
 <blockquote>Three years ago, outdoor saunas were a niche product. Now they're competing with hot tubs and outdoor kitchens for backyard budget dollars.</blockquote>
 
@@ -207,7 +207,7 @@ export const articles: Article[] = [
 <p>Growth is strongest in the Pacific Northwest, Upper Midwest, and Mountain West, where outdoor sauna culture intersects with existing cold-water immersion and outdoor recreation communities. The Southeast and Mid-Atlantic are growing from a smaller base, suggesting the trend is broadening geographically.</p>
 
 <h3>Supply Chain Considerations</h3>
-<p>Manufacturers report that demand continues to outpace production capacity in several sub-categories, particularly for thermowood and cedar outdoor models. Lead times for custom outdoor builds have extended to 8-14 weeks in many markets. Rising lumber costs (Nordic spruce and cedar have both seen price increases) are also putting pressure on margins.</p>`,
+<p>Manufacturers report that demand continues to outpace production capacity in several sub-categories, particularly for <a href="/article/thermory-ownership-change-ug-investeeringud">thermowood</a> and cedar outdoor models. Lead times for custom outdoor builds have extended to 8-14 weeks in many markets. Rising lumber costs (Nordic spruce and cedar have both seen price increases) are also putting pressure on margins.</p>`,
     featured: false,
     trending: true,
   },
@@ -242,7 +242,7 @@ export const articles: Article[] = [
 <h2>Market Context</h2>
 <p>HUUM has been one of the fastest-growing heater brands in the North American market, built on a combination of striking industrial design (the HIVE's beehive silhouette is instantly recognizable) and competitive pricing for the quality level. The air tunnel upgrade keeps the exterior design unchanged while improving the internals, a move that rewards existing fans rather than chasing headlines.</p>
 
-<p>Founded by Siim Nellis, a third-generation Estonian sauna heater maker, HUUM competes in the premium segment against Harvia, Narvi, and IKI from Finland and the TyloHelo brands from Sweden.</p>`,
+<p>Founded by Siim Nellis, a third-generation Estonian sauna heater maker, HUUM competes in the premium segment against <a href="/article/harvia-record-q1-revenue-thermasol-integration">Harvia</a>, Narvi, and IKI from Finland and the TyloHelo brands from Sweden.</p>`,
     featured: false,
     trending: false,
   },
@@ -264,7 +264,7 @@ export const articles: Article[] = [
 <h2>A New Category Emerges</h2>
 <p>The sauna social club model has proliferated in major cities over the past three years. Part traditional bathhouse, part wellness studio, part community gathering space, these aren't luxury spas. They're membership-driven, culture-forward venues designed around the ritual of heat and cold, with food, drink, and social programming layered on top.</p>
 
-<p>The format varies, but the core elements are consistent: multiple sauna types (Finnish, infrared, sometimes steam), cold plunge pools or outdoor cold water immersion, rest areas designed for conversation, and a bar or cafe serving non-alcoholic beverages, broths, or light food.</p>
+<p>The format varies, but the core elements are consistent: multiple sauna types (Finnish, infrared, sometimes steam), <a href="/article/cold-plunge-market-380m-new-sauna-buyers">cold plunge pools</a> or outdoor cold water immersion, rest areas designed for conversation, and a bar or cafe serving non-alcoholic beverages, broths, or light food.</p>
 
 <blockquote>We're not competing with day spas. We're competing with coffee shops and yoga studios. This is about how people spend their Saturday, not how they treat themselves on vacation.</blockquote>
 
@@ -278,7 +278,7 @@ export const articles: Article[] = [
 </div>
 
 <h3>Cultural Drivers</h3>
-<p>The trend draws from several cultural currents: the normalization of cold exposure through influencers and podcasters, the post-pandemic hunger for in-person community, the growing longevity and biohacking movements, and a generational shift toward experiences over material consumption.</p>
+<p>The trend draws from several cultural currents: the normalization of cold exposure through influencers and podcasters, the post-pandemic hunger for in-person community, the growing <a href="/article/longevity-investors-case-for-sauna">longevity and biohacking movements</a>, and a generational shift toward experiences over material consumption.</p>
 
 <p>As the category matures, expect more sophisticated programming, branded product lines, and expansion into secondary markets. The sauna social club may be one of the most promising new formats in urban wellness.</p>`,
     featured: false,
@@ -311,7 +311,7 @@ export const articles: Article[] = [
 </div>
 
 <h2>Why It Matters</h2>
-<p>The ownership change signals confidence in Thermory's growth trajectory. Demand for thermally modified wood has been rising steadily, driven by the outdoor sauna boom and growing preference for sustainable, chemical-free wood treatment methods. UG Investeeringud, which had been a minority investor, is now positioned to drive the next phase of capacity expansion.</p>
+<p>The ownership change signals confidence in Thermory's growth trajectory. Demand for thermally modified wood has been rising steadily, driven by the <a href="/article/outdoor-sauna-demand-surges-north-america">outdoor sauna boom</a> and growing preference for sustainable, chemical-free wood treatment methods. UG Investeeringud, which had been a minority investor, is now positioned to drive the next phase of capacity expansion.</p>
 
 <h3>Competitive Context</h3>
 <p>Thermory's closest competitor is Lunawood, a Finnish thermowood producer with roughly 15% of the global market. U.S.-based Bingaman & Son Lumber also produces thermally modified products, though primarily as part of a broader Appalachian hardwood operation. Several Asian producers are also entering the market at lower price points.</p>`,
@@ -341,7 +341,7 @@ export const articles: Article[] = [
 <blockquote>Cold plunge didn't steal customers from sauna. It created an entirely new group of thermal wellness enthusiasts who eventually want both.</blockquote>
 
 <h2>Brand Strategy</h2>
-<p>Several sauna manufacturers have responded by developing their own cold plunge products or partnering with existing brands. Dundalk Leisurecraft now offers the Arctic Plunge and Glacier Plunge alongside its barrel saunas. The logic is straightforward: if your sauna customer is going to buy a cold plunge anyway, better for that sale to happen under your roof.</p>
+<p>Several sauna manufacturers have responded by developing their own cold plunge products or partnering with existing brands. <a href="/article/leisurecraft-expands-australia-barrel-sauna-global">Dundalk Leisurecraft</a> now offers the Arctic Plunge and Glacier Plunge alongside its barrel saunas. The logic is straightforward: if your sauna customer is going to buy a cold plunge anyway, better for that sale to happen under your roof.</p>
 
 <p>Plunge, the bootstrapped direct-to-consumer brand founded in 2020, crossed $100 million in revenue in 2024 according to Entrepreneur. That kind of category-creating growth naturally pulls adjacent categories (like sauna) along with it.</p>
 
@@ -383,7 +383,7 @@ export const articles: Article[] = [
 </div>
 
 <h2>Alternative Materials Gaining Traction</h2>
-<p>The lumber cost environment is accelerating interest in alternative materials for sauna construction. <a href="https://thermoryusa.com/category/saunas/" target="_blank">Thermally modified wood from producers like Thermory</a> offers an alternative to raw Nordic softwoods, with better dimensional stability and moisture resistance. North American basswood and engineered wood products are also seeing increased specification from manufacturers looking to diversify their material base.</p>
+<p>The lumber cost environment is accelerating interest in alternative materials for sauna construction. <a href="/article/thermory-ownership-change-ug-investeeringud">Thermally modified wood from producers like Thermory</a> offers an alternative to raw Nordic softwoods, with better dimensional stability and moisture resistance. North American basswood and engineered wood products are also seeing increased specification from manufacturers looking to diversify their material base.</p>
 
 <h3>Outlook</h3>
 <p>Market analysts at Fastmarkets and Global Wood Markets Info characterize the Nordic softwood market as stable but not in rebound, with prices unlikely to fall meaningfully while demand from Asia and the bioenergy sector remains strong. For sauna manufacturers, this means continued margin pressure and a stronger incentive to diversify sourcing.</p>`,
@@ -406,7 +406,7 @@ export const articles: Article[] = [
     body: `<p>Equinox, the premium fitness brand, is making one of its largest facility investments in years, and it's going toward thermal wellness. The company is significantly upgrading sauna, steam, and cold plunge facilities at its top-performing locations across New York, Los Angeles, Miami, Chicago, and San Francisco.</p>
 
 <h2>Scope of Investment</h2>
-<p>The upgrades include expanded sauna rooms with increased capacity, dedicated cold plunge pools (where none currently exist), improved ventilation and humidity control systems, and aesthetic renovations designed to create what Equinox describes as a "thermal wellness journey" within each club.</p>
+<p>The upgrades include expanded sauna rooms with increased capacity, dedicated <a href="/article/cold-plunge-market-380m-new-sauna-buyers">cold plunge pools</a> (where none currently exist), improved ventilation and humidity control systems, and aesthetic renovations designed to create what Equinox describes as a "thermal wellness journey" within each club.</p>
 
 <p>Several locations will add Finnish-style saunas alongside their existing steam rooms, creating a multi-modality thermal offering. At least three clubs will feature outdoor cold plunge installations.</p>
 
@@ -417,7 +417,7 @@ export const articles: Article[] = [
 </div>
 
 <h2>Strategic Context</h2>
-<p>The investment comes as Equinox faces intensifying competition from both traditional fitness brands moving upmarket and purpose-built thermal wellness venues that are attracting high-income consumers with more focused offerings.</p>
+<p>The investment comes as Equinox faces intensifying competition from both traditional fitness brands moving upmarket and purpose-built thermal wellness venues like <a href="/article/bathhouse-120m-revenue-social-sauna">Bathhouse</a> that are attracting high-income consumers with more focused offerings.</p>
 
 <p>The thermal wellness upgrade is part of a broader strategy to justify Equinox's premium pricing, which can exceed $300/month at flagship locations, by delivering amenities and experiences that lower-cost competitors cannot match.</p>`,
     featured: false,
@@ -453,7 +453,7 @@ export const articles: Article[] = [
 </div>
 
 <h3>Where Capital Is Flowing</h3>
-<p>Investment activity in sauna-adjacent companies has accelerated. Plunge, the cold plunge brand, bootstrapped its way to over $100 million in annual revenue by 2024 and has begun exploring outside capital. Commercial sauna venue operators are seeing interest from hospitality-focused PE firms. On the supplier side, Kohler's 2023 acquisition of KLAFS signaled that strategics see long-term value in the thermal wellness equipment space.</p>
+<p>Investment activity in sauna-adjacent companies has accelerated. <a href="/article/cold-plunge-market-380m-new-sauna-buyers">Plunge, the cold plunge brand,</a> bootstrapped its way to over $100 million in annual revenue by 2024 and has begun exploring outside capital. <a href="/article/bathhouse-120m-revenue-social-sauna">Commercial sauna venue operators</a> are seeing interest from hospitality-focused PE firms. On the supplier side, Kohler's 2023 acquisition of KLAFS signaled that strategics see long-term value in the thermal wellness equipment space.</p>
 
 <p>The sauna industry sits at the intersection of health science, consumer behavior, and scalable business models, a positioning that works well in a longevity investment environment still searching for opportunities with proven demand.</p>`,
     featured: true,
@@ -475,19 +475,19 @@ export const articles: Article[] = [
     body: `<p>It was one of the busiest weeks in recent sauna industry memory. Here are the five stories that mattered most.</p>
 
 <h2>1. Harvia Posts Record Q1 Revenue</h2>
-<p>Harvia reported Q1 2025 revenue of EUR 52 million, up 22.7% year-over-year, its strongest quarterly growth since the post-pandemic surge. The ThermaSol steam technology acquisition (closed July 2024) is the primary growth driver.</p>
+<p><a href="/article/harvia-record-q1-revenue-thermasol-integration">Harvia reported Q1 2025 revenue of EUR 52 million</a>, up 22.7% year-over-year, its strongest quarterly growth since the post-pandemic surge. The ThermaSol steam technology acquisition (closed July 2024) is the primary growth driver.</p>
 
 <h2>2. U.S. Tariff Pressure on European Sauna Imports</h2>
-<p>Broad EU tariffs and Section 232 timber duties are raising costs on Finnish and Baltic sauna products entering the U.S. market. Distributors are recalculating pricing models as cumulative duties increase landed costs across heaters, controls, and thermally modified wood.</p>
+<p><a href="/article/us-sauna-imports-tariff-pressure-europe">Broad EU tariffs and Section 232 timber duties are raising costs</a> on Finnish and Baltic sauna products entering the U.S. market. Distributors are recalculating pricing models as cumulative duties increase landed costs across heaters, controls, and thermally modified wood.</p>
 
 <h2>3. Outdoor Sauna Demand Keeps Climbing</h2>
-<p>Barrel saunas, cabin saunas, and custom outdoor builds continue to be the fastest-growing segment of the North American residential market, driven by post-pandemic outdoor living investment and social media visibility.</p>
+<p><a href="/article/outdoor-sauna-demand-surges-north-america">Barrel saunas, cabin saunas, and custom outdoor builds</a> continue to be the fastest-growing segment of the North American residential market, driven by post-pandemic outdoor living investment and social media visibility.</p>
 
 <h2>4. HUUM Standardizes Air Tunnel Across HIVE Line</h2>
-<p>Estonian manufacturer HUUM has made its internal air tunnel a standard feature across all HIVE models, an engineering upgrade that improves heat-up time and extends element lifespan by shielding elements from direct stone weight.</p>
+<p><a href="/article/huum-air-tunnel-upgrade-heater-line">Estonian manufacturer HUUM has made its internal air tunnel a standard feature</a> across all HIVE models, an engineering upgrade that improves heat-up time and extends element lifespan by shielding elements from direct stone weight.</p>
 
 <h2>5. Equinox Expands Thermal Wellness Offerings</h2>
-<p>The luxury fitness brand is upgrading sauna and cold plunge facilities across multiple flagship locations, signaling that thermal wellness is becoming a core competitive differentiator for premium fitness operators.</p>
+<p><a href="/article/equinox-expands-sauna-offerings-flagship-locations">The luxury fitness brand is upgrading sauna and cold plunge facilities</a> across multiple flagship locations, signaling that thermal wellness is becoming a core competitive differentiator for premium fitness operators.</p>
 
 <div class="callout">
 <strong>Coming Next Week:</strong> Coverage of the Nordic Sauna Technology Conference in Helsinki, a close look at the residential sauna dealer market, and our first pass at Q1 data.
@@ -527,7 +527,7 @@ export const articles: Article[] = [
 <h3>Implications for Manufacturers</h3>
 <p>For sauna manufacturers and equipment suppliers, the Japanese design influence creates both opportunities and challenges. Demand for more refined finishes, natural stone integration, and custom proportions is growing, but these requirements often push beyond what standard product catalogs offer.</p>
 
-<p>The convergence of Nordic and Japanese bathing aesthetics may be one of the most significant design trends shaping the commercial sauna and wellness market in the coming decade.</p>`,
+<p>The convergence of Nordic and Japanese bathing aesthetics may be one of the most significant design trends shaping the <a href="/article/luxury-hotels-thermal-bathing-suites-trend">commercial sauna and wellness market</a> in the coming decade.</p>`,
     featured: false,
     trending: false,
   },
@@ -553,7 +553,7 @@ export const articles: Article[] = [
 <p>— Mark Boulding, Global VP of Marketing & Growth</p>
 
 <h2>Four Product Collections</h2>
-<p>The company now offers four distinct product lines spanning different price points and aesthetics. The flagship <strong>Dundalk Collection</strong> features clear Western Red Cedar in barrel, Luna, Panoramic, and POD configurations. The <strong>Canadian Timber Collection</strong> uses Eastern White Cedar for a more accessible price point with easy-to-assemble kits. The <strong>Pure Cube Collection</strong> targets the modern architectural market with black metal siding, double-pane tinted glass, and minimalist design. And the company's cold plunge line (Arctic Plunge, Glacier Plunge, and the newer Flow Cold Plunge) positions Leisurecraft in the rapidly growing contrast therapy category.</p>
+<p>The company now offers four distinct product lines spanning different price points and aesthetics. The flagship <strong>Dundalk Collection</strong> features clear Western Red Cedar in barrel, Luna, Panoramic, and POD configurations. The <strong>Canadian Timber Collection</strong> uses Eastern White Cedar for a more accessible price point with easy-to-assemble kits. The <strong>Pure Cube Collection</strong> targets the modern architectural market with black metal siding, double-pane tinted glass, and minimalist design. And the company's cold plunge line (Arctic Plunge, Glacier Plunge, and the newer Flow Cold Plunge) positions Leisurecraft in the <a href="/article/cold-plunge-market-380m-new-sauna-buyers">rapidly growing contrast therapy category</a>.</p>
 
 <div class="by-the-numbers">
 <strong>Leisurecraft by the Numbers:</strong> Founded 2004. 6 manufacturing buildings, 30+ employees. 4 product collections. Sells through authorized dealers only (no DTC). Present in Canada, USA, Europe (via Netherlands-based Leisurecraft Europe, established 2009), Brazil, and now Australia.
@@ -563,7 +563,7 @@ export const articles: Article[] = [
 <p>Australia's wellness market has been growing rapidly, driven by a climate-conscious population increasingly investing in outdoor living spaces. The country's established hot tub and spa culture creates a natural adjacency for barrel saunas, particularly in southern regions with cooler winters. Leisurecraft's trade-only model (the company sells exclusively through authorized retail dealers) means the Australian expansion will depend on building the right dealer network from scratch.</p>
 
 <div class="why-it-matters">
-<p>Leisurecraft's expansion trajectory illustrates a broader pattern in the sauna industry: North American manufacturers that built their brands during the post-COVID wellness boom are now leveraging that momentum to go global. The company's dealer-only distribution model and premium cedar positioning differentiate it from the direct-to-consumer brands flooding Amazon and social media.</p>
+<p>Leisurecraft's expansion trajectory illustrates a broader pattern in the sauna industry: North American manufacturers that built their brands during the <a href="/article/outdoor-sauna-demand-surges-north-america">post-COVID wellness boom</a> are now leveraging that momentum to go global. The company's dealer-only distribution model and premium cedar positioning differentiate it from the direct-to-consumer brands flooding Amazon and social media.</p>
 </div>
 
 <div class="whats-next">
@@ -600,7 +600,7 @@ export const articles: Article[] = [
 <blockquote>WiFi control has become table stakes for premium heaters. Homecraft bringing it to their line is a smart move for the North American market.</blockquote>
 
 <h2>How It Compares</h2>
-<p>Smart connectivity has been standard on premium heaters from HUUM (via the UKU controller, which supports sessions up to 18 hours and a 48-hour delayed start) and Harvia (via the Xenio and new Fenix controllers with humidity and lighting integration) for several years. The Homecraft TKE2-2 is simpler in scope: heater control only, 60-minute max session, no humidity or lighting integration. But it's also more affordable, North American-made, and purpose-built for the Homecraft heater ecosystem, including the popular Revive series with its 200-lb rock capacity.</p>
+<p>Smart connectivity has been standard on premium heaters from <a href="/article/huum-air-tunnel-upgrade-heater-line">HUUM</a> (via the UKU controller, which supports sessions up to 18 hours and a 48-hour delayed start) and <a href="/article/harvia-record-q1-revenue-thermasol-integration">Harvia</a> (via the Xenio and new Fenix controllers with humidity and lighting integration) for several years. The Homecraft TKE2-2 is simpler in scope: heater control only, 60-minute max session, no humidity or lighting integration. But it's also more affordable, North American-made, and purpose-built for the Homecraft heater ecosystem, including the popular Revive series with its 200-lb rock capacity.</p>
 
 <p>The controller is available now through authorized dealers, including <a href="https://saunamarketplace.com" target="_blank">Sauna Marketplace</a>.</p>`,
     featured: false,
@@ -619,7 +619,7 @@ export const articles: Article[] = [
     publishDate: '2025-11-20',
     readingTime: 5,
     featuredImage: 'https://thermory.com/wp-content/uploads/2023/12/Th-pine-C34-cladding_15x68-STS4-alder_28x65-SHP-alder_Arch_WOVEN_Builder_WOODMASTER_PH_Katarina_Janickova_1920x1280-2.jpg',
-    body: `<p>Thermory, the world's largest producer of thermally modified wood, has signed an exclusive distribution agreement with Tokyo-based Bergman Co., Ltd. to bring its full sauna materials and architectural wood portfolio to Japan. The deal was signed in Tallinn, Estonia in November 2025.</p>
+    body: `<p><a href="/article/thermory-ownership-change-ug-investeeringud">Thermory, the world's largest producer of thermally modified wood,</a> has signed an exclusive distribution agreement with Tokyo-based Bergman Co., Ltd. to bring its full sauna materials and architectural wood portfolio to Japan. The deal was signed in Tallinn, Estonia in November 2025.</p>
 
 <h2>What's in the Deal</h2>
 <p>Under the agreement, <a href="https://thermory.com/thermory-and-bergman-announce-exclusive-partnership-to-expand-premium-thermowood-offering-in-japan/" target="_blank">Bergman becomes Thermory's exclusive distributor</a> for sauna interior materials (thermo-aspen, thermo-alder, thermo-magnolia, and thermo-radiata pine) as well as exterior architectural products (thermally modified spruce, pine, clear pine, and ash) throughout Japan.</p>
@@ -634,7 +634,7 @@ export const articles: Article[] = [
 </div>
 
 <h2>Why Japan</h2>
-<p>Japan's sauna culture is experiencing a renaissance. The concept of "totonou" (the state of equilibrium reached through hot-cold contrast bathing) has driven a wave of new sauna facilities across the country. Bergman's connections with TTNE, an influential sauna creative collective, gives <a href="https://thermoryusa.com/category/saunas/" target="_blank">Thermory's sauna products</a> a direct line into the community of architects, builders, and enthusiasts shaping Japan's modern sauna scene.</p>
+<p><a href="/article/japanese-onsen-influence-western-sauna-design">Japan's sauna culture is experiencing a renaissance.</a> The concept of "totonou" (the state of equilibrium reached through hot-cold contrast bathing) has driven a wave of new sauna facilities across the country. Bergman's connections with TTNE, an influential sauna creative collective, gives <a href="https://thermoryusa.com/category/saunas/" target="_blank">Thermory's sauna products</a> a direct line into the community of architects, builders, and enthusiasts shaping Japan's modern sauna scene.</p>
 
 <p>For Thermory, Japan represents both a high-value market and a cultural validation. Japanese builders and architects are among the most demanding in the world when it comes to wood quality and finish, making it a strong proof point for the thermowood category.</p>`,
     featured: false,
@@ -656,7 +656,7 @@ export const articles: Article[] = [
     body: `<p>The <a href="https://worldsaunaforum.com/" target="_blank">World Sauna Forum</a>, organized by <a href="https://saunafromfinland.com" target="_blank">Sauna from Finland</a>, is heading to Jyvaskyla for its 2026 edition. The three-day event (June 9-11) bills itself as "the most relaxing business event in the world," and based on past years, it delivers on that promise.</p>
 
 <h2>What to Expect</h2>
-<p>The forum brings together sauna manufacturers, wellness operators, architects, researchers, and enthusiasts from around the world for keynote talks, panel discussions, and what is probably the highest concentration of different sauna types you'll find in one place. Past speakers have included Professor Jari Laukkanen, the University of Eastern Finland researcher whose longitudinal sauna studies have been published in JAMA Internal Medicine.</p>
+<p>The forum brings together sauna manufacturers, wellness operators, architects, researchers, and enthusiasts from around the world for keynote talks, panel discussions, and what is probably the highest concentration of different sauna types you'll find in one place. Past speakers have included <a href="/article/sauna-immune-system-research-laukkanen">Professor Jari Laukkanen</a>, the University of Eastern Finland researcher whose longitudinal sauna studies have been published in JAMA Internal Medicine.</p>
 
 <p>This year's event is part of a broader <strong>Sauna Region Week</strong> (June 6-14), which extends programming across the Jyvaskyla region with public sauna experiences, from the world's largest smoke sauna to traditional Finnish saunas with full bathing rituals.</p>
 
@@ -694,7 +694,7 @@ export const articles: Article[] = [
 <h2>What the Research Shows</h2>
 <p>The study involved approximately 100 participants and measured inflammatory biomarkers alongside self-reported illness frequency. The key findings: regular sauna users had lower CRP levels and got sick less often. Elevated CRP is associated with acute systemic inflammation, so lower baseline levels suggest a calmer immune response, not a suppressed one.</p>
 
-<p>This builds on Laukkanen's earlier work, including the landmark Kuopio Ischemic Heart Disease Risk Factor Study (published in JAMA Internal Medicine, 2015), which tracked over 2,300 Finnish men for 20+ years and found that frequent sauna use (4-7 times per week) was associated with a 40% reduction in all-cause mortality compared to once-weekly use.</p>
+<p>This builds on Laukkanen's earlier work, including the landmark Kuopio Ischemic Heart Disease Risk Factor Study (published in JAMA Internal Medicine, 2015), which tracked over 2,300 Finnish men for 20+ years and found that frequent sauna use (4-7 times per week) was associated with a <a href="/article/longevity-investors-case-for-sauna">40% reduction in all-cause mortality</a> compared to once-weekly use.</p>
 
 <blockquote>The immune findings are still early, but they're consistent with what the cardiovascular data has been telling us for years: regular heat exposure appears to have broad, systemic health benefits.</blockquote>
 
@@ -703,7 +703,7 @@ export const articles: Article[] = [
 </div>
 
 <h2>Context</h2>
-<p>Laukkanen has become the most-cited researcher in sauna health science, and his work is frequently referenced by both the medical community and the sauna industry. He is expected to <a href="https://saunafromfinland.com" target="_blank">speak at the World Sauna Forum 2026</a> in Jyvaskyla, Finland (June 9-11).</p>
+<p>Laukkanen has become the most-cited researcher in sauna health science, and his work is frequently referenced by both the medical community and the sauna industry. He is expected to speak at <a href="/article/world-sauna-forum-2026-jyvaskyla">the World Sauna Forum 2026</a> in Jyvaskyla, Finland (June 9-11).</p>
 
 <p>The immune research is still in its early stages and the sample size is modest. More work is needed before drawing broad clinical conclusions. But the direction is clear and consistent with the larger body of sauna health evidence.</p>`,
     featured: false,
@@ -727,10 +727,10 @@ export const articles: Article[] = [
 <h2>Mondex: Faster Heating, Better Efficiency</h2>
 <p>Mondex, a <a href="https://saunafromfinland.com/company/mondex/" target="_blank">Sauna from Finland member company</a> known for its design-forward heaters, is launching updated versions of its popular Teno and Kalla models this spring. The updates focus on the internals: new technical solutions that heat the stones faster, use less energy, and give the bather more time to actually enjoy the session rather than waiting for the room to come up to temperature.</p>
 
-<p>Mondex has been pushing the design envelope in recent years. Their Rakka heater, which wraps natural stones around the exterior of the heating body, is one of the most visually striking heaters on the market. The company also launched WiFi-controlled heaters in 2022, making it one of the earlier Finnish manufacturers to embrace smart connectivity.</p>
+<p>Mondex has been pushing the design envelope in recent years. Their Rakka heater, which wraps natural stones around the exterior of the heating body, is one of the most visually striking heaters on the market. The company also launched WiFi-controlled heaters in 2022, making it one of the earlier Finnish manufacturers to embrace <a href="/article/homecraft-wifi-sauna-controller-launch">smart connectivity</a>.</p>
 
 <h2>Narvi: Tradition First</h2>
-<p>Narvi takes a different approach. The company's philosophy starts with the basics: a well-ventilated wood room, heat from stones, and loyly (the steam created when water hits hot rocks) that lets you control both temperature and humidity. Their heater designs prioritize stone mass and airflow over flashy features.</p>
+<p>Narvi takes a different approach. The company's philosophy starts with the basics: a well-ventilated wood room, heat from stones, and <a href="/article/lassi-liikkanen-finnish-sauna-design-mistakes">loyly (the steam created when water hits hot rocks)</a> that lets you control both temperature and humidity. Their heater designs prioritize stone mass and airflow over flashy features.</p>
 
 <div class="callout">
 <strong>Finnish Heater Brands to Watch:</strong> Mondex (design-forward, WiFi-enabled, updated Teno and Kalla models for 2026). Narvi (traditional focus, emphasis on loyly quality and stone mass). Veto (another Finnish maker worth tracking, part of the Sauna from Finland network). All three are members of <a href="https://saunafromfinland.com" target="_blank">Sauna from Finland</a>.
@@ -767,7 +767,7 @@ export const articles: Article[] = [
 </div>
 
 <h2>What It Means for the Sauna Industry</h2>
-<p>Finnish and Estonian heater brands (Harvia, HUUM, Narvi, IKI) and thermally modified wood producers like <a href="https://thermory.com" target="_blank">Thermory</a> and Lunawood ship the bulk of the premium sauna products sold in North America. These products already carry base duties (sauna heaters at HTS 8516.29 face a 3.7% base rate, prefab sauna cabins at HTS 9406.10 face 2.6%), and the Section 122 surcharge stacks on top.</p>
+<p><a href="/article/harvia-record-q1-revenue-thermasol-integration">Harvia</a>, HUUM, Narvi, IKI, and thermally modified wood producers like <a href="https://thermory.com" target="_blank">Thermory</a> and Lunawood ship the bulk of the premium sauna products sold in North America. These products already carry <a href="/article/us-sauna-imports-tariff-pressure-europe">base duties</a> (sauna heaters at HTS 8516.29 face a 3.7% base rate, prefab sauna cabins at HTS 9406.10 face 2.6%), and the Section 122 surcharge stacks on top.</p>
 
 <p>Industry sources estimate importers and their customers are absorbing 96% of tariff costs, consistent with broader economic research on tariff incidence. Some distributors pre-loaded inventory ahead of the February effective date. Others are passing costs through via mid-year price increases of 5-15% depending on product category.</p>
 
@@ -801,7 +801,7 @@ export const articles: Article[] = [
 <p><strong>Sauna360 / TyloHelo</strong> (Sweden/Finland): The parent company of Tylo, Helo, Finnleo, and Amerec faces the worst tariff exposure of any major sauna brand, precisely because its Nordic branding obscures Chinese manufacturing. U.S. customs import records show Sauna360 Inc. receives the vast majority of its prefabricated sauna kit shipments from two Chinese manufacturers, Wuxi Sfactor Co. and Changzhou Sfactor Co., both based in Jiangsu province. A 2022 Enterprise Minnesota report confirmed the arrangement, quoting company management saying Sauna360 "manufactures most of its free-standing sauna units in China," with those kits shipped directly to consumers for in-home assembly. At 145% tariffs, a container that cost $5,000 to ship from China in 2019 now carries a tariff bill many times the product value. Custom-built units are produced at the company's Cokato, Minnesota plant, and heaters still come from Finland and Sweden, but those segments represent a small share of volume. Sauna360 was acquired by Masco's Watkins Wellness division in July 2023 and does not publish manufacturing disclosures.</p>
 
 <h2>High Exposure: Finnish and Estonian Manufacturers (15% tariff)</h2>
-<p><strong>Harvia</strong> (Finland): The world's largest sauna equipment company manufactures across Finland, Estonia, and Germany. Its heaters, sold through a wide U.S. dealer network, face the full 15% European surcharge. However, Harvia's 2024 acquisition of ThermaSol (Texas-based) gives it a domestic manufacturing foothold for steam products.</p>
+<p><strong><a href="/article/harvia-record-q1-revenue-thermasol-integration">Harvia</a></strong> (Finland): The world's largest sauna equipment company manufactures across Finland, Estonia, and Germany. Its heaters, sold through a wide U.S. dealer network, face the full 15% European surcharge. However, Harvia's 2024 acquisition of ThermaSol (Texas-based) gives it a domestic manufacturing foothold for steam products.</p>
 
 <p><strong>HUUM</strong> (Estonia): All HIVE and DROP heaters are manufactured in Estonia. HUUM has no U.S. production. Tariff exposure is total on the heater side, though some distributors pre-stocked U.S. warehouses to buffer near-term pricing.</p>
 
@@ -811,7 +811,7 @@ export const articles: Article[] = [
 <p><strong>KLAFS</strong> (Germany, owned by Kohler): German manufacturing, facing the 15% European surcharge. Kohler's U.S. distribution network and supply chain scale give KLAFS more flexibility than standalone European brands to absorb or route around tariff costs.</p>
 
 <h2>Lower Exposure: North American Manufacturers</h2>
-<p><strong>Homecraft</strong> (Canada): Manufactured in Surrey, BC since 1988. Canadian products face their own tariff considerations (Section 232 on certain materials), but are not subject to either the China 145% or European 15% surcharges.</p>
+<p><strong><a href="/article/homecraft-wifi-sauna-controller-launch">Homecraft</a></strong> (Canada): Manufactured in Surrey, BC since 1988. Canadian products face their own tariff considerations (Section 232 on certain materials), but are not subject to either the China 145% or European 15% surcharges.</p>
 
 <p><strong>Dundalk Leisurecraft</strong> (Canada): Cedar saunas manufactured in Ontario. Similar Canadian tariff dynamics apply.</p>
 
@@ -840,7 +840,7 @@ export const articles: Article[] = [
     body: `<p>Kate Butchart didn't set out to start a sauna business. She moved to Oslo in 2018, and floating saunas became part of her weekly routine. After more than a decade abroad, she returned to the U.S. with an idea: bring authentic Nordic sauna culture to Upstate New York. <a href="https://saunafromfinland.com/news/member-news/from-oslo-to-upstate-new-york-how-kos-sauna-brings-nordic-sauna-culture-to-the-usa/" target="_blank">KOS Sauna</a>, a floating sauna on Saratoga Lake, is the result.</p>
 
 <h2>The Build</h2>
-<p>Butchart worked with Norwegian architect Bjornar Skaar Haveland to design the sauna, incorporating Finnish construction principles: multi-level seating for proper heat distribution, dedicated ventilation, a curved ceiling to improve loyly (steam) circulation, and high-quality materials throughout. It's a small operation, but it's built right.</p>
+<p>Butchart worked with Norwegian architect Bjornar Skaar Haveland to design the sauna, incorporating <a href="/article/lassi-liikkanen-finnish-sauna-design-mistakes">Finnish construction principles</a>: multi-level seating for proper heat distribution, dedicated ventilation, a curved ceiling to improve loyly (steam) circulation, and high-quality materials throughout. It's a small operation, but it's built right.</p>
 
 <p>Sessions book out weeks in advance. The demand surprised even Butchart, who initially expected a slower ramp-up in a market without an established sauna culture.</p>
 
@@ -853,7 +853,7 @@ export const articles: Article[] = [
 <strong>KOS Sauna:</strong> Floating sauna on Saratoga Lake, Upstate New York. Founded by Kate Butchart after years in Oslo. Designed with Norwegian architect Bjornar Skaar Haveland. Sessions regularly booked weeks out. Member of the <a href="https://saunafromfinland.com" target="_blank">Sauna from Finland</a> network.
 </div>
 
-<p>Butchart attended the World Sauna Forum 2024 in Finland, which deepened her understanding of Finnish sauna construction standards. She's focused on "meaningful growth" rather than rapid expansion, with potential for additional saunas and new locations down the line.</p>`,
+<p>Butchart attended the <a href="/article/world-sauna-forum-2026-jyvaskyla">World Sauna Forum</a> in Finland, which deepened her understanding of Finnish sauna construction standards. She's focused on "meaningful growth" rather than rapid expansion, with potential for additional saunas and new locations down the line.</p>`,
     featured: false,
     trending: false,
   },
@@ -882,7 +882,7 @@ export const articles: Article[] = [
 </div>
 
 <h2>Why It Matters</h2>
-<p>Hukka is a good example of the kind of company that makes the Finnish sauna supply chain distinctive: small, specialized, deeply rooted in local materials and craft traditions, but with genuine global reach. The fact that 70% of production is exported, with Japan as a leading market, speaks to the international appetite for authentic Finnish sauna products.</p>
+<p>Hukka is a good example of the kind of company that makes the Finnish sauna supply chain distinctive: small, specialized, deeply rooted in local materials and craft traditions, but with genuine global reach. The fact that 70% of production is exported, with <a href="/article/thermory-bergman-japan-partnership">Japan</a> as a leading market, speaks to the international appetite for authentic <a href="/article/lassi-liikkanen-finnish-sauna-design-mistakes">Finnish sauna</a> products.</p>
 
 <p>Under new leadership (Michel Mercier took over in 2024), the company is focused on international growth and sustainable innovation while maintaining the craft-based approach that's defined it for four decades.</p>`,
     featured: false,
@@ -915,7 +915,7 @@ export const articles: Article[] = [
 </div>
 
 <h2>Pro Sports and Sauna</h2>
-<p>The Ravens project is part of a broader trend of professional sports teams investing in dedicated sauna and cold plunge facilities as part of their recovery infrastructure. Heat therapy has strong clinical backing for muscle recovery, inflammation reduction, and cardiovascular conditioning. For NFL teams with multimillion-dollar rosters, the ROI on a well-built sauna is straightforward.</p>
+<p>The Ravens project is part of a broader trend of professional sports teams investing in dedicated sauna and <a href="/article/cold-plunge-market-380m-new-sauna-buyers">cold plunge facilities</a> as part of their recovery infrastructure. Heat therapy has strong <a href="/article/sauna-immune-system-research-laukkanen">clinical backing</a> for muscle recovery, inflammation reduction, and cardiovascular conditioning. For NFL teams with multimillion-dollar rosters, the ROI on a well-built sauna is straightforward.</p>
 
 <p>The fact that the Ravens chose Thermory's premium material and hired ZGF (not a low-budget move) suggests that pro sports teams aren't just adding saunas as afterthoughts. They're treating them as serious design and performance investments.</p>`,
     featured: false,
@@ -937,7 +937,7 @@ export const articles: Article[] = [
     body: `<p><a href="https://saunafromfinland.com" target="_blank">Sauna from Finland</a>, the Finnish industry association representing over 250 sauna companies, has <a href="https://saunafromfinland.com/news/member-news/a-strategic-alliance-for-finnish-sauna-excellence-in-europe/" target="_blank">named PoolBiz.eu as its exclusive B2B communication partner</a> for European markets. The agreement took effect February 1, 2026.</p>
 
 <h2>How It Works</h2>
-<p>Under the deal, PoolBiz.eu takes on operational responsibility for European B2B activation: developing specialized editorial content, managing a professional community focused on the spa and relaxation industries, and providing market analysis and networking opportunities for Sauna from Finland's member companies. Sauna from Finland retains its core role as brand custodian and quality standards guardian.</p>
+<p>Under the deal, PoolBiz.eu takes on operational responsibility for European B2B activation: developing specialized editorial content, managing a professional community focused on the spa and relaxation industries, and providing market analysis and networking opportunities for Sauna from Finland's member companies. <a href="/article/world-sauna-forum-2026-jyvaskyla">Sauna from Finland</a> retains its core role as brand custodian and quality standards guardian.</p>
 
 <div class="callout">
 <strong>Partnership Details:</strong> Sauna from Finland (250+ member companies) + PoolBiz.eu (European B2B media). Effective February 1, 2026. PoolBiz.eu becomes exclusive European B2B communication partner. Focus: connecting Finnish sauna manufacturers with European spa operators, installers, and architects.
@@ -967,7 +967,7 @@ export const articles: Article[] = [
     body: `<p>Lassi Liikkanen has been writing about Finnish sauna design for over a decade. He runs <a href="https://saunologia.fi" target="_blank">Saunologia.fi</a>, where he's published more than 400 articles on the technical side of sauna construction. He's written two books on the subject (Secrets of Finnish Sauna Design and the Finisana construction book, both <a href="https://finnishsaunadesign.fi/pages/knowledge" target="_blank">available globally</a>), and he provides architectural sauna design services through <a href="https://finnishsaunadesign.fi/" target="_blank">Finnish Sauna Design</a> to clients from Utah to Tampere. In a <a href="https://youtu.be/4YI4mj0eRSg" target="_blank">recent webinar now available on YouTube</a>, he walked through the fundamentals of what makes a Finnish sauna work and, more usefully, the specific design mistakes he keeps seeing in projects outside Finland.</p>
 
 <h2>What Makes a Finnish Sauna a Finnish Sauna</h2>
-<p>Liikkanen's definition is straightforward: a hot room with a visible heater containing rocks that allows people to create loyly (steam). Temperature ranges from 60 to 105 degrees Celsius (140 to 220 Fahrenheit). That range is broader than many people expect. He made a point of noting that in the landmark Finnish health studies by Professor Jari Laukkanen, the average sauna temperature used by participants was only 76 degrees Celsius, about 169 Fahrenheit. The popular idea that you need to push past 200F to get health benefits doesn't hold up in the research.</p>
+<p>Liikkanen's definition is straightforward: a hot room with a visible heater containing rocks that allows people to create loyly (steam). Temperature ranges from 60 to 105 degrees Celsius (140 to 220 Fahrenheit). That range is broader than many people expect. He made a point of noting that in the landmark Finnish health studies by <a href="/article/sauna-immune-system-research-laukkanen">Professor Jari Laukkanen</a>, the average sauna temperature used by participants was only 76 degrees Celsius, about 169 Fahrenheit. The popular idea that you need to push past 200F to get health benefits doesn't hold up in the research.</p>
 
 <p>The loyly is the key differentiator. When water hits hot rocks, it creates steam that condenses on your skin, transferring heat energy far more effectively than dry air alone. What looks like sweat in a Finnish sauna may actually be condensation. This is the mechanism that separates a Finnish sauna from an infrared cabin (dry, moderate temperature, no steam) or a steam room (fully saturated, low temperature, tiled).</p>
 
@@ -993,7 +993,7 @@ export const articles: Article[] = [
 <p>Liikkanen also flagged material choices. Spruce and pine can produce sap at high temperatures, which is fine on lower walls but becomes a problem on upper surfaces where it can get into your hair or stick to your back. And he noted that many modern saunas that look beautiful in photos are nearly impossible to keep clean, a practical consideration that often gets lost in the design process.</p>
 
 <h3>The Bottom Line</h3>
-<p>Good sauna design isn't mysterious. It comes down to getting the basics right: room size matched to heater output, benches high enough to reach the heat, ventilation balanced between air quality and heat retention, and materials that can handle the environment. The joy of a Finnish sauna, Liikkanen argues, should be reason enough to use it regularly. The longevity benefits that Professor Laukkanen's research has documented are a bonus.</p>
+<p>Good sauna design isn't mysterious. It comes down to getting the basics right: room size matched to heater output, benches high enough to reach the heat, ventilation balanced between air quality and heat retention, and materials that can handle the environment. The joy of a Finnish sauna, Liikkanen argues, should be reason enough to use it regularly. The <a href="/article/longevity-investors-case-for-sauna">longevity benefits</a> that Professor Laukkanen's research has documented are a bonus.</p>
 
 <p>The <a href="https://youtu.be/4YI4mj0eRSg" target="_blank">full webinar recording is available on YouTube</a>. Liikkanen's design services and books are at <a href="https://finnishsaunadesign.fi/" target="_blank">finnishsaunadesign.fi</a>, and his extensive library of technical articles is at <a href="https://saunologia.fi" target="_blank">Saunologia.fi</a>. Sauna Marketplace carries heaters from several of the brands discussed, including Narvi and Homecraft, that are well-suited to properly designed Finnish sauna rooms.</p>`,
     featured: true,
@@ -1055,7 +1055,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 </div>
 
 <h2>The Award and the Timing</h2>
-<p>The Air Perfect won the Golden Wave 2024 award for technical innovation at Interbad, the biennial Stuttgart trade show and one of the industry's main product showcases. That recognition came before the North American launch.</p>
+<p>The Air Perfect won the Golden Wave 2024 award for technical innovation at <a href="/article/world-sauna-forum-2026-jyvaskyla">Interbad</a>, the biennial Stuttgart trade show and one of the industry's main product showcases. That recognition came before the North American launch.</p>
 
 <p>Among the first Air Perfect units in the US is one belonging to Stephan Jenkins, the frontman of Third Eye Blind.</p>
 
@@ -1116,7 +1116,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&q=80" alt="Steam and heat in a communal sauna setting" style="width:100%;border-radius:8px;margin:1.5rem 0;" />
 
 <h2>What This Means for Operators</h2>
-<p>For sauna operators, the research offers a framework that goes beyond equipment specifications. The variables that most strongly predicted wellbeing gains, ritual, community identity, and frequency, were not about temperature settings or heater wattage. They were about programming, culture, and consistency.</p>
+<p>For <a href="/article/bathhouse-120m-revenue-social-sauna">sauna operators</a>, the research offers a framework that goes beyond equipment specifications. The variables that most strongly predicted wellbeing gains, ritual, community identity, and frequency, were not about temperature settings or heater wattage. They were about programming, culture, and consistency.</p>
 
 <p>Operators who invest in trained sauna masters, regular aufguss programming, and deliberate community building are not just offering an experience people enjoy. Per this research, they are producing measurable mental health outcomes in their customers. That is a different value proposition than a hot room.</p>
 
@@ -1132,7 +1132,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 </div>
 
 <div class="why-it-matters">
-<p>The sauna industry has spent years making the physiological case for regular use: cardiovascular benefits, heat shock proteins, the 2015 KIHD study's 40% reduction in all-cause mortality for frequent users. This research adds a distinct dimension. The community experience is not just an amenity that keeps customers coming back. It is a meaningful variable in the health outcomes the sauna produces. For a market increasingly courted by wellness-minded consumers who want more than a hot room, that finding is worth building around.</p>
+<p>The sauna industry has spent years making the physiological case for regular use: cardiovascular benefits, heat shock proteins, the <a href="/article/longevity-investors-case-for-sauna">2015 KIHD study's 40% reduction in all-cause mortality</a> for frequent users. This research adds a distinct dimension. The community experience is not just an amenity that keeps customers coming back. It is a meaningful variable in the health outcomes the sauna produces. For a market increasingly courted by wellness-minded consumers who want more than a hot room, that finding is worth building around.</p>
 </div>`,
     featured: false,
     trending: true,
@@ -1151,7 +1151,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
     readingTime: 6,
     featuredImage: 'https://huumsauna.com/wp-content/uploads/2025/06/huum-core-leil-guy.jpg',
     imageCaption: 'The HUUM Core in use: the stone basket sits flush at bench height, allowing bathers to ladle water without reaching to the floor.',
-    body: `<p>HUUM, the Estonian heater maker known for its sculptural DROP and HIVE designs, has brought its Core series to the US market. Its central design idea is one no American-made electric heater has matched: the unit accepts factory-engineered wood panels in alder, aspen, or thermo-aspen, the same species used to build most North American sauna interiors. Clad correctly, the heater disappears into the bench.</p>
+    body: `<p>HUUM, the Estonian heater maker known for its sculptural <a href="/article/huum-air-tunnel-upgrade-heater-line">DROP and HIVE designs</a>, has brought its Core series to the US market. Its central design idea is one no American-made electric heater has matched: the unit accepts factory-engineered wood panels in alder, aspen, or thermo-aspen, the same species used to build most North American sauna interiors. Clad correctly, the heater disappears into the bench.</p>
 
 <p>That is not a small thing if you care about how a sauna looks. Most residential electric heaters are industrial objects surrounded by a wood guard rail. The Core is designed to sit inside the bench structure itself, with only the stone basket visible above the bench surface. The effect is something closer to what you see in high-end spa installations, without the custom metalwork bill.</p>
 
@@ -1173,7 +1173,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 <h2>Certified to 230°F</h2>
 <p>The Core carries an SGS certification rather than a standard UL listing. SGS is an OSHA-recognized Nationally Recognized Testing Laboratory, and its certifications are accepted by US building inspectors. The difference matters here: standard UL-listed electric sauna heaters in the US are capped at 194°F (90°C). The Core's SGS certification allows it to reach 230°F (110°C).</p>
 
-<p>That 36-degree gap is meaningful in practice. Traditional Finnish sauna protocols frequently require temperatures above 200°F to produce the cardiovascular and heat-shock protein responses associated with regular bathing. The Core is tested against UL 60335-1, CAN/CSA-C22.2 NO. 60335-1, and IEC 60335-2-53. The certification is legitimate and code-compliant; the higher ceiling just reflects European test standards rather than domestic ones.</p>
+<p>That 36-degree gap is meaningful in practice. Traditional Finnish sauna protocols frequently require temperatures above 200°F to produce the <a href="/article/longevity-investors-case-for-sauna">cardiovascular and heat-shock protein responses</a> associated with regular bathing. The Core is tested against UL 60335-1, CAN/CSA-C22.2 NO. 60335-1, and IEC 60335-2-53. The certification is legitimate and code-compliant; the higher ceiling just reflects European test standards rather than domestic ones.</p>
 
 <p>For outdoor saunas, saunas with substantial glass walls, or rooms that struggle to hold heat, the additional thermal headroom is a practical advantage, not a spec sheet number.</p>
 
@@ -1221,7 +1221,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
     body: `<p>ProSaunas, the Minnesota-based sauna door manufacturer, has added a 26" x 72" option to its Prehung Douglas Fir Sauna Door with Insulated Glass lineup. It is the first size under 80 inches in the insulated glass series, and it fills a gap that has been quietly frustrating a specific slice of the US sauna market: builders working in basement rooms, converted utility spaces, and compact backyard cabins where standard door heights simply don't fit.</p>
 
 <h2>Why Door Height Actually Matters in a Sauna</h2>
-<p>This is not purely a carpentry problem. In a traditional Finnish sauna, a lower door opening is a deliberate thermal strategy. Heat rises and collects at the ceiling. A shorter door keeps the coldest air near the floor, where it belongs, rather than spilling it out every time the door swings open. Bench height typically sits at 36 to 48 inches. The sweet spot for heat retention at the bather's level is maintained better in a room where the door top doesn't extend far above it.</p>
+<p>This is not purely a carpentry problem. In a <a href="/article/lassi-liikkanen-finnish-sauna-design-mistakes">traditional Finnish sauna</a>, a lower door opening is a deliberate thermal strategy. Heat rises and collects at the ceiling. A shorter door keeps the coldest air near the floor, where it belongs, rather than spilling it out every time the door swings open. Bench height typically sits at 36 to 48 inches. The sweet spot for heat retention at the bather's level is maintained better in a room where the door top doesn't extend far above it.</p>
 
 <p>Most US sauna doors are sold in 80-inch heights because that is what standard residential framing accommodates. Rooms built specifically for sauna use, particularly older basement conversions and detached outbuildings with modest ceiling heights, often can't accommodate 80-inch doors without structural modification. Until now, ProSaunas' options stopped at 80 inches. The 26" x 72" slots in below that threshold.</p>
 
