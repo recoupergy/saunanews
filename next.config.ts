@@ -9,6 +9,25 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
+  async redirects() {
+    return [
+      {
+        source: '/article/saunalife-modular-backyard-sauna-two-hour-assembly',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/article/daily-brief-april-7-2026',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/article/tylo-sense-series-redesign-whisper-quiet',
+        destination: '/',
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {
@@ -51,6 +70,10 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'huumsauna.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'huum.ee',
       },
       {
         protocol: 'https',

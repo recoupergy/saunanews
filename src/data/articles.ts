@@ -391,37 +391,6 @@ export const articles: Article[] = [
     trending: false,
   },
   {
-    id: '12',
-    title: 'Tylö Unveils Redesigned Sense Series with Whisper-Quiet Operation',
-    slug: 'tylo-sense-series-redesign-whisper-quiet',
-    dek: 'The Swedish manufacturer\'s flagship residential heater line gets a complete overhaul focused on acoustics and aesthetics.',
-    excerpt: 'Tylö has introduced a fully redesigned Sense heater series, featuring a new convection system that reduces operating noise by 60% and a minimalist Scandinavian design language.',
-    contentType: 'Product Launch',
-    category: 'Product Launches',
-    tags: ['Tylö', 'heater', 'residential', 'design', 'Sweden', 'quiet operation'],
-    author: authors.sofia,
-    publishDate: '2023-06-15',
-    readingTime: 4,
-    featuredImage: 'https://www.steamsaunabath.com/sites/default/files/styles/large/public/2025-08/home-sauna-heaters-ssb-home_0.jpg',
-    body: `<p>Tylo, the Swedish sauna brand now part of the Sauna360 group (which also includes Helo, Finnleo, Kastor, and Amerec), has unveiled a redesigned Sense heater series, its core residential product line. The new Sense models feature a re-engineered convection system that Tylo says significantly reduces operating noise compared to the previous generation, addressing one of the most common consumer complaints about electric sauna heaters.</p>
-
-<h2>Design and Engineering</h2>
-<p>The redesigned Sense heaters feature a new outer shell designed in collaboration with Stockholm-based Note Design Studio, a multidisciplinary design firm founded in 2008. The aesthetic is deliberately minimal: clean lines, a matte charcoal finish, and a sculptural form that's intended to complement modern interior architecture rather than announce itself.</p>
-
-<p>Internally, the new convection system uses a redesigned airflow geometry that reduces turbulence, the primary source of noise in electric heaters with fans. Tylo says the result is a heater that's near-silent during operation.</p>
-
-<blockquote>Sound matters in a sauna. Our research showed it was the number-two complaint after heat-up time. We solved both.</blockquote>
-
-<div class="callout">
-<strong>Sense Series:</strong> Available in 4.5kW, 6kW, 8kW, and 9kW. Includes Sense Sport, Sense Bliss, Sense Pure, and Sense Elite variants. WiFi connectivity via Tylo's control systems. Compatible with Tylo's Pure humidity system.
-</div>
-
-<h2>Market Context</h2>
-<p>The residential sauna heater market has become increasingly competitive, with manufacturers differentiating on design, connectivity, and user experience rather than raw performance. Tylo's focus on acoustics represents a distinct angle that could resonate with design-conscious buyers. The Sauna360 group's portfolio, spanning Tylo (Swedish design), Helo (Finnish heritage), and Amerec (U.S. distribution), gives it broad market coverage, though the multi-brand structure can also create internal competition.</p>`,
-    featured: false,
-    trending: false,
-  },
-  {
     id: '13',
     title: 'Equinox Expands Sauna Offerings Across 15 Flagship Locations',
     slug: 'equinox-expands-sauna-offerings-flagship-locations',
@@ -527,37 +496,6 @@ export const articles: Article[] = [
     trending: false,
   },
   {
-    id: '16',
-    title: 'SaunaLife Introduces Modular Backyard Sauna with Two-Hour Assembly',
-    slug: 'saunalife-modular-backyard-sauna-two-hour-assembly',
-    dek: 'The brand, part of Bathing Brands Inc., targets first-time buyers with modular outdoor saunas designed for straightforward assembly.',
-    excerpt: 'SaunaLife, the sauna brand under Bathing Brands Inc., has been gaining traction with its modular outdoor sauna lineup. The cube and barrel designs, manufactured in Northern Europe using thermally modified wood, aim to lower the barrier to entry for first-time sauna buyers.',
-    contentType: 'Product Launch',
-    category: 'Product Launches',
-    tags: ['SaunaLife', 'modular sauna', 'outdoor', 'residential', 'flat-pack', 'assembly'],
-    author: authors.sofia,
-    publishDate: '2022-03-15',
-    readingTime: 4,
-    featuredImage: 'https://images.unsplash.com/photo-1757937176646-d943553b5f09?w=1200&q=80',
-    body: `<p>SaunaLife, the sauna brand under Bathing Brands Inc. (headquartered in Wheeling, Illinois, with manufacturing in Estonia), has been building a following with its modular outdoor sauna designs. The lineup spans cube-style models like the CL4G and CL5G, plus the Ergo barrel sauna series, all built from thermally modified spruce and aspen sourced from Northern Europe.</p>
-
-<h2>Product Approach</h2>
-<p>SaunaLife's cube models are designed for relatively straightforward assembly. The CL4G, a 3-person cube sauna with a full glass front wall, uses thermo-spruce exterior panels and thermo-aspen interior benching. The Ergo barrel series (E6, E7, E8) targets buyers who want the barrel aesthetic with premium materials.</p>
-
-<p>All models ship with electric heaters (typically 6kW on 240V dedicated circuits for the smaller models) and are positioned in the mid-to-upper range of the outdoor sauna market, with prices starting around $7,000 and ranging well above $15,000 for larger configurations.</p>
-
-<blockquote>The number one reason people don't buy an outdoor sauna isn't price. It's the perceived hassle of installation.</blockquote>
-
-<div class="callout">
-<strong>SaunaLife Overview:</strong> Brand under Bathing Brands Inc. (Wheeling, IL). Manufacturing in Estonia. Product lines: CL-series cube saunas, Ergo barrel saunas. Materials: thermally modified spruce and aspen. Electric heaters (6-9kW) on 240V circuits.
-</div>
-
-<h2>Market Position</h2>
-<p>SaunaLife's approach reflects a broader trend toward reducing friction in the outdoor sauna purchase journey. As the category has moved from niche to mainstream, manufacturers are competing not just on product quality but on ease of purchase, delivery, and installation. SaunaLife competes against Dundalk Leisurecraft's cedar barrel models, Almost Heaven's offerings, and the growing wave of direct-from-factory imports.</p>`,
-    featured: false,
-    trending: false,
-  },
-  {
     id: '17',
     title: 'How Japanese Onsen Culture Is Influencing Western Sauna Design',
     slug: 'japanese-onsen-influence-western-sauna-design',
@@ -590,36 +528,6 @@ export const articles: Article[] = [
 <p>For sauna manufacturers and equipment suppliers, the Japanese design influence creates both opportunities and challenges. Demand for more refined finishes, natural stone integration, and custom proportions is growing, but these requirements often push beyond what standard product catalogs offer.</p>
 
 <p>The convergence of Nordic and Japanese bathing aesthetics may be one of the most significant design trends shaping the commercial sauna and wellness market in the coming decade.</p>`,
-    featured: false,
-    trending: false,
-  },
-  {
-    id: '18',
-    title: 'Daily Brief: Brooklyn Sauna Festival Draws 50,000, KLAFS Eyes U.S. Expansion',
-    slug: 'daily-brief-april-7-2026',
-    dek: 'Today\'s top stories: Culture of Bathe-ing festival wraps record run, KLAFS plans U.S. facility, and wellness real estate surges past $439 billion.',
-    excerpt: 'Your morning briefing: The Culture of Bathe-ing festival on Brooklyn\'s Williamsburg waterfront wrapped its three-week run with 17 architecturally distinct saunas and over 1,000 guided sessions. Plus: KLAFS expansion plans and the latest wellness real estate data.',
-    contentType: 'Daily Brief',
-    category: 'Manufacturer News',
-    tags: ['daily brief', 'KLAFS', 'building codes', 'Four Seasons', 'distribution'],
-    author: authors.elise,
-    publishDate: '2024-11-18',
-    readingTime: 3,
-    featuredImage: 'https://images.unsplash.com/photo-1656416212216-cf05b2af2650?w=1200&q=80',
-    body: `<p>Good morning. Here's what's moving in the sauna industry today.</p>
-
-<h2>KLAFS Expanding North American Presence</h2>
-<p>KLAFS, the German sauna manufacturer acquired by Kohler in 2023, continues to expand its North American commercial business. The company's growing presence in the luxury hotel and fitness segments has been boosted by the Kohler partnership, which provides distribution infrastructure and an established dealer network across the U.S. and Canada.</p>
-
-<h2>California Updates Outdoor Sauna Building Codes</h2>
-<p>The California Building Standards Commission has approved updated guidelines for residential outdoor sauna installations, streamlining the permitting process and reducing setback requirements in several jurisdictions. The changes, effective September 1, are expected to reduce installation timelines and costs for homeowners. Industry groups have been advocating for these updates for over two years.</p>
-
-<h2>Four Seasons Investing in Thermal Bathing Experiences</h2>
-<p>Four Seasons Hotels is incorporating dedicated thermal bathing facilities into several upcoming properties, working with Finnish design consultants on sauna and bathing concepts. The projects reportedly span Southern Europe and Southeast Asia. Sauna from Finland, the Finnish industry association with over 250 member companies, has been promoting Finnish sauna expertise to the global hospitality sector through its <a href="https://saunafromfinland.com" target="_blank">industry network</a>.</p>
-
-<div class="callout">
-<strong>Also Worth Noting:</strong> Sauna stone supplier Hukka Design reported a 30% increase in Q1 orders, driven by commercial project demand. Canadian barrel sauna manufacturer Leisurecraft has expanded its dealer network to include 45 new locations across the U.S. Midwest.
-</div>`,
     featured: false,
     trending: false,
   },
@@ -1227,6 +1135,75 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 <p>The sauna industry has spent years making the physiological case for regular use: cardiovascular benefits, heat shock proteins, the 2015 KIHD study's 40% reduction in all-cause mortality for frequent users. This research adds a distinct dimension. The community experience is not just an amenity that keeps customers coming back. It is a meaningful variable in the health outcomes the sauna produces. For a market increasingly courted by wellness-minded consumers who want more than a hot room, that finding is worth building around.</p>
 </div>`,
     featured: false,
+    trending: true,
+  },
+  {
+    id: '34',
+    title: 'HUUM Core Now in the US: The Only Electric Heater That Disappears Into Your Bench',
+    slug: 'huum-core-us-launch-bench-embedded-wood-heater',
+    dek: 'The Estonian-made HUUM Core can be clad in the same wood as your sauna walls and benches, making it the first electric heater designed to visually vanish into the room.',
+    excerpt: 'HUUM\'s Core electric sauna heater is now available in the US through Sauna Marketplace. Its defining trick: a modular exterior that accepts custom wood panels in alder, aspen, or thermo-aspen, so the heater blends seamlessly into the sauna architecture rather than sitting in front of it.',
+    contentType: 'Product Launch',
+    category: 'Product Launches',
+    tags: ['HUUM', 'product launch', 'electric heater', 'Estonia', 'design', 'bench installation'],
+    author: authors.sofia,
+    publishDate: '2026-04-10',
+    readingTime: 6,
+    featuredImage: 'https://huumsauna.com/wp-content/uploads/2025/06/huum-core-leil-guy.jpg',
+    imageCaption: 'The HUUM Core in use: the stone basket sits flush at bench height, allowing bathers to ladle water without reaching to the floor.',
+    body: `<p>HUUM, the Estonian heater maker known for its sculptural DROP and HIVE designs, has made its Core series available in the US. The Core is now stocked and shipping through Sauna Marketplace. Its central design idea is one no American-made electric heater has matched: the unit accepts factory-engineered wood panels in alder, aspen, or thermo-aspen, the same species used to build most North American sauna interiors. Clad correctly, the heater disappears into the bench.</p>
+
+<p>That is not a small thing if you care about how a sauna looks. Most residential electric heaters are industrial objects surrounded by a wood guard rail. The Core is designed to sit inside the bench structure itself, with only the stone basket visible above the bench surface. The effect is something closer to what you see in high-end spa installations, without the custom metalwork bill.</p>
+
+<img src="https://huumsauna.com/wp-content/uploads/2025/06/huum-core-leil-winter.jpg" alt="HUUM Core electric sauna heater in a winter outdoor sauna setting" style="width:100%;border-radius:8px;margin:1.5rem 0;" />
+
+<h2>What Makes It Different</h2>
+<p>The Core is bench-embeddable by design. Its double-wall chassis requires only 2 inches of clearance from combustible materials, a fraction of what most competitors need. That tight clearance makes it physically possible to frame the heater into a bench structure and surround it with matching wood. Air must remain unobstructed at the base to keep the convection cycle running, but the sides and visible surfaces can be finished to match the room exactly.</p>
+
+<img src="https://huum.ee/wp-content/uploads/2023/02/h3013031_core_haab_puitpaneel_web.jpg" alt="HUUM Core with thermo-aspen wood panels blending into sauna interior" style="width:100%;border-radius:8px;margin:1.5rem 0;" />
+
+<p>HUUM sells three factory-engineered wood panel kits for the Core. Alder offers a warm reddish-brown tone and strong dimensional stability. Aspen runs light and knot-free, staying cool enough to the touch to reduce burn risk. Thermo-aspen has been heat-treated to a rich chocolate color and resists moisture better than untreated wood, making it a longer-lasting choice in high-humidity conditions. All three species are standard in North American sauna interiors. If your benches are thermo-aspen, your heater can be thermo-aspen.</p>
+
+<p>The alternative option is the Core ST (also called the Naked variant), which ships without exterior panels entirely. Builders can attach custom cladding in natural stone, ceramic tile, tempered glass, or their own woodwork. Side panels are limited to 44 lbs each and attached with included M5x8 screws. For projects with bespoke architectural requirements, this is the version to specify.</p>
+
+<p>The ready-to-install option is the Core Black, which has a matte black metal exterior with matching black inlays. No carpentry required, ships and installs as a finished unit.</p>
+
+<img src="https://huum.ee/wp-content/uploads/2023/02/h3013011_core_lepp_puitpaneel_web.jpg" alt="HUUM Core with alder wood panels" style="width:100%;border-radius:8px;margin:1.5rem 0;" />
+
+<h2>Certified to 230°F</h2>
+<p>The Core carries an SGS certification rather than a standard UL listing. SGS is an OSHA-recognized Nationally Recognized Testing Laboratory, and its certifications are accepted by US building inspectors. The difference matters here: standard UL-listed electric sauna heaters in the US are capped at 194°F (90°C). The Core's SGS certification allows it to reach 230°F (110°C).</p>
+
+<p>That 36-degree gap is meaningful in practice. Traditional Finnish sauna protocols frequently require temperatures above 200°F to produce the cardiovascular and heat-shock protein responses associated with regular bathing. The Core is tested against UL 60335-1, CAN/CSA-C22.2 NO. 60335-1, and IEC 60335-2-53. The certification is legitimate and code-compliant; the higher ceiling just reflects European test standards rather than domestic ones.</p>
+
+<p>For outdoor saunas, saunas with substantial glass walls, or rooms that struggle to hold heat, the additional thermal headroom is a practical advantage, not a spec sheet number.</p>
+
+<h2>Specs and Sizing</h2>
+<p>The Core ships in three power ratings: 6.5 kW (CORE 6), 9.0 kW (CORE 9), and 10.5 kW (CORE 11). All three share the same exterior dimensions: 32.7 inches tall, 15.2 inches square. That consistent footprint means framing and bench cutouts can be standardized regardless of which kilowatt version a given room requires. The heater weighs 41.9 lbs before stones.</p>
+
+<p>Stone capacity is 66 lbs (30 kg) of olivine diabase, loaded in rounded 2-to-4-inch pieces. The stone mass is substantial enough to support repeated water applications without the temperature dropping sharply between rounds. Löyly quality is the right word for it: the steam produced by a well-loaded stone basket at operating temperature is soft rather than harsh, and the Core's stone-forward design prioritizes that over raw air temperature.</p>
+
+<div class="callout">
+<strong>Core at a Glance:</strong> Available in 6.5, 9.0, and 10.5 kW. Dimensions: 32.7" H × 15.2" W × 15.2" D (all power ratings). Stone capacity: 66 lbs olivine diabase. Max certified temp: 230°F. Clearance required: 2" from combustible materials. SGS certified (OSHA-recognized NRTL). Compatible with 240V and 208V. IPX4 moisture rated.
+</div>
+
+<p>Electrical requirements follow standard US residential specs. The 6.5 kW model draws 25 amps and requires a 30-amp breaker on 10 AWG wire. The 9.0 and 10.5 kW models draw 37.5 to 43.75 amps and require a 50-amp breaker on 8 AWG wire. The unit is also compatible with 208V commercial power grids, though the output derate reduces effective kilowatt delivery proportionally.</p>
+
+<h2>The UKU Controller</h2>
+<p>The Core does not operate standalone. It requires a UKU control unit, which must be purchased alongside the heater. The UKU contains the logic board, contactors, and safety sensors. It mounts outside the sauna room and connects to a door sensor that cuts power if the door is left open.</p>
+
+<p>The Wi-Fi version of the UKU connects the heater to the HUUM mobile app (iOS and Android), allowing remote activation and temperature monitoring from anywhere with a data connection. Because the Core's 66-pound stone mass takes 45 to 60 minutes to reach optimal temperature, remote start is genuinely useful rather than a gimmick. Set the heater from the office, walk in the door when it's ready.</p>
+
+<p>The UKU controller console supports temperatures between 104°F and 230°F, allows delayed start up to 48 hours in advance, and is available in multiple finishes including black, glass, mirror, gold, and wood housings.</p>
+
+<h2>Available Now Through Sauna Marketplace</h2>
+<p>Sauna Marketplace has the Core in stock across all three power ratings and panel finish options. The unit ships freight on a pallet to the contiguous 48 states. Orders can be canceled at no charge before the shipment leaves the warehouse, which matters for builders coordinating around permit timelines. Warranty coverage is three years for residential use, one year for commercial. Heating elements are excluded from warranty across all variants, which is standard in the industry.</p>
+
+<p>For buyers sizing the heater, Sauna Marketplace offers free one-on-one video and phone consultations. Given the electrical requirements, the bench framing specifications, and the cubic footage calculations that shift based on glass or stone surfaces in the room, that resource is worth using before ordering.</p>
+
+<div class="why-it-matters">
+<p>Wood-clad sauna heaters exist in the European market. In the US, they have been a custom fabrication problem: expensive to execute and dependent on finding a builder who knows how to frame a heater safely into a bench. The Core makes this a product decision rather than a construction problem. For anyone building a sauna where the aesthetic matters as much as the performance, that changes the calculus significantly.</p>
+</div>`,
+    featured: true,
     trending: true,
   },
 ];
