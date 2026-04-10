@@ -14,9 +14,23 @@ export function generateMetadata({ params }: { params: Promise<{ slug: string }>
   return params.then(({ slug }) => {
     const cat = getCategoryBySlug(slug);
     if (!cat) return { title: 'Category Not Found' };
+    const canonicalUrl = `https://saunanews.com/category/${cat.slug}`;
     return {
       title: cat.name,
       description: cat.description,
+      alternates: { canonical: canonicalUrl },
+      openGraph: {
+        title: `${cat.name} | SaunaNews`,
+        description: cat.description,
+        type: 'website',
+        url: canonicalUrl,
+        siteName: 'SaunaNews',
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title: `${cat.name} | SaunaNews`,
+        description: cat.description,
+      },
     };
   });
 }
@@ -33,8 +47,28 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
   const featured = allArticles[0];
   const rest = allArticles.slice(1);
 
+  const categoryUrl = `https://saunanews.com/category/${category.slug}`;
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://saunanews.com' },
+      { '@type': 'ListItem', position: 2, name: category.name, item: categoryUrl },
+    ],
+  };
+  const collectionJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: `${category.name} — SaunaNews`,
+    description: category.description,
+    url: categoryUrl,
+    publisher: { '@type': 'Organization', name: 'SaunaNews', url: 'https://saunanews.com' },
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }} />
       {/* Header */}
       <section className="bg-cream dark:bg-dark-bg border-b border-border dark:border-dark-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

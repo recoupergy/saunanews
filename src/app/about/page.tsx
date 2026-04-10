@@ -3,8 +3,24 @@ import Link from 'next/link';
 import NewsletterSignup from '@/components/NewsletterSignup';
 
 export const metadata: Metadata = {
-  title: 'About',
-  description: 'About SaunaNews — the modern publication covering the sauna industry.',
+  title: 'About SaunaNews',
+  description:
+    'SaunaNews is the modern publication for the sauna industry — covering manufacturers, market trends, products, and wellness culture with editorial independence.',
+  alternates: { canonical: 'https://saunanews.com/about' },
+  openGraph: {
+    title: 'About SaunaNews',
+    description:
+      'SaunaNews is the modern publication for the sauna industry — covering manufacturers, market trends, products, and wellness culture with editorial independence.',
+    type: 'website',
+    url: 'https://saunanews.com/about',
+    siteName: 'SaunaNews',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'About SaunaNews',
+    description:
+      'SaunaNews is the modern publication for the sauna industry — covering manufacturers, market trends, products, and wellness culture with editorial independence.',
+  },
 };
 
 export default function AboutPage() {
@@ -36,8 +52,30 @@ export default function AboutPage() {
     { label: 'Enthusiasts', desc: 'Go deeper into the industry behind the products and experiences you love' },
   ];
 
+  const orgJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'NewsMediaOrganization',
+    name: 'SaunaNews',
+    url: 'https://saunanews.com',
+    description:
+      'SaunaNews is the modern publication for the sauna industry, covering manufacturers, market trends, products, and wellness culture.',
+    logo: { '@type': 'ImageObject', url: 'https://saunanews.com/favicon.svg' },
+    sameAs: ['https://twitter.com/saunanews'],
+    foundingDate: '2025',
+    knowsAbout: [
+      'Sauna industry',
+      'Sauna manufacturers',
+      'Thermal wellness',
+      'Finnish sauna',
+      'Cold plunge',
+      'Sauna market trends',
+    ],
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }} />
+
       {/* Hero */}
       <section className="bg-cream dark:bg-dark-bg border-b border-border dark:border-dark-border">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">

@@ -13,9 +13,23 @@ export function generateMetadata({ params }: { params: Promise<{ slug: string }>
   return params.then(({ slug }) => {
     const author = getAuthorBySlug(slug);
     if (!author) return { title: 'Author Not Found' };
+    const canonicalUrl = `https://saunanews.com/author/${author.slug}`;
     return {
-      title: `${author.name} - ${author.role}`,
+      title: `${author.name} — ${author.role}`,
       description: author.bio,
+      alternates: { canonical: canonicalUrl },
+      openGraph: {
+        title: `${author.name} — ${author.role} | SaunaNews`,
+        description: author.bio,
+        type: 'profile',
+        url: canonicalUrl,
+        siteName: 'SaunaNews',
+      },
+      twitter: {
+        card: 'summary',
+        title: `${author.name} — ${author.role} | SaunaNews`,
+        description: author.bio,
+      },
     };
   });
 }
@@ -30,8 +44,30 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
 
   const authorArticles = getArticlesByAuthorSlug(slug);
 
+  const authorUrl = `https://saunanews.com/author/${author.slug}`;
+  const personJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: author.name,
+    jobTitle: author.role,
+    worksFor: { '@type': 'Organization', name: 'SaunaNews', url: 'https://saunanews.com' },
+    url: authorUrl,
+    description: author.bio,
+  };
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://saunanews.com' },
+      { '@type': 'ListItem', position: 2, name: 'Authors', item: 'https://saunanews.com/authors' },
+      { '@type': 'ListItem', position: 3, name: author.name, item: authorUrl },
+    ],
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       {/* Author Header */}
       <section className="bg-cream dark:bg-dark-bg border-b border-border dark:border-dark-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">

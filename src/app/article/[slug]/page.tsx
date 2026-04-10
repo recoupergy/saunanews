@@ -21,6 +21,7 @@ export function generateMetadata({ params }: { params: Promise<{ slug: string }>
   return params.then(({ slug }) => {
     const article = getArticleBySlug(slug);
     if (!article) return { title: 'Article Not Found' };
+    const canonicalUrl = `https://saunanews.com/article/${article.slug}`;
     return {
       title: article.title,
       description: article.dek,
@@ -28,19 +29,24 @@ export function generateMetadata({ params }: { params: Promise<{ slug: string }>
         title: article.title,
         description: article.dek,
         type: 'article',
+        url: canonicalUrl,
         publishedTime: article.publishDate,
         authors: [article.author.name],
         section: article.category,
         tags: article.tags,
         siteName: 'SaunaNews',
+        ...(article.featuredImage
+          ? { images: [{ url: article.featuredImage, width: 1200, height: 675, alt: article.title }] }
+          : {}),
       },
       twitter: {
         card: 'summary_large_image',
         title: article.title,
         description: article.dek,
+        ...(article.featuredImage ? { images: [article.featuredImage] } : {}),
       },
       alternates: {
-        canonical: `/article/${article.slug}`,
+        canonical: canonicalUrl,
       },
     };
   });
@@ -58,29 +64,51 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     .filter((a) => a.id !== article.id)
     .slice(0, 3);
 
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'NewsArticle',
-    headline: article.title,
-    description: article.dek,
-    datePublished: article.publishDate,
-    author: {
-      '@type': 'Person',
-      name: article.author.name,
-      jobTitle: article.author.role,
+  const categorySlug = article.category.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-');
+  const articleUrl = `https://saunanews.com/article/${article.slug}`;
+
+  const jsonLd = [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'NewsArticle',
+      headline: article.title,
+      description: article.dek,
+      datePublished: article.publishDate,
+      dateModified: article.publishDate,
+      url: articleUrl,
+      ...(article.featuredImage ? { image: article.featuredImage } : {}),
+      author: {
+        '@type': 'Person',
+        name: article.author.name,
+        jobTitle: article.author.role,
+        url: `https://saunanews.com/author/${article.author.slug}`,
+      },
+      publisher: {
+        '@type': 'Organization',
+        name: 'SaunaNews',
+        url: 'https://saunanews.com',
+        logo: {
+          '@type': 'ImageObject',
+          url: 'https://saunanews.com/favicon.svg',
+        },
+      },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': articleUrl,
+      },
+      articleSection: article.category,
+      keywords: article.tags.join(', '),
     },
-    publisher: {
-      '@type': 'Organization',
-      name: 'SaunaNews',
-      url: 'https://saunanews.com',
+    {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://saunanews.com' },
+        { '@type': 'ListItem', position: 2, name: article.category, item: `https://saunanews.com/category/${categorySlug}` },
+        { '@type': 'ListItem', position: 3, name: article.title, item: articleUrl },
+      ],
     },
-    mainEntityOfPage: {
-      '@type': 'WebPage',
-      '@id': `https://saunanews.com/article/${article.slug}`,
-    },
-    articleSection: article.category,
-    keywords: article.tags.join(', '),
-  };
+  ];
 
   return (
     <>
