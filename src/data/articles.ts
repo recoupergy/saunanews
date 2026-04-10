@@ -887,22 +887,23 @@ export const articles: Article[] = [
     publishDate: '2026-03-15',
     readingTime: 6,
     featuredImage: 'https://images.unsplash.com/photo-1759300031446-88e81c8a26c9?w=1200&q=80',
-    body: `<p>Not all sauna brands face the same tariff exposure. The current trade environment has created two distinct tariff tiers: a 145% surcharge on Chinese imports and a 15% Section 122 surcharge on European goods. Where a brand actually makes its products, not where it's headquartered, determines its exposure. Here's how the major brands stack up.</p>
+    body: `<p>Not all sauna brands face the same tariff exposure. The current trade environment has created two distinct tiers: a 145% surcharge on Chinese imports and a 15% Section 122 surcharge on European goods. Where a brand actually manufactures its products, not where it's headquartered, determines its exposure. Here's how the major brands stack up.</p>
 
-<h2>Extreme Exposure: Chinese Manufacturing</h2>
-<p><strong>Harvia</strong> (Finland): The world's largest sauna equipment company manufactures across Finland, Estonia, and Germany. Its heaters, sold through a wide U.S. dealer network, face the full tariff stack. However, Harvia's 2024 acquisition of ThermaSol (Texas-based) gives it a domestic manufacturing foothold for steam products.</p>
+<h2>Extreme Exposure: Chinese Manufacturing (145% tariff)</h2>
+<p><strong>Sauna360 / TyloHelo</strong> (Sweden/Finland): The parent company of Tylo, Helo, Finnleo, and Amerec faces the worst tariff exposure of any major sauna brand, precisely because its Nordic branding obscures Chinese manufacturing. U.S. customs import records show Sauna360 Inc. receives the vast majority of its prefabricated sauna kit shipments from two Chinese manufacturers, Wuxi Sfactor Co. and Changzhou Sfactor Co., both based in Jiangsu province. A 2022 Enterprise Minnesota report confirmed the arrangement, quoting company management saying Sauna360 "manufactures most of its free-standing sauna units in China," with those kits shipped directly to consumers for in-home assembly. At 145% tariffs, a container that cost $5,000 to ship from China in 2019 now carries a tariff bill many times the product value. Custom-built units are produced at the company's Cokato, Minnesota plant, and heaters still come from Finland and Sweden, but those segments represent a small share of volume. Sauna360 was acquired by Masco's Watkins Wellness division in July 2023 and does not publish manufacturing disclosures.</p>
+
+<h2>High Exposure: Finnish and Estonian Manufacturers (15% tariff)</h2>
+<p><strong>Harvia</strong> (Finland): The world's largest sauna equipment company manufactures across Finland, Estonia, and Germany. Its heaters, sold through a wide U.S. dealer network, face the full 15% European surcharge. However, Harvia's 2024 acquisition of ThermaSol (Texas-based) gives it a domestic manufacturing foothold for steam products.</p>
 
 <p><strong>HUUM</strong> (Estonia): All HIVE and DROP heaters are manufactured in Estonia. HUUM has no U.S. production. Tariff exposure is total on the heater side, though some distributors pre-stocked U.S. warehouses to buffer near-term pricing.</p>
 
 <p><strong><a href="https://thermory.com" target="_blank">Thermory</a></strong> (Estonia): The world's largest thermowood producer ships from Estonian and Finnish factories. Thermally modified wood is a key material for outdoor sauna construction. Thermory does maintain U.S. warehouse operations, but the product still enters the country as an import.</p>
 
-<h2>High Exposure: Finnish and Estonian Heater Brands</h2>
-<p><strong>Sauna360 / TyloHelo</strong> (Sweden/Finland): The parent company of Tylo, Helo, Finnleo, and Amerec faces the worst tariff exposure of any major sauna brand, precisely because its Nordic branding obscures Chinese manufacturing. U.S. customs import records show Sauna360 Inc. receives the vast majority of its prefabricated sauna kit shipments from two Chinese manufacturers, Wuxi Sfactor Co. and Changzhou Sfactor Co., both based in Jiangsu province. A 2022 Enterprise Minnesota report confirmed the arrangement, quoting company management saying Sauna360 "manufactures most of its free-standing sauna units in China," with those kits shipped directly to consumers for in-home assembly. At 145% tariffs, a container that cost $5,000 to ship from China in 2019 now carries a tariff bill many times the product value. Custom-built units are produced at the company's Cokato, Minnesota plant, and heaters still come from Finland and Sweden, but those segments represent a small share of volume. Sauna360 was acquired by Masco's Watkins Wellness division in July 2023 and does not publish manufacturing disclosures.</p>
-
-<p><strong>KLAFS</strong> (Germany, owned by Kohler): German manufacturing, facing the 15% European surcharge. Kohler's U.S. distribution network and supply chain scale give KLAFS more flexibility than standalone European brands.</p>
+<h2>Moderate Exposure: European Brands with U.S. Distribution</h2>
+<p><strong>KLAFS</strong> (Germany, owned by Kohler): German manufacturing, facing the 15% European surcharge. Kohler's U.S. distribution network and supply chain scale give KLAFS more flexibility than standalone European brands to absorb or route around tariff costs.</p>
 
 <h2>Lower Exposure: North American Manufacturers</h2>
-<p><strong>Homecraft</strong> (Canada): Manufactured in Surrey, BC since 1988. Canadian products face their own tariff considerations (Section 232 on certain materials), but are generally less exposed than European imports under Section 122.</p>
+<p><strong>Homecraft</strong> (Canada): Manufactured in Surrey, BC since 1988. Canadian products face their own tariff considerations (Section 232 on certain materials), but are not subject to either the China 145% or European 15% surcharges.</p>
 
 <p><strong>Dundalk Leisurecraft</strong> (Canada): Cedar saunas manufactured in Ontario. Similar Canadian tariff dynamics apply.</p>
 
