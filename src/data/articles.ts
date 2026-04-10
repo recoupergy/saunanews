@@ -897,7 +897,7 @@ export const articles: Article[] = [
 <p><strong><a href="https://thermory.com" target="_blank">Thermory</a></strong> (Estonia): The world's largest thermowood producer ships from Estonian and Finnish factories. Thermally modified wood is a key material for outdoor sauna construction. Thermory does maintain U.S. warehouse operations, but the product still enters the country as an import.</p>
 
 <h2>Moderate Exposure: Mixed Manufacturing</h2>
-<p><strong>Sauna360 / TyloHelo</strong> (Sweden/Finland): The parent company of Tylo, Helo, Finnleo, and Amerec has manufacturing in both Europe and distribution infrastructure in North America. Amerec, the U.S.-facing brand, may have some tariff insulation depending on where specific products are assembled.</p>
+<p><strong>Sauna360 / TyloHelo</strong> (Sweden/Finland): The parent company of Tylo, Helo, Finnleo, and Amerec is more exposed than its Nordic branding suggests. U.S. customs import records show Sauna360 Inc. receives the vast majority of its prefabricated sauna kit shipments from two Chinese manufacturers, Wuxi Sfactor Co. and Changzhou Sfactor Co., both based in Jiangsu province. A 2022 Enterprise Minnesota report confirmed the arrangement, quoting company management saying Sauna360 "manufactures most of its free-standing sauna units in China," with those kits shipped directly to consumers for in-home assembly. Custom-built units are produced at the company's Cokato, Minnesota plant, and heaters still come from Finland and Sweden. But the standard prefab sauna line, which includes Finnleo-branded kits, faces the same tariff exposure as any other Chinese import. When supply chain disruptions hit in 2022, per-container shipping costs jumped from $5,000 to over $25,000, a preview of the pricing pressure tariffs now create. Sauna360 was acquired by Masco's Watkins Wellness division in July 2023 and does not publish manufacturing disclosures.</p>
 
 <p><strong>KLAFS</strong> (Germany, owned by Kohler): German manufacturing, but Kohler's U.S. distribution network and potential for tariff mitigation through the parent company's supply chain give KLAFS more flexibility than standalone European brands.</p>
 
@@ -907,7 +907,7 @@ export const articles: Article[] = [
 <p><strong>Dundalk Leisurecraft</strong> (Canada): Cedar saunas manufactured in Ontario. Similar Canadian tariff dynamics apply.</p>
 
 <div class="callout">
-<strong>Tariff Exposure Summary:</strong> Highest: HUUM, Narvi, IKI, Saunum (100% European manufacturing, no U.S. production). High: Harvia (European manufacturing, partial U.S. presence via ThermaSol). Moderate: Sauna360/TyloHelo, KLAFS (mixed manufacturing, strong distribution). Lower: Homecraft, Dundalk Leisurecraft (Canadian manufacturing).
+<strong>Tariff Exposure Summary:</strong> Highest: HUUM, Narvi, IKI, Saunum (100% European manufacturing, no U.S. production). High: Harvia (European manufacturing, partial U.S. presence via ThermaSol). High (prefab kits): Sauna360/TyloHelo/Finnleo (standard sauna kits primarily manufactured in China). Moderate: KLAFS (German manufacturing, Kohler distribution). Lower: Homecraft, Dundalk Leisurecraft (Canadian manufacturing, custom Sauna360 units built in Cokato, MN).
 </div>
 
 <h3>What Buyers Should Know</h3>
