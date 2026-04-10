@@ -3,7 +3,33 @@
     "allow": [
       "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --no-import-alias --use-npm)",
       "Bash(export PATH=\"/usr/local/bin:/opt/homebrew/bin:$HOME/.nvm/versions/node/*/bin:$PATH\")",
-      "Bash(export PATH=\"/usr/local/bin:/opt/homebrew/bin:$PATH\")"
+      "Bash(export PATH=\"/usr/local/bin:/opt/homebrew/bin:$PATH\")",
+      "Bash(git add:*)",
+      "Bash(git commit -m ':*)",
+      "Bash(git pull:*)",
+      "Bash(git push:*)",
+      "Bash(git stash:*)",
+      "Bash(gh run:*)",
+      "WebFetch(domain:www.saunanews.com)",
+      "Bash(git commit -m 'Remove remaining dark mode classes from LaunchCalendar, NewsletterSignup, PlaceholderImage, globals.css:*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(perl -pi -e 's/\\\\s+dark:[a-zA-Z0-9\\\\/_:\\\\[\\\\].\\\\-]+//g' src/components/Header.tsx src/components/ArticleCard.tsx src/components/FeaturedStory.tsx src/components/SectionHeader.tsx src/components/SponsorSlot.tsx src/components/BackToTop.tsx src/components/ContentTypeBadge.tsx src/components/HeadlineTicker.tsx src/components/LaunchCalendar.tsx src/components/NewsletterSignup.tsx src/components/MarketDataBar.tsx src/components/StickyNewsletterBar.tsx src/components/PlaceholderImage.tsx src/components/Footer.tsx src/app/globals.css)",
+      "Bash(python3 -)",
+      "Bash(git commit -m 'Remove dark mode toggle button and all dark: classes — light mode only:*)",
+      "Bash(grep -E \"\\\\.\\(ts|tsx|json|xml|js\\)$\")",
+      "Bash(npx next:*)",
+      "Bash(node -e ':*)",
+      "Bash(node -e \"require\\('sharp'\\)\")",
+      "Bash(convert --version)",
+      "Bash(python3 -c \"import cairosvg\")",
+      "Skill(firecrawl-scrape)",
+      "Skill(firecrawl-scrape:*)",
+      "WebFetch(domain:europeanspamagazine.com)",
+      "WebSearch",
+      "WebFetch(domain:www.britishsaunasociety.org.uk)",
+      "WebFetch(domain:www.prnewswire.co.uk)",
+      "WebFetch(domain:www.sciencedirect.com)",
+      "Bash(node -e \"const {ImageResponse} = require\\('next/og'\\); console.log\\('ok'\\)\")"
     ]
   }
 }

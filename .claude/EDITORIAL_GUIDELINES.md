@@ -1,5 +1,11 @@
 # SaunaNews Editorial Guidelines
 
+## Editorial Focus
+- SaunaNews is a US-based publication with a US-first audience
+- Default to USD for prices, US measurements (°F, sq ft), and US retail/availability context
+- Lead with US market relevance even when covering international brands or events
+- When a product, brand, or trend is not available in the US, say so clearly
+
 ## Voice & Tone
 - Approachable, honest, authoritative, trustworthy
 - Write like a smart industry journalist, not a marketer or AI
