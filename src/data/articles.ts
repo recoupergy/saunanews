@@ -1204,6 +1204,53 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
     featured: true,
     trending: true,
   },
+  {
+    id: '35',
+    title: 'ProSaunas Adds a Shorter Door for Compact Sauna Builds',
+    slug: 'prosaunas-douglas-fir-sauna-door-26x72',
+    dek: 'The Minnesota maker has added a 26" x 72" size to its Douglas Fir insulated glass lineup, targeting basement builds and low-ceiling rooms where a standard 80-inch door is too tall.',
+    excerpt: 'ProSaunas has expanded its prehung Douglas Fir sauna door line with a new 26" x 72" option, the first size under 80 inches in the insulated glass range. At $1,266.50, it is also the most affordable entry point in the lineup.',
+    contentType: 'Product Launch',
+    category: 'Product Launches',
+    tags: ['ProSaunas', 'sauna doors', 'Minnesota', 'product launch', 'Douglas Fir'],
+    author: authors.elise,
+    publishDate: '2026-04-10',
+    readingTime: 3,
+    featuredImage: 'https://b1572463.smushcdn.com/1572463/wp-content/uploads/2025/12/PROSAUNAS-Sauna-Door-Douglas-Fir-30x80-1.jpg?lossy=0&strip=1&webp=1',
+    imageCaption: 'The ProSaunas Douglas Fir Sauna Door with Insulated Glass — handcrafted in Minnesota from solid Douglas Fir with a dual-pane tempered glass panel.',
+    body: `<p>ProSaunas, the Minnesota-based sauna door manufacturer, has added a 26" x 72" option to its Prehung Douglas Fir Sauna Door with Insulated Glass lineup. It is the first size under 80 inches in the insulated glass series, and it fills a gap that has been quietly frustrating a specific slice of the US sauna market: builders working in basement rooms, converted utility spaces, and compact backyard cabins where standard door heights simply don't fit.</p>
+
+<h2>Why Door Height Actually Matters in a Sauna</h2>
+<p>This is not purely a carpentry problem. In a traditional Finnish sauna, a lower door opening is a deliberate thermal strategy. Heat rises and collects at the ceiling. A shorter door keeps the coldest air near the floor, where it belongs, rather than spilling it out every time the door swings open. Bench height typically sits at 36 to 48 inches. The sweet spot for heat retention at the bather's level is maintained better in a room where the door top doesn't extend far above it.</p>
+
+<p>Most US sauna doors are sold in 80-inch heights because that is what standard residential framing accommodates. Rooms built specifically for sauna use, particularly older basement conversions and detached outbuildings with modest ceiling heights, often can't accommodate 80-inch doors without structural modification. Until now, ProSaunas' options stopped at 80 inches. The 26" x 72" slots in below that threshold.</p>
+
+<h2>Same Construction as the Full Line</h2>
+<p>The new size carries everything that makes the ProSaunas Douglas Fir doors worth specifying. The door is handcrafted from solid Douglas Fir with a natural Hemlock jamb and header. The glass panel is dual-pane clear tempered with LoE argon-fill insulation, which keeps radiant heat inside the sauna while letting natural light into the room. Self-closing hinges are standard, adjustable to hold open if preferred. A magnetic catch keeps the door sealed at operating temperature.</p>
+
+<img src="https://b1572463.smushcdn.com/1572463/wp-content/uploads/2025/12/PROSAUNAS-Sauna-Door-Douglas-Fir-24x80-1.jpg?lossy=0&strip=1&webp=1" alt="ProSaunas Douglas Fir sauna door with insulated glass panel — interior view" style="width:100%;border-radius:8px;margin:1.5rem 0;" />
+
+<p>It arrives prehung and factory-assembled in its frame. Rough opening required is 26" x 72"; the assembled outer frame measures 27.5" x 73.5". Left-hand and right-hand swing configurations are both available.</p>
+
+<div class="callout">
+<strong>Full Size and Price Range:</strong>
+<br />26" × 72" (NEW) — $1,266.50
+<br />24" × 80" — $1,285.20
+<br />30" × 80" — $1,370.20
+<br />36" × 80" (ADA-compliant) — $1,540.20
+</div>
+
+<h2>Pricing and Where to Get It</h2>
+<p>At $1,266.50, the 26" x 72" is the least expensive door in the Douglas Fir insulated glass family, undercutting the 24" x 80" by about $19. That slim gap reflects the shorter material run more than a meaningful price concession, but for a compact build where this is the right door anyway, it is a reasonable entry point into a handcrafted US-made door.</p>
+
+<p>The door is distributed nationally through Bathing Brands and available through authorized dealers including Sauna Marketplace.</p>
+
+<div class="bottom-line">
+<p>It is a small expansion in a narrow product category. But for anyone framing a sauna into a basement or low-ceiling outbuilding, a quality US-made prehung door that actually fits the opening is not a small thing. The 26" x 72" ProSaunas Douglas Fir door solves a specific problem well.</p>
+</div>`,
+    featured: false,
+    trending: false,
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {

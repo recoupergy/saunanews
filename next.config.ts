@@ -99,6 +99,14 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'us.saunum.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'prosaunas.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.prosaunas.com',
+      },
     ],
   },
 };
