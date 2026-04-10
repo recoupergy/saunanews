@@ -75,7 +75,7 @@ export default function StickyNewsletterBar() {
         visible ? 'translate-y-0' : 'translate-y-full'
       }`}
     >
-      <div className="bg-charcoal dark:bg-slate border-t border-cream/10 dark:border-dark-border shadow-[0_-4px_20px_rgba(0,0,0,0.15)]">
+      <div className="bg-charcoal border-t border-cream/10 shadow-[0_-4px_20px_rgba(0,0,0,0.15)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between gap-4">
           {/* Copy */}
           <p className="hidden sm:block text-sm text-cream/70 shrink-0">

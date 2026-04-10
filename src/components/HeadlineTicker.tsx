@@ -8,7 +8,7 @@ export default function HeadlineTicker() {
   const tickerItems = [...articles, ...articles]; // duplicate for seamless loop
 
   return (
-    <div className="bg-charcoal dark:bg-slate text-cream overflow-hidden">
+    <div className="bg-charcoal text-cream overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center h-9">
           <span className="shrink-0 flex items-center text-xs font-semibold uppercase tracking-wider text-brass mr-4 hidden sm:block">

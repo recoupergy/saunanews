@@ -10,7 +10,7 @@ interface SectionHeaderProps {
 
 export default function SectionHeader({ title, href, linkText = 'View all', description, accentColor }: SectionHeaderProps) {
   return (
-    <div className="flex items-end justify-between mb-8 pb-4 border-b border-border dark:border-dark-border relative">
+    <div className="flex items-end justify-between mb-8 pb-4 border-b border-border relative">
       {/* Accent color bar */}
       {accentColor && (
         <div
@@ -19,11 +19,11 @@ export default function SectionHeader({ title, href, linkText = 'View all', desc
         />
       )}
       <div>
-        <h2 className="font-editorial text-2xl sm:text-3xl font-bold text-charcoal dark:text-cream">
+        <h2 className="font-editorial text-2xl sm:text-3xl font-bold text-charcoal">
           {title}
         </h2>
         {description && (
-          <p className="text-sm text-stone-dark dark:text-dark-muted mt-1">
+          <p className="text-sm text-stone-dark mt-1">
             {description}
           </p>
         )}
@@ -31,7 +31,7 @@ export default function SectionHeader({ title, href, linkText = 'View all', desc
       {href && (
         <Link
           href={href}
-          className="text-sm font-medium text-green dark:text-brass hover:text-green-light dark:hover:text-copper transition-colors shrink-0 flex items-center gap-1"
+          className="text-sm font-medium text-green hover:text-green-light transition-colors shrink-0 flex items-center gap-1"
         >
           {linkText}
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

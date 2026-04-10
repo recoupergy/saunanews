@@ -11,7 +11,7 @@ const dataPoints = [
 
 export default function MarketDataBar() {
   return (
-    <div className="bg-slate dark:bg-dark-surface border-b border-cream/5 dark:border-dark-border overflow-hidden">
+    <div className="bg-slate border-b border-cream/5 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center h-10 gap-8 overflow-x-auto scrollbar-hide">
           <span className="text-[10px] font-bold uppercase tracking-widest text-cream/30 shrink-0">

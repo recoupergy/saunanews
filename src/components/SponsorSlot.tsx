@@ -11,19 +11,19 @@ export default function SponsorSlot({
 }: SponsorSlotProps) {
   if (variant === 'sidebar') {
     return (
-      <aside className="border border-border dark:border-dark-border rounded-lg overflow-hidden">
+      <aside className="border border-border rounded-lg overflow-hidden">
         {/* Label */}
-        <div className="px-4 py-2 border-b border-border dark:border-dark-border bg-ivory/50 dark:bg-dark-surface">
-          <span className="text-[10px] font-semibold uppercase tracking-widest text-stone-dark/60 dark:text-dark-muted/60">
+        <div className="px-4 py-2 border-b border-border bg-ivory/50">
+          <span className="text-[10px] font-semibold uppercase tracking-widest text-stone-dark/60">
             {label}
           </span>
         </div>
 
         {/* Content area */}
-        <div className="p-6 bg-surface dark:bg-dark-bg text-center">
-          <div className="w-10 h-10 mx-auto mb-4 rounded bg-ivory dark:bg-dark-surface flex items-center justify-center">
+        <div className="p-6 bg-surface text-center">
+          <div className="w-10 h-10 mx-auto mb-4 rounded bg-ivory flex items-center justify-center">
             <svg
-              className="w-5 h-5 text-stone-dark/30 dark:text-dark-muted/30"
+              className="w-5 h-5 text-stone-dark/30"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -36,10 +36,10 @@ export default function SponsorSlot({
               />
             </svg>
           </div>
-          <p className="text-sm font-medium text-charcoal dark:text-cream mb-1">
+          <p className="text-sm font-medium text-charcoal mb-1">
             Your brand here
           </p>
-          <p className="text-xs text-stone-dark dark:text-dark-muted leading-relaxed mb-4">
+          <p className="text-xs text-stone-dark leading-relaxed mb-4">
             Reach the sauna industry&apos;s most engaged audience.
           </p>
           <Link
@@ -55,14 +55,14 @@ export default function SponsorSlot({
 
   if (variant === 'inline') {
     return (
-      <div className="my-8 py-6 border-y border-border dark:border-dark-border">
+      <div className="my-8 py-6 border-y border-border">
         <div className="flex items-start gap-4">
-          <span className="text-[10px] font-semibold uppercase tracking-widest text-stone-dark/50 dark:text-dark-muted/50 shrink-0 pt-0.5">
+          <span className="text-[10px] font-semibold uppercase tracking-widest text-stone-dark/50 shrink-0 pt-0.5">
             {label}
           </span>
           <div className="flex-1 min-w-0">
-            <p className="text-sm text-stone-dark dark:text-dark-muted">
-              <span className="font-medium text-charcoal dark:text-cream">
+            <p className="text-sm text-stone-dark">
+              <span className="font-medium text-charcoal">
                 Your brand here
               </span>
               {' '}&mdash; reach the sauna industry&apos;s most engaged audience.{' '}
@@ -81,19 +81,19 @@ export default function SponsorSlot({
 
   // Default: banner variant
   return (
-    <div className="my-12 border border-border dark:border-dark-border rounded-lg overflow-hidden bg-surface dark:bg-dark-bg">
+    <div className="my-12 border border-border rounded-lg overflow-hidden bg-surface">
       {/* Label bar */}
-      <div className="px-4 py-1.5 border-b border-border dark:border-dark-border bg-ivory/50 dark:bg-dark-surface flex items-center justify-between">
-        <span className="text-[10px] font-semibold uppercase tracking-widest text-stone-dark/60 dark:text-dark-muted/60">
+      <div className="px-4 py-1.5 border-b border-border bg-ivory/50 flex items-center justify-between">
+        <span className="text-[10px] font-semibold uppercase tracking-widest text-stone-dark/60">
           {label}
         </span>
       </div>
 
       {/* Content */}
       <div className="px-6 py-8 sm:py-10 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 text-center sm:text-left">
-        <div className="w-12 h-12 shrink-0 rounded-lg bg-ivory dark:bg-dark-surface flex items-center justify-center">
+        <div className="w-12 h-12 shrink-0 rounded-lg bg-ivory flex items-center justify-center">
           <svg
-            className="w-6 h-6 text-stone-dark/25 dark:text-dark-muted/25"
+            className="w-6 h-6 text-stone-dark/25"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -107,7 +107,7 @@ export default function SponsorSlot({
           </svg>
         </div>
         <div>
-          <p className="text-sm font-medium text-charcoal dark:text-cream mb-1">
+          <p className="text-sm font-medium text-charcoal mb-1">
             Your brand here &mdash; reach the sauna industry&apos;s most engaged audience
           </p>
           <Link

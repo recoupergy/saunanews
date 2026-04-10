@@ -14,7 +14,7 @@ interface ArticleCardProps {
 export default function ArticleCard({ article, variant = 'default' }: ArticleCardProps) {
   if (variant === 'horizontal') {
     return (
-      <Link href={`/article/${article.slug}`} className="group flex gap-5 py-5 border-b border-border dark:border-dark-border last:border-0">
+      <Link href={`/article/${article.slug}`} className="group flex gap-5 py-5 border-b border-border last:border-0">
         <div className="w-28 h-20 sm:w-36 sm:h-24 shrink-0 rounded-md overflow-hidden">
           <ArticleImage
             src={article.featuredImage}
@@ -29,12 +29,12 @@ export default function ArticleCard({ article, variant = 'default' }: ArticleCar
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 mb-1.5">
             <ContentTypeBadge type={article.contentType} size="sm" />
-            <span className="text-xs text-stone-dark dark:text-dark-muted">{formatDateShort(article.publishDate)}</span>
+            <span className="text-xs text-stone-dark">{formatDateShort(article.publishDate)}</span>
           </div>
-          <h3 className="font-editorial text-base font-semibold text-charcoal dark:text-dark-text leading-snug group-hover:text-green dark:group-hover:text-brass transition-colors line-clamp-2">
+          <h3 className="font-editorial text-base font-semibold text-charcoal leading-snug group-hover:text-green transition-colors line-clamp-2">
             {article.title}
           </h3>
-          <p className="text-sm text-stone-dark dark:text-dark-muted mt-1 line-clamp-1 hidden sm:block">
+          <p className="text-sm text-stone-dark mt-1 line-clamp-1 hidden sm:block">
             {article.excerpt}
           </p>
         </div>
@@ -44,12 +44,12 @@ export default function ArticleCard({ article, variant = 'default' }: ArticleCar
 
   if (variant === 'compact') {
     return (
-      <Link href={`/article/${article.slug}`} className="group block py-4 border-b border-border dark:border-dark-border last:border-0">
+      <Link href={`/article/${article.slug}`} className="group block py-4 border-b border-border last:border-0">
         <div className="flex items-center gap-2 mb-1">
           <ContentTypeBadge type={article.contentType} size="sm" />
-          <span className="text-xs text-stone-dark dark:text-dark-muted">{formatDateShort(article.publishDate)}</span>
+          <span className="text-xs text-stone-dark">{formatDateShort(article.publishDate)}</span>
         </div>
-        <h3 className="font-editorial text-sm font-semibold text-charcoal dark:text-dark-text leading-snug group-hover:text-green dark:group-hover:text-brass transition-colors">
+        <h3 className="font-editorial text-sm font-semibold text-charcoal leading-snug group-hover:text-green transition-colors">
           {article.title}
         </h3>
       </Link>
@@ -70,21 +70,21 @@ export default function ArticleCard({ article, variant = 'default' }: ArticleCar
       </div>
       <div className="flex items-center gap-2 mb-2">
         <ContentTypeBadge type={article.contentType} />
-        <span className="text-xs text-stone-dark dark:text-dark-muted">
+        <span className="text-xs text-stone-dark">
           {article.category}
         </span>
       </div>
-      <h3 className="font-editorial text-lg font-bold text-charcoal dark:text-dark-text leading-snug group-hover:text-green dark:group-hover:text-brass transition-colors mb-2">
+      <h3 className="font-editorial text-lg font-bold text-charcoal leading-snug group-hover:text-green transition-colors mb-2">
         {article.title}
       </h3>
-      <p className="text-sm text-stone-dark dark:text-dark-muted leading-relaxed line-clamp-2 mb-3">
+      <p className="text-sm text-stone-dark leading-relaxed line-clamp-2 mb-3">
         {article.excerpt}
       </p>
-      <div className="flex items-center gap-3 text-xs text-stone-dark dark:text-dark-muted">
+      <div className="flex items-center gap-3 text-xs text-stone-dark">
         <span>{article.author.name}</span>
-        <span className="text-border dark:text-dark-border">&middot;</span>
+        <span className="text-border">&middot;</span>
         <span>{formatDateShort(article.publishDate)}</span>
-        <span className="text-border dark:text-dark-border">&middot;</span>
+        <span className="text-border">&middot;</span>
         <span>{article.readingTime} min read</span>
       </div>
     </Link>

@@ -29,31 +29,31 @@ export default function FeaturedStory({ article }: FeaturedStoryProps) {
         <div className="flex flex-col justify-center">
           <div className="flex items-center gap-3 mb-4">
             <ContentTypeBadge type={article.contentType} />
-            <span className="text-sm text-stone-dark dark:text-dark-muted">
+            <span className="text-sm text-stone-dark">
               {article.category}
             </span>
           </div>
 
-          <h2 className="font-editorial text-3xl sm:text-4xl lg:text-[2.75rem] font-bold text-charcoal dark:text-cream leading-tight group-hover:text-green dark:group-hover:text-brass transition-colors mb-4">
+          <h2 className="font-editorial text-3xl sm:text-4xl lg:text-[2.75rem] font-bold text-charcoal leading-tight group-hover:text-green transition-colors mb-4">
             {article.title}
           </h2>
 
-          <p className="text-lg text-warm-gray dark:text-dark-muted leading-relaxed mb-4 font-editorial italic">
+          <p className="text-lg text-warm-gray leading-relaxed mb-4 font-editorial italic">
             {article.dek}
           </p>
 
-          <p className="text-base text-stone-dark dark:text-dark-muted leading-relaxed mb-6 line-clamp-3">
+          <p className="text-base text-stone-dark leading-relaxed mb-6 line-clamp-3">
             {article.excerpt}
           </p>
 
-          <div className="flex items-center gap-4 text-sm text-stone-dark dark:text-dark-muted">
+          <div className="flex items-center gap-4 text-sm text-stone-dark">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-full bg-stone/30 dark:bg-dark-border" />
-              <span className="font-medium text-charcoal dark:text-dark-text">{article.author.name}</span>
+              <div className="w-8 h-8 rounded-full bg-stone/30" />
+              <span className="font-medium text-charcoal">{article.author.name}</span>
             </div>
-            <span className="text-border dark:text-dark-border">&middot;</span>
+            <span className="text-border">&middot;</span>
             <span>{formatDateShort(article.publishDate)}</span>
-            <span className="text-border dark:text-dark-border">&middot;</span>
+            <span className="text-border">&middot;</span>
             <span>{article.readingTime} min read</span>
           </div>
         </div>

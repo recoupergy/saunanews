@@ -5,7 +5,7 @@ import { categories } from '@/data/categories';
 
 export default function Footer() {
   return (
-    <footer className="bg-charcoal dark:bg-dark-bg text-cream/80 mt-auto">
+    <footer className="bg-charcoal text-cream/80 mt-auto">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main footer */}
         <div className="py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
