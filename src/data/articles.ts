@@ -1278,7 +1278,9 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <p>Those are the verifiable code requirements. The practical effects go further.</p>
 
-<p>Industry observers, most credibly Glenn Auerbach of SaunaTimes, who has been consulting directly with manufacturers navigating the recertification process, have documented the downstream consequences. Temperature sensors positioned above the stone basket routinely produced readings 20 to 50\u00B0F higher than the actual room temperature. High-temperature limiters tripped at conservatively low thresholds, causing nuisance shutoffs that left users waiting an hour or more for the heater to reset. Ventilation was often engineered to cool the sensor rather than serve the bathers.</p>
+<p>Industry observers, most credibly Glenn Auerbach of SaunaTimes, who has been consulting directly with manufacturers navigating the recertification process, have documented the downstream consequences. Temperature sensors positioned above the stone basket routinely produced readings 20 to 50\u00B0F higher than the actual room temperature. High-temperature limiters tripped at conservatively low thresholds, causing nuisance shutoffs that left users waiting an hour or more for the heater to reset.</p>
+
+<p>The ventilation situation was particularly perverse. The IMC code requires a 4-by-8-inch opening near the top of the sauna door. But because UL 875's high-temp limiter had such a low trip point, manufacturers' U.S. installation manuals separately instructed installers to bring supply air in below or behind the heater to cool the sensor and prevent nuisance shutoffs. That airflow scheme, documented in detail by industry analyst Trumpkin on LocalMile, directed fresh air across the floor rather than to bathers at bench level, resulting in poor CO2 removal and stale air in many American saunas. The ventilation was engineered to protect the sensor, not the people in the room.</p>
 
 <p>The result was a standard that, in practice, made American saunas cooler, less accurate, and more frustrating than their European equivalents. Experienced sauna users and builders frequently worked around the requirements to get something resembling a normal sauna experience, which arguably created more safety risk than the standard was supposed to prevent.</p>
 
@@ -1304,12 +1306,12 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <p>High-temperature trip thresholds have been raised, which should reduce the nuisance shutoffs that have plagued American sauna owners for years.</p>
 
-<p>The specific requirement for a forced-cooling supply vent below or behind the heater is gone. Ventilation can now be designed for the bathers' comfort rather than the sensor's protection.</p>
+<p>With higher trip thresholds on the high-temp limiter, the manufacturer practice of directing supply air below or behind the heater to cool the sensor should no longer be necessary. This was never a code requirement per se (the IMC code vent is a 4-by-8-inch opening near the top of the sauna door), but it was baked into every U.S. installation manual as a practical workaround for UL 875's oversensitive limiter. Removing that need means ventilation can finally be designed for bather comfort and air quality rather than sensor protection.</p>
 
 <p>The run-time timer extends from one hour to three hours, with a six-hour maximum under the IEC framework. For anyone who has ever had a sauna shut off mid-session and had to trudge out to reset it, this is a welcome change.</p>
 
 <div class="callout">
-<strong>Key Changes at a Glance:</strong> Sensor location moves from above the heater to above the seating area. Timer extends from 1 hour to 3 hours (6-hour IEC max). High-temp trip thresholds raised. Forced-cooling vent requirement removed. Infrared cabins now covered. U.S. scope expanded to 30kW heaters.
+<strong>Key Changes at a Glance:</strong> Sensor location moves from above the heater to above the seating area. Timer extends from 1 hour to 3 hours (6-hour IEC max). High-temp trip thresholds raised, eliminating the need for manufacturer-mandated sensor-cooling supply vents. Infrared cabins now covered. U.S. scope expanded to 30kW heaters.
 </div>
 
 <h3>What Has Not Changed</h3>
