@@ -1252,6 +1252,132 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
     featured: false,
     trending: false,
   },
+  {
+    id: '36',
+    title: 'The New UL Sauna Heater Standard Is Here. The Building Code Isn\'t Ready.',
+    slug: 'ul-60335-2-53-sauna-heater-standard-transition',
+    dek: 'UL 60335-2-53 finally brings North American sauna regulation in line with the rest of the world. But model codes still reference the old standard, manufacturers are mid-recertification, and inspectors may not know the difference.',
+    excerpt: 'On June 27, 2025, Underwriters Laboratories published ANSI/UL 60335-2-53, the first U.S. adoption of the international sauna heater safety standard. It is the most significant regulatory shift in North American sauna history. Here is what it changes, what it doesn\'t, and why your building inspector might not care yet.',
+    contentType: 'Analysis',
+    category: 'Market Intelligence',
+    tags: ['UL 875', 'UL 60335-2-53', 'sauna heater', 'safety standards', 'building code', 'regulation', 'NRTL', 'Harvia', 'HUUM', 'IEC'],
+    author: authors.james,
+    publishDate: '2026-04-11',
+    readingTime: 12,
+    featuredImage: 'https://images.unsplash.com/photo-1554743365-2e2e1a0afe92?w=1200&q=80',
+    imageCaption: 'The new UL 60335-2-53 standard promises to end decades of regulatory friction that kept North American saunas cooler, less efficient, and more expensive than their European counterparts.',
+    body: `<p>On June 27, 2025, Underwriters Laboratories published ANSI/UL 60335-2-53. If that string of letters and numbers means nothing to you, here is the short version: the United States finally adopted the international sauna heater safety standard used in Europe and most of the rest of the world. It is the most significant regulatory development in North American sauna history.</p>
+
+<p>But this is not a clean swap. The old standard, UL 875, remains active. The transition is happening model by model, lab by lab, jurisdiction by jurisdiction. And the building codes that inspectors actually enforce have not caught up. If you are building, buying, or selling saunas in the U.S. right now, you need to understand what just changed and, just as important, what hasn't.</p>
+
+<h2>What UL 875 Actually Required</h2>
+
+<p>To understand why this matters, you need to understand what the old regime forced on the industry.</p>
+
+<p>UL 875 has governed electric sauna heaters in the United States for decades. The requirements are codified in the 2024 International Mechanical Code (IMC), Section 914, which remains the reference standard for building inspectors across most of the country. Under this framework, sauna heaters must be listed and labeled to UL 875. Room temperature at the thermostat sensor is capped at 194\u00B0F (90\u00B0C). The heat-sensing element must sit within six inches of the ceiling when it is not integral to the heater. Timer operation is limited to one hour. And a ventilation opening is required near the top of the door.</p>
+
+<p>Those are the verifiable code requirements. The practical effects go further.</p>
+
+<p>Industry observers, most credibly Glenn Auerbach of SaunaTimes, who has been consulting directly with manufacturers navigating the recertification process, have documented the downstream consequences. Temperature sensors positioned above the stone basket routinely produced readings 20 to 50\u00B0F higher than the actual room temperature. High-temperature limiters tripped at conservatively low thresholds, causing nuisance shutoffs that left users waiting an hour or more for the heater to reset. Ventilation was often engineered to cool the sensor rather than serve the bathers.</p>
+
+<p>The result was a standard that, in practice, made American saunas cooler, less accurate, and more frustrating than their European equivalents. Experienced sauna users and builders frequently worked around the requirements to get something resembling a normal sauna experience, which arguably created more safety risk than the standard was supposed to prevent.</p>
+
+<h2>What UL 60335-2-53 Changes</h2>
+
+<p>The new standard is a First Edition U.S. adoption of <a href="https://www.shopulstandards.com/ProductDetail.aspx?productId=UL60335-2-53_1_S_20250627">IEC 60335-2-53, Edition 4.2</a>, issued by the International Electrotechnical Commission in March 2021. A separate National Differences document covers all U.S.-specific deviations from the international base text. Both were published June 27, 2025.</p>
+
+<p>Here is what changes, broken down by confidence level.</p>
+
+<h3>Confirmed From Public Primary Sources</h3>
+
+<p>The new standard explicitly covers both electric sauna heaters and infrared cabins. UL 875 did not address infrared in the same unified framework, which left a growing product category in a regulatory gray area. That gap is now closed.</p>
+
+<p>The U.S. scope extends coverage to heaters up to 30kW. The IEC base text covers heaters up to 20kW. This is a notable American-specific expansion that accommodates larger commercial installations common in the U.S. market.</p>
+
+<p>UL 875 remains active. The new standard creates an additional certification path. It does not automatically retire the old one.</p>
+
+<h3>Credibly Attributed to Industry Sources</h3>
+
+<p>According to Auerbach and manufacturer consultations reported through late 2025, the most consequential practical changes are these:</p>
+
+<p>Thermostat sensors can now be positioned over the seating area rather than above the heater. This is the single biggest usability improvement. A sensor over the bench reads actual bather-level temperature instead of the superheated air directly above the stones. Temperature control becomes meaningful rather than theoretical.</p>
+
+<p>High-temperature trip thresholds have been raised, which should reduce the nuisance shutoffs that have plagued American sauna owners for years.</p>
+
+<p>The specific requirement for a forced-cooling supply vent below or behind the heater is gone. Ventilation can now be designed for the bathers' comfort rather than the sensor's protection.</p>
+
+<p>The run-time timer extends from one hour to three hours, with a six-hour maximum under the IEC framework. For anyone who has ever had a sauna shut off mid-session and had to trudge out to reset it, this is a welcome change.</p>
+
+<div class="callout">
+<strong>Key Changes at a Glance:</strong> Sensor location moves from above the heater to above the seating area. Timer extends from 1 hour to 3 hours (6-hour IEC max). High-temp trip thresholds raised. Forced-cooling vent requirement removed. Infrared cabins now covered. U.S. scope expanded to 30kW heaters.
+</div>
+
+<h3>What Has Not Changed</h3>
+
+<p>This is not a wholesale deregulation. The towel test and overlimit switch requirements survive into the new standard. These are real safety provisions (the towel test simulates a combustible material draped over the heater, the overlimit switch is a last-resort thermal cutoff) and their preservation is appropriate. Anyone suggesting the new standard removes all guardrails is overstating the case.</p>
+
+<p>There is also a notable caveat for prefabricated sauna kits and infrared cabins specifically: the new standard includes natural convective updraft ventilation requirements for these products that some industry experts argue enshrine poor ventilation practices rather than improve them. The standard is better overall, but it is not perfect.</p>
+
+<h3>What Remains Genuinely Uncertain</h3>
+
+<p>Whether 125\u00B0C (257\u00B0F) is now permitted in U.S.-certified saunas is an open question. Prior IEC text explicitly noted that the 125\u00B0C limit was "not applicable (USA)." The current market reflects this ambiguity. Some manufacturers' U.S. documentation still defaults to 194\u00B0F. Harvia's Xenio control unit shows a 229\u00B0F maximum adjustment range. HUUM heaters certified through SGS can reach 230\u00B0F. Until someone publishes a definitive reading of the paid National Differences document on this point, treat any blanket "125\u00B0C is now allowed in the U.S." claim with caution.</p>
+
+<h2>The Building Code Gap</h2>
+
+<p>Here is the part of the story that is underreported and practically urgent.</p>
+
+<p>The <a href="https://codes.iccsafe.org/content/IMC2024V1.0">2024 International Mechanical Code</a>, Section 914, still explicitly mandates UL 875. It still requires the 194\u00B0F ceiling. It still requires the sensor within six inches of the ceiling. It still requires the one-hour timer. The IMC is the model code used by building inspectors in most U.S. jurisdictions. It updates on a three-year cycle and then must be adopted state by state, county by county, city by city.</p>
+
+<p>This creates a real compliance gap. A heater could be certified to the new UL 60335-2-53 standard, installed according to that standard's more permissive allowances, and still technically fail a building inspection in any jurisdiction whose adopted code references UL 875. That is most jurisdictions today.</p>
+
+<p>For builders, architects, and anyone pulling a sauna permit: the standard printed on your heater's label determines which installation rules legally apply. A heater labeled UL 875 must be installed to UL 875 specs. Period. Only a heater carrying the new UL 60335-2-53 mark, once its manufacturer completes recertification, will unlock the new allowances. And even then, a building inspector working from an older adopted code may still cite the old requirements.</p>
+
+<p>The practical advice is straightforward: talk to your Authority Having Jurisdiction (AHJ) before you build. Ask which standard they recognize. Get it in writing if you can.</p>
+
+<div class="callout">
+<strong>The Compliance Reality Check:</strong> The 2024 IMC still mandates UL 875, the 194\u00B0F cap, and the 1-hour timer. Model codes update on a 3-year cycle and adoption is jurisdiction by jurisdiction. A UL 60335-2-53 certified heater installed to its own specs may still fail inspection under older adopted codes. Always confirm with your local AHJ before starting a sauna build.
+</div>
+
+<h2>The Manufacturer Recertification Race</h2>
+
+<p>The market right now is a patchwork.</p>
+
+<p>Some Harvia North American product lines still reference UL 875 for U.S. listings while simultaneously citing CSA E60335-2-53 for Canadian listings. HUUM has taken a different path entirely, using SGS rather than UL directly as its Nationally Recognized Testing Laboratory. Both are OSHA-recognized, both are legitimate, but the distinction confuses consumers who see a non-UL mark and assume something is wrong.</p>
+
+<p>That confusion is worth addressing directly. UL is not the only lab authorized to certify products to UL-numbered standards. OSHA recognizes multiple NRTLs, including SGS, Intertek, Eurofins, and TUV SUD, among others. A heater does not need a literal UL logo to be compliant. It needs certification to the applicable standard by any recognized NRTL. When shopping for a sauna heater, the relevant question is: which specific standard is this specific model certified to, and by which lab?</p>
+
+<p>Recertification under the new standard is not automatic, not free, and not fast. Each manufacturer must individually submit and retest each model. Some products may temporarily go out of stock during this process. And retrofitting an existing UL 875-labeled heater (relocating a temperature sensor, for instance) voids the UL listing. UL marks are controlled assets. They cannot be reissued by homeowners or added post-market. If your heater carries a UL 875 sticker, that is the standard it lives under, regardless of what the new rules allow for newly certified products.</p>
+
+<p>The competitive dynamics are interesting. European manufacturers who already build to IEC 60335-2-53 face a lower certification hurdle for the U.S. market under the new standard. Even with tariff pressures on EU imports, we may see more European heater brands entering North America. Meanwhile, domestic and Canadian manufacturers get a less restrictive testing framework that should reduce development costs over time.</p>
+
+<h2>Remote Start, Smart Controls, and the Door Switch</h2>
+
+<p>Separate from but running parallel to the standards transition, remote-start safety is becoming formalized across the industry. Current installation documentation from Harvia, Helo/Sauna360, and others reflects a consistent requirement: when a heater can be activated from outside the room via an app or remote control, a door interlock switch must be part of the installation. If the door is not properly closed, the safety circuit prevents the heater from energizing.</p>
+
+<p>This is not a new UL clause published as part of the 60335-2-53 rollout. It is a design philosophy already embedded in current products and manuals, consistent with the direction of the new standard's more software-safety-focused framework. For commercial installations, emergency shut-offs accessible both inside and outside the sauna room are increasingly standard practice, though specific requirements vary by jurisdiction.</p>
+
+<h2>A Note on the UL 875 Tenth Edition</h2>
+
+<p>UL published a Tenth Edition of UL 875 in July 2024. Some industry coverage treated this as a significant update. It was not. The public summary of changes shows alignment with UL 4200A for products containing button and coin cell batteries (relevant as sauna controls incorporate wireless remotes), removal of a reference to UL 6059 for switches, updates to referenced standards in Section 3, and editorial cleanup. This was a maintenance revision, not a performance overhaul. The June 2025 publication of UL 60335-2-53 is the real story.</p>
+
+<h2>What This Means for Buyers</h2>
+
+<p>If you are shopping for a sauna heater today, here is what to ask your dealer:</p>
+
+<p>Is this specific model certified to UL 875 or UL 60335-2-53? The answer determines what installation rules apply. Which NRTL performed the certification? UL, SGS, Intertek, and others are all legitimate. Has the manufacturer completed recertification under the new standard, or is this a UL 875-era product? If it is still UL 875, the old rules (194\u00B0F cap, one-hour timer, sensor above the heater) apply to your installation regardless of what the new standard allows.</p>
+
+<p>For those who previously relocated a temperature sensor to a more practical position (a common workaround in the enthusiast community), the new standard technically validates that sensor placement going forward, but only on newly certified heaters. If your existing heater carries a UL 875 label, moving the sensor still voids the listing.</p>
+
+<div class="why-it-matters">
+<p>The adoption of UL 60335-2-53 is a genuine turning point for the North American sauna industry. It resolves longstanding complaints about inaccurate temperature sensing, premature shutoffs, and a regulatory framework that was out of step with global norms and practical sauna use. But the transition will be measured in years, not months. Building codes lag. Manufacturer recertification takes time. And the market will operate in a mixed-standard environment for the foreseeable future. The best thing any builder, buyer, or dealer can do right now is understand exactly which standard applies to which product and confirm with their local code authority before making assumptions.</p>
+</div>
+
+<div class="bottom-line">
+<p>The rules are finally changing, and the changes are good. Sensor placement, timer limits, ventilation requirements, and the overall regulatory philosophy are all moving in the right direction. But "the new standard is published" is not the same as "the new standard applies to your heater" or "your inspector knows about it." Know the label on your heater. Know the code your jurisdiction enforces. And if you are a manufacturer who has not started the recertification process, the clock is ticking.</p>
+</div>`,
+    featured: true,
+    trending: true,
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
