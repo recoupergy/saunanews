@@ -22,6 +22,8 @@ export default function HomePage() {
   const commentary = getArticlesByCategory('Commentary').slice(0, 2);
   const hero = featured[0];
   const secondaryFeatured = featured.slice(1, 3);
+  const heroIds = new Set([hero?.id, ...secondaryFeatured.map((a) => a.id)].filter(Boolean));
+  const latestDeduped = latest.filter((a) => !heroIds.has(a.id));
   const editorsPickIds = ['3', '7', '11', '14'];
   const editorsPicks = articles.filter((a) => editorsPickIds.includes(a.id));
 
@@ -130,7 +132,7 @@ export default function HomePage() {
                 <h4 className="text-xs font-bold uppercase tracking-widest text-stone-dark dark:text-dark-muted mb-4">
                   Also Today
                 </h4>
-                {latest.slice(2, 5).map((article) => (
+                {latestDeduped.slice(0, 3).map((article) => (
                   <Link
                     key={article.id}
                     href={`/article/${article.slug}`}
@@ -155,16 +157,16 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6 lg:gap-8">
             {/* Large left card */}
             <div className="lg:col-span-5">
-              <ArticleCard article={latest[0]} />
+              <ArticleCard article={latestDeduped[0]} />
             </div>
             {/* Middle column - 2 stacked */}
             <div className="lg:col-span-4 flex flex-col gap-6">
-              <ArticleCard article={latest[1]} />
-              <ArticleCard article={latest[2]} variant="compact" />
+              <ArticleCard article={latestDeduped[1]} />
+              <ArticleCard article={latestDeduped[2]} variant="compact" />
             </div>
             {/* Right compact list */}
             <div className="lg:col-span-3">
-              {latest.slice(3, 7).map((article) => (
+              {latestDeduped.slice(3, 7).map((article) => (
                 <ArticleCard key={article.id} article={article} variant="compact" />
               ))}
             </div>
