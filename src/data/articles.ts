@@ -1264,7 +1264,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
     author: authors.james,
     publishDate: '2026-04-11',
     readingTime: 12,
-    featuredImage: 'https://images.unsplash.com/photo-1554743365-2e2e1a0afe92?w=1200&q=80',
+    featuredImage: 'https://images.unsplash.com/photo-1741601272768-15d119e72de5?w=1200&q=80',
     imageCaption: 'The new UL 60335-2-53 standard promises to end decades of regulatory friction that kept North American saunas cooler, less efficient, and more expensive than their European counterparts.',
     body: `<p>On June 27, 2025, Underwriters Laboratories published ANSI/UL 60335-2-53. If that string of letters and numbers means nothing to you, here is the short version: the United States finally adopted the international sauna heater safety standard used in Europe and most of the rest of the world. It is the most significant regulatory development in North American sauna history.</p>
 
