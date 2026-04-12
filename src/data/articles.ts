@@ -1618,8 +1618,6 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <p>When someone spends $8,000 or $10,000 on a sauna marketed as "Made in Sweden" or "The Genuine Finnish Sauna," they are making a purchasing decision partly on manufacturing origin. Federal documents and customs records show that for a significant portion of Sauna360's product line, that origin is China. Competitors including Harvia disclose their Chinese component sourcing openly in annual reports. Sauna360 does not disclose Chinese room manufacturing anywhere on its consumer websites.</p>
 
-<p>SaunaNews contacted Sauna360 and Masco Corporation for comment. Neither responded by publication time. This story will be updated if responses are received.</p>
-
 <div class="bottom-line">
 <p>Three independent evidence streams converge on the same conclusion: Sauna360 manufactures most of its sauna room products in China, and its marketing does not reflect this. If you are shopping for a Finnleo, Tylö, or Helo sauna, ask your dealer specifically where the room structure was made, not just the heater. The answer may surprise you.</p>
 </div>`,
