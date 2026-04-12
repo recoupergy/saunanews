@@ -1468,6 +1468,8 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <p>Geographic concentration amplifies everything. A southern Estonian manufacturing cluster spanning Voru, Polva, Tartu, and Viljandi counties puts multiple sauna factories within short drives of each other and the region's certified forests.</p>
 
+<p>US distributors have noticed. Several of the top North American sauna distributors now have staff permanently based in Estonia or making regular trips to the country, scouting new products, auditing factory quality, and building direct relationships with manufacturers before competitors can. Having boots on the ground in Tartu or Voru has become a real competitive advantage in the US market, because the best Estonian products often sell out to European buyers before American distributors even hear about them. The companies that invest in on-the-ground presence get first access to new product lines, better pricing, and faster shipping commitments.</p>
+
 <h2>Cultural Credibility That Money Cannot Buy</h2>
 
 <p>In November 2014, UNESCO inscribed the Voromaa smoke sauna tradition, recognizing bathing customs, whisk-making skills, sauna construction, and meat smoking practiced by the approximately 75,000 people of the Voro community in southeastern Estonia. One in five farms in Voromaa still maintains a working smoke sauna.</p>
