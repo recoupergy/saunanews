@@ -1387,7 +1387,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
     id: '37',
     title: 'How Estonia Became the World\'s Sauna Manufacturing Powerhouse',
     slug: 'estonia-sauna-manufacturing-powerhouse',
-    dek: 'A country of 1.37 million people now exports saunas to 60+ countries. With labor costs 60% below Finland, UNESCO-certified sauna heritage, and Red Dot-winning design, Estonia is challenging a century of Finnish dominance.',
+    dek: 'A country of 1.37 million people now exports saunas to 60+ countries. With labor costs 60% below Finland, UNESCO-certified sauna heritage, and design talent that is turning heads globally, Estonia is challenging a century of Finnish dominance.',
     excerpt: 'Estonia\'s 34+ sauna manufacturers, led by Thermory, HUUM, and Saunum Group, have turned a tiny Baltic nation into one of the world\'s most important sauna production hubs. Here\'s why it matters for American buyers.',
     contentType: 'Analysis',
     category: 'Market Intelligence',
@@ -1396,10 +1396,10 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
     publishDate: '2026-04-12',
     readingTime: 12,
     featuredImage: '/images/articles/estonia-sauna-powerhouse-hero.jpg',
-    imageCaption: 'Estonian manufacturers like HUUM are winning Red Dot awards and shipping design-forward sauna products to 60+ countries.',
+    imageCaption: 'Estonian manufacturers like HUUM are shipping design-forward sauna products to 60+ countries.',
     body: `<p>If you have bought a premium sauna in the United States in the past five years, there is a good chance it was made in Estonia. The heater, the wood, the cabin, the smart controller: increasingly, all of it traces back to a country smaller than New Hampshire with a population of 1.37 million.</p>
 
-<p>Estonia now has at least 34 sauna manufacturers shipping to more than 60 countries. Thermory, the world's largest producer of thermally modified wood, posted EUR 149 million in revenue in 2022. HUUM, the Tartu-based heater company, grew at a 115% compound annual rate over three years. Saunum Group took its patented air equalization technology public on Nasdaq First North in Tallinn. SaunaLife has become one of the most recognized outdoor sauna brands in North America. And a growing number of these companies are winning Red Dot awards, raising capital, and shipping containers to Texas.</p>
+<p>Estonia now has at least 34 sauna manufacturers shipping to more than 60 countries. Thermory, the world's largest producer of thermally modified wood, posted EUR 149 million in revenue in 2022. HUUM, the Tartu-based heater company, grew at a 115% compound annual rate over three years. Saunum Group took its patented air equalization technology public on Nasdaq First North in Tallinn. SaunaLife has become one of the most recognized outdoor sauna brands in North America. And a growing number of these companies are raising capital and shipping containers to New York, New Jersey, Texas, Chicago, and California.</p>
 
 <p>This is not a fluke. It is the result of specific structural advantages that no other country replicates in combination: cheap labor inside the EU, vast certified forests, zero corporate tax on reinvested profits, a UNESCO-inscribed sauna tradition, and the most startup-dense economy in Europe. Here is how it happened and what it means for American sauna buyers.</p>
 
@@ -1475,8 +1475,6 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <p>US distributors have noticed. Several of the top North American sauna distributors now have staff permanently based in Estonia or making regular trips to the country, scouting new products, auditing factory quality, and building direct relationships with manufacturers before competitors can. Having boots on the ground in Tartu or Voru has become a real competitive advantage in the US market, because the best Estonian products often sell out to European buyers before American distributors even hear about them. The companies that invest in on-the-ground presence get first access to new product lines, better pricing, and faster shipping commitments.</p>
 
-<p>The volume is no longer trivial. Estonian sauna companies are now running regular container shipments into New York, New Jersey, Texas, Chicago, and California. These are not one-off orders. These are scheduled logistics operations with dedicated freight lanes, which is what sustained consumer demand actually looks like when it matures into infrastructure.</p>
-
 <h2>Cultural Credibility That Money Cannot Buy</h2>
 
 <p>In November 2014, UNESCO inscribed the Voromaa smoke sauna tradition, recognizing bathing customs, whisk-making skills, sauna construction, and meat smoking practiced by the approximately 75,000 people of the Voro community in southeastern Estonia. One in five farms in Voromaa still maintains a working smoke sauna.</p>
@@ -1504,7 +1502,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 </div>
 
 <div class="bottom-line">
-<p>A tiny Baltic nation with UNESCO smoke sauna heritage, Red Dot design awards, a public stock listing, and 51.5% forest coverage has quietly become one of the most important sauna production hubs on earth. If you are shopping for a sauna in the US today, you are almost certainly looking at Estonian-made products, whether you know it or not. The brands to watch: Thermory, HUUM, Saunum, Auroom, SaunaLife, and Haljas. Finland built the sauna industry. Estonia is reshaping it.</p>
+<p>A tiny Baltic nation with UNESCO smoke sauna heritage, a public stock listing, and 51.5% forest coverage has quietly become one of the most important sauna production hubs on earth. If you are shopping for a sauna in the US today, you are almost certainly looking at Estonian-made products, whether you know it or not. The brands to watch: Thermory, HUUM, Saunum, Auroom, SaunaLife, and Haljas. Finland built the sauna industry. Estonia is reshaping it.</p>
 </div>`,
     featured: true,
     trending: true,
