@@ -1447,7 +1447,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <p>US customers can buy Saunum products shipped from the greater Chicago area. The company won the Interbad 2022 Most Innovative Product award in Stuttgart and two Golden Wave 2024 awards. For American sauna builders looking for a climate management system compatible with any electric heater, the AirSolo retrofit unit is worth investigating.</p>
 
-<p>Perhaps the most telling endorsement comes from Finland itself. <a href="/article/lassi-liikkanen-saunologia-finnish-sauna-science">Lassi Liikkanen of Saunologia</a>, one of Finland's most respected sauna researchers and consultants, has spoken favorably about Saunum's climate equalization technology in his reviews. For a Finnish sauna purist to recommend Estonian-made equipment over domestic Finnish brands says something about how far Estonia's engineering credibility has come.</p>
+<p>Perhaps the most telling endorsement comes from Finland itself. <a href="/article/lassi-liikkanen-finnish-sauna-design-mistakes">Lassi Liikkanen of Saunologia</a>, one of Finland's most respected sauna researchers and consultants, has spoken favorably about Saunum's climate equalization technology in his reviews. For a Finnish sauna purist to recommend Estonian-made equipment over domestic Finnish brands says something about how far Estonia's engineering credibility has come.</p>
 
 <h2>The Emerging Wave: Haljas, SaunaLife, and the Volume Tier</h2>
 
