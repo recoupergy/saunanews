@@ -1522,7 +1522,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <p>Sauna360 is the Cokato, Minnesota-based subsidiary of Masco Corporation (NYSE: MAS) that markets saunas under five Nordic heritage brands: Finnleo, Tylö, Helo, Kastor, and Amerec. Masco acquired the company, then known as TyloHelo Inc., in a deal announced July 31, 2023. Masco's SEC filings describe manufacturing locations for the Plumbing Products segment as "Finland, Sweden, and USA." China does not appear in any official corporate communication as a manufacturing location.</p>
 
-<p>The gap between what government documents, customs databases, and executives themselves say, and what consumers read on brand websites, is the subject of this investigation.</p>
+<p>This report looks at what government documents, customs databases, and the company's own executives say about where these saunas are made, and how that compares to what consumers see on brand websites.</p>
 
 <h2>The Recall: Federal Documentation of Chinese Manufacturing</h2>
 
@@ -1536,7 +1536,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 <strong>CPSC Recall #26-040 Key Details:</strong> Tylö Halmstad 2/3/4 and Kiruna Hybrid 2/3 sauna rooms. Approximately 1,000 units recalled in the U.S. plus 9 in Canada. Sold July-December 2024 for $6,000 to $12,000. Defect: bench can collapse, posing a fall hazard. Seven incidents reported, including one injury with head and neck injuries. Importer: Sauna360, Inc., Cokato, MN. Manufactured In: China.
 </div>
 
-<p>The Tylö brand is sold on its Swedish origin. Its website, catalog copy, and dealer materials describe a factory in Halmstad, Sweden, "since 1950," and use the phrase "MADE IN SWEDEN" prominently. That is accurate for Tylö electric heaters. It is not accurate for the Halmstad and Kiruna Hybrid sauna rooms sold to consumers who paid thousands of dollars for what was marketed as Swedish craftsmanship.</p>
+<p>The Tylö brand is built around its Swedish origin. Its website, catalog copy, and dealer materials describe a factory in Halmstad, Sweden, "since 1950," and use the phrase "MADE IN SWEDEN" prominently. For Tylö electric heaters, that is accurate. For the Halmstad and Kiruna Hybrid sauna room cabinets, the CPSC recall says otherwise.</p>
 
 <h2>The Paper Trail: 865 Containers from China</h2>
 
@@ -1556,11 +1556,11 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <p>The split has been consistent for years. Sauna room kits come from China. Heaters and controls come from Scandinavia. This is not a recent cost-cutting measure.</p>
 
-<h2>The Executive Admission: 'Most of Sauna360's Revenue'</h2>
+<h2>On the Record: 'Most of Sauna360's Revenue'</h2>
 
-<p>The customs data tells the story in container counts. In Summer 2022, Sauna360 executives told it directly.</p>
+<p>The customs data tells the story in container counts. In Summer 2022, Sauna360 executives spoke directly about it.</p>
 
-<p>Enterprise Minnesota, a regional business publication, ran a feature on the company during the height of the global shipping crisis. Journalist Robb Murray got unusually frank admissions on the record.</p>
+<p>Enterprise Minnesota, a regional business publication, ran a feature on the company during the height of the global shipping crisis. Journalist Robb Murray got unusually candid on-the-record comments.</p>
 
 <blockquote>"What used to cost $5,000 to bring a container in is now $25,000 to $30,000. It's crazy. We've seen a surge in (custom-built) sauna sales because of that. People are asking, 'Why buy a portable one from China when I can get one that's made in Minnesota for almost the same price?'" — Mark Raisanen, Director of Sales and Marketing, Sauna360</blockquote>
 
@@ -1572,9 +1572,9 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <h2>Brand by Brand: What the Websites Say vs. What the Records Show</h2>
 
-<p>Each Sauna360 brand tells a different origin story. None mention China on consumer-facing pages.</p>
+<p>Each Sauna360 brand emphasizes its Nordic heritage differently. None mention China on consumer-facing pages.</p>
 
-<p><strong>Tylö</strong> is the most stark case. The brand's About page states: "Nestled in Halmstad, Sweden, Tylö boasts 75 years of unwavering dedication to the art of sauna craftsmanship." Catalog copy reads: "MADE IN SWEDEN — The Tylö factory is located in Halmstad on the west coast of Sweden. We have been here since 1950 and continue perfecting our products which are manufactured from scratch solely by us." Electric heaters made in Halmstad likely justify that language. The Halmstad and Kiruna Hybrid sauna rooms, which the CPSC recall proves were manufactured in China, are sold on the same website under the same brand identity. No distinction between heater origin and room origin appears anywhere on the consumer site.</p>
+<p><strong>Tylö</strong> is the most stark case. The brand's About page states: "Nestled in Halmstad, Sweden, Tylö boasts 75 years of unwavering dedication to the art of sauna craftsmanship." Catalog copy reads: "MADE IN SWEDEN — The Tylö factory is located in Halmstad on the west coast of Sweden. We have been here since 1950 and continue perfecting our products which are manufactured from scratch solely by us." Electric heaters made in Halmstad likely justify that language. The Halmstad and Kiruna Hybrid sauna rooms, which the CPSC recall identifies as manufactured in China, are sold on the same website under the same brand identity. The consumer site does not distinguish between heater origin and room origin.</p>
 
 <p><strong>Finnleo</strong> markets itself as "The Genuine Finnish Sauna" across its entire web presence. Its About page references "our US-based manufacturing" for custom saunas and notes its 1984 founding in Cokato, Minnesota. Its NorthStar product line explicitly says "Made in the USA." Its heaters are described as "genuine Finnish heaters, designed and built in Finland." But the flagship tagline is applied to the full product line without any disclosure that pre-built sauna room kits are manufactured in China. One authorized Finnleo dealer independently states on its website that "Finnleo Pure Infra Saunas are also made in China," though it adds that Finnleo "owns and operates their own factories" there. That factory ownership claim has not been independently verified and appears to be contradicted by Masco's SEC filings.</p>
 
@@ -1584,36 +1584,36 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <p><strong>Amerec</strong> manufactures steam generators in Woodinville, Washington, and has transferred its sauna product line to Helo. Amerec's website notably avoids explicit country-of-origin claims, a more restrained approach than its sibling brands.</p>
 
-<h2>The Masco Layer: What Wall Street Hasn't Been Asked</h2>
+<h2>What Masco's Filings Disclose</h2>
 
 <p>Masco Corporation (NYSE: MAS) is an $8 billion revenue home improvement products company. Its FY2024 10-K states that Plumbing Products companies "manufacture products primarily in North America and Europe as well as in Asia and source products from Asia and other regions." That language technically covers Chinese manufacturing, but provides no product-level breakdown. The Exhibit 21 subsidiary list shows Sauna360 entities in Finland, Sweden, the United Kingdom, Minnesota, Delaware, and Taiwan. There is no Chinese entity.</p>
 
 <p>The absence of a Chinese subsidiary matters. If Sauna360 owned the Sfactor factories in Wuxi, Changzhou, and Suzhou, those entities would appear in SEC filings. They do not. The most likely conclusion is that Sfactor operates as an independent contract manufacturer, not a company-owned facility. This contradicts the dealer claim that Finnleo "owns and operates" Chinese factories.</p>
 
-<p>On Masco's Q4 2024 earnings call, CFO Richard Westenberg disclosed approximately $450 million in China imports across the company in 2025, with 80% (approximately $360 million) in the Plumbing Products segment. He said Masco had "successfully reduced our exposure to China by 45% since 2018" and expected China imports to fall below $300 million by end of 2026. No analyst on any Masco earnings call has ever asked specifically about sauna manufacturing country of origin.</p>
+<p>On Masco's Q4 2024 earnings call, CFO Richard Westenberg disclosed approximately $450 million in China imports across the company in 2025, with 80% (approximately $360 million) in the Plumbing Products segment. He said Masco had "successfully reduced our exposure to China by 45% since 2018" and expected China imports to fall below $300 million by end of 2026. Sauna-specific sourcing has not come up on Masco earnings calls.</p>
 
 <div class="callout">
 <strong>The Disclosure Gap:</strong> Masco FY2024 10-K describes manufacturing "primarily in North America and Europe as well as in Asia." Sauna360 corporate website and press materials list manufacturing in "Finland, Sweden, and the United States." No Masco filing identifies China as a Sauna360 manufacturing location. No Chinese subsidiary appears in Exhibit 21.
 </div>
 
-<h2>The Industry Standard Sauna360 Doesn't Meet</h2>
+<h2>How Competitors Handle Disclosure</h2>
 
-<p>To understand how unusual Sauna360's disclosure posture is, look at what competitors do.</p>
+<p>For context, here is how other premium sauna brands handle country-of-origin disclosure.</p>
 
 <p><a href="/article/harvia-record-q1-revenue-thermasol-integration">Harvia</a> (Nasdaq Helsinki: HARVIA), the world's largest sauna heater manufacturer, openly discloses its Guangzhou, China factory in investor materials. The Guangzhou facility produces heating elements and resistors assembled into complete heaters in Muurame, Finland. Harvia's annual reports name the operation explicitly.</p>
 
 <p>EOS (Germany) states: "100% made in Germany — we develop and produce our products exclusively in Germany." Narvi (Finland) carries the official Finnish Key Flag Symbol, a government certification requiring at least 95% domestic production. Klafs (Germany, acquired by Kohler in 2023) consistently markets German manufacturing at its Schwäbisch Hall factory. <a href="/article/estonia-sauna-manufacturing-powerhouse">Auroom</a> (Estonia, part of Thermory Group) prominently states "Handcrafted in Estonia" across its product line.</p>
 
-<p>Chinese OEM manufacturing is not unusual in the sauna industry. The budget and white-label segments depend heavily on Chinese production. But among premium brands built around heritage narratives and sold at $6,000 to $30,000 price points, Sauna360 appears to be the only major player systematically manufacturing complete sauna rooms in China while marketing Nordic origin stories without qualification.</p>
+<p>Chinese OEM manufacturing is not unusual in the sauna industry. The budget and white-label segments depend heavily on Chinese production. Among premium brands built around heritage narratives, though, explicit origin disclosure is the norm. Sauna360's consumer-facing materials do not follow that pattern for its pre-built room products.</p>
 
-<h2>What Consumers Deserve to Know</h2>
+<h2>What Buyers Should Know</h2>
 
 <p>What remains unclear: which specific current SKUs are manufactured in China versus Cokato versus Scandinavia. The 2022 Enterprise Minnesota article indicates custom saunas are made in Minnesota while pre-built kits come from China, but product lines may have shifted since the Masco acquisition. Whether Masco's stated commitment to reducing China sourcing has affected Sauna360's product mix since the 2025 tariff escalation is also unknown.</p>
 
-<p>This is a transparency story, not a quality story. Chinese manufacturing is not inherently inferior. The bench recall is one data point about one structural component. The relevant question is what consumers are told when they spend $8,000 or $10,000 on a sauna marketed as "Made in Sweden" or "The Genuine Finnish Sauna." Federal documents and customs records show that for a significant share of Sauna360's product line, the origin is China. Harvia discloses its Chinese component sourcing in annual reports. Sauna360 does not disclose Chinese room manufacturing anywhere on its consumer websites.</p>
+<p>This is a sourcing transparency story, not a quality indictment. Chinese manufacturing is not inherently inferior. The bench recall is one data point about one structural component. The broader point is that buyers spending $8,000 or $10,000 on a sauna marketed as "Made in Sweden" or "The Genuine Finnish Sauna" may reasonably want to know where the room cabinet was built. Customs records and the CPSC recall suggest it is likely China for pre-built models. Harvia discloses its Chinese component sourcing in annual reports. Sauna360's consumer websites do not address it.</p>
 
 <div class="bottom-line">
-<p>The CPSC, U.S. customs records, and company executives all say the same thing: Sauna360 manufactures most of its sauna room products in China. Its marketing does not. If you are shopping for a Finnleo, Tylö, or Helo sauna, ask your dealer where the room structure was made, not just the heater.</p>
+<p>A federal recall, two decades of customs records, and on-the-record executive comments all point to the same sourcing reality: most Sauna360 pre-built sauna rooms come from China, with heaters arriving separately from Scandinavia. If you are shopping for a Finnleo, Tylö, or Helo sauna, it is worth asking your dealer specifically where the room cabinet was manufactured.</p>
 </div>`,
     featured: true,
     trending: true,
