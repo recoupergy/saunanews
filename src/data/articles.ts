@@ -1380,6 +1380,252 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
     featured: true,
     trending: true,
   },
+  {
+    id: '37',
+    title: 'How Estonia Became the World\'s Sauna Manufacturing Powerhouse',
+    slug: 'estonia-sauna-manufacturing-powerhouse',
+    dek: 'A country of 1.37 million people now exports saunas to 60+ countries. With labor costs 60% below Finland, UNESCO-certified sauna heritage, and Red Dot-winning design, Estonia is challenging a century of Finnish dominance.',
+    excerpt: 'Estonia\'s 34+ sauna manufacturers, led by Thermory, HUUM, and Saunum Group, have turned a tiny Baltic nation into one of the world\'s most important sauna production hubs. Here\'s why it matters for American buyers.',
+    contentType: 'Analysis',
+    category: 'Market Intelligence',
+    tags: ['Estonia', 'Thermory', 'HUUM', 'Saunum', 'Auroom', 'Haljas', 'SaunaLife', 'manufacturing', 'Europe', 'trade'],
+    author: authors.elise,
+    publishDate: '2026-04-12',
+    readingTime: 12,
+    featuredImage: 'https://images.unsplash.com/photo-1554755229-ca4470e07232?w=1600&h=1000&fit=crop&q=80',
+    imageCaption: 'Thermory, the world\'s largest producer of thermally modified wood, anchors Estonia\'s fast-growing sauna manufacturing cluster.',
+    body: `<p>If you have bought a premium sauna in the United States in the past five years, there is a good chance it was made in Estonia. The heater, the wood, the cabin, the smart controller: increasingly, all of it traces back to a country smaller than New Hampshire with a population of 1.37 million.</p>
+
+<p>Estonia now has at least 34 sauna manufacturers shipping to more than 60 countries. Thermory, the world's largest producer of thermally modified wood, posted $162 million in revenue in 2022. HUUM, the Tartu-based heater company, grew at a 115% compound annual rate over three years. Saunum Group took its patented air equalization technology public on Nasdaq. And if you have browsed barrel saunas on Sauna Marketplace, you have almost certainly seen products from Ecosauna, the southern Estonian factory behind the SaunaLife brand.</p>
+
+<p>This is not a fluke. It is the result of specific structural advantages that no other country replicates in combination: cheap labor inside the EU, vast certified forests, zero corporate tax on reinvested profits, a UNESCO-inscribed sauna tradition, and the most startup-dense economy in Europe. Here is how it happened and what it means for American sauna buyers.</p>
+
+<h2>Thermory Sets the Pace at $162 Million</h2>
+
+<p>Thermory AS is the anchor of Estonia's sauna industry. Founded in 1997 by Meelis Kajandu as Brenstol, the company adopted thermal modification technology in 2001 and renamed itself Thermory in 2017. The real inflection point came in July 2018, when Thermory signed a merger agreement with Ha Serv, then Europe's largest manufacturer of sauna materials and ready-made saunas. Ha Serv owned the premium Auroom brand. PricewaterhouseCoopers and Deloitte Advisory handled the financials. Livonia Partners, a pan-Baltic private equity fund managing approximately $90 million across two funds, was Ha Serv's controlling shareholder.</p>
+
+<p>"We have been competitors for over 20 years," Kajandu said at the time. "Together we can think bigger and faster develop our various business lines."</p>
+
+<p>The combined entity scaled fast. Revenue hit roughly $76 million immediately after the merger with over 500 employees. Thermory then acquired 100% of Finland's Siparila Oy (adding four factories and 130 employees), took full ownership of Latvian sawmill VMS Timber by December 2021, and invested $8.2 million in a new thermal complex near Tallinn that doubled thermowood capacity at that plant. By 2022, the group reported $162 million in revenue, $11 million in profit, and 742 employees across nearly 10 factories in Estonia and Finland. More than 90% of production is exported.</p>
+
+<p>For American buyers, the most relevant piece is Thermory USA, based in Batavia, New York, with about 27 employees. The subsidiary claims roughly 85% of the North American thermowood market and has nearly doubled in size annually. A centralized warehouse moved from Denver to Houston in early 2024. The Thermory 40 Series, square-profile outdoor saunas made from thermally modified Nordic spruce and priced from approximately $6,000 to $9,900, marks the company's push beyond raw materials into finished sauna products, often bundled with HUUM WiFi-enabled heaters.</p>
+
+<h2>Auroom: Where Saunas Become Architecture</h2>
+
+<p>The Auroom brand, now fully within Thermory's group, operates as a distinct premium division from its production facility in Vana-Kastre, Tartu County. With about 75 dedicated employees and annual capacity of up to 2,500 designer saunas, Auroom occupies the luxury tier. Italian designer Luca Donazzolo created the line's distinctive aesthetic, which ranges from the compact indoor Cala and Baia models to the flagship outdoor Natura and exclusive QUU series.</p>
+
+<p>What sets Auroom apart is the bespoke ratio: 60% of production goes to custom solutions, and roughly 90% of standard models get adjusted to customer specifications. Every sauna undergoes trial installation and quality control before shipping. The brand serves high-profile hospitality clients including Six Senses Crans-Montana in Switzerland and Ryokan Shizuku Hotel in Japan, where 14 rooms were fitted with Cala Glass saunas. Products reach 30+ countries.</p>
+
+<p>Because Auroom draws materials directly from Thermory's own thermally modified wood supply (thermo-aspen, thermo-spruce, thermo-alder), the value chain is vertically integrated in a way few competitors can match. If you are shopping for a <a href="/article/luxury-hotels-thermal-bathing-suites-trend">luxury sauna with hospitality-grade build quality</a>, Auroom is one of the names that keeps coming up.</p>
+
+<h2>HUUM: From $1.2 Million to a Projected $29 Million in Six Years</h2>
+
+<p>HUUM may be the purest expression of Estonia's design-meets-engineering sauna identity. Founder Siim Nellis is a third-generation stove builder. His grandfather Paul Nellis was a revered stonemason and builder of sauna stoves. Siim wanted to modernize but found his early electric heater prototypes uninspiring. In 2011, he walked into the Estonian Academy of Arts and challenged product design students to reimagine the sauna heater. Student Mihkel Masso proposed a wall-mounted hemisphere inspired by a water droplet. By 2012, the design was production-ready. It became the DROP, and it exceeded its first-year sales target by 400%.</p>
+
+<p>The financial trajectory is remarkable for a hardware company. Revenue was approximately $1.2 million in 2019. Then the pandemic hit, and home sauna demand exploded. HUUM's stove sales surged 221% in March 2020. Revenue climbed to roughly $10.5 million by 2022, a 115% three-year compound annual growth rate. The North American subsidiary grew from about $500,000 in 2020 to $5.2 million in 2022. By 2024, HUUM reported $16 million in revenue with a 7% profit margin. An algorithmic forecast from Inforegister projects approximately $29 million for 2025, though that should be treated as an estimate, not confirmed guidance.</p>
+
+<blockquote>At the moment we don't need additional money from investors and can grow using our own resources.</blockquote>
+
+<p>Nellis's stated ambition: make HUUM the world's second-largest sauna heater manufacturer, behind only Finland's <a href="/article/harvia-record-q1-revenue-thermasol-integration">Harvia</a>.</p>
+
+<p>For US buyers, one specification matters more than any other. <a href="/article/ul-60335-2-53-sauna-heater-standard-transition">HUUM's SGS certification</a> allows heaters to reach approximately 230\u00B0F, compared to the 194\u00B0F ceiling of standard UL-listed heaters. That 36-degree difference matters enormously to serious sauna users. HUUM invested over $60,000 in product certification for the American market. The company now holds three Red Dot Product Design Awards, for the DROP (2015), the CLIFF heater (2021), and the UKU controller (2021), making it responsible for three of only thirteen Estonian products ever to receive the honor.</p>
+
+<p>Production is distinctly artisanal. Metal arcs for the DROP and HIVE heaters are individually cut and bent by hand. Final heater assembly happens in Tartu, while the UKU smart controllers are assembled in Parnu by partner Oshino Electronics Estonia. HUUM was the first company in the industry to offer smartphone app integration, back in 2014.</p>
+
+<h2>Saunum Group: Sauna Science on the Stock Exchange</h2>
+
+<p>Saunum Group is the only publicly traded pure-play sauna technology company on the Nasdaq Baltic. Founded in December 2014 by thermal engineer Andrus Vare alongside Lauri Meidla and Lauri Paeveer, the company developed a patented air equalization system in collaboration with Tallinn University of Technology.</p>
+
+<p>The technology draws hot, oxygen-poor air from the sauna ceiling and blends it with cooler, oxygen-rich air from the floor, then distributes the mixed air at floor level. The result: temperature variation equalized by more than 60% across the room. An integrated Himalayan salt reservoir propels beneficial ions into the airstream. The system effectively turns a single heater into a five-in-one sauna (classical Nordic steam, wet steamy, mild relaxing, aroma, and salt ion) adjustable between 104\u00B0F and 194\u00B0F. Saunum holds seven industrial design patents.</p>
+
+<p>Vare, who was "not particularly fond of saunas growing up," was inspired after inheriting his grandfather's century-old smoke sauna. The company's IPO in December 2020 was more than 10 times oversubscribed, attracting about $3.3 million in subscription orders from over 1,500 investors. Revenue grew from $2.4 million in 2022 to $4.1 million in 2023 (a 68% increase) and held at $4 million in fiscal year 2025. The company has been consistently loss-making but the trajectory is improving: losses narrowed from $1.8 million in 2022 to just $275,000 in FY2025, a 77% improvement.</p>
+
+<blockquote>Going public gave us a lot of fame. In addition, it has brought a certificate of quality. If we say we are listed on Nasdaq, we are taken serious. There are no more questions about what kind of company we are and what is Estonia.</blockquote>
+
+<p>US customers can buy Saunum products shipped from the greater Chicago area. The company won the Interbad 2022 Most Innovative Product award in Stuttgart and two Golden Wave 2024 awards. For American sauna builders looking for a climate management system compatible with any electric heater, the AirSolo retrofit unit is worth investigating.</p>
+
+<h2>The Emerging Wave: Haljas and Ecosauna</h2>
+
+<p>Haljas Houses, founded in February 2021 in Tartu by Otto Taht, Karl Joonas, and Rauno Palmi, produces architecturally striking octagonal saunas featuring double-glazed tempered mirror glass: see out, but nobody sees in. Every unit ships fully assembled on cross-laminated timber panels, with 90% of materials sourced within a 19-mile radius. The company won Red Dot Product Design Awards in both 2022 and 2025.</p>
+
+<p>Despite just five employees, Haljas has built an international distributor network spanning the US, UK, Australia, and eight other countries. Revenue has grown from $62,000 in 2021 to $650,000 in 2024. The flagship Hele Single starts at about $23,200 in Europe; in the US, the Hele Nano retails for approximately $54,900 shipped. These are statement pieces for high-end residential projects.</p>
+
+<p>At the other end of the spectrum sits Ecosauna Project, based in Himmaste village in Polva county, southern Estonia. This is the volume play. Founded in 2014, the company operates a 48,000+ sq ft production facility with 38 employees. Revenue surged from $50,000 in 2014 to $7.3 million in 2021 (a 161% COVID-era jump) before stabilizing at $6.8 million in 2024 with roughly $1 million in net profit. Ecosauna produces barrel saunas, hot tubs, and camping pods, and supplies the North American market primarily through Bathing Brands, the Wheeling, Illinois company that owns the SaunaLife consumer brand.</p>
+
+<p>SaunaLife has become one of the most recognized outdoor sauna brands in North America, offering everything from affordable X-Series indoor kits to the G-Series fully assembled outdoor saunas and the popular EE-Series barrels you will find on Sauna Marketplace. In November 2024, Bathing Brands launched the World Sauna Group at the IPSP Expo in Dallas with a 3,500 sq ft booth, the largest in show history, displaying 15 Estonian sauna cabins.</p>
+
+<h2>Why Estonia? The Structural Advantages</h2>
+
+<p>Estonia's sauna manufacturing success rests on a convergence of factors that no single competitor nation replicates.</p>
+
+<div class="callout">
+<strong>Estonia's Manufacturing Edge:</strong> Labor costs of $17.90/hr vs. $45.20 in Finland, $46.50 in Sweden, and $55.80 in Denmark. Forest coverage of 51.5% (5.76 million acres), sixth most forested country in Europe. Zero corporate tax on reinvested profits. EU single market access to 450 million consumers. Eurozone member since 2011.
+</div>
+
+<p>The raw material base is extraordinary for a country this small. Annual wood product exports total $2.1 billion, or 10.7% of total national exports. Roughly 1,000 wood processing companies operate in the country, employing 38,000 people directly and indirectly. Sixty percent of forests are FSC certified.</p>
+
+<p>The 0% corporate tax on reinvested profits, a flat-tax structure Estonia adopted in 1994, is a genuine competitive weapon. It allows manufacturers to aggressively reinvest in capacity and technology without immediate tax drag. Thermory's $8.2 million thermal complex expansion, HUUM's $60,000 US certification investment, Saunum's R&D collaboration with Tallinn University of Technology: all of these are easier when reinvested profits are not taxed.</p>
+
+<p>Then there is the digital culture. Estonia produced Skype, Bolt, Wise, and Pipedrive. The country has 7.7 unicorns per million capita, the highest rate in Europe. That startup DNA shows up in how even traditional manufacturers think. HUUM launched the industry's first smartphone-controlled sauna in 2014. Saunum built patented climate equalization algorithms. Thermory runs paperless production at Auroom.</p>
+
+<p>Geographic concentration amplifies everything. A southern Estonian manufacturing cluster spanning Voru, Polva, Tartu, and Viljandi counties puts multiple sauna factories within short drives of each other and the region's certified forests.</p>
+
+<h2>Cultural Credibility That Money Cannot Buy</h2>
+
+<p>In November 2014, UNESCO inscribed the Voromaa smoke sauna tradition, recognizing bathing customs, whisk-making skills, sauna construction, and meat smoking practiced by the approximately 75,000 people of the Voro community in southeastern Estonia. One in five farms in Voromaa still maintains a working smoke sauna.</p>
+
+<p>Then came the documentary. "Smoke Sauna Sisterhood," directed by Anna Hints, premiered at Sundance in January 2023, won the Sundance Directing Award for World Cinema Documentary, and took the European Film Award for Best Documentary. It earned a 98% score on Rotten Tomatoes and sold distribution rights to 30+ territories. The film brought global visibility to Estonian sauna culture at precisely the moment when international demand was surging.</p>
+
+<p>Celebrity helped too. David Beckham purchased an Iglucraft igloo-style sauna, built by hand in Leie village, Viljandimaa, for his Cotswold estate and posted about it to his 52 million Instagram followers. The roughly $15,200 sauna generated coverage across UK tabloids, Estonian media, and the wellness press.</p>
+
+<h2>How Estonia Stacks Up Against Harvia</h2>
+
+<p><a href="/article/harvia-record-q1-revenue-thermasol-integration">Harvia</a>, the Finnish sauna giant on Nasdaq Helsinki, reported $190 million in revenue for 2024 with approximately 700 employees and a $770 million market capitalization. Harvia's North American revenue alone reached roughly $67 million, larger than all Estonian sauna companies combined.</p>
+
+<p>Estonia's largest player, Thermory, actually exceeds Harvia in total revenue. But most of Thermory's business is thermally modified lumber for decking and cladding, not sauna-specific products. In pure sauna equipment, HUUM at approximately $16 million and Saunum at $4 million remain small relative to Harvia. But the growth rates tell a different story: HUUM's 115% three-year CAGR through 2022 dramatically outpaces Harvia's normalized growth trajectory of roughly 10% annually.</p>
+
+<p>The consolidation wave adds another dimension. KLAFS (Germany) was acquired by Kohler in January 2024 for an undisclosed sum, with approximately $147 million in revenue and 850 employees. Sauna360/TyloHelo was acquired by Masco Corporation in 2023 for $135 million. When major consumer goods companies are paying these prices, Estonian innovators start looking like attractive acquisition targets.</p>
+
+<h2>The Tariff Reality for US Buyers</h2>
+
+<p>Estonian sauna exports to the US face a complex but navigable tariff environment. Under the EU-US framework agreement established after the April 2025 tariff escalation, most EU exports carry a <a href="/article/us-sauna-imports-tariff-pressure-europe">15% tariff</a>. Section 232 tariffs on wood products, effective October 2025, impose a 10% duty on softwood lumber, but EU-origin wood products are capped at 15% total.</p>
+
+<p>The US Supreme Court ruled IEEPA tariffs unconstitutional in February 2026, and the government is processing refunds on the $166 billion collected. A replacement 10% global tariff under Section 122 of the Trade Act runs through July 2026. For Estonian manufacturers, the 15% cap on EU goods provides some price predictability. Estonia's labor cost advantage partially offsets tariff friction, but continued uncertainty makes the US market more challenging than the tariff-free European single market.</p>
+
+<div class="why-it-matters">
+<p>Estonia's rise matters for American sauna buyers because it is expanding the range of high-quality options available at various price points. Whether you are looking at a $6,000 Thermory 40 Series kit, a $16,000 HUUM DROP heater setup, or a $54,900 Haljas architectural glass sauna, these products exist because a cluster of Estonian companies figured out how to combine Scandinavian-grade quality with significantly lower production costs. The global sauna equipment market is projected to grow from $905 million in 2024 to $1.56 billion by 2033 (Grand View Research), and Estonian manufacturers are positioned to capture a growing share of that expansion.</p>
+</div>
+
+<div class="bottom-line">
+<p>A tiny Baltic nation with UNESCO smoke sauna heritage, Red Dot design awards, Nasdaq listings, and 51.5% forest coverage has quietly become one of the most important sauna production hubs on earth. If you are shopping for a sauna in the US today, you are almost certainly looking at Estonian-made products, whether you know it or not. The brands to watch: Thermory, HUUM, Saunum, Auroom, SaunaLife, and Haljas. Finland built the sauna industry. Estonia is reshaping it.</p>
+</div>`,
+    featured: true,
+    trending: true,
+  },
+  {
+    id: '38',
+    title: 'The Nordic Illusion: How Sauna360 Makes Most Saunas in China',
+    slug: 'sauna360-chinese-manufacturing-nordic-illusion',
+    dek: 'A federal safety recall, two decades of U.S. customs records, and an executive\'s on-the-record admissions reveal that Sauna360 manufactures the majority of its sauna rooms in China — a fact absent from every brand website and Masco SEC filing.',
+    excerpt: 'CPSC Recall #26-040, U.S. customs bill-of-lading data, and a 2022 magazine interview with Sauna360 executives all confirm the same thing: the Cokato, Minnesota company behind Finnleo, Tylö, Helo, Kastor, and Amerec manufactures most of its sauna room products in China. Its consumer marketing says nothing about it.',
+    contentType: 'Analysis',
+    category: 'Manufacturer News',
+    tags: ['Sauna360', 'Finnleo', 'Tylö', 'Helo', 'Masco', 'China', 'manufacturing', 'CPSC', 'recall', 'supply chain', 'transparency'],
+    author: authors.james,
+    publishDate: '2026-04-12',
+    readingTime: 11,
+    featuredImage: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200&q=80',
+    imageCaption: 'Pre-built sauna room kits sold under Scandinavian heritage brands make up the bulk of Sauna360\'s U.S. sales, according to company executives and customs records.',
+    body: `<p>A federal safety recall published last October contains four words that Sauna360's marketing materials never do: "Manufactured In: China."</p>
+
+<p>CPSC Recall #26-040, issued October 23, 2025, covers bench seating in Tylö-branded Halmstad and Kiruna Hybrid sauna rooms. Seven consumers reported bench collapses, including one who suffered head and neck injuries. The units sold for $6,000 to $12,000 apiece through various U.S. distributors. They were made in China.</p>
+
+<p>That four-word phrase, buried in a government safety notice, cuts to the center of a story that U.S. customs records, a 2022 magazine interview with company executives, and a now-archived corporate webpage all tell in greater detail: the majority of Sauna360's sauna room products sold in North America are manufactured in China, while the company's consumer-facing marketing describes a Scandinavian heritage it reserves exclusively for heaters.</p>
+
+<p>Sauna360 is the Cokato, Minnesota-based subsidiary of Masco Corporation (NYSE: MAS) that markets saunas under five Nordic heritage brands: Finnleo, Tylö, Helo, Kastor, and Amerec. Masco acquired the company, then known as TyloHelo Inc., in a deal announced July 31, 2023. Masco's SEC filings describe manufacturing locations for the Plumbing Products segment as "Finland, Sweden, and USA." China does not appear in any official corporate communication as a manufacturing location.</p>
+
+<p>The gap between what government documents, customs databases, and executives themselves say, and what consumers read on brand websites, is the subject of this investigation.</p>
+
+<h2>The Recall: Federal Documentation of Chinese Manufacturing</h2>
+
+<p>CPSC Recall #26-040 is the single most authoritative piece of evidence in this story. There is no ambiguity in its language. The U.S. Consumer Product Safety Commission is a federal agency; its recall notices are legal documents.</p>
+
+<p>The recall covers bench seating in the Tylö Halmstad 2, 3, and 4 sauna rooms and the Kiruna Hybrid 2 and 3 sauna rooms. Units sold between July and December 2024. Seven reports of bench breakage were filed before the recall was issued. One consumer sustained head and neck injuries. About 1,000 units were recalled in the United States, plus nine units in Canada.</p>
+
+<p>The defect is structural, not electrical. Bench wood can collapse under normal use. The heater is not implicated. But the recall notice identifies the importer as "Sauna360, Inc., of Cokato, Minnesota" and states the manufacturing origin as China.</p>
+
+<div class="callout">
+<strong>CPSC Recall #26-040 Key Details:</strong> Tylö Halmstad 2/3/4 and Kiruna Hybrid 2/3 sauna rooms. Approximately 1,000 units recalled in the U.S. plus 9 in Canada. Sold July-December 2024 for $6,000 to $12,000. Defect: bench can collapse, posing a fall hazard. Seven incidents reported, including one injury with head and neck injuries. Importer: Sauna360, Inc., Cokato, MN. Manufactured In: China.
+</div>
+
+<p>The Tylö brand is sold on its Swedish origin. Its website, catalog copy, and dealer materials describe a factory in Halmstad, Sweden, "since 1950," and use the phrase "MADE IN SWEDEN" prominently. That is accurate for Tylö electric heaters. It is not accurate for the Halmstad and Kiruna Hybrid sauna rooms sold to consumers who paid thousands of dollars for what was marketed as Swedish craftsmanship.</p>
+
+<h2>The Paper Trail: 865 Containers from China</h2>
+
+<p>U.S. customs bill-of-lading records, accessed via commercial databases including ImportGenius and ImportKey, document Sauna360's import history across nearly 20 years. The picture is consistent across the company's name changes, from Saunatec to TyloHelo to Sauna360.</p>
+
+<p>The importing entity at 575 East Cokato Street, Cokato, MN 55321 has logged 1,009 documented shipments from November 2006 through April 2026. The vast majority originate from a cluster of Chinese suppliers operating under the "Sfactor" brand in Jiangsu Province.</p>
+
+<p>Wuxi Sfactor Co., Ltd. (Xishan Industrial Zone, Wuxi, Jiangsu) accounts for approximately 460 containers totaling 3.7 million kilograms. Its most recent recorded shipment arrived April 8, 2026. Customs description on bills of lading: "WOOD PREFABRICATED BUILDINGS." At least one bill of lading references "ATM GROUP NA BASKET NAC MASCO" in the product line, a direct trace to the Masco parent. Changzhou Sfactor Co., Ltd. accounts for approximately 370 containers (3.1 million kg), primarily transshipped via Pusan, South Korea. A third Sfactor entity in Suzhou accounts for 58 additional shipments filed under the former TyloHelo importer name.</p>
+
+<p>Additional Chinese suppliers include Guangdong Hongyuan Home Furnishing Co., Ltd. of Guangzhou (which operates as "Royal Saunas," an OEM exporter of infrared and traditional sauna products) with approximately 35 containers, and Hangzhou Fulton Thermal Equipment Co. with roughly 150 shipments.</p>
+
+<p>The European side of the ledger looks entirely different. Sauna360 AB Tylö in Sweden accounts for approximately 62 containers, with customs documentation noting "COO SE" (Country of Origin: Sweden) and describing cargo as "SAUNA HEATERS WITH CONTROLS AND SPARE PARTS." Sauna360 Oy in Finland accounts for approximately 34 containers of "ELECTRIC HEATERS / ROCK FOR HEATERS / CARTON BOXES." Finnish timber suppliers including Pieksawood Oy, Koskisen Oy, and Mäntsälän Saha Oy contribute smaller volumes of heat-treated alder and other sauna materials.</p>
+
+<div class="callout">
+<strong>Estimated Import Volume by Origin (container counts):</strong> Chinese suppliers (Sfactor group and others): ~865 containers, approximately 86% of total inbound volume. Swedish factory (heaters and controls): ~62 containers, approximately 6%. Finnish factory (heaters and rocks): ~34 containers, approximately 3%. Finnish timber suppliers: remaining volume. Source: ImportGenius, ImportKey, U.S. Customs bill-of-lading records.
+</div>
+
+<p>The split has been consistent for years. Sauna room kits come from China. Heaters and controls come from Scandinavia. This is not a recent cost-cutting measure.</p>
+
+<h2>The Executive Admission: 'Most of Sauna360's Revenue'</h2>
+
+<p>The customs data tells the story through container counts. In Summer 2022, Sauna360 executives told it in plain English.</p>
+
+<p>Enterprise Minnesota, a regional business publication, ran a feature on the company at a time when global shipping rates had skyrocketed. Journalist Robb Murray wrote the piece with unusual frankness because a company executive was equally frank on the record.</p>
+
+<blockquote>"What used to cost $5,000 to bring a container in is now $25,000 to $30,000. It's crazy. We've seen a surge in (custom-built) sauna sales because of that. People are asking, 'Why buy a portable one from China when I can get one that's made in Minnesota for almost the same price?'" — Mark Raisanen, Director of Sales and Marketing, Sauna360</blockquote>
+
+<p>Murray wrote: "The saunas manufactured in China make up most of Sauna360's revenue" and "the free-standing, pre-sized units manufactured in China comprise the bulk of the company's sales." These were not paraphrases from an anonymous source. They were direct reporting, attributed to named company officials, published in a business magazine fourteen months before Masco completed its acquisition.</p>
+
+<p>A now-archived page on the TyloHelo U.S. website was even more explicit: "We also produce high quality entry level and mid-range saunas and infrared rooms in our China facility. Our sauna heaters and controls are made in our Hanko, Finland plant, and our steam generators and boilers are made in our Woodinville, Washington Plant."</p>
+
+<p>That language, which acknowledged China as a manufacturing location, is no longer publicly visible on the company's websites.</p>
+
+<h2>Brand by Brand: What the Websites Say vs. What the Records Show</h2>
+
+<p>Each Sauna360 brand tells a different origin story. None mention China on consumer-facing pages.</p>
+
+<p><strong>Tylö</strong> is the most stark case. The brand's About page states: "Nestled in Halmstad, Sweden, Tylö boasts 75 years of unwavering dedication to the art of sauna craftsmanship." Catalog copy reads: "MADE IN SWEDEN — The Tylö factory is located in Halmstad on the west coast of Sweden. We have been here since 1950 and continue perfecting our products which are manufactured from scratch solely by us." Electric heaters made in Halmstad likely justify that language. The Halmstad and Kiruna Hybrid sauna rooms, which the CPSC recall proves were manufactured in China, are sold on the same website under the same brand identity. No distinction between heater origin and room origin appears anywhere on the consumer site.</p>
+
+<p><strong>Finnleo</strong> markets itself as "The Genuine Finnish Sauna" across its entire web presence. Its About page references "our US-based manufacturing" for custom saunas and notes its 1984 founding in Cokato, Minnesota. Its NorthStar product line explicitly says "Made in the USA." Its heaters are described as "genuine Finnish heaters, designed and built in Finland." But the flagship tagline is applied to the full product line without any disclosure that pre-built sauna room kits are manufactured in China. One authorized Finnleo dealer independently states on its website that "Finnleo Pure Infra Saunas are also made in China," though it adds that Finnleo "owns and operates their own factories" there. That factory ownership claim has not been independently verified and appears to be contradicted by Masco's SEC filings.</p>
+
+<p><strong>Helo</strong> is the relative transparency outlier. Its custom saunas page states: "Custom sauna interiors are handcrafted in the USA and heaters in Finland." The overall brand still uses "The genuine Finnish sauna, handcrafted for life," but the USA manufacturing disclosure for custom interiors is accessible and specific. This is meaningfully more transparent than Tylö or Finnleo.</p>
+
+<p><strong>Kastor</strong> operates as a heater-only brand, marketed as "Finland's oldest sauna brand, founded in 1916," with manufacturing at Hanko, Finland. As a heater brand with no room kits in its product catalog, its Finnish manufacturing claims are accurate.</p>
+
+<p><strong>Amerec</strong> manufactures steam generators in Woodinville, Washington, and has transferred its sauna product line to Helo. Amerec's website notably avoids explicit country-of-origin claims, a more restrained approach than its sibling brands.</p>
+
+<h2>The Masco Layer: What Wall Street Hasn't Been Asked</h2>
+
+<p>Masco Corporation is a $6 billion NYSE-listed home improvement products company. Its FY2024 10-K states that Plumbing Products companies "manufacture products primarily in North America and Europe as well as in Asia and source products from Asia and other regions." That language technically covers Chinese manufacturing, but provides no product-level breakdown. The Exhibit 21 subsidiary list shows Sauna360 entities in Finland, Sweden, the United Kingdom, Minnesota, Delaware, and Taiwan. There is no Chinese entity.</p>
+
+<p>The absence of a Chinese subsidiary matters. If Sauna360 owned the Sfactor factories in Wuxi, Changzhou, and Suzhou, those entities would appear in SEC filings. They do not. The most likely conclusion is that Sfactor operates as an independent contract manufacturer, not a company-owned facility. This contradicts the dealer claim that Finnleo "owns and operates" Chinese factories.</p>
+
+<p>On Masco's Q4 2024 earnings call, CFO Richard Westenberg disclosed approximately $450 million in China imports across the company in 2025, with 80% (approximately $360 million) in the Plumbing Products segment. He said Masco had "successfully reduced our exposure to China by 45% since 2018" and expected China imports to fall below $300 million by end of 2026. No analyst on any Masco earnings call has ever asked specifically about sauna manufacturing country of origin.</p>
+
+<div class="callout">
+<strong>The Disclosure Gap:</strong> Masco FY2024 10-K describes manufacturing "primarily in North America and Europe as well as in Asia." Sauna360 corporate website and press materials list manufacturing in "Finland, Sweden, and the United States." No Masco filing identifies China as a Sauna360 manufacturing location. No Chinese subsidiary appears in Exhibit 21.
+</div>
+
+<h2>The Industry Standard Sauna360 Doesn't Meet</h2>
+
+<p>To understand how unusual Sauna360's disclosure posture is, look at what competitors do.</p>
+
+<p><a href="/article/harvia-record-q1-revenue-thermasol-integration">Harvia</a> (Nasdaq Helsinki: HARVIA), the world's largest sauna heater manufacturer, openly discloses its Guangzhou, China factory in investor materials. The facility, opened in 2007, produces heating elements and resistors that are assembled into complete heaters in Muurame, Finland. Harvia is transparent about what comes from China and what is finished in Finland. Its annual reports name the Guangzhou operation explicitly.</p>
+
+<p>EOS (Germany) states: "100% made in Germany — we develop and produce our products exclusively in Germany." Narvi (Finland) carries the official Finnish Key Flag Symbol, a government certification requiring at least 95% domestic production. Klafs (Germany, acquired by Kohler in 2024) consistently markets German manufacturing at its Schwäbisch Hall factory. <a href="/article/estonia-sauna-manufacturing-powerhouse">Auroom</a> (Estonia, part of Thermory Group) prominently states "Handcrafted in Estonia" across its product line.</p>
+
+<p>Chinese OEM manufacturing is not unusual in the sauna industry. The budget and white-label segments depend heavily on Chinese production. But among premium brands built around heritage narratives and sold at $6,000 to $30,000 price points, Sauna360 appears to be the only major player systematically manufacturing complete sauna rooms in China while marketing Nordic origin stories without qualification.</p>
+
+<h2>What Consumers Deserve to Know</h2>
+
+<p>A few things are clearly established. The CPSC recall is a federal government document stating that specific Tylö-branded products sold to U.S. consumers were manufactured in China. U.S. customs records show that approximately 86% of Sauna360's inbound container volume originates from Chinese suppliers. Sauna360 executives confirmed on the record that Chinese manufacturing comprises most of the company's revenue. And the company's consumer-facing marketing omits China from manufacturing disclosures entirely.</p>
+
+<p>What remains unclear: which specific current SKUs are manufactured in China versus Cokato versus Scandinavia. The 2022 Enterprise Minnesota article indicates custom saunas are made in Minnesota while pre-built kits come from China, but product lines may have shifted since the Masco acquisition. Whether Masco's stated commitment to reducing China sourcing has affected Sauna360's product mix since the 2025 tariff escalation is also unknown.</p>
+
+<p>This is a transparency story, not a quality story. Chinese manufacturing is not inherently inferior. The bench collapse recall is one data point about one structural component in two product lines. The relevant question is what consumers are told and what they are not.</p>
+
+<p>When someone spends $8,000 or $10,000 on a sauna marketed as "Made in Sweden" or "The Genuine Finnish Sauna," they are making a purchasing decision partly on manufacturing origin. Federal documents and customs records show that for a significant portion of Sauna360's product line, that origin is China. Competitors including Harvia disclose their Chinese component sourcing openly in annual reports. Sauna360 does not disclose Chinese room manufacturing anywhere on its consumer websites.</p>
+
+<p>SaunaNews contacted Sauna360 and Masco Corporation for comment. Neither responded by publication time. This story will be updated if responses are received.</p>
+
+<div class="bottom-line">
+<p>Three independent evidence streams converge on the same conclusion: Sauna360 manufactures most of its sauna room products in China, and its marketing does not reflect this. If you are shopping for a Finnleo, Tylö, or Helo sauna, ask your dealer specifically where the room structure was made, not just the heater. The answer may surprise you.</p>
+</div>`,
+    featured: true,
+    trending: true,
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
