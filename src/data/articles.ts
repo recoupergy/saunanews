@@ -1444,15 +1444,13 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <p>US customers can buy Saunum products shipped from the greater Chicago area. The company won the Interbad 2022 Most Innovative Product award in Stuttgart and two Golden Wave 2024 awards. For American sauna builders looking for a climate management system compatible with any electric heater, the AirSolo retrofit unit is worth investigating.</p>
 
-<h2>The Emerging Wave: Haljas and Ecosauna</h2>
+<h2>The Emerging Wave: Haljas, SaunaLife, and the Volume Tier</h2>
 
 <p>Haljas Houses, founded in February 2021 in Tartu by Otto Taht, Karl Joonas, and Rauno Palmi, produces architecturally striking octagonal saunas featuring double-glazed tempered mirror glass: see out, but nobody sees in. Every unit ships fully assembled on cross-laminated timber panels, with 90% of materials sourced within a 19-mile radius. The company won Red Dot Product Design Awards in both 2022 and 2025.</p>
 
 <p>Despite just five employees, Haljas has built an international distributor network spanning the US, UK, Australia, and eight other countries. Revenue has grown from $62,000 in 2021 to $650,000 in 2024. The flagship Hele Single starts at about $23,200 in Europe; in the US, the Hele Nano retails for approximately $54,900 shipped. These are statement pieces for high-end residential projects.</p>
 
-<p>At the other end of the spectrum sits the volume manufacturing tier in southern Estonia, where companies like Ecosauna Project produce barrel saunas, hot tubs, and camping pods for export. Ecosauna, based in Himmaste village in Polva county, operates a 48,000+ sq ft production facility with 38 employees. Revenue surged from $50,000 in 2014 to $7.3 million in 2021 (a 161% COVID-era jump) before stabilizing at $6.8 million in 2024 with roughly $1 million in net profit.</p>
-
-<p>SaunaLife, one of the most recognized outdoor sauna brands in North America, is also part of this Estonian manufacturing story. The brand offers everything from affordable X-Series indoor kits to the G-Series fully assembled outdoor saunas and the popular EE-Series barrels. In November 2024, the World Sauna Group launched at the IPSP Expo in Dallas with a 3,500 sq ft booth, the largest in show history, displaying 15 Estonian sauna cabins from brands including Auroom, Haljas, and Saunum.</p>
+<p>SaunaLife represents the other end of the Estonian spectrum: accessible, high-volume, and built for the North American backyard. The SaunaLife CL5G was the best-selling sauna on Sauna Marketplace and other top US retailers in 2025, and the brand's lineup runs from affordable X-Series indoor kits to the G-Series fully assembled outdoor saunas and the popular EE-Series barrels. Behind brands like SaunaLife sits a deep bench of Estonian contract manufacturers, many clustered in the southern counties of Polva and Voru. These factories operate production facilities of 40,000+ sq ft, employ dozens of skilled woodworkers, and have scaled from near-zero revenue to $6 to $8 million annually in under a decade, driven by the COVID-era home wellness surge. In November 2024, the World Sauna Group launched at the IPSP Expo in Dallas with a 3,500 sq ft booth, the largest in show history, displaying 15 Estonian sauna cabins from brands including Auroom, Haljas, and Saunum.</p>
 
 <h2>Why Estonia? The Structural Advantages</h2>
 
