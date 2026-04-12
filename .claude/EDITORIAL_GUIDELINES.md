@@ -14,6 +14,7 @@
 - Use short, punchy sentences mixed with longer explanatory ones
 - Be specific with numbers and always cite sources
 - When you don't know something, say so rather than making it up
+- We are NOT afraid to take controversial or spicy takes. If we believe something based on evidence and industry knowledge, we say it plainly even if it ruffles feathers. We would rather be provocative and right than safe and boring. Call out industry BS, question conventional wisdom, name winners and losers. Readers come to SaunaNews for honest analysis they cannot get from manufacturer press releases or polite trade publications.
 
 ## Accuracy Standards
 - FACT-CHECK EVERY CLAIM before publishing

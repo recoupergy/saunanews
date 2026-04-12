@@ -1401,7 +1401,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <p>Estonia now has at least 34 sauna manufacturers shipping to more than 60 countries. Thermory, the world's largest producer of thermally modified wood, posted EUR 149 million in revenue in 2022. HUUM, the Tartu-based heater company, grew at a 115% compound annual rate over three years. Saunum Group took its patented air equalization technology public on Nasdaq First North in Tallinn. SaunaLife has become one of the most recognized outdoor sauna brands in North America. And a growing number of these companies are raising capital and shipping containers to New York, New Jersey, Texas, Chicago, and California.</p>
 
-<p>This is not a fluke. It is the result of specific structural advantages that no other country replicates in combination: cheap labor inside the EU, vast certified forests, zero corporate tax on reinvested profits, a UNESCO-inscribed sauna tradition, and the most startup-dense economy in Europe. Here is how it happened and what it means for American sauna buyers.</p>
+<p>This is not a fluke. And it is not temporary. It is the result of specific structural advantages that no other country replicates in combination: cheap labor inside the EU, vast certified forests, zero corporate tax on reinvested profits, a UNESCO-inscribed sauna tradition, and the most startup-dense economy in Europe. Finland has dominated sauna manufacturing for a century. Estonia is coming for that crown, and the numbers say it is winning. Here is how it happened and what it means for American sauna buyers.</p>
 
 <h2>Thermory Sets the Pace at EUR 149 Million</h2>
 
@@ -1483,13 +1483,15 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <p>Celebrity helped too. David Beckham purchased an Iglucraft igloo-style sauna, built by hand in Leie village, Viljandimaa, for his Cotswold estate and posted about it to his 52 million Instagram followers. The roughly $15,200 sauna generated coverage across UK tabloids, Estonian media, and the wellness press.</p>
 
-<h2>How Estonia Stacks Up Against Harvia</h2>
+<h2>How Estonia Stacks Up Against Harvia (and Why Finland Should Be Nervous)</h2>
 
-<p><a href="/article/harvia-record-q1-revenue-thermasol-integration">Harvia</a>, the Finnish sauna giant on Nasdaq Helsinki, reported $190 million in revenue for 2024 with approximately 700 employees and a $770 million market capitalization. Harvia's North American revenue alone reached roughly $67 million, larger than all Estonian sauna companies combined.</p>
+<p><a href="/article/harvia-record-q1-revenue-thermasol-integration">Harvia</a>, the Finnish sauna giant on Nasdaq Helsinki, reported EUR 175.2 million in revenue for 2024 with approximately 700 employees and a market capitalization around EUR 650 million. Harvia's North American revenue alone reached roughly $67 million, larger than all Estonian sauna companies combined. For now.</p>
 
-<p>Estonia's largest player, Thermory, reported EUR 149 million in 2022 revenue, close to Harvia's scale. But most of Thermory's business is thermally modified lumber for decking and cladding, not sauna-specific products. In pure sauna equipment, HUUM at approximately EUR 14.7 million and Saunum at EUR 3.7 million remain small relative to Harvia. But the growth rates tell a different story: HUUM's 115% three-year CAGR through 2022 dramatically outpaces Harvia's normalized growth trajectory of roughly 10% annually.</p>
+<p>Estonia's largest player, Thermory, reported EUR 149 million in 2022 revenue, close to Harvia's scale. But most of Thermory's business is thermally modified lumber for decking and cladding, not sauna-specific products. In pure sauna equipment, HUUM at approximately EUR 14.7 million and Saunum at EUR 3.7 million remain small relative to Harvia. But the growth rates tell a different story: HUUM's 115% three-year CAGR through 2022 dramatically outpaces Harvia's normalized growth trajectory of roughly 10% annually. At that pace, Harvia's lead is not the fortress it looks like on a spreadsheet.</p>
 
-<p>The consolidation wave adds another dimension. KLAFS (Germany) was acquired by Kohler in January 2024 for an undisclosed sum, with approximately $147 million in revenue and 850 employees. Sauna360/TyloHelo was acquired by Masco Corporation in 2023 for $135 million. When major consumer goods companies are paying these prices, Estonian innovators start looking like attractive acquisition targets.</p>
+<p>Here is the uncomfortable truth for Finnish incumbents: Estonia is doing what Finland did 40 years ago, but faster, cheaper, and with better design instincts for the modern market. Finnish companies built the sauna industry on tradition and engineering. Estonian companies are building on the same tradition, the same engineering talent pool (many Estonian sauna engineers trained in Finland), and a cost structure that gives them room to invest aggressively while still undercutting Finnish prices. Harvia's scale advantage is real, but scale did not save Sauna360 from being acquired, and it will not protect anyone from a competitor that grows at 115% a year.</p>
+
+<p>The consolidation wave adds another dimension. KLAFS (Germany) was acquired by Kohler in January 2024 for an undisclosed sum, bringing its 850 employees and premium positioning under one of the world's largest kitchen and bath companies. Sauna360/TyloHelo was acquired by Masco Corporation in 2023 for approximately EUR 130 million. When major consumer goods companies are paying these prices, Estonian innovators start looking like attractive acquisition targets. And unlike the Scandinavian companies that got bought, the Estonian ones still have founder energy and growth-stage economics.</p>
 
 <h2>The Tariff Reality for US Buyers</h2>
 
@@ -1502,7 +1504,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 </div>
 
 <div class="bottom-line">
-<p>A tiny Baltic nation with UNESCO smoke sauna heritage, a public stock listing, and 51.5% forest coverage has quietly become one of the most important sauna production hubs on earth. If you are shopping for a sauna in the US today, you are almost certainly looking at Estonian-made products, whether you know it or not. The brands to watch: Thermory, HUUM, Saunum, Auroom, SaunaLife, and Haljas. Finland built the sauna industry. Estonia is reshaping it.</p>
+<p>Finland invented the sauna industry. Estonia is taking it. That is not disrespect; it is economics. A tiny Baltic nation with UNESCO smoke sauna heritage, a public stock listing, and 51.5% forest coverage has quietly become one of the most important sauna production hubs on earth. If you are shopping for a sauna in the US today, you are almost certainly looking at Estonian-made products, whether you know it or not. The brands to watch: Thermory, HUUM, Saunum, Auroom, SaunaLife, and Haljas. The question is no longer whether Estonia belongs in the conversation. The question is whether anyone else can keep up.</p>
 </div>`,
     featured: true,
     trending: true,
