@@ -1475,6 +1475,8 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <p>US distributors have noticed. Several of the top North American sauna distributors now have staff permanently based in Estonia or making regular trips to the country, scouting new products, auditing factory quality, and building direct relationships with manufacturers before competitors can. Having boots on the ground in Tartu or Voru has become a real competitive advantage in the US market, because the best Estonian products often sell out to European buyers before American distributors even hear about them. The companies that invest in on-the-ground presence get first access to new product lines, better pricing, and faster shipping commitments.</p>
 
+<p>The volume is no longer trivial. Estonian sauna companies are now running regular container shipments into New York, New Jersey, Texas, Chicago, and California. These are not one-off orders. These are scheduled logistics operations with dedicated freight lanes, which is what sustained consumer demand actually looks like when it matures into infrastructure.</p>
+
 <h2>Cultural Credibility That Money Cannot Buy</h2>
 
 <p>In November 2014, UNESCO inscribed the Voromaa smoke sauna tradition, recognizing bathing customs, whisk-making skills, sauna construction, and meat smoking practiced by the approximately 75,000 people of the Voro community in southeastern Estonia. One in five farms in Voromaa still maintains a working smoke sauna.</p>
