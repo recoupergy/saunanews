@@ -1509,9 +1509,9 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
   },
   {
     id: '38',
-    title: 'Sauna360\'s Supply Chain: Nordic Heaters, Chinese Rooms',
+    title: 'Inside Sauna360\'s Supply Chain: What the Records Show',
     slug: 'sauna360-chinese-manufacturing-nordic-illusion',
-    dek: 'Inside the industry, it\'s no secret that Sauna360\'s pre-built sauna rooms are made in China and the heaters come from Scandinavia. A federal safety recall, customs records, and executive interviews put the full picture on the record.',
+    dek: 'Inside the industry, it\'s no secret that Sauna360\'s pre-built sauna rooms are made in China. A federal safety recall, customs records, and executive interviews document the full sourcing picture — which is more global than the brand websites suggest.',
     excerpt: 'CPSC Recall #26-040, U.S. customs bill-of-lading data, and a 2022 magazine interview with Sauna360 executives all confirm the same thing: the Cokato, Minnesota company behind Finnleo, Tylö, Helo, Kastor, and Amerec manufactures most of its sauna room products in China. Its consumer marketing says nothing about it.',
     contentType: 'Analysis',
     category: 'Manufacturer News',
@@ -1521,7 +1521,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
     readingTime: 11,
     featuredImage: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200&q=80',
     imageCaption: 'Pre-built sauna room kits sold under Scandinavian heritage brands make up the bulk of Sauna360\'s U.S. sales, according to company executives and customs records.',
-    body: `<p>In the sauna industry, it is not much of a secret. Ask an experienced dealer or distributor how Sauna360 sources its products and most will tell you: the heaters come from Finland and Sweden, and the pre-built room cabinets come from China. That split has been the model for years and is well understood by people who work in the trade.</p>
+    body: `<p>In the sauna industry, it is not much of a secret. Ask an experienced dealer or distributor how Sauna360 sources its products and most will tell you the pre-built room cabinets come from China. Traditional electric heaters ship from Finland and Sweden. Infrared panels are a murkier picture — customs records show Chinese thermal equipment suppliers in the mix there too. The broad strokes have been the model for years and are well understood by people who work in the trade.</p>
 
 <p>What is less clear is how well it travels downstream to consumers — particularly the many buyers who purchase Finnleo, Tylö, or Helo saunas through hot tub retailers or pool-and-spa showrooms, where sauna is often a secondary product line and staff may not know the sourcing details themselves.</p>
 
@@ -1553,13 +1553,15 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <p>Additional Chinese suppliers include Guangdong Hongyuan Home Furnishing Co., Ltd. of Guangzhou (which operates as "Royal Saunas," an OEM exporter of infrared and traditional sauna products) with approximately 35 containers, and Hangzhou Fulton Thermal Equipment Co. with roughly 150 shipments.</p>
 
-<p>The European side of the ledger looks entirely different. Sauna360 AB Tylö in Sweden accounts for approximately 62 containers, with customs documentation noting "COO SE" (Country of Origin: Sweden) and describing cargo as "SAUNA HEATERS WITH CONTROLS AND SPARE PARTS." Sauna360 Oy in Finland accounts for approximately 34 containers of "ELECTRIC HEATERS / ROCK FOR HEATERS / CARTON BOXES." Finnish timber suppliers including Pieksawood Oy, Koskisen Oy, and Mäntsälän Saha Oy contribute smaller volumes of heat-treated alder and other sauna materials.</p>
+<p>European shipments tell a different story for traditional electric heaters. Sauna360 AB Tylö in Sweden accounts for approximately 62 containers described as "SAUNA HEATERS WITH CONTROLS AND SPARE PARTS" with customs documentation noting "COO SE" (Country of Origin: Sweden). Sauna360 Oy in Finland accounts for approximately 34 containers of "ELECTRIC HEATERS / ROCK FOR HEATERS / CARTON BOXES." Finnish timber suppliers including Pieksawood Oy, Koskisen Oy, and Mäntsälän Saha Oy contribute smaller volumes of heat-treated alder and other sauna materials.</p>
+
+<p>The Chinese side of the ledger, however, also includes thermal equipment suppliers. Hangzhou Fulton Thermal Equipment Co. accounts for approximately 150 shipments to Sauna360, and Far Infrared Sauna Technology Co. is listed in records under the former TyloHelo importer name. The specific contents of those shipments are not detailed in customs descriptions, but the supplier names suggest infrared heating components rather than wood cabinets.</p>
 
 <div class="callout">
-<strong>Estimated Import Volume by Origin (container counts):</strong> Chinese suppliers (Sfactor group and others): ~865 containers, approximately 86% of total inbound volume. Swedish factory (heaters and controls): ~62 containers, approximately 6%. Finnish factory (heaters and rocks): ~34 containers, approximately 3%. Finnish timber suppliers: remaining volume. Source: ImportGenius, ImportKey, U.S. Customs bill-of-lading records.
+<strong>Estimated Import Volume by Origin (container counts):</strong> Chinese suppliers (Sfactor room kits + thermal equipment + others): ~865+ containers, approximately 86% of total inbound volume. Swedish factory (traditional heaters and controls): ~62 containers. Finnish factory (traditional heaters and rocks): ~34 containers. Finnish timber suppliers: remaining volume. Source: ImportGenius, ImportKey, U.S. Customs bill-of-lading records.
 </div>
 
-<p>The split has been consistent for years. Sauna room kits come from China. Heaters and controls come from Scandinavia. This is not a recent cost-cutting measure.</p>
+<p>The broad pattern: pre-built room cabinets come from China. Traditional electric heaters come from Scandinavia. Infrared components appear to have Chinese suppliers as well, though the exact product breakdown is not fully documented in public customs data.</p>
 
 <h2>On the Record: 'Most of Sauna360's Revenue'</h2>
 
@@ -1583,7 +1585,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <p><strong>Finnleo</strong> markets itself as "The Genuine Finnish Sauna" across its entire web presence. Its About page references "our US-based manufacturing" for custom saunas and notes its 1984 founding in Cokato, Minnesota. Its NorthStar product line explicitly says "Made in the USA." Its heaters are described as "genuine Finnish heaters, designed and built in Finland." But the flagship tagline is applied to the full product line without any disclosure that pre-built sauna room kits are manufactured in China. One authorized Finnleo dealer independently states on its website that "Finnleo Pure Infra Saunas are also made in China," though it adds that Finnleo "owns and operates their own factories" there. That factory ownership claim has not been independently verified and appears to be contradicted by Masco's SEC filings.</p>
 
-<p><strong>Helo</strong> is the relative transparency outlier. Its custom saunas page states: "Custom sauna interiors are handcrafted in the USA and heaters in Finland." The overall brand still uses "The genuine Finnish sauna, handcrafted for life," but the USA manufacturing disclosure for custom interiors is accessible and specific. This is meaningfully more transparent than Tylö or Finnleo.</p>
+<p><strong>Helo</strong> is the relative transparency outlier for traditional saunas. Its custom saunas page states: "Custom sauna interiors are handcrafted in the USA and heaters in Finland." The overall brand still uses "The genuine Finnish sauna, handcrafted for life," but the USA manufacturing disclosure for custom interiors is accessible and specific. For its traditional sauna line, this is meaningfully more transparent than Tylö or Finnleo.</p>
 
 <p><strong>Kastor</strong> operates as a heater-only brand, marketed as "Finland's oldest sauna brand, founded in 1916," with manufacturing at Hanko, Finland. As a heater brand with no room kits in its product catalog, its Finnish manufacturing claims are accurate.</p>
 
@@ -1622,7 +1624,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 <p>This is a sourcing story, not a quality indictment. Chinese manufacturing is not inherently inferior. The bench recall is one data point about one structural component. The broader point is that buyers spending $8,000 or $10,000 on a sauna marketed as "Made in Sweden" or "The Genuine Finnish Sauna" may want to ask specifically where the room cabinet was built. Customs records and the CPSC recall both suggest the answer, for pre-built models, is likely China.</p>
 
 <div class="bottom-line">
-<p>The sourcing model is an open secret in the trade: Sauna360 heaters come from Finland and Sweden, pre-built room cabinets come from China. Experienced dealers know it. But the buyer at a hot tub showroom who just picked out a Finnleo may not have been told — and the brand websites do not say. It is a fair question to ask before signing.</p>
+<p>The broad sourcing model is an open secret in the trade: pre-built room cabinets come from China, traditional electric heaters from Scandinavia, and infrared components likely from China as well. Experienced dealers know the general picture. But the buyer at a hot tub showroom who just picked out a Finnleo may not have been told any of it — and the brand websites do not say. It is a fair question to ask before signing.</p>
 </div>`,
     featured: true,
     trending: true,
