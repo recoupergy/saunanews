@@ -1392,7 +1392,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
     author: authors.elise,
     publishDate: '2026-04-12',
     readingTime: 12,
-    featuredImage: 'https://images.unsplash.com/photo-1770625468096-ff53cd24ee38?w=1600&h=1000&fit=crop&q=80',
+    featuredImage: '/images/articles/estonia-sauna-powerhouse-hero.jpg',
     imageCaption: 'Estonian manufacturers like HUUM are winning Red Dot awards and shipping design-forward sauna products to 60+ countries.',
     body: `<p>If you have bought a premium sauna in the United States in the past five years, there is a good chance it was made in Estonia. The heater, the wood, the cabin, the smart controller: increasingly, all of it traces back to a country smaller than New Hampshire with a population of 1.37 million.</p>
 
