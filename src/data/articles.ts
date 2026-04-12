@@ -1631,6 +1631,104 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
     featured: true,
     trending: true,
   },
+  {
+    id: '39',
+    title: 'Can Americans Get Past the Costco Sauna Phase?',
+    slug: 'can-americans-get-past-costco-sauna-phase',
+    dek: 'The entry-level sauna market is booming. It is also building a generation of disappointed first-timers who may never come back.',
+    excerpt: 'Costco is currently the place where most Americans form their first opinion about what sauna is. Between infrared heat cabinets that cannot throw water and cedar barrels where the bench geometry guarantees cold feet, the dominant gateway products are teaching that lesson wrong.',
+    contentType: 'Analysis',
+    category: 'Commentary',
+    tags: ['entry-level market', 'barrel sauna', 'infrared', 'Almost Heaven', 'consumer education', 'market development', 'Costco'],
+    author: authors.elise,
+    publishDate: '2026-04-13',
+    readingTime: 8,
+    featuredImage: 'https://images.unsplash.com/photo-1596178060810-72f53ce9a65c?w=1200&q=80',
+    imageCaption: 'Entry-level barrel saunas have introduced millions of Americans to the category. The problem is what they are teaching them.',
+    body: `<p>Something interesting is happening in the American backyard. Saunas are showing up everywhere, tucked behind garages in the Midwest, decking out Airbnbs in the Rockies, anchoring "wellness spaces" in suburban renovations from Phoenix to Portland. The U.S. sauna market generated roughly $250 million in revenue in 2024 and is growing at a 6.4% compound annual rate. After decades of being a niche pursuit for Scandinavian-Americans and cold-plunge devotees, the sauna is finally going mainstream.</p>
+
+<p>And yet. Talk to any serious retailer, installer, or sauna educator in this country and a version of the same story comes up: a customer calls, frustrated, saying their sauna does not really work. They are cold. Their feet are freezing. The steam goes nowhere. The wood is warping. Or, more often than you would expect, they never experienced real steam to begin with, because they bought an infrared cabinet and did not know it was not a sauna.</p>
+
+<p>A lot of these people bought their unit at Costco. And that is the problem the industry does not talk about enough.</p>
+
+<h2>What Costco Actually Sells</h2>
+
+<p>To be precise about what Costco carries: two product categories dominate their sauna floor space, both physical and digital. The first is the Dynamic or Golden Designs infrared cabin, a plug-in wood box with carbon or ceramic radiant panels, no heater, no stones, no capacity for steam. The second is the Almost Heaven barrel sauna, a cedar cylinder that arrives on a pallet and promises an outdoor Finnish experience for somewhere between $3,000 and $7,500.</p>
+
+<p>These are not fringe products. Almost Heaven, now owned by Finland's Harvia since January 2019 (acquired for approximately EUR 4 million), has become one of the best-known barrel sauna brands in North America. Dynamic infrared saunas are a perennial Costco rotation staple, rotating under various branded names with similar specifications and provenance.</p>
+
+<p>The issue is not that Costco sells saunas. It is that Costco is currently the place where most Americans form their first opinion about what sauna is. And both categories of product are quietly teaching that lesson wrong.</p>
+
+<h2>The Infrared Problem: A Warm Box Is Not a Sauna</h2>
+
+<p>Start with infrared. The category has a genuine audience. People who want lower-temperature heat therapy, easy installation, and a plug-and-play setup have real reasons to consider it. But the marketing language around entry-level infrared products has systematically blurred the line between infrared heat therapy and sauna in ways that harm both categories.</p>
+
+<p>Finnish saunas operate between 160°F and 195°F. The heat comes from the air itself, surrounding the body in convective warmth that works from the outside in. The cardiovascular research linking sauna use to reduced risk of cardiac death, dementia, and all-cause mortality, including the landmark Kuopio Ischemic Heart Disease study, was conducted in traditional high-heat environments, not infrared cabinets.</p>
+
+<p>Infrared units, including the Dynamic models Costco carries, typically max out between 120°F and 140°F. They heat the body through radiant panels rather than through hot air, which produces a fundamentally different physiological experience and a categorically different environment. And critically: you cannot throw water. There are no stones. There is no löyly, that burst of steam that is, in Finnish tradition and by definition, the entire point of the thing.</p>
+
+<p>This is not a minor distinction. Löyly is how a sauna becomes a sauna. It is how you control the experience, open the pores, and get the full-body heat envelope that the Finnish population studies were actually measuring. Remove it and what remains is a box that gets warm, a wellness appliance, not a sauna.</p>
+
+<p>The buyers who try a Costco infrared unit, decide sauna is not for them, and never buy again were not given a fair shot. The product they experienced was not the product the research is about.</p>
+
+<h2>The Barrel Problem: Cedar, No Roof, and a Door That Will Not Close</h2>
+
+<p>Now for the barrel. The Almost Heaven models Costco carries, including the Morgan (4-person) and Vista and Emerson (6-person variants), are Western Red Cedar barrel saunas sold at prices that feel like a deal compared to specialty dealer options. At first glance, they have the right shape. Round. Wooden. They look like the real thing.</p>
+
+<p>The problems are structural, and they compound over time.</p>
+
+<p>Start with the wood. Cedar expands and contracts significantly with moisture and temperature cycling. Owners report having to shave their door frames within months of installation because the wood has swelled enough to prevent the door from closing. Staves gap. Seals fail. Reviewers who bought the Emerson note temperatures maxing out well below the advertised ceiling, partially a heater-sizing issue and partially a consequence of heat escaping through gaps that the wood has opened up. One consistent pattern in the reviews: the unit requires a roof to function properly, and Costco does not include one, nor does the product page make this obvious.</p>
+
+<p>What happens to a cedar barrel without a roof is not pretty. Operators in the rental and hospitality space, where the consequences of product failure are immediate and public, have learned this the hard way. The wood loosens and warps. Hardware corrodes. Mold finds the damp spots that a roof would have shed. The usable lifespan of an entry-level cedar barrel used for even moderate regular bathing tends to run three to five years before expansion, contraction, and water intrusion render it unserviceable.</p>
+
+<p>That is an expensive lesson at $5,000 to $7,000 a barrel.</p>
+
+<h2>The Bench Problem: Cold Feet by Design</h2>
+
+<p>The structural issue that most buyers never think to ask about before purchase, but encounter immediately once inside, is the bench geometry. It does not matter how well the heater performs if the physics of the room are working against you from the moment you sit down.</p>
+
+<p>Heat stratification is fundamental: hot air rises. In a sauna, this creates distinct temperature bands from floor to ceiling that can vary significantly. Finnish sauna design accounts for this through what builders call the Rule of 230, a dimensional principle that requires ceiling heights of at least 7.5 feet, with benches positioned high enough that bathers sit in the upper heat zone, not the cool air below the level of the stones. In a properly designed Finnish sauna, your feet should be at or above the level of the heater stones. Sitting in the lower third of the room is the cold zone. The good heat does not live there.</p>
+
+<p>Barrel saunas cannot solve this problem. The barrel's circular cross-section determines bench height. In a standard 6-foot-diameter barrel, you get one bench level, positioned by the curve of the walls at roughly mid-height in the barrel's arc. Actual measurements in barrels show head-to-foot temperature differentials ranging from 60°F to 120°F, four to five times what Finnish sauna standards consider acceptable. Finnish sauna experts consider a head-to-toe temperature difference of no more than 36°F to be tolerable, with 15% to 20% variance considered ideal. Barrels routinely deliver two to three times that differential.</p>
+
+<p>Bathers sit in the cool zone with hot heads and cold feet, wondering why the experience feels wrong. The steam stratification is worse. Löyly, when it is possible at all, rises from the stones and stays near the ceiling. In a properly designed cabin sauna with benches positioned correctly, bathers are enveloped by it. In a small barrel with a single low bench, the steam stays above you. Your body never receives it evenly. The ritual that defines the experience is happening over your head.</p>
+
+<blockquote>You can have a perfectly good heater, quality cedar, and a clean build, and the sauna still disappoints, because the geometry is fighting the physics from day one.</blockquote>
+
+<h2>The "Phase" Framing: America Is Still Setting Its Baseline</h2>
+
+<p>The temptation in this industry is to shrug. The Costco buyer is a different customer, the thinking goes. They are not really our market. Let them have their cedar barrel. When they are ready for the real thing, they will find us.</p>
+
+<p>This misunderstands how consumer education actually works. The American sauna market is not mature. Unlike Finland, where roughly 90% of households have saunas and cultural literacy about what good sauna feels like is essentially universal, the U.S. is still building its baseline expectation for the product. Consumers who have never experienced a properly built sauna have no reference point for what they are missing. They do not know their feet should be warm. They do not know the steam should envelop them. They do not know the wood should not be warping after eighteen months.</p>
+
+<p>What they know is: I bought a sauna. It was fine at first. Now it is not. Or: I tried sauna. I did not get it. Not for me.</p>
+
+<p>Those consumers leave the market. They become ex-sauna buyers, the most expensive category in any product ecosystem, because they have already decided. Meanwhile the next consumer looks at the category and wonders why the reviews are split, why some people love it and others call it overrated, why prices seem to range wildly for products that look roughly the same from the outside.</p>
+
+<p>The industry cannot outsource its credibility to a Costco product rotation and expect the category to grow into something healthy. When the dominant gateway product does not deliver the experience that creates lifetime sauna users, the industry is spending its future.</p>
+
+<h2>What Getting Past the Phase Looks Like</h2>
+
+<p>None of this is an argument for spending $20,000 or hiring a Finnish architect. The path forward is about education and construction fundamentals, not luxury.</p>
+
+<p>For barrel sauna buyers: seek out thermally modified wood rather than untreated cedar. Species like thermo-spruce or thermo-ash have been heat-processed to dramatically reduce moisture absorption and dimensional movement. They do not warp the way cedar does. Require a roof. Find a model with dual-bench configuration that gives you some choice about where to sit, and look at interior diameter rather than person-count marketing claims. A 7-foot or larger barrel is a meaningfully different environment from a 6-foot barrel. Buy from a dealer who can talk about the physics of what you are buying, not a warehouse checkout lane. Sauna Marketplace, for one, offers curated options with actual support and spec transparency, including guidance on heater sizing for your climate.</p>
+
+<p>For buyers who thought they wanted sauna and ended up with an infrared cabinet: go try a real one before you write the category off. Find a Nordic spa, a sauna club, or a quality showroom. Heat up to 175°F. Throw water. Sit for ten minutes, go outside, come back. It is a different product. Whether it is for you is a legitimate question. But you have not answered it yet.</p>
+
+<p>For the industry: the Costco Sauna Phase is not a permanent feature of the American market. It is a moment, early adoption, dominated by price and availability, before consumer literacy catches up with consumer enthusiasm. The question is whether this industry will help accelerate that literacy, or cede the education entirely to warehouse retail and TikTok testimonials and whatever AI-generated listicle shows up on page one of Google.</p>
+
+<p>America is trying to fall in love with sauna. The industry should be trying to make sure that romance does not die in a warped cedar barrel with cold feet and no steam.</p>
+
+<div class="why-it-matters">
+<p>The U.S. sauna market is growing fast and the entry-level buyer is the largest segment. Every frustrated Costco customer who gives up on sauna is a lost lifetime customer. Brands and retailers who invest in consumer education now, explaining what a real sauna experience should feel like and why construction matters, are building the market that will sustain premium sales for the next decade. Ceding the education to warehouse retail is not a neutral choice. It is a slow, quiet bet against the category.</p>
+</div>
+
+<div class="bottom-line">
+<p>The Costco Sauna Phase is real, measurable, and fixable. But fixing it requires the industry to take some responsibility for the baseline consumer experience in this country. Cedar warps. Low benches are cold. Infrared is not sauna. These are facts, not opinions, and they are not going to stop being true because nobody wants to say them out loud at a trade show.</p>
+</div>`,
+    featured: true,
+    trending: true,
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
