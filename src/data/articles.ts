@@ -993,6 +993,9 @@ export const articles: Article[] = [
 <h2>On Materials</h2>
 <p>Liikkanen also flagged material choices. Spruce and pine can produce sap at high temperatures, which is fine on lower walls but becomes a problem on upper surfaces where it can get into your hair or stick to your back. And he noted that many modern saunas that look beautiful in photos are nearly impossible to keep clean, a practical consideration that often gets lost in the design process.</p>
 
+<h2>On Heaters: A Finnish Expert's Surprising Pick</h2>
+<p>One of the more striking things about Liikkanen's broader body of work is his heater recommendations. In his reviews and consulting, he has spoken favorably about <a href="/article/saunum-air-perfect-us-launch">Saunum's climate equalization heaters</a>, which are designed and manufactured in Estonia. For a Finnish sauna purist to recommend Estonian-made equipment over domestic Finnish brands is notable. It speaks to how seriously <a href="/article/estonia-sauna-manufacturing-powerhouse">Estonia's sauna manufacturers</a> are being taken by the people who know this industry best. Saunum's patented air blending technology directly addresses the ventilation and heat distribution problems Liikkanen identifies as the most common design failures, which may explain the endorsement.</p>
+
 <h3>The Bottom Line</h3>
 <p>Good sauna design isn't mysterious. It comes down to getting the basics right: room size matched to heater output, benches high enough to reach the heat, ventilation balanced between air quality and heat retention, and materials that can handle the environment. The joy of a Finnish sauna, Liikkanen argues, should be reason enough to use it regularly. The <a href="/article/longevity-investors-case-for-sauna">longevity benefits</a> that Professor Laukkanen's research has documented are a bonus.</p>
 
@@ -1443,6 +1446,8 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 <blockquote>Going public gave us a lot of fame. In addition, it has brought a certificate of quality. We are taken serious. There are no more questions about what kind of company we are and what is Estonia.</blockquote>
 
 <p>US customers can buy Saunum products shipped from the greater Chicago area. The company won the Interbad 2022 Most Innovative Product award in Stuttgart and two Golden Wave 2024 awards. For American sauna builders looking for a climate management system compatible with any electric heater, the AirSolo retrofit unit is worth investigating.</p>
+
+<p>Perhaps the most telling endorsement comes from Finland itself. <a href="/article/lassi-liikkanen-saunologia-finnish-sauna-science">Lassi Liikkanen of Saunologia</a>, one of Finland's most respected sauna researchers and consultants, has spoken favorably about Saunum's climate equalization technology in his reviews. For a Finnish sauna purist to recommend Estonian-made equipment over domestic Finnish brands says something about how far Estonia's engineering credibility has come.</p>
 
 <h2>The Emerging Wave: Haljas, SaunaLife, and the Volume Tier</h2>
 
