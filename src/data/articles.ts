@@ -1392,8 +1392,8 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
     author: authors.elise,
     publishDate: '2026-04-12',
     readingTime: 12,
-    featuredImage: 'https://images.unsplash.com/photo-1554755229-ca4470e07232?w=1600&h=1000&fit=crop&q=80',
-    imageCaption: 'Thermory, the world\'s largest producer of thermally modified wood, anchors Estonia\'s fast-growing sauna manufacturing cluster.',
+    featuredImage: 'https://images.unsplash.com/photo-1770625468096-ff53cd24ee38?w=1600&h=1000&fit=crop&q=80',
+    imageCaption: 'Estonian manufacturers like HUUM are winning Red Dot awards and shipping design-forward sauna products to 60+ countries.',
     body: `<p>If you have bought a premium sauna in the United States in the past five years, there is a good chance it was made in Estonia. The heater, the wood, the cabin, the smart controller: increasingly, all of it traces back to a country smaller than New Hampshire with a population of 1.37 million.</p>
 
 <p>Estonia now has at least 34 sauna manufacturers shipping to more than 60 countries. Thermory, the world's largest producer of thermally modified wood, posted $162 million in revenue in 2022. HUUM, the Tartu-based heater company, grew at a 115% compound annual rate over three years. Saunum Group took its patented air equalization technology public on Nasdaq. And if you have browsed barrel saunas on Sauna Marketplace, you have almost certainly seen products from Ecosauna, the southern Estonian factory behind the SaunaLife brand.</p>
