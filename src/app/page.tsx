@@ -54,10 +54,11 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-10">
           {/* Masthead tagline */}
           <div className="flex items-center justify-between mb-8 pb-3 border-b-2 border-charcoal dark:border-cream">
-            <div className="flex items-baseline gap-3">
-              <span className="font-editorial text-sm sm:text-base font-semibold text-charcoal dark:text-cream tracking-tight">
-                The business and culture of sauna, <em className="text-green dark:text-brass">covered well.</em>
-              </span>
+            <div className="flex items-baseline gap-3 min-w-0 flex-1">
+              <p className="font-editorial text-sm sm:text-base font-semibold tracking-tight m-0 leading-tight">
+                <span className="text-charcoal dark:text-cream">The business and culture of sauna,</span>{' '}
+                <em className="text-green dark:text-brass">covered well.</em>
+              </p>
             </div>
             <span className="text-xs text-stone-dark dark:text-dark-muted hidden sm:block">
               {new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}

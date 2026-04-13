@@ -1643,8 +1643,8 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
     author: authors.elise,
     publishDate: '2026-04-13',
     readingTime: 8,
-    featuredImage: 'https://images.unsplash.com/photo-1596178060810-72f53ce9a65c?w=1200&q=80',
-    imageCaption: 'Entry-level barrel saunas have introduced millions of Americans to the category. The problem is what they are teaching them.',
+    featuredImage: 'https://images.unsplash.com/photo-1759302085266-e27700d89751?w=1200&q=80',
+    imageCaption: 'Entry-level barrel saunas have introduced millions of Americans to the category. The problem is what they are teaching them. Photo: Auroom Wellness / Unsplash.',
     body: `<p>Something interesting is happening in the American backyard. Saunas are showing up everywhere, tucked behind garages in the Midwest, decking out Airbnbs in the Rockies, anchoring "wellness spaces" in suburban renovations from Phoenix to Portland. The U.S. sauna market generated roughly $250 million in revenue in 2024 and is growing at a 6.4% compound annual rate. After decades of being a niche pursuit for Scandinavian-Americans and cold-plunge devotees, the sauna is finally going mainstream.</p>
 
 <p>And yet. Talk to any serious retailer, installer, or sauna educator in this country and a version of the same story comes up: a customer calls, frustrated, saying their sauna does not really work. They are cold. Their feet are freezing. The steam goes nowhere. The wood is warping. Or, more often than you would expect, they never experienced real steam to begin with, because they bought an infrared cabinet and did not know it was not a sauna.</p>
