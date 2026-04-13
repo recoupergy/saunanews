@@ -2,9 +2,24 @@
 
 ## Editorial Focus
 - SaunaNews is a US-based publication with a US-first audience
-- Default to USD for prices, US measurements (°F, sq ft), and US retail/availability context
 - Lead with US market relevance even when covering international brands or events
 - When a product, brand, or trend is not available in the US, say so clearly
+
+## Units & Measurements — STRICT RULE, NO EXCEPTIONS
+**NEVER use metric units in body copy. US customary units only, every time.**
+
+This rule applies even when the original source (research paper, European press release, manufacturer spec sheet) uses metric. ALWAYS convert before publishing, and do not show the metric value in parentheses unless it is editorially critical to the story.
+
+- Temperature: Fahrenheit only. Never Celsius. (e.g., 73°C → 163°F, 80°C → 176°F, 100°C → 212°F, 21°C → 70°F)
+- Distance/length: feet, inches, miles. Never meters, centimeters, millimeters, or kilometers.
+- Weight: pounds, ounces. Never kilograms or grams. (e.g., 100 kg → 220 lbs)
+- Volume: gallons, fluid ounces, cups. Never liters or milliliters when describing consumer-facing volumes (water bottles, drinks, room volume).
+- Area: square feet. Never square meters.
+- Currency: USD primary. When citing a foreign company's reported financials, EUR or other native currency is acceptable if that's how they reported it, but include a USD parenthetical when the figure is central to the story.
+- BMI is dimensionless and universal — leave as-is.
+- Scientific concentrations and counts (mg/dL, ng/L, pg/mL, cells/L, billion/L) — leave as-is. These are scientific standard units with no clean US-customary equivalent.
+
+When in doubt: convert. A reader in Texas should never have to mentally translate °C or kg to understand a SaunaNews story.
 
 ## Voice & Tone
 - Approachable, honest, authoritative, trustworthy

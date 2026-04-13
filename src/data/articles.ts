@@ -370,7 +370,7 @@ export const articles: Article[] = [
     publishDate: '2025-06-15',
     readingTime: 5,
     featuredImage: 'https://images.unsplash.com/photo-1759300031446-88e81c8a26c9?w=1200&q=80',
-    body: `<p>Nordic softwood lumber prices have been under upward pressure heading into 2026. Finnish spruce sawfalling has held in the range of EUR 305-325 per cubic meter, and while month-to-month changes have been modest, the broader trend over the past 18 months has been steadily higher. The drivers are familiar: strong Asian export demand, sustainability-driven constraints under Finland's revised National Forest Strategy 2035 (adopted in October 2023), and growing competition from the construction and bioenergy sectors for available timber supply.</p>
+    body: `<p>Nordic softwood lumber prices have been under upward pressure heading into 2026. Finnish spruce sawfalling has held in the range of roughly $0.78-0.83 per board foot (EUR 305-325 per cubic meter at source), and while month-to-month changes have been modest, the broader trend over the past 18 months has been steadily higher. The drivers are familiar: strong Asian export demand, sustainability-driven constraints under Finland's revised National Forest Strategy 2035 (adopted in October 2023), and growing competition from the construction and bioenergy sectors for available timber supply.</p>
 
 <h2>Impact on Sauna Manufacturing</h2>
 <p>For sauna manufacturers, lumber represents 25-40% of total material costs depending on product type. The cost pressure is particularly real for companies producing traditional Finnish-style saunas that rely on Nordic spruce, pine, and aspen.</p>
@@ -968,7 +968,7 @@ export const articles: Article[] = [
     body: `<p>Lassi Liikkanen has been writing about Finnish sauna design for over a decade. He runs <a href="https://saunologia.fi" target="_blank">Saunologia.fi</a>, where he's published more than 400 articles on the technical side of sauna construction. He's written two books on the subject (Secrets of Finnish Sauna Design and the Finisana construction book, both <a href="https://finnishsaunadesign.fi/pages/knowledge" target="_blank">available globally</a>), and he provides architectural sauna design services through <a href="https://finnishsaunadesign.fi/" target="_blank">Finnish Sauna Design</a> to clients from Utah to Tampere. In a <a href="https://youtu.be/4YI4mj0eRSg" target="_blank">recent webinar now available on YouTube</a>, he walked through the fundamentals of what makes a Finnish sauna work and, more usefully, the specific design mistakes he keeps seeing in projects outside Finland.</p>
 
 <h2>What Makes a Finnish Sauna a Finnish Sauna</h2>
-<p>Liikkanen's definition is straightforward: a hot room with a visible heater containing rocks that allows people to create loyly (steam). Temperature ranges from 60 to 105 degrees Celsius (140 to 220 Fahrenheit). That range is broader than many people expect. He made a point of noting that in the landmark Finnish health studies by <a href="/article/sauna-immune-system-research-laukkanen">Professor Jari Laukkanen</a>, the average sauna temperature used by participants was only 76 degrees Celsius, about 169 Fahrenheit. The popular idea that you need to push past 200F to get health benefits doesn't hold up in the research.</p>
+<p>Liikkanen's definition is straightforward: a hot room with a visible heater containing rocks that allows people to create loyly (steam). Temperature ranges from 140°F to 220°F. That range is broader than many people expect. He made a point of noting that in the landmark Finnish health studies by <a href="/article/sauna-immune-system-research-laukkanen">Professor Jari Laukkanen</a>, the average sauna temperature used by participants was only about 169°F. The popular idea that you need to push past 200F to get health benefits doesn't hold up in the research.</p>
 
 <p>The loyly is the key differentiator. When water hits hot rocks, it creates steam that condenses on your skin, transferring heat energy far more effectively than dry air alone. What looks like sweat in a Finnish sauna may actually be condensation. This is the mechanism that separates a Finnish sauna from an infrared cabin (dry, moderate temperature, no steam) or a steam room (fully saturated, low temperature, tiled).</p>
 
@@ -1175,7 +1175,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 <img src="https://huum.ee/wp-content/uploads/2023/02/h3013011_core_lepp_puitpaneel_web.jpg" alt="HUUM Core with alder wood panels" style="width:100%;border-radius:8px;margin:1.5rem 0;" />
 
 <h2>Certified to 230°F</h2>
-<p>The Core carries an SGS certification rather than a standard UL listing. SGS is an OSHA-recognized Nationally Recognized Testing Laboratory, and its certifications are accepted by US building inspectors. The difference matters here: standard UL-listed electric sauna heaters in the US are capped at 194°F (90°C). The Core's SGS certification allows it to reach 230°F (110°C).</p>
+<p>The Core carries an SGS certification rather than a standard UL listing. SGS is an OSHA-recognized Nationally Recognized Testing Laboratory, and its certifications are accepted by US building inspectors. The difference matters here: standard UL-listed electric sauna heaters in the US are capped at 194°F. The Core's SGS certification allows it to reach 230°F.</p>
 
 <p>That 36-degree gap is meaningful in practice. Traditional Finnish sauna protocols frequently require temperatures above 200°F to produce the <a href="/article/longevity-investors-case-for-sauna">cardiovascular and heat-shock protein responses</a> associated with regular bathing. The Core is tested against UL 60335-1, CAN/CSA-C22.2 NO. 60335-1, and IEC 60335-2-53. The certification is legitimate and code-compliant; the higher ceiling just reflects European test standards rather than domestic ones.</p>
 
@@ -1184,7 +1184,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 <h2>Specs and Sizing</h2>
 <p>The Core ships in three power ratings: 6.5 kW (CORE 6), 9.0 kW (CORE 9), and 10.5 kW (CORE 11). All three share the same exterior dimensions: 32.7 inches tall, 15.2 inches square. That consistent footprint means framing and bench cutouts can be standardized regardless of which kilowatt version a given room requires. The heater weighs 41.9 lbs before stones.</p>
 
-<p>Stone capacity is 66 lbs (30 kg) of olivine diabase, loaded in rounded 2-to-4-inch pieces. The stone mass is substantial enough to support repeated water applications without the temperature dropping sharply between rounds. Löyly quality is the right word for it: the steam produced by a well-loaded stone basket at operating temperature is soft rather than harsh, and the Core's stone-forward design prioritizes that over raw air temperature.</p>
+<p>Stone capacity is 66 lbs of olivine diabase, loaded in rounded 2-to-4-inch pieces. The stone mass is substantial enough to support repeated water applications without the temperature dropping sharply between rounds. Löyly quality is the right word for it: the steam produced by a well-loaded stone basket at operating temperature is soft rather than harsh, and the Core's stone-forward design prioritizes that over raw air temperature.</p>
 
 <div class="callout">
 <strong>Core at a Glance:</strong> Available in 6.5, 9.0, and 10.5 kW. Dimensions: 32.7" H × 15.2" W × 15.2" D (all power ratings). Stone capacity: 66 lbs olivine diabase. Max certified temp: 230°F. Clearance required: 2" from combustible materials. SGS certified (OSHA-recognized NRTL). Compatible with 240V and 208V. IPX4 moisture rated.
@@ -1551,7 +1551,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <p>The importing entity at 575 East Cokato Street, Cokato, MN 55321 has logged 1,009 documented shipments from November 2006 through April 2026. The vast majority originate from a cluster of Chinese suppliers operating under the "Sfactor" brand in Jiangsu Province.</p>
 
-<p>Wuxi Sfactor Co., Ltd. (Xishan Industrial Zone, Wuxi, Jiangsu) accounts for approximately 460 containers totaling 3.7 million kilograms. Its most recent recorded shipment arrived April 8, 2026. Customs description on bills of lading: "WOOD PREFABRICATED BUILDINGS." At least one bill of lading references "ATM GROUP NA BASKET NAC MASCO" in the product line, a direct trace to the Masco parent. Changzhou Sfactor Co., Ltd. accounts for approximately 370 containers (3.1 million kg), primarily transshipped via Pusan, South Korea. A third Sfactor entity in Suzhou accounts for 58 additional shipments filed under the former TyloHelo importer name.</p>
+<p>Wuxi Sfactor Co., Ltd. (Xishan Industrial Zone, Wuxi, Jiangsu) accounts for approximately 460 containers totaling 8.2 million pounds. Its most recent recorded shipment arrived April 8, 2026. Customs description on bills of lading: "WOOD PREFABRICATED BUILDINGS." At least one bill of lading references "ATM GROUP NA BASKET NAC MASCO" in the product line, a direct trace to the Masco parent. Changzhou Sfactor Co., Ltd. accounts for approximately 370 containers (6.8 million pounds), primarily transshipped via Pusan, South Korea. A third Sfactor entity in Suzhou accounts for 58 additional shipments filed under the former TyloHelo importer name.</p>
 
 <p>Additional Chinese suppliers include Guangdong Hongyuan Home Furnishing Co., Ltd. of Guangzhou (which operates as "Royal Saunas," an OEM exporter of infrared and traditional sauna products) with approximately 35 containers, and Hangzhou Fulton Thermal Equipment Co. with roughly 150 shipments.</p>
 
@@ -1635,8 +1635,8 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
     id: '40',
     title: 'Your Sauna Session Mobilizes Your Immune System. Finnish Researchers Just Mapped How.',
     slug: 'sauna-immune-cells-white-blood-cells-2026',
-    dek: 'A peer-reviewed Finnish study tracked 51 adults through a single 30-minute sauna and found significant white blood cell mobilization, plus cytokine responses correlated with body temperature rise, including interferon signals associated with antiviral defense.',
-    excerpt: 'A new peer-reviewed study published in Temperature (Taylor & Francis) finds that a single 30-minute Finnish sauna session significantly raises white blood cell counts, with some immune cell populations staying elevated 30 minutes after the heat ends. The cytokine data, including correlations with interferon activity, points toward a biological mechanism for sauna\'s long-documented benefits against infection and respiratory disease.',
+    dek: 'A peer-reviewed Finnish study tracked 51 adults through a single 30-minute sauna and found significant white blood cell mobilization, plus cytokine responses tied to body temperature rise, including interferon signals associated with antiviral defense.',
+    excerpt: 'A new peer-reviewed study published in Temperature (Taylor & Francis) finds that a single 30-minute traditional sauna session at 163°F significantly raises white blood cell counts, with some immune cell populations staying elevated 30 minutes after the heat ends. The cytokine data, including correlations with interferon activity, points toward a biological mechanism for sauna\'s long-documented benefits against infection and respiratory disease.',
     contentType: 'Analysis',
     category: 'Wellness Trends',
     tags: ['research', 'immune system', 'white blood cells', 'Finland', 'wellness science', 'Jari Laukkanen', 'Harvia'],
@@ -1645,14 +1645,14 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
     readingTime: 7,
     featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/05/Kiuas_Kuva1-780x439.jpg',
     imageCaption: 'A single 30-minute Finnish sauna session triggers measurable immune cell mobilization, new research shows. The study used Harvia-designed temperature sensors for continuous monitoring.',
-    body: `<p>A peer-reviewed study published in the journal <em>Temperature</em> this March offers the most granular look yet at what one Finnish sauna session does to your immune system. The findings are specific, measurable, and harder to dismiss than the usual long-term epidemiological correlations: a single 30-minute session at 73°C raised white blood cell counts significantly in both men and women, with some immune populations staying elevated for at least 30 minutes after participants left the heat.</p>
+    body: `<p>A peer-reviewed study published in the journal <em>Temperature</em> in March offers the most granular look yet at what one Finnish sauna session does to your immune system. The findings are specific, measurable, and harder to dismiss than the usual long-term epidemiological correlations: a single 30-minute session at 163°F raised white blood cell counts significantly in both men and women, with some immune populations staying elevated for at least 30 minutes after participants left the heat.</p>
 
 <p>The research was led by Ilkka Heinonen of the University of Turku, alongside cardiologist and Professor Jari Laukkanen of the University of Eastern Finland, whose longitudinal KIHD cohort studies established that frequent sauna use is associated with a <a href="/article/sauna-immune-system-research-laukkanen">40% reduction in all-cause mortality</a> for 4-7x weekly users. This new study is different. Rather than asking whether regular sauna use correlates with better long-term health outcomes, it asks what actually happens inside your body during a single session. The answer involves white blood cells, interferons, and a temperature sensor made by Harvia.</p>
 
 <h2>What They Did</h2>
 <p>Fifty-one adults from Jyvaskyla, Finland participated. Twenty-seven women, 24 men, average age 50, average BMI just under 27. These were people with at least one cardiovascular risk factor (high blood pressure, smoking history, dyslipidemia, family history of heart disease), but no active heart disease. Roughly a third hadn't been in a sauna in months. Another third used one weekly or less. The remaining third went 2-3 times per week.</p>
 
-<p>The protocol: one 30-minute Finnish sauna session. The room was set to 80°C and held at a measured average of 73°C with 10-20% relative humidity. Temperature monitoring was continuous using internal sensors designed by Harvia. Participants sat alone in sex-specific sauna rooms wearing swimwear, drank water throughout, and had a brief shower after the first 15 minutes. Blood was drawn immediately before, immediately after, and 30 minutes after the session. The researchers tested for white blood cell counts across all major subtypes, plus 37 cytokines. Body temperature was measured from the ear. It started at around 36.4°C and rose to 38.4°C on average by the end of the session.</p>
+<p>The protocol: one 30-minute Finnish sauna session. The room was set to 176°F and held at a measured average of 163°F with 10-20% relative humidity. Temperature monitoring was continuous using internal sensors designed by Harvia. Participants sat alone in sex-specific sauna rooms wearing swimwear, drank water throughout, and had a brief shower after the first 15 minutes. Blood was drawn immediately before, immediately after, and 30 minutes after the session. The researchers tested for white blood cell counts across all major subtypes, plus 37 cytokines. Body temperature was measured from the ear. It started at around 97.5°F and rose to 101.1°F on average by the end of the session.</p>
 
 <h2>The White Blood Cell Surge</h2>
 <p>Total leukocyte count rose significantly right after the sauna and stayed slightly elevated in women at the 30-minute mark. Neutrophils and lymphocytes both spiked immediately post-sauna, then returned to baseline by the 30-minute blood draw. The MXD group, the combined count of monocytes, eosinophils, and basophils, went up immediately and stayed elevated for the full recovery window in men.</p>
@@ -1699,17 +1699,17 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <p>That story is not proven. But the direction is consistent, the methodology is sound, and the research group is among the most productive in the field. Laukkanen is expected to speak at the <a href="/article/world-sauna-forum-2026-jyvaskyla">World Sauna Forum in Jyvaskyla this June</a>, where this research is likely to be discussed alongside the broader KIHD findings.</p>
 
-<p>If you are shopping for a traditional Finnish sauna and want one capable of delivering the kind of deep heat used in this study, 73°C at 10-20% humidity is the standard. Sauna Marketplace carries a full range of traditional Finnish sauna options built to that specification.</p>
+<p>If you are shopping for a traditional Finnish sauna and want one capable of delivering the kind of deep heat used in this study, 163°F at 10-20% humidity is the standard target. Sauna Marketplace carries a full range of traditional Finnish sauna options built to that specification.</p>
 
 <div class="callout">
-<strong>Study Details:</strong> Published in <em>Temperature</em> (Taylor & Francis), March 2026. DOI: 10.1080/23328940.2026.2645467. Lead author: Ilkka H.A. Heinonen, University of Turku. Co-author: Jari A. Laukkanen, University of Eastern Finland. 51 participants (27F, 24M), average age 50. Single 30-minute Finnish sauna session at 73°C / 10-20% humidity. Harvia temperature sensors used for continuous monitoring. Blood drawn at baseline, immediately post-sauna, and 30 minutes post-sauna. 37 cytokines measured via Bio-Plex multiplex assay. Funded by the Research Council of Finland.
+<strong>Study Details:</strong> Published in <em>Temperature</em> (Taylor & Francis), March 2026. DOI: 10.1080/23328940.2026.2645467. Lead author: Ilkka H.A. Heinonen, University of Turku. Co-author: Jari A. Laukkanen, University of Eastern Finland. 51 participants (27F, 24M), average age 50. Single 30-minute Finnish sauna session at 163°F / 10-20% humidity. Harvia temperature sensors used for continuous monitoring. Blood drawn at baseline, immediately post-sauna, and 30 minutes post-sauna. 37 cytokines measured via Bio-Plex multiplex assay. Funded by the Research Council of Finland.
 </div>
 
 <div class="bottom-line">
 <p>A 30-minute Finnish sauna session measurably mobilizes your immune system. The white blood cell surge is real, not a measurement artifact. The cytokine response correlates with how much your body temperature rises, and the pattern includes interferons. None of this is a proven cure for anything. But it is a plausible mechanism for why regular sauna users keep showing up healthier in the long-term data, and it is one of the most detailed looks at sauna's acute immune effects ever published.</p>
 </div>`,
-    featured: true,
-    trending: true,
+    featured: false,
+    trending: false,
   },
   {
     id: '39',
