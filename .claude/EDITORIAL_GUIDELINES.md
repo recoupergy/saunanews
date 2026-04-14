@@ -131,6 +131,73 @@ Use these for story ideas, events, and industry intelligence:
 - Sauna Region Week (Jyvaskyla, Finland)
 - ISH Frankfurt (trade show with sauna track)
 
+## Internal Linking — MANDATORY
+
+Internal linking is a first-class SEO and editorial priority. It is not optional.
+
+### Rules for Every New Article
+1. **Add 2-4 internal links within the new article's body.** Link to the most topically relevant existing articles. Use descriptive anchor text (not "click here" or "read more").
+2. **After publishing a new article, find at least one existing article that is topically related and add a link to the new article there.** This ensures new content gets crawled quickly and distributes link equity.
+3. Links go inside `<a href="/article/[slug]">anchor text</a>` tags in the HTML body.
+
+### Link Format
+```html
+<a href="/article/slug-goes-here">descriptive anchor text</a>
+```
+Never use bare URLs. Never use generic anchor text like "this article" or "read more."
+
+### Internal Link Map (keep updated as articles are added)
+
+**Thermory cluster** (link freely between these):
+- `/article/thermory-usa-cristian-de-rosa-ceo`
+- `/article/thermory-ownership-change-ug-investeeringud`
+- `/article/thermory-bergman-japan-partnership`
+- `/article/baltimore-ravens-thermory-sauna-performance-center`
+- `/article/finland-lumber-prices-18-month-high`
+
+**Tariff cluster** (always cross-link these):
+- `/article/us-sauna-imports-tariff-pressure-europe`
+- `/article/supreme-court-ieepa-ruling-sauna-tariffs`
+- `/article/sauna-brands-tariff-exposure-analysis`
+
+**Health & Research cluster**:
+- `/article/infrared-vs-traditional-sauna-data-analysis`
+- `/article/sauna-immune-system-research-laukkanen`
+- `/article/sauna-immune-cells-white-blood-cells-2026`
+- `/article/longevity-investors-case-for-sauna`
+- `/article/collective-sauna-rituals-mental-wellbeing-research`
+
+**Social / Commercial Sauna cluster**:
+- `/article/bathhouse-120m-revenue-social-sauna`
+- `/article/sauna-house-franchise-nordic-bathhouse-growth`
+- `/article/equinox-expands-sauna-offerings-flagship-locations`
+- `/article/kos-sauna-floating-nordic-upstate-new-york`
+
+**Market Trends cluster**:
+- `/article/outdoor-sauna-demand-surges-north-america`
+- `/article/can-americans-get-past-costco-sauna-phase`
+- `/article/cold-plunge-market-380m-new-sauna-buyers`
+
+**HUUM cluster**:
+- `/article/huum-air-tunnel-upgrade-heater-line`
+- `/article/huum-core-us-launch-bench-embedded-wood-heater`
+
+**Estonia Manufacturing cluster**:
+- `/article/estonia-sauna-manufacturing-powerhouse`
+- `/article/thermory-ownership-change-ug-investeeringud`
+
+**Supply Chain / Standards**:
+- `/article/sauna360-chinese-manufacturing-nordic-illusion`
+- `/article/ul-60335-2-53-sauna-heater-standard-transition`
+
+### Good Internal Linking Practices
+- Link early in the body (first 2-3 paragraphs) when possible — Google weights early links more heavily
+- Vary anchor text — don't use the same phrase every time you link to the same article
+- When you mention a company by name and we have an article about them, link to that article on the first mention
+- Do not link the same article more than once per page
+- Do not over-link — 2-5 internal links per article is the target range
+- Related articles widgets and "read more" blocks are separate from editorial body links; add both
+
 ## SEO Best Practices
 - Every article gets JSON-LD NewsArticle structured data (already implemented)
 - Homepage has JSON-LD WebSite schema (already implemented)
@@ -138,7 +205,7 @@ Use these for story ideas, events, and industry intelligence:
 - Canonical URLs on all pages
 - Descriptive, keyword-rich titles (under 65 characters when possible)
 - Dek (subtitle) serves as meta description
-- Internal linking between related articles
+- Internal links in body copy (see Internal Linking section above)
 - External links to manufacturer websites and official sources
 
 ## Article Structure
