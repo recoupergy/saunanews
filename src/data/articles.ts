@@ -1830,8 +1830,8 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
     author: authors.anna,
     publishDate: '2026-04-14',
     readingTime: 9,
-    featuredImage: 'https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=1200&q=80',
-    imageCaption: 'Communal thermal bathing is moving from niche to franchise in America. Sauna House is leading that charge.',
+    featuredImage: 'https://www.saunahouse.com/cdn/shop/files/SaunaHouseFallShoot_NativeDreamerPhotography-68.jpg?v=1765745888&width=1200',
+    imageCaption: 'Inside Sauna House Asheville, the flagship location that started it all. Photo: NativeDreamer Photography / Sauna House.',
     body: `<p>Most wellness concepts that try to scale from Asheville to Austin end up diluted. Sauna House may be the exception. Founded in 2019 by Andrew Lachlan and Jennifer Richter, the North Carolina-based communal bathhouse brand posted 276% two-year revenue growth, landed at #838 on the 2024 Inc. 5000, and has quietly assembled one of the more credible franchise machines in thermal wellness, including a proprietary sauna factory built to supply its growing network of franchisees.</p>
 
 <p>This is not a spa brand slapping "sauna" on a menu. Sauna House is building real infrastructure around a specific and repeatable concept. The question is whether the infrastructure holds as they push beyond the Carolinas.</p>

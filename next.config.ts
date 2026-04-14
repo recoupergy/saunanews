@@ -107,6 +107,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'www.prosaunas.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'www.saunahouse.com',
+      },
     ],
   },
 };
