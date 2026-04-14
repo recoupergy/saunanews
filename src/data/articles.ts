@@ -258,7 +258,7 @@ export const articles: Article[] = [
     tags: ['social clubs', 'urban sauna', 'cold plunge', 'wellness culture', 'community'],
     author: authors.anna,
     publishDate: '2024-06-12',
-    readingTime: 9,
+    readingTime: 10,
     featuredImage: 'https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=1200&q=80',
     body: `<p>Inside a converted 1930s soda factory on North 10th Street in Williamsburg, Brooklyn, a line forms every Saturday morning. It's not for brunch. It's for a three-hour sauna session at Bathhouse, one of a growing number of urban sauna social clubs that are turning thermal bathing into a lifestyle category.</p>
 
@@ -277,6 +277,15 @@ export const articles: Article[] = [
 <div class="callout">
 <strong>Notable Venues:</strong> Bathhouse (New York), Sauna House (Asheville, Charlotte), Loyly (Helsinki), Vabali Spa (Berlin), Sense of Self (Melbourne). The category is growing on multiple continents.
 </div>
+
+<h2>The Talmadge Origin Story</h2>
+<p>Bathhouse's co-founder Travis Talmadge did not set out to build a wellness brand. He started his career in investment sales. In <a href="https://www.hamilton.edu/news/story/travis-talmadge-bathhouse-sauna-culture" rel="noopener noreferrer" target="_blank">a feature published by Hamilton College</a>, his alma mater, Talmadge recounted the moment that changed his trajectory: a friend invited him to a Russian bathhouse in New York City, where he did a sauna and cold plunge for the first time.</p>
+
+<blockquote>I walked out of there and felt a sauna high. I was walking on clouds. I slept great that night. I was hooked from that day forward.</blockquote>
+
+<p>Talmadge, a 2009 Hamilton graduate who majored in economics and photography/fine arts, went on to co-found Bathhouse with partner Jason Goodman. The original Williamsburg location opened in 2019 inside the former Brooklyn Bottling Company building, and an adjacent expansion followed in 2023. Two Hamilton classmates joined the company as it scaled: Jordan Hummel '09 leads real estate, and Henry Ciocca '09 serves as general counsel.</p>
+
+<p>The personal story has become a piece of the commercial story. Bathhouse does not sell amenities first; it sells the feeling Talmadge describes, that first post-sauna high, and builds memberships around people who want to chase it. The company has signaled plans to add roughly eight more locations across seven additional states, with Los Angeles, Nashville, Philadelphia, and Chicago named as near-term targets.</p>
 
 <h3>Cultural Drivers</h3>
 <p>The trend draws from several cultural currents: the normalization of cold exposure through influencers and podcasters, the post-pandemic hunger for in-person community, the growing <a href="/article/longevity-investors-case-for-sauna">longevity and biohacking movements</a>, and a generational shift toward experiences over material consumption.</p>
