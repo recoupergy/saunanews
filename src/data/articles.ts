@@ -259,7 +259,8 @@ export const articles: Article[] = [
     author: authors.anna,
     publishDate: '2024-06-12',
     readingTime: 10,
-    featuredImage: 'https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=1200&q=80',
+    featuredImage: 'https://images.squarespace-cdn.com/content/v1/5f627ccbb290eb31d9234aee/3945cde9-78a8-4ad9-809f-97e823a756e6/Neutral+Pool+1.jpg?format=1500w',
+    imageCaption: 'Inside Bathhouse Williamsburg — the converted 1930s soda factory that launched the social sauna movement in New York. Photo: Bathhouse.',
     body: `<p>Inside a converted 1930s soda factory on North 10th Street in Williamsburg, Brooklyn, a line forms every Saturday morning. It's not for brunch. It's for a three-hour sauna session at Bathhouse, one of a growing number of urban sauna social clubs that are turning thermal bathing into a lifestyle category.</p>
 
 <h2>A New Category Emerges</h2>
@@ -1530,8 +1531,8 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
     author: authors.james,
     publishDate: '2026-04-12',
     readingTime: 11,
-    featuredImage: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200&q=80',
-    imageCaption: 'Pre-built sauna room kits sold under Scandinavian heritage brands make up the bulk of Sauna360\'s U.S. sales, according to company executives and customs records.',
+    featuredImage: 'https://images.unsplash.com/photo-1741707041743-534a6d3307cb?w=1200&q=80',
+    imageCaption: 'Workers package goods in a large warehouse distribution center. The supply chain behind "Scandinavian" sauna brands often looks a lot like this.', make up the bulk of Sauna360\'s U.S. sales, according to company executives and customs records.',
     body: `<p>In the sauna industry, it is not much of a secret. Ask an experienced dealer or distributor how Sauna360 sources its products and most will tell you the pre-built room cabinets come from China. Traditional electric heaters ship from Finland and Sweden. Infrared panels are a murkier picture — customs records show Chinese thermal equipment suppliers in the mix there too. The broad strokes have been the model for years and are well understood by people who work in the trade.</p>
 
 <p>What is less clear is how well it travels downstream to consumers — particularly the many buyers who purchase Finnleo, Tylö, or Helo saunas through hot tub retailers or pool-and-spa showrooms, where sauna is often a secondary product line and staff may not know the sourcing details themselves.</p>
@@ -1732,8 +1733,8 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
     author: authors.elise,
     publishDate: '2026-04-13',
     readingTime: 8,
-    featuredImage: 'https://images.unsplash.com/photo-1759302085266-e27700d89751?w=1200&q=80',
-    imageCaption: 'Entry-level barrel saunas have introduced millions of Americans to the category. The problem is what they are teaching them. Photo: Auroom Wellness / Unsplash.',
+    featuredImage: '/images/costco-barrel-sauna-aisle.jpg',
+    imageCaption: 'A cedar barrel sauna in a warehouse aisle — the Costco sauna experience, distilled.',
     body: `<p>Something interesting is happening in the American backyard. Saunas are showing up everywhere, tucked behind garages in the Midwest, decking out Airbnbs in the Rockies, anchoring "wellness spaces" in suburban renovations from Phoenix to Portland. The U.S. sauna market generated roughly $250 million in revenue in 2024 and is growing at a 6.4% compound annual rate. After decades of being a niche pursuit for Scandinavian-Americans and cold-plunge devotees, the sauna is finally going mainstream.</p>
 
 <p>And yet. Talk to any serious retailer, installer, or sauna educator in this country and a version of the same story comes up: a customer calls, frustrated, saying their sauna does not really work. They are cold. Their feet are freezing. The steam goes nowhere. The wood is warping. Or, more often than you would expect, they never experienced real steam to begin with, because they bought an infrared cabinet and did not know it was not a sauna.</p>

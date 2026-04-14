@@ -111,6 +111,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'www.saunahouse.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'images.squarespace-cdn.com',
+      },
     ],
   },
 };
