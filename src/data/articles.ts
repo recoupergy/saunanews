@@ -1905,7 +1905,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <h2>Why It Matters for Sauna</h2>
 
-<p>Most SaunaNews readers know Thermory as the world's largest producer of thermowood, the material of choice for high-end sauna construction. <a href="/article/estonia-sauna-manufacturing-powerhouse">Thermo-Aspen</a>, Thermo-Magnolia, and Thermo-Alder bench boards and wall panels are staples at Sauna Marketplace and every serious sauna dealer in North America. The company also sells barrel sauna kits, modular saunas (including the new Mod6, built with Superior Sauna & Steam in Ashland, Wisconsin), and a growing line of sauna accessories.</p>
+<p>Most SaunaNews readers know Thermory as the world's largest producer of thermowood, the material of choice for high-end sauna construction. <a href="/article/estonia-sauna-manufacturing-powerhouse">Thermo-Aspen</a>, Thermo-Magnolia, and Thermo-Alder bench boards and wall panels are staples at Sauna Marketplace and every serious sauna dealer in North America. The company also produces a line of barrel saunas — all now featuring upper bench configurations — a meaningful upgrade over the single low-bench designs that define most of the entry-level market. Thermory has also deepened its relationship with <a href="/article/homecraft-wifi-sauna-controller-launch">Homecraft</a>, the Canadian heater maker, and has been actively cultivating the DIY sauna builder segment, which has emerged as one of the fastest-growing buyer categories in North America.</p>
 
 <p>But Thermory's sauna business is only part of the story. The company's cladding, decking, and flooring divisions are the volume drivers, and those divisions are the ones where a territory-focused CEO could make the biggest difference. De Rosa's background is in building products sales, not sauna specifically, which tells you where Thermory sees its highest-leverage growth in the U.S. market. More builders specifying thermowood for exteriors means more builders who know the material when they get asked about sauna projects.</p>
 
@@ -1915,7 +1915,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <p>Then there is SaferWood with Thermex-FR, Thermory's new ignition-resistant Class A benchmark pine that went to market in early 2026. The product is designed for California's Very High Fire Hazard Severity Zones and wildland-urban interface areas, a market segment that has been desperate for real wood options that can pass fire code. It is a shrewd play for a company whose core product, thermally modified wood, was already partway toward fire resistance by virtue of the modification process itself.</p>
 
-<p>Add the Mod6 modular sauna partnership with Superior Sauna & Steam, a continued presence at the International Builders' Show, and Thermory's Design Awards program recognizing outstanding architectural projects using thermowood, and you have a company that is investing across every channel simultaneously.</p>
+<p>Add a continued presence at the International Builders' Show, a growing DIY sauna builder program that puts Thermory materials directly in the hands of owner-builders who want quality wood without a custom contractor markup, and Thermory's Design Awards program recognizing outstanding architectural projects — and you have a company investing across every channel simultaneously.</p>
 
 <h2>The Technology Behind the Brand</h2>
 
