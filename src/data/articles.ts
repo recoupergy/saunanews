@@ -1891,7 +1891,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
     readingTime: 6,
     featuredImage: 'https://thermoryusa.com/wp-content/uploads/2022/11/Sauna-Materials_Banner-1536x536.jpeg',
     imageCaption: 'Thermory sauna materials: thermally modified wood that is redefining what builders and homeowners expect from sauna construction. Photo: Thermory USA.',
-    body: \`<p>Thermory USA has appointed Cristian de Rosa as its new Chief Executive Officer, promoting a territory sales leader into the top job as the Estonian thermowood giant pushes to expand its North American footprint in both building products and sauna materials.</p>
+    body: `<p>Thermory USA has appointed Cristian de Rosa as its new Chief Executive Officer, promoting a territory sales leader into the top job as the Estonian thermowood giant pushes to expand its North American footprint in both building products and sauna materials.</p>
 
 <p>De Rosa joined Thermory in 2024 as Northeast and Great Lakes Building Products Territory Manager. It was not a long tenure before the promotion, but the company says it was long enough. In a press release, Thermory credited de Rosa's "sound judgement, strong work ethic and contagious energy" and said the board had been looking for ways to expand his role.</p>
 
@@ -1935,7 +1935,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <div class="bottom-line">
 <p>Thermory appointing a territory sales leader as its U.S. CEO is a bet on growth through distribution and relationships rather than top-down management. For the sauna industry, the signal is clear: the world's biggest thermowood company thinks the North American market is just getting started. Every sauna dealer who stocks Thermory materials should be paying attention to what comes next.</p>
-</div>\`,
+</div>`,
     featured: true,
     trending: true,
   },
