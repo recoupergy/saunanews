@@ -1532,7 +1532,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
     publishDate: '2026-04-12',
     readingTime: 11,
     featuredImage: 'https://images.unsplash.com/photo-1741707041743-534a6d3307cb?w=1200&q=80',
-    imageCaption: 'Workers package goods in a large warehouse distribution center. The supply chain behind "Scandinavian" sauna brands often looks a lot like this.', make up the bulk of Sauna360\'s U.S. sales, according to company executives and customs records.',
+    imageCaption: 'Workers package goods in a large warehouse distribution center. The supply chain behind Nordic-branded sauna kits often looks a lot like this.',
     body: `<p>In the sauna industry, it is not much of a secret. Ask an experienced dealer or distributor how Sauna360 sources its products and most will tell you the pre-built room cabinets come from China. Traditional electric heaters ship from Finland and Sweden. Infrared panels are a murkier picture — customs records show Chinese thermal equipment suppliers in the mix there too. The broad strokes have been the model for years and are well understood by people who work in the trade.</p>
 
 <p>What is less clear is how well it travels downstream to consumers — particularly the many buyers who purchase Finnleo, Tylö, or Helo saunas through hot tub retailers or pool-and-spa showrooms, where sauna is often a secondary product line and staff may not know the sourcing details themselves.</p>
