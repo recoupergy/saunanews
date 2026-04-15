@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import NewsletterSignup from '@/components/NewsletterSignup';
+import EmailLink from '@/components/EmailLink';
 
 export const metadata: Metadata = {
   title: 'About SaunaNews',
@@ -146,9 +147,10 @@ export default function AboutPage() {
           <h2 className="font-editorial text-2xl font-bold text-charcoal dark:text-cream mb-4">
             Work With Us
           </h2>
-          <p className="text-base text-warm-gray dark:text-dark-muted mb-8">
+          <p className="text-base text-warm-gray dark:text-dark-muted mb-4">
             Interested in sponsorships, partnerships, or submitting news? We&apos;d love to hear from you.
           </p>
+          <EmailLink className="inline-block text-green dark:text-brass font-medium hover:underline mb-8 text-base" />
           <div className="flex items-center justify-center gap-4">
             <Link
               href="/contact"
