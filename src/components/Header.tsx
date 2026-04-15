@@ -1,11 +1,52 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { categories } from '@/data/categories';
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
+  const searchInputRef = useRef<HTMLInputElement | null>(null);
+  const router = useRouter();
+
+  useEffect(() => {
+    if (searchOpen) {
+      searchInputRef.current?.focus();
+    }
+  }, [searchOpen]);
+
+  // Keyboard shortcut: "/" focuses search
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      const target = e.target as HTMLElement | null;
+      const isTyping =
+        !!target &&
+        (target.tagName === 'INPUT' ||
+          target.tagName === 'TEXTAREA' ||
+          target.isContentEditable);
+      if (e.key === '/' && !isTyping) {
+        e.preventDefault();
+        setSearchOpen(true);
+      }
+      if (e.key === 'Escape' && searchOpen) {
+        setSearchOpen(false);
+      }
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [searchOpen]);
+
+  const submitSearch = (q: string) => {
+    const trimmed = q.trim();
+    setSearchOpen(false);
+    setSearchQuery('');
+    setMobileOpen(false);
+    router.push(trimmed ? `/search?q=${encodeURIComponent(trimmed)}` : '/search');
+  };
+
   return (
     <header className="sticky top-0 z-50 bg-cream/95 backdrop-blur-md border-b border-border">
       {/* Top utility bar */}
@@ -82,7 +123,17 @@ export default function Header() {
           </nav>
 
           {/* Desktop CTA */}
-          <div className="hidden lg:flex items-center gap-3">
+          <div className="hidden lg:flex items-center gap-2">
+            <button
+              onClick={() => setSearchOpen(true)}
+              aria-label="Open search"
+              title="Search (press /)"
+              className="p-2 text-charcoal hover:text-green transition-colors rounded-md hover:bg-ivory"
+            >
+              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+            </button>
             <Link
               href="/newsletter"
               className="px-4 py-2 text-sm font-medium bg-charcoal text-cream rounded-md hover:bg-slate transition-colors"
@@ -91,22 +142,33 @@ export default function Header() {
             </Link>
           </div>
 
-          {/* Mobile menu button */}
-          <button
-            onClick={() => setMobileOpen(!mobileOpen)}
-            className="lg:hidden p-2 text-charcoal"
-            aria-label="Toggle menu"
-          >
-            {mobileOpen ? (
-              <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+          {/* Mobile actions */}
+          <div className="lg:hidden flex items-center gap-1">
+            <button
+              onClick={() => setSearchOpen(true)}
+              aria-label="Open search"
+              className="p-2 text-charcoal"
+            >
+              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
-            ) : (
-              <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-            )}
-          </button>
+            </button>
+            <button
+              onClick={() => setMobileOpen(!mobileOpen)}
+              className="p-2 text-charcoal"
+              aria-label="Toggle menu"
+            >
+              {mobileOpen ? (
+                <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              ) : (
+                <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              )}
+            </button>
+          </div>
         </div>
       </div>
 
@@ -155,6 +217,73 @@ export default function Header() {
                 Subscribe
               </Link>
             </div>
+          </div>
+        </div>
+      )}
+
+      {/* Search overlay */}
+      {searchOpen && (
+        <div
+          className="fixed inset-0 z-[100] bg-charcoal/60 backdrop-blur-sm"
+          onClick={() => setSearchOpen(false)}
+          role="dialog"
+          aria-modal="true"
+          aria-label="Search"
+        >
+          <div
+            className="max-w-2xl mx-auto mt-[10vh] px-4"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <form
+              onSubmit={(e) => {
+                e.preventDefault();
+                submitSearch(searchQuery);
+              }}
+              className="bg-cream rounded-xl shadow-2xl border border-border overflow-hidden"
+            >
+              <div className="relative">
+                <svg
+                  className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-stone-dark"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  />
+                </svg>
+                <input
+                  ref={searchInputRef}
+                  type="text"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  placeholder="Search SaunaNews..."
+                  className="w-full pl-12 pr-24 py-4 bg-transparent text-charcoal text-lg focus:outline-none placeholder-stone-dark/60"
+                />
+                <button
+                  type="button"
+                  onClick={() => setSearchOpen(false)}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 px-2 py-1 text-xs text-stone-dark border border-border rounded hover:bg-ivory"
+                  aria-label="Close search"
+                >
+                  Esc
+                </button>
+              </div>
+              <div className="border-t border-border px-4 py-2 flex items-center justify-between text-xs text-stone-dark bg-ivory/60">
+                <span>
+                  Press <kbd className="px-1.5 py-0.5 text-[10px] bg-cream border border-border rounded">Enter</kbd> to search
+                </span>
+                <button
+                  type="submit"
+                  className="text-green font-medium hover:underline"
+                >
+                  Search &rarr;
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       )}
