@@ -1,20 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { Resend } from 'resend';
 
-const TO = 'hello@saunanews.com';
-
-// Safe to call even without the key — returns a graceful error instead of crashing at build time
-function getResend() {
-  const key = process.env.RESEND_API_KEY;
-  if (!key) return null;
-  return new Resend(key);
-}
+const INBOX = 'hello@saunanews.com';
+const AGENTMAIL_BASE = 'https://api.agentmail.to/v0';
 
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
 
-    // Honeypot — bots fill hidden fields
+    // Honeypot — bots fill hidden fields, humans don't
     if (body.website) {
       return NextResponse.json({ success: true });
     }
@@ -28,10 +21,11 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const resend = getResend();
+    const apiKey = process.env.AGENTMAIL_API_KEY;
+    const subject = `[${inquiryType ?? 'Contact'}] ${name}${organization ? ` — ${organization}` : ''}`;
 
-    if (!resend) {
-      // RESEND_API_KEY not set — log it so nothing is silently lost
+    if (!apiKey) {
+      // Key not set yet — log so nothing is silently lost
       console.log('[Contact Form]', { name, email, organization, inquiryType, message });
       return NextResponse.json({
         success: true,
@@ -39,23 +33,33 @@ export async function POST(request: NextRequest) {
       });
     }
 
-    const { error } = await resend.emails.send({
-      from: 'SaunaNews Contact <hello@saunanews.com>',
-      to: TO,
-      replyTo: email,
-      subject: `[${inquiryType ?? 'Contact'}] ${name}${organization ? ` — ${organization}` : ''}`,
-      html: `
-        <p><strong>From:</strong> ${name}${organization ? ` (${organization})` : ''}</p>
-        <p><strong>Email:</strong> <a href="mailto:${email}">${email}</a></p>
-        <p><strong>Type:</strong> ${inquiryType ?? 'General'}</p>
-        <hr />
-        <p>${message.replace(/\n/g, '<br />')}</p>
-      `,
-      text: `From: ${name}${organization ? ` (${organization})` : ''}\nEmail: ${email}\nType: ${inquiryType ?? 'General'}\n\n${message}`,
-    });
+    const res = await fetch(
+      `${AGENTMAIL_BASE}/inboxes/${encodeURIComponent(INBOX)}/messages/send`,
+      {
+        method: 'POST',
+        headers: {
+          Authorization: `Bearer ${apiKey}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          to: [INBOX],
+          replyTo: `${name} <${email}>`,
+          subject,
+          html: `
+            <p><strong>From:</strong> ${name}${organization ? ` (${organization})` : ''}</p>
+            <p><strong>Email:</strong> <a href="mailto:${email}">${email}</a></p>
+            <p><strong>Type:</strong> ${inquiryType ?? 'General'}</p>
+            <hr />
+            <p>${message.replace(/\n/g, '<br />')}</p>
+          `,
+          text: `From: ${name}${organization ? ` (${organization})` : ''}\nEmail: ${email}\nType: ${inquiryType ?? 'General'}\n\n${message}`,
+        }),
+      }
+    );
 
-    if (error) {
-      console.error('[Contact Form Resend Error]', error);
+    if (!res.ok) {
+      const err = await res.text();
+      console.error('[AgentMail Error]', res.status, err);
       return NextResponse.json(
         { success: false, message: 'Failed to send. Please email us directly.' },
         { status: 500 }
