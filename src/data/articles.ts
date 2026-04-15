@@ -595,8 +595,8 @@ export const articles: Article[] = [
     author: authors.sofia,
     publishDate: '2026-04-01',
     readingTime: 4,
-    featuredImage: 'https://homecraftsaunas.com/wp-content/uploads/2023/04/homecraft-saunas-timeless-07-scaled.jpg',
-    imageCaption: 'Homecraft sauna heater installation. Photo: Homecraft Saunas.',
+    featuredImage: 'https://homecraftsaunas.com/wp-content/uploads/2024/04/Homecraft-Wall-control-scaled.webp',
+    imageCaption: 'Homecraft TKE2-2 wall-mount sauna controller. Photo: Homecraft Saunas.',
     body: `<p>Homecraft, Canada's oldest sauna heater manufacturer (founded 1988, still family-run out of Surrey, British Columbia), has released the WiFi-enabled version of its TKE2-2 digital controller. It's an upgrade that Homecraft owners have been asking for: the ability to start, stop, and schedule their sauna from a phone.</p>
 
 <h2>What It Does</h2>
@@ -1951,7 +1951,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
     author: authors.sofia,
     publishDate: '2026-04-15',
     readingTime: 9,
-    featuredImage: 'https://homecraftsaunas.com/wp-content/uploads/2023/04/homecraft-saunas-timeless-07-scaled.jpg',
+    featuredImage: 'https://homecraftsaunas.com/wp-content/uploads/2022/03/homecraft_heater_04_web.png',
     imageCaption: 'Homecraft Apex Mini, a compact floor-standing tower heater built for small and medium home saunas. Photo: Homecraft Saunas.',
     body: `<p>Homecraft, the Surrey, BC heater maker that has been quietly supplying a meaningful share of North American residential sauna builds since 1988, is launching the Apex Mini. It is a compact, floor-standing tower heater that slots below the full-size Apex line and ships in three power ratings: 6 kW, 7.5 kW, and 9 kW. The target rooms run roughly 200 to 450 cubic feet, depending on model. The product has been teased on distributor pages for several years, and Homecraft's own store has shown the line as released. US buyers can expect availability through <a href="/article/homecraft-wifi-sauna-controller-launch">Homecraft's existing Canadian and US-facing distribution network</a>.</p>
 
