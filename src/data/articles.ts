@@ -1951,7 +1951,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
     author: authors.sofia,
     publishDate: '2026-04-15',
     readingTime: 9,
-    featuredImage: 'https://homecraftsaunas.com/wp-content/uploads/2022/03/homecraft_heater_04_web.png',
+    featuredImage: 'https://homecraftsaunas.com/wp-content/uploads/2023/01/homecraft-20260313-05-scaled.png',
     imageCaption: 'Homecraft Apex Mini, a compact floor-standing tower heater built for small and medium home saunas. Photo: Homecraft Saunas.',
     body: `<p>Homecraft, the Surrey, BC heater maker that has been quietly supplying a meaningful share of North American residential sauna builds since 1988, is launching the Apex Mini. It is a compact, floor-standing tower heater that slots below the full-size Apex line and ships in three power ratings: 6 kW, 7.5 kW, and 9 kW. The target rooms run roughly 200 to 450 cubic feet, depending on model. The product has been teased on distributor pages for several years, and Homecraft's own store has shown the line as released. US buyers can expect availability through <a href="/article/homecraft-wifi-sauna-controller-launch">Homecraft's existing Canadian and US-facing distribution network</a>.</p>
 
