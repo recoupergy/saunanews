@@ -1,8 +1,41 @@
 'use client';
 
+import { useState } from 'react';
 import EmailLink from '@/components/EmailLink';
 
 export default function ContactPage() {
+  const [form, setForm] = useState({
+    name: '', email: '', organization: '', inquiryType: 'News Submission / Press Release', message: '',
+    website: '', // honeypot — hidden from humans, filled by bots
+  });
+  const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
+  const [errorMsg, setErrorMsg] = useState('');
+
+  const set = (field: string) => (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) =>
+    setForm(prev => ({ ...prev, [field]: e.target.value }));
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    setStatus('sending');
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
+      });
+      const data = await res.json();
+      if (data.success) {
+        setStatus('success');
+      } else {
+        setErrorMsg(data.message ?? 'Something went wrong.');
+        setStatus('error');
+      }
+    } catch {
+      setErrorMsg('Network error — please try again or email us directly.');
+      setStatus('error');
+    }
+  }
+
   const inquiryTypes = [
     {
       title: 'Submit News or Announcements',
@@ -85,79 +118,122 @@ export default function ContactPage() {
           <h2 className="font-editorial text-2xl font-bold text-charcoal dark:text-cream mb-8">
             Send Us a Message
           </h2>
-          <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+
+          {status === 'success' ? (
+            <div className="p-8 bg-green/10 dark:bg-green/20 border border-green/30 rounded-xl text-center">
+              <svg className="w-10 h-10 text-green mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <p className="font-editorial text-lg font-semibold text-charcoal dark:text-cream mb-2">Message sent.</p>
+              <p className="text-sm text-stone-dark dark:text-dark-muted">We read everything and will be in touch shortly.</p>
+            </div>
+          ) : (
+            <form className="space-y-6" onSubmit={handleSubmit}>
+              {/* Honeypot — hidden from real users */}
+              <input
+                type="text"
+                name="website"
+                value={form.website}
+                onChange={set('website')}
+                tabIndex={-1}
+                autoComplete="off"
+                aria-hidden
+                style={{ position: 'absolute', left: '-9999px', opacity: 0, pointerEvents: 'none' }}
+              />
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div>
+                  <label className="block text-sm font-medium text-charcoal dark:text-dark-text mb-2">
+                    Name <span className="text-red-500">*</span>
+                  </label>
+                  <input
+                    type="text"
+                    required
+                    value={form.name}
+                    onChange={set('name')}
+                    className="w-full px-4 py-3 bg-surface dark:bg-dark-surface border border-border dark:border-dark-border rounded-lg text-sm focus:outline-none focus:border-green dark:focus:border-brass focus:ring-1 focus:ring-green dark:focus:ring-brass"
+                    placeholder="Your name"
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-charcoal dark:text-dark-text mb-2">
+                    Email <span className="text-red-500">*</span>
+                  </label>
+                  <input
+                    type="email"
+                    required
+                    value={form.email}
+                    onChange={set('email')}
+                    className="w-full px-4 py-3 bg-surface dark:bg-dark-surface border border-border dark:border-dark-border rounded-lg text-sm focus:outline-none focus:border-green dark:focus:border-brass focus:ring-1 focus:ring-green dark:focus:ring-brass"
+                    placeholder="your@email.com"
+                  />
+                </div>
+              </div>
+
               <div>
                 <label className="block text-sm font-medium text-charcoal dark:text-dark-text mb-2">
-                  Name
+                  Organization
                 </label>
                 <input
                   type="text"
+                  value={form.organization}
+                  onChange={set('organization')}
                   className="w-full px-4 py-3 bg-surface dark:bg-dark-surface border border-border dark:border-dark-border rounded-lg text-sm focus:outline-none focus:border-green dark:focus:border-brass focus:ring-1 focus:ring-green dark:focus:ring-brass"
-                  placeholder="Your name"
+                  placeholder="Company or organization (optional)"
                 />
               </div>
+
               <div>
                 <label className="block text-sm font-medium text-charcoal dark:text-dark-text mb-2">
-                  Email
+                  Type of Inquiry
                 </label>
-                <input
-                  type="email"
-                  className="w-full px-4 py-3 bg-surface dark:bg-dark-surface border border-border dark:border-dark-border rounded-lg text-sm focus:outline-none focus:border-green dark:focus:border-brass focus:ring-1 focus:ring-green dark:focus:ring-brass"
-                  placeholder="your@email.com"
+                <select
+                  value={form.inquiryType}
+                  onChange={set('inquiryType')}
+                  className="w-full px-4 py-3 bg-surface dark:bg-dark-surface border border-border dark:border-dark-border rounded-lg text-sm focus:outline-none focus:border-green dark:focus:border-brass"
+                >
+                  <option>News Submission / Press Release</option>
+                  <option>Story Tip or Idea</option>
+                  <option>Sponsorship / Advertising</option>
+                  <option>Partnership Inquiry</option>
+                  <option>General Feedback</option>
+                  <option>Other</option>
+                </select>
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-charcoal dark:text-dark-text mb-2">
+                  Message <span className="text-red-500">*</span>
+                </label>
+                <textarea
+                  rows={6}
+                  required
+                  value={form.message}
+                  onChange={set('message')}
+                  className="w-full px-4 py-3 bg-surface dark:bg-dark-surface border border-border dark:border-dark-border rounded-lg text-sm focus:outline-none focus:border-green dark:focus:border-brass focus:ring-1 focus:ring-green dark:focus:ring-brass resize-none"
+                  placeholder="Tell us what you're reaching out about..."
                 />
               </div>
-            </div>
 
-            <div>
-              <label className="block text-sm font-medium text-charcoal dark:text-dark-text mb-2">
-                Organization
-              </label>
-              <input
-                type="text"
-                className="w-full px-4 py-3 bg-surface dark:bg-dark-surface border border-border dark:border-dark-border rounded-lg text-sm focus:outline-none focus:border-green dark:focus:border-brass focus:ring-1 focus:ring-green dark:focus:ring-brass"
-                placeholder="Company or organization (optional)"
-              />
-            </div>
+              {status === 'error' && (
+                <p className="text-sm text-red-500">{errorMsg}</p>
+              )}
 
-            <div>
-              <label className="block text-sm font-medium text-charcoal dark:text-dark-text mb-2">
-                Type of Inquiry
-              </label>
-              <select className="w-full px-4 py-3 bg-surface dark:bg-dark-surface border border-border dark:border-dark-border rounded-lg text-sm focus:outline-none focus:border-green dark:focus:border-brass">
-                <option>News Submission / Press Release</option>
-                <option>Story Tip or Idea</option>
-                <option>Sponsorship / Advertising</option>
-                <option>Partnership Inquiry</option>
-                <option>General Feedback</option>
-                <option>Other</option>
-              </select>
-            </div>
-
-            <div>
-              <label className="block text-sm font-medium text-charcoal dark:text-dark-text mb-2">
-                Message
-              </label>
-              <textarea
-                rows={6}
-                className="w-full px-4 py-3 bg-surface dark:bg-dark-surface border border-border dark:border-dark-border rounded-lg text-sm focus:outline-none focus:border-green dark:focus:border-brass focus:ring-1 focus:ring-green dark:focus:ring-brass resize-none"
-                placeholder="Tell us what you're reaching out about..."
-              />
-            </div>
-
-            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-              <button
-                type="submit"
-                className="px-8 py-3 bg-charcoal dark:bg-cream text-cream dark:text-charcoal text-sm font-semibold rounded-lg hover:bg-slate dark:hover:bg-ivory transition-colors"
-              >
-                Send Message
-              </button>
-              <span className="text-sm text-stone-dark dark:text-dark-muted">
-                or email us directly at{' '}
-                <EmailLink className="text-green dark:text-brass hover:underline font-medium" />
-              </span>
-            </div>
-          </form>
+              <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <button
+                  type="submit"
+                  disabled={status === 'sending'}
+                  className="px-8 py-3 bg-charcoal dark:bg-cream text-cream dark:text-charcoal text-sm font-semibold rounded-lg hover:bg-slate dark:hover:bg-ivory transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  {status === 'sending' ? 'Sending…' : 'Send Message'}
+                </button>
+                <span className="text-sm text-stone-dark dark:text-dark-muted">
+                  or email us directly at{' '}
+                  <EmailLink className="text-green dark:text-brass hover:underline font-medium" />
+                </span>
+              </div>
+            </form>
+          )}
         </div>
       </section>
 
