@@ -12,11 +12,14 @@ export default function Footer() {
         <div className="py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <Link href="/" className="flex items-center gap-1.5 mb-4">
-              <svg width="16" height="22" viewBox="0 0 20 28" className="shrink-0">
-                <path d="M10,0 C4,9 0,15 0,19 C0,25 4,28 10,28 C16,28 20,25 20,19 C20,15 16,9 10,0Z" fill="#FAF8F5" fillOpacity="0.7"/>
-                <path d="M11,12 C8,16 6,18 6,21 C6,25 8,26.5 10.5,26.5 C13,26.5 14.5,24 14.5,21 C14.5,18 13,16 11,12Z" fill="#2C2C2C"/>
-              </svg>
+            <Link href="/" className="flex items-center gap-2 mb-4">
+              <img
+                src="/images/saunanews-punk-profile.jpg"
+                alt="SaunaNews"
+                width={32}
+                height={32}
+                className="shrink-0 invert"
+              />
               <span className="font-editorial text-xl font-bold tracking-tight leading-none">
                 <span className="text-cream">Sauna</span><span className="text-brass">News</span>
               </span>
