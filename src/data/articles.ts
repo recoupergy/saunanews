@@ -4,106 +4,88 @@ import { authors } from './authors';
 export const articles: Article[] = [
   {
     id: '44',
-    title: 'An ER Nurse and a Grilled Cheese King Built the White Mountains\' First Public Sauna',
+    title: 'Après-Ski Is Getting a Sauna Upgrade in America\'s Best Ski Town',
     slug: 'white-mountain-sauna-haus-north-conway-apres-ski',
-    dek: 'White Mountain Sauna Haus opened in January 2026 in an 1890s barn in North Conway, NH, turning America\'s best ski town into a proving ground for the après-ski sauna model.',
-    excerpt: 'In a renovated barn steps from Cathedral Ledge, two local entrepreneurs built the Mount Washington Valley\'s first public sauna. No reservations. No phones. Walk-in only, 24 guests at a time. And it is hitting capacity almost every Saturday.',
+    dek: 'A walk-in communal sauna just opened in North Conway, NH, and it is already hitting capacity on Saturdays. White Mountain Sauna Haus is what happens when après-ski culture meets real Finnish heat.',
+    excerpt: 'North Conway has been named America\'s best ski town five times. It now has a communal sauna to match: two wood-fired rooms running a Harvia 50, three cold plunges, a Nordic cafe, and a Faraday cage that kills your phone signal. Walk-in only, $36, no reservations.',
     contentType: 'Analysis',
     category: 'Hospitality & Spa',
-    tags: ['social sauna', 'après-ski', 'cold plunge', 'New Hampshire', 'North Conway', 'White Mountains', 'community sauna', 'IKI', 'Harvia'],
+    tags: ['social sauna', 'après-ski', 'cold plunge', 'New Hampshire', 'North Conway', 'White Mountains', 'community sauna', 'Harvia'],
     author: authors.anna,
-    publishDate: '2026-04-15',
-    readingTime: 10,
+    publishDate: '2026-04-16',
+    readingTime: 8,
     featuredImage: 'https://static.wixstatic.com/media/a47480_4454b7de921a4755994365106086237b~mv2.jpg/v1/fit/w_1200,h_800,q_90/file.jpg',
     imageCaption: 'Guests hit the cold plunge at White Mountain Sauna Haus in North Conway, NH. The renovated 1890s barn is visible behind them. Photo: White Mountain Sauna Haus.',
-    body: `<p>North Conway, New Hampshire, has been named America's best ski town five times since 2016. It is the gateway to 12 alpine resorts, 335 trails, and 280 miles of groomed cross-country terrain. Over four million people visit the Mount Washington Valley every year. And until January 2026, there was not a single public sauna anywhere in the valley.</p>
+    body: `<p>North Conway, New Hampshire, has been named America's best ski town five times since 2016. It is the gateway to 12 alpine resorts, 335 trails, and 280 miles of groomed cross-country terrain. Over four million people visit the Mount Washington Valley every year. Until January 2026, there was not a single public sauna anywhere in the valley.</p>
 
-<p>White Mountain Sauna Haus changed that. Levi Lucy, a former emergency room nurse who picked up carpentry between hospital shifts, and Bryce Harrison, the co-founder of Cheese Louise and the SBA's 2024 Young Entrepreneur of the Year for New Hampshire and all of New England, opened the doors of a renovated 1890s barn at 3358 White Mountain Highway in January 2026. The concept is simple: two traditional Finnish dry saunas, three cold plunge pools, a 1,000-square-foot outdoor deck with views of Cathedral Ledge, and a Nordic-inspired cafe. Walk-in only. First come, first served. No phones allowed inside the hot rooms.</p>
+<p>White Mountain Sauna Haus fixed that. Two traditional Finnish dry saunas, three cold plunge pools, a 1,000-square-foot outdoor deck with views of Cathedral Ledge, and a Nordic cafe, all inside a renovated 1890s barn at 3358 White Mountain Highway. Walk-in only. First come, first served. No phones allowed inside the hot rooms. It is hitting capacity almost every Saturday.</p>
 
-<p>It is hitting capacity almost every Saturday.</p>
+<p>This is what happens when après-ski culture finally catches up to what the rest of the wellness industry already knows: people want to recover, not just drink.</p>
 
-<h2>The Après-Ski Problem</h2>
+<h2>Après-Ski Was Overdue for an Upgrade</h2>
 
-<p>For decades, après-ski in North Conway meant the same thing it meant in every other ski town in America: loud bars, cheap beer, heavy pub food, and a hangover that ruins your second ski day. The formula worked when the ski market skewed toward frat-house energy and nobody talked about recovery protocols. That market has changed.</p>
+<p>For decades, après-ski in North Conway meant the same thing it meant in every other American ski town: loud bars, cheap beer, heavy pub food, and a hangover that ruins your second ski day. That formula worked when the ski market skewed frat-house and nobody talked about recovery. The market has changed.</p>
 
-<p>The après-ski and nightlife segment is now the fastest-growing category in the mountain resort market, expanding at an 11.3% compound annual growth rate through 2033. But the growth is not coming from bars. It is coming from thermal wellness, contrast therapy, and communal social spaces that offer something besides another round of IPAs. <a href="/article/bathhouse-120m-revenue-social-sauna">Bathhouse in New York</a> is approaching $120 million in run-rate revenue. Othership raised $11.3 million to push into Manhattan. <a href="/article/sauna-house-franchise-nordic-bathhouse-growth">Sauna House</a> just landed on the Inc. 5000 with 276% two-year revenue growth and a franchise pipeline stretching from Asheville to Austin.</p>
+<p>The après-ski and nightlife segment is now the fastest-growing category in the mountain resort market, expanding at an 11.3% compound annual growth rate through 2033. The growth is not coming from bars. It is coming from thermal wellness, contrast therapy, and communal social spaces. <a href="/article/bathhouse-120m-revenue-social-sauna">Bathhouse in New York</a> is approaching $120 million in run-rate revenue. <a href="/article/sauna-house-franchise-nordic-bathhouse-growth">Sauna House</a> just landed on the Inc. 5000 with 276% two-year revenue growth. Othership raised $11.3 million to push into Manhattan.</p>
 
-<p>White Mountain Sauna Haus is not trying to be any of those. It is smaller, scrappier, and deliberately local. And that might be exactly what the next phase of the social sauna movement needs.</p>
+<p>But those are big-city plays. The real gap is in ski towns, where millions of visitors a year come to beat themselves up on the mountain and then have nowhere to recover except a hotel hot tub. White Mountain Sauna Haus is the first real attempt to fill that gap in one of the busiest ski corridors on the East Coast.</p>
 
-<h2>Two Founders, One Barn</h2>
+<h2>Walk In, Warm Up, No Hassle</h2>
 
-<p>Lucy came to the sauna business sideways. He was working night shifts in the emergency room while doing carpentry work during the day. At some point, the idea of building a mobile sauna for rent under the brand Elemental Saunas went from a side project to a real business. The trailers found an audience in the White Mountains outdoor community, showing up at backcountry ski events and cross-country festivals. People kept asking where they could get the experience without booking a trailer.</p>
+<p>The first thing you notice about White Mountain Sauna Haus is how approachable the whole experience is. Their website does not bury the basics behind lifestyle photography and vague wellness language. Hours, pricing, what to expect, how it works: it is all right there, written plainly. That matters in a category where a lot of social sauna brands make the experience feel exclusive or intimidating to newcomers. This one does not.</p>
 
-<p>Harrison noticed. The two started saunaing together, and the conversation about opening a permanent location became serious. Harrison brought operational chops from Cheese Louise, which he co-founded in 2018 with high school friends Ian Lubkin and James Gaudreault. The business started as a food truck and grew into brick-and-mortar locations in North Conway, Portland (Maine), Portsmouth, and Boston. They nearly tripled sales between 2020 and 2021, during the pandemic, which tells you something about how Harrison thinks about market timing.</p>
+<p>The on-site experience matches. You show up, pay $36, grab a towel and complimentary flip-flops, stash your phone in a cubby, and walk in. No reservations. No app. No booking system. Capacity is capped at 24 guests. When it fills, you wait. The average visit runs about 90 minutes, but there is no formal time limit. It is designed to feel like something you do on a whim after a ski day, not something you plan a week in advance.</p>
 
-<p>The barn they found sits on the campus of The Local Grocer, a natural foods store, right next to Cathedral Ledge Distillery. The 1890s structure needed a full renovation, but the bones were right: thick timber framing, high ceilings, the kind of character you cannot build new. Harrison bakes the bread for the Sauna Haus cafe himself. Lucy built the saunas.</p>
+<p>That low barrier to entry is a deliberate choice by co-founders Levi Lucy and Bryce Harrison, two North Conway locals who renovated the barn and opened the doors in January 2026. The whole operation runs on the premise that if you make the experience easy and the price reasonable, ski tourists and locals will show up. They were right.</p>
 
-<h2>The Setup</h2>
+<h2>The Heat: Harvia 50 Wood-Burning</h2>
 
-<p>The facility runs two traditional Finnish dry saunas. The larger room holds up to 20 people; the smaller room fits 12. Both run on wood-lined tiered benches with temperatures between 175 and 205 degrees Fahrenheit. Water goes on stones. Steam fills the room. That is the whole idea.</p>
+<p>The facility runs two traditional Finnish dry saunas. The larger room holds up to 20 people; the smaller fits 12. Both run on tiered benches with temperatures between 175 and 205 degrees Fahrenheit. Water goes on stones. Steam fills the room.</p>
 
-<p>Three cold plunge pools sit between 40 and 50 degrees. The 1,000-square-foot outdoor deck, with direct sightlines to Cathedral Ledge and White Horse Ledge, is where most of the socializing happens between rounds. There is also a community fire pit, shower facilities, storage cubbies, complimentary flip-flops, and towel rentals.</p>
+<p>The heater is a <a href="/article/harvia-record-q1-revenue-thermasol-integration">Harvia</a> 50, the Finnish manufacturer's largest wood-burning stove. That is not a token piece of equipment. The Harvia 50 is built for commercial-scale rooms and carries a serious stone load, which is why the loyly at White Mountain Sauna Haus hits different than a hotel steam room running a small wall-mounted electric unit. Wood-fired heat, big stones, real steam. The kind of sauna experience that Finnish visitors have told the owners feels legitimate.</p>
 
-<p>Total capacity is 24 guests at a time. When it fills up, you wait. There are no reservations, no online bookings, no app. This is deliberate. Lucy and Harrison want the experience to feel spontaneous, not transactional. The average visit runs about 90 minutes.</p>
+<p>Three cold plunge pools sit between 40 and 50 degrees. The 1,000-square-foot outdoor deck, with direct sightlines to Cathedral Ledge and White Horse Ledge, is where most of the socializing happens between rounds. Fire pit, mountain views, cold air on wet skin. It is a strong après-ski pitch.</p>
 
-<p>The heater setup is a dual-brand strategy that sauna nerds will appreciate. The public venue runs IKI wood-burning stoves, the Finnish manufacturer known for massive stone loads. The IKI Original is rated for rooms up to 882 cubic feet and carries roughly 485 pounds of stone, which is why the loyly at White Mountain Sauna Haus hits different than a hotel steam room with a wall-mounted unit. For custom indoor and electric builds, the company uses <a href="/article/harvia-record-q1-revenue-thermasol-integration">Harvia</a> Spirit series heaters with Xenio WiFi controls. The mobile rental trailers run Mini IKI Pro wood-fired stoves that push 220 degrees in about 45 minutes, though staff recommends guests stay in the 160-to-180-degree range.</p>
+<h2>The Faraday Cage</h2>
 
-<h2>The Faraday Cage Trick</h2>
+<p>The vapor barrier that seals the sauna rooms from moisture also doubles as a Faraday cage, blocking cell phone, Wi-Fi, and Bluetooth signals. Phones do not work inside the hot rooms. Not because of a sign on the wall, but because the laws of physics will not let them connect.</p>
 
-<p>Here is the detail that keeps coming up in every conversation about White Mountain Sauna Haus: the vapor barrier doubles as a Faraday cage. The material used to seal the sauna rooms from moisture also blocks cell phone, Wi-Fi, and Bluetooth signals. Phones do not work inside the hot rooms. Not because there is a sign on the wall asking you to put them away, but because the laws of physics will not let them connect.</p>
+<p>This was intentional. The effect is that guests enter a space where the only option is to talk to the person sitting next to you, or sit in silence. In a world where every wellness brand is begging customers to disconnect, White Mountain Sauna Haus made it a construction choice, not a policy choice. You cannot cheat. The building will not let you.</p>
 
-<p>This is not an accident. Lucy designed the barrier knowing it would kill wireless signals. The effect is that guests put their phones in a cubby and enter a space where the only option is to talk to the person sitting next to you, or sit in silence. In a world where every other wellness brand is begging customers to disconnect, White Mountain Sauna Haus made it a construction choice, not a policy choice. You cannot cheat. The building will not let you.</p>
+<h2>Pricing and the Ski-Town Math</h2>
 
-<p>It is the smartest design decision in the entire project.</p>
-
-<h2>The Numbers</h2>
-
-<p>White Mountain Sauna Haus is a private company and does not disclose revenue. But the pricing structure and capacity metrics tell a clear story.</p>
-
-<p>Walk-in admission runs between $25 and $36 (sources cite both figures at different points, likely reflecting an early introductory rate and a current standard rate). Punch cards sell at $154 for five visits and $286 for ten. The unlimited monthly membership is $199, which gets as low as $10 per visit for heavy users. The punch cards are physical, never expire, and can be shared with friends. Two punches can be used per visit. Old school.</p>
-
-<p>They also run discounted weekly community sessions that build repeat traffic: Mellow Monday at $20, Funky Friday Nights at $25, and Locals Lazy Sunday at $20. Members get these sessions free. That tiered pricing structure, from $20 community nights to $199 monthly unlimited, creates multiple entry points and pushes locals toward membership conversion.</p>
+<p>Walk-in admission is $36. Punch cards sell at $154 for five visits and $286 for ten. Monthly unlimited is $199. They also run discounted weekly community sessions: Mellow Monday at $20, Funky Friday Nights at $25, and Locals Lazy Sunday at $20. Members get these free. Physical punch cards, never expire, shareable with friends. Old school.</p>
 
 <div class="callout">
-<strong>Pricing snapshot:</strong> Walk-in: $36. Weekly community sessions: $20-$25. 5-punch card: $154 ($30.80/visit). 10-punch card: $286 ($28.60/visit). Unlimited monthly: $199. Mobile sauna tent rental: from $100. Mobile trailer rental: $325/night. Event vendor fee: starts at $600.
+<strong>Pricing snapshot:</strong> Walk-in: $36. Weekly community sessions: $20-$25. 5-punch card: $154 ($30.80/visit). 10-punch card: $286 ($28.60/visit). Unlimited monthly: $199.
 </div>
 
-<p>At 24 guests per session and operating hours of noon to 9 PM on weekdays and 10 AM to 9 PM on weekends (closed Tuesdays and Wednesdays), the facility can cycle through meaningful volume. A capacity model using the company's own published operating parameters, a 90-minute average visit, and a blended admission yield around $27 to $30 per guest-visit (reflecting the mix of full-price walk-ins, discounted sessions, and membership passes) suggests annualized venue revenue potential in the range of $650,000 to $750,000 at moderate utilization, before mobile rentals, events, and custom-build work. That is not a disclosed figure; it is back-of-envelope math from their own published hours and pricing. But it puts the business squarely in the zone where a well-run independent sauna venue can sustain itself without outside capital.</p>
+<p>That tiered structure, from $20 community nights to $199 unlimited, creates multiple entry points. Tourists pay the walk-in rate after a ski day. Locals convert to punch cards or memberships. The $199 unlimited gets as low as $10 per visit for heavy users, which is aggressive enough to build a daily habit.</p>
 
-<p>The Nordic cafe adds a second revenue layer. The menu leans Scandinavian: sauna stew bowls, salmon and egg toast, an avocado smorbrod, and, because Harrison is who he is, grilled cheese with bread he bakes himself. Drink options include Tuckerman's Pale Ale (the local favorite), Allagash, Athletic Brewing non-alcoholic beer, Salt of the Earth electrolytes, Spindrift, and Frontside Grind locally roasted coffee. The alcohol list exists but does not dominate. That is intentional. Recovery, not revelry.</p>
+<p>The Nordic cafe adds a second revenue layer. Sauna stew bowls, salmon and egg toast, grilled cheese (co-founder Harrison runs a local restaurant chain called Cheese Louise and bakes the bread himself), Tuckerman's Pale Ale, Athletic Brewing non-alcoholic beer, Frontside Grind locally roasted coffee. The alcohol list exists but does not dominate. Recovery, not revelry.</p>
 
-<p>Mobile sauna rentals continue under the original Elemental Saunas brand, which is where the whole thing started before Lucy and Harrison rebranded and expanded into the barn. Tent rentals start at $100. Overnight trailer rentals run $325. Event vendor fees start at $600. The company also does custom sauna builds for homes and small commercial spaces, using Harvia Spirit electric heaters for indoor installs and IKI wood-fired units for larger projects. They have already sold at least one custom-built mobile unit for $12,500 to a buyer in the Bronx. That is not a one-time accident; it is a builder-operator hybrid model with multiple revenue lines.</p>
+<p>Back-of-envelope math using the company's published hours (49 hours per week across five operating days), 90-minute average visits, 24-person capacity, and a blended admission yield around $27 to $30 per guest-visit suggests annualized venue revenue potential in the $650,000 to $750,000 range at moderate utilization, before cafe sales. That is not a disclosed figure. But it puts the business in the zone where a well-run independent sauna venue can sustain itself without outside capital.</p>
 
-<h2>Embedding in the Ski Ecosystem</h2>
+<h2>Wired into the Mountain</h2>
 
-<p>Harrison and Lucy have not just opened a sauna and hoped the ski crowd would find it. They have systematically wired the business into the Mount Washington Valley tourism infrastructure.</p>
+<p>The founders have not just opened a sauna and hoped the ski crowd would find it. They have systematically embedded the business into the Mount Washington Valley tourism infrastructure.</p>
 
-<p>The Eastern Slope Inn Resort, a historic property with a vacation ownership network, now actively promotes the Sauna Haus to its guests as a post-mountain recovery destination. That is a direct pipeline of affluent out-of-town skiers who are already spending money on lodging and looking for things to do after the lifts close.</p>
+<p>The Eastern Slope Inn Resort now actively promotes the Sauna Haus to its vacation ownership network and daily guests as a post-mountain recovery destination. During the 2025-2026 ski season, White Mountain Sauna Haus became an official stop on the Mt. Washington Valley cross-country ski touring network. Skiers literally ski to the barn along groomed trails.</p>
 
-<p>During the 2025-2026 ski season, White Mountain Sauna Haus became an official stop on the Mt. Washington Valley cross-country ski touring network. Skiers literally ski to the barn along groomed trails. For the 2026 Winter Fest, they brought a wood-fired sauna tent to Chocorua Lake for a cold-water dip organized by the Tamworth Otters.</p>
+<p>They sponsor the Women's Uphill Bash and Chicks on Cliffs, offering sauna passes as prizes to skiers and hikers. For the 2026 Winter Fest, they brought a wood-fired sauna tent to Chocorua Lake for a cold-water dip. They have partnered with Visit NH for "mud season" restorative packages, which is how a seasonal business stays alive when the snow melts.</p>
 
-<p>They sponsor the Women's Uphill Bash and Chicks on Cliffs, offering sauna passes as prizes to skiers and hikers. Corporate memberships and private group retreats round out the B2B side. And they have already partnered with Visit NH, the state tourism board, to be featured in "mud season" restorative packages, which is how you stay alive when the snow melts and the ski tourists go home.</p>
+<p>The campus itself helps. The barn sits next to The Local Grocer (a natural foods store) and Cathedral Ledge Distillery. Visitors are creating their own hybrid après routines: sweat at the Haus, grab a smoothie or local spirits next door. The location does half the marketing work.</p>
 
-<h2>Only the Second Public Sauna in New Hampshire</h2>
+<h2>A $1.6 Billion Winter Economy Had Zero Saunas</h2>
 
-<p>This is the part that should surprise anyone paying attention to the social sauna boom: New Hampshire, a state that gets four million-plus visitors to the Mount Washington Valley alone and ranks sixth nationally for winter outdoor economic impact, had exactly one public sauna facility before White Mountain Sauna Haus opened. That facility is Banya, in Portsmouth, nearly three hours southeast.</p>
+<p>Here is the number that should surprise anyone in the industry: New Hampshire's winter tourism economy generates $1.6 billion in annual spending. The ski industry alone drives $384 million in direct and indirect visitor spending and supports 70,000 jobs statewide. Tourism is the state's second-largest revenue-generating industry. The Mount Washington Valley alone draws four million visitors a year.</p>
 
-<p>New Hampshire's winter tourism economy generates $1.6 billion in annual spending. The ski industry alone drives $384 million in direct and indirect visitor spending and supports 70,000 jobs statewide. Tourism is the state's second-largest revenue-generating industry. And yet the thermal wellness infrastructure serving all of that activity was, until three months ago, functionally zero in the state's most popular ski region.</p>
+<p>And until three months ago, the thermal wellness infrastructure serving all of that was functionally zero. The only other public sauna in New Hampshire is Banya, in Portsmouth, nearly three hours southeast. The demand was already there, bundled into every lift ticket sold at Cranmore, Attitash, Wildcat, and Bretton Woods. White Mountain Sauna Haus just gave it somewhere to go.</p>
 
-<p>Lucy and Harrison did not need to create demand. The demand was already there, bundled into every lift ticket sold at Cranmore, Attitash, Wildcat, and Bretton Woods. They just needed to give it somewhere to go.</p>
-
-<h2>What the Industry Should Take From This</h2>
-
-<p>White Mountain Sauna Haus is not a venture-backed wellness concept. It is not franchising. It is not chasing a Series B. It is two guys who renovated a barn, built saunas with their own hands, and opened the doors in the middle of a New Hampshire winter.</p>
-
-<p>And it works. The visitors come from across New England and beyond. International guests from Finland, Sweden, Norway, and Russia have walked through the door and told Lucy the experience is legitimate. The most common reaction, Lucy says, is how good people feel afterward.</p>
-
-<p>The playbook is transferable. Ski towns across the American West and Northeast sit on the same untapped opportunity: millions of visitors a year who want to recover after a day on the mountain, and nowhere to do it besides a hotel hot tub or a noisy bar. The startup cost is not $3.8 million like a <a href="/article/sauna-house-franchise-nordic-bathhouse-growth">Sauna House franchise build-out</a>. It is a barn, two saunas, three cold plunges, a cafe, and the willingness to open your doors at 10 AM on a Saturday and let people walk in.</p>
-
-<p><a href="/article/cold-plunge-market-380m-new-sauna-buyers">The cold plunge market is at $380 million globally</a> and growing at 8.1% annually, with North America claiming nearly 39% of it. The global sauna equipment market hit $954 million in 2025 and is on pace for $1.6 billion by 2033. The thermal wellness infrastructure in American ski towns has not caught up to the demand those numbers represent. White Mountain Sauna Haus is early to what should become a wave.</p>
+<p><a href="/article/cold-plunge-market-380m-new-sauna-buyers">The cold plunge market is at $380 million globally</a> and growing at 8.1% annually. The global sauna equipment market hit $954 million in 2025 and is on pace for $1.6 billion by 2033. The thermal wellness infrastructure in American ski towns has not caught up to what those numbers represent. White Mountain Sauna Haus is early to what should become a wave.</p>
 
 <div class="bottom-line">
-<p>White Mountain Sauna Haus is proof that you do not need venture capital, a franchise system, or a luxury real estate footprint to build a viable social sauna business. You need a location where people already go to be active outdoors, a low barrier to entry, a community-first operating model, and the discipline to enforce the things that make the experience work: no phones, no reservations, walk in and sit down. North Conway's best ski town status just got a sauna to match. The rest of ski country should be taking notes.</p>
+<p>Ski towns across the American West and Northeast sit on the same untapped opportunity. Millions of visitors a year who want to recover after a day on the mountain, and nowhere to do it besides a hotel hot tub or a noisy bar. The startup cost is not $3.8 million like a <a href="/article/sauna-house-franchise-nordic-bathhouse-growth">Sauna House franchise build-out</a>. It is a barn, a Harvia 50, three cold plunges, a cafe, and the willingness to open your doors at 10 AM on a Saturday and let people walk in. North Conway's best ski town status just got a sauna to match. The rest of ski country should be taking notes.</p>
 </div>`,
     featured: true,
     trending: true,
