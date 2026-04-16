@@ -75,7 +75,7 @@ export default function Header() {
               alt="SaunaNews"
               width={36}
               height={36}
-              className="shrink-0"
+              className="shrink-0 mix-blend-multiply"
               priority
             />
             <span className="font-editorial text-xl font-bold tracking-tight leading-none">

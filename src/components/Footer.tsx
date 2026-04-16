@@ -18,7 +18,7 @@ export default function Footer() {
                 alt="SaunaNews"
                 width={32}
                 height={32}
-                className="shrink-0 invert"
+                className="shrink-0 invert mix-blend-screen"
               />
               <span className="font-editorial text-xl font-bold tracking-tight leading-none">
                 <span className="text-cream">Sauna</span><span className="text-brass">News</span>
