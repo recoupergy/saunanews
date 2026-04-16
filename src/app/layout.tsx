@@ -74,8 +74,8 @@ export const metadata: Metadata = {
     description: siteDescription,
   },
   icons: {
-    icon: '/favicon.svg',
-    apple: '/icon.svg',
+    icon: '/favicon.png',
+    apple: '/apple-icon.png',
   },
 };
 
