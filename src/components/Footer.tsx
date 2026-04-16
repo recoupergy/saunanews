@@ -6,23 +6,26 @@ import EmailLink from '@/components/EmailLink';
 
 export default function Footer() {
   return (
-    <footer className="bg-charcoal text-cream/80 mt-auto">
+    <footer className="bg-charcoal text-cream/80 mt-auto border-t-4 border-green">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main footer */}
         <div className="py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <Link href="/" className="flex items-center gap-1.5 mb-4">
-              <svg width="16" height="22" viewBox="0 0 20 28" className="shrink-0">
-                <path d="M10,0 C4,9 0,15 0,19 C0,25 4,28 10,28 C16,28 20,25 20,19 C20,15 16,9 10,0Z" fill="#FAF8F5" fillOpacity="0.7"/>
-                <path d="M11,12 C8,16 6,18 6,21 C6,25 8,26.5 10.5,26.5 C13,26.5 14.5,24 14.5,21 C14.5,18 13,16 11,12Z" fill="#2C2C2C"/>
-              </svg>
-              <span className="font-editorial text-xl font-bold tracking-tight leading-none">
-                <span className="text-cream">Sauna</span><span className="text-brass">News</span>
+            <Link href="/" className="flex items-center gap-2 mb-4">
+              <img
+                src="/images/saunanews-punk-profile.jpg"
+                alt="SaunaNews"
+                width={32}
+                height={32}
+                className="shrink-0 invert"
+              />
+              <span className="font-editorial text-xl font-black tracking-tight leading-none uppercase">
+                <span className="text-cream">Sauna</span><span className="text-green">News</span>
               </span>
             </Link>
             <p className="text-sm text-cream/60 leading-relaxed mb-4">
-              The business and culture of sauna, covered well. Independent editorial coverage of the companies, products, and trends shaping the sauna industry.
+              Independent, loud, and honest coverage of the companies, products, and people shaping the sauna industry.
             </p>
             <EmailLink className="text-sm text-brass hover:text-copper transition-colors mb-6 block" />
             <div className="flex items-center gap-4">
@@ -108,7 +111,7 @@ export default function Footer() {
                 placeholder="Your email"
                 className="flex-1 px-3 py-2 bg-cream/10 border border-cream/20 rounded text-sm text-cream placeholder-cream/30 focus:outline-none focus:border-brass"
               />
-              <button className="px-4 py-2 bg-brass text-charcoal text-sm font-medium rounded hover:bg-copper transition-colors">
+              <button className="px-4 py-2 bg-green text-white text-sm font-black uppercase tracking-wider rounded-none hover:bg-green-light transition-colors">
                 Join
               </button>
             </form>

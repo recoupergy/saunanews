@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import { categories } from '@/data/categories';
 
@@ -48,15 +49,15 @@ export default function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-50 bg-cream/95 backdrop-blur-md border-b border-border">
+    <header className="sticky top-0 z-50 bg-cream/95 backdrop-blur-md border-b-2 border-charcoal">
       {/* Top utility bar */}
-      <div className="border-b border-border">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-8 text-xs text-stone-dark">
-          <span className="hidden sm:block tracking-wide uppercase">
-            The Sauna Industry&apos;s Record of Note
+      <div className="bg-charcoal">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-8 text-xs text-cream/80">
+          <span className="hidden sm:block tracking-[0.15em] uppercase font-bold">
+            Independent, loud, and honest sauna industry coverage.
           </span>
           <div className="flex items-center gap-4 ml-auto">
-            <Link href="/newsletter" className="hover:text-green transition-colors">
+            <Link href="/newsletter" className="hover:text-green transition-colors font-bold uppercase tracking-wider">
               Subscribe
             </Link>
 
@@ -68,12 +69,16 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-1.5 group">
-            <svg width="16" height="22" viewBox="0 0 20 28" className="shrink-0">
-              <path d="M10,0 C4,9 0,15 0,19 C0,25 4,28 10,28 C16,28 20,25 20,19 C20,15 16,9 10,0Z" fill="#4A6741"/>
-              <path d="M11,12 C8,16 6,18 6,21 C6,25 8,26.5 10.5,26.5 C13,26.5 14.5,24 14.5,21 C14.5,18 13,16 11,12Z" fill="#FAF8F5"/>
-            </svg>
-            <span className="font-editorial text-xl font-bold tracking-tight leading-none">
+          <Link href="/" className="flex items-center gap-2 group">
+            <Image
+              src="/images/saunanews-punk-profile.jpg"
+              alt="SaunaNews punk mascot"
+              width={36}
+              height={36}
+              className="shrink-0 rounded-none"
+              priority
+            />
+            <span className="font-editorial text-xl font-black tracking-tight leading-none uppercase">
               <span className="text-charcoal">Sauna</span><span className="text-green">News</span>
             </span>
           </Link>
@@ -136,7 +141,7 @@ export default function Header() {
             </button>
             <Link
               href="/newsletter"
-              className="px-4 py-2 text-sm font-medium bg-charcoal text-cream rounded-md hover:bg-slate transition-colors"
+              className="px-4 py-2 text-sm font-black uppercase tracking-wider bg-green text-white rounded-none hover:bg-green-light transition-colors"
             >
               Subscribe
             </Link>
@@ -174,7 +179,7 @@ export default function Header() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="lg:hidden border-t border-border bg-cream">
+        <div className="lg:hidden border-t-2 border-charcoal bg-cream">
           <div className="max-w-7xl mx-auto px-4 py-4 space-y-1">
             <Link
               href="/news"
@@ -212,7 +217,7 @@ export default function Header() {
               <Link
                 href="/newsletter"
                 onClick={() => setMobileOpen(false)}
-                className="block w-full text-center px-4 py-2.5 text-sm font-medium bg-charcoal text-cream rounded-md"
+                className="block w-full text-center px-4 py-2.5 text-sm font-black uppercase tracking-wider bg-green text-white rounded-none"
               >
                 Subscribe
               </Link>

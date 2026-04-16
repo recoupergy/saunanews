@@ -53,14 +53,14 @@ export default function HomePage() {
       <section className="bg-cream dark:bg-dark-bg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-10">
           {/* Masthead tagline */}
-          <div className="flex items-center justify-between mb-8 pb-3 border-b-2 border-charcoal dark:border-cream">
+          <div className="flex items-center justify-between mb-8 pb-3 border-b-4 border-charcoal dark:border-cream">
             <div className="flex items-baseline gap-3 min-w-0 flex-1">
-              <p className="font-editorial text-sm sm:text-base font-semibold tracking-tight m-0 leading-tight">
-                <span className="text-charcoal dark:text-cream">The business and culture of sauna,</span>{' '}
-                <em className="text-green dark:text-brass">covered well.</em>
+              <p className="font-editorial text-sm sm:text-base font-black tracking-tight m-0 leading-tight uppercase">
+                <span className="text-charcoal dark:text-cream">Independent, loud, and honest.</span>{' '}
+                <span className="text-green">Sauna industry coverage.</span>
               </p>
             </div>
-            <span className="text-xs text-stone-dark dark:text-dark-muted hidden sm:block">
+            <span className="text-xs text-stone-dark dark:text-dark-muted hidden sm:block font-bold uppercase tracking-wider">
               {new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}
             </span>
           </div>
@@ -154,7 +154,7 @@ export default function HomePage() {
       {/* ===== LATEST NEWS — Asymmetric Bento Grid ===== */}
       <section className="bg-surface dark:bg-dark-surface border-t border-border dark:border-dark-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
-          <SectionHeader title="Latest News" href="/news" accentColor="#2C2C2C" />
+          <SectionHeader title="Latest News" href="/news" accentColor="#DC2626" />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6 lg:gap-8">
             {/* Large left card */}
             <div className="lg:col-span-5">
@@ -181,7 +181,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
             {/* Market Intelligence — 8 columns */}
             <div className="lg:col-span-8">
-              <SectionHeader title="Market Intelligence" href="/category/market-intelligence" accentColor="#B8935A" />
+              <SectionHeader title="Market Intelligence" href="/category/market-intelligence" accentColor="#DC2626" />
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                 {marketIntel.slice(0, 2).map((article) => (
                   <ArticleCard key={article.id} article={article} />
@@ -236,7 +236,7 @@ export default function HomePage() {
       {/* ===== PRODUCT LAUNCHES — Visual cards ===== */}
       <section className="bg-surface dark:bg-dark-surface border-t border-border dark:border-dark-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
-          <SectionHeader title="Product Launches" href="/category/product-launches" accentColor="#C4956A" />
+          <SectionHeader title="Product Launches" href="/category/product-launches" accentColor="#DC2626" />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {productLaunches.map((article) => (
               <ArticleCard key={article.id} article={article} />
@@ -295,14 +295,14 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
             {/* Hospitality & Spa */}
             <div>
-              <SectionHeader title="Hospitality & Spa" href="/category/hospitality-spa" accentColor="#4A6741" />
+              <SectionHeader title="Hospitality & Spa" href="/category/hospitality-spa" accentColor="#DC2626" />
               {hospitalitySpa.map((article) => (
                 <ArticleCard key={article.id} article={article} variant="horizontal" />
               ))}
             </div>
             {/* Wellness + Commentary */}
             <div className="lg:border-l lg:border-border lg:dark:border-dark-border lg:pl-8">
-              <SectionHeader title="Wellness & Commentary" href="/category/wellness-trends" accentColor="#5A7A51" />
+              <SectionHeader title="Wellness & Commentary" href="/category/wellness-trends" accentColor="#DC2626" />
               {[...wellnessTrends, ...commentary].slice(0, 3).map((article) => (
                 <ArticleCard key={article.id} article={article} variant="horizontal" />
               ))}
@@ -320,7 +320,7 @@ export default function HomePage() {
               <Link
                 key={cat.slug}
                 href={`/category/${cat.slug}`}
-                className="group text-center p-5 border border-border dark:border-dark-border rounded-xl hover:border-green dark:hover:border-brass hover:bg-green/5 dark:hover:bg-brass/5 transition-all"
+                className="group text-center p-5 border-2 border-charcoal dark:border-dark-border hover:border-green dark:hover:border-green hover:bg-green/5 dark:hover:bg-green/5 transition-all"
               >
                 <h3 className="font-editorial text-sm font-semibold text-charcoal dark:text-cream group-hover:text-green dark:group-hover:text-brass transition-colors leading-tight">
                   {cat.name}
@@ -332,28 +332,32 @@ export default function HomePage() {
       </section>
 
       {/* ===== MISSION ===== */}
-      <section className="bg-ivory dark:bg-dark-surface border-t border-border dark:border-dark-border">
+      <section className="bg-charcoal dark:bg-dark-surface border-t-4 border-green">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 items-center">
             <div className="lg:col-span-2 text-center lg:text-left">
-              <div className="w-16 h-16 bg-charcoal dark:bg-cream rounded-xl flex items-center justify-center mx-auto lg:mx-0 mb-4">
-                <span className="text-cream dark:text-charcoal font-bold text-2xl font-editorial">S</span>
-              </div>
-              <h2 className="font-editorial text-3xl font-bold text-charcoal dark:text-cream">
-                Why SaunaNews Exists
+              <img
+                src="/images/saunanews-punk-profile.jpg"
+                alt="SaunaNews punk mascot"
+                width={120}
+                height={120}
+                className="mx-auto lg:mx-0 mb-4 invert"
+              />
+              <h2 className="font-editorial text-3xl font-black text-cream dark:text-cream uppercase">
+                Why We Exist
               </h2>
             </div>
             <div className="lg:col-span-3">
-              <p className="text-base text-warm-gray dark:text-dark-muted leading-relaxed mb-4">
-                The sauna equipment market is growing at roughly 6% annually, attracting significant investment, and reshaping wellness and hospitality. Yet it has lacked a dedicated editorial voice with the depth and credibility it deserves.
+              <p className="text-base text-cream/70 dark:text-dark-muted leading-relaxed mb-4">
+                The sauna equipment market is growing at roughly 6% annually, attracting serious money, and reshaping wellness and hospitality. Yet it has lacked a publication willing to call it like it is.
               </p>
-              <p className="text-base text-warm-gray dark:text-dark-muted leading-relaxed mb-6">
-                SaunaNews fills that gap. Independent reporting on the manufacturers, products, projects, and market forces shaping the category — for the people who build, sell, design, and follow the sauna world.
+              <p className="text-base text-cream/70 dark:text-dark-muted leading-relaxed mb-6">
+                SaunaNews fills that gap. Independent, opinionated, and loud. We cover the manufacturers, products, projects, and market forces shaping the category. No press release rewrites. No pay-to-play. Just honest reporting for the people who build, sell, design, and live the sauna world.
               </p>
-              <div className="flex flex-wrap gap-3">
+              <div className="flex flex-wrap gap-4">
                 <Link
                   href="/about"
-                  className="inline-flex items-center gap-2 text-sm font-medium text-green dark:text-brass hover:text-green-light dark:hover:text-copper transition-colors"
+                  className="inline-flex items-center gap-2 text-sm font-black uppercase tracking-wider text-green hover:text-green-light transition-colors"
                 >
                   About us
                   <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -362,7 +366,7 @@ export default function HomePage() {
                 </Link>
                 <Link
                   href="/contact"
-                  className="inline-flex items-center gap-2 text-sm font-medium text-green dark:text-brass hover:text-green-light dark:hover:text-copper transition-colors"
+                  className="inline-flex items-center gap-2 text-sm font-black uppercase tracking-wider text-green hover:text-green-light transition-colors"
                 >
                   Submit news
                   <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

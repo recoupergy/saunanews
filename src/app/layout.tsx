@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Playfair_Display, Inter } from 'next/font/google';
+import { Space_Grotesk, Inter } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import Header from '@/components/Header';
@@ -9,8 +9,8 @@ import StickyNewsletterBar from '@/components/StickyNewsletterBar';
 import BackToTop from '@/components/BackToTop';
 import './globals.css';
 
-const playfair = Playfair_Display({
-  variable: '--font-playfair',
+const spaceGrotesk = Space_Grotesk({
+  variable: '--font-space-grotesk',
   subsets: ['latin'],
   display: 'swap',
 });
@@ -85,7 +85,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${playfair.variable} ${inter.variable}`} suppressHydrationWarning>
+    <html lang="en" className={`${spaceGrotesk.variable} ${inter.variable}`} suppressHydrationWarning>
       <body className="min-h-screen flex flex-col antialiased" style={{ fontFamily: 'var(--font-inter), system-ui, sans-serif' }}>
         <HeadlineTicker />
         <Header />
