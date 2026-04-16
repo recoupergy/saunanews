@@ -51,11 +51,11 @@ export default function NewsletterSignup({ variant = 'inline', source = 'website
     return (
       <section className="bg-charcoal text-cream py-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="font-editorial text-3xl sm:text-4xl font-black mb-4 uppercase">
-            Don&apos;t miss a thing.
+          <h2 className="font-editorial text-3xl sm:text-4xl font-bold mb-4">
+            Stay ahead of the curve.
           </h2>
           <p className="text-lg text-cream/70 mb-8 max-w-xl mx-auto">
-            The most important sauna industry news, product launches, and market intelligence. In your inbox. Every week. No fluff.
+            Get the most important sauna industry news, product launches, and market intelligence delivered to your inbox every week.
           </p>
           {status === 'success' ? (
             <div className="max-w-md mx-auto">
@@ -77,7 +77,7 @@ export default function NewsletterSignup({ variant = 'inline', source = 'website
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Enter your email"
                 required
-                className="flex-1 px-4 py-3 bg-cream/10 border-2 border-cream/20 rounded-none text-sm text-cream placeholder-cream/40 focus:outline-none focus:border-green focus:ring-1 focus:ring-green"
+                className="flex-1 px-4 py-3 bg-cream/10 border border-cream/20 rounded-lg text-sm text-cream placeholder-cream/40 focus:outline-none focus:border-brass focus:ring-1 focus:ring-brass"
               />
               {/* Honeypot: hidden from humans, bots fill it */}
               <input
@@ -93,7 +93,7 @@ export default function NewsletterSignup({ variant = 'inline', source = 'website
               <button
                 type="submit"
                 disabled={status === 'loading'}
-                className="px-6 py-3 bg-green text-white text-sm font-black uppercase tracking-wider rounded-none hover:bg-green-light transition-colors shrink-0 disabled:opacity-60"
+                className="px-6 py-3 bg-brass text-charcoal text-sm font-semibold rounded-lg hover:bg-copper transition-colors shrink-0 disabled:opacity-60"
               >
                 {status === 'loading' ? 'Subscribing...' : 'Subscribe Free'}
               </button>
