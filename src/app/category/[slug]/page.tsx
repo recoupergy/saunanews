@@ -28,6 +28,7 @@ export function generateMetadata({ params }: { params: Promise<{ slug: string }>
       },
       twitter: {
         card: 'summary_large_image',
+        site: '@sauna_news',
         title: `${cat.name} | SaunaNews`,
         description: cat.description,
       },

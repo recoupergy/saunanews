@@ -17,6 +17,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary',
+    site: '@sauna_news',
     title: 'Subscribe to The SaunaNews Weekly',
     description:
       'Get the most important sauna industry news, product launches, and market intelligence delivered every Thursday. Free. No spam.',

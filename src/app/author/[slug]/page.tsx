@@ -27,6 +27,7 @@ export function generateMetadata({ params }: { params: Promise<{ slug: string }>
       },
       twitter: {
         card: 'summary',
+        site: '@sauna_news',
         title: `${author.name} — ${author.role} | SaunaNews`,
         description: author.bio,
       },

@@ -18,6 +18,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary',
+    site: '@sauna_news',
     title: 'About SaunaNews',
     description:
       'SaunaNews is the modern publication for the sauna industry — covering manufacturers, market trends, products, and wellness culture with editorial independence.',
@@ -61,7 +62,7 @@ export default function AboutPage() {
     description:
       'SaunaNews is the modern publication for the sauna industry, covering manufacturers, market trends, products, and wellness culture.',
     logo: { '@type': 'ImageObject', url: 'https://www.saunanews.com/logo.png', width: 600, height: 60 },
-    sameAs: ['https://twitter.com/saunanews'],
+    sameAs: ['https://x.com/sauna_news'],
     foundingDate: '2025',
     knowsAbout: [
       'Sauna industry',

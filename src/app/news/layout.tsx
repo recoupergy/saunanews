@@ -17,6 +17,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
+    site: '@sauna_news',
     title: 'All News | SaunaNews',
     description:
       'The complete SaunaNews archive. Search, filter, and explore every article covering sauna manufacturers, products, market trends, and industry news.',

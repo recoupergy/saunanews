@@ -69,7 +69,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@saunanews',
+    site: '@sauna_news',
     title: siteTitle,
     description: siteDescription,
   },

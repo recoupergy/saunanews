@@ -17,6 +17,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary',
+    site: '@sauna_news',
     title: 'Contact & Submit News | SaunaNews',
     description:
       'Submit press releases, pitch story tips, ask about sponsorships, or send general feedback to the SaunaNews editorial team.',
