@@ -172,6 +172,7 @@ Never use bare URLs. Never use generic anchor text like "this article" or "read 
 - `/article/sauna-house-franchise-nordic-bathhouse-growth`
 - `/article/equinox-expands-sauna-offerings-flagship-locations`
 - `/article/kos-sauna-floating-nordic-upstate-new-york`
+- `/article/white-mountain-sauna-haus-north-conway-apres-ski`
 
 **Market Trends cluster**:
 - `/article/outdoor-sauna-demand-surges-north-america`

@@ -119,6 +119,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'thermoryusa.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'static.wixstatic.com',
+      },
     ],
   },
 };
