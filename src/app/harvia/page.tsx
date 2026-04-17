@@ -85,6 +85,12 @@ const investorEvents: InvestorEvent[] = [
   { date: '2025-05-07', label: 'Q1 2025 Interim Report', detail: 'Revenue EUR 52.0M (+22.7%)', status: 'past', href: '/article/harvia-record-q1-revenue-thermasol-integration' },
   { date: '2025-04-17', label: 'Dividend Payment (1st installment 2024)', detail: 'EUR 0.36 per share', status: 'past' },
   { date: '2025-02-13', label: 'Financial Statements Bulletin 2024', detail: 'FY revenue EUR 175.2M', status: 'past', href: '/article/harvia-q4-2024-fy-2024-results' },
+  { date: '2024-11-07', label: 'Q3 2024 Interim Report', detail: 'First ThermaSol consolidation, EUR 38.7M (+14.0%)', status: 'past', href: '/article/harvia-q3-2024-interim-results' },
+  { date: '2024-08-02', label: 'H1 2024 Half-Year Review', detail: 'Q2 revenue EUR 43.2M (+20.7%)', status: 'past', href: '/article/harvia-h1-2024-half-year-results' },
+  { date: '2024-07-31', label: 'ThermaSol Acquisition Closed', detail: 'USD 30.4M US steam platform', status: 'past', href: '/article/harvia-thermasol-acquisition-announcement' },
+  { date: '2024-05-03', label: 'Q1 2024 Interim Report', detail: 'Revenue EUR 42.4M (+2.3%)', status: 'past', href: '/article/harvia-q1-2024-interim-results' },
+  { date: '2024-02-08', label: 'Financial Statements Bulletin 2023', detail: 'Q4 return to growth, FY EUR 150.5M', status: 'past', href: '/article/harvia-q4-2023-fy-2023-results' },
+  { date: '2023-02-09', label: 'Financial Statements Bulletin 2022', detail: 'FY EUR 172.4M, post-pandemic reset', status: 'past', href: '/article/harvia-fy-2022-full-year-results' },
 ];
 
 const acquisitions = [

@@ -582,6 +582,252 @@ export const articles: Article[] = [
     trending: true,
   },
   {
+    id: 'harvia-fy-2022-results',
+    title: 'Harvia FY 2022: Revenue Down 3.7% as Pandemic Demand Normalizes',
+    slug: 'harvia-fy-2022-full-year-results',
+    dek: 'Harvia\'s 2022 full-year revenue of EUR 172.4 million was down 3.7% from the pandemic peak, but the company held adjusted operating margin near 20% as management worked through channel destocking.',
+    excerpt: 'Harvia reported FY 2022 revenue of EUR 172.4 million on 9 February 2023, down 3.7% from the EUR 179.1 million pandemic peak in 2021. Management framed the year as a reset, with North America and APAC still growing while Central Europe faced the brunt of destocking and weak consumer confidence. Adjusted operating margin held at 19.7%.',
+    contentType: 'Analysis',
+    category: 'Manufacturer News',
+    tags: ['Harvia', 'FY 2022', 'earnings', 'pandemic', 'destocking', 'investor'],
+    author: authors.sofia,
+    publishDate: '2023-02-09',
+    readingTime: 7,
+    featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/06/2024_06_19_jr_harvia_0271-1280x853.jpg',
+    imageCaption: 'Harvia reported FY 2022 results on 9 February 2023. Revenue was EUR 172.4 million, down 3.7% from the 2021 pandemic peak.',
+    body: `<p>Harvia Plc reported full-year 2022 revenue of EUR 172.4 million on 9 February 2023, down 3.7% from the pandemic-era peak of EUR 179.1 million in 2021. The print closed out what management would later call the company's most complicated year as a public entity: a double hit of post-pandemic demand normalization and a European consumer retrenchment driven by the Russian invasion of Ukraine, energy costs, and rising rates. Adjusted operating margin finished the year at 19.7%, down from 22.4% in 2021.</p>
+
+<h2>The Pandemic Overhang</h2>
+<p>Harvia's 2020 and 2021 results had been unusually strong. The company had ridden the wellness-at-home wave: <a href="/article/harvia-eos-group-acquisition-germany">EOS consolidated in spring 2020</a>, revenue jumped 43.7% in 2020 to EUR 104 million, and then another 72% in 2021 to EUR 179.1 million, with <a href="/article/harvia-kirami-acquisition-hot-tub">Kirami</a> contributing a partial year. Management had been explicit with investors that some of that demand was pulled forward from future periods, and in July 2022 the company pre-announced that Q2 demand had materially softened.</p>
+
+<p>The 2022 print confirmed the pre-announcement and added Central European detail. Germany and adjacent markets carried the heaviest destocking as dealers worked down elevated inventory. Russia had accounted for a small but non-trivial sliver of 2021 sales; it went to zero in 2022 after Harvia suspended Russian operations. North America, Asia-Pacific, and the UK continued to grow.</p>
+
+<blockquote>Advance demand during the pandemic has ended. We see the sauna and spa market returning to more normal growth patterns, but the adjustment year has been uneven across regions.</blockquote>
+
+<h2>Regional Composition</h2>
+<p>North America, already the largest non-European region, kept growing through the year on the back of Almost Heaven momentum and specialty dealer expansion. APAC & MEA continued its multi-year trajectory, with Japan and China growing off small bases. Northern Europe (Finland, Sweden, Norway) was broadly flat. Continental Europe was where the pain landed, with Germany down sharply year over year.</p>
+
+<div class="callout">
+<strong>FY 2022 key figures:</strong> Revenue EUR 172.4M (-3.7% YoY). Operating profit EUR 33.1M (19.2% margin). Adjusted operating profit EUR 33.9M (19.7% margin). Russia revenue in 2022: approximately zero (vs approximately EUR 5M in 2021). Net debt/adjusted EBITDA: ~0.9x. Proposed dividend: EUR 0.65 per share.
+</div>
+
+<h2>Margin Walk</h2>
+<p>The margin step-down from 22.4% to 19.7% adjusted had three drivers: (1) Revenue decline against a partly fixed cost base; (2) elevated inventory at year-end, which would have to be managed down through 2023; (3) sales and marketing investment to stimulate demand in softening markets. Management was clear that none of these were structural, and that the 20%+ long-term margin target remained intact.</p>
+
+<h2>Analyst Questions and Tone</h2>
+<p>On the Q4 earnings call, Helsinki-based Inderes and the Danske Bank Markets analyst pressed on three themes: how long European destocking would last, whether North America growth could sustain into 2023, and whether the dividend was safe. Management declined to quantify the destocking tail but said they expected Q1 2023 to remain soft with gradual improvement through the year. On North America, CEO Matias Järnefelt was direct: the dealer channel was healthy, the product mix was improving, and US consumer demand was not tracking European weakness. The dividend was reaffirmed.</p>
+
+<h3>Capital Return</h3>
+<p>Harvia's board proposed a total dividend of EUR 0.65 per share for 2022, down modestly from EUR 0.70 paid for 2021. The cut was cosmetic rather than financial: the company's balance sheet was in good shape, leverage was well below target, and the reduction signaled conservatism during an unsettled period rather than distress.</p>
+
+<div class="whats-next">
+<p>Management set expectations for 2023 to be a year of destocking completion, margin recovery, and continued North American investment. The 2023 Q1 interim report was scheduled for 3 May 2023. Inderes maintained coverage and raised the question of whether M&A would resume once the European environment stabilized, a theme that would play out in 2024 with ThermaSol.</p>
+</div>
+
+<div class="bottom-line">
+<p>FY 2022 was the reset nobody on the Nasdaq Helsinki sauna bull case wanted to see, but it was survived well. Margins held near long-term target, the balance sheet absorbed the demand shock without strain, and management narrated the situation clearly enough that analysts stayed constructive. In hindsight, 2022 set up the 2024 and 2025 reacceleration by forcing discipline on working capital and cost structure during a weak year.</p>
+</div>`,
+    featured: false,
+    trending: false,
+  },
+  {
+    id: 'harvia-fy-2023-results',
+    title: 'Harvia FY 2023: Back to Growth in Q4 After a Year of Destocking',
+    slug: 'harvia-q4-2023-fy-2023-results',
+    dek: 'Q4 2023 revenue grew 3.4% to EUR 39.4 million with a 24.2% adjusted operating margin, snapping seven consecutive quarters of year-over-year decline. Full-year revenue of EUR 150.5 million was down 12.7%.',
+    excerpt: 'Harvia closed FY 2023 with revenue of EUR 150.5 million, down 12.7%, as the destocking cycle that began in mid-2022 persisted through most of the year. But Q4 2023 marked the inflection: revenue grew 3.4% year-over-year to EUR 39.4 million at a record 24.2% adjusted operating margin. Cash flow was exceptional, with EUR 44.6 million of operating free cash flow for the year.',
+    contentType: 'Analysis',
+    category: 'Manufacturer News',
+    tags: ['Harvia', 'FY 2023', 'Q4 2023', 'earnings', 'inflection', 'North America'],
+    author: authors.sofia,
+    publishDate: '2024-02-08',
+    readingTime: 7,
+    featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/05/Harvia_ranta_03-1024x684-1.jpg',
+    imageCaption: 'Harvia reported FY 2023 results on 8 February 2024. Q4 marked the first quarter of year-over-year growth after seven consecutive declines.',
+    body: `<p>Harvia Plc reported full-year 2023 revenue of EUR 150.5 million on 8 February 2024, down 12.7% from EUR 172.4 million in 2022. But the headline obscured the turn: Q4 2023 revenue grew 3.4% year-over-year to EUR 39.4 million, the first quarterly growth since Q1 2022, with an adjusted operating margin of 24.2%, the company's strongest Q4 profitability since its IPO. Harvia shares jumped on the print.</p>
+
+<h2>The Inflection Nobody Was Modeling</h2>
+<p>Heading into Q4, Inderes and the broader sell-side had been modeling another quarter of modest decline, with the expectation that organic growth would return in H1 2024. Harvia instead delivered positive organic growth of 5.2% in Q4 and a margin substantially above consensus. The read-through was clear: European destocking had completed faster than expected, and North American growth had accelerated enough to offset whatever Continental European weakness remained.</p>
+
+<blockquote>In Q4 2023, Harvia returned to growth. North America continued to grow at a fast pace and is now our largest market area. Asia-Pacific sales developed very favorably, and Central Europe is showing signs of stabilization.</blockquote>
+
+<p>That North America callout was a first. For most of Harvia's history as a public company, Northern Europe had been its anchor market. The 2022-2023 destocking cycle had inverted the mix: US consumer demand had held up through higher rates, Almost Heaven had kept growing through specialty and mass channels, and currency had helped. The US now represented the largest single region in Harvia's revenue base.</p>
+
+<h2>Margin Walk</h2>
+<p>Q4 adjusted operating margin of 24.2% was well above the 20%-plus long-term target and materially above the 19.7% full-year 2022 result. Three drivers: (1) Price increases taken through 2022 and early 2023 had largely stuck; (2) Inflationary cost pressure on steel, copper, and freight had rolled over, with management noting easing on key raw materials; (3) Operational leverage returned as volumes recovered.</p>
+
+<div class="callout">
+<strong>FY 2023 key figures:</strong> FY revenue EUR 150.5M (-12.7% YoY; organic -9.4%). FY operating profit EUR 33.0M (21.9% margin). FY adjusted operating profit EUR 33.7M (22.4% margin). Q4 revenue EUR 39.4M (+3.4% YoY; organic +5.2%). Q4 adjusted operating profit EUR 9.5M (24.2% margin). Operating free cash flow EUR 44.6M (138.9% cash conversion). Net debt EUR 37.6M. Leverage: 0.9x. EPS EUR 1.25. Proposed dividend: EUR 0.68 per share (two installments).
+</div>
+
+<h2>Cash Flow Story</h2>
+<p>The cash flow line was where the destocking cycle actually paid off. Harvia generated EUR 44.6 million in operating free cash flow for the year against EUR 33 million in operating profit, a cash conversion of 138.9%. That reflected aggressive working capital management: inventory came down sharply through the year, receivables normalized, and management chose to prioritize cash over margin optics in certain channels. Net debt finished at EUR 37.6 million, leverage at 0.9x, both comfortably below long-term targets.</p>
+
+<h2>Dividend Increase</h2>
+<p>Harvia's board proposed a total dividend of EUR 0.68 per share for 2023, up from EUR 0.65 for 2022. The increase signaled management confidence in the growth return and the cash flow profile. Payment was split into two installments in April and October 2024, maintaining the bi-annual cadence Harvia has used since the IPO.</p>
+
+<h2>Analyst Reaction</h2>
+<p>The Inderes analyst summary described Q4 as "much better than expected" and raised the margin outlook for 2024. Danske Bank Markets maintained its constructive stance. The stock rose on the day and continued to trade higher into the spring as the Q1 2024 print approached.</p>
+
+<div class="whats-next">
+<p>Management set qualitative expectations for 2024: continued North American growth, gradual Central European recovery, APAC acceleration. No specific numeric guidance. The Q1 2024 interim report was scheduled for 3 May 2024. M&A was an open question; management said they would evaluate opportunities as they arose, with North American steam being flagged as a category of interest. That commentary would prove load-bearing when <a href="/article/harvia-thermasol-acquisition-announcement">ThermaSol was announced</a> in July 2024.</p>
+</div>
+
+<div class="bottom-line">
+<p>FY 2023 was the most important print Harvia had delivered since its IPO. The destocking cycle was over, margins were back near peak, cash flow was exceptional, and the regional mix had tilted toward the US in a way that would compound through the ThermaSol deal to come. Any analyst who had de-rated Harvia on the 2022 results was now scrambling to re-underwrite the story.</p>
+</div>`,
+    featured: false,
+    trending: false,
+  },
+  {
+    id: 'harvia-q1-2024-results',
+    title: 'Harvia Q1 2024: Revenue Up 2.3%, Margin Holds at 23.8%',
+    slug: 'harvia-q1-2024-interim-results',
+    dek: 'Q1 2024 revenue of EUR 42.4 million was up 2.3% year-over-year as North America and APAC grew strongly while Finnish strikes delayed some deliveries into Q2. Adjusted operating margin stayed elevated at 23.8%.',
+    excerpt: 'Harvia\'s Q1 2024 interim report, published on 3 May 2024, showed revenue of EUR 42.4 million, up 2.3%, with an adjusted operating margin of 23.8%. North America and APAC continued to drive growth; Northern Europe remained weak. Finnish industrial action during the quarter pushed some shipments into Q2, muting the headline growth number relative to underlying demand.',
+    contentType: 'Analysis',
+    category: 'Manufacturer News',
+    tags: ['Harvia', 'Q1 2024', 'earnings', 'North America', 'margin', 'investor'],
+    author: authors.sofia,
+    publishDate: '2024-05-03',
+    readingTime: 6,
+    featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/06/092624_HA_LM_BK0221-3_WEB-1280x854-1.jpg',
+    imageCaption: 'Harvia published Q1 2024 interim results on 3 May 2024. Adjusted operating margin held at 23.8% despite Finnish industrial action.',
+    body: `<p>Harvia Plc published its Q1 2024 interim report on 3 May 2024, reporting revenue of EUR 42.4 million, up 2.3% year over year, with adjusted operating profit of EUR 10.1 million representing 23.8% of revenue. The print extended the margin strength that emerged in <a href="/article/harvia-q4-2023-fy-2023-results">Q4 2023</a>, though the modest headline revenue growth disappointed investors who had been modeling a stronger acceleration off the prior year's base.</p>
+
+<h2>The Finnish Strike Complication</h2>
+<p>Management spent material time on the call explaining why Q1 revenue growth was only 2.3% when the Q4 2023 pattern had suggested a faster reacceleration. The answer was Finnish industrial action. Political strikes in Finland during February and March disrupted logistics at Finnish ports and delayed some customer shipments that would otherwise have fallen into Q1. Those shipments rolled into Q2. The impact was not quantified precisely, but CFO Ari Vesterinen indicated it was several million euros of revenue timing.</p>
+
+<blockquote>The key priority continues to be accelerating growth while maintaining strong profitability. Q1 demonstrates that we can do both simultaneously, and we expect the strike-related timing to reverse in the second quarter.</blockquote>
+
+<h2>Regional Performance</h2>
+<p>North America grew at a double-digit clip on continued Almost Heaven momentum and specialty dealer expansion. APAC & MEA posted strong growth, continuing its multi-year trajectory with particular strength in Japan and Australia. Continental Europe showed signs of gradual recovery, though year-over-year comparisons remained mixed market by market. Northern Europe was the laggard: Finnish consumer demand was soft, the construction slowdown weighed on new installations, and the strike added insult to injury.</p>
+
+<div class="callout">
+<strong>Q1 2024 key figures:</strong> Revenue EUR 42.4M (+2.3% YoY). Operating profit EUR 9.9M (23.3% margin). Adjusted operating profit EUR 10.1M (23.8% margin). EPS EUR 0.40 (+11.1% YoY). Operating free cash flow EUR 11.1M. Net debt EUR 32.6M. Leverage 0.8x.
+</div>
+
+<h2>Margin Walk</h2>
+<p>The 23.8% adjusted operating margin was the highest Q1 margin Harvia had reported since its IPO. Price mix was positive, raw material costs remained benign, and the company's Q4 2023 cost-side discipline continued to flow through the P&L. Management flagged that they were also investing in sales and marketing to support future growth, which would have a modest impact on margin trajectory through the rest of the year.</p>
+
+<h2>Analyst Q&A Themes</h2>
+<p>On the webcast, three topics dominated: (1) the Finnish strike impact and how much Q2 catch-up to expect; (2) whether North American growth was sustainable; (3) M&A activity and balance sheet capacity. Management quantified the strike roughly (pushing several million euros into Q2) and was optimistic about catch-up. North American growth was described as broad-based and durable. On M&A, CEO Järnefelt said Harvia was active in evaluating opportunities, particularly in North America and adjacent categories, but declined to comment on specific targets. That commentary would become relevant 11 weeks later when the ThermaSol announcement landed.</p>
+
+<h2>Stock Reaction</h2>
+<p>Harvia shares traded essentially flat on the print, reflecting the mixed signal: strong margin but soft revenue growth. Inderes kept its rating unchanged. Some sell-side analysts reduced Q2 revenue estimates slightly to reflect the strike catch-up, while raising margin estimates to reflect the Q1 print.</p>
+
+<div class="whats-next">
+<p>Management set expectations that Q2 would benefit from strike-related catch-up and continued North American momentum. Europe recovery was described as gradual. The H1 2024 half-year financial review was scheduled for early August 2024.</p>
+</div>
+
+<div class="bottom-line">
+<p>Q1 2024 was the first quarter where Harvia's margin profile genuinely looked structural rather than cyclical. Revenue growth disappointed, but the cause was transitory and the underlying regional pattern (North America and APAC pulling; Northern Europe dragging) was consistent with the long-term thesis. Investors looking past the strike noise were rewarded; those who took the headline at face value missed the setup for the H1 beat that came in August.</p>
+</div>`,
+    featured: false,
+    trending: false,
+  },
+  {
+    id: 'harvia-h1-2024-results',
+    title: 'Harvia H1 2024: Q2 Revenue Jumps 20.7% as Strike Catch-up Lands',
+    slug: 'harvia-h1-2024-half-year-results',
+    dek: 'Q2 2024 revenue of EUR 43.2 million was up 20.7% year-over-year as Finnish strike-delayed shipments flowed through, North America accelerated, and Northern Europe returned to growth. H1 margin held at 22.8% adjusted.',
+    excerpt: 'Harvia\'s H1 2024 half-year review, published 2 August 2024, reported Q2 revenue of EUR 43.2 million, up 20.7% year-over-year (20.1% organic). H1 revenue of EUR 85.5 million was up 10.9%, with adjusted operating margin of 22.8%. All four regions grew in H1 for the first time in two years. Twenty-one days before the print, Harvia had announced the USD 30.4 million ThermaSol acquisition.',
+    contentType: 'Analysis',
+    category: 'Manufacturer News',
+    tags: ['Harvia', 'H1 2024', 'Q2 2024', 'earnings', 'ThermaSol', 'North America'],
+    author: authors.sofia,
+    publishDate: '2024-08-02',
+    readingTime: 7,
+    featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/06/2024_06_25_oh_harvia_details_0169-1280x854.jpg',
+    imageCaption: 'Harvia published its H1 2024 half-year review on 2 August 2024, two days after closing the USD 30.4 million ThermaSol acquisition.',
+    body: `<p>Harvia Plc published its H1 2024 half-year financial review on 2 August 2024. Q2 2024 revenue hit EUR 43.2 million, up 20.7% year-over-year (20.1% organic). H1 revenue of EUR 85.5 million was up 10.9%, with adjusted operating profit of EUR 19.5 million at a 22.8% margin. The print landed two days after Harvia closed the <a href="/article/harvia-thermasol-acquisition-announcement">USD 30.4 million ThermaSol acquisition</a>, which was announced on 23 July 2024.</p>
+
+<h2>The Bounce Investors Wanted</h2>
+<p>Q1 2024 had printed modest 2.3% revenue growth, muted by Finnish strike-delayed shipments. Q2 confirmed that the Q1 weakness was entirely a timing issue. Organic revenue growth of 20.1% in Q2 was the strongest single-quarter organic figure Harvia had delivered since the pandemic demand peak of Q2 2021. The combination of strike catch-up, accelerating North American demand, and the first quarter of year-over-year Northern European growth in two years drove the result.</p>
+
+<blockquote>Q2 was a strong quarter operationally. North America market demand was high, APAC growth continued rapidly, Continental Europe improved gradually, and in Northern Europe revenue growth resumed after two years of declining revenue. Harvia executed well across the board.</blockquote>
+
+<h2>Regional Rebalance</h2>
+<p>The Northern Europe reacceleration was the single most important regional data point. Finnish and Swedish consumer demand had dragged on Harvia for seven consecutive quarters. Q2 2024 broke that pattern, with modest but positive year-over-year growth across the Nordic markets. Management did not declare the recovery complete, but did note that new-construction indicators and consumer sentiment were trending in the right direction.</p>
+
+<p>North America delivered strong performance with market demand described as high across heaters, sauna components, and prefabricated rooms. APAC continued its multi-year run of rapid growth, supported by larger commercial deliveries in Japan and steady Australian expansion. Continental Europe, led by EOS in Germany, showed the gradual improvement management had forecast earlier in the year.</p>
+
+<div class="callout">
+<strong>H1 / Q2 2024 key figures:</strong> Q2 revenue EUR 43.2M (+20.7% YoY; organic +20.1%). Q2 operating profit EUR 8.9M (20.7% margin). Q2 adjusted operating profit EUR 9.4M (21.8% margin). H1 revenue EUR 85.5M (+10.9% YoY; organic +10.4%). H1 adjusted operating profit EUR 19.5M (22.8% margin). H1 EPS EUR 0.71 (+15.3%). Net debt EUR 32.6M. Leverage 0.8x.
+</div>
+
+<h2>The ThermaSol Wrapper</h2>
+<p>Harvia announced the ThermaSol acquisition on 23 July, closed it on 31 July, and reported H1 results on 2 August. The three events occurred within 11 days of each other. ThermaSol's financials would begin consolidating in Q3 2024, and the H1 figures did not include any ThermaSol contribution. That meant the 20.7% Q2 growth was fully organic, adding further evidence that underlying Harvia demand was accelerating independent of any inorganic help.</p>
+
+<p>Management framed the ThermaSol deal consistently with the long-stated M&A criteria: strategically adjacent, North American platform, accretive on a reasonable timeline. The EUR 20 million bullet loan financing kept leverage at 0.8x pro forma, well below the 2.5x long-term ceiling, preserving optionality for further deals if opportunities arose.</p>
+
+<h2>Margin Discussion</h2>
+<p>H1 adjusted operating margin of 22.8% was above the 20% long-term target but slightly below the 24.2% Q4 2023 peak. Management attributed the modest step-down to increased sales and marketing investment, particularly in North American growth initiatives and ThermaSol integration preparation. Gross margin remained strong, cost inputs remained benign, and the operational leverage was evident in the Q2 print.</p>
+
+<h2>Analyst Q&A</h2>
+<p>The call focused on three things: the sustainability of Q2's 20% organic growth (management said durable underlying demand plus strike catch-up, with the underlying pace settling in low-teens), ThermaSol integration expectations (management described the team as high-quality and the technology as complementary), and Northern European recovery shape (management declined to extrapolate Q2 into a trend). Inderes raised estimates; Danske maintained a buy.</p>
+
+<div class="whats-next">
+<p>Q3 2024 would be the first quarter with ThermaSol consolidated for two of three months. Management flagged that inventory was being built in North America ahead of winter sauna season, which would compress Q3 cash conversion but set up Q4 sell-through. Q3 results scheduled for 7 November 2024.</p>
+</div>
+
+<div class="bottom-line">
+<p>H1 2024 was the quarter that vindicated the FY 2023 Q4 inflection call. Organic growth was real, geographically broad, and structurally sustainable. Adding ThermaSol on top of a 20% organic growth base gave Harvia a runway to exceed its 10% long-term revenue growth target by a wide margin in H2 2024 and into 2025. The stock hit new multi-year highs in the weeks following.</p>
+</div>`,
+    featured: false,
+    trending: false,
+  },
+  {
+    id: 'harvia-q3-2024-results',
+    title: 'Harvia Q3 2024: ThermaSol Consolidates for the First Time, Revenue Up 14%',
+    slug: 'harvia-q3-2024-interim-results',
+    dek: 'Q3 2024 revenue of EUR 38.7 million was up 14.0% year-over-year, with 7.9% organic growth and the first two months of ThermaSol contribution. Adjusted operating margin held at 22.9% even as management invested in North American inventory ahead of winter sauna season.',
+    excerpt: 'Harvia\'s Q3 2024 interim report, published 7 November 2024, showed revenue of EUR 38.7 million, up 14.0% year-over-year (7.9% organic), with the first two months of consolidated ThermaSol revenue. Adjusted operating profit of EUR 8.9 million represented a 22.9% margin. Nine-month revenue reached EUR 124.3 million.',
+    contentType: 'Analysis',
+    category: 'Manufacturer News',
+    tags: ['Harvia', 'Q3 2024', 'ThermaSol', 'earnings', 'integration', 'investor'],
+    author: authors.sofia,
+    publishDate: '2024-11-07',
+    readingTime: 6,
+    featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/02/Kiuas_Kuva1-copy-1280x720.jpg',
+    imageCaption: 'Harvia reported Q3 2024 results on 7 November 2024. ThermaSol contributed for two months after closing 31 July.',
+    body: `<p>Harvia Plc published its Q3 2024 interim report on 7 November 2024. Revenue of EUR 38.7 million was up 14.0% year-over-year, comprising 7.9% organic growth and 6.1% inorganic contribution from ThermaSol, consolidated from 31 July. Adjusted operating profit of EUR 8.9 million represented 22.9% of revenue, ahead of consensus. Nine-month revenue reached EUR 124.3 million, up 11.8% year-to-date.</p>
+
+<h2>First Read on ThermaSol</h2>
+<p>Q3 was the first quarter investors could see ThermaSol inside Harvia's numbers. The deal closed on 31 July, so Q3 captured two months of operations (August and September). Initial contribution was modest relative to full-year run-rate expectations, reflecting the partial-quarter effect plus natural summer seasonality in North American steam products. What mattered more than the absolute contribution was the management commentary on integration progress.</p>
+
+<blockquote>The expanded Harvia team in North America is working well together. We are eager to capture all the growth opportunities and cost synergies. ThermaSol has integrated into our processes ahead of plan, and the cross-selling discussions with our existing US dealer network have started strongly.</blockquote>
+
+<h2>Organic Growth Broadens</h2>
+<p>Even stripping out ThermaSol, Q3 organic growth of 7.9% was strong. North America continued to lead with broad-based demand across heaters, sauna components, and prefabricated room solutions. Continental Europe grew modestly, supported by EOS demand in professional and high-end segments. APAC & MEA delivered solid results on the back of systematic focus in Japan, China, and Australia. Northern Europe remained the weak spot, with hot tub demand (the region's anchor category) pressured through the quarter.</p>
+
+<div class="callout">
+<strong>Q3 2024 key figures:</strong> Revenue EUR 38.7M (+14.0% YoY; organic +7.9%). Operating profit EUR 8.3M (21.4% margin). Adjusted operating profit EUR 8.9M (22.9% margin). Nine-month revenue EUR 124.3M (+11.8%). Nine-month adjusted operating profit EUR 28.4M (22.8% margin). Net debt EUR 61.8M. Leverage 1.4x (up from 0.8x pre-ThermaSol). Operating free cash flow Q3 EUR 2.6M (31.7% conversion). Nine-month OFCF EUR 20.0M (60% conversion).
+</div>
+
+<h2>Cash Flow Note</h2>
+<p>Q3 cash conversion of 31.7% was notably lower than Harvia's historical profile. Management attributed this to two deliberate working-capital decisions: (1) inventory build in North America ahead of the winter sauna season, which would flow through to Q4 sell-through; and (2) capital expenditures tied to facility investments. Neither was flagged as a concern, and full-year cash conversion expectations were unchanged.</p>
+
+<h2>Leverage After ThermaSol</h2>
+<p>Net debt jumped from EUR 32.6 million at H1 to EUR 61.8 million at Q3, reflecting the ThermaSol financing (EUR 20 million bullet loan plus cash consideration). Leverage moved from 0.8x pre-deal to 1.4x post-deal, still comfortably below the 2.5x long-term ceiling. The balance sheet retained optionality for additional M&A if opportunities emerged, though management was clear that the immediate focus was ThermaSol integration.</p>
+
+<h2>Margin Discussion</h2>
+<p>Q3 adjusted operating margin of 22.9% was a small step down from the 24.2% Q4 2023 peak but still comfortably above the 20% long-term target. Three drivers: (1) ThermaSol margin profile was broadly in line with Harvia's own and contributed positively; (2) sales and marketing investment continued to step up, particularly around the new combined North American sales organization; (3) raw material costs remained benign.</p>
+
+<h2>Analyst Q&A</h2>
+<p>The webcast focused on ThermaSol run-rate contribution, North American cross-selling mechanics, and the shape of Q4. Management walked through the integration roadmap: shared dealer training in Q4, combined product catalogs in early 2025, integrated sales forecasting by mid-2025. On cross-selling, Järnefelt noted early positive signals but asked investors to judge results over two to four quarters rather than eight weeks. On Q4, management pointed to strong channel orders and normal winter seasonality, without providing specific numeric guidance.</p>
+
+<div class="whats-next">
+<p>Q4 2024 was positioned to be the first quarter with a full three months of ThermaSol contribution and the benefit of North American winter sauna season sell-through. Financial statements bulletin scheduled for 13 February 2025. M&A interest in additional bolt-ons was noted as "always possible" but not prioritized ahead of ThermaSol integration completion.</p>
+</div>
+
+<div class="bottom-line">
+<p>Q3 2024 was the dress rehearsal for the post-ThermaSol Harvia. Organic growth of 7.9% proved the core engine was intact. Initial ThermaSol contribution was modest but clean. Integration commentary was specific and credible. The only real concern was the Q3 cash conversion dip, which management explained away cleanly. The setup for a strong Q4 print, and for the 2025 reacceleration story, was fully in place.</p>
+</div>`,
+    featured: false,
+    trending: false,
+  },
+  {
     id: '2',
     title: 'U.S. Tariff Shifts Put Sauna Imports from Europe Under Growing Pressure',
     slug: 'us-sauna-imports-tariff-pressure-europe',
