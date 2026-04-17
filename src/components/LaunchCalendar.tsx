@@ -9,11 +9,15 @@ interface LaunchItem {
 }
 
 const upcomingLaunches: LaunchItem[] = [
+  { date: 'Apr 24', title: 'Harvia Dividend (1st installment)', brand: 'Harvia', type: 'Report', href: '/harvia' },
   { date: 'Apr 25', title: 'World Sauna Day 2026', brand: 'Global', type: 'Event' },
   { date: 'May 1', title: 'Mondex Teno & Kalla Updated Models', brand: 'Mondex', type: 'Product', href: '/article/mondex-narvi-heater-updates-2026' },
+  { date: 'May 7', title: 'Harvia Q1 2026 Interim Report', brand: 'Harvia', type: 'Report', href: '/harvia' },
   { date: 'Jun 9-11', title: 'World Sauna Forum 2026', brand: 'Jyvaskyla, Finland', type: 'Event', href: '/article/world-sauna-forum-2026-jyvaskyla' },
+  { date: 'Aug 6', title: 'Harvia H1 2026 Half-Year Report', brand: 'Harvia', type: 'Report', href: '/harvia' },
   { date: 'Sep 24-26', title: 'XIX Intl Sauna Congress', brand: 'Oslo, Norway', type: 'Event' },
   { date: 'Oct 6-8', title: 'Interbad 2026', brand: 'Stuttgart, Germany', type: 'Event' },
+  { date: 'Oct 29', title: 'Harvia Q3 2026 Interim Report', brand: 'Harvia', type: 'Report', href: '/harvia' },
   { date: 'Now', title: 'Homecraft TKE2-2 WiFi Controller', brand: 'Homecraft', type: 'Product', href: '/article/homecraft-wifi-sauna-controller-launch' },
 ];
 
