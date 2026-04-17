@@ -205,10 +205,14 @@ export const articles: Article[] = [
 
 <p>Almost Heaven will continue to operate under its existing brand name and management, with Harvia providing integration support around heater supply, controls technology, and international sourcing. The company's Renick operations will be maintained and expanded.</p>
 
-<blockquote>Almost Heaven gives us a meaningful US manufacturing footprint and a brand that American consumers already trust. We intend to grow it.</blockquote>
-
 <h2>Strategic Context</h2>
 <p>At the time of IPO, Harvia management laid out a clear consolidation thesis for the fragmented global sauna industry. Almost Heaven is the first execution against that thesis. North America is the single largest growth opportunity for the category, and having a domestic factory shields part of Harvia's US revenue from any future tariffs on European-origin sauna goods, a consideration that would become significantly more relevant seven years later.</p>
+
+<p>The brand positioning Harvia would eventually land on for Almost Heaven was articulated publicly years later, on the <a href="/article/harvia-q4-2025-fy-2025-results">Q4 2025 earnings call</a>, when CEO Matias Järnefelt sized the US opportunity and placed Almost Heaven squarely in the volume tier.</p>
+
+<blockquote>"We see a market with significant growth potential. We believe there is more than 10 million saunas" in the US. "Almost Heaven is the brand which you could consider like the IKEA of the saunas." <cite>— Matias Järnefelt, CEO, Harvia Q4 2025 earnings call, 12 February 2026</cite></blockquote>
+
+<p>That IKEA framing, volume, accessible price points, recognizable brand, is the endgame of the thesis that started with this 2018 deal.</p>
 
 <div class="callout">
 <strong>Deal snapshot:</strong> Target: Almost Heaven Saunas (Renick, WV). Acquirer: Harvia Plc. Announced: 28 June 2018. Consideration: approximately EUR 4 million. Employees retained. Brand maintained. Management: continues post-close.
@@ -234,27 +238,54 @@ export const articles: Article[] = [
     readingTime: 5,
     featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/06/EOS_1232marg.jpg',
     imageCaption: 'EOS Saunatechnik, based in Driedorf, Germany, becomes a Harvia Group subsidiary.',
-    body: `<p>Harvia Plc announced today that it has agreed to acquire a majority stake in EOS Group, the Driedorf, Germany-based premium sauna heater and spa controls manufacturer. The deal represents Harvia's largest acquisition since its <a href="/article/harvia-ipo-nasdaq-helsinki-2018">2018 IPO</a> and gives the Finnish company a decisive foothold in the commercial and ultra-premium residential sauna segment. Full M&A history, brand portfolio, and investor calendar in our <a href="/harvia">Harvia News hub</a>.</p>
+    body: `<p>Harvia Plc announced on 18 March 2020 that it has signed an agreement to acquire a majority stake in EOS Group, the Driedorf, Germany-based premium sauna heater and spa controls manufacturer. The purchase price is EUR 19.7 million, based on a debt-free EOS Group valuation of EUR 25.5 million at signing. The deal represents Harvia\'s largest acquisition since its <a href="/article/harvia-ipo-nasdaq-helsinki-2018">2018 IPO</a> and gives the Finnish company a decisive foothold in the commercial and ultra-premium residential sauna segment. Full M&A history, brand portfolio, and investor calendar in our <a href="/harvia">Harvia News hub</a>.</p>
 
 <h2>What EOS Brings</h2>
-<p>EOS Saunatechnik, founded in 1947, is known across Europe and in hospitality circles as one of the premier manufacturers of commercial sauna heaters, infrared technology, and spa control systems. Its heaters and steam technology feature in many of the most demanding hospitality installations across German-speaking Europe, including hotel spas, medical wellness clinics, and public bathing facilities. EOS also brings a significant R&D capability in digital controls and a 100% German manufacturing footprint.</p>
+<p>EOS Group traces its founding to 1944 in Germany, when Willi Gunther started the company. Key milestones: start of sauna heater production in 1973; acquisition of the Kern Group (professional-market focus) in 1989; acquisition by Paragon Partners and renaming to EOS Saunatechnik GmbH in 2011; management buyout by Michael Meis and Rainer Kunz in 2013; acquisition of Neutron Geratetechnik GmbH (Spatronic electronics) and Kusatek GmbH (gas-fired heaters) in 2015. By 2020, EOS was the leading global premium sauna technology company with 75 years of history.</p>
 
-<p>For Harvia, the strategic rationale is twofold. EOS operates in the premium segment where Harvia's current offering is thinner, and EOS owns category-leading positions in infrared and spa controls that Harvia can cross-sell through its existing dealer networks. The combined group now covers virtually the entire sauna heater and controls pricing ladder, from entry-level Almost Heaven barrel sauna kits through mid-market Harvia electrics and up to EOS commercial installations.</p>
+<p>EOS is recognized across Europe and hospitality as one of the premier manufacturers of commercial sauna heaters, infrared technology, and spa control systems. Products feature in hotel spas, medical wellness clinics, and public bathing facilities across German-speaking Europe. The EOS product portfolio spans premium sauna heaters (including the S-line), "underbench" and "behindbench" hidden-installation heaters, sauna control units, steam generators, infrared hardware, colored light systems, sauna control apps, Kusatek gas-fired heaters (the only relevant gas-fired premium sauna heater producer globally), and Spatronic software-and-hardware control unit systems. All EOS products are developed and manufactured in Driedorf, Germany.</p>
 
-<blockquote>EOS is one of the most respected names in European wellness engineering. Putting Harvia, Almost Heaven, and EOS under one roof gives us positions at every level of the market.</blockquote>
+<h2>Market Positions After the Deal</h2>
 
-<h2>Deal Structure</h2>
-<p>Harvia is acquiring a majority stake with EOS's existing management, led by Managing Director Rainer Kunz, retaining minority ownership. The agreement includes an option for Harvia to acquire the remaining shares over time. EOS will continue to operate under its own brand and from its Driedorf, Germany headquarters, with EOS and Harvia continuing their existing independent dealer relationships.</p>
+<p>Post-transaction, EOS delivered Harvia the number-one premium sauna heater producer position worldwide, the number-one and only relevant gas-fired premium sauna heater producer globally, and leading premium positions in Germany (estimated 60% of premium segment), Austria, Russia, and the CIS countries. Combined Harvia plus EOS market share in the global sauna heater and component market rose from Harvia\'s pre-deal estimated 11% to 14%. EOS distribution covered more than 80 countries at time of deal.</p>
+
+<h2>EOS Key Financials</h2>
 
 <div class="callout">
-<strong>Deal snapshot:</strong> Target: EOS Group (Driedorf, Germany). Acquirer: Harvia Plc. Announced: February 2020. Structure: majority acquisition, minority roll-over by existing management. EOS products: premium electric heaters, infrared, spa control systems. Manufacturing: 100% Germany. Brand: retained. Combined Harvia Group employees: approximately 500.
+<strong>EOS Group key financials (pre-acquisition, pro forma, EUR million):</strong><br>
+<strong>2017:</strong> Revenue 17.2 / Adj. EBITDA 2.4 (13.8% margin) / Adj. EBIT 2.0 (12.1%)<br>
+<strong>2018:</strong> Revenue 17.5 (+2.1%) / Adj. EBITDA 3.0 (17.3%) / Adj. EBIT 2.7 (15.5%)<br>
+<strong>2019:</strong> Revenue 17.3 (-1.5%) / Adj. EBITDA 3.2 (18.5%) / Adj. EBIT 2.8 (16.5%)<br>
+EOS 2019 revenue by geography: Germany 37%, other European countries 37%, Russia 23%, other 3%. Revenue by product group: sauna technology 60%, control units 15%, other 25%. Employees: approximately 150. Total assets at end of 2019: EUR 10.8 million. Net debt: EUR 1.3 million.
+</div>
+
+<p>Harvia\'s 2019 standalone revenue was EUR 74.1 million (+19.6% YoY) with adjusted EBITDA of EUR 17.0 million (22.9%) and adjusted EBIT of EUR 13.9 million (18.7%). Harvia 2019 revenue by geography: Finland 33%, other European countries 23%, North America 16%, Germany 9%, Russia 8%, other Scandinavia 6%, other countries 6%. By product: sauna heaters 54%, sauna rooms 20%, accessories and services 13%, control units 8%, steam generators 5%.</p>
+
+<h2>Transaction Structure</h2>
+
+<p>Harvia acquired 78.6% of Kunz &amp; Meis Holding GmbH (the German holding company) and 80.0% of OOO EOS-Premium Spa (the Russian operative entity). Rainer Kunz retained 21.4% minority in Kunz &amp; Meis Holding GmbH, and Vasilij Sosenkov retained 20.0% in the Russian entity. Sellers held put options to sell remaining shares after certain conditions; Harvia held an option to purchase minority shares within 8 years. The transaction also covered the real estate property purchased from M. &amp; K. Immobilien GbR used by EOS. Harvia acquired the remaining 21.4% EOS German minority in July 2022, completing full ownership.</p>
+
+<p>The total purchase price of EUR 19.7 million was financed with a new long-term facility of EUR 20.0 million. Harvia\'s net debt rose from EUR 28.3 million at the end of 2019 to EUR 49.6 million after the deal, and long-term liabilities from EUR 38.7 million to EUR 61.1 million. Harvia\'s equity ratio adjusted to 46.0% (from 56.6%).</p>
+
+<h2>Synergies and Integration</h2>
+
+<p>Harvia projected annual synergies of at least EUR 2.2 million, to be fully realized by 2024. Identified synergy sources included cross-selling opportunities, streamlined product offering, economies of scale in sourcing, optimization of warehousing and logistics, and alignment of sales organization. One-off integration and post-closing costs of EUR 1.4 million were expected over 2020-2021. Illustrative combined Harvia revenue for 2019 pro forma was EUR 91.6 million with adjusted EBITDA of EUR 20.2 million.</p>
+
+<blockquote>Harvia is proud to announce the acquisition of a majority stake in EOS Group, the world\'s leading professional and premium sauna and spa solution manufacturer. The acquisition is perfectly in line with our strategy and supports our aim of increasing the value of average purchase, geographical expansion and improving our productivity.</blockquote>
+
+<p>The above quote is from Tapio Pajuharju, CEO of Harvia at the time of the transaction. Pajuharju continued: "Harvia\'s balance sheet and financial position are strong. After a thorough financial and risk analysis, we concluded that now is the right time to carry out this transaction, despite the global coronavirus situation." The deal closed in March-April 2020.</p>
+
+<p>Rainer Kunz, then-and-now Managing Director of EOS Group, added: "I\'m very satisfied with this transaction. Both Harvia and EOS Group are strong companies in their own segments and our professional and premium sauna and spa solutions offerings complement each other well. The financial position of EOS is strong, and we are debt-free."</p>
+
+<div class="callout">
+<strong>Deal snapshot:</strong> Target: EOS Group (Driedorf, Germany; Russian subsidiary). Acquirer: Harvia Plc. Announced: 18 March 2020. Closing: March-April 2020. Purchase price: EUR 19.7 million (78.6% of German operations, 80% of Russian operations). Debt-free valuation: EUR 25.5 million. EOS 2019 revenue: EUR 17.3 million. Employees: ~150. Synergies: EUR 2.2M annual by 2024. Minority roll-over: Rainer Kunz (German 21.4%), Vasilij Sosenkov (Russian 20%). Harvia completed full German EOS ownership in July 2022. <a href="/article/harvia-global-factory-network-manufacturing">EOS Driedorf factory</a> makes all EOS heaters, Kusatek gas heaters, Spatronic controls.
 </div>
 
 <h2>Why It Matters</h2>
-<p>KLAFS, the other major German premium sauna player, remained privately held in 2020 and was later acquired by Kohler in 2023. EOS's combination with Harvia created the only publicly traded sauna manufacturer with genuine depth in the commercial and premium residential categories. The deal also gave Harvia a German manufacturing base, a hedge against any future EU-UK or EU-US trade friction that might complicate Finnish-only production.</p>
+<p>KLAFS, the other major German premium sauna player, remained privately held in 2020 and was <a href="/article/kohler-klafs-sauna-acquisition">later acquired by Kohler in 2023</a>. EOS\'s combination with Harvia created the only publicly traded sauna manufacturer with genuine depth in the commercial and premium residential categories. The deal also gave Harvia a German manufacturing base, a hedge against any future EU-UK or EU-US trade friction that might complicate Finnish-only production. It also added the only relevant gas-fired premium sauna heater producer in the world to the Harvia portfolio. Harvia advised by Aventum Partners (financial), Borenius Attorneys and Noerr LLP (legal), Hill+Knowlton Strategies (communications).</p>
 
 <div class="bottom-line">
-<p>Harvia just bought the one brand that could have been an independent consolidator itself. With EOS in the fold, alongside Almost Heaven and the core Harvia business, the Finnish group now controls an outsized share of the European sauna heater stack, has manufacturing in three countries, and is positioned to compete for the largest hospitality installs in the world.</p>
+<p>Harvia just bought the one brand that could have been an independent consolidator itself. With EOS in the fold, alongside Almost Heaven and the core Harvia business, the Finnish group now controls an outsized share of the European sauna heater stack, has manufacturing in three countries, and is positioned to compete for the largest hospitality installs in the world. EOS is the only gas-fired premium heater producer globally, which alone makes the deal strategically unique.</p>
 </div>`,
     featured: false,
     trending: false,
@@ -273,27 +304,50 @@ export const articles: Article[] = [
     readingTime: 4,
     featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/06/Kirami_Harvia_1232marg.jpg',
     imageCaption: 'Kirami, the Forssa, Finland-based wood-fired hot tub manufacturer, joined Harvia Group in May 2021.',
-    body: `<p>Harvia Plc announced today the acquisition of Kirami Oy, a Forssa, Finland-based manufacturer of wood-heated and electric hot tubs. The purchase price is EUR 7 million at closing, with a delayed purchase price of up to EUR 4 million payable after three years based on Kirami's EBITDA performance. Harvia shares traded at an all-time high on the news. (All Harvia M&A activity, earnings, and stock chart in our <a href="/harvia">Harvia News hub</a>.)</p>
+    body: `<p>Harvia Plc announced and closed on 28 May 2021 the acquisition of Kirami Oy, a Sastamala, Finland-based manufacturer of wood-heated and electric still-water hot tubs. The purchase price is EUR 7 million at closing, with a delayed purchase price of up to EUR 4 million payable after three years based on Kirami\'s EBITDA performance. Harvia shares traded at an all-time high on the news. Kirami also owns 50% of Estonian production company Metagroupp OU and 51% of Kirami Sweden AB, both included in the transaction. (All Harvia M&A activity, earnings, and stock chart in our <a href="/harvia">Harvia News hub</a>.)</p>
 
 <h2>What Kirami Adds</h2>
-<p>Kirami is the largest Finnish manufacturer of still-water wood-fired hot tubs and a leader in European outdoor bathing. The company's product line spans traditional wood-heated tubs, electric-heated tubs, and accessories. Kirami manufactures in Forssa and sells across Europe, with an increasingly meaningful US footprint.</p>
+<p>Kirami is a family business established in 2001 in Sastamala, Finland, by the current owners CEO Mika Rantanen and CFO Eero Rantanen. The company is the world\'s largest manufacturer of wood-heated still-water hot tubs, delivering approximately 10,000 hot tubs per year across Finland and Europe at time of acquisition. In Kirami\'s home market of Finland, its still-water hot tubs hold approximately 40% market share. The company\'s main product is the wood-heated still-water hot tub, complemented by hot tub accessories, water sanitation products, outdoor saunas, and other products for outdoor living. Kirami has grown fast internationally, especially in Central Europe and Scandinavia.</p>
 
-<p>For Harvia, this is the first acquisition that moves the group beyond pure sauna and heater manufacturing. The logic is adjacency. Wood-fired hot tub buyers overlap substantially with barrel sauna buyers, and Almost Heaven has a ready-made North American dealer channel through which to introduce Kirami product. Harvia management flagged Kirami's North American growth potential as one of the central deal rationales.</p>
+<p>For Harvia, this is the first acquisition that moves the group beyond pure sauna and heater manufacturing. The logic is adjacency. Wood-fired hot tub buyers overlap substantially with barrel sauna buyers, and <a href="/article/harvia-almost-heaven-saunas-acquisition">Almost Heaven</a> has a ready-made North American dealer channel through which to introduce Kirami product. Harvia management flagged Kirami\'s North American growth potential as a central deal rationale.</p>
 
-<blockquote>Kirami is a category leader with a strong brand. Wood-fired hot tubs are a natural adjacency to our sauna business, and the US opportunity is meaningful.</blockquote>
-
-<h2>Deal Mechanics</h2>
-<p>Harvia paid EUR 7 million at closing, funded from cash on hand. The earnout structure pays up to EUR 4 million in 2024 based on Kirami's three-year EBITDA performance. Kirami will continue to operate under its own brand and from its Forssa facility, consistent with Harvia's approach to Almost Heaven and EOS. Kirami's management team is retained.</p>
+<h2>Kirami Key Financials</h2>
 
 <div class="callout">
-<strong>Deal snapshot:</strong> Target: Kirami Oy (Forssa, Finland). Acquirer: Harvia Plc. Announced and closed: May 2021. Consideration: EUR 7 million at close, up to EUR 4 million earnout. Brand: retained. Management: retained. Funding: cash on hand.
+<strong>Kirami financial history (EUR million):</strong><br>
+<strong>Fiscal year ended 9/2019:</strong> Net sales 8.6 / Growth +4.6% / Adj. EBITDA 0.5 (5.7% margin) / Adj. EBIT 0.2 (2.9%)<br>
+<strong>Fiscal year ended 9/2020:</strong> Net sales 16.0 / Growth +85.3% / Adj. EBITDA 2.3 (14.5%) / Adj. EBIT 2.1 (13.4%)<br>
+<strong>Last 12 months (5/2020 – 4/2021):</strong> Net sales 22.1 / Growth +38.4% / Adj. EBITDA 3.3 (15.0%) / Adj. EBIT 3.1 (14.1%)<br>
+Export share: 42% of revenue (Central Europe and Scandinavia key export markets). Employees: ~40 full-time in production (Sastamala) and sales (Turku), plus up to 60 during peak season April-August. Kirami fiscal year: October through September. Total assets at end of FY 2020: EUR 6.7 million. Net debt: EUR -0.9 million (net cash position).
+</div>
+
+<p>Harvia\'s 2020 standalone revenue was EUR 109.1 million. Illustrative combined Harvia revenue for 2020 pro forma post-Kirami was EUR 128.6 million with adjusted EBITDA of EUR 31.7 million. Harvia\'s net debt increased from EUR 31.9 million at the end of 2020 to EUR 38.3 million post-deal. Equity ratio was 40.4% (from 42.0% pro forma).</p>
+
+<h2>Deal Mechanics and Sellers</h2>
+
+<p>Harvia paid EUR 7 million at closing, funded from cash on hand. The earnout structure pays up to EUR 4 million after three years based on Kirami\'s EBITDA development (Harvia paid the EUR 2.5 million additional purchase price in December 2023, ahead of the originally scheduled 2024 date, to enable closer Group integration). Kirami continues to operate from its Sastamala facility, consistent with Harvia\'s approach to Almost Heaven and EOS. Kirami\'s management team is retained; top management committed to working for the company at least three years.</p>
+
+<p>Sellers: CEO Mika Rantanen and CFO/CIO Eero Rantanen, owning a total of 88% of Kirami Oy, plus minority shareholders owning 12%. After the transaction, Harvia owns 100% of Kirami Oy. Harvia advised by Ernst &amp; Young (financial), Borenius Attorneys (legal), Hill+Knowlton Strategies (communications).</p>
+
+<h2>Transaction Objectives</h2>
+
+<p>Harvia\'s stated objectives for the Kirami deal centered on four strategic priorities. First, expand the hot tub offering to electrically heated or hybrid still-water hot tubs, combining Harvia\'s electrical and water technology expertise with Kirami\'s hot tub products. Second, introduce wood-heated still-water hot tubs with cleaner combustion. Third, research the potential of cold water tubs as hot-cold alternation treatments had gained popularity. Fourth, grow Kirami sales further in Central Europe and Scandinavia via Harvia\'s distribution network, and cross-sell saunas and hot tubs for modern backyard living.</p>
+
+<p>Annual synergies of approximately EUR 1 million were expected, fully realized by end of 2023, from distribution, sourcing and logistics, and R&D. One-off integration and post-closing costs estimated at EUR 0.4 million over 2021 and 2022.</p>
+
+<blockquote>Harvia is very happy to announce the acquisition of Kirami. The company is an excellent strategic fit to Harvia\'s \'healing with heat\' philosophy, supporting our aim of increasing the value of average purchase, geographical expansion, and improving our productivity. Hot tubs are a new product category for Harvia, and they complement our modern backyard living &amp; wellness offering very well.</blockquote>
+
+<p>The above is Tapio Pajuharju, then-CEO of Harvia. Pajuharju continued: "Combining Harvia\'s electrical and water technology expertise with Kirami\'s hot tub products and unique expertise provides an additional competitive advantage. Lately, hot-cold alteration treatments have become very popular and Kirami is offering a good platform to further entertain this opportunity." Kirami\'s Mika Rantanen: "Our cultural fit with Harvia is strong, as both companies build on the wellness trend, focusing on high quality and user-friendliness of products as well as continuous innovation."</p>
+
+<div class="callout">
+<strong>Deal snapshot:</strong> Target: Kirami Oy (Sastamala, Finland, plus Estonian Metagroupp OU 50%, Kirami Sweden AB 51%). Acquirer: Harvia Plc. Announced and closed: 28 May 2021. Consideration: EUR 7 million at close; additional EUR 2.5 million earnout paid December 2023 (originally due 2024). Kirami LTM revenue: EUR 22.1 million. Employees: ~40 core + 60 peak season. Main product: wood-fired still-water hot tubs (world\'s largest producer). Output: ~10,000 hot tubs per year. Finnish market share: ~40%. Brand: retained. Management: retained. Funding: cash on hand.
 </div>
 
 <h2>Why It Matters</h2>
-<p>The Kirami deal signals a category expansion. Harvia has moved from pure sauna heaters (core Harvia business), to prefabricated barrel saunas (Almost Heaven), to commercial/premium saunas and infrared (EOS), and now to outdoor bathing more broadly (Kirami). Investor appetite was strong: Harvia shares closed at an all-time high the day the deal was announced, reflecting confidence in the M&A strategy.</p>
+<p>The Kirami deal signals a category expansion. Harvia has moved from pure sauna heaters (core Harvia business), to prefabricated barrel saunas (Almost Heaven), to commercial/premium saunas and infrared (<a href="/article/harvia-eos-group-acquisition-germany">EOS</a>), and now to outdoor bathing more broadly (Kirami). Investor appetite was strong: Harvia shares closed at an all-time high the day the deal was announced, reflecting confidence in the M&A strategy. Kirami\'s positioning in wood-fired still-water tubs is especially valuable for cabin, holiday home, and off-grid installations that are not suited for electrically heated products.</p>
 
 <div class="bottom-line">
-<p>Harvia just added a new vertical. Wood-fired hot tubs are a natural extension of the sauna experience, and Kirami is the category leader in a market where no other manufacturer has serious scale. Expect to see Almost Heaven Kirami hot tubs in Costco within a year.</p>
+<p>Harvia just added a new vertical. Wood-fired hot tubs are a natural extension of the sauna experience, and Kirami is the category leader in a market where no other manufacturer has serious scale. The combination unlocks Harvia\'s hybrid wood-plus-electric R&D potential, cold-plunge product development, and the cross-sell opportunity for complete backyard wellness setups through Harvia\'s Nordic, Central European, and now North American dealer channels.</p>
 </div>`,
     featured: false,
     trending: false,
@@ -312,37 +366,68 @@ export const articles: Article[] = [
     readingTime: 5,
     featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/06/Harvia_healingwithheat_257-1280x1707-1.jpg',
     imageCaption: 'ThermaSol, headquartered in Round Rock, Texas, manufactures steam showers, generators, digital controls, and smart-home shower components.',
-    body: `<p>Harvia Plc announced today that it has signed an agreement to acquire 100% of the shares of ThermaSol Steam Bath LLC, a Round Rock, Texas-based manufacturer of residential steam products and smart-shower controls. The purchase price is USD 30.4 million, subject to customary closing adjustments. The transaction is expected to close by the end of July. (Full Harvia M&A history, stock chart, and earnings calendar in our <a href="/harvia">Harvia News hub</a>.)</p>
+    body: `<p>Harvia Plc announced on 23 July 2024 (07:30 EEST) that it has signed an agreement the prior day (22 July U.S. Central Time) to acquire 100% of the shares of ThermaSol Steam Bath LLC, a Round Rock, Texas-based manufacturer of residential steam products and smart-shower controls. The purchase price is USD 30.4 million (EUR 27.9 million at the USD 1.09/EUR exchange rate), subject to customary closing adjustments. The transaction is expected to close by the end of July 2024. (Full Harvia M&A history, stock chart, and earnings calendar in our <a href="/harvia">Harvia News hub</a>.)</p>
 
 <h2>What ThermaSol Is</h2>
-<p>ThermaSol has been in continuous operation for over six decades and is the North American leader in residential steam shower systems. The product line includes steam generators, steam and shower heads, digital control units, smart shower components, and the ThermaTouch controls platform. ThermaSol also distributes indoor and outdoor saunas and traditional sauna heaters through its dealer network. Company headquarters and assembly operations are in Round Rock, Texas. Approximately 40 employees.</p>
+<p>ThermaSol was established in 1958 by the Altman family and is the leading manufacturer of high-end steam showers and steam rooms in the United States and one of the largest players in the U.S. residential steam solutions market. The company has been family-owned since founding. Head office and design and assembly facilities are in Round Rock, Texas, in the Austin area. ThermaSol has approximately 40 employees. Net sales totaled USD 14.4 million in 2023.</p>
 
-<p>ThermaSol's net sales in 2023 totaled USD 14.4 million. The company has been privately held since its founding.</p>
+<p>The ThermaSol product line includes steam generators, steam and shower heads, digital control units, smart shower components, and accessories. The company also distributes indoor and outdoor saunas as well as traditional sauna heaters through its dealer network. In these distributed product categories, ThermaSol was already a Harvia Group customer before the acquisition, so the two companies had a pre-existing commercial relationship.</p>
 
-<blockquote>ThermaSol is the premium steam brand in the United States. Combined with Harvia, we can offer the full sauna and steam experience to North American customers through a single supplier.</blockquote>
+<p>ThermaSol has built a nationwide distribution network of plumbing wholesalers and kitchen and bath showrooms, supplemented by advanced online marketing capabilities that reach residential customers directly. Over 65 years of operating history has produced strong expertise in steam solutions, with innovation driving the smart steam shower category in the U.S.</p>
 
-<h2>Why Harvia Is Paying USD 30.4 Million</h2>
-<p>The deal is strategically dense. Three things matter here:</p>
-
-<p><strong>US manufacturing and tariff insulation.</strong> ThermaSol's Texas assembly operation gives Harvia a second US factory alongside Almost Heaven's Renick, West Virginia plant. This matters as the US moves toward broader tariffs on European-origin goods; Harvia products assembled in Texas or West Virginia do not face the same duties as heaters landed from Muurame or Driedorf. Tariff policy in 2024 was ambiguous but trending toward restrictive.</p>
-
-<p><strong>Steam category entry.</strong> Harvia has historically been underweight in steam relative to traditional sauna. ThermaSol closes that gap and gives Harvia a premium-positioned steam brand to cross-sell through its existing North American dealer relationships. Residential steam is a meaningfully larger category than traditional sauna in several key US metro markets.</p>
-
-<p><strong>Smart-home controls.</strong> ThermaTouch and ThermaSol's digital platform are genuinely differentiated in the shower and steam category. The technology roadmap extends naturally to sauna controls, where Harvia has been investing in its own digital platform.</p>
+<h2>ThermaSol Key Financials</h2>
 
 <div class="callout">
-<strong>Deal snapshot:</strong> Target: ThermaSol Steam Bath LLC (Round Rock, TX). Acquirer: Harvia Plc. Announced: 23 July 2024. Consideration: USD 30.4 million, subject to customary adjustments. 2023 net sales: USD 14.4 million. Employees: approximately 40. Expected close: end of July 2024. Financing: EUR 20 million bullet loan plus cash.
+<strong>ThermaSol financial history (USD million):</strong><br>
+<strong>2021:</strong> Net sales 15.0 / Adj. EBITDA 2.8 (18.4% margin)<br>
+<strong>2022:</strong> Net sales 14.7 / Adj. EBITDA 2.7 (18.4%)<br>
+<strong>2023:</strong> Net sales 14.4 / Adj. EBITDA 2.5 (17.2%)<br>
+Total assets (31 Dec 2023): USD 9.4 million. Total liabilities: USD 1.9 million. Employees: ~40.
+</div>
+
+<p>Post-acquisition, illustrative combined Harvia 2023 pro forma revenue was EUR 163.7 million with adjusted EBIT of EUR 35.9 million (21.9% margin). Harvia\'s net debt will rise from EUR 37.6 million at the end of 2023 to EUR 64.9 million, and interest-bearing debt from EUR 75.4 million to EUR 95.4 million. Equity ratio adjusts to 43.9% (51.0% at end of 2023), and leverage rises to 1.5x (0.9x). All metrics remain well within Harvia\'s long-term targets.</p>
+
+<h2>Strategic Rationale: Three Deal Drivers</h2>
+
+<p>Harvia laid out three pillars for the ThermaSol acquisition at the July 2024 announcement.</p>
+
+<p><strong>Growth potential in steam.</strong> Steam provides an attractive growing market that strengthens Harvia\'s offering, since at the time of the deal about 90% of Harvia Group revenue came from traditional sauna solutions. The acquisition addressed Harvia\'s strategic aim to deliver the full sauna experience across sauna types. The U.S. steam market is forecast to grow 5% per year through 2028.</p>
+
+<p><strong>Complementary offering and capabilities.</strong> ThermaSol\'s expertise in steam solutions provides an excellent strategic fit with Harvia\'s strong traditional sauna offering. ThermaSol\'s nationwide plumbing wholesaler and kitchen-and-bath showroom distribution network expanded and complemented Harvia\'s existing U.S. distribution footprint. Location near Austin, Texas serves as an additional hub for Harvia\'s North American operations, now covering both the Southeastern U.S. (Lewisburg, West Virginia) and the Texas-Central corridor.</p>
+
+<p><strong>Market consolidation.</strong> The U.S. steam market was already consolidated at the time of the deal, making organic entry without an existing presence challenging. ThermaSol, as one of the largest players in the residential steam market, represented the cleanest available consolidation play.</p>
+
+<h2>The North American Sauna Market Context</h2>
+
+<p>The North American sauna market size is approximately USD 800 million (2023). Growth has averaged ~15% per year from 2019 through 2023. The installed base of 1 to 1.5 million saunas means only about 1% of U.S. households have a sauna. By application: ~65% residential, ~35% commercial. By type: traditional 40 to 45%, infrared 35 to 40%, steam ~20%. ThermaSol has strong capabilities in steam, a category where Harvia\'s pre-deal business was small. Harvia\'s current stronghold is traditional residential, but infrared (~35-40% of the market) and steam (~20%) were both flagged as organic and inorganic growth priorities.</p>
+
+<h2>Management and Integration</h2>
+
+<p>As part of her role as Harvia\'s Head of Region North America and President of Harvia US Inc., Jennifer Thayer became CEO of ThermaSol on closing. (Effective 1 November 2025, Thayer was succeeded in the North America role by <a href="/article/harvia-nathan-hagemeier-north-america-president">Nathan Hagemeier</a>.) The seller in the transaction, ThermaSol\'s then-CEO and owner Mitch Altman, moved to a Strategic Adviser role with Harvia to support transition of the business and management of customer relations.</p>
+
+<blockquote>Harvia is very happy to announce the acquisition of ThermaSol. ThermaSol\'s high-end residential steam offering is an excellent fit to our full sauna experience portfolio. The acquisition supports our strategic focus areas of delivering the full sauna experience, winning in strategically important markets, and taking an active consolidator role in the industry through M&A. In addition, the warm, family company culture combined with the ambition to provide leading solutions to the market, resonate well with our own.</blockquote>
+
+<p>The above is Matias Jarnefelt, CEO of Harvia. ThermaSol\'s Mitch Altman added: "Harvia\'s acquisition of ThermaSol marks a transformative milestone, creating the world\'s foremost health and wellness company in the sauna market. United, we will promote relaxation, vitality, and well-being on a global scale."</p>
+
+<div class="callout">
+<strong>Deal snapshot:</strong> Target: ThermaSol Steam Bath LLC (Round Rock, TX). Acquirer: Harvia Plc. Signed: 22 July 2024 (U.S. Central). Announced: 23 July 2024 (Helsinki). Consideration: USD 30.4 million (EUR 27.9 million). 2023 net sales: USD 14.4 million. Employees: ~40. Closed: 31 July 2024. Financing: EUR 20 million bullet loan plus cash. Synergies: EUR 1.7 million annually by end of 2027 (sourcing, logistics, marketing, cross-sell, distribution, common management). One-off costs: EUR 1.4 million over 2024-2026. Advisors: Fredericks Michael &amp; Co. (financial), Borenius Attorneys and Vela Wood (legal), Hill &amp; Knowlton / Burson (communications).
 </div>
 
 <h2>Financing</h2>
-<p>Harvia will finance the acquisition with a EUR 20 million bullet loan and cash on hand. Harvia's balance sheet remains conservative, with net debt to EBITDA staying well below the 2.5x long-term target even after closing. The company reaffirmed its long-term financial targets: 10% average annual revenue growth, adjusted operating margin above 20%, net debt/adjusted EBITDA below 2.5x.</p>
+<p>Harvia financed the acquisition with a EUR 20 million bullet loan and cash on hand. Harvia\'s balance sheet remained conservative, with net debt to EBITDA staying well below the 2.5x long-term target even after closing. The company reaffirmed its long-term financial targets: 10% average annual revenue growth, adjusted operating margin above 20%, net debt to adjusted EBITDA below 2.5x.</p>
 
-<div class="whats-next">
-<p>Closing is expected by end of July 2024, subject to customary conditions. ThermaSol financials will begin consolidating in Harvia's Q3 2024 results. The integration thesis calls for cross-selling ThermaSol products through Harvia and Almost Heaven dealer channels, and Harvia and EOS products through ThermaSol's US dealer network.</p>
-</div>
+<h2>What Happened Next</h2>
+
+<p>The deal closed 31 July 2024 as planned. ThermaSol began consolidating in Harvia\'s Q3 2024 financial results on 7 November 2024. <a href="/article/harvia-record-q1-revenue-thermasol-integration">Q1 2025 North American revenue grew 58.8%</a> year over year to EUR 21.8 million, driven heavily by ThermaSol consolidation plus continuing organic Almost Heaven momentum. In Q3 2025, Harvia announced the <a href="/article/thermasol-solaris-solar-powered-sauna-time-best-invention-2025">ThermaSol Solaris solar-powered sauna was named one of TIME Magazine\'s Best Inventions of 2025</a>, and launched the <a href="/article/thermasol-astra-fortis-ombra-premium-sauna-collection">ThermaSol Astra/Fortis/Ombra premium sauna collection</a>.</p>
+
+<p>By the time Harvia reported <a href="/article/harvia-q4-2025-fy-2025-results">full-year 2025 results on 12 February 2026</a>, Järnefelt was describing the deal as largely complete and contributing as expected.</p>
+
+<blockquote>"We are pleased with ThermaSol. It\'s providing us a solid base." <cite>— Matias Järnefelt, CEO, Harvia Q4 2025 earnings call, 12 February 2026</cite></blockquote>
+
+<p>On the same call, he flagged the next US category in Harvia\'s crosshairs, making clear ThermaSol was not the final US bolt-on: "One of the prime candidates is infrared sauna business in the United States." That positions ThermaSol as a platform, not an endpoint.</p>
 
 <div class="bottom-line">
-<p>Harvia just paid about 2.1x trailing revenue for a domestic US steam platform that will compound its North American growth and insulate it from tariff risk. This is exactly the kind of adjacency the company's M&A thesis calls for. If cross-selling executes, the deal will look cheap in hindsight.</p>
+<p>Harvia paid approximately 2.1x trailing revenue for a domestic US steam platform that is already compounding its North American growth and insulating the Group from tariff risk on European-origin heaters. This is exactly the kind of adjacency the CMD 2024 M&A thesis called for. Year-one execution has exceeded the original plan: Solaris on the TIME list, Astra/Fortis/Ombra extending ThermaSol beyond steam into full premium sauna, and North American revenue growth accelerating rather than decelerating. The deal already looks cheap in hindsight.</p>
 </div>`,
     featured: false,
     trending: false,
@@ -458,7 +543,13 @@ export const articles: Article[] = [
 <h2>All Regions Contributing</h2>
 <p>Q3 was the first quarter since 2023 in which all four reporting regions posted positive growth simultaneously. North America rebounded to 24% growth, up sharply from softer Q2 performance. Northern Europe grew 14.8%, returning to double-digit growth for the first time since early 2023 after an extended period of Finnish consumer weakness. Continental Europe grew 10.1%, supported by commercial and hospitality demand across Germany, France, and the UK. APAC & MEA maintained its multi-year trajectory with modest Q3 growth and a 25.4% year-to-date figure.</p>
 
-<p>Adjusted operating profit was EUR 8.8 million, or 19.1% of revenue, up both in absolute terms and as a share of revenue versus Q3 2024. The trajectory indicates continued progress toward Harvia's long-term margin target above 20%.</p>
+<p>CEO Matias Järnefelt framed the North American snapback directly on the 6 November webcast.</p>
+
+<blockquote>"Modest quarter two in North America. Now, returning to a solid double-digit growth. North America, of course, we are very pleased that it's back on a strong growth trajectory." <cite>— Matias Järnefelt, CEO, Harvia Q3 2025 earnings call, 6 November 2025</cite></blockquote>
+
+<p>On Northern Europe, Järnefelt was equally direct about the Finnish recovery that had eluded Harvia for two years: "Finland, that has been also struggling already quite some time, actually turned back to growth." Northern Europe represented 24% of total Q3 revenue.</p>
+
+<p>Adjusted operating profit was EUR 8.8 million, or 19.1% of revenue, up both in absolute terms and as a share of revenue versus Q3 2024. The trajectory indicates continued progress toward Harvia's long-term margin target above 20%. CFO Ari Vesterinen flagged the EPS expansion: "Earnings per share increased about 12% now." He was careful to remind analysts that 2025 is "an exceptionally high investment year. We are investing for the growth," which explains why operating free cash flow ran lower than a year ago.</p>
 
 <div class="callout">
 <strong>Q3 2025 key figures:</strong> Revenue EUR 46.0M (+18.8% YoY; +22.3% at comparable FX). Organic growth: +16.1%. Operating profit EUR 7.7M. Adjusted operating profit EUR 8.8M (19.1% margin). EPS growth: +12%. North America +24%. Northern Europe +14.8%. Continental Europe +10.1%. APAC & MEA steady, YTD +25.4%.
@@ -467,13 +558,21 @@ export const articles: Article[] = [
 <h2>Why the Market Moved</h2>
 <p>Three factors explain the positive Q3 stock reaction. First, the Northern European return to double-digit growth was not in consensus forecasts, which had modeled a slower Finnish recovery. Second, organic growth of 16.1% confirmed that Harvia's US platform is now driving durable organic revenue, not just the ThermaSol inorganic contribution. Third, the margin expansion back toward the 20% long-term target reassured analysts who had questioned margin trajectory during the ThermaSol integration.</p>
 
-<blockquote>Q3 was a clean print. Growth is strong, it is broadening, margins are expanding, and ThermaSol has shifted from integration story to contribution story.</blockquote>
+<p>Järnefelt used the call to reiterate his thesis on the category's macro resilience.</p>
+
+<blockquote>"The story of sauna resonates extremely well, almost no matter what the economic times are." <cite>— Matias Järnefelt, CEO, Harvia Q3 2025 earnings call, 6 November 2025</cite></blockquote>
+
+<h2>Tariffs</h2>
+<p>Asked about the margin impact of US tariffs on European-manufactured heaters, Järnefelt acknowledged the drag and described management's posture as measured. "Tariffs also apply higher cost of goods sold due to tariffs and currency exchange rates," he said. On the pricing response, he added: "It's also a little bit of a balancing act, what's the right strategy and right pace?" (Context: <a href="/article/sauna-brands-tariff-exposure-analysis">tariff exposure analysis across the sauna industry</a>.)</p>
 
 <h2>ThermaSol Update</h2>
-<p>ThermaSol continues to contribute meaningfully to North American revenue. Management described the cross-selling program as maturing, with ThermaSol steam products increasingly being sold alongside Harvia, Almost Heaven, and EOS sauna products through overlapping dealer channels. The ThermaTouch smart-shower platform is also beginning to inform Harvia's digital controls roadmap, which remains a priority investment area.</p>
+<p>ThermaSol continues to contribute meaningfully to North American revenue. Management described the cross-selling program as maturing, with ThermaSol steam products increasingly being sold alongside Harvia, Almost Heaven, and EOS sauna products through overlapping dealer channels. A telling cross-pollination: Järnefelt noted that "the ThermaSol saunas that we launched will be equipped with EOS heaters," a concrete example of the intra-group product architecture Harvia has been building. The ThermaTouch smart-shower platform is also beginning to inform Harvia's digital controls roadmap, which remains a priority investment area. Alongside Q3 results, Harvia also announced that <a href="/article/thermasol-solaris-solar-powered-sauna-time-best-invention-2025">the ThermaSol Solaris solar-powered sauna was named one of TIME Magazine's Best Inventions of 2025</a>, and launched <a href="/article/thermasol-astra-fortis-ombra-premium-sauna-collection">a new ThermaSol premium sauna collection (Astra, Fortis, Ombra)</a>. <a href="/article/harvia-nathan-hagemeier-north-america-president">Nathan Hagemeier was also appointed Head of Region, North America</a>, succeeding Jennifer Thayer effective 1 November 2025.</p>
 
 <h2>Fenix Controller Launch</h2>
-<p>CEO Matias Järnefelt spent meaningful airtime on the call introducing <a href="/harvia/products/xenio-fenix">the new Harvia Fenix control panel</a>, described as "an exciting 4.3-inch full touchscreen product" with preset scenes (mild, cozy, hot), WiFi, over-the-air firmware updates, and critically, backward-compatible wiring with the large Xenio installed base. Sales started in Q3. The product would go on to deliver "really great performance" in Q4, per management's prepared remarks on the Q4 call.</p>
+<p>CEO Matias Järnefelt spent meaningful airtime on the call introducing <a href="/article/harvia-fenix-controller-myharvia-2-app-launch">the new Harvia Fenix control panel and MyHarvia 2 app</a>, described as "an exciting 4.3-inch full touchscreen product" with preset scenes (mild, cozy, hot), WiFi, over-the-air firmware updates, and critically, backward-compatible wiring with the large Xenio installed base. Järnefelt emphasized the intelligence baked into the device: "It's smart, so actually it learns about your sauna." He also pitched the paired app as "the MyHarvia smartphone app and definitely the most advanced sauna app there." Sales started in Q3. The product would go on to deliver "really great performance" in Q4, per management's prepared remarks on the Q4 call. Harvia also sponsored the <a href="/article/aufguss-world-championships-2025-verona-harvia-eos-sponsor">2025 Aufguss World Championships in Verona, Italy</a>, with the event sauna powered by an EOS heater.</p>
+
+<h2>North America Factory Question</h2>
+<p>One of the more substantive strategic disclosures on the call: Järnefelt confirmed management is evaluating whether to add a sauna cabin factory in North America to sit alongside the existing Almost Heaven operation in Lewisburg, West Virginia. "We are assessing what potentially could be the right time for us to have a sauna cabin factory in that region," he said. He did not commit to a timeline.</p>
 
 <h2>Capital Return</h2>
 <p>The second installment of Harvia's 2024 dividend (EUR 0.37 per share) was paid on 28 October 2025, with a record date of 21 October. Harvia's net debt to adjusted EBITDA remained below the 2.5x long-term target.</p>
@@ -507,28 +606,50 @@ export const articles: Article[] = [
 <h2>Headline Figures</h2>
 <p>The 2025 full-year print leaves Harvia within striking distance of the EUR 200 million annual revenue threshold that management has flagged as a medium-term milestone. At comparable exchange rates, the company grew 16.0% for the year, comfortably above the 10% long-term target. Operating free cash flow remained strong, with Q4 cash flow of EUR 13.3 million reflecting continued working capital discipline.</p>
 
-<p>Q4 was notable for both the absolute revenue record and for the distribution of growth. At comparable FX, Q4 revenue was up 10.2%, and organic growth contributed a meaningful share. Adjusted operating profit of EUR 10.5 million represented 19.5% of Q4 revenue. Operating free cash flow of EUR 13.3 million was the highest Q4 on record.</p>
+<p>Q4 was notable for both the absolute revenue record and for the distribution of growth. On the 12 February webcast, CFO Ari Vesterinen framed the period bluntly.</p>
+
+<blockquote>"Quarter four 2025 was the strongest sales quarter really in the history of the company." <cite>— Ari Vesterinen, CFO, Harvia Q4 2025 earnings call, 12 February 2026</cite></blockquote>
+
+<p>At comparable FX, Q4 revenue was up 10.2%. CEO Matias Järnefelt noted the growth was broad-based: "Our revenue increased by 5.3% to EUR 53.7 million, and we delivered positive growth in all regions." Adjusted operating profit of EUR 10.5 million represented 19.5% of Q4 revenue. Operating free cash flow of EUR 13.3 million was the highest Q4 on record.</p>
 
 <div class="callout">
 <strong>FY 2025 key figures:</strong> Revenue EUR 198.9M (+13.5% YoY; +16.0% at comparable FX). Organic revenue growth: 14.4% at comparable FX. Operating profit EUR 38.3M (19.3% margin). Adjusted operating profit EUR 39.1M (19.6% margin). EPS EUR 1.41 (+9.1%). Q4 2025 revenue EUR 53.7M (all-time quarterly record). Operating free cash flow Q4 EUR 13.3M. Net debt EUR 57.7M. Leverage: 1.2x. Employees: 735 (+5.6% YoY).
 </div>
 
 <h2>Regional Performance</h2>
-<p>North America slowed to 2.8% Q4 growth, primarily due to the weaker US dollar against the euro during the quarter. Underlying demand remained solid. Northern Europe grew 11.6% in Q4, its third consecutive quarter of growth after two years of decline. Continental Europe made solid progress in Germany, France, and the UK. APAC & MEA posted modest Q4 growth but delivered 25.4% for the full year, reinforcing the region's multi-year trajectory as a material revenue contributor.</p>
+<p>North America slowed to 2.8% Q4 growth, primarily due to the weaker US dollar against the euro during the quarter. Underlying demand in local currency was stronger: Järnefelt noted that "North America in local currencies grew double-digit" and pointed out that the comparison period was tough, with Q4 2024 North America up more than 60%. Northern Europe grew 11.6% in Q4, delivering what Järnefelt called "the second consecutive double-digit growth quarter" and making it "Harvia's fastest-growing region" for the period. Continental Europe made solid progress in Germany, France, and the UK. APAC & MEA posted modest Q4 growth but delivered 25.4% for the full year, reinforcing the region's multi-year trajectory as a material revenue contributor.</p>
 
-<blockquote>We closed 2025 at a record quarterly revenue and reached an important profitability milestone. The business is operating near our long-term targets on both growth and margin. We remain open to further M&A where value is clear.</blockquote>
+<h2>The Margin Story</h2>
+<p>Management did not gloss over the miss against the 20% adjusted EBIT target.</p>
+
+<blockquote>"We didn't quite reach the financial targeted 20% adjusted EBIT level." <cite>— Ari Vesterinen, CFO, Harvia Q4 2025 earnings call, 12 February 2026</cite></blockquote>
+
+<p>Järnefelt framed the path back to the target through pricing and operating leverage rather than cost-cutting. "We can push our gross margin through price increases, which we have been actually doing during 2025," he said. And: "We see clear operational leverage. So when we have the volumes and volumes come through," margin expansion should follow. Vesterinen added that "the profitability, relative profitability improved compared to last year's Q4 substantially."</p>
 
 <h2>Capital Return and Dividend</h2>
-<p>Harvia's board proposed a total 2025 dividend of EUR 0.77 per share, up from the EUR 0.73 paid for 2024. The dividend will be paid in two installments, EUR 0.39 per share in April 2026 and EUR 0.38 per share in October 2026. Leverage ended the year at 1.2x net debt to EBITDA, comfortably below the 2.5x long-term target.</p>
+<p>Harvia's board proposed a total 2025 dividend of EUR 0.77 per share, up from the EUR 0.73 paid for 2024. The dividend will be paid in two installments, EUR 0.39 per share in April 2026 and EUR 0.38 per share in October 2026. Leverage ended the year at 1.2x net debt to EBITDA, comfortably below the 2.5x long-term target. Vesterinen noted Harvia finished the year with "cash or cash equivalents, EUR 45 million on our accounts."</p>
 
-<h3>M&A Posture</h3>
-<p>CEO Matias Jarnefelt, in prepared remarks, reiterated that Harvia remains open to further acquisitions where strategic fit and valuation are clear. No specific targets were discussed. The company's integration of <a href="/article/harvia-thermasol-acquisition-announcement">ThermaSol</a> is now considered largely complete, and the North American platform is mature enough to absorb another bolt-on.</p>
+<p>The dividend increase was smaller than some analysts had modeled. Järnefelt explained the deliberate caution: "We want to reserve firepower as the market is growing, and we have plenty of opportunities."</p>
+
+<h2>M&A Back on the Table</h2>
+<p>The most substantive forward-looking commentary on the call came on M&A. Järnefelt was direct about Harvia's position as a consolidator in a fragmented global category.</p>
+
+<blockquote>"Harvia is in a very interesting position. It has the right to play and right to win as a consolidator." <cite>— Matias Järnefelt, CEO, Harvia Q4 2025 earnings call, 12 February 2026</cite></blockquote>
+
+<p>Asked specifically what is on the acquisition wish list, Järnefelt named the category first: "One of the prime candidates is infrared sauna business in the United States." He also flagged adjacent categories: "We are looking at other significant-sized markets in categories such as cold wellness, digital wellness." The integration of <a href="/article/harvia-thermasol-acquisition-announcement">ThermaSol</a> is now considered largely complete, with Järnefelt noting: "We are pleased with ThermaSol. It's providing us a solid base."</p>
+
+<p>The strategic ambition was unambiguous. "We wanna be an aggressive, offensive market leader that shapes the global sauna market," Järnefelt said, drawing a brand comparison that would have been hard to imagine from a Finnish industrial company a decade ago: "Harvia could be a brand like Google is. Harvia would be the icon of sauna."</p>
+
+<h2>The US Thesis</h2>
+<p>Järnefelt spent notable airtime articulating why North America remains the single biggest long-term growth opportunity. "We see a market with significant growth potential. We believe there is more than 10 million saunas" in the US installed base, he said. He also framed the competitive positioning for Almost Heaven, Harvia's US-made barrel sauna brand: "Almost Heaven is the brand which you could consider like the IKEA of the saunas." And on the broader category: "Sauna is becoming much more of a volume category."</p>
+
+<p>On macro resilience, Järnefelt reached back to a framing he has used in multiple prior calls: "I think that sauna is a strong trend that even defies the kind of environment outside the sauna market."</p>
 
 <h3>Product Callouts</h3>
-<p>Management highlighted two product lines in the Q4 2025 prepared remarks: the <a href="/harvia/products/xenio-fenix">Harvia Fenix control panel</a>, which began sales in Q3 2025 and "shown really great performance during quarter four," and the newly launched <a href="/harvia/products/myharvia-sensor">MyHarvia Smart Sauna Sensor</a>, framed as "a completely new category never seen in the sauna market before." The core heater line, anchored by the <a href="/harvia/products/cilindro-electric">Cilindro</a> and <a href="/harvia/products/virta-pro">Virta Pro</a>, drove the 13% heating-equipment growth.</p>
+<p>Management highlighted two product lines in the Q4 2025 prepared remarks: the <a href="/harvia/products/xenio-fenix">Harvia Fenix control panel</a>, which began sales in Q3 2025 and, per Järnefelt, "shown really great performance during quarter four," and the newly launched <a href="/harvia/products/myharvia-sensor">MyHarvia Smart Sauna Sensor</a>. Järnefelt framed the sensor as "a completely new category never seen in the sauna market before. So this is a smart sauna sensor" that "really turns any sauna into a smart sauna, whether it's a wood-burning sauna without electricity" or an electric unit. The core heater line, anchored by the <a href="/harvia/products/cilindro-electric">Cilindro</a> and <a href="/harvia/products/virta-pro">Virta Pro</a>, drove the 13% heating-equipment growth.</p>
 
 <h2>2026 Outlook</h2>
-<p>Harvia did not provide specific numeric guidance for 2026, consistent with its disclosure practice. Management's qualitative commentary pointed to continued growth in North America, further recovery in Northern Europe, steady growth in Continental Europe, and continued momentum in APAC & MEA. Margin progression back toward the 20% long-term target is expected to continue.</p>
+<p>Harvia did not provide specific numeric guidance for 2026, consistent with its disclosure practice. Management's qualitative commentary pointed to continued growth in North America, further recovery in Northern Europe, steady growth in Continental Europe, and continued momentum in APAC & MEA. Margin progression back toward the 20% long-term target is expected to continue. On currency, Vesterinen confirmed Harvia's unhedged posture: "Harvia has never bought protection against the currency changes," noting that available hedges "typically give protection only about 6-12 months on decent terms."</p>
 
 <div class="whats-next">
 <p>Harvia's 2026 AGM is scheduled for 15 April 2026 in Helsinki. The Q1 2026 interim report is scheduled for 7 May 2026. The first installment of the 2025 dividend (EUR 0.39 per share) has a record date of 17 April 2026 and a payment date of 24 April 2026.</p>
@@ -572,7 +693,11 @@ export const articles: Article[] = [
 <h2>Auditor</h2>
 <p>Deloitte Oy was re-elected as the company's auditor, with Johan Groop serving as Responsible Auditor. Auditor fees are to be paid based on invoice.</p>
 
-<blockquote>The authorizations give us the flexibility to continue our growth strategy, including further M&A where the right target presents itself.</blockquote>
+<p>The buyback and issuance authorizations keep Harvia's M&A optionality live. On the Q4 2025 earnings call two months earlier, CEO Matias Järnefelt was explicit about the company's posture as a consolidator in the global sauna category.</p>
+
+<blockquote>"Harvia is in a very interesting position. It has the right to play and right to win as a consolidator." <cite>— Matias Järnefelt, CEO, Harvia Q4 2025 earnings call, 12 February 2026</cite></blockquote>
+
+<p>Asked on the same call what is on the acquisition wish list, Järnefelt named the category first: "One of the prime candidates is infrared sauna business in the United States." He also named adjacent wellness categories, telling analysts: "We are looking at other significant-sized markets in categories such as cold wellness, digital wellness."</p>
 
 <h2>Why It Matters</h2>
 <p>The AGM outcomes are essentially routine, which is the point. Harvia's governance has stabilized around a well-understood cadence: two-installment dividends, annual share authorizations roughly sized to standard Nordic norms, continuity on the audit side. The addition of Martin Richter, the first new director in several years, brings fresh perspective without disturbing the existing board dynamic. Shareholders approved every board proposal.</p>
@@ -853,7 +978,11 @@ export const articles: Article[] = [
 
 <p>The relevant HTS codes span electric sauna heaters (8516.29, with a base duty of 3.7%), prefabricated sauna cabins (9406.10, base duty 2.6%), and various thermally modified timber classifications under Chapter 44. The layering of broad EU tariffs on top of existing product-specific duties is what's creating the squeeze.</p>
 
-<blockquote>This doesn't just affect finished saunas. It hits the raw materials, the heaters, the controls. Every layer of the supply chain feels it.</blockquote>
+<p>The largest European manufacturer selling into the U.S. market has publicly confirmed the margin impact. On Harvia\'s <a href="/article/harvia-q3-2025-interim-results">Q3 2025 earnings call</a>, CEO Matias Järnefelt acknowledged that the tariff regime was lifting unit costs for the company\'s U.S. business.</p>
+
+<blockquote>"Tariffs also apply higher cost of goods sold due to tariffs and currency exchange rates." <cite>— Matias Järnefelt, CEO, Harvia Plc, Q3 2025 earnings call, 6 November 2025</cite></blockquote>
+
+<p>Asked how aggressively the company would pass those costs through, Järnefelt described the posture as cautious: "It\'s also a little bit of a balancing act, what\'s the right strategy and right pace?" In the Q4 2025 call three months later, he confirmed Harvia had nudged prices: "We can push our gross margin through price increases, which we have been actually doing during 2025."</p>
 
 <p>The tariffs do not currently apply to Canadian-manufactured products or to infrared sauna panels, which are predominantly sourced from China and South Korea under different HTS classifications.</p>
 
@@ -938,7 +1067,11 @@ export const articles: Article[] = [
 
 <p>Both segments are growing, but at different rates and in different channels. Traditional saunas are growing faster in the <a href="/article/outdoor-sauna-demand-surges-north-america">custom-built residential</a> and commercial segments, while infrared saunas dominate the direct-to-consumer and ecommerce channels.</p>
 
-<blockquote>The framing of infrared vs. traditional as a winner-take-all contest misses the point entirely. These products solve different problems for different people.</blockquote>
+<p>One data point worth flagging: on the <a href="/article/harvia-q4-2025-fy-2025-results">Harvia Q4 2025 earnings call</a> on 12 February 2026, CEO Matias Järnefelt explicitly identified US infrared as the next category Harvia wants to consolidate. That is a meaningful strategic signal from the largest publicly traded sauna company in the world about where the puck is moving.</p>
+
+<blockquote>"One of the prime candidates is infrared sauna business in the United States." <cite>— Matias Järnefelt, CEO, Harvia Plc, Q4 2025 earnings call, 12 February 2026</cite></blockquote>
+
+<p>Järnefelt added that Harvia is also evaluating "other significant-sized markets in categories such as cold wellness, digital wellness" — a reminder that the wellness stack infrared brands are competing on (thermal therapy, recovery, at-home convenience) is increasingly bundled, not siloed.</p>
 
 <h2>Consumer Motivation</h2>
 <p>Purchase motivation data consistently shows strikingly different profiles between the two categories.</p>
@@ -1145,6 +1278,13 @@ export const articles: Article[] = [
 <h3>Retail and Distribution Impact</h3>
 <p>The adjacency is reshaping retail strategy. Dealers and showrooms that carry both sauna and cold plunge products report higher average transaction values. The categories sell better together than apart.</p>
 
+<h3>What Harvia Is Doing About It</h3>
+<p>The largest publicly traded sauna company is explicitly eyeing cold wellness as a category to consolidate. On the <a href="/article/harvia-q4-2025-fy-2025-results">Harvia Q4 2025 earnings call</a>, CEO Matias Järnefelt named it directly in the M&A wish list.</p>
+
+<blockquote>"We are looking at other significant-sized markets in categories such as cold wellness, digital wellness." <cite>— Matias Järnefelt, CEO, Harvia Plc, Q4 2025 earnings call, 12 February 2026</cite></blockquote>
+
+<p>That positions Harvia as a potential strategic acquirer for cold plunge players, which is a different competitive dynamic than Dundalk building its own Arctic and Glacier Plunge products in-house. A Harvia-backed cold plunge brand with Harvia\'s European distribution reach and MyHarvia digital platform would immediately become the scaled contrast-therapy player in the market.</p>
+
 <p>The cold plunge phenomenon is far from peaking, and its continued growth will likely remain one of the strongest tailwinds for the sauna industry over the next several years.</p>`,
     featured: false,
     trending: false,
@@ -1236,7 +1376,11 @@ export const articles: Article[] = [
 
 <p>For longevity-focused investors, this data is significant. Few consumer-facing interventions can point to large-scale, long-duration epidemiological evidence of this quality. Research on the <a href="/article/collective-sauna-rituals-mental-wellbeing-research">mental health and social benefits of communal sauna use</a> has since added another dimension to the evidence base.</p>
 
-<blockquote>Sauna is the rare longevity intervention that has both a decades-long evidence base and a consumer adoption curve that's already accelerating without any help from the medical establishment.</blockquote>
+<p>The category's resilience is something Harvia CEO Matias Järnefelt has quantified for public market investors on multiple earnings calls.</p>
+
+<blockquote>"The story of sauna resonates extremely well, almost no matter what the economic times are." <cite>— Matias Järnefelt, CEO, Harvia Plc, Q3 2025 earnings call, 6 November 2025</cite></blockquote>
+
+<p>He has extended the point more aggressively: "I think that sauna is a strong trend that even defies the kind of environment outside the sauna market," Järnefelt told analysts on the <a href="/article/harvia-q4-2025-fy-2025-results">Q4 2025 earnings call</a> on 12 February 2026. For a longevity thesis, that kind of macro insulation is what separates a durable category from a fitness fad.</p>
 
 <h2>The Market Opportunity</h2>
 <p>What makes sauna attractive from an investment perspective is the convergence of several favorable dynamics: strong and growing consumer demand, multiple scalable business models (manufacturing, retail, venues, digital), defensible brand-building opportunities, and a long runway for category expansion.</p>
@@ -1594,7 +1738,7 @@ export const articles: Article[] = [
 <p><strong><a href="/article/sauna360-chinese-manufacturing-nordic-illusion">Sauna360 / TyloHelo</a></strong> (Sweden/Finland): The parent company of Tylo, Helo, Finnleo, and Amerec faces the worst tariff exposure of any major sauna brand, precisely because its Nordic branding obscures Chinese manufacturing. U.S. customs import records show Sauna360 Inc. receives the vast majority of its prefabricated sauna kit shipments from two Chinese manufacturers, Wuxi Sfactor Co. and Changzhou Sfactor Co., both based in Jiangsu province. A 2022 Enterprise Minnesota report confirmed the arrangement, quoting company management saying Sauna360 "manufactures most of its free-standing sauna units in China," with those kits shipped directly to consumers for in-home assembly. At 145% tariffs, a container that cost $5,000 to ship from China in 2019 now carries a tariff bill many times the product value. Custom-built units are produced at the company's Cokato, Minnesota plant, and heaters still come from Finland and Sweden, but those segments represent a small share of volume. Sauna360 was acquired by Masco's Watkins Wellness division in July 2023 and does not publish manufacturing disclosures.</p>
 
 <h2>High Exposure: Finnish and Estonian Manufacturers (15% tariff)</h2>
-<p><strong><a href="/harvia">Harvia</a></strong> (Finland): The world's largest sauna equipment company manufactures across Finland, Estonia, and Germany. Its heaters, sold through a wide U.S. dealer network, face the full 15% European surcharge. However, <a href="/article/harvia-thermasol-acquisition-announcement">Harvia's 2024 acquisition of ThermaSol</a> (Texas-based) gives it a domestic manufacturing foothold for steam products.</p>
+<p><strong><a href="/harvia">Harvia</a></strong> (Finland): The world's largest sauna equipment company manufactures across Finland, Estonia, and Germany. Its heaters, sold through a wide U.S. dealer network, face the full 15% European surcharge. However, <a href="/article/harvia-thermasol-acquisition-announcement">Harvia's 2024 acquisition of ThermaSol</a> (Texas-based) and its Almost Heaven factory in Lewisburg, West Virginia give it a domestic manufacturing foothold for steam and barrel-sauna products. CEO Matias Järnefelt told analysts on the <a href="/article/harvia-q3-2025-interim-results">Q3 2025 earnings call</a> that the tariff regime is lifting costs, but that Harvia is being measured on pass-through: "Tariffs also apply higher cost of goods sold due to tariffs and currency exchange rates. It\'s also a little bit of a balancing act, what\'s the right strategy and right pace?" He also disclosed on the <a href="/article/harvia-q3-2025-interim-results">Q3 call</a> that Harvia is "assessing what potentially could be the right time for us to have a sauna cabin factory" in North America, a move that would further insulate the Group from European-origin tariffs.</p>
 
 <p><strong>HUUM</strong> (Estonia): All HIVE and DROP heaters are manufactured in Estonia. HUUM has no U.S. production. Tariff exposure is total on the heater side, though some distributors pre-stocked U.S. warehouses to buffer near-term pricing.</p>
 
@@ -2579,6 +2723,8 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <p>The industry cannot outsource its credibility to a Costco product rotation and expect the category to grow into something healthy. When the dominant gateway product does not deliver the experience that creates lifetime sauna users, the industry is spending its future.</p>
 
+<p>Harvia itself, the company that owns Almost Heaven, has been explicit on earnings calls about where it sees the US market going. CEO Matias Järnefelt told analysts on the <a href="/article/harvia-q4-2025-fy-2025-results">Q4 2025 earnings call</a> that "sauna is becoming much more of a volume category" and that Almost Heaven is effectively "the brand which you could consider like the IKEA of the saunas." That is an honest framing. The Costco barrel is the IKEA Lack-table of sauna: cheap, ubiquitous, useful as a first purchase, not a lifelong product. The question is whether the industry treats it as the entry point to a deeper category, or as the whole category.</p>
+
 <h2>What Getting Past the Phase Looks Like</h2>
 
 <p>None of this is an argument for spending $20,000 or hiring a Finnish architect. The path forward is about education and construction fundamentals, not luxury.</p>
@@ -2818,6 +2964,484 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 </div>`,
     featured: false,
     trending: true,
+  },
+  {
+    id: 'harvia-cmd-2024-strategy',
+    title: 'Inside Harvia\'s Capital Markets Day 2024: The Strategy Behind a 10% Growth Target',
+    slug: 'harvia-capital-markets-day-2024-strategy-deep-dive',
+    dek: 'On 29 May 2024 in Muurame, Finland, Harvia\'s management team laid out an updated long-term strategy that doubled the growth target to 10% per year, set the stage for larger M&A, and reframed the company as a full sauna solutions player.',
+    excerpt: 'Harvia hosted its first Capital Markets Day as a public company on 29 May 2024, walking investors through every layer of the business: factory capacity, regional mix, product strategy, brand architecture, and updated long-term targets. The headline: a 10% average annual revenue growth target, double the prior 5% guide, backed by a EUR 150M+ acquisition war chest and a commitment to consolidate the fragmented global sauna market.',
+    contentType: 'Analysis',
+    category: 'Manufacturer News',
+    tags: ['Harvia', 'Capital Markets Day', 'strategy', 'financial targets', 'M&A', 'investor', 'Matias Jarnefelt', 'factories', 'Muurame'],
+    author: authors.sofia,
+    publishDate: '2024-05-29',
+    readingTime: 11,
+    featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/06/2024_06_19_jr_harvia_0271-1280x853.jpg',
+    imageCaption: 'Harvia held its Capital Markets Day 2024 at its Muurame headquarters, the world\'s largest heater and sauna component factory, producing over 150,000 heaters per year.',
+    body: `<p>Harvia Plc held its first full Capital Markets Day as a listed company on 29 May 2024, hosting investors and analysts at its Muurame, Finland headquarters for a six-hour walk through strategy, financials, regional plans, products, brands, and operations. The deck ran 80 slides. The messaging was consistent from the opening remarks by CEO Matias Jarnefelt through the closing Q&A: Harvia is stepping up ambition. The long-term revenue growth target doubled from 5% to 10%, the acquisition war chest was sized at over EUR 150 million, and the strategic frame shifted from "heater maker with sauna rooms" to "full sauna experience provider shaping the global market." (Every Harvia earnings, acquisition, and investor event is indexed in our <a href="/harvia">Harvia News hub</a>.)</p>
+
+<h2>The Top-Line Numbers</h2>
+
+<p>At CMD 2024, Harvia presented 2023 full-year revenue of EUR 150.5 million with a 22.4% adjusted operating profit margin, a 605-person headcount, and a revenue base that had grown at a 19% compound annual rate from 2018 through 2023, of which roughly 10 percentage points came from organic growth. Over that five-year stretch, the business roughly doubled from EUR 74 million (2019) while maintaining operating margins in the high teens to mid-twenties.</p>
+
+<div class="callout">
+<strong>Harvia's updated long-term financial targets (as of CMD 2024):</strong><br>
+<strong>Growth:</strong> 10% average annual revenue growth (previously "more than 5%")<br>
+<strong>Profitability:</strong> Adjusted operating profit margin above 20% (unchanged)<br>
+<strong>Leverage:</strong> Net debt to adjusted EBITDA below 2.5x (previously a 1.5x to 2.5x band)
+</div>
+
+<p>The growth target change was the most consequential. Doubling from 5% to 10% reframes what investors should expect from the business. Harvia management explicitly tied the change to two inputs: the global sauna market is now forecast to grow above 5% per year for the next five years (meaning matching market growth is not enough to hold share), and the company wants to be the active consolidator in a fragmented industry where M&A is accelerating.</p>
+
+<p>The consolidator framing has since hardened. On the <a href="/article/harvia-q4-2025-fy-2025-results">Q4 2025 earnings call</a> 20 months after CMD 2024, Järnefelt restated the posture in stronger language.</p>
+
+<blockquote>"We wanna be an aggressive, offensive market leader that shapes the global sauna market. Harvia is in a very interesting position. It has the right to play and right to win as a consolidator." <cite>— Matias Järnefelt, CEO, Harvia Q4 2025 earnings call, 12 February 2026</cite></blockquote>
+
+<p>On the margin side, Järnefelt told the same call that the path to the 20% target runs through volume rather than austerity: "We see clear operational leverage. So when we have the volumes and volumes come through," margin expansion should follow. That is a direct echo of the CMD 2024 thesis that 10% annual growth is the lever that brings the 20%+ EBIT target within reach.</p>
+
+<h2>The Acquisition War Chest</h2>
+
+<p>CFO Ari Vesterinen walked through the balance sheet math explicitly. As of 31 March 2024, Harvia had net debt of EUR 26 million. The company's own calculation sized additional acquisition capacity at EUR 76 million while maintaining leverage below 2.5x, and another "over EUR 50 million" of capacity on top if leverage were allowed to go temporarily above that level. That implies total acquisition firepower of roughly EUR 150 million, with Harvia willing to temporarily breach its long-term leverage ceiling for a strategically important deal.</p>
+
+<p>The M&A strategy was described in three buckets: strategic acquisitions to strengthen position outside Europe and grow in infrared and steam; capability acquisitions in areas like digital; and tactical acquisitions when opportunities arise (the example given was <a href="/article/harvia-phoenix-el-mec-supply-chain-acquisition">the September 2023 acquisition of Italian timer switch maker Phoenix El-Mec</a> to secure a critical heater component).</p>
+
+<p>The acquisition thesis turned prescient almost immediately. Two months after CMD 2024, Harvia <a href="/article/harvia-thermasol-acquisition-announcement">announced the USD 30.4 million ThermaSol acquisition</a> in late July 2024, deploying a EUR 20 million bullet loan plus cash against exactly the steam-and-North-America growth logic Jarnefelt described on stage in Muurame.</p>
+
+<h2>Global Sauna Market: Harvia's Own Estimate</h2>
+
+<p>Harvia's management estimate of the global sauna market, presented at CMD 2024, sizes it at approximately EUR 3.5 billion in value with more than 18 million saunas in use. Excluding Russia, where Harvia exited in 2022, the market is approximately EUR 3 billion and more than 12 million saunas. The split by sauna type: traditional accounts for more than half the market value; infrared and steam make up the balance. Historical market growth has averaged roughly 5% per year, and Harvia management forecasts above-5% growth for the next five years driven by rising sauna awareness and documented health benefits.</p>
+
+<p>By region, Harvia's market share calculations look like this. Northern Europe (Finland, Sweden, Denmark, Norway, Iceland, Estonia, Latvia, Lithuania) is about 15% of the global market with roughly 4 million saunas in use. Continental Europe is 30 to 35% of the market with 5 to 6 million saunas. Russia, before Harvia exited, was about 15% with 6 million saunas. North America is 20 to 25% of the market with 1 to 1.5 million saunas and the lowest sauna penetration of any major region. Asia-Pacific plus the Middle East and Africa combined is about 15% with 1 to 2 million saunas.</p>
+
+<h2>North America: EUR 3M to EUR 43M in Five Years</h2>
+
+<p>Jennifer Thayer, newly appointed Head of Region North America as of 1 February 2024, devoted an entire session to the US strategy. The trajectory speaks for itself: Harvia's North American revenue grew from EUR 3 million in 2018 (just 4.9% of group) to EUR 43.4 million in 2023 (28.9% of group). That is a 38% compound annual growth rate over five years in a market that has grown roughly 15% per year. The step change came with the December 2018 <a href="/article/harvia-almost-heaven-saunas-acquisition">acquisition of Almost Heaven Saunas</a>, the West Virginia barrel sauna specialist that had been operating in the US since 1977.</p>
+
+<p>The North American market is sized at roughly USD 800 million in 2023, growing at around 15% per year from 2019 through 2023. The installed base of 1 to 1.5 million saunas means only about 1% of US households have a sauna. By application, roughly 65% of the market is residential and 35% is commercial. By type, traditional saunas are 40 to 45%, infrared is 35 to 40%, and steam is approximately 20%. Harvia's stronghold today is traditional residential, but the company flagged both infrared and steam as growth priorities, both organic and through M&A.</p>
+
+<p>Thayer's stated objectives for North America: grow in infrared and steam (the ThermaSol deal executed against this within 60 days); strengthen position in mid- and higher-price points with product imports from the rest of Harvia Group; sharpen direct-to-consumer and B2B channel strategy; invest in logistics capacity at the Lewisburg, West Virginia facility; and continue hiring critical North American talent.</p>
+
+<h2>The Five-Factory Global Network</h2>
+
+<p>Head of Operations Mika Suoja presented <a href="/article/harvia-global-factory-network-manufacturing">Harvia's five-factory production footprint</a>, which is one of the most under-appreciated operational facts about the business. Muurame, Finland is the world's largest heater and sauna component factory, producing over 150,000 heaters per year. Lewisburg, West Virginia is Harvia's largest sauna room factory, producing over 10,000 saunas per year and serving North America. Gheorgheni, Romania handles European sauna room production. Guangzhou, China produces volume heaters and components, including for Group purchasing. Driedorf, Germany is where EOS manufactures its premium heaters, control units, and gas-fired products.</p>
+
+<p>Two-thirds of Harvia Group's personnel are blue-collar workers. Operations have delivered average annual productivity improvements exceeding 5% over the past three years, and recent capacity additions have expanded output by more than 25% through automation, including a new automated production cell in Muurame and an automated painting line in Lewisburg.</p>
+
+<p>A related investment disclosure at CMD: in Q1 2024, Harvia purchased 8.7 hectares (approximately 21.5 acres) of land surrounding the Lewisburg facility to enable future expansion. Historic annual capital expenditure has ranged EUR 1.5 million to EUR 3.5 million, with the notable exception of 2021 (EUR 11.8 million, when the Lewisburg factory opened alongside upgrades in several other plants). CMD 2024 signaled increased growth investment in North America over the following two years.</p>
+
+<h2>The Full Sauna Experience Framing</h2>
+
+<p>The strategic reframe most visible at CMD was the shift from heater-centric to full-experience. Markus Wormanseder, Head of Products and Solutions (and Head of Region Continental Europe), showed a representative EUR 20,000 custom sauna project: the heater accounts for only 10 to 15% of the total consumer spend; other equipment and technology (control unit, WiFi, infrared therapy seat, LED and speakers, ventilation kit, accessories, stones) add another 10 to 15%; the sauna room itself, including benches, doors, walls, and insulation, is 70 to 75% of the spend.</p>
+
+<p>The message to investors was clear. If Harvia sells only the heater, it captures 10 to 15% of the total sauna wallet. If it sells a full solution, it captures the entire spend. Across most markets outside Finland, consumers increasingly prefer ready-made turnkey solutions rather than DIY heater-and-build-your-own-room projects. The share of saunas and Scandinavian hot tubs in Harvia's revenue mix has grown from 12% in 2018 to 29% in 2023, driven organically and by the Almost Heaven and Kirami acquisitions. Heating equipment has declined from 68% (2018) to 55% (2023) as a share of mix, even while growing in absolute euros.</p>
+
+<h2>Brand Architecture: Two Masters, Three Regional</h2>
+
+<p>Paivi Juolahti, Head of Marketing and Brands, presented the Group brand strategy. Two global master brands anchor the portfolio: Harvia (the main brand, from entry-level to premium residential to mid-tier commercial) and EOS (premium commercial and spa, centered in Germany and adjacent premium markets). Three regional or tactical brands operate beneath them: <a href="/article/harvia-almost-heaven-saunas-acquisition">Almost Heaven Saunas</a> (the top one sauna brand in the United States by volume in the residential category), Kirami (Scandinavian hot tubs, Finland-led), and Sentiotec (a tactical Central European infrared brand acquired in 2016).</p>
+
+<p>The stated future direction: "from product-driven brands to experience- and solution-driven lifestyle brands." Translation: the Harvia and EOS master brands will increasingly serve as umbrellas that enhance and leverage the regional brands rather than operate as fully independent silos. The intent is "stronger and more engaging master brands driving demand and brand preference," with greater marketing focus and efficiency.</p>
+
+<h2>Sustainability: Carbon Neutral by 2030</h2>
+
+<p>Harvia restated its commitment to carbon neutrality in its own operations by 2030. The framework has four aspirational long-term targets: "Everyone with access to sauna" (promoting the science-backed three-sauna-a-week regimen of at least 15 minutes per session); "100% sustainably sourced" materials; "0 emissions" in own operations by 2030; and "0 accidents" in workplace safety. Operational levers include online electricity consumption monitoring to optimize factory compressors and air conditioning, increasing share of carbon-free energy sources, and logistics and transportation optimization.</p>
+
+<h2>The Organization Structure Change</h2>
+
+<p>As of 1 January 2024, Harvia reorganized into four sales regions (North America, Northern Europe, Continental Europe, Asia-Pacific-MEA) plus five Group functions (Marketing and Brands, Products and Solutions, Innovation and Technology, Operations, and Support Functions). EOS retained its own Management Team position under Rainer Kunz. The stated targets of the new structure: increase customer and market orientation; strengthen innovation and differentiation; better leverage synergies across the Group; and develop a solid platform for future M&A by clarifying roles and responsibilities.</p>
+
+<h2>Dividend Policy: Biannual, Growing</h2>
+
+<p>Dividend policy remains unchanged. Since February 2022, Harvia pays regularly increasing dividends in two installments per year. The 2023 financial year dividend was EUR 0.68 per share (54.4% payout ratio against EUR 1.25 earnings per share). Dividends have grown every year since the 2018 IPO: EUR 0.38 (2018 and 2019) to EUR 0.51 (2020) to EUR 0.60 (2021) to EUR 0.64 (2022) to EUR 0.68 (2023).</p>
+
+<h2>What CMD Told Us (That Earnings Releases Usually Do Not)</h2>
+
+<p>The document value of Capital Markets Day is the layer of detail that quarterly earnings calls do not reach. A few specifics worth keeping on file:</p>
+
+<p><strong>Muurame factory output:</strong> Over 150,000 heaters per year. This is the world's largest heater factory and it is not close. No other sauna heater manufacturer approaches this scale.</p>
+
+<p><strong>Lewisburg factory output:</strong> Over 10,000 saunas per year, serving primarily North America.</p>
+
+<p><strong>North American market penetration:</strong> Approximately 1% of US households have a sauna. The comparable figure for Finland is over one sauna per two people.</p>
+
+<p><strong>Replacement cycle:</strong> Sauna heaters in hard professional use (spas, commercial operators) are replaced every 3 to 4 years. Residential replacement cycles are significantly longer. Sauna stones need at least partial replacement approximately once per year in normal household use. These figures are why the installed base of 18 million saunas globally represents a meaningful ongoing replacement business even before new installations are counted.</p>
+
+<p><strong>Japan market structure:</strong> Harvia flagged Japan as one of the fastest-growing markets with a distinctive young and female-skewed consumer base. Harvia Japan Ltd (the joint venture with Bergman Ltd) has 24 showrooms across Japan as of 2023 year-end. (See also <a href="/article/thermory-bergman-japan-partnership">the Thermory-Bergman Japan partnership</a>, which uses the same Bergman distribution structure in the cladding category.)</p>
+
+<p><strong>EOS global market share:</strong> EOS is estimated to have approximately 60% of the premium sauna heater market in Germany alone, and is the global leader in premium sauna heaters overall and in gas-fired premium heaters specifically.</p>
+
+<div class="bottom-line">
+<p>Harvia's 2024 Capital Markets Day laid the foundation for the ThermaSol acquisition two months later and for a more aggressive M&A posture over the next three to five years. The 10% growth target doubles the prior guide and effectively tells investors the company will prioritize deployment of balance sheet capacity over margin optimization in the short term. The factory footprint, brand architecture, and regional strategy are built to absorb another EUR 50 to 100 million-scale acquisition without strain. For anyone tracking the sauna market's ongoing consolidation, CMD 2024 is the document Harvia will be judged against for the rest of the decade.</p>
+</div>`,
+    featured: false,
+    trending: false,
+  },
+  {
+    id: 'harvia-factory-network-2024',
+    title: 'Inside Harvia\'s Five-Factory Global Manufacturing Network',
+    slug: 'harvia-global-factory-network-manufacturing',
+    dek: 'From the 150,000-heater-per-year Muurame plant in Finland to a 10,000-sauna-per-year Lewisburg, West Virginia facility to EOS\'s premium heater line in Driedorf, Germany, Harvia runs the largest and most geographically distributed manufacturing footprint in the global sauna industry.',
+    excerpt: 'Harvia operates five core production facilities across four continents: Muurame (Finland), Lewisburg (West Virginia), Gheorgheni (Romania), Guangzhou (China), and Driedorf (Germany). Each plant has a specialty. Together they handle over 150,000 heaters per year and more than 10,000 saunas per year for a business doing nearly EUR 200 million in annual revenue.',
+    contentType: 'Analysis',
+    category: 'Manufacturer News',
+    tags: ['Harvia', 'factory', 'manufacturing', 'Muurame', 'Lewisburg', 'Driedorf', 'EOS', 'Almost Heaven', 'Romania', 'China', 'operations', 'supply chain'],
+    author: authors.sofia,
+    publishDate: '2024-06-04',
+    readingTime: 8,
+    featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/06/2024_06_19_jr_harvia_0271-1280x853.jpg',
+    imageCaption: 'Harvia\'s Muurame factory in Finland is the world\'s largest sauna heater and sauna component manufacturing facility, producing more than 150,000 heaters per year.',
+    body: `<p>Most sauna brands run one factory. A few European premium players run two. Harvia runs five, across four continents, each specialized for a different product category or regional market. The footprint is how a single company can serve Finnish household saunas, American barrel sauna buyers, German spa projects, and Japanese commercial installs out of different plants, all with meaningful local content. It is also the reason Harvia has been less exposed than any competitor to every major supply chain shock of the last five years, from COVID to Russia to Red Sea freight disruption. (See every Harvia news story, earnings release, and M&A event in our <a href="/harvia">Harvia News hub</a>.)</p>
+
+<h2>Muurame, Finland: The World's Largest Sauna Heater Factory</h2>
+
+<p>The Muurame facility is Harvia's headquarters and the spiritual center of the company. The plant produces more than 150,000 heaters per year, a figure Harvia management disclosed at its Capital Markets Day 2024. No other sauna heater manufacturer in the world approaches this scale. For context, competitors like Narvi (Finland), IKI (Finland), Kastor (Finland), and Tylo-Helo (Sweden-Finland) run much smaller dedicated production lines, typically in the tens of thousands of units per year combined, not per individual facility.</p>
+
+<p>Muurame is the primary production site for Harvia's flagship electric heater lines: the Cilindro pillar heater, the Virta Pro commercial series, the Legend wood-burning stoves, and volume models like Vega and Forte. The plant also produces sauna components (heater stones, control units prior to the sentiotec integration, and heater enclosures) and serves as the central logistics hub for Harvia Group purchasing in Europe.</p>
+
+<p>In 2023, Harvia invested in new automated production cells and industrial production robots in Muurame, adding capacity without adding headcount. The company also moved wood-burning heater manufacturing fully to Muurame from subcontractors during 2023 after its exit from Russia in 2022 (Russian subcontractors had previously handled part of this workload). Aluminum stove production for Scandinavian hot tubs was also reshored from Estonia to Muurame in 2023 for quality control reasons.</p>
+
+<h2>Lewisburg, West Virginia: North America's Sauna Room Engine</h2>
+
+<p>Harvia's Lewisburg plant, operating under the Almost Heaven Saunas brand acquired in December 2018, produces more than 10,000 saunas per year and is Harvia's largest sauna room factory globally. It serves almost exclusively North America and is the operational backbone of the region that has grown from EUR 3 million (2018) to EUR 43.4 million (2023) to an annualized run rate near EUR 70 million by 2025.</p>
+
+<p>The plant handles volume manufacturing of outdoor and indoor sauna rooms, including barrel saunas (Almost Heaven's signature product since 1977), cabin saunas, and the hybrid traditional-plus-infrared saunas launched in 2023. In Q1 2024, Harvia purchased 8.7 hectares (approximately 21.5 acres) of additional land around the facility, signaling capacity expansion in the two-year horizon. At Q3 2025 results, Harvia confirmed ongoing investments to expand Lewisburg, including building layout improvements and new machinery for higher throughput.</p>
+
+<p>An automated painting line installed in recent years was flagged at Harvia's Capital Markets Day 2024 as a key productivity driver, along with general factory automation. The plant employs approximately 76 people as of year-end 2023 and is the only sauna room factory of its size in North America, giving Harvia a "Made in USA" competitive advantage it has explicitly leaned into for federal procurement and tariff-exposed commercial projects.</p>
+
+<h2>Gheorgheni, Romania: Europe's Sauna Room Factory</h2>
+
+<p>The Gheorgheni plant in Transylvania handles sauna room production for the European market, including volume barrel and cabin saunas distributed under the Harvia brand, sentiotec (for the Central European premium infrared segment), and supplying Harvia's Nordic and Continental European dealer networks. Romania offers Harvia a lower labor cost base within the EU, avoiding any customs complications that production outside the EU would create for the Continental European customer base. The plant is part of Harvia's 116-employee Other European Countries production footprint as of year-end 2023.</p>
+
+<h2>Guangzhou, China: Volume Heaters and Components</h2>
+
+<p>Harvia runs a heater and component factory in Guangzhou, China that specializes in volume heaters and components serving Asia-Pacific and Group-wide purchasing. The plant supplies heater components that feed into Harvia's other factories and produces finished heaters for the Chinese, Japanese, and broader APAC markets. Alongside it sits a Hong Kong sales and trading entity. The China footprint has been key to Harvia's pricing competitiveness in the APAC region, where sauna is an emerging market with diverse specifications (notably Japan, which requires Harvia to manufacture heaters specifically to Japanese electrical standards through this facility).</p>
+
+<h2>Driedorf, Germany: EOS Premium Manufacturing</h2>
+
+<p>The Driedorf facility is where the <a href="/article/harvia-eos-group-acquisition-germany">EOS Group, acquired by Harvia in 2020</a>, manufactures its full premium product portfolio. EOS, founded in 1944, is the number-one premium sauna heater producer globally and holds an estimated 60% share of the premium segment in Germany alone. The Driedorf line produces EOS-branded sauna heaters (including the premium S-line, "underbench" and "behindbench" hidden installations, and the design-forward Structure heater launched in 2023), Kusatek gas-fired sauna heaters (EOS is the only relevant gas-fired premium sauna heater producer in the world), Spatronic electronic control units, steam generators, and infrared hardware. All EOS products are developed and manufactured in Driedorf with the "Made in Germany" positioning intact.</p>
+
+<p>In Q3 2025, Harvia disclosed it was investing in a state-of-the-art, energy-efficient coating system in Driedorf, part of a broader capital deployment to modernize the EOS line. The facility employs approximately 116 people as of year-end 2023 and is the technology center for Harvia Group in control electronics through the Spatronic integration.</p>
+
+<h2>Round Rock, Texas: ThermaSol Assembly (Added July 2024)</h2>
+
+<p>After closing the <a href="/article/harvia-thermasol-acquisition-announcement">USD 30.4 million ThermaSol acquisition</a> on 31 July 2024, Harvia added a sixth production facility to its network: ThermaSol's design and assembly operation in Round Rock, Texas, near Austin. ThermaSol manufactures steam generators, smart-shower controls, the ThermaTouch control platform, and related steam-room hardware for the North American residential steam market. The Texas location is strategic: it adds a second US manufacturing footprint after West Virginia, diversifies geographic risk, and positions Harvia with hubs in both the Southeastern United States (Lewisburg) and the Texas-Central corridor (Round Rock). ThermaSol employs approximately 40 people.</p>
+
+<h2>Italy, Estonia, Austria: Specialized Component Sites</h2>
+
+<p>Alongside its five core factories, Harvia operates smaller specialized sites. The <a href="/article/harvia-phoenix-el-mec-supply-chain-acquisition">September 2023 acquisition of Phoenix El-Mec</a>, an electromechanical timer switch maker in Belluno, Italy, added vertical integration for a critical heater component. Kirami, acquired in 2021, continues to manufacture Scandinavian wood-fired hot tubs in Sastamala, Finland and partly in Estonia through Metagroupp OU. Sentiotec production partially sits in Wolfurt, Austria. These smaller sites are not standalone product factories at Harvia Group scale but are essential to the supply chain.</p>
+
+<h2>Logistics: Agile, Multi-Site, Partner Networks</h2>
+
+<p>Head of Operations Mika Suoja described Harvia's logistics at Capital Markets Day 2024 as "agile transport network" backed by own logistics centers in Europe, the United States, and Asia. Road, sea, and air transport are coordinated through a tight partner network that Harvia credits with enabling it to navigate COVID disruptions, the Russia exit, and Red Sea freight problems without meaningful customer service level deterioration. Harvia's sales and operations planning (S&OP) process centralizes demand forecasting with daily order intake analysis and comparisons against consumer indexes to pre-position inventory.</p>
+
+<p>Two thirds of Harvia Group's personnel are blue-collar workers, according to CMD disclosures. Average annual productivity improvements have exceeded 5% per year over the three years ending 2024, and automated production cells have enabled over 25% capacity expansions without proportional headcount increases.</p>
+
+<h2>Strategic Implications</h2>
+
+<p>The multi-factory structure gives Harvia four competitive advantages its single-factory rivals do not have.</p>
+
+<p><strong>Tariff insulation.</strong> Harvia can route production for any major market into a local or friendly-tariff facility. US-sold saunas can be assembled in West Virginia or Texas. European saunas can come from Romania or Germany. Japanese heaters can be specified at Guangzhou. Competitors shipping everything out of a single country face much higher tariff exposure. (See our <a href="/article/sauna-brands-tariff-exposure-analysis">analysis of sauna brand tariff exposure</a>.)</p>
+
+<p><strong>Labor and cost flexibility.</strong> Production can flex between Finland, Romania, and China based on labor cost, available skills, and lead-time requirements. Volume components come from Guangzhou; premium controls come from Driedorf. This is not theoretical; it is operational.</p>
+
+<p><strong>Risk management.</strong> When Harvia exited Russia in 2022 (where it had EUR 7.5 million of 2022 revenue, falling to zero by 2023), the company had the capacity in Finland, Romania, and Germany to absorb displaced demand and subcontractor workloads. A single-factory competitor facing a similar market exit would face potentially catastrophic capacity loss.</p>
+
+<p><strong>Acquisition integration muscle.</strong> Harvia has integrated five acquisitions over six years (Almost Heaven 2018, EOS 2020, Kirami 2021, Phoenix El-Mec 2023, ThermaSol 2024) while maintaining operating margins above 19%. That track record would be impossible without a modular factory network that can absorb new production lines without disruption.</p>
+
+<div class="bottom-line">
+<p>Harvia's five-factory (now six-factory with ThermaSol) network is the physical infrastructure behind its stated ambition to consolidate the fragmented global sauna market. No other sauna company has the scale, geographic distribution, or specialization mix. The 150,000 heaters per year Muurame output alone exceeds every competitor's total heater production combined. For investors, tariff watchers, and buyers trying to understand why Harvia can absorb shocks that break smaller rivals, the answer is the plant network. It is the single biggest strategic moat in the business.</p>
+</div>`,
+    featured: false,
+    trending: false,
+  },
+  {
+    id: 'thermasol-solaris-time-best-inventions-2025',
+    title: 'ThermaSol Solaris Named One of TIME Magazine\'s Best Inventions of 2025',
+    slug: 'thermasol-solaris-solar-powered-sauna-time-best-invention-2025',
+    dek: 'Harvia\'s US steam brand ThermaSol landed on TIME Magazine\'s Best Inventions of 2025 list for the Solaris, the first fully off-grid, solar-powered outdoor sauna available in the United States.',
+    excerpt: 'Announced alongside Harvia\'s Q3 2025 earnings on 6 November 2025, the ThermaSol Solaris is a fully off-grid solar-powered outdoor sauna that operates without a power connection. TIME Magazine named it one of the year\'s best inventions, a meaningful marketing win for Harvia\'s year-old ThermaSol acquisition and the first time any sauna product has landed on the TIME list.',
+    contentType: 'Breaking',
+    category: 'Manufacturer News',
+    tags: ['ThermaSol', 'Harvia', 'Solaris', 'TIME Magazine', 'solar', 'off-grid', 'outdoor sauna', 'sustainability', 'innovation'],
+    author: authors.sofia,
+    publishDate: '2025-11-06',
+    readingTime: 5,
+    featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/06/Harvia_healingwithheat_257-1280x1707-1.jpg',
+    imageCaption: 'ThermaSol, now a Harvia Group brand, launched the fully off-grid, solar-powered Solaris sauna in 2025. TIME Magazine named it one of the Best Inventions of 2025.',
+    body: `<p>ThermaSol, the US steam and wellness brand Harvia acquired in July 2024, landed on TIME Magazine\'s Best Inventions of 2025 list for the Solaris, a fully off-grid, solar-powered outdoor sauna. Harvia announced the TIME recognition as part of its Q3 2025 investor presentation on 6 November 2025. It is the first time a sauna product has made the annual TIME Best Inventions list. (See every Harvia product launch, earnings release, and M&A event in our <a href="/harvia">Harvia News hub</a>.)</p>
+
+<h2>What Solaris Is</h2>
+
+<p>ThermaSol Solaris is billed as "the first fully off-grid, solar-powered sauna available in the U.S." The sauna operates entirely without a power connection, drawing all operational energy from integrated solar collection. That makes it the first commercially available sauna in the North American market that can be placed in locations without utility-connected electrical service: remote cabins, off-grid homesteads, mobile wellness installations, glamping resorts, rural properties where trenching power is impractical, and any outdoor wellness setting where utility hookup is not an option.</p>
+
+<p>Harvia\'s framing emphasizes "eco-conscious retreat in virtually any setting" and "freedom and flexibility" of placement. The product is marketed as a sustainability play (zero-emission operation, no grid electricity) and a practical deployment play (anywhere the sun shines). Complete US pricing, standard cabin sizes, solar array specifications, and session-per-day energy output numbers were not disclosed in the Q3 earnings materials. ThermaSol is expected to publish full specs on its website as Solaris becomes broadly available.</p>
+
+<h2>Why It Matters: TIME Best Inventions Is a Marketing Hit</h2>
+
+<p>TIME Magazine\'s Best Inventions list is widely syndicated and read well beyond the wellness press. A mention in TIME translates directly into organic search visibility, press replays across mainstream consumer publications, and retail interest from hotel groups, resort operators, and direct-to-consumer lifestyle buyers. For Harvia, Solaris hitting the TIME list is the single biggest North American marketing moment for the ThermaSol brand since the acquisition closed. It validates the deal thesis of combining ThermaSol\'s American product and distribution platform with Harvia Group\'s R&D depth on energy systems and sauna engineering.</p>
+
+<p>The Solaris announcement is part of a broader ThermaSol product refresh under Harvia ownership. The Q3 2025 presentation also introduced the ThermaSol Astra, ThermaSol Fortis, and ThermaSol Ombra as part of a premium North American sauna collection. ThermaSol\'s brand identity was refreshed in 2025 to carry both the expanded premium sauna portfolio and the continuing steam generator and smart shower business the company has built since 1958.</p>
+
+<h2>The Energy-Technology Pivot</h2>
+
+<p>Solaris fits into a broader Harvia theme flagged in its Q3 2025 materials: "pioneering future energy technologies, including hydrogen and solar powered saunas." The company signaled in investor communications that it is exploring alternative energy sources for sauna operation beyond grid electricity and wood, with solar and hydrogen as the two identified frontiers. Solaris is the first commercial product to come out of that program. Hydrogen-powered sauna prototypes have been mentioned but not yet commercialized.</p>
+
+<p>The strategic logic is straightforward. Sauna is fundamentally an energy-intensive product (heating a room to 175-plus degrees Fahrenheit requires substantial wattage), and the long-term trend in consumer expectations is toward lower-carbon operation. Being first with a credible zero-carbon outdoor sauna establishes Harvia\'s engineering reputation and locks up intellectual property before competitors respond.</p>
+
+<div class="callout">
+<strong>Solaris snapshot:</strong> Brand: ThermaSol (Harvia Group). Product: fully off-grid, solar-powered outdoor sauna. Market: United States. Launch: 2025. Recognition: TIME Magazine Best Inventions of 2025. Context: first commercial sauna on the TIME list; part of Harvia\'s broader alternative-energy R&D program (solar, hydrogen). Companion launches: ThermaSol Astra, Fortis, Ombra premium sauna collection.
+</div>
+
+<div class="bottom-line">
+<p>Solaris is the best press Harvia\'s ThermaSol integration could have asked for. One TIME Best Inventions mention puts the brand in front of mainstream American consumers who have never heard of ThermaSol, never heard of Harvia, and never considered buying a sauna. The product itself answers a real market need (off-grid outdoor installation with zero operational emissions), and the recognition gives Harvia cover to price aggressively and expand distribution. Expect Solaris and the broader ThermaSol premium collection to show up in Q4 2025 and 2026 dealer channels, resort installs, and lifestyle editorial coverage well beyond the sauna trade press.</p>
+</div>`,
+    featured: false,
+    trending: true,
+  },
+  {
+    id: 'thermasol-premium-sauna-collection-2025',
+    title: 'ThermaSol Launches Premium North American Sauna Line: Astra, Fortis, Ombra',
+    slug: 'thermasol-astra-fortis-ombra-premium-sauna-collection',
+    dek: 'Alongside the solar-powered Solaris, Harvia\'s ThermaSol brand launched three new premium indoor and outdoor sauna models for the US market in Q3 2025, marking the first full product extension since Harvia acquired the Texas-based steam specialist in 2024.',
+    excerpt: 'ThermaSol introduced a refreshed North American sauna collection in Q3 2025: Astra, Fortis, and Ombra. The launch expands ThermaSol beyond its legacy steam shower and steam generator business into Harvia\'s core traditional sauna category, leveraging Harvia Group engineering and the ThermaTouch digital platform. Harvia confirmed the collection as part of its Q3 2025 results presentation on 6 November 2025.',
+    contentType: 'Breaking',
+    category: 'Manufacturer News',
+    tags: ['ThermaSol', 'Harvia', 'Astra', 'Fortis', 'Ombra', 'premium sauna', 'United States', 'launch', 'product'],
+    author: authors.sofia,
+    publishDate: '2025-11-06',
+    readingTime: 4,
+    featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/06/Harvia_healingwithheat_257-1280x1707-1.jpg',
+    imageCaption: 'ThermaSol\'s premium sauna collection includes the Astra, Fortis, and Ombra models. The collection expands ThermaSol beyond its legacy steam shower category into traditional sauna rooms.',
+    body: `<p>ThermaSol, the Texas-based wellness brand <a href="/article/harvia-thermasol-acquisition-announcement">Harvia acquired for USD 30.4 million in July 2024</a>, introduced a refreshed premium sauna collection in Q3 2025: the ThermaSol Astra, ThermaSol Fortis, and ThermaSol Ombra. The launch was confirmed as part of Harvia\'s Q3 2025 investor presentation on 6 November 2025. It is the first major product extension for ThermaSol since the Harvia acquisition and marks the brand\'s formal move from steam specialist into full premium sauna. (See every Harvia product launch and earnings event in our <a href="/harvia">Harvia News hub</a>.)</p>
+
+<h2>Three New Models, One Premium Positioning</h2>
+
+<p>The collection comprises three models positioned for the US premium sauna market. ThermaSol Astra, ThermaSol Fortis, and ThermaSol Ombra were all previewed in Harvia\'s Q3 investor deck with rendered product imagery, though full specifications, pricing, and availability dates were not published in the earnings materials. ThermaSol is expected to release complete product pages on its website alongside the commercial launch.</p>
+
+<p>The positioning is explicit: premium North American sauna. Historically, ThermaSol\'s business was centered on steam showers, steam generators, ThermaTouch digital controls, smart shower components, and accessories, with a sideline in distributing indoor and outdoor saunas and traditional sauna heaters (including Harvia heaters before the acquisition). Under Harvia ownership, the ThermaSol brand is being extended into the full premium sauna category with Harvia Group engineering behind the new sauna models.</p>
+
+<h2>Strategic Context: Steam Specialist Becomes Full-Experience Premium Brand</h2>
+
+<p>At the time of the July 2024 acquisition, Harvia disclosed that over 90% of its revenue was coming from traditional sauna (not steam), and that building a meaningful steam presence in North America was a key strategic objective. The ThermaSol deal accomplished that instantly, giving Harvia the leading US residential steam brand, approximately 20% of the North American sauna market by type, and a nationwide network of plumbing wholesalers and kitchen-and-bath showrooms.</p>
+
+<p>The Astra/Fortis/Ombra launch goes the other direction: it takes the existing ThermaSol brand equity and extends it from steam specialist into full premium sauna, pitching ThermaSol as a one-stop wellness brand for the premium US residential market. This is the "full sauna experience" strategy Harvia described at its <a href="/article/harvia-capital-markets-day-2024-strategy-deep-dive">Capital Markets Day 2024</a> applied in reverse: instead of adding steam to Harvia, Harvia is adding sauna to ThermaSol.</p>
+
+<h2>Cross-Sell Into the Existing Channel</h2>
+
+<p>ThermaSol\'s existing distribution is heavily weighted toward kitchen and bath showrooms, plumbing wholesalers, and high-end residential builders. These are channels where Harvia and Almost Heaven have historically been underrepresented. By extending the ThermaSol brand into sauna (rather than introducing Harvia or Almost Heaven branding into these showrooms), Harvia Group gets the premium sauna category into a distribution channel it did not previously serve, without forcing the showroom owners to stock a new brand name.</p>
+
+<p>Harvia\'s Q1 2025 earnings call noted that the ThermaSol brand was "refreshed to build further excitement for our Steam and high-end product offering." The Astra/Fortis/Ombra collection is the product-side execution of that brand refresh.</p>
+
+<div class="callout">
+<strong>Collection snapshot:</strong> Brand: ThermaSol (Harvia Group). Models: Astra, Fortis, Ombra. Category: premium sauna (extension beyond legacy steam). Market: United States. Launch: Q3 2025 (previewed alongside solar-powered <a href="/article/thermasol-solaris-solar-powered-sauna-time-best-invention-2025">ThermaSol Solaris</a>). Distribution: ThermaSol\'s existing kitchen-and-bath, plumbing wholesale, and residential builder network. Parent: Harvia Plc (Nasdaq Helsinki: HARVIA).
+</div>
+
+<div class="bottom-line">
+<p>Harvia spent a year integrating ThermaSol. The Astra/Fortis/Ombra launch, alongside Solaris, is the signal that integration is now translating into revenue growth. By extending ThermaSol into premium sauna rather than bolting Harvia branding onto the US market, Harvia gets to use the one thing ThermaSol has that Harvia does not: a nationwide high-end bathroom and plumbing showroom network that already moves premium wellness products into American homes. If this channel play works, ThermaSol becomes Harvia\'s second billion-dollar-TAM beachhead in the US, after Almost Heaven\'s consumer DTC and outdoor barrel sauna business.</p>
+</div>`,
+    featured: false,
+    trending: false,
+  },
+  {
+    id: 'harvia-fenix-myharvia-2-digital',
+    title: 'Harvia Launches New Fenix Full-Touch Controller and MyHarvia 2 App',
+    slug: 'harvia-fenix-controller-myharvia-2-app-launch',
+    dek: 'At its Q3 2025 results on 6 November 2025, Harvia unveiled a new full-touch 4.3-inch Fenix control panel for the volume sauna segment and a fully redesigned MyHarvia 2 smartphone app with personal sauna data tracking and over-the-air updates.',
+    excerpt: 'Harvia\'s digital platform got its biggest upgrade in years at Q3 2025: a new Fenix full-touch controller with a 4.3-inch screen, three ready-made presets (Mild, Cozy, Hot), customizable user profiles, smart "ready-by" timer, and Wi-Fi over-the-air updates. A rebuilt MyHarvia 2 app adds personal sauna statistics, user profiles, tips, and multi-sauna control from a single interface.',
+    contentType: 'Breaking',
+    category: 'Manufacturer News',
+    tags: ['Harvia', 'Fenix', 'MyHarvia', 'app', 'controller', 'digital', 'launch', 'smart sauna', 'Wi-Fi'],
+    author: authors.sofia,
+    publishDate: '2025-11-06',
+    readingTime: 5,
+    featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/06/2024_06_25_oh_harvia_details_0169-1280x854.jpg',
+    imageCaption: 'The new Harvia Fenix control panel has a 4.3-inch full-touch screen, three presets, user profiles, and over-the-air updates. Paired with the rebuilt MyHarvia 2 app, it is Harvia\'s most integrated smart-sauna platform to date.',
+    body: `<p>At its Q3 2025 investor presentation on 6 November 2025, Harvia unveiled two major updates to its digital sauna platform: a new Fenix full-touch control panel for the volume sauna segment, and a rebuilt MyHarvia 2 mobile application. On the 6 November earnings webcast, CEO Matias Järnefelt introduced Fenix in plain language and used the occasion to claim the mobile app crown outright.</p>
+
+<blockquote>"It's smart, so actually it learns about your sauna. MyHarvia smartphone app and definitely the most advanced sauna app there." <cite>— Matias Järnefelt, CEO, Harvia Q3 2025 earnings call, 6 November 2025</cite></blockquote>
+
+<p>Both are backward compatible with the installed Xenio base, meaning existing Harvia electric heater owners can upgrade without replacing the heater itself. Three months later, on the Q4 2025 earnings call on 12 February 2026, Järnefelt gave the product its first commercial report card: "The sales started in third quarter, and it's shown really great performance during quarter four." (Full Harvia product page: <a href="/harvia/products/xenio-fenix">Harvia Xenio / Fenix control system</a>. Every Harvia launch and earnings event: <a href="/harvia">Harvia News hub</a>.)</p>
+
+<h2>Harvia Fenix: 4.3-Inch Full-Touch Screen</h2>
+
+<p>The new Fenix control panel is Harvia\'s first full-touch capacitive screen controller for the volume sauna segment (as opposed to the premium EOS Emo Touch 3 that EOS Group has offered at the high end of the market). Key features disclosed in the Q3 2025 presentation:</p>
+
+<ul>
+<li><strong>4.3-inch full-touch screen.</strong> Replaces button-and-dial controls on predecessor Xenio units with a tablet-style interface.</li>
+<li><strong>Three ready-made presets:</strong> Mild, Cozy, and Hot. Each preset sets target temperature, humidity target (for combi units), and session length without user configuration.</li>
+<li><strong>Customizable user profiles.</strong> Multiple household members can save their own preferred settings and switch without re-entering temperature and time.</li>
+<li><strong>Smart "ready-by" timer.</strong> User specifies the time they want the sauna warm (for example, "ready at 7:00 PM") and the controller calculates heat-up time and starts the heater at the right moment. This is a genuinely different UX from the traditional timer-based controls that have dominated sauna interfaces for decades.</li>
+<li><strong>Wi-Fi connectivity with over-the-air updates.</strong> Firmware updates pushed automatically; new features added without a service visit.</li>
+<li><strong>Compatible with installed Xenio base.</strong> Existing Harvia heater owners can upgrade to Fenix without replacing the heater, which dramatically expands the addressable market for the controller upgrade.</li>
+</ul>
+
+<h2>MyHarvia 2: Personal Sauna Data, Multi-Sauna Control</h2>
+
+<p>The MyHarvia 2 app is a ground-up rebuild of the original MyHarvia platform. Feature highlights from the Q3 presentation:</p>
+
+<ul>
+<li><strong>Modern and intuitive user interface.</strong> Positioned by Harvia as the default app for all future Harvia heaters and control units.</li>
+<li><strong>User profiles and personal sauna data.</strong> Each user gets their own profile, with preferred temperature, session length, and historical session data.</li>
+<li><strong>Statistics: track and learn from your sauna routines.</strong> Session count per week, temperature averages, duration trends. This is a meaningful step toward sauna as a quantified health practice, mirroring what fitness tracking did for exercise over the past decade.</li>
+<li><strong>Tips for sauna use, installation, and maintenance.</strong> In-app educational content.</li>
+<li><strong>Over-the-air updates.</strong></li>
+<li><strong>Control multiple saunas from a single interface.</strong> This is a specifically commercial-and-destination-property feature. Spa operators, destination cabins, and multi-room residential properties can manage entire sauna fleets from one app without separate accounts.</li>
+</ul>
+
+<h2>Why This Is Strategically Important</h2>
+
+<p>Harvia has been talking about digital as a strategic priority since its 2018 IPO, but the execution has historically lagged competitors like HUUM (whose Drop controller and app are category-leading) and EOS (whose Emo Touch 3 premium controller is used across EOS commercial installations). Fenix and MyHarvia 2 close that gap and give Harvia a credible platform story to pitch to volume dealers and consumer end users.</p>
+
+<p>The commercial and destination-property angle is where this gets more interesting. <a href="/article/white-mountain-sauna-haus-north-conway-apres-ski">Social sauna operators</a>, ski lodge installations, apartment-complex amenity saunas, and spa chains are increasingly looking for sauna equipment that comes with operator-grade monitoring. A single-interface app that lets an operator manage 10 or 50 saunas across a property or a chain is exactly the product profile these buyers need, and Harvia now has it.</p>
+
+<h2>Pair With MyHarvia Sensor for Wood-Fired Data</h2>
+
+<p>In Q4 2025, Harvia also introduced the <a href="/harvia/products/myharvia-sensor">MyHarvia Sensor</a>, a standalone temperature and humidity sensor that pairs with the same MyHarvia 2 app to add smart-sauna data to wood-fired or non-Harvia electric saunas. The combination means any Harvia-platform user can manage electric saunas through Fenix plus app, and wood-fired or retrofit saunas through the Sensor plus app, with both showing up in the same dashboard. This is the first commercial-grade sauna platform with coverage across electric, wood, and third-party hardware.</p>
+
+<div class="callout">
+<strong>Launch snapshot:</strong> Products: Harvia Fenix (new full-touch control unit) and MyHarvia 2 (rebuilt app). Announced: Q3 2025 investor presentation, 6 November 2025. Fenix spec: 4.3-inch full-touch screen, 3 presets (Mild, Cozy, Hot), user profiles, smart ready-by timer, Wi-Fi, over-the-air updates, compatible with installed Xenio base. MyHarvia 2: user profiles, personal sauna statistics, multi-sauna control, default app for future Harvia heaters. Related: <a href="/harvia/products/myharvia-sensor">MyHarvia Sensor</a> (Q4 2025).
+</div>
+
+<div class="bottom-line">
+<p>Harvia\'s digital platform finally looks like a serious competitor to HUUM, Klafs, and premium EOS at their respective price tiers. The Fenix-plus-MyHarvia-2-plus-Sensor combination covers electric, wood-fired, and retrofit installations from a single app, which no other sauna brand currently offers. For volume dealers pitching smart-sauna to younger buyers and for commercial operators managing multi-sauna properties, Harvia just became a materially more credible platform vendor. Expect retrofit Fenix upgrades to be a meaningful 2026 revenue category on top of the usual new-heater sales.</p>
+</div>`,
+    featured: false,
+    trending: false,
+  },
+  {
+    id: 'aufguss-wc-2025-verona-harvia',
+    title: 'Harvia Sponsors Aufguss World Championships 2025 in Verona, Powered by EOS',
+    slug: 'aufguss-world-championships-2025-verona-harvia-eos-sponsor',
+    dek: 'Harvia Group was the title sponsor of the 2025 Aufguss World Championships, held in Verona, Italy in October 2025. The event sauna used at the competition was powered by an EOS heater, the German premium brand Harvia acquired in 2020.',
+    excerpt: 'The Aufguss World Championships, the global competition for the choreographed towel-waving German sauna ritual, returned in 2025 in Verona, Italy. Harvia Group sponsored the event, and the competition sauna was powered by an EOS heater. The sponsorship is part of Harvia\'s broader marketing push to build sauna culture beyond Finland and Germany, aligning the Harvia and EOS master brands with the growing global Aufguss community.',
+    contentType: 'Analysis',
+    category: 'Manufacturer News',
+    tags: ['Harvia', 'EOS', 'Aufguss World Championships', 'Verona', 'Italy', 'sponsorship', 'sauna culture', 'Aufguss'],
+    author: authors.anna,
+    publishDate: '2025-11-06',
+    readingTime: 4,
+    featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/06/EOS_1232marg.jpg',
+    imageCaption: 'Harvia Group\'s EOS brand, based in Driedorf, Germany, powered the event sauna at the Aufguss World Championships 2025 in Verona, Italy.',
+    // note: category reverted below to valid Category enum
+    body: `<p>Harvia Group sponsored the 2025 Aufguss World Championships, held in Verona, Italy, and the event sauna used at the competition was powered by an EOS heater, the German premium brand Harvia has owned since 2020. The sponsorship was confirmed as part of Harvia\'s Q3 2025 investor presentation on 6 November 2025. For the European sauna community, Aufguss Worlds is one of the few competitive events that actually brings the trade together in person. For Harvia, the sponsorship is a direct extension of the brand-building program laid out at <a href="/article/harvia-capital-markets-day-2024-strategy-deep-dive">Capital Markets Day 2024</a>.</p>
+
+<h2>What Aufguss Is</h2>
+
+<p>Aufguss is the German word for "infusion," and in sauna terminology it refers to a choreographed ritual in which a trained "Aufgussmeister" pours scented water on heated stones and waves a towel in synchronized patterns to circulate the resulting steam around a group of bathers. A typical Aufguss session runs 8 to 15 minutes, builds to peak heat and humidity, and combines performance, sound (often music), scent (essential oils and ice balls), and athletic towel choreography. The practice is standard at German-speaking Central European commercial sauna facilities and has been spreading globally as social sauna culture expands.</p>
+
+<p>The Aufguss World Championships is the premier global competition for the ritual, with national qualifiers, team and individual categories, scoring by certified judges, and routines that can run up to 15 minutes with multiple water throws, towel patterns, and music integrations. The event brings together sauna professionals, commercial operators, and enthusiasts from dozens of countries.</p>
+
+<h2>Why EOS Is the Right Brand for the Sponsorship</h2>
+
+<p>Harvia sponsored the event and used an EOS heater rather than a Harvia-branded heater specifically because Aufguss is a Central European practice heavily associated with German and Austrian sauna culture. EOS, founded in 1944 in Driedorf, Germany, has been the dominant premium heater brand in German commercial saunas for decades. EOS holds an estimated 60% share of the German premium sauna heater market and is specified by most major German spa and commercial wellness operators. Using an EOS heater at the event sauna reinforces the brand\'s positioning where it has the deepest authentic connection.</p>
+
+<p>The broader Harvia Group marketing strategy unveiled at CMD 2024 called for EOS and Harvia to operate as two global master brands with complementary positioning: Harvia as the accessible full-range brand, EOS as the premium commercial and German heritage brand. Sponsoring Aufguss Worlds with an EOS heater executes that strategy perfectly in the single event that matters most for commercial European sauna operators.</p>
+
+<h2>Part of a Broader Brand-Building Push</h2>
+
+<p>Harvia\'s Q3 2025 marketing activity includes Aufguss Worlds alongside the <a href="/article/thermasol-solaris-solar-powered-sauna-time-best-invention-2025">ThermaSol Solaris TIME Magazine recognition</a>, the <a href="/article/harvia-fenix-controller-myharvia-2-app-launch">Fenix controller and MyHarvia 2 app launch</a>, and continued international influencer activation on social media (CMD 2024 highlighted Japanese sauna influencers @jun_esune, @shhhiyo, @joey_hryk, and @ashrcrawford promoting Harvia globally). The pattern is consistent: Harvia is investing heavily in brand visibility in the specific markets, communities, and channels where sauna culture is already strong but Harvia brand awareness is still under-indexed relative to its market share.</p>
+
+<p>That marketing spend is showing up in operating expenses. Q3 2025 operating expenses increased year-over-year specifically because of investments in "product development, brand building, channel expansion, and operational efficiency," according to the company\'s investor materials. Sponsoring Aufguss Worlds is one line item in that budget. For a company with EUR 198.9 million in 2025 revenue running a 19 to 20% operating margin, several hundred thousand euros on global sauna sponsorships is a rounding error in expense but a meaningful brand-equity asset over time.</p>
+
+<div class="callout">
+<strong>Event snapshot:</strong> Aufguss World Championships 2025. Location: Verona, Italy. Sponsor: Harvia Group. Event sauna heater: EOS (German premium heater brand, Harvia Group since 2020). Ritual: choreographed Aufguss (towel-waving, scented water, music) originating from German-speaking Europe. Parent Group: Harvia Plc (Nasdaq Helsinki: HARVIA).
+</div>
+
+<div class="bottom-line">
+<p>Aufguss Worlds is a niche event that punches far above its attendee count in sauna-industry influence. Title-sponsoring it with an EOS event sauna is exactly the kind of brand investment that does not move the revenue line in a single quarter but compounds over years as commercial buyers, spa designers, and sauna operators associate the Harvia-EOS pair with cultural authority in the one ritual practice that defines modern commercial sauna. For German-speaking Central Europe specifically, this sponsorship is a statement that Harvia-EOS intends to hold the premium commercial market it dominates, not cede it to Klafs or other German rivals.</p>
+</div>`,
+    featured: false,
+    trending: false,
+  },
+  {
+    id: 'harvia-hagemeier-na-leadership-2025',
+    title: 'Harvia Appoints Nathan Hagemeier Head of North America, Succeeding Jennifer Thayer',
+    slug: 'harvia-nathan-hagemeier-north-america-president',
+    dek: 'Effective 1 November 2025, Nathan Hagemeier became Head of Region North America and President of Harvia US Inc., succeeding Jennifer Thayer who led Harvia\'s US business through the ThermaSol acquisition and integration.',
+    excerpt: 'Harvia announced in its Q3 2025 results that Nathan Hagemeier was appointed Head of Region, North America and President of Harvia US Inc., joining the Harvia Group management team as of 1 November 2025. Jennifer Thayer had held the role since February 2024 and led the company through the ThermaSol acquisition, US integration, and record North American growth in the first three quarters of 2025.',
+    contentType: 'Breaking',
+    category: 'Manufacturer News',
+    tags: ['Harvia', 'Nathan Hagemeier', 'Jennifer Thayer', 'leadership', 'North America', 'executive appointment', 'Harvia US'],
+    author: authors.sofia,
+    publishDate: '2025-11-06',
+    readingTime: 4,
+    featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/06/Almost-Heaven_1232marg.jpg',
+    imageCaption: 'Harvia US Inc., the subsidiary behind the Almost Heaven Saunas brand and the Lewisburg, West Virginia factory, has a new leader. Nathan Hagemeier became President and Head of Region North America effective 1 November 2025.',
+    body: `<p>Harvia Plc disclosed in its Q3 2025 interim report on 6 November 2025 that Nathan Hagemeier was appointed Head of Region, North America and President of Harvia US Inc., taking a seat on the Harvia Group management team effective 1 November 2025. The appointment replaces Jennifer Thayer, who had held the role since 1 February 2024 and was a central figure in the USD 30.4 million ThermaSol acquisition and the subsequent integration. (Every Harvia executive change, earnings release, and M&A event is indexed in our <a href="/harvia">Harvia News hub</a>.)</p>
+
+<h2>What Thayer Did</h2>
+
+<p>Jennifer Thayer joined Harvia on 1 February 2024 after a career in North American industrial and building products. She presented at Harvia\'s Capital Markets Day 2024 three months later, where she laid out the strategy for scaling Harvia\'s US business from EUR 43.4 million (2023) toward a target of materially more in the following five years. Thayer was also named CEO of ThermaSol as part of her Head of Region role when Harvia closed the ThermaSol acquisition on 31 July 2024.</p>
+
+<p>Under Thayer\'s leadership, Harvia\'s North American business posted the strongest growth of any region. Q1 2025 North American revenue grew 58.8% year over year to EUR 21.8 million. Q2 2025 North America grew 35.1% on a fully consolidated ThermaSol basis. Q3 2025 North America grew 23.7% to EUR 16.6 million. Year-to-date through Q3 2025, North America accounted for 35% of Harvia Group revenue, up from 29% in 2023.</p>
+
+<h2>Why the Change</h2>
+
+<p>Harvia did not disclose the specific reason for Thayer\'s departure or Hagemeier\'s selection. The company\'s investor materials simply announced the transition as effective 1 November 2025. No financial impact was disclosed, and the transition was not flagged as a material risk to North American operations or the ThermaSol integration, which Harvia has consistently described as "progressing well" and "operating effectively as one Harvia team."</p>
+
+<p>In large multinational sauna and wellness companies, Head of Region North America is one of the three or four most consequential operating roles outside the CEO position. It controls the Almost Heaven factory in Lewisburg, West Virginia, the ThermaSol operation in Round Rock, Texas, the sales office in Holland, Michigan, direct-to-consumer e-commerce, B2B distributor relationships, and the US commercial pipeline that includes hotels, gyms, and spa operators.</p>
+
+<h2>Continuity of Strategy</h2>
+
+<p>The company\'s Q3 2025 messaging emphasized continuity. The strategic priorities outlined at <a href="/article/harvia-capital-markets-day-2024-strategy-deep-dive">Capital Markets Day 2024</a> remain the US playbook: grow in infrared and steam, strengthen mid- and higher-price position, sharpen direct-to-consumer and B2B channel strategy, expand Lewisburg capacity, and continue to scale the ThermaSol brand. Hagemeier inherits a US operation with strong growth momentum, a recently refreshed ThermaSol brand, the <a href="/article/thermasol-solaris-solar-powered-sauna-time-best-invention-2025">TIME Magazine Best Inventions recognition for the Solaris</a>, and the new <a href="/article/thermasol-astra-fortis-ombra-premium-sauna-collection">ThermaSol Astra/Fortis/Ombra premium sauna collection</a>.</p>
+
+<p>CEO Matias Järnefelt has been explicit with investors about how big the North American prize is. On the Q4 2025 earnings call three months after Hagemeier\'s appointment, he sized the installed base and framed the competitive position of the Almost Heaven brand Hagemeier now runs.</p>
+
+<blockquote>"We see a market with significant growth potential. We believe there is more than 10 million saunas" in the US. "Almost Heaven is the brand which you could consider like the IKEA of the saunas." <cite>— Matias Järnefelt, CEO, Harvia Q4 2025 earnings call, 12 February 2026</cite></blockquote>
+
+<p>That framing, volume category, IKEA-of-saunas positioning, is the operating brief Hagemeier inherited. Järnefelt also confirmed on the Q3 2025 call that Harvia is "assessing what potentially could be the right time for us to have a sauna cabin factory in that region," a decision that, if made, would land squarely on Hagemeier\'s desk.</p>
+
+<div class="callout">
+<strong>Appointment snapshot:</strong> Name: Nathan Hagemeier. Role: Head of Region, North America; President, Harvia US Inc.; member, Harvia Group management team. Effective: 1 November 2025. Predecessor: Jennifer Thayer (Feb 2024 – Oct 2025). Reports to: Harvia Plc CEO Matias Jarnefelt. Operating footprint: Lewisburg (WV) sauna factory, Round Rock (TX) ThermaSol assembly, Holland (MI) sales office.
+</div>
+
+<div class="bottom-line">
+<p>Leadership transitions at 35%-of-revenue regional roles are always worth watching. Harvia\'s North American momentum is too strong for a botched handoff to be acceptable, and the company\'s Q3 materials treat the Hagemeier appointment as a smooth succession rather than a reset. The real test will be Q4 2025 and Q1 2026 growth rates under new leadership, and how Hagemeier positions ThermaSol\'s premium sauna collection against the established US barrel sauna and infrared market.</p>
+</div>`,
+    featured: false,
+    trending: false,
+  },
+  {
+    id: 'harvia-phoenix-el-mec-2023',
+    title: 'Harvia Acquires Italian Timer Switch Maker Phoenix El-Mec to Secure Supply Chain',
+    slug: 'harvia-phoenix-el-mec-supply-chain-acquisition',
+    dek: 'In September 2023, Harvia bolted on Phoenix El-Mec srl, its long-time supplier of electromechanical timer switches in Belluno, Italy. The deal is small but strategic: it locks in a single-source critical heater component and adds Italy to Harvia\'s European production network.',
+    excerpt: 'Harvia announced on 26 September 2023 that it had acquired 100% of Phoenix El-Mec srl, an electromechanical timer switch manufacturer in Belluno, Italy. Phoenix had been Harvia\'s supplier since 2013. Deal terms were not disclosed. The acquisition adds vertical integration in a category that had become a supply chain bottleneck through COVID.',
+    contentType: 'Breaking',
+    category: 'Manufacturer News',
+    tags: ['Harvia', 'Phoenix El-Mec', 'acquisition', 'Italy', 'supply chain', 'M&A', 'timer switch'],
+    author: authors.sofia,
+    publishDate: '2023-09-26',
+    readingTime: 4,
+    featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/06/2024_06_25_oh_harvia_details_0169-1280x854.jpg',
+    imageCaption: 'Phoenix El-Mec produces electromechanical timer switches used in Harvia\'s basic sauna heater lines, as well as in ovens, drying cabinets, and boilers for other customers.',
+    body: `<p>Harvia Plc signed and closed an agreement in September 2023 to acquire 100% of Phoenix El-Mec srl, an electromechanical timer switch manufacturer based in Belluno, in the Italian Alps north of Venice. Deal terms were not disclosed. The acquisition, described by management as a tactical rather than strategic M&A, addressed one of Harvia's persistent supply chain risks: a single-source dependency on a small Italian manufacturer for a critical heater component. (See all Harvia M&A activity in our <a href="/harvia">Harvia News hub</a>.)</p>
+
+<h2>What Phoenix El-Mec Makes</h2>
+
+<p>Phoenix El-Mec produces electromechanical timer switches that are a key component in Harvia's basic (entry-level) sauna heater lines. The timer switch is the analog knob-plus-timer that sets heater run time on older model sauna heaters (as distinct from digital control units like the Harvia Xenio or Harvia Fenix). The company also supplies timers to other industries including ovens, drying cabinets, and boiler manufacturers.</p>
+
+<p>Phoenix had been Harvia's timer switch supplier since its establishment in 2013, a ten-year commercial relationship. The acquisition, in effect, formalized that relationship into vertical integration.</p>
+
+<h2>Why It Matters: Supply Chain Control</h2>
+
+<p>Harvia described the acquisition at its Capital Markets Day 2024 as an example of a tactical M&A transaction, as opposed to the strategic M&A transactions like ThermaSol, EOS, and Almost Heaven. The framework matters for investors parsing Harvia's M&A strategy: strategic acquisitions expand the product portfolio or geographic reach; tactical acquisitions secure or de-risk the existing supply chain. Both are part of the toolkit but should be sized and valued differently.</p>
+
+<p>The specific driver was a supply chain problem that emerged during the 2020 to 2023 period. Harvia's heater production volumes grew rapidly from 2020 (EUR 109 million revenue) to peak 2021 (EUR 179 million), putting supplier pressure on small single-source component vendors. Phoenix El-Mec's capacity and technical reliability became a gating factor for Harvia's basic heater line availability. Acquiring the supplier solved the problem permanently and also gave Harvia access to the supplier's other customer relationships (ovens, boilers, drying cabinets), which can generate incremental non-sauna revenue at low marginal cost.</p>
+
+<h2>Integration and Adds to European Footprint</h2>
+
+<p>Phoenix El-Mec continues to operate from Belluno, adding Italy to Harvia's production footprint alongside Finland (Muurame, Sastamala), Romania (Gheorgheni), and Germany (Driedorf, via EOS). The company is a small fraction of Harvia Group revenue and headcount but is critical path for a product category that still represents meaningful volume across Harvia's entry-tier electric heater lines globally.</p>
+
+<div class="callout">
+<strong>Deal snapshot:</strong> Target: Phoenix El-Mec srl (Belluno, Italy). Acquirer: Harvia Plc. Announced and closed: September 2023. Product: electromechanical timer switches for sauna heaters, ovens, drying cabinets, boilers. Prior relationship: Harvia supplier since 2013. Deal terms: not disclosed. Strategic framework: tactical M&A (supply chain resilience).
+</div>
+
+<div class="bottom-line">
+<p>Phoenix El-Mec will never move the needle on Harvia's top line. But it illustrates how Harvia thinks about the M&A toolbox. Big strategic acquisitions (EOS, ThermaSol) get the headlines. Small tactical deals (Phoenix, eventually others) quietly de-risk the operating model and compound over years into an unassailable supply chain. For any sauna manufacturer still running on single-source EU component vendors, Phoenix is a reminder of what a well-capitalized consolidator does when it notices a pinch point: it buys the supplier.</p>
+</div>`,
+    featured: false,
+    trending: false,
   },
 ];
 
