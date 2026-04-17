@@ -104,7 +104,7 @@ export const articles: Article[] = [
     readingTime: 6,
     featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/05/Kiuas_Kuva1-780x439.jpg',
     imageCaption: 'Harvia\'s growing product portfolio spans sauna heaters, steam technology, and smart controls across 10 countries.',
-    body: `<p>Harvia, the Helsinki-listed sauna and spa company, reported first-quarter 2025 revenue of EUR 52.0 million, a 22.7% increase over the same period last year. The results mark the company's strongest quarterly growth since its post-pandemic surge and reflect the accelerating contribution of ThermaSol, the Texas-based steam technology company Harvia acquired in late July 2024 for USD 30.4 million.</p>
+    body: `<p>Harvia, the Helsinki-listed sauna and spa company, reported first-quarter 2025 revenue of EUR 52.0 million, a 22.7% increase over the same period last year. The results mark the company's strongest quarterly growth since its post-pandemic surge and reflect the accelerating contribution of ThermaSol, the Texas-based steam technology company Harvia acquired in late July 2024 for USD 30.4 million. (Full earnings history, investor calendar, and stock chart in our <a href="/harvia">Harvia News hub</a>.)</p>
 
 <h2>ThermaSol Integration Ahead of Schedule</h2>
 <p>The ThermaSol acquisition, which closed on July 31, 2024, has been the primary engine of growth. The steam shower and smart-home controls manufacturer has integrated ahead of plan, with management noting that cross-selling into Harvia's existing dealer network exceeded initial projections.</p>
@@ -153,7 +153,7 @@ export const articles: Article[] = [
     readingTime: 5,
     featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/06/2024_06_19_jr_harvia_0271-1280x853.jpg',
     imageCaption: 'Harvia began public trading on Nasdaq Helsinki in March 2018 at EUR 5.00 per share, an IPO valuation of approximately EUR 93.5 million.',
-    body: `<p>Harvia Plc, the Muurame-based Finnish sauna heater manufacturer, began trading on the Helsinki Stock Exchange's pre-list today at EUR 5.00 per share. The IPO was oversubscribed, priced at the top of its range, and valued the company at approximately EUR 93.5 million immediately following the listing. Official list trading begins 26 March 2018.</p>
+    body: `<p>Harvia Plc, the Muurame-based Finnish sauna heater manufacturer, began trading on the Helsinki Stock Exchange's pre-list today at EUR 5.00 per share. The IPO was oversubscribed, priced at the top of its range, and valued the company at approximately EUR 93.5 million immediately following the listing. Official list trading begins 26 March 2018. (Ongoing coverage, stock chart, and the full acquisitions timeline live in our <a href="/harvia">Harvia News hub</a>.)</p>
 
 <h2>IPO Mechanics</h2>
 <p>Harvia issued 9,014,436 new shares in the offering, corresponding to approximately 48.2% of the company's shares and votes immediately following the IPO. The sale of existing shares accounted for another 6.7%. Gross proceeds of roughly EUR 45 million will be used primarily to repay existing debt and to fund growth investments.</p>
@@ -198,7 +198,7 @@ export const articles: Article[] = [
     readingTime: 4,
     featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/06/Almost-Heaven_1232marg.jpg',
     imageCaption: 'Almost Heaven Saunas, founded in 1998 and based in Renick, West Virginia, is now part of Harvia Plc.',
-    body: `<p>Harvia Plc announced today that it has acquired Almost Heaven Saunas, the Renick, West Virginia-based barrel sauna maker, for approximately EUR 4 million. The deal closes three months after <a href="/article/harvia-ipo-nasdaq-helsinki-2018">Harvia's IPO on Nasdaq Helsinki</a> and marks the company's first major acquisition as a public entity.</p>
+    body: `<p>Harvia Plc announced today that it has acquired Almost Heaven Saunas, the Renick, West Virginia-based barrel sauna maker, for approximately EUR 4 million. The deal closes three months after <a href="/article/harvia-ipo-nasdaq-helsinki-2018">Harvia's IPO on Nasdaq Helsinki</a> and marks the company's first major acquisition as a public entity. Track the rest of Harvia's M&A program in our <a href="/harvia#acquisitions">acquisitions timeline</a>.</p>
 
 <h2>Why Almost Heaven</h2>
 <p>Almost Heaven was founded in 1998 and has grown into the largest traditional sauna manufacturer for the North American consumer market. The company runs a timber shop, panel line, and assembly facility in Renick, West Virginia, and sells through specialty dealers and mass-market retail channels including Costco. For Harvia, the deal delivers three things it could not replicate quickly on its own: a US-based factory, a recognized consumer brand, and an established North American dealer footprint.</p>
@@ -234,7 +234,7 @@ export const articles: Article[] = [
     readingTime: 5,
     featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/06/EOS_1232marg.jpg',
     imageCaption: 'EOS Saunatechnik, based in Driedorf, Germany, becomes a Harvia Group subsidiary.',
-    body: `<p>Harvia Plc announced today that it has agreed to acquire a majority stake in EOS Group, the Driedorf, Germany-based premium sauna heater and spa controls manufacturer. The deal represents Harvia's largest acquisition since its <a href="/article/harvia-ipo-nasdaq-helsinki-2018">2018 IPO</a> and gives the Finnish company a decisive foothold in the commercial and ultra-premium residential sauna segment.</p>
+    body: `<p>Harvia Plc announced today that it has agreed to acquire a majority stake in EOS Group, the Driedorf, Germany-based premium sauna heater and spa controls manufacturer. The deal represents Harvia's largest acquisition since its <a href="/article/harvia-ipo-nasdaq-helsinki-2018">2018 IPO</a> and gives the Finnish company a decisive foothold in the commercial and ultra-premium residential sauna segment. Full M&A history, brand portfolio, and investor calendar in our <a href="/harvia">Harvia News hub</a>.</p>
 
 <h2>What EOS Brings</h2>
 <p>EOS Saunatechnik, founded in 1947, is known across Europe and in hospitality circles as one of the premier manufacturers of commercial sauna heaters, infrared technology, and spa control systems. Its heaters and steam technology feature in many of the most demanding hospitality installations across German-speaking Europe, including hotel spas, medical wellness clinics, and public bathing facilities. EOS also brings a significant R&D capability in digital controls and a 100% German manufacturing footprint.</p>
@@ -273,7 +273,7 @@ export const articles: Article[] = [
     readingTime: 4,
     featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/06/Kirami_Harvia_1232marg.jpg',
     imageCaption: 'Kirami, the Forssa, Finland-based wood-fired hot tub manufacturer, joined Harvia Group in May 2021.',
-    body: `<p>Harvia Plc announced today the acquisition of Kirami Oy, a Forssa, Finland-based manufacturer of wood-heated and electric hot tubs. The purchase price is EUR 7 million at closing, with a delayed purchase price of up to EUR 4 million payable after three years based on Kirami's EBITDA performance. Harvia shares traded at an all-time high on the news.</p>
+    body: `<p>Harvia Plc announced today the acquisition of Kirami Oy, a Forssa, Finland-based manufacturer of wood-heated and electric hot tubs. The purchase price is EUR 7 million at closing, with a delayed purchase price of up to EUR 4 million payable after three years based on Kirami's EBITDA performance. Harvia shares traded at an all-time high on the news. (All Harvia M&A activity, earnings, and stock chart in our <a href="/harvia">Harvia News hub</a>.)</p>
 
 <h2>What Kirami Adds</h2>
 <p>Kirami is the largest Finnish manufacturer of still-water wood-fired hot tubs and a leader in European outdoor bathing. The company's product line spans traditional wood-heated tubs, electric-heated tubs, and accessories. Kirami manufactures in Forssa and sells across Europe, with an increasingly meaningful US footprint.</p>
@@ -312,7 +312,7 @@ export const articles: Article[] = [
     readingTime: 5,
     featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/06/Harvia_healingwithheat_257-1280x1707-1.jpg',
     imageCaption: 'ThermaSol, headquartered in Round Rock, Texas, manufactures steam showers, generators, digital controls, and smart-home shower components.',
-    body: `<p>Harvia Plc announced today that it has signed an agreement to acquire 100% of the shares of ThermaSol Steam Bath LLC, a Round Rock, Texas-based manufacturer of residential steam products and smart-shower controls. The purchase price is USD 30.4 million, subject to customary closing adjustments. The transaction is expected to close by the end of July.</p>
+    body: `<p>Harvia Plc announced today that it has signed an agreement to acquire 100% of the shares of ThermaSol Steam Bath LLC, a Round Rock, Texas-based manufacturer of residential steam products and smart-shower controls. The purchase price is USD 30.4 million, subject to customary closing adjustments. The transaction is expected to close by the end of July. (Full Harvia M&A history, stock chart, and earnings calendar in our <a href="/harvia">Harvia News hub</a>.)</p>
 
 <h2>What ThermaSol Is</h2>
 <p>ThermaSol has been in continuous operation for over six decades and is the North American leader in residential steam shower systems. The product line includes steam generators, steam and shower heads, digital control units, smart shower components, and the ThermaTouch controls platform. ThermaSol also distributes indoor and outdoor saunas and traditional sauna heaters through its dealer network. Company headquarters and assembly operations are in Round Rock, Texas. Approximately 40 employees.</p>
@@ -361,7 +361,7 @@ export const articles: Article[] = [
     readingTime: 6,
     featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/06/092624_HA_LM_BK0221-3_WEB-1280x854-1.jpg',
     imageCaption: 'Harvia CEO Matias Jarnefelt presented Q4 and FY 2024 results on 13 February 2025.',
-    body: `<p>Harvia Plc reported full-year 2024 revenue of EUR 175.2 million on 13 February 2025, including a record fourth quarter of EUR 51.0 million, up 29.3% year-over-year. The results mark Harvia's strongest quarterly revenue performance in its history as a public company and reflect a full quarter of consolidated contribution from ThermaSol, the Texas-based steam specialist Harvia acquired in July 2024.</p>
+    body: `<p>Harvia Plc reported full-year 2024 revenue of EUR 175.2 million on 13 February 2025, including a record fourth quarter of EUR 51.0 million, up 29.3% year-over-year. The results mark Harvia's strongest quarterly revenue performance in its history as a public company and reflect a full quarter of consolidated contribution from ThermaSol, the Texas-based steam specialist Harvia acquired in July 2024. (Prior quarter: <a href="/article/harvia-q3-2024-interim-results">Q3 2024</a>. All earnings, stock, and investor dates: <a href="/harvia">Harvia News hub</a>.)</p>
 
 <h2>Headline Figures</h2>
 <p>For the full year 2024, Harvia reported revenue of EUR 175.2 million, up from EUR 150.5 million in 2023, a growth rate of roughly 16.4%. Adjusted operating profit came in at EUR 33.8 million, or 19.3% of revenue, just below Harvia's 20% long-term target. Net cash from operations was strong, with operating free cash flow meaningfully higher year over year.</p>
@@ -407,7 +407,7 @@ export const articles: Article[] = [
     readingTime: 5,
     featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/06/2024_06_25_oh_harvia_details_0169-1280x854.jpg',
     imageCaption: 'Harvia published its H1 2025 half-year financial review on 7 August 2025.',
-    body: `<p>Harvia Plc published its half-year financial review for January to June 2025 on 7 August 2025. Total revenue for the first half reached EUR 99.3 million, up 16.0% at comparable exchange rates. Q2 2025 alone delivered revenue of EUR 47.3 million. The headline number looked weaker than Q1's 22.7%, but the composition of growth tells a more nuanced story.</p>
+    body: `<p>Harvia Plc published its half-year financial review for January to June 2025 on 7 August 2025. Total revenue for the first half reached EUR 99.3 million, up 16.0% at comparable exchange rates. Q2 2025 alone delivered revenue of EUR 47.3 million. The headline number looked weaker than Q1's 22.7%, but the composition of growth tells a more nuanced story. (Prior quarter: <a href="/article/harvia-record-q1-revenue-thermasol-integration">Q1 2025</a>. All earnings and investor data: <a href="/harvia">Harvia News hub</a>.)</p>
 
 <h2>The Growth Composition Matters</h2>
 <p>Organic revenue growth for H1 was 2.4%. The remainder of the 16.0% total growth came from ThermaSol, acquired in late July 2024 and now fully consolidated into Harvia's North American business. That makes H1 2025 the first full six-month period in which ThermaSol appears in year-over-year comparisons as inorganic rather than fully owned. The North American growth of 35.1% is the clearest read on the ThermaSol integration: the deal is driving outsized regional growth and is on track with the deal thesis <a href="/article/harvia-thermasol-acquisition-announcement">laid out one year ago</a>.</p>
@@ -453,7 +453,7 @@ export const articles: Article[] = [
     readingTime: 5,
     featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/05/Harvia_ranta_03-1024x684-1.jpg',
     imageCaption: 'Harvia reported Q3 2025 results on 6 November 2025. All four regions returned to growth.',
-    body: `<p>Harvia Plc reported Q3 2025 revenue of EUR 46.0 million on 6 November 2025, up 18.8% year-over-year, with organic revenue growth of 16.1% and total growth of 22.3% at comparable exchange rates. The print exceeded the consensus compiled by Helsinki-based analyst Inderes and sent the stock sharply higher on the day.</p>
+    body: `<p>Harvia Plc reported Q3 2025 revenue of EUR 46.0 million on 6 November 2025, up 18.8% year-over-year, with organic revenue growth of 16.1% and total growth of 22.3% at comparable exchange rates. The print exceeded the consensus compiled by Helsinki-based analyst Inderes and sent the stock sharply higher on the day. (Prior: <a href="/article/harvia-h1-2025-half-year-results">H1 2025</a>. Next up: <a href="/article/harvia-q4-2025-fy-2025-results">Q4/FY 2025</a>. Full coverage: <a href="/harvia">Harvia News hub</a>.)</p>
 
 <h2>All Regions Contributing</h2>
 <p>Q3 was the first quarter since 2023 in which all four reporting regions posted positive growth simultaneously. North America rebounded to 24% growth, up sharply from softer Q2 performance. Northern Europe grew 14.8%, returning to double-digit growth for the first time since early 2023 after an extended period of Finnish consumer weakness. Continental Europe grew 10.1%, supported by commercial and hospitality demand across Germany, France, and the UK. APAC & MEA maintained its multi-year trajectory with modest Q3 growth and a 25.4% year-to-date figure.</p>
@@ -499,7 +499,7 @@ export const articles: Article[] = [
     readingTime: 7,
     featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/02/Untitled-9-1280x833.jpg',
     imageCaption: 'Harvia reported FY 2025 results on 12 February 2026. Revenue reached EUR 198.9 million.',
-    body: `<p>Harvia Plc reported full-year 2025 revenue of EUR 198.9 million on 12 February 2026, up 13.5% year-over-year (16.0% at comparable exchange rates). Q4 2025 revenue of EUR 53.7 million marked a new quarterly record. Adjusted operating profit for the year reached EUR 39.1 million, or 19.6% of revenue, just below the 20% long-term target. EPS grew 9.1% to EUR 1.41.</p>
+    body: `<p>Harvia Plc reported full-year 2025 revenue of EUR 198.9 million on 12 February 2026, up 13.5% year-over-year (16.0% at comparable exchange rates). Q4 2025 revenue of EUR 53.7 million marked a new quarterly record. Adjusted operating profit for the year reached EUR 39.1 million, or 19.6% of revenue, just below the 20% long-term target. EPS grew 9.1% to EUR 1.41. (Prior: <a href="/article/harvia-q3-2025-interim-results">Q3 2025</a>. Full investor calendar, stock chart, and 9-year financials: <a href="/harvia">Harvia News hub</a>.)</p>
 
 <h2>Headline Figures</h2>
 <p>The 2025 full-year print leaves Harvia within striking distance of the EUR 200 million annual revenue threshold that management has flagged as a medium-term milestone. At comparable exchange rates, the company grew 16.0% for the year, comfortably above the 10% long-term target. Operating free cash flow remained strong, with Q4 cash flow of EUR 13.3 million reflecting continued working capital discipline.</p>
@@ -548,7 +548,7 @@ export const articles: Article[] = [
     readingTime: 5,
     featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/05/Healing-with-heat-1280x720.jpg',
     imageCaption: 'Harvia held its 2026 Annual General Meeting in Helsinki on 15 April 2026.',
-    body: `<p>Harvia Plc held its 2026 Annual General Meeting in Helsinki on 15 April 2026 at 10:00 a.m. Finnish time. Shareholders approved the board's proposed dividend of EUR 0.77 per share, re-elected six incumbent directors, added Martin Richter to the board, and renewed share buyback and issuance authorizations. Deloitte Oy was re-elected as auditor.</p>
+    body: `<p>Harvia Plc held its 2026 Annual General Meeting in Helsinki on 15 April 2026 at 10:00 a.m. Finnish time. Shareholders approved the board's proposed dividend of EUR 0.77 per share, re-elected six incumbent directors, added Martin Richter to the board, and renewed share buyback and issuance authorizations. Deloitte Oy was re-elected as auditor. (Context on the <a href="/article/harvia-q4-2025-fy-2025-results">FY 2025 results</a> that drove the dividend. Full investor coverage: <a href="/harvia">Harvia News hub</a>.)</p>
 
 <h2>Dividend</h2>
 <p>The approved total dividend of EUR 0.77 per share will be paid in two installments. The first installment of EUR 0.39 per share has a record date of 17 April 2026 and a payment date of 24 April 2026. The second installment of EUR 0.38 per share has a record date of 19 October 2026 and a payment date of 26 October 2026. The total represents a 5.5% increase from the EUR 0.73 paid for 2024.</p>
@@ -595,7 +595,7 @@ export const articles: Article[] = [
     readingTime: 7,
     featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/06/2024_06_19_jr_harvia_0271-1280x853.jpg',
     imageCaption: 'Harvia reported FY 2022 results on 9 February 2023. Revenue was EUR 172.4 million, down 3.7% from the 2021 pandemic peak.',
-    body: `<p>Harvia Plc reported full-year 2022 revenue of EUR 172.4 million on 9 February 2023, down 3.7% from the pandemic-era peak of EUR 179.1 million in 2021. The print closed out what management would later call the company's most complicated year as a public entity: a double hit of post-pandemic demand normalization and a European consumer retrenchment driven by the Russian invasion of Ukraine, energy costs, and rising rates. Adjusted operating margin finished the year at 19.7%, down from 22.4% in 2021.</p>
+    body: `<p>Harvia Plc reported full-year 2022 revenue of EUR 172.4 million on 9 February 2023, down 3.7% from the pandemic-era peak of EUR 179.1 million in 2021. The print closed out what management would later call the company's most complicated year as a public entity: a double hit of post-pandemic demand normalization and a European consumer retrenchment driven by the Russian invasion of Ukraine, energy costs, and rising rates. Adjusted operating margin finished the year at 19.7%, down from 22.4% in 2021. (Next year: <a href="/article/harvia-q4-2023-fy-2023-results">FY 2023 turnaround</a>. All earnings in context: <a href="/harvia">Harvia News hub</a>.)</p>
 
 <h2>The Pandemic Overhang</h2>
 <p>Harvia's 2020 and 2021 results had been unusually strong. The company had ridden the wellness-at-home wave: <a href="/article/harvia-eos-group-acquisition-germany">EOS consolidated in spring 2020</a>, revenue jumped 43.7% in 2020 to EUR 104 million, and then another 72% in 2021 to EUR 179.1 million, with <a href="/article/harvia-kirami-acquisition-hot-tub">Kirami</a> contributing a partial year. Management had been explicit with investors that some of that demand was pulled forward from future periods, and in July 2022 the company pre-announced that Q2 demand had materially softened.</p>
@@ -644,7 +644,7 @@ export const articles: Article[] = [
     readingTime: 7,
     featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/05/Harvia_ranta_03-1024x684-1.jpg',
     imageCaption: 'Harvia reported FY 2023 results on 8 February 2024. Q4 marked the first quarter of year-over-year growth after seven consecutive declines.',
-    body: `<p>Harvia Plc reported full-year 2023 revenue of EUR 150.5 million on 8 February 2024, down 12.7% from EUR 172.4 million in 2022. But the headline obscured the turn: Q4 2023 revenue grew 3.4% year-over-year to EUR 39.4 million, the first quarterly growth since Q1 2022, with an adjusted operating margin of 24.2%, the company's strongest Q4 profitability since its IPO. Harvia shares jumped on the print.</p>
+    body: `<p>Harvia Plc reported full-year 2023 revenue of EUR 150.5 million on 8 February 2024, down 12.7% from EUR 172.4 million in 2022. But the headline obscured the turn: Q4 2023 revenue grew 3.4% year-over-year to EUR 39.4 million, the first quarterly growth since Q1 2022, with an adjusted operating margin of 24.2%, the company's strongest Q4 profitability since its IPO. Harvia shares jumped on the print. (Prior year: <a href="/article/harvia-fy-2022-full-year-results">FY 2022 reset</a>. Next quarter: <a href="/article/harvia-q1-2024-interim-results">Q1 2024</a>. Full coverage: <a href="/harvia">Harvia News hub</a>.)</p>
 
 <h2>The Inflection Nobody Was Modeling</h2>
 <p>Heading into Q4, Inderes and the broader sell-side had been modeling another quarter of modest decline, with the expectation that organic growth would return in H1 2024. Harvia instead delivered positive organic growth of 5.2% in Q4 and a margin substantially above consensus. The read-through was clear: European destocking had completed faster than expected, and North American growth had accelerated enough to offset whatever Continental European weakness remained.</p>
@@ -693,7 +693,7 @@ export const articles: Article[] = [
     readingTime: 6,
     featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/06/092624_HA_LM_BK0221-3_WEB-1280x854-1.jpg',
     imageCaption: 'Harvia published Q1 2024 interim results on 3 May 2024. Adjusted operating margin held at 23.8% despite Finnish industrial action.',
-    body: `<p>Harvia Plc published its Q1 2024 interim report on 3 May 2024, reporting revenue of EUR 42.4 million, up 2.3% year over year, with adjusted operating profit of EUR 10.1 million representing 23.8% of revenue. The print extended the margin strength that emerged in <a href="/article/harvia-q4-2023-fy-2023-results">Q4 2023</a>, though the modest headline revenue growth disappointed investors who had been modeling a stronger acceleration off the prior year's base.</p>
+    body: `<p>Harvia Plc published its Q1 2024 interim report on 3 May 2024, reporting revenue of EUR 42.4 million, up 2.3% year over year, with adjusted operating profit of EUR 10.1 million representing 23.8% of revenue. The print extended the margin strength that emerged in <a href="/article/harvia-q4-2023-fy-2023-results">Q4 2023</a>, though the modest headline revenue growth disappointed investors who had been modeling a stronger acceleration off the prior year's base. (Next: <a href="/article/harvia-h1-2024-half-year-results">H1 2024 results</a>. Full investor coverage: <a href="/harvia">Harvia News hub</a>.)</p>
 
 <h2>The Finnish Strike Complication</h2>
 <p>Management spent material time on the call explaining why Q1 revenue growth was only 2.3% when the Q4 2023 pattern had suggested a faster reacceleration. The answer was Finnish industrial action. Political strikes in Finland during February and March disrupted logistics at Finnish ports and delayed some customer shipments that would otherwise have fallen into Q1. Those shipments rolled into Q2. The impact was not quantified precisely, but CFO Ari Vesterinen indicated it was several million euros of revenue timing.</p>
@@ -740,7 +740,7 @@ export const articles: Article[] = [
     readingTime: 7,
     featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/06/2024_06_25_oh_harvia_details_0169-1280x854.jpg',
     imageCaption: 'Harvia published its H1 2024 half-year review on 2 August 2024, two days after closing the USD 30.4 million ThermaSol acquisition.',
-    body: `<p>Harvia Plc published its H1 2024 half-year financial review on 2 August 2024. Q2 2024 revenue hit EUR 43.2 million, up 20.7% year-over-year (20.1% organic). H1 revenue of EUR 85.5 million was up 10.9%, with adjusted operating profit of EUR 19.5 million at a 22.8% margin. The print landed two days after Harvia closed the <a href="/article/harvia-thermasol-acquisition-announcement">USD 30.4 million ThermaSol acquisition</a>, which was announced on 23 July 2024.</p>
+    body: `<p>Harvia Plc published its H1 2024 half-year financial review on 2 August 2024. Q2 2024 revenue hit EUR 43.2 million, up 20.7% year-over-year (20.1% organic). H1 revenue of EUR 85.5 million was up 10.9%, with adjusted operating profit of EUR 19.5 million at a 22.8% margin. The print landed two days after Harvia closed the <a href="/article/harvia-thermasol-acquisition-announcement">USD 30.4 million ThermaSol acquisition</a>, which was announced on 23 July 2024. (Prior: <a href="/article/harvia-q1-2024-interim-results">Q1 2024</a>. Next: <a href="/article/harvia-q3-2024-interim-results">Q3 2024</a>. All quarters in one place: <a href="/harvia">Harvia News hub</a>.)</p>
 
 <h2>The Bounce Investors Wanted</h2>
 <p>Q1 2024 had printed modest 2.3% revenue growth, muted by Finnish strike-delayed shipments. Q2 confirmed that the Q1 weakness was entirely a timing issue. Organic revenue growth of 20.1% in Q2 was the strongest single-quarter organic figure Harvia had delivered since the pandemic demand peak of Q2 2021. The combination of strike catch-up, accelerating North American demand, and the first quarter of year-over-year Northern European growth in two years drove the result.</p>
@@ -791,7 +791,7 @@ export const articles: Article[] = [
     readingTime: 6,
     featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/02/Kiuas_Kuva1-copy-1280x720.jpg',
     imageCaption: 'Harvia reported Q3 2024 results on 7 November 2024. ThermaSol contributed for two months after closing 31 July.',
-    body: `<p>Harvia Plc published its Q3 2024 interim report on 7 November 2024. Revenue of EUR 38.7 million was up 14.0% year-over-year, comprising 7.9% organic growth and 6.1% inorganic contribution from ThermaSol, consolidated from 31 July. Adjusted operating profit of EUR 8.9 million represented 22.9% of revenue, ahead of consensus. Nine-month revenue reached EUR 124.3 million, up 11.8% year-to-date.</p>
+    body: `<p>Harvia Plc published its Q3 2024 interim report on 7 November 2024. Revenue of EUR 38.7 million was up 14.0% year-over-year, comprising 7.9% organic growth and 6.1% inorganic contribution from ThermaSol, consolidated from 31 July. Adjusted operating profit of EUR 8.9 million represented 22.9% of revenue, ahead of consensus. Nine-month revenue reached EUR 124.3 million, up 11.8% year-to-date. (Prior: <a href="/article/harvia-h1-2024-half-year-results">H1 2024</a>. Next: <a href="/article/harvia-q4-2024-fy-2024-results">Q4/FY 2024</a>. Full coverage: <a href="/harvia">Harvia News hub</a>.)</p>
 
 <h2>First Read on ThermaSol</h2>
 <p>Q3 was the first quarter investors could see ThermaSol inside Harvia's numbers. The deal closed on 31 July, so Q3 captured two months of operations (August and September). Initial contribution was modest relative to full-year run-rate expectations, reflecting the partial-quarter effect plus natural summer seasonality in North American steam products. What mattered more than the absolute contribution was the management commentary on integration progress.</p>
@@ -1240,7 +1240,7 @@ export const articles: Article[] = [
 </div>
 
 <h3>Where Capital Is Flowing</h3>
-<p>Investment activity in sauna-adjacent companies has accelerated. <a href="/article/cold-plunge-market-380m-new-sauna-buyers">Plunge, the cold plunge brand,</a> bootstrapped its way to over $100 million in annual revenue by 2024 and has begun exploring outside capital. <a href="/article/bathhouse-120m-revenue-social-sauna">Commercial sauna venue operators</a> are seeing interest from hospitality-focused PE firms. On the supplier side, Kohler's 2023 acquisition of KLAFS signaled that strategics see long-term value in the thermal wellness equipment space.</p>
+<p>Investment activity in sauna-adjacent companies has accelerated. <a href="/article/cold-plunge-market-380m-new-sauna-buyers">Plunge, the cold plunge brand,</a> bootstrapped its way to over $100 million in annual revenue by 2024 and has begun exploring outside capital. <a href="/article/bathhouse-120m-revenue-social-sauna">Commercial sauna venue operators</a> are seeing interest from hospitality-focused PE firms. On the supplier side, Kohler's 2023 acquisition of KLAFS signaled that strategics see long-term value in the thermal wellness equipment space. Public-market investors can already buy the only pure-play sauna listing through <a href="/harvia">Harvia on Nasdaq Helsinki</a>.</p>
 
 <p>The sauna industry sits at the intersection of health science, consumer behavior, and scalable business models, a positioning that works well in a longevity investment environment still searching for opportunities with proven demand.</p>`,
     featured: true,
@@ -1262,7 +1262,7 @@ export const articles: Article[] = [
     body: `<p>It was one of the busiest weeks in recent sauna industry memory. Here are the five stories that mattered most.</p>
 
 <h2>1. Harvia Posts Record Q1 Revenue</h2>
-<p><a href="/article/harvia-record-q1-revenue-thermasol-integration">Harvia reported Q1 2025 revenue of EUR 52 million</a>, up 22.7% year-over-year, its strongest quarterly growth since the post-pandemic surge. The ThermaSol steam technology acquisition (closed July 2024) is the primary growth driver.</p>
+<p><a href="/article/harvia-record-q1-revenue-thermasol-integration">Harvia reported Q1 2025 revenue of EUR 52 million</a>, up 22.7% year-over-year, its strongest quarterly growth since the post-pandemic surge. The ThermaSol steam technology acquisition (closed July 2024) is the primary growth driver. See the full earnings timeline and stock chart in our <a href="/harvia">Harvia News hub</a>.</p>
 
 <h2>2. U.S. Tariff Pressure on European Sauna Imports</h2>
 <p><a href="/article/us-sauna-imports-tariff-pressure-europe">Broad EU tariffs and Section 232 timber duties are raising costs</a> on Finnish and Baltic sauna products entering the U.S. market. Distributors are recalculating pricing models as cumulative duties increase landed costs across heaters, controls, and thermally modified wood.</p>
@@ -1588,7 +1588,7 @@ export const articles: Article[] = [
 <p><strong><a href="/article/sauna360-chinese-manufacturing-nordic-illusion">Sauna360 / TyloHelo</a></strong> (Sweden/Finland): The parent company of Tylo, Helo, Finnleo, and Amerec faces the worst tariff exposure of any major sauna brand, precisely because its Nordic branding obscures Chinese manufacturing. U.S. customs import records show Sauna360 Inc. receives the vast majority of its prefabricated sauna kit shipments from two Chinese manufacturers, Wuxi Sfactor Co. and Changzhou Sfactor Co., both based in Jiangsu province. A 2022 Enterprise Minnesota report confirmed the arrangement, quoting company management saying Sauna360 "manufactures most of its free-standing sauna units in China," with those kits shipped directly to consumers for in-home assembly. At 145% tariffs, a container that cost $5,000 to ship from China in 2019 now carries a tariff bill many times the product value. Custom-built units are produced at the company's Cokato, Minnesota plant, and heaters still come from Finland and Sweden, but those segments represent a small share of volume. Sauna360 was acquired by Masco's Watkins Wellness division in July 2023 and does not publish manufacturing disclosures.</p>
 
 <h2>High Exposure: Finnish and Estonian Manufacturers (15% tariff)</h2>
-<p><strong><a href="/article/harvia-record-q1-revenue-thermasol-integration">Harvia</a></strong> (Finland): The world's largest sauna equipment company manufactures across Finland, Estonia, and Germany. Its heaters, sold through a wide U.S. dealer network, face the full 15% European surcharge. However, Harvia's 2024 acquisition of ThermaSol (Texas-based) gives it a domestic manufacturing foothold for steam products.</p>
+<p><strong><a href="/harvia">Harvia</a></strong> (Finland): The world's largest sauna equipment company manufactures across Finland, Estonia, and Germany. Its heaters, sold through a wide U.S. dealer network, face the full 15% European surcharge. However, <a href="/article/harvia-thermasol-acquisition-announcement">Harvia's 2024 acquisition of ThermaSol</a> (Texas-based) gives it a domestic manufacturing foothold for steam products.</p>
 
 <p><strong>HUUM</strong> (Estonia): All HIVE and DROP heaters are manufactured in Estonia. HUUM has no U.S. production. Tariff exposure is total on the heater side, though some distributors pre-stocked U.S. warehouses to buffer near-term pricing.</p>
 
@@ -2215,7 +2215,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <blockquote>At the moment we don't need additional money from investors and can grow using our own resources.</blockquote>
 
-<p>Nellis's stated ambition: make HUUM the world's second-largest sauna heater manufacturer, behind only Finland's <a href="/article/harvia-record-q1-revenue-thermasol-integration">Harvia</a>.</p>
+<p>Nellis's stated ambition: make HUUM the world's second-largest sauna heater manufacturer, behind only Finland's <a href="/harvia">Harvia</a>.</p>
 
 <p>For US buyers, one specification matters more than any other. <a href="/article/ul-60335-2-53-sauna-heater-standard-transition">HUUM's SGS certification</a> allows heaters to reach approximately 230\u00B0F, compared to the 194\u00B0F ceiling of standard UL-listed heaters. That 36-degree difference matters enormously to serious sauna users. HUUM invested over $60,000 in product certification for the American market. The company now holds three Red Dot Product Design Awards, for the DROP (2015), the CLIFF heater (2021), and the UKU controller (2021), making it responsible for three of only thirteen Estonian products ever to receive the honor.</p>
 
@@ -2271,7 +2271,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <h2>How Estonia Stacks Up Against Harvia (and Why Finland Should Be Nervous)</h2>
 
-<p><a href="/article/harvia-record-q1-revenue-thermasol-integration">Harvia</a>, the Finnish sauna giant on Nasdaq Helsinki, reported EUR 175.2 million in revenue for 2024 with approximately 700 employees and a market capitalization around EUR 650 million. Harvia's North American revenue alone reached roughly $67 million, larger than all Estonian sauna companies combined. For now.</p>
+<p><a href="/harvia">Harvia</a>, the Finnish sauna giant on Nasdaq Helsinki, reported EUR 175.2 million in revenue for 2024 with approximately 700 employees and a market capitalization around EUR 650 million. Harvia's North American revenue alone reached roughly $67 million, larger than all Estonian sauna companies combined. For now.</p>
 
 <p>Estonia's largest player, Thermory, reported EUR 149 million in 2022 revenue, close to Harvia's scale. But most of Thermory's business is thermally modified lumber for decking and cladding, not sauna-specific products. In pure sauna equipment, HUUM at approximately EUR 14.7 million and Saunum at EUR 3.7 million remain small relative to Harvia. But the growth rates tell a different story: HUUM's 115% three-year CAGR through 2022 dramatically outpaces Harvia's normalized growth trajectory of roughly 10% annually. At that pace, Harvia's lead is not the fortress it looks like on a spreadsheet.</p>
 
@@ -2395,7 +2395,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <p>For context, here is how other premium sauna brands handle country-of-origin disclosure.</p>
 
-<p><a href="/article/harvia-record-q1-revenue-thermasol-integration">Harvia</a> (Nasdaq Helsinki: HARVIA), the world's largest sauna heater manufacturer, openly discloses its Guangzhou, China factory in investor materials. The Guangzhou facility produces heating elements and resistors assembled into complete heaters in Muurame, Finland. Harvia's annual reports name the operation explicitly.</p>
+<p><a href="/harvia">Harvia</a> (Nasdaq Helsinki: HARVIA), the world's largest sauna heater manufacturer, openly discloses its Guangzhou, China factory in investor materials. The Guangzhou facility produces heating elements and resistors assembled into complete heaters in Muurame, Finland. Harvia's annual reports name the operation explicitly.</p>
 
 <p>EOS (Germany) states: "100% made in Germany — we develop and produce our products exclusively in Germany." Narvi (Finland) carries the official Finnish Key Flag Symbol, a government certification requiring at least 95% domestic production. Klafs (Germany, acquired by Kohler in 2023) consistently markets German manufacturing at its Schwäbisch Hall factory. <a href="/article/estonia-sauna-manufacturing-powerhouse">Auroom</a> (Estonia, part of Thermory Group) prominently states "Handcrafted in Estonia" across its product line.</p>
 
