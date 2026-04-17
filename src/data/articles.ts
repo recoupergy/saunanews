@@ -42,7 +42,7 @@ export const articles: Article[] = [
 
 <p>The facility runs two traditional Finnish dry saunas. The larger room holds up to 20 people; the smaller fits 12. Both run on tiered benches with temperatures between 175 and 205 degrees Fahrenheit. Water goes on stones. Steam fills the room.</p>
 
-<p>The heater is a <a href="/article/harvia-record-q1-revenue-thermasol-integration">Harvia</a> 50, the Finnish manufacturer's largest wood-burning stove. That is not a token piece of equipment. The Harvia 50 is built for commercial-scale rooms and carries a serious stone load, which is why the loyly at White Mountain Sauna Haus hits different than a hotel steam room running a small wall-mounted electric unit. Wood-fired heat, big stones, real steam. The kind of sauna experience that Finnish visitors have told the owners feels legitimate.</p>
+<p>The heater is a <a href="/harvia/products/legend">Harvia 50</a>, the Finnish manufacturer's largest wood-burning stove (part of the same commercial wood-burning family as the <a href="/harvia/products/legend">Legend</a> and <a href="/harvia/products/pro-36">Pro 36</a>). That is not a token piece of equipment. The Harvia 50 is built for commercial-scale rooms and carries a serious stone load, which is why the loyly at White Mountain Sauna Haus hits different than a hotel steam room running a small wall-mounted electric unit. Wood-fired heat, big stones, real steam. The kind of sauna experience that Finnish visitors have told the owners feels legitimate.</p>
 
 <p>Three cold plunge pools sit between 40 and 50 degrees. The 1,000-square-foot outdoor deck, with direct sightlines to Cathedral Ledge and White Horse Ledge, is where most of the socializing happens between rounds. Fire pit, mountain views, cold air on wet skin. It is a strong après-ski pitch.</p>
 
@@ -85,7 +85,7 @@ export const articles: Article[] = [
 <p><a href="/article/cold-plunge-market-380m-new-sauna-buyers">The cold plunge market is at $380 million globally</a> and growing at 8.1% annually. The global sauna equipment market hit $954 million in 2025 and is on pace for $1.6 billion by 2033. The thermal wellness infrastructure in American ski towns has not caught up to what those numbers represent. White Mountain Sauna Haus is early to what should become a wave.</p>
 
 <div class="bottom-line">
-<p>Ski towns across the American West and Northeast sit on the same untapped opportunity. Millions of visitors a year who want to recover after a day on the mountain, and nowhere to do it besides a hotel hot tub or a noisy bar. The startup cost is not $3.8 million like a <a href="/article/sauna-house-franchise-nordic-bathhouse-growth">Sauna House franchise build-out</a>. It is a barn, a Harvia 50, three cold plunges, a cafe, and the willingness to open your doors at 10 AM on a Saturday and let people walk in. North Conway's best ski town status just got a sauna to match. The rest of ski country should be taking notes.</p>
+<p>Ski towns across the American West and Northeast sit on the same untapped opportunity. Millions of visitors a year who want to recover after a day on the mountain, and nowhere to do it besides a hotel hot tub or a noisy bar. The startup cost is not $3.8 million like a <a href="/article/sauna-house-franchise-nordic-bathhouse-growth">Sauna House franchise build-out</a>. It is a barn, a <a href="/harvia/products/legend">Harvia 50</a>, three cold plunges, a cafe, and the willingness to open your doors at 10 AM on a Saturday and let people walk in. North Conway's best ski town status just got a sauna to match. The rest of ski country should be taking notes.</p>
 </div>`,
     featured: true,
     trending: true,
@@ -472,6 +472,9 @@ export const articles: Article[] = [
 <h2>ThermaSol Update</h2>
 <p>ThermaSol continues to contribute meaningfully to North American revenue. Management described the cross-selling program as maturing, with ThermaSol steam products increasingly being sold alongside Harvia, Almost Heaven, and EOS sauna products through overlapping dealer channels. The ThermaTouch smart-shower platform is also beginning to inform Harvia's digital controls roadmap, which remains a priority investment area.</p>
 
+<h2>Fenix Controller Launch</h2>
+<p>CEO Matias Järnefelt spent meaningful airtime on the call introducing <a href="/harvia/products/xenio-fenix">the new Harvia Fenix control panel</a>, described as "an exciting 4.3-inch full touchscreen product" with preset scenes (mild, cozy, hot), WiFi, over-the-air firmware updates, and critically, backward-compatible wiring with the large Xenio installed base. Sales started in Q3. The product would go on to deliver "really great performance" in Q4, per management's prepared remarks on the Q4 call.</p>
+
 <h2>Capital Return</h2>
 <p>The second installment of Harvia's 2024 dividend (EUR 0.37 per share) was paid on 28 October 2025, with a record date of 21 October. Harvia's net debt to adjusted EBITDA remained below the 2.5x long-term target.</p>
 
@@ -520,6 +523,9 @@ export const articles: Article[] = [
 
 <h3>M&A Posture</h3>
 <p>CEO Matias Jarnefelt, in prepared remarks, reiterated that Harvia remains open to further acquisitions where strategic fit and valuation are clear. No specific targets were discussed. The company's integration of <a href="/article/harvia-thermasol-acquisition-announcement">ThermaSol</a> is now considered largely complete, and the North American platform is mature enough to absorb another bolt-on.</p>
+
+<h3>Product Callouts</h3>
+<p>Management highlighted two product lines in the Q4 2025 prepared remarks: the <a href="/harvia/products/xenio-fenix">Harvia Fenix control panel</a>, which began sales in Q3 2025 and "shown really great performance during quarter four," and the newly launched <a href="/harvia/products/myharvia-sensor">MyHarvia Smart Sauna Sensor</a>, framed as "a completely new category never seen in the sauna market before." The core heater line, anchored by the <a href="/harvia/products/cilindro-electric">Cilindro</a> and <a href="/harvia/products/virta-pro">Virta Pro</a>, drove the 13% heating-equipment growth.</p>
 
 <h2>2026 Outlook</h2>
 <p>Harvia did not provide specific numeric guidance for 2026, consistent with its disclosure practice. Management's qualitative commentary pointed to continued growth in North America, further recovery in Northern Europe, steady growth in Continental Europe, and continued momentum in APAC & MEA. Margin progression back toward the 20% long-term target is expected to continue.</p>
@@ -1387,7 +1393,7 @@ export const articles: Article[] = [
 <blockquote>WiFi control has become table stakes for premium heaters. Homecraft bringing it to their line is a smart move for the North American market.</blockquote>
 
 <h2>How It Compares</h2>
-<p>Smart connectivity has been standard on premium heaters from <a href="/article/huum-air-tunnel-upgrade-heater-line">HUUM</a> (via the UKU controller, which supports sessions up to 18 hours and a 48-hour delayed start) and <a href="/article/harvia-record-q1-revenue-thermasol-integration">Harvia</a> (via the Xenio and new Fenix controllers with humidity and lighting integration) for several years. The Homecraft TKE2-2 is simpler in scope: heater control only, 60-minute max session, no humidity or lighting integration. But it's also more affordable, North American-made, and purpose-built for the Homecraft heater ecosystem, including the popular Revive series with its 200-lb rock capacity.</p>
+<p>Smart connectivity has been standard on premium heaters from <a href="/article/huum-air-tunnel-upgrade-heater-line">HUUM</a> (via the UKU controller, which supports sessions up to 18 hours and a 48-hour delayed start) and <a href="/harvia">Harvia</a> (via the <a href="/harvia/products/xenio-fenix">Xenio and new Fenix controllers</a> with humidity and lighting integration) for several years. The Homecraft TKE2-2 is simpler in scope: heater control only, 60-minute max session, no humidity or lighting integration. But it's also more affordable, North American-made, and purpose-built for the Homecraft heater ecosystem, including the popular Revive series with its 200-lb rock capacity.</p>
 
 <p>The controller is available now through authorized dealers, including <a href="https://saunamarketplace.com" target="_blank">Sauna Marketplace</a>. The TKE2-2 platform is also the recommended pairing for <a href="/article/homecraft-apex-mini-compact-sauna-heater-launch">Homecraft's new Apex Mini compact tower heater</a>, which launched in 6, 7.5, and 9 kW variants in April 2026.</p>`,
     featured: false,
@@ -2111,7 +2117,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <h3>What Remains Genuinely Uncertain</h3>
 
-<p>Whether 125\u00B0C (257\u00B0F) is now permitted in U.S.-certified saunas is an open question. Prior IEC text explicitly noted that the 125\u00B0C limit was "not applicable (USA)." The current market reflects this ambiguity. Some manufacturers' U.S. documentation still defaults to 194\u00B0F. Harvia's Xenio control unit shows a 229\u00B0F maximum adjustment range. HUUM heaters certified through SGS can reach 230\u00B0F. Until someone publishes a definitive reading of the paid National Differences document on this point, treat any blanket "125\u00B0C is now allowed in the U.S." claim with caution.</p>
+<p>Whether 125\u00B0C (257\u00B0F) is now permitted in U.S.-certified saunas is an open question. Prior IEC text explicitly noted that the 125\u00B0C limit was "not applicable (USA)." The current market reflects this ambiguity. Some manufacturers' U.S. documentation still defaults to 194\u00B0F. Harvia's <a href="/harvia/products/xenio-fenix">Xenio control unit</a> shows a 229\u00B0F maximum adjustment range. HUUM heaters certified through SGS can reach 230\u00B0F. Until someone publishes a definitive reading of the paid National Differences document on this point, treat any blanket "125\u00B0C is now allowed in the U.S." claim with caution.</p>
 
 <h2>The Building Code Gap</h2>
 
@@ -2739,7 +2745,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <p>Homecraft's Apex Mini is listed at 32 inches tall. That four to eight inches back is meaningful. It is the difference between a top bench that fits under a standard 8 foot ceiling with correct clearances and one that does not. Builders working in retrofit basements and backyard kit saunas are the target market, and they have been asking for exactly this kind of product for years.</p>
 
-<p>Competitors have noticed. The <a href="/article/huum-air-tunnel-upgrade-heater-line">HUUM HIVE Mini</a> takes a similar compact-pillar approach but goes wider and rounder, stacking more stones into a shorter cylinder. Harvia's Cilindro line offers integrated controls on some variants, simplifying installation at the cost of flexibility. Apex Mini stakes out a middle ground: a squared-off, stainless steel tower with a big stone load and external controls that keep the architecture modular.</p>
+<p>Competitors have noticed. The <a href="/article/huum-air-tunnel-upgrade-heater-line">HUUM HIVE Mini</a> takes a similar compact-pillar approach but goes wider and rounder, stacking more stones into a shorter cylinder. Harvia's <a href="/harvia/products/cilindro-electric">Cilindro line</a> offers integrated controls on some variants, simplifying installation at the cost of flexibility. Apex Mini stakes out a middle ground: a squared-off, stainless steel tower with a big stone load and external controls that keep the architecture modular.</p>
 
 <h2>The Specs That Matter</h2>
 
@@ -2787,7 +2793,7 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 
 <p>Homecraft's direct listing shows the 9 kW Apex Mini at $1,800 CAD (roughly $1,315 USD at current exchange rates), with a "set for release" note on earlier page iterations indicating staged availability. Distributor pricing at Bsaunas runs $1,900 (6 kW), $1,950 (7.5 kW), and $2,000 (9 kW) in CAD, which translates to approximately $1,390 to $1,460 USD. These are heater-only prices. Controls (TKE2-2 or TKE2-2 WiFi) and stones are additional.</p>
 
-<p>For context, a 9 kW HUUM HIVE Mini starts at about $2,794 USD at mainstream retailers. A comparable Harvia Cilindro runs similar money depending on specification. Apex Mini is priced to undercut both, and it is built in Canada, which matters for buyers navigating <a href="/article/sauna-brands-tariff-exposure-analysis">the current US tariff environment on European-origin heaters</a>. Homecraft is not subject to the 15% EU tariff framework that has been squeezing Harvia, HUUM, IKI, and Narvi imports.</p>
+<p>For context, a 9 kW HUUM HIVE Mini starts at about $2,794 USD at mainstream retailers. A comparable <a href="/harvia/products/cilindro-electric">Harvia Cilindro</a> runs similar money depending on specification. Apex Mini is priced to undercut both, and it is built in Canada, which matters for buyers navigating <a href="/article/sauna-brands-tariff-exposure-analysis">the current US tariff environment on European-origin heaters</a>. Homecraft is not subject to the 15% EU tariff framework that has been squeezing Harvia, HUUM, IKI, and Narvi imports.</p>
 
 <p>Sauna Marketplace stocks Homecraft's Apex line and WiFi controllers for US buyers and has historically been one of the first distributors to list new Homecraft releases. Expect the Apex Mini to follow the same pattern.</p>
 
