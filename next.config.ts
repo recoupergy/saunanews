@@ -123,6 +123,14 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'static.wixstatic.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'www.datocms-assets.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'image.mux.com',
+      },
     ],
   },
 };

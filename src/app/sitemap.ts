@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 import { articles } from '@/data/articles';
 import { categories } from '@/data/categories';
 import { authors } from '@/data/authors';
+import { harviaProducts } from '@/data/harvia-products';
 
 const BASE_URL = 'https://www.saunanews.com';
 
@@ -37,7 +38,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.5,
     },
+    {
+      url: `${BASE_URL}/harvia`,
+      lastModified: new Date(),
+      changeFrequency: 'daily',
+      priority: 0.9,
+    },
   ];
+
+  const harviaProductRoutes: MetadataRoute.Sitemap = harviaProducts.map((p) => ({
+    url: `${BASE_URL}/harvia/products/${p.slug}`,
+    lastModified: new Date(p.lastMentioned),
+    changeFrequency: 'weekly' as const,
+    priority: 0.75,
+  }));
 
   const articleRoutes: MetadataRoute.Sitemap = articles.map((article) => ({
     url: `${BASE_URL}/article/${article.slug}`,
@@ -62,5 +76,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   );
 
-  return [...staticRoutes, ...articleRoutes, ...categoryRoutes, ...authorRoutes];
+  return [
+    ...staticRoutes,
+    ...harviaProductRoutes,
+    ...articleRoutes,
+    ...categoryRoutes,
+    ...authorRoutes,
+  ];
 }

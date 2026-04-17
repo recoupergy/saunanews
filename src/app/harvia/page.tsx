@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import type { Metadata } from 'next';
 import { articles } from '@/data/articles';
+import { harviaProducts } from '@/data/harvia-products';
 import ArticleCard from '@/components/ArticleCard';
 import ContentTypeBadge from '@/components/ContentTypeBadge';
 import NewsletterSignup from '@/components/NewsletterSignup';
@@ -359,6 +360,9 @@ export default function HarviaHubPage() {
                 <Link href="#calendar" className="inline-flex items-center gap-2 px-4 py-2 border border-border dark:border-dark-border text-charcoal dark:text-cream text-sm font-medium rounded-md hover:border-green dark:hover:border-brass transition-colors">
                   Investor calendar
                 </Link>
+                <Link href="#products" className="inline-flex items-center gap-2 px-4 py-2 border border-border dark:border-dark-border text-charcoal dark:text-cream text-sm font-medium rounded-md hover:border-green dark:hover:border-brass transition-colors">
+                  Products
+                </Link>
                 <Link href="#financials" className="inline-flex items-center gap-2 px-4 py-2 border border-border dark:border-dark-border text-charcoal dark:text-cream text-sm font-medium rounded-md hover:border-green dark:hover:border-brass transition-colors">
                   Financials
                 </Link>
@@ -664,6 +668,56 @@ export default function HarviaHubPage() {
               </li>
             ))}
           </ol>
+        </div>
+      </section>
+
+      {/* Product catalog */}
+      <section id="products" className="bg-surface dark:bg-dark-surface border-b border-border dark:border-dark-border">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+          <div className="max-w-3xl mb-8">
+            <span className="inline-block text-xs font-bold uppercase tracking-widest text-brass mb-2">
+              Product deep-dives
+            </span>
+            <h2 className="font-editorial text-3xl sm:text-4xl font-bold text-charcoal dark:text-cream mb-4">
+              Every Harvia heater, in detail
+            </h2>
+            <p className="text-base text-stone-dark dark:text-dark-muted leading-relaxed">
+              Each product page pulls real specs, sizing tables, CEO and investor-call quotes, Harvia.com source material, and insider install notes that only pros know. Click any product below for the full breakdown.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {harviaProducts.map((p) => (
+              <Link
+                key={p.slug}
+                href={`/harvia/products/${p.slug}`}
+                className="group border border-border dark:border-dark-border rounded-xl overflow-hidden bg-ivory dark:bg-dark-bg hover:border-green dark:hover:border-brass transition-colors"
+              >
+                <div className="relative aspect-[4/3] overflow-hidden bg-stone/10 dark:bg-dark-border">
+                  <Image
+                    src={p.heroImage}
+                    alt={p.name}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-700"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  />
+                  <span className="absolute top-3 left-3 px-2 py-1 text-[10px] font-bold uppercase tracking-widest rounded bg-cream/90 dark:bg-dark-bg/90 text-charcoal dark:text-cream">
+                    {p.position}
+                  </span>
+                </div>
+                <div className="p-5">
+                  <h3 className="font-editorial text-lg font-bold text-charcoal dark:text-cream mb-1 group-hover:text-green dark:group-hover:text-brass transition-colors">
+                    {p.name}
+                  </h3>
+                  <p className="text-xs text-stone-dark dark:text-dark-muted mb-2">
+                    {p.series} &middot; {p.category.replace('-', ' ')}
+                  </p>
+                  <p className="text-sm text-stone-dark dark:text-dark-muted leading-relaxed line-clamp-2">
+                    {p.subtitle}
+                  </p>
+                </div>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
