@@ -153,7 +153,7 @@ export const harviaProducts: HarviaProduct[] = [
     lastMentioned: '2026-02-12',
     lastMentionContext: 'Q4 2025 earnings call — heating equipment +13% YoY; record quarterly sales',
     relatedProductSlugs: ['cilindro-wood', 'virta-pro', 'spirit', 'xenio-fenix'],
-    harviaUrl: 'https://www.harvia.com/en-US/harvia-cilindro-heater/',
+    harviaUrl: 'https://www.harvia.com/en-US/products/HPCE900400M/cilindro-pc90e-90-kw-black-steel',
   },
   {
     slug: 'cilindro-wood',
@@ -359,7 +359,7 @@ export const harviaProducts: HarviaProduct[] = [
     lastMentioned: '2026-02-12',
     lastMentionContext: 'Q4 2025 earnings call — record quarterly sales and heating equipment +13%',
     relatedProductSlugs: ['cilindro-electric', 'xenio-fenix', 'pro-36'],
-    harviaUrl: 'https://www.harvia.com/en-US/sauna-heaters/electric-sauna-heater/virta-pro-electric-heaters/',
+    harviaUrl: 'https://www.harvia.com/en-US/sauna-heaters/electric-sauna-heater/virta-electric-heaters/',
   },
   {
     slug: 'spirit',
@@ -570,7 +570,7 @@ export const harviaProducts: HarviaProduct[] = [
     lastMentioned: '2026-02-12',
     lastMentionContext: 'Q4 2025 earnings call — Almost Heaven "IKEA of saunas" + 10M US sauna opportunity',
     relatedProductSlugs: ['spirit', 'forte', 'cilindro-electric'],
-    harviaUrl: 'https://www.harvia.com/en-US/sauna-heaters/electric-sauna-heater/vega-electric-heaters/',
+    harviaUrl: 'https://www.harvia.com/en-US/products/HCB800400S/vega-bc80-80-kw-steel',
   },
   {
     slug: 'forte',
@@ -1082,7 +1082,300 @@ export const harviaProducts: HarviaProduct[] = [
     lastMentioned: '2026-02-12',
     lastMentionContext: 'Q4 2025 earnings call + press release — "completely new category"',
     relatedProductSlugs: ['xenio-fenix', 'cilindro-wood', 'legend'],
+    harviaUrl: 'https://www.harvia.com/en-US/myharvia/',
+  },
+  {
+    slug: 'harvia-50-wood',
+    name: 'Harvia 50 (Wood-Burning)',
+    subtitle: 'The 50 kW commercial wood-fired stove behind America\'s most serious public saunas',
+    series: 'Harvia 50 (M3SL)',
+    category: 'wood-burning-heater',
+    position: 'commercial',
+    tagline: 'Harvia\'s largest wood-fired stove. 110 lbs of stone capacity, stainless steel casing, side-fed firebox, and the output to run 630 cubic feet of sauna room with real löyly. Spec\'d into commercial bathhouses from New Hampshire to British Columbia.',
+    intro:
+      'The Harvia 50 is Harvia\'s largest wood-fired heater and the specification of record for serious commercial wood-fired sauna installations in North America. With rated output sized for rooms up to 630 cubic feet and over 110 pounds of stone mass, the 50 is engineered for heavy-duty public use: ski town bathhouses, destination saunas, commercial wellness facilities, and the kind of operators that run multiple sessions per day without letting the room cool down. Built in Harvia\'s Muurame factory, the 50 carries the full "Made in Finland" supply chain and fits into Harvia\'s proprietary chimney and smoke channel ecosystem.',
+    heroImage: 'https://harviagroup.com/wp-content/uploads/2025/06/2024_06_25_oh_harvia_details_0169-1280x854.jpg',
+    gallery: [
+      'https://harviagroup.com/wp-content/uploads/2025/06/2024_06_25_oh_harvia_details_0169-1280x854.jpg',
+    ],
+    specsSummary: [
+      { label: 'Output', value: 'Up to 50 kW rated' },
+      { label: 'Stone capacity', value: '110+ lbs' },
+      { label: 'Room size', value: 'Up to ~630 cu ft' },
+      { label: 'Fuel', value: 'Wood-burning' },
+      { label: 'Construction', value: 'Stainless steel casing' },
+      { label: 'Made in', value: 'Muurame, Finland' },
+    ],
+    sizes: [
+      { model: 'Harvia 50', kw: '~50 kW', roomSize: 'Up to ~630 cu ft', stones: '110+ lbs', note: 'Side-fed firebox, stainless exterior, chimney connections' },
+    ],
+    keyFeatures: [
+      'Largest wood-fired heater in the Harvia portfolio',
+      'Commercial-duty fire path and stone mass for multi-session operation',
+      'Stainless steel casing with robust thermal cycle tolerance',
+      'Compatible with Harvia WHP pipe and chimney systems',
+      'Load-from-outside firebox configuration available',
+      'Spec\'d in high-use bathhouses and commercial wellness installations across North America',
+    ],
+    quotes: [
+      {
+        quote:
+          'The heater is a Harvia 50, the Finnish manufacturer\'s largest wood-burning stove. That is not a token piece of equipment. The Harvia 50 is built for commercial-scale rooms and carries a serious stone load, which is why the loyly at White Mountain Sauna Haus hits different than a hotel steam room running a small wall-mounted electric unit.',
+        source: 'SaunaNews, April 2026',
+        context: 'White Mountain Sauna Haus (North Conway, NH) commercial install',
+        date: '2026-04-16',
+        url: '/article/white-mountain-sauna-haus-north-conway-apres-ski',
+      },
+    ],
+    insiderNotes: [
+      {
+        title: 'This is the Finnish commercial benchmark',
+        body:
+          'When a North American commercial bathhouse operator tells you their room "runs a Harvia 50," that is shorthand for maximum real wood-fired output in a single stove. Larger rooms use two Harvia 50s in parallel. Anything smaller than a 50 will struggle in a public sauna doing 20-plus bathers per session with frequent door opens.',
+      },
+      {
+        title: 'Chimney draft is the make-or-break variable',
+        body:
+          'The Harvia 50 needs a chimney system matched to its output. Harvia specifies proprietary WHP pipe lengths and smoke channel geometries. Installers who try to substitute generic Class A chimney often end up with a stove that won\'t draft, smokes when the door opens, or never reaches full operating temperature. Use Harvia\'s kit; don\'t cheap out.',
+      },
+      {
+        title: 'Stone selection for commercial use',
+        body:
+          'Commercial wood-fired rooms cycle stones much harder than residential. At a 50\'s output, use washed olivine-diabase in 2 to 4 inch size (Harvia spec) and plan for full stone replacement every 12 to 18 months in heavy commercial use. Under-sized or garden-store stones shatter and pack down, cutting steam output dramatically by year two.',
+      },
+    ],
+    bestFor:
+      'Commercial wood-fired saunas, ski-town bathhouses, destination saunas, multi-session public facilities, rooms 350 to 630 cubic feet running real wood-fired löyly. Not for residential one-off builds; the 20 or 36 series is more appropriate for home use.',
+    warranty: '2 years commercial',
+    madeIn: 'Muurame, Finland',
+    launched: 'Long-standing product, current M3SL generation',
+    lastMentioned: '2026-04-16',
+    lastMentionContext: 'White Mountain Sauna Haus (North Conway, NH) commercial bathhouse install',
+    relatedProductSlugs: ['cilindro-wood', 'legend', 'virta-pro'],
+    harviaUrl: 'https://www.harvia.com/en-US/products/WK50/harvia-50',
+  },
+  {
+    slug: 'frosty-cold-tub',
+    name: 'Harvia Frosty Cold Tub',
+    subtitle: 'The oval cold plunge Harvia launched in 2023 for hot-cold alternation at home',
+    series: 'Frosty',
+    category: 'electric-heater',
+    position: 'premium',
+    tagline: 'Oval-shaped cold tub for residential hot-cold therapy. High-quality materials, insulated cover, skin-comfortable finish. Harvia\'s entry into the cold plunge category as consumer demand accelerated.',
+    intro:
+      'Harvia Frosty is the oval-shaped residential cold tub Harvia launched in 2023 as consumer demand for cold-exposure therapy grew. The tub is made of high-quality materials that are safe to use, feel comfortable on the skin, and are easy to maintain. Every Frosty ships with an insulated cover that both maintains the target cold temperature energy-efficiently and improves safety by keeping children out of the ice-cold water. Frosty is positioned as the partner product to a Harvia sauna for full hot-cold backyard wellness setups. It reflects Harvia\'s stated strategy to leverage the same water and electrical technology expertise from Kirami into cold plunge products, and the growing interest in contrast therapy documented in research on improved immunity, stress reduction, sleep quality, recovery, pain relief, and brown fat activation.',
+    heroImage: 'https://harviagroup.com/wp-content/uploads/2025/05/Kiuas_Kuva1-780x439.jpg',
+    gallery: [
+      'https://harviagroup.com/wp-content/uploads/2025/05/Kiuas_Kuva1-780x439.jpg',
+    ],
+    specsSummary: [
+      { label: 'Category', value: 'Cold tub / cold plunge' },
+      { label: 'Shape', value: 'Oval' },
+      { label: 'Cooling', value: 'Electric chiller' },
+      { label: 'Cover', value: 'Insulated, included' },
+      { label: 'Launched', value: '2023' },
+      { label: 'Parent group', value: 'Harvia Plc' },
+    ],
+    sizes: [
+      { model: 'Frosty Oval', kw: 'n/a (chiller-based)', roomSize: 'Single-user immersion', note: 'Insulated cover included for energy efficiency and child safety' },
+    ],
+    keyFeatures: [
+      'Oval tub shape for efficient single-user immersion',
+      'Electric cooling to maintain programmable cold plunge temperature (typical 40 to 50 degrees Fahrenheit)',
+      'Insulated cover included (energy efficiency + child safety)',
+      'Skin-comfortable, easy-to-maintain materials',
+      'Designed for residential hot-cold alternation alongside a sauna',
+      'Reflects Harvia R&D collaboration between Kirami (hot tub water technology) and Harvia core electrical engineering',
+    ],
+    quotes: [
+      {
+        quote:
+          'Harvia launched the oval shaped Harvia Frosty cold tub for households.',
+        source: 'Harvia Plc 2023 Annual Report',
+        context: 'Product innovation highlight of the year',
+        date: '2024-03-15',
+      },
+      {
+        quote:
+          'Regularly exposing the body to cold water for short periods of time brings several health benefits such as improved immunity, stress reduction, improved sleep quality, speedy recovery from sports, pain relief and activation of brown fat.',
+        source: 'Harvia Plc 2023 Annual Report',
+        context: 'Rationale for expansion into cold tub category',
+        date: '2024-03-15',
+      },
+    ],
+    insiderNotes: [
+      {
+        title: 'Made possible by the Kirami water technology',
+        body:
+          'Harvia\'s ability to launch a credible cold tub in 2023 was directly enabled by the 2021 Kirami acquisition. Kirami\'s still-water hot tub expertise (water chemistry, sanitation, tub construction, insulation) transferred straight into the cold tub program, cutting what would otherwise have been a multi-year development timeline.',
+      },
+      {
+        title: 'Pair with a Harvia sauna for the full regimen',
+        body:
+          'Frosty is not a standalone product. It is designed as the cold plunge companion to a Harvia electric or wood-fired sauna, enabling the sauna-and-plunge alternation that consumers increasingly want for recovery and wellness. Harvia dealers typically quote Frosty alongside sauna installs rather than as a solo item.',
+      },
+      {
+        title: 'Regulatory context',
+        body:
+          'Residential cold tubs are less regulated than pools or spas in most US jurisdictions, but some local codes treat any outdoor water feature above a certain volume or depth as pool-equivalent. Before installing, check local permitting; Harvia\'s US dealer network handles this for builder installs but DIY buyers should confirm before the unit arrives.',
+      },
+    ],
+    bestFor:
+      'Residential hot-cold therapy, recovery-focused home wellness setups, anyone already running a Harvia sauna and looking for the matching cold plunge, consumers entering cold exposure therapy who want a brand-name product with support rather than a DIY stock tank.',
+    warranty: 'Per Harvia dealer territory',
+    madeIn: 'Harvia Group (Finland/Estonia supply chain via Kirami)',
+    launched: '2023',
+    lastMentioned: '2024-03-15',
+    lastMentionContext: 'Harvia 2023 Annual Report product innovation highlight',
+    relatedProductSlugs: ['cilindro-wood', 'cilindro-electric', 'spirit'],
     harviaUrl: 'https://www.harvia.com/en/',
+  },
+  {
+    slug: 'eos-structure',
+    name: 'EOS Structure',
+    subtitle: 'The matte-black rod-structure design heater from EOS Driedorf',
+    series: 'EOS Structure',
+    category: 'electric-heater',
+    position: 'premium',
+    tagline: 'A true design statement. Elegant matte black from top to bottom with a distinctive vertical rod structure that becomes the sauna\'s architectural centerpiece. Made in Driedorf, Germany.',
+    intro:
+      'EOS Structure is the design-forward premium electric sauna heater EOS Group launched in 2023 as part of its luxury electric range. The product is built around a distinctive rod structure, rendered in elegant matte black top to bottom, that turns the heater into an architectural element rather than a hidden appliance. It targets the high-end commercial and premium residential segment where the sauna itself is designed as a visual space, not just a functional room. EOS, a Harvia Group company since 2020, makes Structure in its Driedorf, Germany factory, the same line that produces the EOS S-line, Kusatek gas-fired heaters, and Spatronic electronic control units. EOS Structure is typically specified for Aufguss-capable commercial rooms, hotel spas, and premium residential installations where EOS Emo Touch 3 controls the heater.',
+    heroImage: 'https://harviagroup.com/wp-content/uploads/2025/06/EOS_1232marg.jpg',
+    gallery: [
+      'https://harviagroup.com/wp-content/uploads/2025/06/EOS_1232marg.jpg',
+    ],
+    specsSummary: [
+      { label: 'Brand', value: 'EOS (Harvia Group)' },
+      { label: 'Category', value: 'Premium design electric heater' },
+      { label: 'Finish', value: 'Matte black, top to bottom' },
+      { label: 'Design element', value: 'Distinctive rod structure' },
+      { label: 'Made in', value: 'Driedorf, Germany' },
+      { label: 'Launched', value: '2023' },
+    ],
+    sizes: [
+      { model: 'EOS Structure', kw: 'Range per configuration', roomSize: 'Premium residential and commercial', note: 'Matte black rod structure design; architectural heater for high-design spaces' },
+    ],
+    keyFeatures: [
+      'Distinctive vertical rod structure as defining design element',
+      'Elegant matte black finish, top to bottom',
+      'Made in Germany at EOS Driedorf',
+      'Targets premium residential and high-end commercial installations',
+      'Compatible with EOS Emo Touch 3 control systems',
+      'Part of the EOS premium portfolio alongside S-line and Kusatek gas-fired',
+    ],
+    quotes: [
+      {
+        quote:
+          'With its unique shape, the EOS Structure sauna heater is a true design statement. Elegant matte black from top to bottom, this extraordinary heater has a distinctive rod structure which forms its characteristic design element.',
+        source: 'Harvia Plc 2023 Annual Report',
+        context: 'Product launch highlight in the EOS premium range',
+        date: '2024-03-15',
+      },
+    ],
+    insiderNotes: [
+      {
+        title: 'Positioned for architectural spec',
+        body:
+          'EOS Structure is not a volume product; it is architectural spec. Interior designers and spa architects select it for its visual contribution to the sauna room, not its heating performance differentiation. If performance is your primary criterion, the EOS S-line or a Harvia Cilindro will likely be the better value.',
+      },
+      {
+        title: 'Pair with EOS Emo Touch 3 for design continuity',
+        body:
+          'The matte-black Structure is typically paired with the EOS Emo Touch 3 touch-screen control for visual and functional continuity. Running an EOS Structure on an entry-level button controller defeats the design intent.',
+      },
+      {
+        title: 'Availability in North America',
+        body:
+          'EOS Structure is more widely available in Central European and premium global commercial channels than in the North American residential market. US availability is primarily through Harvia\'s commercial channel and high-end spa specification, not volume online channels.',
+      },
+    ],
+    bestFor:
+      'Architectural premium installations, high-design residential saunas where the heater is meant to be a visible centerpiece, luxury spa projects, commercial projects that want a Made-in-Germany design heater.',
+    warranty: 'EOS standard terms',
+    madeIn: 'Driedorf, Germany',
+    launched: '2023',
+    lastMentioned: '2024-03-15',
+    lastMentionContext: 'Harvia 2023 Annual Report EOS product novelty',
+    relatedProductSlugs: ['cilindro-electric', 'virta-pro', 'xenio-fenix'],
+    harviaUrl: 'https://www.eos-sauna.com/en/',
+  },
+  {
+    slug: 'harvia-sopo-cabin',
+    name: 'Harvia Söpö Sauna Cabins',
+    subtitle: 'The Japan-focused precision sauna cabin line launched in 2023',
+    series: 'Söpö',
+    category: 'electric-heater',
+    position: 'mid',
+    tagline: 'Precision-crafted sauna cabins designed for easy assembly and maximum comfort. Available in three sizes. Developed alongside Harvia\'s Japanese market expansion and the Harvia Japan Ltd joint venture with Bergman Ltd.',
+    intro:
+      'Harvia Söpö is the prefabricated sauna cabin range Harvia launched in 2023, developed alongside the company\'s expanded push into the Japanese market and the Harvia Japan Ltd joint venture with Bergman Ltd. The cabins are built with innovative design for easy assembly and high-quality materials, crafted with precision and designed for maximum comfort. Three sizes are available to cover different residential and light commercial footprints. Söpö was introduced as part of a broader Japan-specific product portfolio that also included new electric heaters designed and certified to Japanese electrical specifications, and the establishment of 24-plus showrooms across Japan by year-end 2023. The name Söpö means "cute" in Finnish, reflecting the cabin\'s targeted aesthetic for Japanese and Asian-Pacific consumers, especially young and female sauna bathers driving the sauna boom in Tokyo, Osaka, Fukuoka, and other major Japanese cities.',
+    heroImage: 'https://harviagroup.com/wp-content/uploads/2025/05/Kiuas_Kuva1-780x439.jpg',
+    gallery: [
+      'https://harviagroup.com/wp-content/uploads/2025/05/Kiuas_Kuva1-780x439.jpg',
+    ],
+    specsSummary: [
+      { label: 'Category', value: 'Prefabricated sauna cabin' },
+      { label: 'Design', value: 'Precision-crafted, easy assembly' },
+      { label: 'Sizes', value: '3 sizes available' },
+      { label: 'Target market', value: 'Japan (primary); APAC' },
+      { label: 'Launch', value: '2023' },
+      { label: 'Parent group', value: 'Harvia Plc' },
+    ],
+    sizes: [
+      { model: 'Söpö S', kw: 'Heater-dependent', roomSize: 'Compact residential', note: 'Smallest size in the range' },
+      { model: 'Söpö M', kw: 'Heater-dependent', roomSize: 'Standard residential', note: 'Mid-range size' },
+      { model: 'Söpö L', kw: 'Heater-dependent', roomSize: 'Larger residential or light commercial', note: 'Largest size in the range' },
+    ],
+    keyFeatures: [
+      'Innovative design for easy assembly',
+      'High-quality materials, precision-crafted for maximum comfort',
+      'Three sizes cover residential and light commercial needs',
+      'Developed in coordination with Japanese market expansion',
+      'Part of a broader Harvia Japan product portfolio (heaters, cabins, solutions)',
+      'Compatible with Harvia Japanese-specification heaters',
+    ],
+    quotes: [
+      {
+        quote:
+          'With an innovative design for easy assembly and using high-quality materials, the Söpö sauna cabins are crafted with precision and designed for the utmost comfort, and they are available in three sizes.',
+        source: 'Harvia Plc 2023 Annual Report',
+        context: 'Söpö launch as part of Harvia Japan portfolio',
+        date: '2024-03-15',
+      },
+      {
+        quote:
+          'In Japan, Harvia launched Söpö saunas. In addition, the company has applied for new certificates for both certain electric heaters and complete sauna solutions in Japan.',
+        source: 'Harvia Plc 2023 Annual Report',
+        context: 'Japan product and certification expansion',
+        date: '2024-03-15',
+      },
+    ],
+    insiderNotes: [
+      {
+        title: 'Designed for the Japan sauna boom',
+        body:
+          'Söpö targets the emerging Japanese sauna culture, specifically the young urban and female-skewed bathers driving new sauna construction in Japanese cities. The cabin aesthetics, size ranges, and assembly process were tuned for Japanese residential and boutique commercial installations, not the Northern European default.',
+      },
+      {
+        title: 'Part of the Bergman JV distribution push',
+        body:
+          'Harvia Japan Ltd was established in August 2023 as a joint venture with Bergman Ltd, the same Japanese distributor behind Thermory\'s Japan push. Söpö rolled out through Harvia Japan\'s expanding showroom network (over 24 showrooms by year-end 2023) and via the B2B dealer channel. This is not (yet) a North American product.',
+      },
+      {
+        title: 'Harvia Japan now fully operational',
+        body:
+          'Harvia Japan Ltd became fully operational in the first half of 2024. By Q3 2025 APAC & MEA posted 36.4% revenue growth, with Japan called out as a strategically significant market. Expect more Japan-tuned products, including additional cabin options and specifications, in the 2025 to 2026 launch cycle.',
+      },
+    ],
+    bestFor:
+      'Japanese residential and light commercial sauna installations, Asia-Pacific markets with similar spatial constraints and aesthetic preferences, buyers who want a precision-crafted and easy-to-assemble prefab cabin in a smaller-scale format. Not currently a North American mass-market product.',
+    warranty: 'Per Harvia Japan terms',
+    madeIn: 'Harvia Group (Finland/Romania supply chain)',
+    launched: '2023',
+    lastMentioned: '2024-03-15',
+    lastMentionContext: 'Harvia 2023 Annual Report Japan launch',
+    relatedProductSlugs: ['cilindro-electric', 'spirit', 'xenio-fenix'],
+    harviaUrl: 'https://www.harvia.com/ja-JP/',
   },
 ];
 

@@ -81,6 +81,11 @@ const investorEvents: InvestorEvent[] = [
   { date: '2026-10-29', label: 'Q3 2026 Interim Report', detail: 'Jan–Sep 2026, ~09:00 EET', status: 'upcoming' },
   { date: '2026-02-12', label: 'Financial Statements Bulletin 2025', detail: 'FY revenue EUR 198.9M', status: 'past', href: '/article/harvia-q4-2025-fy-2025-results' },
   { date: '2025-11-06', label: 'Q3 2025 Interim Report', detail: 'Revenue EUR 46.0M (+18.8%)', status: 'past', href: '/article/harvia-q3-2025-interim-results' },
+  { date: '2025-11-06', label: 'ThermaSol Solaris in TIME Best Inventions 2025', detail: 'First solar-powered off-grid US sauna', status: 'past', href: '/article/thermasol-solaris-solar-powered-sauna-time-best-invention-2025' },
+  { date: '2025-11-06', label: 'ThermaSol Astra / Fortis / Ombra Launch', detail: 'New premium US sauna collection', status: 'past', href: '/article/thermasol-astra-fortis-ombra-premium-sauna-collection' },
+  { date: '2025-11-06', label: 'Harvia Fenix Controller + MyHarvia 2 App', detail: '4.3" full-touch, 3 presets, Wi-Fi OTA updates', status: 'past', href: '/article/harvia-fenix-controller-myharvia-2-app-launch' },
+  { date: '2025-11-01', label: 'Nathan Hagemeier Appointed Head of North America', detail: 'Succeeds Jennifer Thayer', status: 'past', href: '/article/harvia-nathan-hagemeier-north-america-president' },
+  { date: '2025-10-15', label: 'Aufguss World Championships 2025 Sponsorship', detail: 'Verona, Italy; event sauna powered by EOS', status: 'past', href: '/article/aufguss-world-championships-2025-verona-harvia-eos-sponsor' },
   { date: '2025-10-28', label: 'Dividend Payment (2nd installment 2024)', detail: 'EUR 0.37 per share', status: 'past' },
   { date: '2025-08-07', label: 'H1 2025 Half-Year Report', detail: 'Revenue EUR 99.3M (+16.0% FX-adj)', status: 'past', href: '/article/harvia-h1-2025-half-year-results' },
   { date: '2025-05-07', label: 'Q1 2025 Interim Report', detail: 'Revenue EUR 52.0M (+22.7%)', status: 'past', href: '/article/harvia-record-q1-revenue-thermasol-integration' },
@@ -89,8 +94,10 @@ const investorEvents: InvestorEvent[] = [
   { date: '2024-11-07', label: 'Q3 2024 Interim Report', detail: 'First ThermaSol consolidation, EUR 38.7M (+14.0%)', status: 'past', href: '/article/harvia-q3-2024-interim-results' },
   { date: '2024-08-02', label: 'H1 2024 Half-Year Review', detail: 'Q2 revenue EUR 43.2M (+20.7%)', status: 'past', href: '/article/harvia-h1-2024-half-year-results' },
   { date: '2024-07-31', label: 'ThermaSol Acquisition Closed', detail: 'USD 30.4M US steam platform', status: 'past', href: '/article/harvia-thermasol-acquisition-announcement' },
+  { date: '2024-05-29', label: 'Capital Markets Day 2024', detail: 'Growth target doubled to 10%; Muurame factory tour', status: 'past', href: '/article/harvia-capital-markets-day-2024-strategy-deep-dive' },
   { date: '2024-05-03', label: 'Q1 2024 Interim Report', detail: 'Revenue EUR 42.4M (+2.3%)', status: 'past', href: '/article/harvia-q1-2024-interim-results' },
   { date: '2024-02-08', label: 'Financial Statements Bulletin 2023', detail: 'Q4 return to growth, FY EUR 150.5M', status: 'past', href: '/article/harvia-q4-2023-fy-2023-results' },
+  { date: '2023-09-26', label: 'Phoenix El-Mec Acquisition', detail: 'Italian timer switch maker — supply chain integration', status: 'past', href: '/article/harvia-phoenix-el-mec-supply-chain-acquisition' },
   { date: '2023-02-09', label: 'Financial Statements Bulletin 2022', detail: 'FY EUR 172.4M, post-pandemic reset', status: 'past', href: '/article/harvia-fy-2022-full-year-results' },
 ];
 
@@ -131,8 +138,9 @@ const acquisitions = [
   {
     year: '2023',
     title: 'Phoenix El-Mec',
-    location: 'Italy',
-    note: 'Electromechanical timers for Harvia heaters',
+    location: 'Belluno, Italy',
+    note: 'Electromechanical timer switches. Vertical integration on a 10-year supplier relationship.',
+    href: '/article/harvia-phoenix-el-mec-supply-chain-acquisition',
   },
   {
     year: '2024',
