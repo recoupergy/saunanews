@@ -200,28 +200,6 @@ export default async function ProductPage({
         </div>
       </section>
 
-      {/* Video embed */}
-      {product.videoEmbedId && (
-        <section className="bg-charcoal dark:bg-dark-bg border-b border-border dark:border-dark-border">
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-            <h2 className="font-editorial text-2xl sm:text-3xl font-bold text-cream mb-2">
-              {product.name} in motion
-            </h2>
-            <p className="text-sm text-cream/60 mb-6">Demo video from Harvia.</p>
-            <div className="relative aspect-video rounded-xl overflow-hidden">
-              <iframe
-                src={`https://www.youtube-nocookie.com/embed/${product.videoEmbedId}`}
-                title={`${product.name} video`}
-                loading="lazy"
-                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen
-                className="absolute inset-0 w-full h-full border-0"
-              />
-            </div>
-          </div>
-        </section>
-      )}
-
       {/* Size / model table */}
       {product.sizes.length > 0 && (
         <section className="bg-cream dark:bg-dark-bg border-b border-border dark:border-dark-border">
@@ -360,20 +338,12 @@ export default async function ProductPage({
         </section>
       )}
 
-      {/* Best for / Avoid for */}
+      {/* Best for */}
       <section className="bg-surface dark:bg-dark-surface border-b border-border dark:border-dark-border">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="p-6 bg-green/5 dark:bg-green/15 border border-green/20 rounded-xl">
-              <h3 className="text-xs uppercase tracking-widest font-bold text-green mb-3">Best for</h3>
-              <p className="text-sm text-charcoal dark:text-cream leading-relaxed">{product.bestFor}</p>
-            </div>
-            <div className="p-6 bg-red-100/40 dark:bg-red-900/20 border border-red-200 dark:border-red-900/40 rounded-xl">
-              <h3 className="text-xs uppercase tracking-widest font-bold text-red-700 dark:text-red-400 mb-3">
-                Avoid for
-              </h3>
-              <p className="text-sm text-charcoal dark:text-cream leading-relaxed">{product.avoidFor}</p>
-            </div>
+          <div className="p-6 bg-green/5 dark:bg-green/15 border border-green/20 rounded-xl">
+            <h3 className="text-xs uppercase tracking-widest font-bold text-green mb-3">Best for</h3>
+            <p className="text-base text-charcoal dark:text-cream leading-relaxed">{product.bestFor}</p>
           </div>
         </div>
       </section>

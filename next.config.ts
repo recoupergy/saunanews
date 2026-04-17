@@ -26,6 +26,11 @@ const nextConfig: NextConfig = {
         destination: '/',
         permanent: true,
       },
+      {
+        source: '/harvia/products/cilindro',
+        destination: '/harvia/products/cilindro-electric',
+        permanent: true,
+      },
     ];
   },
   async headers() {
