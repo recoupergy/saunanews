@@ -31,6 +31,11 @@ const nextConfig: NextConfig = {
         destination: '/harvia/products/cilindro-electric',
         permanent: true,
       },
+      {
+        source: '/article/bathhouse-brooklyn-120m-revenue-social-sauna',
+        destination: '/article/bathhouse-120m-revenue-social-sauna',
+        permanent: true,
+      },
     ];
   },
   async headers() {
