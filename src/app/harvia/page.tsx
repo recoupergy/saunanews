@@ -6,6 +6,7 @@ import ArticleCard from '@/components/ArticleCard';
 import ContentTypeBadge from '@/components/ContentTypeBadge';
 import NewsletterSignup from '@/components/NewsletterSignup';
 import ArticleImage from '@/components/ArticleImage';
+import HarviaStockChart from '@/components/HarviaStockChart';
 import { formatDate, formatDateShort } from '@/lib/utils';
 
 const PAGE_URL = 'https://www.saunanews.com/harvia';
@@ -346,6 +347,9 @@ export default function HarviaHubPage() {
                 <Link href="#news" className="inline-flex items-center gap-2 px-4 py-2 bg-charcoal dark:bg-cream text-cream dark:text-charcoal text-sm font-medium rounded-md hover:bg-slate dark:hover:bg-stone transition-colors">
                   Latest Harvia news
                 </Link>
+                <Link href="#stock" className="inline-flex items-center gap-2 px-4 py-2 border border-border dark:border-dark-border text-charcoal dark:text-cream text-sm font-medium rounded-md hover:border-green dark:hover:border-brass transition-colors">
+                  Stock chart
+                </Link>
                 <Link href="#calendar" className="inline-flex items-center gap-2 px-4 py-2 border border-border dark:border-dark-border text-charcoal dark:text-cream text-sm font-medium rounded-md hover:border-green dark:hover:border-brass transition-colors">
                   Investor calendar
                 </Link>
@@ -406,7 +410,8 @@ export default function HarviaHubPage() {
                 </div>
                 <div className="px-5 py-3 bg-cream dark:bg-dark-bg border-t border-border dark:border-dark-border">
                   <p className="text-[11px] text-stone-dark dark:text-dark-muted leading-relaxed">
-                    Stock and consensus figures are snapshots for context only, not real-time quotes. Source: company IR, Nasdaq Helsinki, Inderes.
+                    Static figures for at-a-glance context. For the live price, see the{' '}
+                    <Link href="#stock" className="underline hover:text-green dark:hover:text-brass">interactive chart below</Link>.
                   </p>
                 </div>
               </div>
@@ -463,6 +468,39 @@ export default function HarviaHubPage() {
           </div>
         </section>
       )}
+
+      {/* Live stock chart */}
+      <section id="stock" className="bg-ivory dark:bg-dark-surface border-b border-border dark:border-dark-border">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-14">
+          <div className="flex flex-wrap items-end justify-between gap-4 mb-6">
+            <div>
+              <span className="inline-block text-xs font-bold uppercase tracking-widest text-brass mb-2">
+                Live quote &middot; OMXHEX: HARVIA
+              </span>
+              <h2 className="font-editorial text-3xl sm:text-4xl font-bold text-charcoal dark:text-cream">
+                Harvia Stock Price
+              </h2>
+              <p className="text-sm text-stone-dark dark:text-dark-muted mt-2 max-w-2xl">
+                Real-time price, volume, and historical performance for Harvia Plc on Nasdaq Helsinki. Chart and data provided by TradingView.
+              </p>
+            </div>
+            <a
+              href="https://www.tradingview.com/symbols/OMXHEX-HARVIA/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-sm font-medium text-green dark:text-brass hover:underline"
+            >
+              Full chart on TradingView
+              <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </a>
+          </div>
+          <div className="rounded-xl overflow-hidden border border-border dark:border-dark-border bg-cream dark:bg-dark-bg p-2">
+            <HarviaStockChart height={420} />
+          </div>
+        </div>
+      </section>
 
       {/* Photography strip */}
       <section className="bg-charcoal dark:bg-dark-bg border-b border-border dark:border-dark-border">
