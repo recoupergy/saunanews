@@ -1,5 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+import { InputValidationError, normalizeSubscribeInput, parseJsonWithLimit } from '@/lib/api-input';
+import { enqueueFallback } from '@/lib/fallback-queue';
+
+const MAX_SUBSCRIBE_BODY_BYTES = 4 * 1024;
+
 // Disposable email domains to reject
 const DISPOSABLE_DOMAINS = new Set([
   'mailinator.com', 'guerrillamail.com', 'tempmail.com', 'throwaway.email',
@@ -7,8 +12,6 @@ const DISPOSABLE_DOMAINS = new Set([
   'dispostable.com', 'trashmail.com', 'maildrop.cc', '10minutemail.com',
   'temp-mail.org', 'fakeinbox.com', 'mailnesia.com',
 ]);
-
-const EMAIL_REGEX = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
 async function getRedis() {
   // Dynamic import so the build doesn't fail without env vars
@@ -21,8 +24,8 @@ async function getRedis() {
 
 export async function POST(request: NextRequest) {
   try {
-    const body = await request.json();
-    const { email, website } = body; // 'website' is the honeypot field
+    const payload = await parseJsonWithLimit<Record<string, unknown>>(request, MAX_SUBSCRIBE_BODY_BYTES);
+    const { email, source, website } = normalizeSubscribeInput(payload);
 
     // Honeypot check: if the hidden 'website' field is filled, it's a bot
     if (website) {
@@ -30,26 +33,8 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ success: true, message: "You're in!" });
     }
 
-    // Validate email presence
-    if (!email || typeof email !== 'string') {
-      return NextResponse.json(
-        { success: false, message: 'Please enter your email address.' },
-        { status: 400 }
-      );
-    }
-
-    const trimmedEmail = email.trim().toLowerCase();
-
-    // Validate email format
-    if (!EMAIL_REGEX.test(trimmedEmail)) {
-      return NextResponse.json(
-        { success: false, message: 'Please enter a valid email address.' },
-        { status: 400 }
-      );
-    }
-
     // Check for disposable email domains
-    const domain = trimmedEmail.split('@')[1];
+    const domain = email.split('@')[1];
     if (DISPOSABLE_DOMAINS.has(domain)) {
       return NextResponse.json(
         { success: false, message: 'Please use a permanent email address.' },
@@ -57,60 +42,98 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    const ip = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim()
+      || request.headers.get('x-real-ip')
+      || 'unknown';
+
     // Check if Redis is configured
     if (!process.env.KV_REST_API_URL || !process.env.KV_REST_API_TOKEN) {
-      // Graceful fallback: log the signup attempt if Redis isn't configured yet
-      console.log(`[Newsletter Signup] ${trimmedEmail} at ${new Date().toISOString()}`);
+      await enqueueFallback({
+        type: 'subscribe',
+        queuedAt: new Date().toISOString(),
+        reason: 'redis_not_configured',
+        payload: { email, source, ip },
+      });
+
       return NextResponse.json({
         success: true,
         message: "You're in! Watch for our next issue.",
       });
     }
 
-    const redis = await getRedis();
+    try {
+      const redis = await getRedis();
 
-    // Rate limiting by IP
-    const ip = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim()
-      || request.headers.get('x-real-ip')
-      || 'unknown';
-    const rateLimitKey = `ratelimit:subscribe:${ip}`;
-    const attempts = await redis.incr(rateLimitKey);
+      // Rate limiting by IP
+      const rateLimitKey = `ratelimit:subscribe:${ip}`;
+      const attempts = await redis.incr(rateLimitKey);
 
-    if (attempts === 1) {
-      // Set expiry on first attempt (1 hour window)
-      await redis.expire(rateLimitKey, 3600);
-    }
+      if (attempts === 1) {
+        // Set expiry on first attempt (1 hour window)
+        await redis.expire(rateLimitKey, 3600);
+      }
 
-    if (attempts > 5) {
-      return NextResponse.json(
-        { success: false, message: 'Too many attempts. Please try again later.' },
-        { status: 429 }
-      );
-    }
+      if (attempts > 5) {
+        return NextResponse.json(
+          { success: false, message: 'Too many attempts. Please try again later.' },
+          { status: 429 }
+        );
+      }
 
-    // Check if already subscribed
-    const exists = await redis.sismember('subscribers', trimmedEmail);
-    if (exists) {
-      return NextResponse.json({
-        success: true,
-        message: "You're already subscribed. We'll keep the good stuff coming.",
+      // Check if already subscribed
+      const exists = await redis.sismember('subscribers', email);
+      if (exists) {
+        return NextResponse.json({
+          success: true,
+          message: "You're already subscribed. We'll keep the good stuff coming.",
+        });
+      }
+
+      // Store the subscription
+      await redis.sadd('subscribers', email);
+      await redis.hset(`subscriber:${email}`, {
+        email,
+        subscribedAt: new Date().toISOString(),
+        source,
+        ip,
+      });
+    } catch (redisError) {
+      await enqueueFallback({
+        type: 'subscribe',
+        queuedAt: new Date().toISOString(),
+        reason: 'redis_unavailable',
+        payload: {
+          email,
+          source,
+          ip,
+          deliveryError: redisError instanceof Error ? redisError.message : String(redisError),
+        },
       });
     }
-
-    // Store the subscription
-    await redis.sadd('subscribers', trimmedEmail);
-    await redis.hset(`subscriber:${trimmedEmail}`, {
-      email: trimmedEmail,
-      subscribedAt: new Date().toISOString(),
-      source: body.source || 'website',
-      ip: ip,
-    });
 
     return NextResponse.json({
       success: true,
       message: "You're in! Watch for our next issue.",
     });
   } catch (error) {
+    if (error instanceof InputValidationError) {
+      return NextResponse.json(
+        { success: false, message: error.message },
+        { status: error.status }
+      );
+    }
+
+    try {
+      await enqueueFallback({
+        type: 'subscribe',
+        queuedAt: new Date().toISOString(),
+        reason: 'subscribe_processing_error',
+        payload: { error: error instanceof Error ? error.message : String(error) },
+      });
+    } catch (queueError) {
+      console.error('[Newsletter Subscribe Queue Error]', queueError);
+    }
+
     console.error('[Newsletter Subscribe Error]', error);
     return NextResponse.json(
       { success: false, message: 'Something went wrong. Please try again.' },
