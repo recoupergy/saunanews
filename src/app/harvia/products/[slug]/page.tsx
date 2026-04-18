@@ -3,7 +3,6 @@ import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import {
-  harviaProducts,
   getProduct,
   getAllProductSlugs,
 } from '@/data/harvia-products';
@@ -25,9 +24,9 @@ export async function generateMetadata({
   const product = getProduct(slug);
   if (!product) return { title: 'Product not found' };
   const url = `https://www.saunanews.com/harvia/products/${product.slug}`;
-  const description = `${product.tagline} Specs, investor-call quotes, insider install notes, and every mention across Harvia investor calls, press releases, and product pages.`;
+  const description = `${product.tagline} Specs, source-linked quotes, installer notes, and recent mentions across Harvia investor calls, press releases, and product pages.`;
   return {
-    title: `${product.name} — Specs, Quotes, and Insider Notes`,
+    title: `${product.name} — Specs, Quotes, and Field Notes`,
     description,
     keywords: [
       product.name,
@@ -70,6 +69,8 @@ export default async function ProductPage({
   const { slug } = await params;
   const product = getProduct(slug);
   if (!product) notFound();
+
+  const linkedQuotes = product.quotes.filter((q) => !!q.url).length;
 
   const related = product.relatedProductSlugs
     .map((s) => getProduct(s))
@@ -157,6 +158,28 @@ export default async function ProductPage({
               <p className="text-base text-stone-dark dark:text-dark-muted leading-relaxed mb-6">
                 {product.intro}
               </p>
+              <div className="mb-4 rounded-lg border border-border dark:border-dark-border bg-surface dark:bg-dark-surface p-4">
+                <p className="text-[11px] uppercase tracking-wider text-stone-dark dark:text-dark-muted mb-2">
+                  On this page
+                </p>
+                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-1.5 text-sm text-charcoal dark:text-cream">
+                  <li>• Model-level sizing and electrical specs</li>
+                  <li>• Source-linked Harvia and earnings-call quotes</li>
+                  <li>• Installer field notes and setup pitfalls</li>
+                  <li>• Official Harvia media bank images</li>
+                </ul>
+              </div>
+              <div className="mb-6 rounded-lg border border-green/20 dark:border-brass/30 bg-green/5 dark:bg-dark-surface p-4">
+                <p className="text-[11px] uppercase tracking-wider text-stone-dark dark:text-dark-muted mb-2">
+                  Editorial status
+                </p>
+                <p className="text-sm text-charcoal dark:text-cream leading-relaxed">
+                  SaunaNews is independent and not affiliated with Harvia. This page is maintained as a product record for news coverage and timeline context, not a sales page.
+                </p>
+                <p className="text-xs text-stone-dark dark:text-dark-muted mt-2">
+                  Last timeline mention: <span className="tabular-nums">{formatDate(product.lastMentioned)}</span> &middot; {product.lastMentionContext}
+                </p>
+              </div>
               <div className="flex flex-wrap gap-3">
                 <a
                   href={product.harviaUrl}
@@ -275,13 +298,16 @@ export default async function ProductPage({
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <div className="mb-8">
               <span className="inline-block text-xs font-bold uppercase tracking-widest text-brass mb-2">
-                Quotes & mentions
+                Source-backed mentions
               </span>
               <h2 className="font-editorial text-2xl sm:text-3xl font-bold text-charcoal dark:text-cream">
                 What Harvia has said about {product.name}
               </h2>
               <p className="text-sm text-stone-dark dark:text-dark-muted mt-2">
                 From earnings calls, investor presentations, annual reports, and the Harvia product catalog.
+              </p>
+              <p className="text-xs text-stone-dark dark:text-dark-muted mt-2">
+                {linkedQuotes} of {product.quotes.length} quote{product.quotes.length === 1 ? '' : 's'} include a direct source link.
               </p>
             </div>
             <div className="space-y-6">
@@ -316,23 +342,28 @@ export default async function ProductPage({
                 </figure>
               ))}
             </div>
+            {linkedQuotes !== product.quotes.length && (
+              <p className="text-xs text-stone-dark dark:text-dark-muted mt-6">
+                Some older quotes do not have a direct public URL in this record yet. We keep them for timeline completeness and update links as primary sources are located.
+              </p>
+            )}
           </div>
         </section>
       )}
 
-      {/* Insider notes */}
+      {/* Field notes */}
       {product.insiderNotes.length > 0 && (
         <section className="bg-charcoal dark:bg-dark-surface border-b border-border dark:border-dark-border">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <div className="mb-8">
               <span className="inline-block text-xs font-bold uppercase tracking-widest text-brass mb-2">
-                Insider notes
+                Field notes
               </span>
               <h2 className="font-editorial text-2xl sm:text-3xl font-bold text-cream">
-                What pros know about {product.name}
+                Installer notes for {product.name}
               </h2>
               <p className="text-sm text-cream/60 mt-2">
-                Field knowledge from specialty dealers, commercial installers, and long-term Harvia operators. Stuff that isn&apos;t on the spec sheet.
+                Practical guidance from specialty dealers, commercial installers, and long-term Harvia operators. Use these notes alongside the official manual.
               </p>
             </div>
             <div className="space-y-5">
@@ -354,8 +385,11 @@ export default async function ProductPage({
       <section className="bg-surface dark:bg-dark-surface border-b border-border dark:border-dark-border">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="p-6 bg-green/5 dark:bg-green/15 border border-green/20 rounded-xl">
-            <h3 className="text-xs uppercase tracking-widest font-bold text-green mb-3">Best for</h3>
+            <h3 className="text-xs uppercase tracking-widest font-bold text-green mb-3">Editorial fit</h3>
             <p className="text-base text-charcoal dark:text-cream leading-relaxed">{product.bestFor}</p>
+            <p className="text-xs text-stone-dark dark:text-dark-muted mt-2">
+              This is editorial analysis for context, not a purchase recommendation.
+            </p>
           </div>
         </div>
       </section>
@@ -548,7 +582,10 @@ export default async function ProductPage({
       <section className="bg-cream dark:bg-dark-bg border-t border-border dark:border-dark-border">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center">
           <p className="text-xs text-stone-dark dark:text-dark-muted leading-relaxed">
-            Product data sourced from Harvia Plc investor materials, earnings call transcripts, harvia.com, and harviagroup.com. Quotes attributed to specific sources. Insider notes reflect field knowledge from specialty dealers and commercial installers. SaunaNews is independent and not affiliated with Harvia Plc.
+            Product data is sourced from Harvia Plc investor materials, earnings call transcripts, harvia.com, and harviagroup.com. Quotes are attributed to specific sources when available. Field notes reflect installer and dealer experience and should be validated against local code and the latest Harvia manuals. SaunaNews is independent and not affiliated with Harvia Plc.
+          </p>
+          <p className="text-[11px] text-stone-dark dark:text-dark-muted leading-relaxed mt-2">
+            If you spot an error or outdated spec, contact the SaunaNews editorial team so the record can be corrected.
           </p>
         </div>
       </section>
