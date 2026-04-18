@@ -586,6 +586,7 @@
     "imageCaption": "Luxury thermal wellness facilities are becoming primary revenue drivers for high-end hospitality brands.",
     "featured": true,
     "trending": false,
+    "isEditorsPick": true,
     "bodyPath": "bodies/luxury-hotels-thermal-bathing-suites-trend.html"
   },
   {
@@ -704,6 +705,7 @@
     "imageCaption": "Inside Bathhouse Williamsburg — the converted 1930s soda factory that launched the social sauna movement in New York. Photo: Bathhouse.",
     "featured": false,
     "trending": true,
+    "isEditorsPick": true,
     "bodyPath": "bodies/bathhouse-120m-revenue-social-sauna.html"
   },
   {
@@ -852,6 +854,7 @@
     "featuredImage": "https://images.unsplash.com/photo-1741601273905-6534d822a81f?w=1200&q=80",
     "featured": true,
     "trending": false,
+    "isEditorsPick": true,
     "bodyPath": "bodies/longevity-investors-case-for-sauna.html"
   },
   {

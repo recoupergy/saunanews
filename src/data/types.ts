@@ -43,6 +43,7 @@ export interface Article {
   bodyPath?: string;
   featured: boolean;
   trending: boolean;
+  isEditorsPick?: boolean;
 }
 
 export interface CategoryInfo {

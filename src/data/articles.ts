@@ -46,6 +46,13 @@ export function getLatestArticles(count?: number): Article[] {
   return count ? sorted.slice(0, count) : sorted;
 }
 
+export function getEditorsPicks(count?: number): Article[] {
+  const picks = articles
+    .filter((a) => a.isEditorsPick)
+    .sort((a, b) => new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime());
+  return count ? picks.slice(0, count) : picks;
+}
+
 export function getArticlesByAuthorSlug(slug: string): Article[] {
   return articles
     .filter((a) => a.author.slug === slug)
