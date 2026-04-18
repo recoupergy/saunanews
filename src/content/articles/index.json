@@ -1,5 +1,38 @@
 [
   {
+    "id": "47",
+    "title": "Idaho State Parks Put a Sauna Concession Out to Bid",
+    "slug": "idaho-state-parks-sauna-concession-ponderosa-rfp",
+    "dek": "The Idaho Department of Parks and Recreation issued an RFP on April 1 for a sauna and cold plunge concessionaire at Ponderosa State Park. Proposals are due April 24. It may be the clearest U.S. signal yet that public agencies see sauna as recreation infrastructure.",
+    "excerpt": "Idaho Parks is seeking a private partner to develop, manage, and maintain a sauna and cold plunge concession at Ponderosa State Park on Payette Lake. A parallel proposal from Idaho Mountain Saunas of Caldwell is in front of the McCall city council. Utah's Willard Bay State Park is the working reference case. If Ponderosa lands a qualified bidder, state parks may become the next real growth frontier for the U.S. sauna industry.",
+    "contentType": "Analysis",
+    "category": "Market Intelligence",
+    "tags": [
+      "Idaho",
+      "state parks",
+      "Ponderosa State Park",
+      "McCall",
+      "cold plunge",
+      "concession",
+      "public sauna",
+      "Willard Bay"
+    ],
+    "author": {
+      "name": "Elise Lindgren",
+      "role": "Editor-in-Chief",
+      "avatar": "/authors/elise.jpg",
+      "slug": "elise-lindgren",
+      "bio": "Elise Lindgren has covered the global sauna and wellness industry for over fifteen years, first as a business journalist in Stockholm and later as founding editor of SaunaNews. She has reported from trade floors in Helsinki, factory lines in Estonia, and boardrooms across three continents. Under her editorial leadership, SaunaNews has become the go-to source for decision-makers across the sauna supply chain."
+    },
+    "publishDate": "2026-04-18",
+    "readingTime": 7,
+    "featuredImage": "/images/ponderosa-state-park-payette-lake.jpg",
+    "imageCaption": "A viewpoint inside Ponderosa State Park looks out over Payette Lake toward McCall. Idaho Parks is seeking an operator to run a sauna and cold plunge concession at the park. Photo: Rickmouser45 / Wikimedia Commons, CC BY-SA 4.0.",
+    "featured": true,
+    "trending": true,
+    "bodyPath": "bodies/idaho-state-parks-sauna-concession-ponderosa-rfp.html"
+  },
+  {
     "id": "46",
     "title": "Europe Finally Has a Sauna Standard. The Nordics Aren't Sold.",
     "slug": "en-18164-europe-first-sauna-standard-nordic-pushback",
