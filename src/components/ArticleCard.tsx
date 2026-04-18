@@ -2,12 +2,13 @@
 
 import Link from 'next/link';
 import { Article } from '@/data/types';
+import { SearchResultArticle } from '@/lib/search-types';
 import { formatDateShort } from '@/lib/utils';
 import ContentTypeBadge from './ContentTypeBadge';
 import ArticleImage from './ArticleImage';
 
 interface ArticleCardProps {
-  article: Article;
+  article: Article | SearchResultArticle;
   variant?: 'default' | 'compact' | 'horizontal';
 }
 
