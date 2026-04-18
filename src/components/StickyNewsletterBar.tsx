@@ -4,21 +4,16 @@ import { useState, useEffect } from 'react';
 
 export default function StickyNewsletterBar() {
   const [visible, setVisible] = useState(false);
-  const [dismissed, setDismissed] = useState(false);
+  const [dismissed, setDismissed] = useState(() => {
+    if (typeof window === 'undefined') return false;
+
+    return localStorage.getItem('saunanews-bar-dismissed') === 'true';
+  });
   const [email, setEmail] = useState('');
   const [honeypot, setHoneypot] = useState('');
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
 
   useEffect(() => {
-    // Check if previously dismissed or subscribed
-    if (typeof window !== 'undefined') {
-      const wasDismissed = localStorage.getItem('saunanews-bar-dismissed');
-      if (wasDismissed) {
-        setDismissed(true);
-        return;
-      }
-    }
-
     function handleScroll() {
       const scrollPercent =
         window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
