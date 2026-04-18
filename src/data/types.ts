@@ -39,7 +39,8 @@ export interface Article {
   readingTime: number;
   featuredImage: string;
   imageCaption?: string;
-  body: string;
+  body?: string;
+  bodyPath?: string;
   featured: boolean;
   trending: boolean;
   isEditorsPick?: boolean;

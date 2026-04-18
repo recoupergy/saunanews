@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { articles, getArticleBySlug, getArticlesByCategory } from '@/data/articles';
+import { articles, getArticleBySlug, getArticlesByCategory, getArticleBody } from '@/data/articles';
 import { formatDate } from '@/lib/utils';
 import ContentTypeBadge from '@/components/ContentTypeBadge';
 import ArticleCard from '@/components/ArticleCard';
@@ -214,7 +214,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
             <div
               className="prose-editorial"
-              dangerouslySetInnerHTML={{ __html: article.body }}
+              dangerouslySetInnerHTML={{ __html: getArticleBody(article) }}
             />
 
             {/* Tags */}
