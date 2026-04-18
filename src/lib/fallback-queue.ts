@@ -4,7 +4,7 @@ import path from 'node:path';
 interface QueueItem {
   type: 'subscribe' | 'contact';
   queuedAt: string;
-  payload: Record<string, unknown>;
+  payload: unknown;
   reason: string;
 }
 
