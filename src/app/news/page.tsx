@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import { articles } from '@/data/articles';
+import { articleSummaries as articles } from '@/data/article-summaries';
 import { categories } from '@/data/categories';
 import { Category } from '@/data/types';
 import ArticleCard from '@/components/ArticleCard';

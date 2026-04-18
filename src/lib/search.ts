@@ -1,4 +1,4 @@
-import { articles } from '@/data/articles';
+import { articles, getArticleBody } from '@/data/articles';
 import { Category } from '@/data/types';
 import { SearchResultArticle, SearchSortOption } from '@/lib/search-types';
 
@@ -40,7 +40,7 @@ const searchIndex: SearchIndexEntry[] = articles.map((article) => ({
     dek: article.dek.toLowerCase(),
     excerpt: article.excerpt.toLowerCase(),
     tags: article.tags.join(' ').toLowerCase(),
-    body: stripHtml(article.body).toLowerCase(),
+    body: stripHtml(getArticleBody(article)).toLowerCase(),
     author: article.author.name.toLowerCase(),
     category: article.category.toLowerCase(),
   },
