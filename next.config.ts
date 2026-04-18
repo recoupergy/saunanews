@@ -145,6 +145,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'almostheaven.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'mediabank.harvia.com',
+      },
     ],
   },
 };

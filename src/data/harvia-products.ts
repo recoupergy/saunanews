@@ -23,6 +23,27 @@ export interface InsiderNote {
   body: string;
 }
 
+export type MediaBankAssetType =
+  | 'product-image'
+  | 'technical-image'
+  | 'lifestyle-image'
+  | 'video'
+  | 'manual'
+  | 'brochure'
+  | 'data-sheet'
+  | 'safety-data-sheet'
+  | 'certificate';
+
+export interface MediaBankAsset {
+  id: string;
+  src: string;
+  title: string;
+  type: MediaBankAssetType;
+  ext?: string;
+  language?: string;
+  poster?: string;
+}
+
 export interface HarviaProduct {
   slug: string;
   name: string;
@@ -35,6 +56,11 @@ export interface HarviaProduct {
   heroImage: string;
   gallery: string[];
   videoEmbedId?: string;
+  mediaBank?: {
+    images: MediaBankAsset[];
+    videos: MediaBankAsset[];
+    documents: MediaBankAsset[];
+  };
   specsSummary: Array<{ label: string; value: string }>;
   sizes: ProductSize[];
   keyFeatures: string[];
@@ -61,11 +87,12 @@ export const harviaProducts: HarviaProduct[] = [
     tagline: 'A tall column of stones inside a stainless steel lattice. Up to 265 lbs of stone mass, soft löyly that rivals a wood-fired sauna, and the visual signature competitors keep copying.',
     intro:
       'The electric Cilindro is the product that defined modern premium electric sauna heating. The cylindrical tower format holds 180 to 265 pounds of stones in an open stainless lattice, exposing more stone surface to the room than any comparably sized heater. In real use, that translates to steam character much closer to a wood-fired sauna than to a conventional wall heater. The Cilindro has been Harvia\'s flagship residential electric heater for over a decade and is specified across North American residential, high-end specialty, and commercial installations. The PC66E "Half" variant mounts flush against a wall; the PC100 and PC110 scale to 208V three-phase commercial service.',
-    heroImage: 'https://b1572463.smushcdn.com/1572463/wp-content/uploads/2023/06/Harvia-Cilindro.jpg',
+    heroImage: '/images/harvia-mediabank/cilindro-electric/7373.jpg',
     gallery: [
-      'https://b1572463.smushcdn.com/1572463/wp-content/uploads/2023/06/Harvia-Cilindro.jpg',
-      'https://www.datocms-assets.com/41658/1694070415-harvia_cilindroh_e_hpcs_usa_f6_web.jpg',
-      'https://www.datocms-assets.com/41658/1618819376-harviacilindropc70-90blacksteeld1.jpeg',
+      '/images/harvia-mediabank/cilindro-electric/7373.jpg',
+      '/images/harvia-mediabank/cilindro-electric/7372.jpg',
+      '/images/harvia-mediabank/cilindro-electric/6849.jpg',
+      '/images/harvia-mediabank/cilindro-electric/4442.jpg',
     ],
     specsSummary: [
       { label: 'Power range', value: '6.8 – 10.8 kW' },
@@ -160,11 +187,12 @@ export const harviaProducts: HarviaProduct[] = [
     tagline: 'The Cilindro visual signature, now wood-fired. 265 lbs of stone mass, glass hatch for firelight, unique rear ventilation duct. A genuinely new product, not a refresh.',
     intro:
       'The wood-burning Cilindro is a new product, announced 30 January 2025 as the first highlight of Harvia\'s 75th anniversary year. Development was completed in Q3 2024, and sales started in early 2025 after an October 2024 launch debut. It takes the cylindrical pillar that made the electric Cilindro famous and rebuilds it as a wood-fired heater: 120 kg (~265 lbs) of stones, a stainless steel shell, a cast-iron firebox with a glass hatch showing flame through the column, and a distinctive rear ventilation duct that accelerates room heat-up. Finnish Key Flag product, designed and built in Harvia\'s Muurame factory.',
-    heroImage: 'https://www.datocms-assets.com/41658/1727418650-harvia_cilindro16_wkpc16s_f6.jpg',
+    heroImage: '/images/harvia-mediabank/cilindro-wood/4925.jpg',
     gallery: [
-      'https://www.datocms-assets.com/41658/1727418650-harvia_cilindro16_wkpc16s_f6.jpg',
-      'https://www.datocms-assets.com/41658/1727419505-harvia_cilindro16_wkpc16s_d1.jpg',
-      'https://www.datocms-assets.com/41658/1727419706-harvia_cilindro_wkpc16s_wkpc20s_accessories_p3.png',
+      '/images/harvia-mediabank/cilindro-wood/4925.jpg',
+      '/images/harvia-mediabank/cilindro-wood/4924.jpg',
+      '/images/harvia-mediabank/cilindro-wood/5170.jpg',
+      '/images/harvia-mediabank/cilindro-wood/4932.jpg',
     ],
     specsSummary: [
       { label: 'Fuel', value: 'Wood-burning' },
@@ -263,11 +291,12 @@ export const harviaProducts: HarviaProduct[] = [
     tagline: 'Dual-group elements, 200 lbs of stones, stainless construction, 10.5-22 kW. The heater specified when a commercial sauna has to run 10 hours a day for ten years.',
     intro:
       'The Virta Pro is Harvia\'s commercial electric standard. Its defining spec is the dual-group element design: heating elements are split into two independent circuits so a single failure never takes the sauna fully offline. It\'s the heater commercial dealers reach for at 16 to 22 kW for hotel spas, apartment amenities, and gym saunas between 400 and 1,400 cubic feet. Not sold as a residential unit, though residential buyers sometimes specify it for oversized rooms. Needs an external control unit: Xenio CX45 for the HL110-HL160, CX170 or Fenix FX170 for HL200 and HL220.',
-    heroImage: 'https://b1572463.smushcdn.com/1572463/wp-content/uploads/2023/03/harvia-virta-pro.jpeg',
+    heroImage: '/images/harvia-mediabank/virta-pro/5927.jpg',
     gallery: [
-      'https://b1572463.smushcdn.com/1572463/wp-content/uploads/2023/03/harvia-virta-pro.jpeg',
-      'https://b1572463.smushcdn.com/1572463/wp-content/uploads/2023/06/Harvia-Virta-Pro-16KW-240v-commercial-or-home-electric-sauna-heater-768x1024.jpg',
-      'https://harviagroup.com/wp-content/uploads/2025/06/092624_HA_LM_BK0221-3_WEB-1280x854-1.jpg',
+      '/images/harvia-mediabank/virta-pro/5927.jpg',
+      '/images/harvia-mediabank/virta-pro/5815.jpg',
+      '/images/harvia-mediabank/virta-pro/8167.jpg',
+      '/images/harvia-mediabank/virta-pro/7237.jpg',
     ],
     specsSummary: [
       { label: 'Power range', value: '10.5 – 22 kW' },
@@ -353,11 +382,12 @@ export const harviaProducts: HarviaProduct[] = [
     tagline: 'Sculptural curved rock basket, UL 875 certified, WiFi-ready through MyHarvia. The heater specialty dealers recommend most for 6x6 and 6x8 rooms.',
     intro:
       'The Spirit is Harvia\'s residential sweet spot. A sculptural wall-mount form with a 110-pound stone capacity, two independent safety sensors, and standard WiFi through the MyHarvia app. It shows up in most 6x6 and 6x8 residential saunas sold through US specialty dealers. Designed and manufactured in Finland and certified to UL 875 for US and Canadian installations. Three models: SP60 (6 kW), SP80 (8 kW), SP90 (9 kW), all on standard 240V single-phase.',
-    heroImage: 'https://b1572463.smushcdn.com/1572463/wp-content/uploads/2024/01/Harvia-Spirit_Sauna_Heater-6kW-SP60E-Closeup.jpg',
+    heroImage: '/images/harvia-mediabank/spirit/4120.jpg',
     gallery: [
-      'https://b1572463.smushcdn.com/1572463/wp-content/uploads/2024/01/Harvia-Spirit_Sauna_Heater-6kW-SP60E-Closeup.jpg',
-      'https://b1572463.smushcdn.com/1572463/wp-content/uploads/2024/01/Harvia-Spirit_Sauna_Heater-6kW-SP60E-Airflow_Cutaway.jpg',
-      'https://b1572463.smushcdn.com/1572463/wp-content/uploads/2024/01/Harvia-Spirit_Safety_Railing-HSP3M.jpg',
+      '/images/harvia-mediabank/spirit/4120.jpg',
+      '/images/harvia-mediabank/spirit/3417.jpg',
+      '/images/harvia-mediabank/spirit/8476.jpg',
+      '/images/harvia-mediabank/spirit/6668.jpg',
     ],
     specsSummary: [
       { label: 'Power range', value: '6, 8, 9 kW' },
@@ -440,10 +470,12 @@ export const harviaProducts: HarviaProduct[] = [
     tagline: 'Symmetric stainless, UL-listed, compact. The default heater inside most Almost Heaven barrel saunas and high-volume specialty-dealer kit builds.',
     intro:
       'The Vega is the product nobody writes magazine features about and Harvia sells at the highest volume in the lineup. A compact, wall-mounted, symmetric stainless heater for small-to-mid residential saunas between 70 and 510 cubic feet. Vega ships inside most Almost Heaven barrel sauna kits, Costco-channel packages, and specialty-dealer entry-level builds. Two variants: BC (built-in controls) for plug-and-play installs, and BCE (external controls) for pairing with a Xenio or Fenix panel. Runs on standard US 240V single-phase.',
-    heroImage: 'https://b1572463.smushcdn.com/1572463/wp-content/uploads/2023/06/Harvia-Sirius_Vega_d1-1011x1536.jpg',
+    heroImage: '/images/harvia-mediabank/vega/434.jpg',
     gallery: [
-      'https://b1572463.smushcdn.com/1572463/wp-content/uploads/2023/06/Harvia-Sirius_Vega_d1-1011x1536.jpg',
-      'https://harviagroup.com/wp-content/uploads/2025/06/Almost-Heaven_1232marg.jpg',
+      '/images/harvia-mediabank/vega/434.jpg',
+      '/images/harvia-mediabank/vega/433.jpg',
+      '/images/harvia-mediabank/vega/435.jpg',
+      '/images/harvia-mediabank/vega/436.jpg',
     ],
     specsSummary: [
       { label: 'Power range', value: '4.5, 6, 8, 9 kW' },
@@ -549,9 +581,12 @@ export const harviaProducts: HarviaProduct[] = [
     tagline: 'Heat-storing inner chamber that keeps the stones continuously warm so the sauna is session-ready on demand. Sold in European markets. Harvia Forte is not available for the North American market; US and Canadian buyers looking for a premium Harvia electric heater should see Cilindro, Virta Pro, or KIP.',
     intro:
       'The Harvia Forte is a heat-storing "Ever-Ready" electric sauna heater designed for European-market residential use. The product concept addresses a specific consumer problem: conventional electric sauna heaters need 30 to 45 minutes to reach session temperature from cold. Forte keeps stones warm continuously inside an insulated inner chamber while the outer casing stays at safe-to-touch temperatures, with an ECO low-idle mode that holds the heater in a ready state at a fraction of typical in-use running cost. Note: Harvia Forte is sold in European markets and is not part of Harvia\'s official North American product range. US and Canadian buyers should look at Harvia KIP, Cilindro, or Virta Pro for Harvia\'s North American electric-heater lineup. Products listed by some North American retailers are typically EU-spec units brought in through grey-market channels without Harvia US distribution support.',
-    heroImage: 'https://www.datocms-assets.com/41658/1695109067-harvia_ventura_forte_steel_us_web.jpg',
+    heroImage: '/images/harvia-mediabank/forte/1279.jpg',
     gallery: [
-      'https://www.datocms-assets.com/41658/1695109067-harvia_ventura_forte_steel_us_web.jpg',
+      '/images/harvia-mediabank/forte/1279.jpg',
+      '/images/harvia-mediabank/forte/1184.jpg',
+      '/images/harvia-mediabank/forte/1190.jpg',
+      '/images/harvia-mediabank/forte/724.jpg',
     ],
     specsSummary: [
       { label: 'Power range', value: '4.0 – 9.0 kW' },
@@ -620,11 +655,12 @@ export const harviaProducts: HarviaProduct[] = [
     tagline: 'Cast-iron glass door, thick stone cradle, clean burn. The Legend is what US dealers spec when the customer asks for "the real thing."',
     intro:
       'The Legend is Harvia\'s flagship wood-burning line. Legend 150 (WK150LD) is the residential-to-small-commercial unit for rooms up to 460 cubic feet and ships through Almost Heaven as a complete kit (WK150LD + WL100 flue + WHP1500 water heater). The 240 and 240SL scale to larger commercial installs; the SL variant adds an external wood feed so the fire is tended from outside the sauna room. Legend replaced Harvia\'s older wood-burning catalog in the late 2010s and has become the default for serious wood-fired residential and destination-commercial builds.',
-    heroImage: 'https://almostheaven.com/cdn/shop/files/Harvia_Legend_WK150LD_WL100_WHP1500_p1.png',
+    heroImage: '/images/harvia-mediabank/legend/6856.jpg',
     gallery: [
-      'https://almostheaven.com/cdn/shop/files/Harvia_Legend_WK150LD_WL100_WHP1500_p1.png',
-      'https://b1572463.smushcdn.com/1572463/wp-content/uploads/2022/12/harvia-legend-150-WK150LD-1200x1200.jpeg',
-      'https://b1572463.smushcdn.com/1572463/wp-content/uploads/2022/12/Harvia-Legend-Water-Tank-800x800.jpeg',
+      '/images/harvia-mediabank/legend/6856.jpg',
+      '/images/harvia-mediabank/legend/6832.jpg',
+      '/images/harvia-mediabank/legend/5910.jpg',
+      '/images/harvia-mediabank/legend/7061.jpg',
       'https://www.datocms-assets.com/41658/1693910481-harvia_legend_outdoorsauna_shl3410_f7.jpg',
     ],
     specsSummary: [
@@ -915,10 +951,10 @@ export const harviaProducts: HarviaProduct[] = [
     tagline: 'A wireless sensor reading temperature and humidity in any sauna and pushing to the MyHarvia app. Works on electric, wood-burning, and saunas with no electricity at all.',
     intro:
       'The MyHarvia Smart Sauna Sensor is the 2025 category expansion Harvia called "a completely new category never seen in the sauna market before" on the Q4 2025 earnings call. Unlike Xenio or Fenix, this is not a control panel — it\'s a wireless monitoring sensor. It reads temperature and humidity in any sauna room and transmits to the MyHarvia app. Because it doesn\'t control a heater, it works inside sauna rooms with no electrical service at all, including traditional wood-fired saunas. For commercial operators, it adds data without rewiring. For residential wood-fired sauna owners, it adds smart-sauna functionality that was previously impossible.',
-    heroImage: 'https://www.datocms-assets.com/41658/1755255327-harvia_myharvia_yogi_celsius_f1.jpg',
+    heroImage: '/images/harvia-mediabank/myharvia-sensor/1988.jpg',
     gallery: [
-      'https://www.datocms-assets.com/41658/1755255327-harvia_myharvia_yogi_celsius_f1.jpg',
-      'https://www.datocms-assets.com/41658/1748948894-harvia_fenix_smoke_f1.jpg',
+      '/images/harvia-mediabank/myharvia-sensor/1988.jpg',
+      '/images/harvia-mediabank/myharvia-sensor/7290.jpg',
     ],
     specsSummary: [
       { label: 'Type', value: 'Wireless monitoring sensor' },
@@ -1108,9 +1144,10 @@ export const harviaProducts: HarviaProduct[] = [
     tagline: 'Harvia\'s largest wood-burning stove. 40 kW rated output, 264 lbs of stone capacity, steel construction, black finish. Rated by Harvia for sauna rooms from 706 to 1,766 cubic feet and designated for professional use.',
     intro:
       'The Harvia 50 (model WK500) is the largest wood-burning sauna heater in Harvia\'s current catalog. It is rated at 40 kW output, holds 264.6 lbs of stones in a size range of Ø10-15 cm, and Harvia\'s spec places it in sauna rooms from 706 to 1,766 cubic feet. The stove is designated for professional user groups and is built for commercial and destination-scale wood-fired saunas: large public bathhouses, ski-town communal saunas, resort wellness facilities, and multi-session commercial operations. Floor-mounted, steel construction, black finish. Minimum ceiling clearance is 6.56 ft, and Harvia specifies meaningful safety-distance setbacks from combustible materials (see the spec sheet linked below). Manufactured in Harvia\'s Muurame, Finland factory.',
-    heroImage: 'https://www.datocms-assets.com/41658/1699443845-img_1782.jpg',
+    heroImage: '/images/harvia-mediabank/harvia-50-wood/1621.jpg',
     gallery: [
-      'https://www.datocms-assets.com/41658/1699443845-img_1782.jpg',
+      '/images/harvia-mediabank/harvia-50-wood/1621.jpg',
+      '/images/harvia-mediabank/harvia-50-wood/1622.jpg',
     ],
     specsSummary: [
       { label: 'Model', value: 'WK500' },
@@ -1184,9 +1221,10 @@ export const harviaProducts: HarviaProduct[] = [
     tagline: 'Oval-shaped residential cold tub. Harvia\'s entry into the cold-plunge category, launched in 2023 and positioned as the companion product to a Harvia sauna.',
     intro:
       'Harvia Frosty is the oval-shaped residential cold tub Harvia launched in 2023, positioned as the cold-plunge companion to a Harvia sauna. Per Harvia\'s 2023 Annual Report, the tub uses materials selected to be safe, comfortable on the skin, and easy to maintain, and every unit ships with an insulated cover that both maintains target temperature and improves safety by keeping children out of the water. Harvia\'s framing in the 2023 report ties the launch to growing consumer interest in hot-cold alternation and cold-exposure therapy.',
-    heroImage: 'https://harviagroup.com/wp-content/uploads/2025/05/Kiuas_Kuva1-780x439.jpg',
+    heroImage: '/images/harvia-mediabank/frosty-cold-tub/4602.jpg',
     gallery: [
-      'https://harviagroup.com/wp-content/uploads/2025/05/Kiuas_Kuva1-780x439.jpg',
+      '/images/harvia-mediabank/frosty-cold-tub/4602.jpg',
+      '/images/harvia-mediabank/frosty-cold-tub/4579.jpg',
     ],
     specsSummary: [
       { label: 'Category', value: 'Cold tub / cold plunge' },
@@ -1392,10 +1430,19 @@ export const harviaProducts: HarviaProduct[] = [
   },
 ];
 
+import { harviaMediaBank } from './harvia-mediabank';
+
 export function getProduct(slug: string): HarviaProduct | undefined {
-  return harviaProducts.find((p) => p.slug === slug);
+  const base = harviaProducts.find((p) => p.slug === slug);
+  if (!base) return undefined;
+  const mb = harviaMediaBank[slug];
+  return mb ? { ...base, mediaBank: mb } : base;
 }
 
 export function getAllProductSlugs(): string[] {
   return harviaProducts.map((p) => p.slug);
+}
+
+export function getMediaBankForSlug(slug: string) {
+  return harviaMediaBank[slug];
 }
