@@ -9,6 +9,7 @@ import MarketDataBar from '@/components/MarketDataBar';
 import SponsorSlot from '@/components/SponsorSlot';
 import ArticleImage from '@/components/ArticleImage';
 import LaunchCalendar from '@/components/LaunchCalendar';
+import MobileRailTabs from '@/components/MobileRailTabs';
 import { formatDateShort } from '@/lib/utils';
 
 export default function HomePage() {
@@ -104,7 +105,7 @@ export default function HomePage() {
             )}
 
             {/* Right column: secondary stories + trending */}
-            <div className="lg:col-span-5 lg:border-l lg:border-border lg:dark:border-dark-border lg:pl-8">
+            <div className="hidden lg:block lg:col-span-5 lg:border-l lg:border-border lg:dark:border-dark-border lg:pl-8">
               {/* Secondary featured stories */}
               {secondaryFeatured.map((article) => (
                 <Link
@@ -147,6 +148,12 @@ export default function HomePage() {
                 ))}
               </div>
             </div>
+
+          <MobileRailTabs
+            topStories={secondaryFeatured}
+            latestStories={latestDeduped.slice(0, 3)}
+            trendingStories={trending.slice(0, 5)}
+          />
           </div>
         </div>
       </section>
@@ -195,7 +202,7 @@ export default function HomePage() {
             </div>
 
             {/* Trending sidebar — 4 columns */}
-            <div className="lg:col-span-4 lg:border-l lg:border-border lg:dark:border-dark-border lg:pl-8">
+            <div className="hidden lg:block lg:col-span-4 lg:border-l lg:border-border lg:dark:border-dark-border lg:pl-8">
               <div className="flex items-center gap-2 mb-6 pb-4 border-b border-border dark:border-dark-border">
                 <svg className="w-4 h-4 text-brass" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 6.51 6.51 0 009 11.5a3 3 0 106 0c0-1.12-.492-2.126-1.27-2.812A6.002 6.002 0 0015.362 5.214z" />
@@ -229,6 +236,12 @@ export default function HomePage() {
                 <LaunchCalendar />
               </div>
             </div>
+
+          <MobileRailTabs
+            topStories={secondaryFeatured}
+            latestStories={latestDeduped.slice(0, 3)}
+            trendingStories={trending.slice(0, 5)}
+          />
           </div>
         </div>
       </section>
@@ -307,6 +320,12 @@ export default function HomePage() {
                 <ArticleCard key={article.id} article={article} variant="horizontal" />
               ))}
             </div>
+
+          <MobileRailTabs
+            topStories={secondaryFeatured}
+            latestStories={latestDeduped.slice(0, 3)}
+            trendingStories={trending.slice(0, 5)}
+          />
           </div>
         </div>
       </section>
