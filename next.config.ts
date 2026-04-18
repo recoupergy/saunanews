@@ -149,6 +149,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'mediabank.harvia.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'www.cpsc.gov',
+      },
     ],
   },
 };
