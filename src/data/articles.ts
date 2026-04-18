@@ -1,5 +1,3 @@
-import { readFile } from 'node:fs/promises';
-import path from 'node:path';
 import { cache } from 'react';
 import articleIndexJson from '@/content/article-index.json';
 import type { Article } from './types';
@@ -24,6 +22,10 @@ function ensureArticle(article: Article): Article {
 }
 
 const loadArticles = cache(async (): Promise<Article[]> => {
+  const [{ readFile }, { default: path }] = await Promise.all([
+    import('node:fs/promises'),
+    import('node:path'),
+  ]);
   const filePath = path.join(process.cwd(), 'src/content/articles.json');
   const raw = await readFile(filePath, 'utf8');
   const parsed = JSON.parse(raw) as Article[];

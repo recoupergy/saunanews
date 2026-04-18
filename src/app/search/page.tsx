@@ -1,45 +1,22 @@
 'use client';
 
-import { useMemo, useState, useEffect, Suspense } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
-import { getArticleIndex, type ArticleSummary } from '@/data/articles';
 import { categories } from '@/data/categories';
 import { Category } from '@/data/types';
 import ArticleCard from '@/components/ArticleCard';
-
-type SortOption = 'relevance' | 'latest';
-
-function scoreArticle(article: ArticleSummary, query: string): number {
-  if (!query) return 0;
-  const q = query.toLowerCase();
-  const terms = q.split(/\s+/).filter(Boolean);
-  let score = 0;
-  const title = article.title.toLowerCase();
-  const dek = article.dek.toLowerCase();
-  const excerpt = article.excerpt.toLowerCase();
-  const tags = article.tags.map((t) => t.toLowerCase()).join(' ');
-  const body = article.body.toLowerCase();
-
-  for (const term of terms) {
-    if (title.includes(term)) score += 10;
-    if (dek.includes(term)) score += 5;
-    if (excerpt.includes(term)) score += 3;
-    if (tags.includes(term)) score += 4;
-    if (body.includes(term)) score += 1;
-    if (article.author.name.toLowerCase().includes(term)) score += 2;
-    if (article.category.toLowerCase().includes(term)) score += 2;
-  }
-  return score;
-}
+import { SearchResultArticle, SearchSortOption } from '@/lib/search-types';
 
 function SearchResults() {
-  const articles = useMemo(() => getArticleIndex(), []);
   const router = useRouter();
   const searchParams = useSearchParams();
   const initialQuery = searchParams.get('q') ?? '';
   const [query, setQuery] = useState(initialQuery);
   const [activeCategory, setActiveCategory] = useState<Category | 'all'>('all');
-  const [sort, setSort] = useState<SortOption>('relevance');
+  const [sort, setSort] = useState<SearchSortOption>('relevance');
+  const [results, setResults] = useState<SearchResultArticle[]>([]);
+  const [totalArticles, setTotalArticles] = useState(0);
+  const [isLoading, setIsLoading] = useState(false);
 
   // Keep URL in sync with input (debounced) so shared URLs preserve query
   useEffect(() => {
@@ -52,33 +29,51 @@ function SearchResults() {
     return () => clearTimeout(handle);
   }, [query, router]);
 
-  const results = useMemo(() => {
-    const trimmed = query.trim();
-    let scored = articles.map((a) => ({
-      article: a,
-      score: scoreArticle(a, trimmed),
-    }));
+  useEffect(() => {
+    const controller = new AbortController();
 
-    if (trimmed) {
-      scored = scored.filter((s) => s.score > 0);
-    }
+    const runSearch = async () => {
+      try {
+        setIsLoading(true);
+        const params = new URLSearchParams({
+          q: query,
+          category: activeCategory,
+          sort,
+          limit: '60',
+        });
 
-    if (activeCategory !== 'all') {
-      scored = scored.filter((s) => s.article.category === activeCategory);
-    }
+        const response = await fetch(`/api/search?${params.toString()}`, {
+          signal: controller.signal,
+        });
 
-    if (sort === 'relevance' && trimmed) {
-      scored.sort((a, b) => b.score - a.score);
-    } else {
-      scored.sort(
-        (a, b) =>
-          new Date(b.article.publishDate).getTime() -
-          new Date(a.article.publishDate).getTime()
-      );
-    }
+        if (!response.ok) {
+          throw new Error('Search request failed');
+        }
 
-    return scored.map((s) => s.article);
-  }, [activeCategory, articles, query, sort]);
+        const data = (await response.json()) as {
+          results: SearchResultArticle[];
+          totalArticles: number;
+        };
+
+        setResults(data.results);
+        setTotalArticles(data.totalArticles);
+      } catch (error) {
+        if ((error as Error).name !== 'AbortError') {
+          setResults([]);
+        }
+      } finally {
+        if (!controller.signal.aborted) {
+          setIsLoading(false);
+        }
+      }
+    };
+
+    runSearch();
+
+    return () => {
+      controller.abort();
+    };
+  }, [query, activeCategory, sort]);
 
   const trimmedQuery = query.trim();
 
@@ -169,7 +164,7 @@ function SearchResults() {
             </div>
             <select
               value={sort}
-              onChange={(e) => setSort(e.target.value as SortOption)}
+              onChange={(e) => setSort(e.target.value as SearchSortOption)}
               className="px-3 py-2 bg-cream dark:bg-dark-bg border border-border dark:border-dark-border rounded-lg text-sm focus:outline-none focus:border-green dark:focus:border-brass shrink-0"
             >
               <option value="relevance">Best match</option>
@@ -191,11 +186,15 @@ function SearchResults() {
                 </span>
               </>
             ) : (
-              <>Type above to search {articles.length} articles</>
+              <>Type above to search {totalArticles} articles</>
             )}
           </p>
 
-          {trimmedQuery && results.length === 0 ? (
+          {isLoading ? (
+            <div className="text-center py-20">
+              <p className="text-lg text-warm-gray dark:text-dark-muted">Searching...</p>
+            </div>
+          ) : trimmedQuery && results.length === 0 ? (
             <div className="text-center py-20">
               <p className="text-lg text-warm-gray dark:text-dark-muted mb-2">
                 No articles match your search.

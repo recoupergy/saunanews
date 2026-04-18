@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import { Playfair_Display, Inter } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import Header from '@/components/Header';
@@ -9,17 +8,6 @@ import StickyNewsletterBar from '@/components/StickyNewsletterBar';
 import BackToTop from '@/components/BackToTop';
 import './globals.css';
 
-const playfair = Playfair_Display({
-  variable: '--font-playfair',
-  subsets: ['latin'],
-  display: 'swap',
-});
-
-const inter = Inter({
-  variable: '--font-inter',
-  subsets: ['latin'],
-  display: 'swap',
-});
 
 const siteUrl = 'https://www.saunanews.com';
 const siteTitle = 'SaunaNews — The Business and Culture of Sauna';
@@ -85,8 +73,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${playfair.variable} ${inter.variable}`} suppressHydrationWarning>
-      <body className="min-h-screen flex flex-col antialiased" style={{ fontFamily: 'var(--font-inter), system-ui, sans-serif' }}>
+    <html lang="en" suppressHydrationWarning>
+      <body className="min-h-screen flex flex-col antialiased">
         <HeadlineTicker />
         <Header />
         <main className="flex-1">{children}</main>

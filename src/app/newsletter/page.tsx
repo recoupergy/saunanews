@@ -220,14 +220,14 @@ export default function NewsletterPage() {
                 <span className="text-xs font-semibold text-brass mt-1 shrink-0">03</span>
                 <div>
                   <h4 className="font-semibold text-charcoal dark:text-cream text-sm">Homecraft Launches WiFi Controller for North American Market</h4>
-                  <p className="text-xs text-stone-dark dark:text-dark-muted mt-0.5">Canada's oldest heater maker adds app control at $825.</p>
+                  <p className="text-xs text-stone-dark dark:text-dark-muted mt-0.5">Canada&apos;s oldest heater maker adds app control at $825.</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-xs font-semibold text-brass mt-1 shrink-0">04</span>
                 <div>
                   <h4 className="font-semibold text-charcoal dark:text-cream text-sm">Thermory Signs Exclusive Japan Distribution Deal</h4>
-                  <p className="text-xs text-stone-dark dark:text-dark-muted mt-0.5">Bergman Co. brings thermowood to Japan's sauna renaissance.</p>
+                  <p className="text-xs text-stone-dark dark:text-dark-muted mt-0.5">Bergman Co. brings thermowood to Japan&apos;s sauna renaissance.</p>
                 </div>
               </div>
             </div>
