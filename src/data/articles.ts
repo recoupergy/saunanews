@@ -14,7 +14,7 @@ export const articles: Article[] = [
     author: authors.anna,
     publishDate: '2026-04-16',
     readingTime: 8,
-    featuredImage: 'https://static.wixstatic.com/media/a47480_4454b7de921a4755994365106086237b~mv2.jpg/v1/fit/w_1200,h_800,q_90/file.jpg',
+    featuredImage: '/images/articles/white-mountain-sauna-haus-hero.jpg',
     imageCaption: 'Guests hit the cold plunge at White Mountain Sauna Haus in North Conway, NH. The renovated 1890s barn is visible behind them. Photo: White Mountain Sauna Haus.',
     body: `<p>North Conway, New Hampshire, has been named America's best ski town five times since 2016. It is the gateway to 12 alpine resorts, 335 trails, and 280 miles of groomed cross-country terrain. Over four million people visit the Mount Washington Valley every year. Until January 2026, there was not a single public sauna anywhere in the valley.</p>
 
