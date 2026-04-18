@@ -3254,8 +3254,8 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
     author: authors.sofia,
     publishDate: '2025-11-06',
     readingTime: 5,
-    featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/06/2024_06_25_oh_harvia_details_0169-1280x854.jpg',
-    imageCaption: 'The new Harvia Fenix control panel has a 4.3-inch full-touch screen, three presets, user profiles, and over-the-air updates. Paired with the rebuilt MyHarvia 2 app, it is Harvia\'s most integrated smart-sauna platform to date.',
+    featuredImage: 'https://almostheaven.com/cdn/shop/files/Harvia_Fenix_WifiControlUnit_FX30-U1-U3-XC_FX45-U1-U3-XC_f6.jpg',
+    imageCaption: 'The new Harvia Fenix WiFi control unit (FX30 / FX45). 4.3-inch full-touch screen, three presets, user profiles, smart "ready-by" timer, Wi-Fi with over-the-air updates. Image: Harvia.',
     body: `<p>At its Q3 2025 investor presentation on 6 November 2025, Harvia unveiled two major updates to its digital sauna platform: a new Fenix full-touch control panel for the volume sauna segment, and a rebuilt MyHarvia 2 mobile application. On the 6 November earnings webcast, CEO Matias Järnefelt introduced Fenix in plain language and used the occasion to claim the mobile app crown outright.</p>
 
 <blockquote>"It's smart, so actually it learns about your sauna. MyHarvia smartphone app and definitely the most advanced sauna app there." <cite>— Matias Järnefelt, CEO, Harvia Q3 2025 earnings call, 6 November 2025</cite></blockquote>
@@ -3263,6 +3263,11 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 <p>Both are backward compatible with the installed Xenio base, meaning existing Harvia electric heater owners can upgrade without replacing the heater itself. Three months later, on the Q4 2025 earnings call on 12 February 2026, Järnefelt gave the product its first commercial report card: "The sales started in third quarter, and it's shown really great performance during quarter four." (Full Harvia product page: <a href="/harvia/products/xenio-fenix">Harvia Xenio / Fenix control system</a>. Every Harvia launch and earnings event: <a href="/harvia">Harvia News hub</a>.)</p>
 
 <h2>Harvia Fenix: 4.3-Inch Full-Touch Screen</h2>
+
+<figure>
+  <img src="https://www.datocms-assets.com/41658/1748949128-harvia_fenix_fx001xw_f2.jpg" alt="Harvia Fenix FX001XW full-touch control panel with 4.3-inch screen showing sauna temperature interface" />
+  <figcaption>Harvia Fenix FX001XW control panel. The 4.3-inch full-touch screen replaces button-and-dial interfaces on predecessor Xenio units. Three presets (Mild, Cozy, Hot), customizable user profiles, and Wi-Fi with over-the-air updates. Image: Harvia product catalog.</figcaption>
+</figure>
 
 <p>The new Fenix control panel is Harvia\'s first full-touch capacitive screen controller for the volume sauna segment (as opposed to the premium EOS Emo Touch 3 that EOS Group has offered at the high end of the market). Key features disclosed in the Q3 2025 presentation:</p>
 
@@ -3275,7 +3280,17 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
 <li><strong>Compatible with installed Xenio base.</strong> Existing Harvia heater owners can upgrade to Fenix without replacing the heater, which dramatically expands the addressable market for the controller upgrade.</li>
 </ul>
 
+<figure>
+  <img src="https://www.datocms-assets.com/41658/1748948894-harvia_fenix_smoke_f1.jpg" alt="Harvia Fenix control panel shown in Smoke finish, installed in a sauna wall" />
+  <figcaption>The Fenix panel in Smoke finish. Fenix is compatible with the installed Xenio base, so existing Harvia electric heater owners can upgrade to the full-touch interface without replacing the heater. Image: Harvia.</figcaption>
+</figure>
+
 <h2>MyHarvia 2: Personal Sauna Data, Multi-Sauna Control</h2>
+
+<figure>
+  <img src="/images/harvia-mediabank/myharvia-sensor/1988.jpg" alt="MyHarvia 2 mobile application shown on a smartphone, displaying sauna target temperature 45C, session timer, and ready-by control" />
+  <figcaption>MyHarvia 2 in use. Target temperature, ready-by timer, humidity control, and session tracking in a single app. Harvia is positioning MyHarvia 2 as the default app for all future Harvia heaters and control units. Image: Harvia Media Bank.</figcaption>
+</figure>
 
 <p>The MyHarvia 2 app is a ground-up rebuild of the original MyHarvia platform. Feature highlights from the Q3 presentation:</p>
 

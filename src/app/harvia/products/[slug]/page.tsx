@@ -179,12 +179,12 @@ export default async function ProductPage({
             </div>
 
             <div className="lg:col-span-6 order-1 lg:order-2">
-              <div className="relative aspect-[4/3] rounded-xl overflow-hidden bg-ivory dark:bg-dark-surface border border-border dark:border-dark-border">
+              <div className="relative aspect-[4/3] rounded-xl overflow-hidden bg-white border border-border dark:border-dark-border">
                 <Image
                   src={product.heroImage}
                   alt={`${product.name} — ${product.subtitle}. ${product.series}.`}
                   fill
-                  className="object-cover"
+                  className="object-contain p-4"
                   priority
                   fetchPriority="high"
                   quality={85}
@@ -369,14 +369,14 @@ export default async function ProductPage({
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
               {product.gallery.map((img, i) => (
-                <div key={i} className="relative aspect-[4/3] rounded-lg overflow-hidden bg-ivory dark:bg-dark-surface">
+                <div key={i} className="relative aspect-[4/3] rounded-lg overflow-hidden bg-white">
                   <Image
                     src={img}
                     alt={`${product.name} ${product.series} — view ${i + 1} of ${product.gallery.length}. Harvia sauna equipment.`}
                     fill
                     loading="lazy"
                     quality={80}
-                    className="object-cover hover:scale-105 transition-transform duration-700"
+                    className="object-contain p-3 hover:scale-105 transition-transform duration-700"
                     sizes="(max-width: 768px) 50vw, 33vw"
                   />
                 </div>
@@ -409,7 +409,7 @@ export default async function ProductPage({
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
               {product.mediaBank.images.map((img) => (
                 <figure key={img.id} className="group">
-                  <div className="relative aspect-square rounded-lg overflow-hidden bg-cream dark:bg-dark-bg border border-border dark:border-dark-border">
+                  <div className="relative aspect-square rounded-lg overflow-hidden bg-white border border-border dark:border-dark-border">
                     <Image
                       src={img.src}
                       alt={(img.title.toLowerCase().includes('harvia') ? img.title : `Harvia ${img.title}`) + (img.type === 'technical-image' ? ' (technical diagram)' : '')}
@@ -433,126 +433,6 @@ export default async function ProductPage({
             </div>
             <p className="text-[11px] text-stone-dark dark:text-dark-muted mt-5 italic">
               Media Bank of Harvia. Courtesy of Harvia Plc.
-            </p>
-          </div>
-        </section>
-      )}
-
-      {/* Harvia Media Bank videos */}
-      {product.mediaBank && product.mediaBank.videos.length > 0 && (
-        <section className="bg-cream dark:bg-dark-bg border-b border-border dark:border-dark-border">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-            <div className="mb-6">
-              <span className="inline-block text-xs font-bold uppercase tracking-widest text-brass mb-2">
-                Videos
-              </span>
-              <h2 className="font-editorial text-2xl sm:text-3xl font-bold text-charcoal dark:text-cream">
-                Technical videos from Harvia
-              </h2>
-              <p className="text-sm text-stone-dark dark:text-dark-muted mt-2">
-                Opens in the Harvia Media Bank viewer. A free Harvia Media Bank account is required to play the full video.
-              </p>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-              {product.mediaBank.videos.map((v) => (
-                <a
-                  key={v.id}
-                  href={v.src}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group block border border-border dark:border-dark-border rounded-xl overflow-hidden bg-ivory dark:bg-dark-surface hover:border-green dark:hover:border-brass transition-colors"
-                >
-                  <div className="relative aspect-video bg-charcoal">
-                    {v.poster && (
-                      <Image
-                        src={v.poster}
-                        alt={v.title}
-                        fill
-                        className="object-cover opacity-80 group-hover:opacity-100 transition-opacity"
-                        sizes="(max-width: 768px) 100vw, 33vw"
-                      />
-                    )}
-                    <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                      <div className="w-14 h-14 rounded-full bg-cream/90 flex items-center justify-center">
-                        <svg className="w-6 h-6 text-charcoal ml-1" fill="currentColor" viewBox="0 0 24 24">
-                          <path d="M8 5v14l11-7z" />
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="p-4">
-                    <p className="text-sm font-semibold text-charcoal dark:text-cream leading-snug">{v.title}</p>
-                    <p className="text-[11px] uppercase tracking-wider text-stone-dark dark:text-dark-muted mt-1">
-                      Harvia Media Bank &middot; Video
-                    </p>
-                  </div>
-                </a>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* Harvia Media Bank documents */}
-      {product.mediaBank && product.mediaBank.documents.length > 0 && (
-        <section className="bg-surface dark:bg-dark-surface border-b border-border dark:border-dark-border">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-            <div className="mb-6">
-              <span className="inline-block text-xs font-bold uppercase tracking-widest text-brass mb-2">
-                Documents
-              </span>
-              <h2 className="font-editorial text-2xl sm:text-3xl font-bold text-charcoal dark:text-cream">
-                Manuals, brochures &amp; spec sheets
-              </h2>
-              <p className="text-sm text-stone-dark dark:text-dark-muted mt-2">
-                Installation manuals, product brochures, and data sheets from the Harvia Media Bank. Clicking opens the document in Harvia&apos;s viewer; a free Harvia Media Bank account is required for PDF download.
-              </p>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-              {product.mediaBank.documents.map((d) => {
-                const badge =
-                  d.type === 'manual'
-                    ? 'Installation manual'
-                    : d.type === 'brochure'
-                      ? 'Brochure'
-                      : d.type === 'data-sheet'
-                        ? 'Data sheet'
-                        : d.type === 'safety-data-sheet'
-                          ? 'Safety data sheet'
-                          : d.type === 'certificate'
-                            ? 'Certificate'
-                            : 'Document';
-                return (
-                  <a
-                    key={d.id}
-                    href={d.src}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="group flex items-start gap-4 p-4 bg-ivory dark:bg-dark-bg border border-border dark:border-dark-border rounded-lg hover:border-green dark:hover:border-brass transition-colors"
-                  >
-                    <div className="shrink-0 w-10 h-12 rounded bg-green/10 dark:bg-brass/10 flex items-center justify-center">
-                      <svg className="w-5 h-5 text-green dark:text-brass" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                      </svg>
-                    </div>
-                    <div className="flex-1 min-w-0">
-                      <p className="text-[11px] uppercase tracking-wider text-brass font-semibold mb-1">{badge}</p>
-                      <p className="text-sm font-semibold text-charcoal dark:text-cream leading-snug group-hover:text-green dark:group-hover:text-brass transition-colors">
-                        {d.title}
-                      </p>
-                      {d.language && (
-                        <p className="text-[11px] text-stone-dark dark:text-dark-muted mt-1">{d.language}</p>
-                      )}
-                    </div>
-                    <svg className="w-4 h-4 text-stone-dark dark:text-dark-muted shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                    </svg>
-                  </a>
-                );
-              })}
-            </div>
-            <p className="text-[11px] text-stone-dark dark:text-dark-muted mt-5 italic">
-              Documents hosted in the Media Bank of Harvia. Courtesy of Harvia Plc.
             </p>
           </div>
         </section>
@@ -609,14 +489,14 @@ export default async function ProductPage({
                   href={`/harvia/products/${r.slug}`}
                   className="group border border-border dark:border-dark-border rounded-xl overflow-hidden bg-ivory dark:bg-dark-surface hover:border-green dark:hover:border-brass transition-colors"
                 >
-                  <div className="relative aspect-[4/3] overflow-hidden">
+                  <div className="relative aspect-[4/3] overflow-hidden bg-white">
                     <Image
                       src={r.heroImage}
                       alt={`${r.name} — ${r.subtitle}`}
                       fill
                       loading="lazy"
                       quality={80}
-                      className="object-cover group-hover:scale-105 transition-transform duration-700"
+                      className="object-contain p-3 group-hover:scale-105 transition-transform duration-700"
                       sizes="(max-width: 768px) 100vw, 33vw"
                     />
                   </div>
