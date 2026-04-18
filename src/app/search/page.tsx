@@ -2,14 +2,14 @@
 
 import { useMemo, useState, useEffect, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
-import { articles } from '@/data/articles';
+import { getArticleIndex, type ArticleSummary } from '@/data/articles';
 import { categories } from '@/data/categories';
 import { Category } from '@/data/types';
 import ArticleCard from '@/components/ArticleCard';
 
 type SortOption = 'relevance' | 'latest';
 
-function scoreArticle(article: (typeof articles)[number], query: string): number {
+function scoreArticle(article: ArticleSummary, query: string): number {
   if (!query) return 0;
   const q = query.toLowerCase();
   const terms = q.split(/\s+/).filter(Boolean);
@@ -33,6 +33,7 @@ function scoreArticle(article: (typeof articles)[number], query: string): number
 }
 
 function SearchResults() {
+  const articles = useMemo(() => getArticleIndex(), []);
   const router = useRouter();
   const searchParams = useSearchParams();
   const initialQuery = searchParams.get('q') ?? '';
@@ -77,7 +78,7 @@ function SearchResults() {
     }
 
     return scored.map((s) => s.article);
-  }, [query, activeCategory, sort]);
+  }, [activeCategory, articles, query, sort]);
 
   const trimmedQuery = query.trim();
 

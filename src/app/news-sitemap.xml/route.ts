@@ -1,4 +1,4 @@
-import { articles } from '@/data/articles';
+import { getArticleIndex } from '@/data/articles';
 
 export const dynamic = 'force-static';
 
@@ -14,7 +14,7 @@ function escapeXml(str: string): string {
 }
 
 export function GET() {
-  const sorted = [...articles].sort(
+  const sorted = [...getArticleIndex()].sort(
     (a, b) => new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime()
   );
 

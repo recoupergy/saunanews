@@ -1,12 +1,13 @@
 import type { MetadataRoute } from 'next';
-import { articles } from '@/data/articles';
+import { getArticleIndex } from '@/data/articles';
 import { categories } from '@/data/categories';
 import { authors } from '@/data/authors';
-import { harviaProducts } from '@/data/harvia-products';
+import { getHarviaProducts } from '@/data/harvia-products';
 
 const BASE_URL = 'https://www.saunanews.com';
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const [articles, harviaProducts] = await Promise.all([Promise.resolve(getArticleIndex()), getHarviaProducts()]);
   const staticRoutes: MetadataRoute.Sitemap = [
     {
       url: BASE_URL,

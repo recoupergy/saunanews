@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { articles, getArticleBySlug, getArticlesByCategory } from '@/data/articles';
+import { getArticleBySlug, getArticleIndex, getArticlesByCategory } from '@/data/articles';
 import { formatDate } from '@/lib/utils';
 import ContentTypeBadge from '@/components/ContentTypeBadge';
 import ArticleCard from '@/components/ArticleCard';
@@ -12,50 +12,49 @@ import SponsorSlot from '@/components/SponsorSlot';
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return articles.map((article) => ({
+  return getArticleIndex().map((article) => ({
     slug: article.slug,
   }));
 }
 
-export function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
-  return params.then(({ slug }) => {
-    const article = getArticleBySlug(slug);
-    if (!article) return { title: 'Article Not Found' };
-    const canonicalUrl = `https://www.saunanews.com/article/${article.slug}`;
-    return {
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const article = await getArticleBySlug(slug);
+  if (!article) return { title: 'Article Not Found' };
+  const canonicalUrl = `https://www.saunanews.com/article/${article.slug}`;
+  return {
+    title: article.title,
+    description: article.dek,
+    openGraph: {
       title: article.title,
       description: article.dek,
-      openGraph: {
-        title: article.title,
-        description: article.dek,
-        type: 'article',
-        url: canonicalUrl,
-        publishedTime: article.publishDate,
-        authors: [article.author.name],
-        section: article.category,
-        tags: article.tags,
-        siteName: 'SaunaNews',
-        ...(article.featuredImage
-          ? { images: [{ url: article.featuredImage, width: 1200, height: 675, alt: article.title }] }
-          : {}),
-      },
-      twitter: {
-        card: 'summary_large_image',
-        site: '@sauna_news',
-        title: article.title,
-        description: article.dek,
-        ...(article.featuredImage ? { images: [article.featuredImage] } : {}),
-      },
-      alternates: {
-        canonical: canonicalUrl,
-      },
-    };
-  });
+      type: 'article',
+      url: canonicalUrl,
+      publishedTime: article.publishDate,
+      authors: [article.author.name],
+      section: article.category,
+      tags: article.tags,
+      siteName: 'SaunaNews',
+      ...(article.featuredImage
+        ? { images: [{ url: article.featuredImage, width: 1200, height: 675, alt: article.title }] }
+        : {}),
+    },
+    twitter: {
+      card: 'summary_large_image',
+      site: '@sauna_news',
+      title: article.title,
+      description: article.dek,
+      ...(article.featuredImage ? { images: [article.featuredImage] } : {}),
+    },
+    alternates: {
+      canonical: canonicalUrl,
+    },
+  };
 }
 
 export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const article = getArticleBySlug(slug);
+  const article = await getArticleBySlug(slug);
 
   if (!article) {
     notFound();

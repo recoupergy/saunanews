@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import type { Metadata } from 'next';
-import { articles } from '@/data/articles';
-import { harviaProducts } from '@/data/harvia-products';
+import { getArticleIndex } from '@/data/articles';
+import { getHarviaProducts } from '@/data/harvia-products';
 import ArticleCard from '@/components/ArticleCard';
 import ContentTypeBadge from '@/components/ContentTypeBadge';
 import NewsletterSignup from '@/components/NewsletterSignup';
@@ -225,7 +225,11 @@ function isUpcoming(dateStr: string): boolean {
   return new Date(dateStr).getTime() >= TODAY.getTime();
 }
 
-export default function HarviaHubPage() {
+export default async function HarviaHubPage() {
+  const [articles, harviaProducts] = await Promise.all([
+    Promise.resolve(getArticleIndex()),
+    getHarviaProducts(),
+  ]);
   const isCoreHarvia = (slug: string, title: string) =>
     slug.toLowerCase().includes('harvia') || title.toLowerCase().includes('harvia');
 

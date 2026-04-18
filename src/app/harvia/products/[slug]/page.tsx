@@ -3,7 +3,6 @@ import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import {
-  harviaProducts,
   getProduct,
   getAllProductSlugs,
 } from '@/data/harvia-products';
@@ -12,8 +11,8 @@ import { formatDate } from '@/lib/utils';
 
 export const dynamicParams = false;
 
-export function generateStaticParams() {
-  return getAllProductSlugs().map((slug) => ({ slug }));
+export async function generateStaticParams() {
+  return (await getAllProductSlugs()).map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({
@@ -22,7 +21,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const product = getProduct(slug);
+  const product = await getProduct(slug);
   if (!product) return { title: 'Product not found' };
   const url = `https://www.saunanews.com/harvia/products/${product.slug}`;
   const description = `${product.tagline} Specs, investor-call quotes, insider install notes, and every mention across Harvia investor calls, press releases, and product pages.`;
@@ -68,11 +67,9 @@ export default async function ProductPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const product = getProduct(slug);
+  const product = await getProduct(slug);
   if (!product) notFound();
-
-  const related = product.relatedProductSlugs
-    .map((s) => getProduct(s))
+  const related = (await Promise.all(product.relatedProductSlugs.map((s) => getProduct(s))))
     .filter((p): p is NonNullable<typeof p> => !!p);
 
   const url = `https://www.saunanews.com/harvia/products/${product.slug}`;
