@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { articles, getFeaturedArticles, getTrendingArticles, getLatestArticles, getArticlesByCategory } from '@/data/articles';
+import { getArticleIndex, getFeaturedArticles, getTrendingArticles, getLatestArticles, getArticlesByCategory } from '@/data/articles';
 import { categories } from '@/data/categories';
 import ArticleCard from '@/components/ArticleCard';
 import SectionHeader from '@/components/SectionHeader';
@@ -12,6 +12,7 @@ import LaunchCalendar from '@/components/LaunchCalendar';
 import { formatDateShort } from '@/lib/utils';
 
 export default function HomePage() {
+  const articles = getArticleIndex();
   const featured = getFeaturedArticles();
   const trending = getTrendingArticles();
   const latest = getLatestArticles(12);

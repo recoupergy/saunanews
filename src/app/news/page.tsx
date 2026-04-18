@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import { articles } from '@/data/articles';
+import { getArticleIndex } from '@/data/articles';
 import { categories } from '@/data/categories';
 import { Category } from '@/data/types';
 import ArticleCard from '@/components/ArticleCard';
@@ -10,6 +10,7 @@ import NewsletterSignup from '@/components/NewsletterSignup';
 type SortOption = 'latest' | 'trending';
 
 export default function AllNewsPage() {
+  const articles = useMemo(() => getArticleIndex(), []);
   const [search, setSearch] = useState('');
   const [activeCategory, setActiveCategory] = useState<Category | 'all'>('all');
   const [sort, setSort] = useState<SortOption>('latest');
@@ -40,7 +41,7 @@ export default function AllNewsPage() {
     }
 
     return results;
-  }, [search, activeCategory, sort]);
+  }, [activeCategory, articles, search, sort]);
 
   const displayed = filtered.slice(0, showCount);
   const hasMore = showCount < filtered.length;

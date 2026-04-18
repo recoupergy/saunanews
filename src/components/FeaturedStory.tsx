@@ -4,8 +4,23 @@ import { formatDateShort } from '@/lib/utils';
 import ContentTypeBadge from './ContentTypeBadge';
 import ArticleImage from './ArticleImage';
 
+type FeaturedStoryArticle = Pick<
+  Article,
+  | 'id'
+  | 'slug'
+  | 'featuredImage'
+  | 'title'
+  | 'category'
+  | 'contentType'
+  | 'dek'
+  | 'excerpt'
+  | 'author'
+  | 'publishDate'
+  | 'readingTime'
+>;
+
 interface FeaturedStoryProps {
-  article: Article;
+  article: FeaturedStoryArticle;
 }
 
 export default function FeaturedStory({ article }: FeaturedStoryProps) {

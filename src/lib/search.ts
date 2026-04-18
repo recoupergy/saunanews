@@ -1,4 +1,7 @@
-import { articles } from '@/data/articles';
+import 'server-only';
+
+import { cache } from 'react';
+import { getArticles } from '@/data/articles';
 import { Category } from '@/data/types';
 import { SearchResultArticle, SearchSortOption } from '@/lib/search-types';
 
@@ -17,34 +20,38 @@ interface SearchIndexEntry {
 
 const stripHtml = (value: string) => value.replace(/<[^>]+>/g, ' ');
 
-const searchIndex: SearchIndexEntry[] = articles.map((article) => ({
-  article: {
-    id: article.id,
-    title: article.title,
-    slug: article.slug,
-    dek: article.dek,
-    excerpt: article.excerpt,
-    contentType: article.contentType,
-    category: article.category,
-    tags: article.tags,
-    author: article.author,
-    publishDate: article.publishDate,
-    readingTime: article.readingTime,
-    featuredImage: article.featuredImage,
-    imageCaption: article.imageCaption,
-    featured: article.featured,
-    trending: article.trending,
-  },
-  searchableText: {
-    title: article.title.toLowerCase(),
-    dek: article.dek.toLowerCase(),
-    excerpt: article.excerpt.toLowerCase(),
-    tags: article.tags.join(' ').toLowerCase(),
-    body: stripHtml(article.body).toLowerCase(),
-    author: article.author.name.toLowerCase(),
-    category: article.category.toLowerCase(),
-  },
-}));
+const loadSearchIndex = cache(async (): Promise<SearchIndexEntry[]> => {
+  const articles = await getArticles();
+
+  return articles.map((article) => ({
+    article: {
+      id: article.id,
+      title: article.title,
+      slug: article.slug,
+      dek: article.dek,
+      excerpt: article.excerpt,
+      contentType: article.contentType,
+      category: article.category,
+      tags: article.tags,
+      author: article.author,
+      publishDate: article.publishDate,
+      readingTime: article.readingTime,
+      featuredImage: article.featuredImage,
+      imageCaption: article.imageCaption,
+      featured: article.featured,
+      trending: article.trending,
+    },
+    searchableText: {
+      title: article.title.toLowerCase(),
+      dek: article.dek.toLowerCase(),
+      excerpt: article.excerpt.toLowerCase(),
+      tags: article.tags.join(' ').toLowerCase(),
+      body: stripHtml(article.body).toLowerCase(),
+      author: article.author.name.toLowerCase(),
+      category: article.category.toLowerCase(),
+    },
+  }));
+});
 
 function scoreEntry(entry: SearchIndexEntry, query: string): number {
   if (!query) return 0;
@@ -72,13 +79,14 @@ interface SearchArticlesOptions {
   limit?: number;
 }
 
-export function searchArticles({
+export async function searchArticles({
   query = '',
   category = 'all',
   sort = 'relevance',
   limit = 60,
-}: SearchArticlesOptions): SearchResultArticle[] {
+}: SearchArticlesOptions): Promise<SearchResultArticle[]> {
   const trimmed = query.trim();
+  const searchIndex = await loadSearchIndex();
 
   let scored = searchIndex.map((entry) => ({
     article: entry.article,
@@ -106,4 +114,6 @@ export function searchArticles({
   return scored.slice(0, limit).map((entry) => entry.article);
 }
 
-export const totalSearchableArticles = searchIndex.length;
+export async function getTotalSearchableArticles(): Promise<number> {
+  return (await loadSearchIndex()).length;
+}

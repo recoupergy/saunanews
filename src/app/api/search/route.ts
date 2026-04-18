@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Category } from '@/data/types';
-import { searchArticles, totalSearchableArticles } from '@/lib/search';
+import { searchArticles, getTotalSearchableArticles } from '@/lib/search';
 import { SearchSortOption } from '@/lib/search-types';
 
 const VALID_SORTS: SearchSortOption[] = ['relevance', 'latest'];
@@ -20,15 +20,18 @@ export async function GET(request: NextRequest) {
     ? Math.min(Math.max(Math.floor(limitParam), 1), 100)
     : 60;
 
-  const results = searchArticles({
-    query,
-    category,
-    sort,
-    limit,
-  });
+  const [results, totalArticles] = await Promise.all([
+    searchArticles({
+      query,
+      category,
+      sort,
+      limit,
+    }),
+    getTotalSearchableArticles(),
+  ]);
 
   return NextResponse.json({
     results,
-    totalArticles: totalSearchableArticles,
+    totalArticles,
   });
 }

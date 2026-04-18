@@ -1,8 +1,8 @@
 import type { MetadataRoute } from 'next';
-import { articles } from '@/data/articles';
+import { getArticleIndex } from '@/data/articles';
 import { categories } from '@/data/categories';
 import { authors } from '@/data/authors';
-import { harviaProducts } from '@/data/harvia-products';
+import { getHarviaProducts } from '@/data/harvia-products';
 
 const BASE_URL = 'https://www.saunanews.com';
 const DEFAULT_BUILD_TIMESTAMP = '2026-01-01T00:00:00.000Z';
@@ -19,7 +19,12 @@ function maxDateOrFallback(dates: Date[], fallback: Date): Date {
   return dates.length > 0 ? maxDate(dates) : fallback;
 }
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const [articles, harviaProducts] = await Promise.all([
+    Promise.resolve(getArticleIndex()),
+    getHarviaProducts(),
+  ]);
+
   const buildDate = new Date(DEFAULT_BUILD_TIMESTAMP);
   const articleDates = articles.map((article) => toDate(article.publishDate));
   const harviaDates = harviaProducts.map((product) => toDate(product.lastMentioned));

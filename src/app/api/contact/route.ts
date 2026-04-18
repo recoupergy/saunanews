@@ -55,7 +55,7 @@ export async function POST(request: NextRequest) {
         type: 'contact',
         queuedAt: new Date().toISOString(),
         reason: 'agentmail_not_configured',
-        payload: input,
+        payload: { ...input },
       });
 
       return NextResponse.json({
