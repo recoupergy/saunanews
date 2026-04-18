@@ -77,8 +77,8 @@ export default function Header() {
             <Image
               src="/images/saunanews-punk-profile.jpg"
               alt="SaunaNews"
-              width={36}
-              height={36}
+              width={48}
+              height={48}
               className="shrink-0 mix-blend-multiply"
               priority
             />
