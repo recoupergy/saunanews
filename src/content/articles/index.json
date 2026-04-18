@@ -1,5 +1,38 @@
 [
   {
+    "id": "46",
+    "title": "Europe Finally Has a Sauna Standard. The Nordics Aren't Sold.",
+    "slug": "en-18164-europe-first-sauna-standard-nordic-pushback",
+    "dek": "EN 18164:2026 is the first pan-European technical baseline for public sauna rooms. It is voluntary, construction-focused, and already drawing sharp Finnish critique that it freezes a Central European version of sauna rather than the real thing.",
+    "excerpt": "CEN approved EN 18164:2026 in January, national adoption runs through August, and Germany, Sweden, Belgium, Ireland, Estonia, Iceland, Austria, and the Netherlands have already published their editions. The standard defines four public room classes and a sharper sauna-room envelope (176 to 221 degrees F, relative humidity under 10 percent, at least 65 percent wood coverage). Nordic experts argue the text codifies a Central European idea of sauna that much of the living tradition sits outside of.",
+    "contentType": "Analysis",
+    "category": "Market Intelligence",
+    "tags": [
+      "EN 18164",
+      "European standards",
+      "CEN",
+      "regulation",
+      "Finland",
+      "Germany",
+      "public saunas",
+      "compliance"
+    ],
+    "author": {
+      "name": "Sofia Mäkelä",
+      "role": "Industry Reporter",
+      "avatar": "/authors/sofia.jpg",
+      "slug": "sofia-makela",
+      "bio": "Sofia Mäkelä is an industry reporter based in Helsinki with deep ties to the Nordic sauna manufacturing community. A graduate of Aalto University, she spent five years covering industrial technology for Kauppalehti before turning her focus to the sauna sector full-time. Her reporting on supply-chain dynamics and manufacturer strategy has broken several major stories in the trade press."
+    },
+    "publishDate": "2026-04-18",
+    "readingTime": 9,
+    "featuredImage": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&q=80",
+    "imageCaption": "Wood-lined sauna interior. EN 18164:2026 sets Europe's first common technical baseline for public sauna rooms, including expected timber coverage, ventilation, and slip resistance.",
+    "featured": true,
+    "trending": true,
+    "bodyPath": "bodies/en-18164-europe-first-sauna-standard-nordic-pushback.html"
+  },
+  {
     "id": "45",
     "title": "Sauna360's Tylö Recall Covers About 1,000 U.S. Units Sold Over Six Months",
     "slug": "sauna360-tylo-recall-1000-us-units-six-month-sales-window",
