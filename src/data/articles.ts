@@ -1046,6 +1046,7 @@ Total assets (31 Dec 2023): USD 9.4 million. Total liabilities: USD 1.9 million.
 <p>For the sauna industry, luxury hospitality represents both a revenue opportunity and a brand-building platform. A KLAFS installation in an Aman property does more for the brand than any trade show booth.</p>`,
     featured: true,
     trending: false,
+    isEditorsPick: true,
   },
   {
     id: '4',
@@ -1209,6 +1210,7 @@ Total assets (31 Dec 2023): USD 9.4 million. Total liabilities: USD 1.9 million.
 <p>As the category matures, expect more sophisticated programming, branded product lines, and expansion into secondary markets. The sauna social club may be one of the most promising new formats in urban wellness. For a look at how the model is scaling into mid-sized American cities, see our profile on <a href="/article/sauna-house-franchise-nordic-bathhouse-growth">Sauna House's franchise expansion</a>.</p>`,
     featured: false,
     trending: true,
+    isEditorsPick: true,
   },
   {
     id: '8',
@@ -1395,6 +1397,7 @@ Total assets (31 Dec 2023): USD 9.4 million. Total liabilities: USD 1.9 million.
 <p>The sauna industry sits at the intersection of health science, consumer behavior, and scalable business models, a positioning that works well in a longevity investment environment still searching for opportunities with proven demand.</p>`,
     featured: true,
     trending: false,
+    isEditorsPick: true,
   },
   {
     id: '15',
@@ -3483,6 +3486,13 @@ export function getLatestArticles(count?: number): Article[] {
     (a, b) => new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime()
   );
   return count ? sorted.slice(0, count) : sorted;
+}
+
+export function getEditorsPicks(count?: number): Article[] {
+  const picks = articles
+    .filter((a) => a.isEditorsPick)
+    .sort((a, b) => new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime());
+  return count ? picks.slice(0, count) : picks;
 }
 
 export function getArticlesByAuthorSlug(slug: string): Article[] {

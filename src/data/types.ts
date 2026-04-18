@@ -42,6 +42,7 @@ export interface Article {
   body: string;
   featured: boolean;
   trending: boolean;
+  isEditorsPick?: boolean;
 }
 
 export interface CategoryInfo {

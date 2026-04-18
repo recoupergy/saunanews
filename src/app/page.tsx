@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { articles, getFeaturedArticles, getTrendingArticles, getLatestArticles, getArticlesByCategory } from '@/data/articles';
+import { getFeaturedArticles, getTrendingArticles, getLatestArticles, getArticlesByCategory, getEditorsPicks } from '@/data/articles';
 import { categories } from '@/data/categories';
 import ArticleCard from '@/components/ArticleCard';
 import SectionHeader from '@/components/SectionHeader';
@@ -24,8 +24,7 @@ export default function HomePage() {
   const secondaryFeatured = featured.slice(1, 3);
   const heroIds = new Set([hero?.id, ...secondaryFeatured.map((a) => a.id)].filter(Boolean));
   const latestDeduped = latest.filter((a) => !heroIds.has(a.id));
-  const editorsPickIds = ['3', '7', '11', '14'];
-  const editorsPicks = articles.filter((a) => editorsPickIds.includes(a.id));
+  const editorsPicks = getEditorsPicks(4);
 
   const jsonLd = {
     '@context': 'https://schema.org',
