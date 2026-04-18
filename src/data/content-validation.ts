@@ -1,4 +1,5 @@
-import type { Article, HarviaProduct } from './types';
+import type { Article } from './types';
+import type { HarviaProduct } from './harvia-products';
 import type { ProductMediaBank } from './harvia-mediabank';
 
 function assert(condition: unknown, message: string): asserts condition {
