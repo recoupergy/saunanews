@@ -2,7 +2,7 @@ import { appendFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 
 interface QueueItem {
-  type: 'subscribe' | 'contact';
+  type: 'subscribe' | 'contact' | 'social';
   queuedAt: string;
   payload: unknown;
   reason: string;
