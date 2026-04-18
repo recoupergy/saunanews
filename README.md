@@ -79,6 +79,18 @@ ADMIN_API_KEY=
 
 # Contact form delivery
 AGENTMAIL_API_KEY=
+
+# Social automation auth (for cron/webhook callers)
+SOCIAL_AUTOMATION_KEY=
+
+# X (Twitter) posting credentials (OAuth 1.0a user context)
+TWITTER_API_KEY=
+TWITTER_API_SECRET=
+TWITTER_ACCESS_TOKEN=
+TWITTER_ACCESS_TOKEN_SECRET=
+
+# Canonical site URL used in social links (optional)
+SITE_URL=https://www.saunanews.com
 ```
 
 ### Env var behavior
@@ -91,6 +103,12 @@ AGENTMAIL_API_KEY=
 - `AGENTMAIL_API_KEY`
   - Used by `/api/contact`.
   - If missing, contact submissions are logged and return success.
+- `SOCIAL_AUTOMATION_KEY`
+  - Required bearer token for triggering automated social posting endpoint.
+- `TWITTER_API_KEY`, `TWITTER_API_SECRET`, `TWITTER_ACCESS_TOKEN`, `TWITTER_ACCESS_TOKEN_SECRET`
+  - Required by `/api/social/twitter/post-latest` to publish to @sauna_news.
+- `SITE_URL` (optional)
+  - Used to build canonical article links in tweets. Defaults to `https://www.saunanews.com`.
 
 > Important: these graceful fallbacks avoid breaking the UI, but they are not production-ready states.
 
@@ -180,6 +198,10 @@ This project intentionally stores content in code.
 - `POST /api/contact`
   - Honeypot-protected contact submission route.
   - Sends via AgentMail when configured.
+- `POST /api/social/twitter/post-latest`
+  - Posts the newest unposted article to @sauna_news.
+  - Requires `Authorization: Bearer <SOCIAL_AUTOMATION_KEY>`.
+  - Stores posted slugs in Redis to avoid duplicate tweets.
 
 ---
 
