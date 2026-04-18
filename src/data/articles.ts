@@ -3428,8 +3428,8 @@ Full installation manual: <a href="https://us.saunum.com/wp-content/uploads/2026
     author: authors.sofia,
     publishDate: '2023-09-26',
     readingTime: 4,
-    featuredImage: 'https://harviagroup.com/wp-content/uploads/2025/06/2024_06_25_oh_harvia_details_0169-1280x854.jpg',
-    imageCaption: 'Phoenix El-Mec produces electromechanical timer switches used in Harvia\'s basic sauna heater lines, as well as in ovens, drying cabinets, and boilers for other customers.',
+    featuredImage: '/images/harvia-mediabank/vega/4311.jpg',
+    imageCaption: 'The analog timer knob on a Harvia sauna heater, marked 0 through 8 in half-hour increments. This is the electromechanical timer switch Phoenix El-Mec manufactures in Belluno, Italy. Harvia acquired the supplier in September 2023 to vertically integrate the component. Image: Harvia Media Bank.',
     body: `<p>Harvia Plc signed and closed an agreement in September 2023 to acquire 100% of Phoenix El-Mec srl, an electromechanical timer switch manufacturer based in Belluno, in the Italian Alps north of Venice. Deal terms were not disclosed. The acquisition, described by management as a tactical rather than strategic M&A, addressed one of Harvia's persistent supply chain risks: a single-source dependency on a small Italian manufacturer for a critical heater component. (See all Harvia M&A activity in our <a href="/harvia">Harvia News hub</a>.)</p>
 
 <h2>What Phoenix El-Mec Makes</h2>
