@@ -35,11 +35,21 @@ Implementation notes:
 
 ## 4) Design content for citation by AI answers
 
-- Put the direct answer in the first 1–2 paragraphs for query-led pages.
-- Use scannable subheads phrased as user questions.
-- Include short evidence blocks (“What we know”, “What changed”, “What’s still unknown”).
-- Prefer explicit numbers, dates, and units.
-- Add outbound links to primary sources (filings, regulator docs, company releases, standards bodies).
+- Put the direct answer in the first 1–2 paragraphs for query-led pages so answer engines can lift it without guessing.
+- Use scannable subheads phrased as user questions (for example: “What changed in April 2026?”).
+- Include short evidence blocks:
+  - **What we know**
+  - **What changed**
+  - **What’s still unknown**
+- Prefer explicit numbers, dates, and units (for example: “€172.3 million revenue in Q1 2026” instead of “revenue rose”).
+- Add outbound links to primary sources (filings, regulator docs, company releases, standards bodies) near the specific claim they support.
+
+Mini-template for query-led pages:
+
+1. **Direct answer (1–2 short paragraphs)**
+2. **What we know** (confirmed facts + sources)
+3. **What changed** (new information vs prior update)
+4. **What’s still unknown** (open questions, expected update timing)
 
 ## 5) Create reusable answer blocks (AEO format)
 
@@ -135,4 +145,3 @@ In addition to clicks/impressions/rankings, track:
 - [ ] At least 3 internal links (hub + related stories)
 - [ ] Primary-source links included
 - [ ] Images have descriptive alt text + captions
-
