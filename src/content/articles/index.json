@@ -1,5 +1,37 @@
 [
   {
+    "id": "48",
+    "title": "Wellness Is Coming for Nightlife",
+    "slug": "wellness-is-coming-for-nightlife-othership-social-sauna",
+    "dek": "Othership's comedy nights, singles socials, DJ takeovers, couples programming, queer formats, and Shabbat events suggest sauna venues are moving from recovery add-on to sober nightlife competitor.",
+    "excerpt": "Othership is building a calendar-driven social sauna model that mirrors the emotional role bars have long played: ritual, release, belonging, and a reason to go out. The strategy points to a new competitive frontier for sauna operators: not just wellness utility, but Friday-night relevance.",
+    "contentType": "Analysis",
+    "category": "Wellness Trends",
+    "tags": [
+      "Othership",
+      "social sauna",
+      "nightlife",
+      "sober socializing",
+      "wellness trends",
+      "New York",
+      "Toronto"
+    ],
+    "author": {
+      "name": "Elise Lindgren",
+      "role": "Editor-in-Chief",
+      "avatar": "/authors/elise.jpg",
+      "slug": "elise-lindgren",
+      "bio": "Elise Lindgren has covered the global sauna and wellness industry for over fifteen years, first as a business journalist in Stockholm and later as founding editor of SaunaNews. She has reported from trade floors in Helsinki, factory lines in Estonia, and boardrooms across three continents. Under her editorial leadership, SaunaNews has become the go-to source for decision-makers across the sauna supply chain."
+    },
+    "publishDate": "2026-04-19",
+    "readingTime": 6,
+    "featuredImage": "https://cdn.prod.website-files.com/67c208983c2848098aa364f1/683d6f30cf7199b36080324b_othership-flatiron-interior.avif",
+    "imageCaption": "Othership Flatiron interior. Photo: Othership.",
+    "featured": true,
+    "trending": true,
+    "bodyPath": "bodies/wellness-is-coming-for-nightlife-othership-social-sauna.html"
+  },
+  {
     "id": "47",
     "title": "Idaho State Parks Put a Sauna Concession Out to Bid",
     "slug": "idaho-state-parks-sauna-concession-ponderosa-rfp",
