@@ -11,10 +11,6 @@ import SponsorSlot from '@/components/SponsorSlot';
 
 export const dynamicParams = false;
 
-type KeyFact = {
-  label: string;
-  value: string;
-};
 
 function getPrimaryEntities(article: (typeof articles)[number]): string[] {
   return Array.from(
@@ -25,37 +21,6 @@ function getPrimaryEntities(article: (typeof articles)[number]): string[] {
         .slice(0, 6)
     )
   );
-}
-
-function extractFirstFigure(text: string): string | null {
-  const match = text.match(
-    /(\$?\d[\d,]*(?:\.\d+)?(?:\s?(?:million|billion|percent|%|degrees?\sF|degrees?\sC|units|years?|months?))?)/i
-  );
-  return match?.[1] ?? null;
-}
-
-function buildKeyFacts(article: (typeof articles)[number]): KeyFact[] {
-  const entities = getPrimaryEntities(article);
-  const figure = extractFirstFigure(`${article.dek} ${article.excerpt}`);
-
-  return [
-    {
-      label: 'Date',
-      value: formatDate(article.publishDate),
-    },
-    {
-      label: 'Organization',
-      value: entities[0] ?? article.author.name,
-    },
-    {
-      label: 'Figure',
-      value: figure ?? 'Not disclosed',
-    },
-    {
-      label: 'Source',
-      value: 'SaunaNews reporting',
-    },
-  ];
 }
 
 export function generateStaticParams() {
@@ -119,7 +84,6 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const categorySlug = article.category.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-');
   const articleUrl = `https://www.saunanews.com/article/${article.slug}`;
   const primaryEntities = getPrimaryEntities(article);
-  const keyFacts = buildKeyFacts(article);
   const imageAlt = primaryEntities.length > 0
     ? `${article.title} — ${primaryEntities.join(', ')}`
     : article.title;
@@ -272,28 +236,6 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         {/* Article Body */}
         <div className="bg-surface dark:bg-dark-bg">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
-            {article.readingTime >= 6 && (
-              <section
-                aria-labelledby="key-facts-heading"
-                className="mb-10 rounded-xl border border-border dark:border-dark-border bg-ivory dark:bg-dark-surface p-5 sm:p-6"
-              >
-                <h2
-                  id="key-facts-heading"
-                  className="text-sm font-semibold uppercase tracking-wider text-stone-dark dark:text-dark-muted mb-4"
-                >
-                  Key facts
-                </h2>
-                <dl className="grid gap-3 sm:grid-cols-2">
-                  {keyFacts.map((fact) => (
-                    <div key={fact.label} className="rounded-lg border border-border/70 dark:border-dark-border p-3">
-                      <dt className="text-xs uppercase tracking-wide text-stone-dark dark:text-dark-muted">{fact.label}</dt>
-                      <dd className="mt-1 text-sm font-medium text-charcoal dark:text-dark-text">{fact.value}</dd>
-                    </div>
-                  ))}
-                </dl>
-              </section>
-            )}
-
             <div
               className="prose-editorial"
               dangerouslySetInnerHTML={{ __html: getArticleBody(article) }}
