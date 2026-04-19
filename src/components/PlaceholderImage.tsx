@@ -76,15 +76,6 @@ const LIGHT_COMBOS: { bg: string; fg: string; accent: string }[] = [
   { bg: PALETTE.ivory, fg: PALETTE.warmGray, accent: PALETTE.copper },
 ];
 
-const DARK_COMBOS: { bg: string; fg: string; accent: string }[] = [
-  { bg: PALETTE.darkSurface, fg: PALETTE.green, accent: PALETTE.brass },
-  { bg: PALETTE.darkBg, fg: PALETTE.brass, accent: PALETTE.darkBorder },
-  { bg: PALETTE.darkSurface, fg: PALETTE.darkMuted, accent: PALETTE.green },
-  { bg: PALETTE.darkBg, fg: PALETTE.copper, accent: PALETTE.greenLight },
-  { bg: PALETTE.darkSurface, fg: PALETTE.darkMuted, accent: PALETTE.brass },
-  { bg: PALETTE.darkBg, fg: PALETTE.warmGray, accent: PALETTE.copper },
-];
-
 // ---------------------------------------------------------------------------
 // Variant SVG renderers — each returns an inline <svg> element
 // ---------------------------------------------------------------------------
@@ -549,7 +540,6 @@ export default function PlaceholderImage({
   // Pick colour combo deterministically
   const comboIndex = hash % LIGHT_COMBOS.length;
   const light = LIGHT_COMBOS[comboIndex];
-  const dark = DARK_COMBOS[comboIndex];
 
   const Renderer = VARIANT_MAP[resolvedVariant];
 
