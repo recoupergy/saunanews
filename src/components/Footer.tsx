@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { categories } from '@/data/categories';
 import EmailLink from '@/components/EmailLink';
 
@@ -13,7 +14,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <img
+              <Image
                 src="/images/saunanews-punk-profile.jpg"
                 alt="SaunaNews"
                 width={32}
