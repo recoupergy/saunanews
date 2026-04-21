@@ -1,5 +1,38 @@
 [
   {
+    "id": "51",
+    "title": "Lunawood's Georgia Mill and the Thermory Question",
+    "slug": "lunawood-georgia-mill-north-america-collection",
+    "dek": "Lunawood's new Cleveland, Georgia mill switches the Finnish thermowood maker from an export model to local US production and adds a domestically-grown hardwood line in Yellow Poplar and White Ash. It also puts Lunawood into direct category competition with Thermory, the incumbent with the larger North American distribution footprint.",
+    "excerpt": "Through an Atlanta Hardwood Corporation joint venture, Lunawood now runs all North American sales through Lunawood LLC, holds inventory at Cleveland and Clarksville, and thermally modifies US hardwoods on US soil. The North America Collection is a real architectural platform, not a placeholder. The strategic question for 2026 isn't whether Lunawood is 'entering' North America. It's whether localization is enough to compete with Thermory's established dealer and distribution network.",
+    "contentType": "Analysis",
+    "category": "Manufacturer News",
+    "tags": [
+      "Lunawood",
+      "Thermory",
+      "Thermowood",
+      "Finland",
+      "Georgia",
+      "US manufacturing",
+      "cladding",
+      "hardwood"
+    ],
+    "author": {
+      "name": "Sofia Mäkelä",
+      "role": "Industry Reporter",
+      "avatar": "/authors/sofia.jpg",
+      "slug": "sofia-makela",
+      "bio": "Sofia Mäkelä is an industry reporter based in Helsinki with deep ties to the Nordic sauna manufacturing community. A graduate of Aalto University, she spent five years covering industrial technology for Kauppalehti before turning her focus to the sauna sector full-time. Her reporting on supply-chain dynamics and manufacturer strategy has broken several major stories in the trade press."
+    },
+    "publishDate": "2026-04-21",
+    "readingTime": 8,
+    "featuredImage": "https://lunawood.com/wp-content/uploads/2023/02/Lunawood-Thermowood-frontpage.jpg",
+    "imageCaption": "A Lunawood Thermowood cladding facade. The Finnish company is now manufacturing thermally modified Yellow Poplar and White Ash at a new Cleveland, Georgia mill. Photo: Lunawood.",
+    "featured": true,
+    "trending": true,
+    "bodyPath": "bodies/lunawood-georgia-mill-north-america-collection.html"
+  },
+  {
     "id": "50",
     "title": "The Business of Aufguss",
     "slug": "business-of-aufguss-us-operator-playbook",

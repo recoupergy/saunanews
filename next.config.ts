@@ -175,6 +175,18 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'static.thatsup.website',
       },
+      {
+        protocol: 'https',
+        hostname: 'lunawood.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'us.lunawood.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'img.youtube.com',
+      },
     ],
   },
 };
