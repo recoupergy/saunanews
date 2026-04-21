@@ -1,5 +1,38 @@
 [
   {
+    "id": "52",
+    "title": "World Spa’s Big Bet Is Authenticity at Scale",
+    "slug": "world-spa-authenticity-scale-brooklyn",
+    "dek": "Brooklyn’s 50,000-square-foot World Spa is not trying to be the slickest two-hour contrast club in New York. It is trying to be something harder to build and harder to copy: a full-scale urban bathhouse where Russian banya, Finnish sauna, Moroccan hammam, Turkish hammam, clay-and-hay heat, Japanese-style onsen pools, snow-room cooling, dining, events, and private rentals all live inside one three-story operating system.",
+    "excerpt": "World Spa’s model is a scale-and-circuit play: more thermal room types, longer dwell time, and a broad operating stack that combines bathing traditions, F&B, events, and private rentals. Co-founder Leonid Khanin frames the project as translational authenticity—rooted in source traditions, but deliberately designed for first-time urban guests and repeat local use.",
+    "contentType": "Analysis",
+    "category": "Hospitality & Spa",
+    "tags": [
+      "World Spa",
+      "Brooklyn",
+      "bathhouse",
+      "hospitality",
+      "thermal bathing",
+      "banya",
+      "hammam",
+      "wellness"
+    ],
+    "author": {
+      "name": "Anna Virtanen",
+      "role": "Wellness & Culture Editor",
+      "avatar": "/authors/anna.jpg",
+      "slug": "anna-virtanen",
+      "bio": "Anna Virtanen explores the intersection of sauna culture, wellness science, and hospitality design. A former spa director with a background in integrative health, she joined SaunaNews to bridge the gap between the commercial side of the industry and the lived experience of sauna bathing. Her features on emerging wellness trends and resort programming are widely shared across the hospitality sector."
+    },
+    "publishDate": "2026-04-21",
+    "readingTime": 9,
+    "featuredImage": "/images/articles/world-spa-grand-banya-lowres.jpg",
+    "imageCaption": "Grand Banya at World Spa in Brooklyn. Photo: World Spa (official website).",
+    "featured": true,
+    "trending": true,
+    "bodyPath": "bodies/world-spa-authenticity-scale-brooklyn.html"
+  },
+  {
     "id": "51",
     "title": "Lunawood's Georgia Mill and the Thermory Question",
     "slug": "lunawood-georgia-mill-north-america-collection",
