@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { articles, getArticleBySlug, getArticlesByCategory, getArticleBody } from '@/data/articles';
@@ -8,9 +9,58 @@ import NewsletterSignup from '@/components/NewsletterSignup';
 import ReadingProgressBar from '@/components/ReadingProgressBar';
 import ArticleImage from '@/components/ArticleImage';
 import SponsorSlot from '@/components/SponsorSlot';
+import EventsCalendar from '@/components/EventsCalendar';
+import type { EventCategory } from '@/data/events';
 
 export const dynamicParams = false;
 
+
+const EMBED_REGEX = /<div\s+data-events-calendar=(?:"([^"]+)"|'([^']+)')\s*(?:\/>|><\/div>)/gi;
+
+function renderArticleBodyWithEmbeds(html: string) {
+  const nodes: ReactNode[] = [];
+  let cursor = 0;
+  let match: RegExpExecArray | null;
+  let key = 0;
+  EMBED_REGEX.lastIndex = 0;
+  while ((match = EMBED_REGEX.exec(html)) !== null) {
+    const before = html.slice(cursor, match.index);
+    if (before) {
+      nodes.push(
+        <div
+          key={`b-${key}`}
+          className="prose-editorial"
+          dangerouslySetInnerHTML={{ __html: before }}
+        />
+      );
+    }
+    const rawCategory = (match[1] ?? match[2] ?? '').trim();
+    const normalized = rawCategory.charAt(0).toUpperCase() + rawCategory.slice(1).toLowerCase();
+    const valid: EventCategory[] = ['Aufguss', 'Trade Show', 'Industry', 'Competition'];
+    const categoryProp = valid.includes(normalized as EventCategory)
+      ? (normalized as EventCategory)
+      : undefined;
+    nodes.push(
+      <EventsCalendar key={`c-${key}`} category={categoryProp} upcomingOnly />
+    );
+    cursor = match.index + match[0].length;
+    key += 1;
+  }
+  const tail = html.slice(cursor);
+  if (tail) {
+    nodes.push(
+      <div
+        key={`t-${key}`}
+        className="prose-editorial"
+        dangerouslySetInnerHTML={{ __html: tail }}
+      />
+    );
+  }
+  if (nodes.length === 0) {
+    return <div className="prose-editorial" dangerouslySetInnerHTML={{ __html: html }} />;
+  }
+  return <>{nodes}</>;
+}
 
 function getPrimaryEntities(article: (typeof articles)[number]): string[] {
   return Array.from(
@@ -236,10 +286,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         {/* Article Body */}
         <div className="bg-surface dark:bg-dark-bg">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
-            <div
-              className="prose-editorial"
-              dangerouslySetInnerHTML={{ __html: getArticleBody(article) }}
-            />
+            {renderArticleBodyWithEmbeds(getArticleBody(article))}
 
             {/* Tags */}
             <div className="mt-12 pt-8 border-t border-border dark:border-dark-border">

@@ -9,6 +9,7 @@ import MarketDataBar from '@/components/MarketDataBar';
 import SponsorSlot from '@/components/SponsorSlot';
 import ArticleImage from '@/components/ArticleImage';
 import LaunchCalendar from '@/components/LaunchCalendar';
+import EventsCalendar from '@/components/EventsCalendar';
 import MobileRailTabs from '@/components/MobileRailTabs';
 import { formatDateShort } from '@/lib/utils';
 
@@ -247,6 +248,18 @@ export default function HomePage() {
               {/* Launch Calendar */}
               <div className="mt-8">
                 <LaunchCalendar />
+              </div>
+
+              {/* Aufguss Event Calendar */}
+              <div className="mt-8">
+                <EventsCalendar
+                  category="Aufguss"
+                  upcomingOnly
+                  title="Aufguss Event Calendar"
+                  limit={5}
+                  footerLinkHref="/events/aufguss"
+                  footerLinkLabel="See the full Aufguss calendar"
+                />
               </div>
             </div>
 
