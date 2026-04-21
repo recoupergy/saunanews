@@ -17,6 +17,65 @@ interface SearchIndexEntry {
 
 const stripHtml = (value: string) => value.replace(/<[^>]+>/g, ' ');
 
+const CORE_EDITORIAL_INTENT_TERMS = [
+  'commercial sauna',
+  'public sauna',
+  'hospitality wellness',
+  'bathhouse',
+  'social sauna',
+  'sauna retrofit',
+  'sauna operations',
+  'sauna ventilation',
+  'thermal circuit',
+  'contrast therapy',
+  'recovery programming',
+  'operator',
+  'builder',
+  'developer',
+  'architect',
+  'permitting',
+  'throughput',
+  'utilization',
+  'capex',
+  'specification',
+] as const;
+
+const INTENT_EXPANSION_MAP: Record<string, string[]> = {
+  operator: ['operations', 'throughput', 'utilization', 'business model'],
+  operations: ['operator', 'throughput', 'utilization'],
+  builder: ['build-out', 'retrofit', 'specification'],
+  installer: ['builder', 'build-out', 'retrofit'],
+  developer: ['project', 'rollout', 'capex'],
+  architect: ['design', 'specification', 'systems'],
+  design: ['architect', 'specification', 'systems'],
+  permitting: ['code', 'compliance', 'public-health'],
+  ventilation: ['airflow', 'systems', 'specification'],
+  project: ['opening', 'rollout', 'retrofit'],
+  commercial: ['operator', 'project', 'capex'],
+  public: ['municipal', 'infrastructure', 'project'],
+  bathhouse: ['social sauna', 'operator', 'throughput'],
+  sauna: ['commercial sauna', 'public sauna', 'thermal wellness'],
+};
+
+function expandTerms(query: string): string[] {
+  const baseTerms = query
+    .toLowerCase()
+    .split(/\s+/)
+    .map((term) => term.trim())
+    .filter(Boolean);
+
+  const expanded = new Set<string>(baseTerms);
+
+  for (const term of baseTerms) {
+    const mapped = INTENT_EXPANSION_MAP[term];
+    if (mapped) {
+      for (const extra of mapped) expanded.add(extra);
+    }
+  }
+
+  return [...expanded];
+}
+
 const searchIndex: SearchIndexEntry[] = articles.map((article) => ({
   article: {
     id: article.id,
@@ -49,7 +108,7 @@ const searchIndex: SearchIndexEntry[] = articles.map((article) => ({
 function scoreEntry(entry: SearchIndexEntry, query: string): number {
   if (!query) return 0;
 
-  const terms = query.toLowerCase().split(/\s+/).filter(Boolean);
+  const terms = expandTerms(query);
   let score = 0;
 
   for (const term of terms) {
@@ -60,6 +119,28 @@ function scoreEntry(entry: SearchIndexEntry, query: string): number {
     if (entry.searchableText.body.includes(term)) score += 1;
     if (entry.searchableText.author.includes(term)) score += 2;
     if (entry.searchableText.category.includes(term)) score += 2;
+  }
+
+  const editorialIntentMatches = CORE_EDITORIAL_INTENT_TERMS.reduce((count, term) => {
+    if (query.toLowerCase().includes(term)) return count + 1;
+    return count;
+  }, 0);
+
+  if (editorialIntentMatches > 0) {
+    const topicalCoverageMatches = CORE_EDITORIAL_INTENT_TERMS.reduce((count, term) => {
+      if (
+        entry.searchableText.title.includes(term)
+        || entry.searchableText.dek.includes(term)
+        || entry.searchableText.excerpt.includes(term)
+        || entry.searchableText.tags.includes(term)
+        || entry.searchableText.body.includes(term)
+      ) {
+        return count + 1;
+      }
+      return count;
+    }, 0);
+
+    score += Math.min(topicalCoverageMatches, 6) * 2;
   }
 
   return score;

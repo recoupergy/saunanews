@@ -1,5 +1,17 @@
 # SaunaNews Editorial Guidelines
 
+## SaunaNews Core Editorial Directive (Non-Negotiable)
+- SaunaNews is building the most trusted editorial brand in sauna and thermal wellness, this is a trust-first publication, not a transactional RFQ or matching platform.
+- Every story must do at least one core job (preferably two or three): add market intelligence, attract high-intent search traffic, deepen relationships with operators/builders/brands/developers, demonstrate project fluency, or create structured knowledge useful for future directories and market maps.
+- Prioritize commercial relevance: openings, expansions, retrofits, operator case studies, design and engineering tradeoffs, permitting/compliance, procurement, build lessons, and market mapping.
+- Avoid generic wellness fluff, hype language, low-effort listicles, affiliate-style copy, and transactional CTAs like "get quotes" or "request bids."
+- Write with calm authority and concrete specificity (names, dates, locations, capacity, systems, constraints, and tradeoffs). If something is unknown or disputed, say so directly.
+- Keep a strict line between fact, analysis, and opinion. Never invent quotes, numbers, specs, budgets, timelines, relationships, or performance claims.
+- Headlines should read like a serious trade publication: company + action + location + implication whenever possible.
+- Every article should signal ecosystem fluency by identifying, when available: owner/operator, project type/stage, geography, builder/installer, architect/designer, suppliers/systems, scale, timeline, and lessons learned.
+- Soft CTAs only: contact, tips, subscribe. No salesy or transactional framing.
+- Final decision rule: choose the angle a serious operator, builder, architect, developer, brand executive, or investor would forward to a colleague.
+
 ## Editorial Focus
 - SaunaNews is a US-based publication with a US-first audience
 - Lead with US market relevance even when covering international brands or events

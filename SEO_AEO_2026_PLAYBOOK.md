@@ -145,3 +145,11 @@ In addition to clicks/impressions/rankings, track:
 - [ ] At least 3 internal links (hub + related stories)
 - [ ] Primary-source links included
 - [ ] Images have descriptive alt text + captions
+
+## SaunaNews Core Editorial Directive (applies to SEO/AEO execution)
+
+- Treat each page as market intelligence first, not generic wellness content.
+- Prioritize retrieval for commercial and infrastructure intent (operator, builder, developer, permitting, systems, retrofit, throughput, capex).
+- Include concrete project metadata when possible (project type/stage, location, owner/operator, builder, architect, suppliers, system choices, scale, and timeline).
+- Keep explicit "known / changed / unknown" framing on evolving stories to preserve trust and improve answer-engine citation quality.
+- Avoid transactional marketplace framing and CTA language until the editorial trust layer is fully established.
