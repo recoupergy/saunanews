@@ -36,6 +36,11 @@ const nextConfig: NextConfig = {
         destination: '/article/bathhouse-120m-revenue-social-sauna',
         permanent: true,
       },
+      {
+        source: '/article/galgorm-aufguss-unit-economics-30-seat-sauna',
+        destination: '/article/business-of-aufguss-us-operator-playbook',
+        permanent: true,
+      },
     ];
   },
   async headers() {
