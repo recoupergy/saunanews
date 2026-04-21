@@ -30,8 +30,8 @@ export const events: SaunaEvent[] = [
     venue: 'Galgorm Resort',
     venueUrl: 'https://www.galgorm.com/',
     officialUrl: 'https://www.britishsaunasociety.org.uk/uk-aufguss-championships',
-    image: 'https://images.unsplash.com/photo-1755610146319-1ed7eeec584b?w=1200&q=80',
-    imageCaption: 'A communal sauna around a stone-filled heater. The UK Championships judge both Show and Modern Classic categories.',
+    image: 'https://images.squarespace-cdn.com/content/v1/63774ebed526324f79361869/1765379703752-9E4EVO1ZMFC45XBJVAN4/Aufguss+Uk+Championships.jpg?format=1500w',
+    imageCaption: 'The UK Aufguss Championships. Photo: British Sauna Society.',
     summary: 'The British Sauna Society brings the UK Aufguss Championships to Galgorm Resort. Competitors debut the Modern Classic category domestically for the first time, alongside the theatrical Show Aufguss format.',
     body: `<p>The 2026 UK Aufguss Championships run April 20 to 22 at Galgorm Resort in Ballymena, Northern Ireland. The British Sauna Society is the governing body. The host property has run its Celtic Sauna Infusion ritual for nine years and is the defending champion's home facility.</p>
 
@@ -63,8 +63,8 @@ export const events: SaunaEvent[] = [
     venue: 'Bathhouse (Brooklyn and Flatiron)',
     venueUrl: 'https://bathhouse.nyc/',
     officialUrl: 'https://aufgussusa.com/',
-    image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&q=80',
-    imageCaption: 'A US performance sauna. The 2026 Aufguss USA Nationals are the first with expanded qualification into the World Championships.',
+    image: 'https://static.wixstatic.com/media/660c96_a1dbd1db85f24ed4b0dde83b52e16ed2~mv2.png/v1/fill/w_1168,h_1168,fp_0.50_0.50,q_95,enc_avif,quality_auto/660c96_a1dbd1db85f24ed4b0dde83b52e16ed2~mv2.png',
+    imageCaption: 'Aufguss USA announced expanded qualification into the World Championships for the 2026 Nationals. Image: Aufguss USA.',
     summary: 'Aufguss USA Nationals return to Bathhouse in New York with expanded qualification paths into the Aufguss World Championships. The clearest signal yet that the ritual has a US practitioner pipeline.',
     body: `<p>The 2026 Aufguss USA Nationals run May 19 to 21 across Bathhouse's Brooklyn and Flatiron locations in New York. This is the first year US Nationals have expanded qualification into the Aufguss World Championships, which means strong US finishers can advance directly to the global playoff rounds rather than going through a European qualifier.</p>
 
@@ -94,8 +94,8 @@ export const events: SaunaEvent[] = [
     venue: 'Thermen Bussloo',
     venueUrl: 'https://www.thermenbussloo.nl/',
     officialUrl: 'https://www.aufguss-wm.com/',
-    image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&q=80',
-    imageCaption: 'Thermen Bussloo is one of the premier Dutch thermal destinations and hosts the world playoffs in August.',
+    image: 'https://www.thermenbussloo.nl/assets/Bussloo/Baden-TBU/Thermen_Bussloo_baden_zoutwater_model_2_1000__FocusFillWyIwLjAwIiwiMC4wMCIsMjAwMCwxMDAwXQ_jpg.webp',
+    imageCaption: 'Thermen Bussloo, one of the largest thermal resort complexes in continental Europe. Photo: Thermen Bussloo.',
     summary: 'The global playoff round of the Aufguss World Masters, hosted at one of the premier Dutch thermal resorts. Top national runners-up fight for World Finals slots.',
     body: `<p>The 2026 Aufguss World Masters Playoffs run August 27 to 30 at Thermen Bussloo in the Netherlands. This is the "second chance" qualification round for national-championship runners-up who did not advance directly to the World Finals. Top finishers across Show Aufguss and Modern Classic categories earn slots at the Worlds in Germany in September.</p>
 
@@ -123,8 +123,8 @@ export const events: SaunaEvent[] = [
     venue: 'Satama Sauna Resort',
     venueUrl: 'https://www.satama-sauna-resort.com/',
     officialUrl: 'https://www.aufguss-wm.com/',
-    image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&q=80',
-    imageCaption: 'The Aufguss WM Finals crown the global champion of Show Aufguss. The 2025 Verona edition drew finalists from 18 countries.',
+    image: 'https://aufguss-wm.com/wp-content/uploads/2022/03/2018-7f0b2435.jpeg',
+    imageCaption: 'A performance at the Aufguss World Championships. Photo: Aufguss WM.',
     summary: 'The pinnacle global event for theatrical, narrative-driven Show Aufguss. World champions are crowned across individual and team categories over a six-to-seven-day run.',
     body: `<p>The 2026 Aufguss WM Finals run September 13 to 20 at Satama Sauna Resort in Germany. This is the global championship for Show Aufguss, the theatrical category that combines costuming, music, lighting, and narrative with the technical ritual mechanics. The 2025 edition in Verona drew finalists from 18 countries and a combined audience of more than 30,000 over six days.</p>
 
@@ -152,8 +152,8 @@ export const events: SaunaEvent[] = [
     venue: 'Farris Bad',
     venueUrl: 'https://www.farrisbad.no/',
     officialUrl: 'https://www.aufguss-wm.com/',
-    image: 'https://images.unsplash.com/photo-1755610146319-1ed7eeec584b?w=1200&q=80',
-    imageCaption: 'Farris Bad, Norway. The Modern Classic Cup strips out costumes and theatrics, judging pure thermal technique.',
+    image: 'https://static.thatsup.website/364/61913/responsive-images/Taket_Tine-%2B-Julia___media_library_original_2429_1619.jpg?v=1750164053',
+    imageCaption: 'The rooftop terrace at Farris Bad in Larvik, Norway. Photo: Farris Bad.',
     summary: 'The global championship for traditional-technique Aufguss, devoid of costumes and theatrics. Farris Bad hosts the final round where practitioners are judged strictly on music, scent, and towel mechanics.',
     body: `<p>The 2026 Modern Classic Cup Finals run October 1 to 4 at Farris Bad in Larvik, Norway. This is the global championship for the traditional-technique Aufguss format, which the governing body established to honor the ritual's therapeutic roots while Show Aufguss continues to innovate in the entertainment space.</p>
 

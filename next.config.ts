@@ -163,6 +163,18 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'www.cpsc.gov',
       },
+      {
+        protocol: 'https',
+        hostname: 'www.thermenbussloo.nl',
+      },
+      {
+        protocol: 'https',
+        hostname: 'aufguss-wm.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'static.thatsup.website',
+      },
     ],
   },
 };
