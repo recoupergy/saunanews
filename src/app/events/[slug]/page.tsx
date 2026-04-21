@@ -190,6 +190,35 @@ export default async function EventPage({ params }: { params: Promise<{ slug: st
               </a>
             </div>
 
+            <div className="mt-6 flex flex-wrap gap-4 text-sm">
+              <Link
+                href="/events"
+                className="inline-flex items-center gap-1 font-semibold text-green hover:text-charcoal transition-colors"
+              >
+                &larr; Back to all sauna events
+              </Link>
+              <Link
+                href={`/events/${
+                  event.category === 'Aufguss'
+                    ? 'aufguss'
+                    : event.category === 'Conference'
+                      ? 'conferences'
+                      : event.category === 'Trade Show'
+                        ? 'trade-shows'
+                        : event.category === 'Investor'
+                          ? 'investor'
+                          : event.category === 'Product Launch'
+                            ? 'product-launches'
+                            : event.category === 'Competition'
+                              ? 'competitions'
+                              : 'industry'
+                }`}
+                className="inline-flex items-center gap-1 font-semibold text-green hover:text-charcoal transition-colors"
+              >
+                More {event.category} events &rarr;
+              </Link>
+            </div>
+
             <div className="mt-10 pt-8 border-t border-border dark:border-dark-border">
               <span className="text-xs font-semibold uppercase tracking-wider text-stone-dark dark:text-dark-muted mb-3 block">
                 Topics

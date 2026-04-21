@@ -1,36 +1,64 @@
 import Link from 'next/link';
-import { getEventsByCategory, getUpcomingEvents, formatEventDateRange, type EventCategory, type SaunaEvent } from '@/data/events';
+import {
+  getEventsByCategory,
+  getEventsByOrganization,
+  getUpcomingEvents,
+  formatEventDateRange,
+  EVENT_CATEGORY_SLUGS,
+  type EventCategory,
+  type EventOrganization,
+  type SaunaEvent,
+} from '@/data/events';
 
 interface EventsCalendarProps {
   category?: EventCategory;
+  organization?: EventOrganization;
   upcomingOnly?: boolean;
   title?: string;
   limit?: number;
   footerLinkHref?: string;
   footerLinkLabel?: string;
+  excludeSlug?: string;
 }
 
 export default function EventsCalendar({
   category,
+  organization,
   upcomingOnly = false,
   title,
   limit,
   footerLinkHref,
   footerLinkLabel,
+  excludeSlug,
 }: EventsCalendarProps) {
   const source: SaunaEvent[] = upcomingOnly
-    ? getUpcomingEvents(undefined, category)
-    : category
-      ? getEventsByCategory(category)
-      : [];
+    ? getUpcomingEvents(undefined, { category, organization, excludeSlug })
+    : organization
+      ? getEventsByOrganization(organization).filter((e) => e.slug !== excludeSlug)
+      : category
+        ? getEventsByCategory(category).filter((e) => e.slug !== excludeSlug)
+        : [];
   const list = limit ? source.slice(0, limit) : source;
 
   const resolvedTitle =
-    title ?? (category ? `${category} Event Calendar` : 'Event Calendar');
+    title ??
+    (organization
+      ? `${organization} Event Calendar`
+      : category
+        ? `${category} Event Calendar`
+        : 'Event Calendar');
   const resolvedFooterHref =
-    footerLinkHref ?? (category === 'Aufguss' ? '/events/aufguss' : '/events');
+    footerLinkHref ??
+    (category
+      ? `/events/${EVENT_CATEGORY_SLUGS[category]}`
+      : '/events');
   const resolvedFooterLabel =
-    footerLinkLabel ?? (category === 'Aufguss' ? 'See the permanent Aufguss calendar' : 'See all events');
+    footerLinkLabel ??
+    (organization
+      ? `See the full ${organization} calendar`
+      : category === 'Aufguss'
+        ? 'See the permanent Aufguss calendar'
+        : 'See all events');
 
   if (list.length === 0) {
     return null;

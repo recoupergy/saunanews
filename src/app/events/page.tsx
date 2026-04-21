@@ -1,16 +1,49 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
-import { events, formatEventDateRange, type EventCategory } from '@/data/events';
+import {
+  events,
+  formatEventDateRange,
+  EVENT_CATEGORY_SLUGS,
+  EVENT_CATEGORY_DESCRIPTIONS,
+  type EventCategory,
+  type SaunaEvent,
+} from '@/data/events';
 
 export const metadata: Metadata = {
   title: 'Sauna Industry Events Calendar — SaunaNews',
   description:
-    'Global sauna events: Aufguss championships, trade shows, and industry conferences. Up-to-date calendar with dates, venues, and links to official event pages.',
+    'The sauna industry events calendar: Aufguss championships, industry conferences, trade shows, product launches, and investor relations dates. Maintained by SaunaNews.',
   alternates: { canonical: 'https://www.saunanews.com/events' },
 };
 
-const CATEGORY_ORDER: EventCategory[] = ['Aufguss', 'Trade Show', 'Industry', 'Competition'];
+const CATEGORY_ORDER: EventCategory[] = [
+  'Aufguss',
+  'Conference',
+  'Trade Show',
+  'Investor',
+  'Product Launch',
+  'Competition',
+  'Industry',
+];
+
+function jsonLdForEvent(event: SaunaEvent) {
+  return {
+    '@type': 'Event',
+    name: event.title,
+    startDate: event.startDate,
+    endDate: event.endDate,
+    eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+    eventStatus: 'https://schema.org/EventScheduled',
+    location: {
+      '@type': 'Place',
+      name: event.venue,
+      address: event.location,
+    },
+    image: [event.image],
+    url: `https://www.saunanews.com/events/${event.slug}`,
+  };
+}
 
 export default function EventsIndexPage() {
   const now = Date.now();
@@ -19,14 +52,28 @@ export default function EventsIndexPage() {
     .filter((e) => new Date(e.endDate).getTime() >= cutoff)
     .sort((a, b) => new Date(a.startDate).getTime() - new Date(b.startDate).getTime());
 
-  const byCategory: Record<string, typeof events> = {};
+  const byCategory: Partial<Record<EventCategory, SaunaEvent[]>> = {};
   upcoming.forEach((e) => {
-    byCategory[e.category] = byCategory[e.category] ?? [];
-    byCategory[e.category].push(e);
+    const list = byCategory[e.category] ?? [];
+    list.push(e);
+    byCategory[e.category] = list;
   });
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': upcoming.map(jsonLdForEvent),
+  };
+
+  const categoriesWithEvents = CATEGORY_ORDER.filter(
+    (c) => (byCategory[c]?.length ?? 0) > 0
+  );
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <header className="bg-cream dark:bg-dark-bg border-b border-border dark:border-dark-border">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-10">
           <div className="flex items-center gap-2 text-sm text-stone-dark dark:text-dark-muted mb-6">
@@ -39,33 +86,54 @@ export default function EventsIndexPage() {
           <h1 className="font-editorial text-3xl sm:text-4xl lg:text-5xl font-bold text-charcoal dark:text-cream leading-tight mb-3">
             Sauna Industry Events
           </h1>
-          <p className="text-lg text-warm-gray dark:text-dark-muted leading-relaxed font-editorial italic">
-            The global sauna calendar, maintained by SaunaNews. Aufguss championships, trade shows, and industry conferences. Click any event for the SaunaNews briefing, venue details, and a link to the official event page.
+          <p className="text-lg text-warm-gray dark:text-dark-muted leading-relaxed font-editorial italic mb-6">
+            The global sauna calendar, maintained by SaunaNews. Aufguss championships, industry conferences, trade shows, product launches, and investor-relations dates. Click any event for the SaunaNews briefing and a link to the official event page.
           </p>
+          <nav
+            aria-label="Event categories"
+            className="flex flex-wrap gap-2 pt-5 border-t border-border dark:border-dark-border"
+          >
+            {categoriesWithEvents.map((category) => (
+              <Link
+                key={category}
+                href={`/events/${EVENT_CATEGORY_SLUGS[category]}`}
+                className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-border dark:border-dark-border text-xs font-semibold uppercase tracking-widest text-stone-dark dark:text-dark-muted hover:text-charcoal dark:hover:text-cream hover:border-green transition-colors"
+              >
+                {category}
+                <span className="text-[10px] font-medium text-stone-dark/80">
+                  {byCategory[category]?.length ?? 0}
+                </span>
+              </Link>
+            ))}
+          </nav>
         </div>
       </header>
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
-        {CATEGORY_ORDER.map((category) => {
-          const list = byCategory[category];
-          if (!list || list.length === 0) return null;
-          const categoryHref =
-            category === 'Aufguss' ? '/events/aufguss' : `/events?category=${category.toLowerCase()}`;
+        {categoriesWithEvents.map((category) => {
+          const list = byCategory[category] ?? [];
+          const categoryHref = `/events/${EVENT_CATEGORY_SLUGS[category]}`;
           return (
-            <section key={category}>
-              <div className="flex items-baseline justify-between mb-5 border-b border-border dark:border-dark-border pb-3">
+            <section key={category} id={EVENT_CATEGORY_SLUGS[category]}>
+              <div className="flex items-baseline justify-between mb-3 border-b border-border dark:border-dark-border pb-3">
                 <h2 className="font-editorial text-2xl font-bold text-charcoal dark:text-cream">
-                  {category}
-                </h2>
-                {category === 'Aufguss' && (
                   <Link
                     href={categoryHref}
-                    className="text-xs font-semibold uppercase tracking-widest text-green hover:text-charcoal transition-colors"
+                    className="hover:text-green transition-colors"
                   >
-                    Full Aufguss calendar &rarr;
+                    {category}
                   </Link>
-                )}
+                </h2>
+                <Link
+                  href={categoryHref}
+                  className="text-xs font-semibold uppercase tracking-widest text-green hover:text-charcoal transition-colors"
+                >
+                  Full {category.toLowerCase()} calendar &rarr;
+                </Link>
               </div>
+              <p className="text-sm text-stone-dark dark:text-dark-muted mb-5 max-w-3xl leading-relaxed">
+                {EVENT_CATEGORY_DESCRIPTIONS[category]}
+              </p>
               <ul className="space-y-4">
                 {list.map((event) => (
                   <li key={event.id}>

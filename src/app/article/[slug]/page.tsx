@@ -10,12 +10,44 @@ import ReadingProgressBar from '@/components/ReadingProgressBar';
 import ArticleImage from '@/components/ArticleImage';
 import SponsorSlot from '@/components/SponsorSlot';
 import EventsCalendar from '@/components/EventsCalendar';
-import type { EventCategory } from '@/data/events';
+import type { EventCategory, EventOrganization } from '@/data/events';
 
 export const dynamicParams = false;
 
 
-const EMBED_REGEX = /<div\s+data-events-calendar=(?:"([^"]+)"|'([^']+)')\s*(?:\/>|><\/div>)/gi;
+const EMBED_REGEX =
+  /<div\s+(data-events-calendar|data-events-org)=(?:"([^"]+)"|'([^']+)')\s*(?:\/>|><\/div>)/gi;
+
+const VALID_CATEGORIES: readonly EventCategory[] = [
+  'Aufguss',
+  'Conference',
+  'Trade Show',
+  'Investor',
+  'Product Launch',
+  'Industry',
+  'Competition',
+];
+
+const VALID_ORGANIZATIONS: readonly EventOrganization[] = [
+  'Harvia',
+  'Saunum',
+  'Masco',
+  'Kohler',
+  'Aufguss World Masters',
+  'British Sauna Society',
+  'Sauna from Finland',
+  'International Sauna Association',
+];
+
+function matchesCategory(raw: string): EventCategory | undefined {
+  const lower = raw.toLowerCase();
+  return VALID_CATEGORIES.find((c) => c.toLowerCase() === lower);
+}
+
+function matchesOrganization(raw: string): EventOrganization | undefined {
+  const lower = raw.toLowerCase();
+  return VALID_ORGANIZATIONS.find((o) => o.toLowerCase() === lower);
+}
 
 function renderArticleBodyWithEmbeds(html: string) {
   const nodes: ReactNode[] = [];
@@ -34,15 +66,19 @@ function renderArticleBodyWithEmbeds(html: string) {
         />
       );
     }
-    const rawCategory = (match[1] ?? match[2] ?? '').trim();
-    const normalized = rawCategory.charAt(0).toUpperCase() + rawCategory.slice(1).toLowerCase();
-    const valid: EventCategory[] = ['Aufguss', 'Trade Show', 'Industry', 'Competition'];
-    const categoryProp = valid.includes(normalized as EventCategory)
-      ? (normalized as EventCategory)
-      : undefined;
-    nodes.push(
-      <EventsCalendar key={`c-${key}`} category={categoryProp} upcomingOnly />
-    );
+    const attr = match[1];
+    const raw = (match[2] ?? match[3] ?? '').trim();
+    if (attr === 'data-events-org') {
+      const organization = matchesOrganization(raw);
+      nodes.push(
+        <EventsCalendar key={`c-${key}`} organization={organization} upcomingOnly />
+      );
+    } else {
+      const category = matchesCategory(raw);
+      nodes.push(
+        <EventsCalendar key={`c-${key}`} category={category} upcomingOnly />
+      );
+    }
     cursor = match.index + match[0].length;
     key += 1;
   }
@@ -60,6 +96,14 @@ function renderArticleBodyWithEmbeds(html: string) {
     return <div className="prose-editorial" dangerouslySetInnerHTML={{ __html: html }} />;
   }
   return <>{nodes}</>;
+}
+
+function detectAutoEmbedOrganization(tags: readonly string[]): EventOrganization | undefined {
+  const lower = tags.map((t) => t.toLowerCase());
+  for (const org of VALID_ORGANIZATIONS) {
+    if (lower.includes(org.toLowerCase())) return org;
+  }
+  return undefined;
 }
 
 function getPrimaryEntities(article: (typeof articles)[number]): string[] {
@@ -286,7 +330,29 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         {/* Article Body */}
         <div className="bg-surface dark:bg-dark-bg">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
-            {renderArticleBodyWithEmbeds(getArticleBody(article))}
+            {(() => {
+              const bodyHtml = getArticleBody(article);
+              const autoOrg = detectAutoEmbedOrganization(article.tags);
+              const bodyAlreadyHasOrgMarker =
+                autoOrg !== undefined &&
+                bodyHtml.toLowerCase().includes(`data-events-org="${autoOrg.toLowerCase()}"`);
+              return (
+                <>
+                  {renderArticleBodyWithEmbeds(bodyHtml)}
+                  {autoOrg && !bodyAlreadyHasOrgMarker && (
+                    <div className="mt-12">
+                      <EventsCalendar
+                        organization={autoOrg}
+                        upcomingOnly
+                        title={`${autoOrg} Event Calendar`}
+                        footerLinkHref="/events"
+                        footerLinkLabel="See the full sauna events calendar"
+                      />
+                    </div>
+                  )}
+                </>
+              );
+            })()}
 
             {/* Tags */}
             <div className="mt-12 pt-8 border-t border-border dark:border-dark-border">

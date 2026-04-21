@@ -112,7 +112,7 @@ export default function Header() {
                 </svg>
               </button>
               <div className="absolute right-0 top-full pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-                <div className="bg-surface border border-border rounded-lg shadow-lg py-2 min-w-[180px]">
+                <div className="bg-surface border border-border rounded-lg shadow-lg py-2 min-w-[220px]">
                   {categories.slice(5).map((cat) => (
                     <Link
                       key={cat.slug}
@@ -122,6 +122,28 @@ export default function Header() {
                       {cat.name}
                     </Link>
                   ))}
+                  <hr className="my-2 border-border" />
+                  <div className="px-4 py-1 text-[10px] font-semibold uppercase tracking-widest text-stone-dark/70">
+                    Events
+                  </div>
+                  <Link href="/events" className="block px-4 py-2 text-sm font-semibold text-charcoal hover:bg-ivory transition-colors">
+                    All Sauna Events
+                  </Link>
+                  <Link href="/events/aufguss" className="block px-4 py-2 text-sm text-charcoal hover:bg-ivory transition-colors">
+                    &nbsp;&nbsp;Aufguss Calendar
+                  </Link>
+                  <Link href="/events/conferences" className="block px-4 py-2 text-sm text-charcoal hover:bg-ivory transition-colors">
+                    &nbsp;&nbsp;Conferences
+                  </Link>
+                  <Link href="/events/trade-shows" className="block px-4 py-2 text-sm text-charcoal hover:bg-ivory transition-colors">
+                    &nbsp;&nbsp;Trade Shows
+                  </Link>
+                  <Link href="/events/product-launches" className="block px-4 py-2 text-sm text-charcoal hover:bg-ivory transition-colors">
+                    &nbsp;&nbsp;Product Launches
+                  </Link>
+                  <Link href="/events/investor" className="block px-4 py-2 text-sm text-charcoal hover:bg-ivory transition-colors">
+                    &nbsp;&nbsp;Investor Calendar
+                  </Link>
                   <hr className="my-2 border-border" />
                   <Link href="/about" className="block px-4 py-2 text-sm text-charcoal hover:bg-ivory transition-colors">
                     About
@@ -212,6 +234,52 @@ export default function Header() {
                 {cat.name}
               </Link>
             ))}
+            <hr className="border-border my-2" />
+            <div className="px-3 py-1 text-[10px] font-semibold uppercase tracking-widest text-stone-dark/70">
+              Events
+            </div>
+            <Link
+              href="/events"
+              onClick={() => setMobileOpen(false)}
+              className="block px-3 py-2.5 text-sm font-semibold text-charcoal hover:bg-ivory rounded-md"
+            >
+              All Sauna Events
+            </Link>
+            <Link
+              href="/events/aufguss"
+              onClick={() => setMobileOpen(false)}
+              className="block px-3 py-2.5 text-sm text-stone-dark hover:bg-ivory rounded-md"
+            >
+              Aufguss Calendar
+            </Link>
+            <Link
+              href="/events/conferences"
+              onClick={() => setMobileOpen(false)}
+              className="block px-3 py-2.5 text-sm text-stone-dark hover:bg-ivory rounded-md"
+            >
+              Conferences
+            </Link>
+            <Link
+              href="/events/trade-shows"
+              onClick={() => setMobileOpen(false)}
+              className="block px-3 py-2.5 text-sm text-stone-dark hover:bg-ivory rounded-md"
+            >
+              Trade Shows
+            </Link>
+            <Link
+              href="/events/product-launches"
+              onClick={() => setMobileOpen(false)}
+              className="block px-3 py-2.5 text-sm text-stone-dark hover:bg-ivory rounded-md"
+            >
+              Product Launches
+            </Link>
+            <Link
+              href="/events/investor"
+              onClick={() => setMobileOpen(false)}
+              className="block px-3 py-2.5 text-sm text-stone-dark hover:bg-ivory rounded-md"
+            >
+              Investor Calendar
+            </Link>
             <hr className="border-border my-2" />
             <Link
               href="/about"
