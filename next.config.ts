@@ -27,6 +27,16 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/article/kohler-klafs-sauna-acquisition',
+        destination: '/article/estonia-sauna-manufacturing-powerhouse',
+        permanent: true,
+      },
+      {
+        source: '/article/finland-lumber-prices-18-month-high',
+        destination: '/article/finnish-lumber-prices-18-month-high',
+        permanent: true,
+      },
+      {
         source: '/harvia/products/cilindro',
         destination: '/harvia/products/cilindro-electric',
         permanent: true,
