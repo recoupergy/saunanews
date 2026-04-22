@@ -1,5 +1,58 @@
 [
   {
+    "id": "53",
+    "title": "Icetubs Sets U.S. Launch for April 23, 2026",
+    "slug": "icetubs-us-launch-april-2026",
+    "dek": "Dutch recovery manufacturer Icetubs will launch in the U.S. on April 23, 2026 with a hot-and-cold immersion lineup spanning IceBarrel, IceBarrel XL, IceBath, and supporting accessories.",
+    "excerpt": "Icetubs is entering the U.S. market on April 23, 2026 with immersion products designed for both residential and commercial recovery environments. The launch highlights temperature control from 37°F to 100°F, app-based controls, and a broader roadmap for professional-grade systems.",
+    "contentType": "News",
+    "category": "Product Launches",
+    "tags": [
+      "Icetubs",
+      "Product launch",
+      "United States",
+      "Cold plunge",
+      "Contrast therapy",
+      "Recovery"
+    ],
+    "author": {
+      "name": "Arlene Scott",
+      "role": "Senior Wellness Correspondent & Hospitality Consultant",
+      "avatar": "/images/authors/arlene-scott.svg",
+      "slug": "arlene-scott",
+      "bio": "Arlene Scott is a Senior Wellness Correspondent for SaunaNews.com, bringing over fifteen years of experience at the intersection of energy infrastructure, sustainable design, and thermotherapy.",
+      "shortBio": "Arlene Scott brings over fifteen years of reporting and consulting experience across energy infrastructure, sustainable design, and thermotherapy-focused hospitality.",
+      "extendedBio": [
+        "Arlene Scott is a Senior Wellness Correspondent for SaunaNews.com, bringing over fifteen years of experience at the intersection of energy infrastructure, sustainable design, and thermotherapy. Her work focuses on the physiological benefits of passive heat therapies and the sustainable integration of sauna culture into modern wellness routines.",
+        "Arlene's background is rooted in the clean energy transition. She was a founding writer at MicrogridMedia.com, where she covered the technical and economic viability of desalination projects, microgrid deployments, and distributed renewable energy systems. During the mid-2010s, she was a regular contributor to Greentech Media (GTM) during its independent era — prior to the Wood Mackenzie acquisition in 2016 — reporting on the early integration of thermal energy storage and sustainable infrastructure.",
+        "Transitioning her focus from macro-energy systems to human-scale wellness, Arlene now applies her technical background to the hospitality sector. She operates as an independent consultant, advising boutique hotels and eco-resorts on the design, energy efficiency, and historical authenticity of commercial sauna and thermal spa installations. Her consulting work ensures that high-end wellness facilities balance traditional Nordic bathing principles with modern sustainable engineering.",
+        "Arlene holds a specialized certification in Applied Thermic Wellness from the Nordic Institute of Passive Heat Studies (NIPHS) and is a recognized associate member of the International Sauna Association (ISA). When she isn't reviewing the latest innovations in infrared technology or consulting on a new resort project, Arlene can be found tending to her own traditional wood-fired sauna in the Pacific Northwest. You can read her complete archive of essays on energy, wellness, and sustainable living at www.arlenescott.com."
+      ],
+      "website": "https://www.arlenescott.com",
+      "linkedin": "https://www.linkedin.com/in/arlene-scott-4b8521405/",
+      "sameAs": [
+        "https://www.arlenescott.com",
+        "https://www.linkedin.com/in/arlene-scott-4b8521405/"
+      ],
+      "image": "https://www.saunanews.com/images/authors/arlene-scott.svg",
+      "alumniOf": "Nordic Institute of Passive Heat Studies (NIPHS)",
+      "knowsAbout": [
+        "Thermotherapy",
+        "Sauna culture",
+        "Sustainable wellness design",
+        "Energy infrastructure",
+        "Hospitality consulting"
+      ]
+    },
+    "publishDate": "2026-04-22",
+    "readingTime": 3,
+    "featuredImage": "/images/harvia-mediabank/frosty-cold-tub/4602.jpg",
+    "imageCaption": "Icetubs is launching its hot and cold immersion category products in the U.S. on April 23, 2026.",
+    "featured": false,
+    "trending": false,
+    "bodyPath": "bodies/icetubs-us-launch-april-2026.html"
+  },
+  {
     "id": "52",
     "title": "World Spa’s Big Bet Is Authenticity at Scale",
     "slug": "world-spa-authenticity-scale-brooklyn",
