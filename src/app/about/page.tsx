@@ -74,6 +74,14 @@ export default function AboutPage() {
     contactPoint: [
       {
         '@type': 'ContactPoint',
+        contactType: 'main',
+        email: 'hello@saunanews.com',
+        telephone: '+1-415-555-0141',
+        areaServed: 'US',
+        availableLanguage: ['en'],
+      },
+      {
+        '@type': 'ContactPoint',
         contactType: 'newsroom',
         email: 'newsroom@saunanews.com',
         telephone: '+1-415-555-0142',
@@ -179,6 +187,12 @@ export default function AboutPage() {
               <strong>Editorial line:</strong>{' '}
               <a href="tel:+14155550141" className="text-green dark:text-brass font-medium hover:underline">
                 +1 (415) 555-0141
+              </a>
+            </p>
+            <p>
+              <strong>Main inbox:</strong>{' '}
+              <a href="mailto:hello@saunanews.com" className="text-green dark:text-brass font-medium hover:underline">
+                hello@saunanews.com
               </a>
             </p>
             <p>

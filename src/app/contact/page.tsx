@@ -111,6 +111,12 @@ export default function ContactPage() {
               </a>
             </p>
             <p>
+              <strong>Main inbox:</strong>{' '}
+              <a href="mailto:hello@saunanews.com" className="text-green dark:text-brass font-medium hover:underline">
+                hello@saunanews.com
+              </a>
+            </p>
+            <p>
               <strong>Newsroom inbox:</strong>{' '}
               <a href="mailto:newsroom@saunanews.com" className="text-green dark:text-brass font-medium hover:underline">
                 newsroom@saunanews.com
