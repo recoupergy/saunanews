@@ -18,8 +18,8 @@ export default function MobileRailTabs({ topStories, latestStories, trendingStor
   const [activeTab, setActiveTab] = useState<MobileTab>('top');
 
   const tabs: { key: MobileTab; label: string }[] = [
-    { key: 'top', label: 'Top' },
-    { key: 'latest', label: 'Latest' },
+    { key: 'top', label: 'Popular' },
+    { key: 'latest', label: 'New' },
     { key: 'trending', label: 'Trending' },
   ];
 

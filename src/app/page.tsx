@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { getFeaturedArticles, getTrendingArticles, getLatestArticles, getArticlesByCategory, getEditorsPicks } from '@/data/articles';
+import { getFeaturedArticles, getTrendingArticles, getLatestArticles, getArticlesByCategory, getEditorsPicks, getTopStories } from '@/data/articles';
 import { categories } from '@/data/categories';
 import ArticleCard from '@/components/ArticleCard';
 import SectionHeader from '@/components/SectionHeader';
@@ -15,7 +15,8 @@ import { formatDateShort } from '@/lib/utils';
 
 export default function HomePage() {
   const featured = getFeaturedArticles();
-  const trending = getTrendingArticles();
+  const trending = getTrendingArticles(8);
+  const topStories = getTopStories(6);
   const latest = getLatestArticles(12);
   const marketIntel = getArticlesByCategory('Market Intelligence').slice(0, 4);
   const productLaunches = getArticlesByCategory('Product Launches').slice(0, 3);
@@ -164,9 +165,9 @@ export default function HomePage() {
             </div>
 
           <MobileRailTabs
-            topStories={secondaryFeatured}
-            latestStories={latestDeduped.slice(0, 3)}
-            trendingStories={trending.slice(0, 5)}
+            topStories={topStories}
+            latestStories={latestDeduped.slice(0, 6)}
+            trendingStories={trending.slice(0, 6)}
           />
           </div>
         </div>
@@ -264,9 +265,9 @@ export default function HomePage() {
             </div>
 
           <MobileRailTabs
-            topStories={secondaryFeatured}
-            latestStories={latestDeduped.slice(0, 3)}
-            trendingStories={trending.slice(0, 5)}
+            topStories={topStories}
+            latestStories={latestDeduped.slice(0, 6)}
+            trendingStories={trending.slice(0, 6)}
           />
           </div>
         </div>
@@ -348,9 +349,9 @@ export default function HomePage() {
             </div>
 
           <MobileRailTabs
-            topStories={secondaryFeatured}
-            latestStories={latestDeduped.slice(0, 3)}
-            trendingStories={trending.slice(0, 5)}
+            topStories={topStories}
+            latestStories={latestDeduped.slice(0, 6)}
+            trendingStories={trending.slice(0, 6)}
           />
           </div>
         </div>
