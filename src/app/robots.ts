@@ -16,6 +16,8 @@ export default function robots(): MetadataRoute.Robots {
       'https://www.saunanews.com/sitemap.xml',
       'https://www.saunanews.com/news-sitemap.xml',
       'https://www.saunanews.com/rss.xml',
+      'https://www.saunanews.com/atom.xml',
+      'https://www.saunanews.com/feed.json',
     ],
   };
 }

@@ -8,6 +8,16 @@ const securityHeaders = [
   { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' },
 ];
 
+
+const feedDiscoveryHeader = {
+  key: 'Link',
+  value:
+    '<https://www.saunanews.com/rss.xml>; rel="alternate"; type="application/rss+xml", ' +
+    '<https://www.saunanews.com/atom.xml>; rel="alternate"; type="application/atom+xml", ' +
+    '<https://www.saunanews.com/feed.json>; rel="alternate"; type="application/feed+json", ' +
+    '<https://www.saunanews.com/llms.txt>; rel="alternate"; type="text/plain"',
+};
+
 const nextConfig: NextConfig = {
   async redirects() {
     return [
@@ -57,7 +67,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: '/(.*)',
-        headers: securityHeaders,
+        headers: [...securityHeaders, feedDiscoveryHeader],
       },
     ];
   },

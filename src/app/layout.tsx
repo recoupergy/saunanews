@@ -46,6 +46,9 @@ export const metadata: Metadata = {
     canonical: '/',
     types: {
       'application/rss+xml': 'https://www.saunanews.com/rss.xml',
+      'application/atom+xml': 'https://www.saunanews.com/atom.xml',
+      'application/feed+json': 'https://www.saunanews.com/feed.json',
+      'text/plain': 'https://www.saunanews.com/llms.txt',
     },
   },
   openGraph: {
