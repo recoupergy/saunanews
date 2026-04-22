@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useMemo } from 'react';
+import Link from 'next/link';
 import { articleSummaries as articles } from '@/data/article-summaries';
 import { categories } from '@/data/categories';
 import { Category } from '@/data/types';
@@ -54,7 +55,10 @@ export default function AllNewsPage() {
             All News
           </h1>
           <p className="text-lg text-warm-gray dark:text-dark-muted max-w-2xl">
-            Everything we&apos;ve published. Search, filter, and explore our complete archive of sauna industry coverage.
+            Everything we&apos;ve published. Search, filter, and explore our complete archive of sauna industry coverage. If you want a fast snapshot before diving in, start with our{' '}
+            <Link href="/article/weekly-roundup-april-first-week-2026" className="underline decoration-green/60 underline-offset-2 hover:text-green dark:hover:text-brass">
+              weekly roundup briefing format
+            </Link>.
           </p>
         </div>
       </section>
