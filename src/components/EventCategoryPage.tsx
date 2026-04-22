@@ -7,6 +7,7 @@ import {
   EVENT_CATEGORY_DESCRIPTIONS,
   type EventCategory,
 } from '@/data/events';
+import { stringifyJsonLd, toIso8601 } from '@/lib/structured-data';
 
 interface EventCategoryPageProps {
   category: EventCategory;
@@ -14,6 +15,7 @@ interface EventCategoryPageProps {
   eyebrow?: string;
   intro?: string;
 }
+const EVENT_CUTOFF_MS = Date.parse(new Date().toISOString()) - 1000 * 60 * 60 * 24;
 
 export default function EventCategoryPage({
   category,
@@ -21,16 +23,44 @@ export default function EventCategoryPage({
   eyebrow,
   intro,
 }: EventCategoryPageProps) {
-  const now = Date.now();
-  const cutoff = now - 1000 * 60 * 60 * 24;
   const all = getEventsByCategory(category);
-  const upcoming = all.filter((e) => new Date(e.endDate).getTime() >= cutoff);
-  const past = all.filter((e) => new Date(e.endDate).getTime() < cutoff);
-  const categorySlug = EVENT_CATEGORY_SLUGS[category];
+  const upcoming = all.filter((e) => new Date(e.endDate).getTime() >= EVENT_CUTOFF_MS);
+  const past = all.filter((e) => new Date(e.endDate).getTime() < EVENT_CUTOFF_MS);
   const description = intro ?? EVENT_CATEGORY_DESCRIPTIONS[category];
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': upcoming.map((event) => ({
+      '@type': 'Event',
+      name: event.title,
+      startDate: toIso8601(event.startDate),
+      endDate: toIso8601(event.endDate),
+      eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+      eventStatus: 'https://schema.org/EventScheduled',
+      location: {
+        '@type': 'Place',
+        name: event.venue,
+        address: {
+          '@type': 'PostalAddress',
+          addressLocality: event.location,
+        },
+      },
+      image: [event.image],
+      description: event.summary,
+      organizer: {
+        '@type': 'Organization',
+        name: event.organizations?.[0] ?? event.venue,
+        url: event.officialUrl,
+      },
+      url: `https://www.saunanews.com/events/${event.slug}`,
+    })),
+  };
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: stringifyJsonLd(jsonLd) }}
+      />
       <header className="bg-cream dark:bg-dark-bg border-b border-border dark:border-dark-border">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-10">
           <div className="flex items-center gap-2 text-sm text-stone-dark dark:text-dark-muted mb-6">

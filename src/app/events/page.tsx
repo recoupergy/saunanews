@@ -9,6 +9,7 @@ import {
   type EventCategory,
   type SaunaEvent,
 } from '@/data/events';
+import { stringifyJsonLd, toIso8601 } from '@/lib/structured-data';
 
 export const metadata: Metadata = {
   title: 'Sauna Industry Events Calendar — SaunaNews',
@@ -26,30 +27,38 @@ const CATEGORY_ORDER: EventCategory[] = [
   'Competition',
   'Industry',
 ];
+const EVENT_CUTOFF_MS = Date.parse(new Date().toISOString()) - 1000 * 60 * 60 * 24;
 
 function jsonLdForEvent(event: SaunaEvent) {
   return {
     '@type': 'Event',
     name: event.title,
-    startDate: event.startDate,
-    endDate: event.endDate,
+    startDate: toIso8601(event.startDate),
+    endDate: toIso8601(event.endDate),
     eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
     eventStatus: 'https://schema.org/EventScheduled',
     location: {
       '@type': 'Place',
       name: event.venue,
-      address: event.location,
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: event.location,
+      },
     },
     image: [event.image],
+    description: event.summary,
+    organizer: {
+      '@type': 'Organization',
+      name: event.organizations?.[0] ?? event.venue,
+      url: event.officialUrl,
+    },
     url: `https://www.saunanews.com/events/${event.slug}`,
   };
 }
 
 export default function EventsIndexPage() {
-  const now = Date.now();
-  const cutoff = now - 1000 * 60 * 60 * 24;
   const upcoming = events
-    .filter((e) => new Date(e.endDate).getTime() >= cutoff)
+    .filter((e) => new Date(e.endDate).getTime() >= EVENT_CUTOFF_MS)
     .sort((a, b) => new Date(a.startDate).getTime() - new Date(b.startDate).getTime());
 
   const byCategory: Partial<Record<EventCategory, SaunaEvent[]>> = {};
@@ -72,7 +81,7 @@ export default function EventsIndexPage() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: stringifyJsonLd(jsonLd) }}
       />
       <header className="bg-cream dark:bg-dark-bg border-b border-border dark:border-dark-border">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-10">

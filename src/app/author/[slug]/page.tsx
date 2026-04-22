@@ -5,6 +5,7 @@ import { getAuthorBySlug, getAllAuthorSlugs, getAuthorProfileLinks } from '@/dat
 import { getArticlesByAuthorSlug } from '@/data/articles';
 import ArticleCard from '@/components/ArticleCard';
 import NewsletterSignup from '@/components/NewsletterSignup';
+import { stringifyJsonLd, toIso8601 } from '@/lib/structured-data';
 
 export function generateStaticParams() {
   return getAllAuthorSlugs().map((slug) => ({ slug }));
@@ -52,19 +53,32 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
   );
 
   const authorUrl = `https://www.saunanews.com/author/${author.slug}`;
+  const authoredDates = authorArticles.map((article) => new Date(article.publishDate).getTime()).filter(Number.isFinite);
+  const profileCreatedDate = authoredDates.length > 0
+    ? new Date(Math.min(...authoredDates)).toISOString()
+    : toIso8601(new Date().toISOString());
+  const profileModifiedDate = authoredDates.length > 0
+    ? new Date(Math.max(...authoredDates)).toISOString()
+    : toIso8601(new Date().toISOString());
+
   const personJsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'Person',
-    name: author.name,
-    jobTitle: author.role,
-    worksFor: { '@type': 'Organization', name: 'SaunaNews', url: 'https://www.saunanews.com' },
-    url: authorUrl,
-    description: author.bio,
-    ...(author.email ? { email: author.email } : {}),
-    ...(authorSameAs.length > 0 ? { sameAs: authorSameAs } : {}),
-    ...(author.image ? { image: author.image } : {}),
-    ...(author.alumniOf ? { alumniOf: author.alumniOf } : {}),
-    ...(author.knowsAbout ? { knowsAbout: author.knowsAbout } : {}),
+    '@type': 'ProfilePage',
+    dateCreated: profileCreatedDate,
+    dateModified: profileModifiedDate,
+    mainEntity: {
+      '@type': 'Person',
+      name: author.name,
+      jobTitle: author.role,
+      worksFor: { '@type': 'Organization', name: 'SaunaNews', url: 'https://www.saunanews.com' },
+      url: authorUrl,
+      description: author.bio,
+      ...(author.email ? { email: author.email } : {}),
+      ...(authorSameAs.length > 0 ? { sameAs: authorSameAs } : {}),
+      ...(author.image ? { image: author.image } : {}),
+      ...(author.alumniOf ? { alumniOf: author.alumniOf } : {}),
+      ...(author.knowsAbout ? { knowsAbout: author.knowsAbout } : {}),
+    },
   };
   const breadcrumbJsonLd = {
     '@context': 'https://schema.org',
@@ -78,8 +92,8 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: stringifyJsonLd(personJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: stringifyJsonLd(breadcrumbJsonLd) }} />
       <section className="bg-cream dark:bg-dark-bg border-b border-border dark:border-dark-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
           <div className="flex items-center gap-2 text-sm text-stone-dark dark:text-dark-muted mb-8">
