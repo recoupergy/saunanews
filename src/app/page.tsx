@@ -245,22 +245,6 @@ export default function HomePage() {
                 ))}
               </div>
 
-              {/* Launch Calendar */}
-              <div className="mt-8">
-                <LaunchCalendar />
-              </div>
-
-              {/* Aufguss Event Calendar */}
-              <div className="mt-8">
-                <EventsCalendar
-                  category="Aufguss"
-                  upcomingOnly
-                  title="Aufguss Event Calendar"
-                  limit={5}
-                  footerLinkHref="/events/aufguss"
-                  footerLinkLabel="See the full Aufguss calendar"
-                />
-              </div>
             </div>
 
           <MobileRailTabs
@@ -268,6 +252,30 @@ export default function HomePage() {
             latestStories={latestDeduped.slice(0, 3)}
             trendingStories={trending.slice(0, 5)}
           />
+          </div>
+        </div>
+      </section>
+
+      {/* ===== CALENDARS ===== */}
+      <section className="bg-ivory dark:bg-dark-surface border-t border-border dark:border-dark-border">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+          <div className="mb-8">
+            <h2 className="font-editorial text-2xl sm:text-3xl font-bold text-charcoal dark:text-cream">Calendars</h2>
+            <p className="mt-2 text-sm text-stone-dark dark:text-dark-muted max-w-3xl">
+              Track upcoming launches and major Aufguss events in a dedicated section designed for desktop scanning and mobile readability.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 xl:gap-10 items-start">
+            <LaunchCalendar />
+            <EventsCalendar
+              category="Aufguss"
+              upcomingOnly
+              title="Aufguss Event Calendar"
+              limit={5}
+              footerLinkHref="/events/aufguss"
+              footerLinkLabel="See the full Aufguss calendar"
+            />
           </div>
         </div>
       </section>
