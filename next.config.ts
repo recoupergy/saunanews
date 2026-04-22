@@ -120,6 +120,15 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'saunologia.b-cdn.net',
       },
+
+      {
+        protocol: 'https',
+        hostname: 'saunafromfinland.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.saunafromfinland.com',
+      },
       {
         protocol: 'https',
         hostname: 'us.saunum.com',
