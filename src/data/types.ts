@@ -22,6 +22,7 @@ export interface Author {
   role: string;
   avatar: string;
   slug: string;
+  email?: string;
   bio: string;
   shortBio?: string;
   extendedBio?: string[];

@@ -56,6 +56,7 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
     worksFor: { '@type': 'Organization', name: 'SaunaNews', url: 'https://www.saunanews.com' },
     url: authorUrl,
     description: author.bio,
+    ...(author.email ? { email: author.email } : {}),
     ...(author.sameAs ? { sameAs: author.sameAs } : {}),
     ...(author.image ? { image: author.image } : {}),
     ...(author.alumniOf ? { alumniOf: author.alumniOf } : {}),
@@ -97,6 +98,11 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
               <p className="text-base text-green dark:text-brass font-medium mb-4">{author.role}</p>
               <p className="text-warm-gray dark:text-dark-muted leading-relaxed max-w-2xl">{author.shortBio ?? author.bio}</p>
               <div className="mt-4 flex flex-wrap gap-4 text-sm">
+                {author.email && (
+                  <a href={`mailto:${author.email}`} className="font-medium text-green dark:text-brass hover:underline">
+                    {author.email}
+                  </a>
+                )}
                 {author.website && (
                   <a href={author.website} target="_blank" rel="noopener noreferrer" className="font-medium text-green dark:text-brass hover:underline">
                     Professional site
