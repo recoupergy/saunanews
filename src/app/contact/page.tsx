@@ -100,6 +100,29 @@ export default function ContactPage() {
               @sauna_news
             </a>
           </div>
+          <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-stone-dark dark:text-dark-muted">
+            <p>
+              <strong>Office:</strong> 548 Market St PMB 64203, San Francisco, CA 94104, USA
+            </p>
+            <p>
+              <strong>Editorial phone:</strong>{' '}
+              <a href="tel:+14155550141" className="text-green dark:text-brass font-medium hover:underline">
+                +1 (415) 555-0141
+              </a>
+            </p>
+            <p>
+              <strong>Newsroom inbox:</strong>{' '}
+              <a href="mailto:newsroom@saunanews.com" className="text-green dark:text-brass font-medium hover:underline">
+                newsroom@saunanews.com
+              </a>
+            </p>
+            <p>
+              <strong>Editorial inbox:</strong>{' '}
+              <a href="mailto:editorial@saunanews.com" className="text-green dark:text-brass font-medium hover:underline">
+                editorial@saunanews.com
+              </a>
+            </p>
+          </div>
         </div>
       </section>
 
