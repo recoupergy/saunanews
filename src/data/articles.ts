@@ -94,6 +94,58 @@ export function getEditorsPicks(count?: number): Article[] {
   return count ? picks.slice(0, count) : picks;
 }
 
+const POLICY_PRIORITY_SLUGS = [
+  'ul-60335-2-53-sauna-heater-standard-transition',
+  'en-18164-europe-first-sauna-standard-nordic-pushback',
+];
+
+const POLICY_SIGNAL_TAGS = new Set([
+  'regulation',
+  'compliance',
+  'safety standards',
+  'building code',
+  'trade policy',
+  'european standards',
+]);
+
+function isPolicyArticle(article: Article): boolean {
+  if (article.category === 'Tariffs & Logistics') return true;
+
+  return article.tags.some((tag) => POLICY_SIGNAL_TAGS.has(tag.toLowerCase()));
+}
+
+export function getPolicyStories(count = 4): Article[] {
+  const safeCount = Math.min(Math.max(count, 2), 4);
+  const minimumCount = 2;
+  const byRecency = [...articles].sort(
+    (a, b) => new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime()
+  );
+  const selected: Article[] = [];
+
+  for (const slug of POLICY_PRIORITY_SLUGS) {
+    const match = byRecency.find((article) => article.slug === slug);
+    if (match) selected.push(match);
+  }
+
+  for (const article of byRecency) {
+    if (selected.some((item) => item.id === article.id)) continue;
+    if (!isPolicyArticle(article)) continue;
+    selected.push(article);
+    if (selected.length >= safeCount) break;
+  }
+
+  if (selected.length < minimumCount) {
+    for (const article of byRecency) {
+      if (selected.some((item) => item.id === article.id)) continue;
+      if (!['Tariffs & Logistics', 'Market Intelligence'].includes(article.category)) continue;
+      selected.push(article);
+      if (selected.length >= minimumCount) break;
+    }
+  }
+
+  return selected.slice(0, safeCount);
+}
+
 export function getArticlesByAuthorSlug(slug: string): Article[] {
   return articles
     .filter((a) => a.author.slug === slug)
