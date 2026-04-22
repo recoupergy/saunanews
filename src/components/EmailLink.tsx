@@ -9,7 +9,7 @@ interface EmailLinkProps {
 }
 
 /**
- * Renders hello@saunanews.com as a mailto link.
+ * Renders arlene@arlenescott.com as a mailto link.
  * The address is assembled client-side from split parts — never present in
  * static HTML — so scrapers that don't execute JavaScript cannot harvest it.
  */
@@ -19,8 +19,8 @@ export default function EmailLink({ className, children }: EmailLinkProps) {
   useEffect(() => {
     if (!ref.current) return;
     // Split across two variables so the string never appears verbatim in source
-    const u = ['hel', 'lo'].join('');
-    const d = ['sauna', 'news', '.com'].join('');
+    const u = ['arl', 'ene'].join('');
+    const d = ['arlene', 'scott', '.com'].join('');
     const addr = `${u}\u0040${d}`;
     ref.current.href = `mailto:${addr}`;
     if (!children) ref.current.textContent = addr;

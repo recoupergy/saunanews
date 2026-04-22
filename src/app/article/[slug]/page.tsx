@@ -14,6 +14,7 @@ import EventsCalendar from '@/components/EventsCalendar';
 import type { EventCategory, EventOrganization } from '@/data/events';
 import { getArticleCanonicalUrl, getArticleHeadline } from '@/data/article-seo';
 import { getArticleDateModified } from '@/data/article-history.server';
+import { getAuthorBySlug } from '@/data/authors';
 
 export const dynamicParams = false;
 
@@ -182,6 +183,11 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const articleUrl = getArticleCanonicalUrl(article);
   const articleHeadline = getArticleHeadline(article);
   const articleModifiedDate = getArticleDateModified(article);
+  const canonicalAuthor = getAuthorBySlug(article.author.slug);
+  const articleAuthor = {
+    ...article.author,
+    ...(canonicalAuthor ?? {}),
+  };
   const primaryEntities = getPrimaryEntities(article);
   const imageAlt = primaryEntities.length > 0
     ? `${articleHeadline} — ${primaryEntities.join(', ')}`
@@ -199,13 +205,14 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       ...(article.featuredImage ? { image: article.featuredImage } : {}),
       author: {
         '@type': 'Person',
-        name: article.author.name,
-        jobTitle: article.author.role,
-        url: `https://www.saunanews.com/author/${article.author.slug}`,
-        ...(article.author.sameAs ? { sameAs: article.author.sameAs } : {}),
-        ...(article.author.image ? { image: article.author.image } : {}),
-        ...(article.author.alumniOf ? { alumniOf: article.author.alumniOf } : {}),
-        ...(article.author.knowsAbout ? { knowsAbout: article.author.knowsAbout } : {}),
+        name: articleAuthor.name,
+        jobTitle: articleAuthor.role,
+        url: `https://www.saunanews.com/author/${articleAuthor.slug}`,
+        ...(articleAuthor.sameAs ? { sameAs: articleAuthor.sameAs } : {}),
+        ...(articleAuthor.image ? { image: articleAuthor.image } : {}),
+        ...(articleAuthor.alumniOf ? { alumniOf: articleAuthor.alumniOf } : {}),
+        ...(articleAuthor.knowsAbout ? { knowsAbout: articleAuthor.knowsAbout } : {}),
+        ...(articleAuthor.email ? { email: articleAuthor.email } : {}),
       },
       publisher: {
         '@type': 'Organization',
@@ -280,11 +287,11 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
             {/* Meta */}
             <div className="flex flex-wrap items-center gap-4 text-sm text-stone-dark dark:text-dark-muted">
-              <Link href={`/author/${article.author.slug}`} className="flex items-center gap-2 group/author">
-                <div className="relative w-10 h-10 rounded-full overflow-hidden border border-border dark:border-dark-border"><Image src={article.author.avatar} alt={`${article.author.name} portrait`} fill sizes="40px" className="object-cover" /></div>
+              <Link href={`/author/${articleAuthor.slug}`} className="flex items-center gap-2 group/author">
+                <div className="relative w-10 h-10 rounded-full overflow-hidden border border-border dark:border-dark-border"><Image src={articleAuthor.avatar} alt={`${articleAuthor.name} portrait`} fill sizes="40px" className="object-cover" /></div>
                 <div>
-                  <span className="font-medium text-charcoal dark:text-dark-text block group-hover/author:text-green dark:group-hover/author:text-brass transition-colors">{article.author.name}</span>
-                  <span className="text-xs">{article.author.role}</span>
+                  <span className="font-medium text-charcoal dark:text-dark-text block group-hover/author:text-green dark:group-hover/author:text-brass transition-colors">{articleAuthor.name}</span>
+                  <span className="text-xs">{articleAuthor.role}</span>
                 </div>
               </Link>
               <span className="text-border dark:text-dark-border hidden sm:block">&middot;</span>
@@ -381,41 +388,46 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             {/* Author bio */}
             <div className="mt-10 p-6 bg-ivory dark:bg-dark-surface rounded-xl border border-border dark:border-dark-border">
               <div className="flex items-start gap-4">
-                <Link href={`/author/${article.author.slug}`} className="shrink-0">
-                  <div className="relative w-14 h-14 rounded-full overflow-hidden border border-border dark:border-dark-border"><Image src={article.author.avatar} alt={`${article.author.name} portrait`} fill sizes="56px" className="object-cover" /></div>
+                <Link href={`/author/${articleAuthor.slug}`} className="shrink-0">
+                  <div className="relative w-14 h-14 rounded-full overflow-hidden border border-border dark:border-dark-border"><Image src={articleAuthor.avatar} alt={`${articleAuthor.name} portrait`} fill sizes="56px" className="object-cover" /></div>
                 </Link>
                 <div>
-                  <Link href={`/author/${article.author.slug}`} className="hover:text-green dark:hover:text-brass transition-colors">
-                    <h3 className="font-semibold text-charcoal dark:text-cream">{article.author.name}</h3>
+                  <Link href={`/author/${articleAuthor.slug}`} className="hover:text-green dark:hover:text-brass transition-colors">
+                    <h3 className="font-semibold text-charcoal dark:text-cream">{articleAuthor.name}</h3>
                   </Link>
-                  <p className="text-sm text-stone-dark dark:text-dark-muted mb-2">{article.author.role}</p>
+                  <p className="text-sm text-stone-dark dark:text-dark-muted mb-2">{articleAuthor.role}</p>
                   <p className="text-sm text-stone-dark dark:text-dark-muted leading-relaxed">
-                    {article.author.shortBio ?? article.author.bio}
+                    {articleAuthor.shortBio ?? articleAuthor.bio}
                   </p>
                   <div className="mt-3 flex flex-wrap gap-3 text-sm">
-                    {article.author.website && (
-                      <a href={article.author.website} target="_blank" rel="noopener noreferrer" className="font-medium text-green dark:text-brass hover:underline">
+                    {articleAuthor.email && (
+                      <a href={`mailto:${articleAuthor.email}`} className="font-medium text-green dark:text-brass hover:underline">
+                        {articleAuthor.email}
+                      </a>
+                    )}
+                    {articleAuthor.website && (
+                      <a href={articleAuthor.website} target="_blank" rel="noopener noreferrer" className="font-medium text-green dark:text-brass hover:underline">
                         Professional site
                       </a>
                     )}
-                    {article.author.linkedin && (
-                      <a href={article.author.linkedin} target="_blank" rel="noopener noreferrer" className="font-medium text-green dark:text-brass hover:underline">
+                    {articleAuthor.linkedin && (
+                      <a href={articleAuthor.linkedin} target="_blank" rel="noopener noreferrer" className="font-medium text-green dark:text-brass hover:underline">
                         LinkedIn
                       </a>
                     )}
                   </div>
-                  {article.author.extendedBio && article.author.extendedBio.length > 0 && (
+                  {articleAuthor.extendedBio && articleAuthor.extendedBio.length > 0 && (
                     <details className="mt-3 rounded-lg border border-border dark:border-dark-border p-3 bg-surface dark:bg-dark-bg">
                       <summary className="cursor-pointer font-medium text-charcoal dark:text-cream">Full byline</summary>
                       <div className="mt-2 space-y-2 text-sm text-stone-dark dark:text-dark-muted leading-relaxed">
-                        {article.author.extendedBio.map((paragraph) => (
+                        {articleAuthor.extendedBio.map((paragraph) => (
                           <p key={paragraph}>{paragraph}</p>
                         ))}
                       </div>
                     </details>
                   )}
                   <Link
-                    href={`/author/${article.author.slug}`}
+                    href={`/author/${articleAuthor.slug}`}
                     className="inline-block mt-3 text-sm font-medium text-green dark:text-brass hover:underline transition-colors"
                   >
                     View all articles
