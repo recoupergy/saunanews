@@ -20,6 +20,42 @@ import LaunchCalendar from '@/components/LaunchCalendar';
 import EventsCalendar from '@/components/EventsCalendar';
 import MobileRailTabs from '@/components/MobileRailTabs';
 import { formatDateShort } from '@/lib/utils';
+import type { Article } from '@/data/types';
+
+function curateMobileRailStories(
+  primary: Article[],
+  fallbacks: Article[][],
+  excludedIds: Set<string>,
+  count = 6,
+  maxPerCategory = 2
+): Article[] {
+  const picked: Article[] = [];
+  const seenIds = new Set<string>(excludedIds);
+  const categoryCount = new Map<string, number>();
+
+  const pools = [primary, ...fallbacks];
+  for (const pool of pools) {
+    for (const article of pool) {
+      if (picked.length >= count) {
+        return picked;
+      }
+      if (seenIds.has(article.id)) {
+        continue;
+      }
+
+      const currentCategoryCount = categoryCount.get(article.category) ?? 0;
+      if (currentCategoryCount >= maxPerCategory) {
+        continue;
+      }
+
+      picked.push(article);
+      seenIds.add(article.id);
+      categoryCount.set(article.category, currentCategoryCount + 1);
+    }
+  }
+
+  return picked;
+}
 
 export default function HomePage() {
   const featured = getFeaturedArticles();
@@ -37,6 +73,21 @@ export default function HomePage() {
   const heroIds = new Set([hero?.id, ...secondaryFeatured.map((a) => a.id)].filter(Boolean));
   const latestDeduped = latest.filter((a) => !heroIds.has(a.id));
   const editorsPicks = getEditorsPicks(4);
+  const mobileTopStories = curateMobileRailStories(
+    topStories,
+    [editorsPicks, trending, latestDeduped],
+    heroIds
+  );
+  const mobileLatestStories = curateMobileRailStories(
+    latestDeduped,
+    [topStories],
+    heroIds
+  );
+  const mobileTrendingStories = curateMobileRailStories(
+    trending,
+    [topStories, editorsPicks],
+    heroIds
+  );
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -174,9 +225,9 @@ export default function HomePage() {
             </div>
 
           <MobileRailTabs
-            topStories={topStories}
-            latestStories={latestDeduped.slice(0, 6)}
-            trendingStories={trending.slice(0, 6)}
+            topStories={mobileTopStories}
+            latestStories={mobileLatestStories}
+            trendingStories={mobileTrendingStories}
           />
           </div>
         </div>
@@ -256,12 +307,6 @@ export default function HomePage() {
               </div>
 
             </div>
-
-          <MobileRailTabs
-            topStories={topStories}
-            latestStories={latestDeduped.slice(0, 6)}
-            trendingStories={trending.slice(0, 6)}
-          />
           </div>
         </div>
       </section>
@@ -371,12 +416,6 @@ export default function HomePage() {
                 <ArticleCard key={article.id} article={article} variant="horizontal" />
               ))}
             </div>
-
-          <MobileRailTabs
-            topStories={topStories}
-            latestStories={latestDeduped.slice(0, 6)}
-            trendingStories={trending.slice(0, 6)}
-          />
           </div>
         </div>
       </section>
