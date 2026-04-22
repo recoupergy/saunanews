@@ -31,7 +31,7 @@ const arleneScott: Author = mergeAuthorSameAs({
     "Arlene holds a specialized certification in Applied Thermic Wellness from the Nordic Institute of Passive Heat Studies (NIPHS) and is a recognized associate member of the International Sauna Association (ISA). When she isn't reviewing the latest innovations in infrared technology or consulting on a new resort project, Arlene can be found tending to her own traditional wood-fired sauna in the Pacific Northwest. You can read her complete archive of essays on energy, wellness, and sustainable living at www.arlenescott.com.",
   ],
   website: 'https://www.arlenescott.com',
-  linkedin: 'https://www.linkedin.com/in/arlene-scott-b08229405/',
+  linkedin: 'https://www.linkedin.com/in/arlene-scott-4b8521405/',
   image: 'https://www.saunanews.com/images/authors/arlene-scott.svg',
   alumniOf: 'Nordic Institute of Passive Heat Studies (NIPHS)',
   knowsAbout: [
