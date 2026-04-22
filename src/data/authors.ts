@@ -1,41 +1,35 @@
 import { Author } from './types';
 
+const arleneScott: Author = {
+  name: 'Arlene Scott',
+  role: 'Senior Wellness Correspondent & Hospitality Consultant',
+  avatar: '/images/authors/arlene-scott.svg',
+  slug: 'arlene-scott',
+  bio: 'Arlene Scott is a Senior Wellness Correspondent for SaunaNews.com, bringing over fifteen years of experience at the intersection of energy infrastructure, sustainable design, and thermotherapy.',
+  shortBio:
+    'Arlene Scott brings over fifteen years of reporting and consulting experience across energy infrastructure, sustainable design, and thermotherapy-focused hospitality.',
+  extendedBio: [
+    'Arlene Scott is a Senior Wellness Correspondent for SaunaNews.com, bringing over fifteen years of experience at the intersection of energy infrastructure, sustainable design, and thermotherapy. Her work focuses on the physiological benefits of passive heat therapies and the sustainable integration of sauna culture into modern wellness routines.',
+    "Arlene's background is rooted in the clean energy transition. She was a founding writer at MicrogridMedia.com, where she covered the technical and economic viability of desalination projects, microgrid deployments, and distributed renewable energy systems. During the mid-2010s, she was a regular contributor to Greentech Media (GTM) during its independent era — prior to the Wood Mackenzie acquisition in 2016 — reporting on the early integration of thermal energy storage and sustainable infrastructure.",
+    'Transitioning her focus from macro-energy systems to human-scale wellness, Arlene now applies her technical background to the hospitality sector. She operates as an independent consultant, advising boutique hotels and eco-resorts on the design, energy efficiency, and historical authenticity of commercial sauna and thermal spa installations. Her consulting work ensures that high-end wellness facilities balance traditional Nordic bathing principles with modern sustainable engineering.',
+    "Arlene holds a specialized certification in Applied Thermic Wellness from the Nordic Institute of Passive Heat Studies (NIPHS) and is a recognized associate member of the International Sauna Association (ISA). When she isn't reviewing the latest innovations in infrared technology or consulting on a new resort project, Arlene can be found tending to her own traditional wood-fired sauna in the Pacific Northwest. You can read her complete archive of essays on energy, wellness, and sustainable living at ArleneScott.com.",
+  ],
+  website: 'https://ArleneScott.com',
+  linkedin: 'https://www.linkedin.com/in/arlene-scott/',
+  sameAs: ['https://ArleneScott.com', 'https://www.linkedin.com/in/arlene-scott/'],
+  image: 'https://www.saunanews.com/images/authors/arlene-scott.svg',
+  alumniOf: 'Nordic Institute of Passive Heat Studies (NIPHS)',
+  knowsAbout: [
+    'Thermotherapy',
+    'Sauna culture',
+    'Sustainable wellness design',
+    'Energy infrastructure',
+    'Hospitality consulting',
+  ],
+};
+
 export const authors: Record<string, Author> = {
-  elise: {
-    name: 'Elise Lindgren',
-    role: 'Editor-in-Chief',
-    avatar: '/authors/elise.jpg',
-    slug: 'elise-lindgren',
-    bio: 'Elise Lindgren has covered the global sauna and wellness industry for over fifteen years, first as a business journalist in Stockholm and later as founding editor of SaunaNews. She has reported from trade floors in Helsinki, factory lines in Estonia, and boardrooms across three continents. Under her editorial leadership, SaunaNews has become the go-to source for decision-makers across the sauna supply chain.',
-  },
-  marcus: {
-    name: 'Marcus Hale',
-    role: 'Market Analyst',
-    avatar: '/authors/marcus.jpg',
-    slug: 'marcus-hale',
-    bio: 'Marcus Hale brings a decade of experience in commodity and building-products market analysis to SaunaNews. Before joining the publication, he tracked timber futures and specialty construction materials for a London-based advisory firm. His weekly market briefings and pricing forecasts are read by distributors, investors, and manufacturers seeking an edge in a rapidly evolving sector.',
-  },
-  sofia: {
-    name: 'Sofia Mäkelä',
-    role: 'Industry Reporter',
-    avatar: '/authors/sofia.jpg',
-    slug: 'sofia-makela',
-    bio: 'Sofia Mäkelä is an industry reporter based in Helsinki with deep ties to the Nordic sauna manufacturing community. A graduate of Aalto University, she spent five years covering industrial technology for Kauppalehti before turning her focus to the sauna sector full-time. Her reporting on supply-chain dynamics and manufacturer strategy has broken several major stories in the trade press.',
-  },
-  james: {
-    name: 'James Chen',
-    role: 'Trade & Policy Correspondent',
-    avatar: '/authors/james.jpg',
-    slug: 'james-chen',
-    bio: 'James Chen covers international trade policy, tariffs, and cross-border logistics as they affect the sauna and wellness equipment industry. Based in Washington, D.C., he previously reported on Asia-Pacific trade corridors for a major wire service. His analysis of regulatory shifts and their downstream impact on pricing and sourcing has made him an essential voice for importers and exporters alike.',
-  },
-  anna: {
-    name: 'Anna Virtanen',
-    role: 'Wellness & Culture Editor',
-    avatar: '/authors/anna.jpg',
-    slug: 'anna-virtanen',
-    bio: 'Anna Virtanen explores the intersection of sauna culture, wellness science, and hospitality design. A former spa director with a background in integrative health, she joined SaunaNews to bridge the gap between the commercial side of the industry and the lived experience of sauna bathing. Her features on emerging wellness trends and resort programming are widely shared across the hospitality sector.',
-  },
+  arlene: arleneScott,
 };
 
 export function getAuthorBySlug(slug: string): Author | undefined {
@@ -45,3 +39,5 @@ export function getAuthorBySlug(slug: string): Author | undefined {
 export function getAllAuthorSlugs(): string[] {
   return Object.values(authors).map((author) => author.slug);
 }
+
+export const defaultAuthor = arleneScott;

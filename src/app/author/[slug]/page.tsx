@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import Image from 'next/image';
 import Link from 'next/link';
 import { getAuthorBySlug, getAllAuthorSlugs } from '@/data/authors';
 import { getArticlesByAuthorSlug } from '@/data/articles';
@@ -24,6 +25,7 @@ export function generateMetadata({ params }: { params: Promise<{ slug: string }>
         type: 'profile',
         url: canonicalUrl,
         siteName: 'SaunaNews',
+        ...(author.image ? { images: [{ url: author.image }] } : {}),
       },
       twitter: {
         card: 'summary',
@@ -54,6 +56,10 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
     worksFor: { '@type': 'Organization', name: 'SaunaNews', url: 'https://www.saunanews.com' },
     url: authorUrl,
     description: author.bio,
+    ...(author.sameAs ? { sameAs: author.sameAs } : {}),
+    ...(author.image ? { image: author.image } : {}),
+    ...(author.alumniOf ? { alumniOf: author.alumniOf } : {}),
+    ...(author.knowsAbout ? { knowsAbout: author.knowsAbout } : {}),
   };
   const breadcrumbJsonLd = {
     '@context': 'https://schema.org',
@@ -69,10 +75,8 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
-      {/* Author Header */}
       <section className="bg-cream dark:bg-dark-bg border-b border-border dark:border-dark-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
-          {/* Breadcrumb */}
           <div className="flex items-center gap-2 text-sm text-stone-dark dark:text-dark-muted mb-8">
             <Link href="/" className="hover:text-green dark:hover:text-brass transition-colors">Home</Link>
             <span>/</span>
@@ -82,26 +86,43 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
           </div>
 
           <div className="flex flex-col sm:flex-row items-start gap-6 sm:gap-8">
-            {/* Avatar */}
-            <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-full bg-stone/30 dark:bg-dark-border shrink-0" />
+            <div className="relative w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden shrink-0 border border-border dark:border-dark-border">
+              <Image src={author.avatar} alt={`${author.name} portrait`} fill sizes="112px" className="object-cover" priority />
+            </div>
 
-            {/* Info */}
             <div className="flex-1">
               <h1 className="font-editorial text-3xl sm:text-4xl font-bold text-charcoal dark:text-cream mb-1">
                 {author.name}
               </h1>
-              <p className="text-base text-green dark:text-brass font-medium mb-4">
-                {author.role}, SaunaNews
-              </p>
-              <p className="text-warm-gray dark:text-dark-muted leading-relaxed max-w-2xl">
-                {author.bio}
-              </p>
+              <p className="text-base text-green dark:text-brass font-medium mb-4">{author.role}</p>
+              <p className="text-warm-gray dark:text-dark-muted leading-relaxed max-w-2xl">{author.shortBio ?? author.bio}</p>
+              <div className="mt-4 flex flex-wrap gap-4 text-sm">
+                {author.website && (
+                  <a href={author.website} target="_blank" rel="noopener noreferrer" className="font-medium text-green dark:text-brass hover:underline">
+                    Professional site
+                  </a>
+                )}
+                {author.linkedin && (
+                  <a href={author.linkedin} target="_blank" rel="noopener noreferrer" className="font-medium text-green dark:text-brass hover:underline">
+                    LinkedIn
+                  </a>
+                )}
+              </div>
+              {author.extendedBio && author.extendedBio.length > 0 && (
+                <details className="mt-5 rounded-lg border border-border dark:border-dark-border p-4 bg-ivory dark:bg-dark-surface">
+                  <summary className="cursor-pointer font-medium text-charcoal dark:text-cream">Full byline</summary>
+                  <div className="mt-3 space-y-3 text-sm leading-relaxed text-stone-dark dark:text-dark-muted">
+                    {author.extendedBio.map((paragraph) => (
+                      <p key={paragraph}>{paragraph}</p>
+                    ))}
+                  </div>
+                </details>
+              )}
             </div>
           </div>
         </div>
       </section>
 
-      {/* Articles */}
       <section className="bg-surface dark:bg-dark-bg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <h2 className="font-editorial text-2xl font-bold text-charcoal dark:text-cream mb-8 border-b border-border dark:border-dark-border pb-4">
@@ -125,7 +146,6 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
         </div>
       </section>
 
-      {/* Newsletter */}
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <NewsletterSignup />
       </div>
