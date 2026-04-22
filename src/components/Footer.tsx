@@ -125,8 +125,8 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} SaunaNews. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
-            <a href="#" className="text-xs text-cream/30 hover:text-cream/60 transition-colors">Privacy Policy</a>
-            <a href="#" className="text-xs text-cream/30 hover:text-cream/60 transition-colors">Terms of Use</a>
+            <Link href="/privacy-policy" className="text-xs text-cream/30 hover:text-cream/60 transition-colors">Privacy Policy</Link>
+            <Link href="/terms-of-use" className="text-xs text-cream/30 hover:text-cream/60 transition-colors">Terms of Use</Link>
             <Link href="/about" className="text-xs text-cream/30 hover:text-cream/60 transition-colors">Editorial Ethics</Link>
           </div>
         </div>
