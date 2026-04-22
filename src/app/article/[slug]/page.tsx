@@ -14,7 +14,7 @@ import EventsCalendar from '@/components/EventsCalendar';
 import type { EventCategory, EventOrganization } from '@/data/events';
 import { getArticleCanonicalUrl, getArticleHeadline } from '@/data/article-seo';
 import { getArticleDateModified } from '@/data/article-history.server';
-import { getAuthorBySlug } from '@/data/authors';
+import { getAuthorBySlug, getAuthorProfileLinks } from '@/data/authors';
 
 export const dynamicParams = false;
 
@@ -188,6 +188,10 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     ...article.author,
     ...(canonicalAuthor ?? {}),
   };
+  const authorProfileLinks = getAuthorProfileLinks(articleAuthor);
+  const authorSameAs = Array.from(
+    new Set([...(articleAuthor.sameAs ?? []), ...authorProfileLinks.map((profile) => profile.href)]),
+  );
   const primaryEntities = getPrimaryEntities(article);
   const imageAlt = primaryEntities.length > 0
     ? `${articleHeadline} — ${primaryEntities.join(', ')}`
@@ -208,7 +212,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         name: articleAuthor.name,
         jobTitle: articleAuthor.role,
         url: `https://www.saunanews.com/author/${articleAuthor.slug}`,
-        ...(articleAuthor.sameAs ? { sameAs: articleAuthor.sameAs } : {}),
+        ...(authorSameAs.length > 0 ? { sameAs: authorSameAs } : {}),
         ...(articleAuthor.image ? { image: articleAuthor.image } : {}),
         ...(articleAuthor.alumniOf ? { alumniOf: articleAuthor.alumniOf } : {}),
         ...(articleAuthor.knowsAbout ? { knowsAbout: articleAuthor.knowsAbout } : {}),
@@ -294,6 +298,26 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
                   <span className="text-xs">{articleAuthor.role}</span>
                 </div>
               </Link>
+              {authorProfileLinks.length > 0 && (
+                <>
+                  <span className="text-border dark:text-dark-border hidden sm:block">&middot;</span>
+                  <span className="text-xs">
+                    {authorProfileLinks.map((profile, index) => (
+                      <span key={profile.href}>
+                        {index > 0 && <span className="mx-1">&middot;</span>}
+                        <a
+                          href={profile.href}
+                          target="_blank"
+                          rel="noopener noreferrer me"
+                          className="hover:text-green dark:hover:text-brass transition-colors"
+                        >
+                          {profile.label}
+                        </a>
+                      </span>
+                    ))}
+                  </span>
+                </>
+              )}
               <span className="text-border dark:text-dark-border hidden sm:block">&middot;</span>
               <span>{formatDate(article.publishDate)}</span>
               <span className="text-border dark:text-dark-border hidden sm:block">&middot;</span>
@@ -405,16 +429,17 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
                         {articleAuthor.email}
                       </a>
                     )}
-                    {articleAuthor.website && (
-                      <a href={articleAuthor.website} target="_blank" rel="noopener noreferrer" className="font-medium text-green dark:text-brass hover:underline">
-                        Professional site
+                    {authorProfileLinks.map((profile) => (
+                      <a
+                        key={profile.href}
+                        href={profile.href}
+                        target="_blank"
+                        rel="noopener noreferrer me"
+                        className="font-medium text-green dark:text-brass hover:underline"
+                      >
+                        {profile.label}
                       </a>
-                    )}
-                    {articleAuthor.linkedin && (
-                      <a href={articleAuthor.linkedin} target="_blank" rel="noopener noreferrer" className="font-medium text-green dark:text-brass hover:underline">
-                        LinkedIn
-                      </a>
-                    )}
+                    ))}
                   </div>
                   {articleAuthor.extendedBio && articleAuthor.extendedBio.length > 0 && (
                     <details className="mt-3 rounded-lg border border-border dark:border-dark-border p-3 bg-surface dark:bg-dark-bg">

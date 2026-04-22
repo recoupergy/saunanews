@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
-import { getAuthorBySlug, getAllAuthorSlugs } from '@/data/authors';
+import { getAuthorBySlug, getAllAuthorSlugs, getAuthorProfileLinks } from '@/data/authors';
 import { getArticlesByAuthorSlug } from '@/data/articles';
 import ArticleCard from '@/components/ArticleCard';
 import NewsletterSignup from '@/components/NewsletterSignup';
@@ -46,6 +46,10 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
   }
 
   const authorArticles = getArticlesByAuthorSlug(slug);
+  const profileLinks = getAuthorProfileLinks(author);
+  const authorSameAs = Array.from(
+    new Set([...(author.sameAs ?? []), ...profileLinks.map((profile) => profile.href)]),
+  );
 
   const authorUrl = `https://www.saunanews.com/author/${author.slug}`;
   const personJsonLd = {
@@ -57,7 +61,7 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
     url: authorUrl,
     description: author.bio,
     ...(author.email ? { email: author.email } : {}),
-    ...(author.sameAs ? { sameAs: author.sameAs } : {}),
+    ...(authorSameAs.length > 0 ? { sameAs: authorSameAs } : {}),
     ...(author.image ? { image: author.image } : {}),
     ...(author.alumniOf ? { alumniOf: author.alumniOf } : {}),
     ...(author.knowsAbout ? { knowsAbout: author.knowsAbout } : {}),
@@ -103,16 +107,17 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
                     {author.email}
                   </a>
                 )}
-                {author.website && (
-                  <a href={author.website} target="_blank" rel="noopener noreferrer" className="font-medium text-green dark:text-brass hover:underline">
-                    Professional site
+                {profileLinks.map((profile) => (
+                  <a
+                    key={profile.href}
+                    href={profile.href}
+                    target="_blank"
+                    rel="noopener noreferrer me"
+                    className="font-medium text-green dark:text-brass hover:underline"
+                  >
+                    {profile.label}
                   </a>
-                )}
-                {author.linkedin && (
-                  <a href={author.linkedin} target="_blank" rel="noopener noreferrer" className="font-medium text-green dark:text-brass hover:underline">
-                    LinkedIn
-                  </a>
-                )}
+                ))}
               </div>
               {author.extendedBio && author.extendedBio.length > 0 && (
                 <details className="mt-5 rounded-lg border border-border dark:border-dark-border p-4 bg-ivory dark:bg-dark-surface">
