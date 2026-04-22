@@ -1,5 +1,13 @@
 import Link from 'next/link';
-import { getFeaturedArticles, getTrendingArticles, getLatestArticles, getArticlesByCategory, getEditorsPicks, getTopStories } from '@/data/articles';
+import {
+  getFeaturedArticles,
+  getTrendingArticles,
+  getLatestArticles,
+  getArticlesByCategory,
+  getEditorsPicks,
+  getTopStories,
+  getPolicyStories,
+} from '@/data/articles';
 import { categories } from '@/data/categories';
 import ArticleCard from '@/components/ArticleCard';
 import SectionHeader from '@/components/SectionHeader';
@@ -19,6 +27,7 @@ export default function HomePage() {
   const topStories = getTopStories(6);
   const latest = getLatestArticles(12);
   const marketIntel = getArticlesByCategory('Market Intelligence').slice(0, 4);
+  const policyStories = getPolicyStories(4);
   const productLaunches = getArticlesByCategory('Product Launches').slice(0, 3);
   const hospitalitySpa = getArticlesByCategory('Hospitality & Spa').slice(0, 2);
   const wellnessTrends = getArticlesByCategory('Wellness Trends').slice(0, 2);
@@ -284,6 +293,13 @@ export default function HomePage() {
       {/* ===== PRODUCT LAUNCHES — Visual cards ===== */}
       <section className="bg-surface dark:bg-dark-surface border-t border-border dark:border-dark-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+          <SectionHeader title="Policy Watch" href="/category/tariffs-logistics" accentColor="#7A5A33" />
+          <div className="mb-10 grid grid-cols-1 md:grid-cols-2 gap-x-8">
+            {policyStories.map((article) => (
+              <ArticleCard key={article.id} article={article} variant="horizontal" />
+            ))}
+          </div>
+
           <SectionHeader title="Product Launches" href="/category/product-launches" accentColor="#C4956A" />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {productLaunches.map((article) => (
