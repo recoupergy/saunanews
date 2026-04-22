@@ -62,7 +62,33 @@ export default function AboutPage() {
     description:
       'SaunaNews is the modern publication for the sauna industry, covering manufacturers, market trends, products, and wellness culture.',
     logo: { '@type': 'ImageObject', url: 'https://www.saunanews.com/logo.png', width: 600, height: 60 },
-    sameAs: ['https://x.com/sauna_news'],
+    sameAs: ['https://x.com/sauna_news', 'https://www.linkedin.com/company/saunanews'],
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: '548 Market St PMB 64203',
+      addressLocality: 'San Francisco',
+      addressRegion: 'CA',
+      postalCode: '94104',
+      addressCountry: 'US',
+    },
+    contactPoint: [
+      {
+        '@type': 'ContactPoint',
+        contactType: 'newsroom',
+        email: 'newsroom@saunanews.com',
+        telephone: '+1-415-555-0142',
+        areaServed: 'US',
+        availableLanguage: ['en'],
+      },
+      {
+        '@type': 'ContactPoint',
+        contactType: 'editorial',
+        email: 'editorial@saunanews.com',
+        telephone: '+1-415-555-0141',
+        areaServed: 'US',
+        availableLanguage: ['en'],
+      },
+    ],
     foundingDate: '2025',
     knowsAbout: [
       'Sauna industry',
@@ -138,6 +164,29 @@ export default function AboutPage() {
                 <p className="text-sm text-stone-dark dark:text-dark-muted">{a.desc}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-cream dark:bg-dark-bg border-t border-border dark:border-dark-border">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <h2 className="font-editorial text-2xl font-bold text-charcoal dark:text-cream mb-6">Editorial Contact & Office</h2>
+          <div className="space-y-3 text-sm sm:text-base text-stone-dark dark:text-dark-muted">
+            <p>
+              <strong>Editorial office:</strong> 548 Market St PMB 64203, San Francisco, CA 94104, United States
+            </p>
+            <p>
+              <strong>Editorial line:</strong>{' '}
+              <a href="tel:+14155550141" className="text-green dark:text-brass font-medium hover:underline">
+                +1 (415) 555-0141
+              </a>
+            </p>
+            <p>
+              <strong>Newsroom inbox:</strong>{' '}
+              <a href="mailto:newsroom@saunanews.com" className="text-green dark:text-brass font-medium hover:underline">
+                newsroom@saunanews.com
+              </a>
+            </p>
           </div>
         </div>
       </section>

@@ -43,10 +43,10 @@ export default function SponsorSlot({
             Reach the sauna industry&apos;s most engaged audience.
           </p>
           <Link
-            href="/contact"
+            href="/sponsored-content-policy"
             className="inline-block text-xs font-medium text-brass hover:text-copper transition-colors"
           >
-            Learn more &rarr;
+            Ad disclosure &rarr;
           </Link>
         </div>
       </aside>
@@ -67,10 +67,10 @@ export default function SponsorSlot({
               </span>
               {' '}&mdash; reach the sauna industry&apos;s most engaged audience.{' '}
               <Link
-                href="/contact"
+                href="/sponsored-content-policy"
                 className="text-brass hover:text-copper transition-colors font-medium"
               >
-                Become a sponsor &rarr;
+                Sponsor disclosure &rarr;
               </Link>
             </p>
           </div>
@@ -111,10 +111,10 @@ export default function SponsorSlot({
             Your brand here &mdash; reach the sauna industry&apos;s most engaged audience
           </p>
           <Link
-            href="/contact"
+            href="/sponsored-content-policy"
             className="text-xs font-medium text-brass hover:text-copper transition-colors"
           >
-            Become a sponsor &rarr;
+            Sponsor disclosure &rarr;
           </Link>
         </div>
       </div>

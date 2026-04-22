@@ -95,6 +95,16 @@ export default function Footer() {
                   Newsletter
                 </Link>
               </li>
+              <li>
+                <Link href="/editorial-policy" className="text-sm text-cream/60 hover:text-brass transition-colors">
+                  Editorial Policy
+                </Link>
+              </li>
+              <li>
+                <Link href="/sponsored-content-policy" className="text-sm text-cream/60 hover:text-brass transition-colors">
+                  Sponsored Content Policy
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -127,7 +137,8 @@ export default function Footer() {
           <div className="flex items-center gap-6">
             <Link href="/privacy-policy" className="text-xs text-cream/30 hover:text-cream/60 transition-colors">Privacy Policy</Link>
             <Link href="/terms-of-use" className="text-xs text-cream/30 hover:text-cream/60 transition-colors">Terms of Use</Link>
-            <Link href="/about" className="text-xs text-cream/30 hover:text-cream/60 transition-colors">Editorial Ethics</Link>
+            <Link href="/editorial-policy" className="text-xs text-cream/30 hover:text-cream/60 transition-colors">Editorial Policy</Link>
+            <Link href="/sponsored-content-policy" className="text-xs text-cream/30 hover:text-cream/60 transition-colors">Sponsored Disclosure</Link>
           </div>
         </div>
       </div>
