@@ -1,4 +1,6 @@
 import { articles } from '@/data/articles';
+import { getArticleCanonicalUrl, getArticleHeadline } from '@/data/article-seo';
+import { getArticleDateModified } from '@/data/article-history.server';
 
 export const dynamic = 'force-static';
 
@@ -20,10 +22,11 @@ export function GET() {
 
   const items = sorted
     .map((article) => {
-      const url = `${BASE_URL}/article/${article.slug}`;
+      const url = getArticleCanonicalUrl(article);
+      const headline = getArticleHeadline(article);
       const pubDate = new Date(article.publishDate).toUTCString();
       return `    <item>
-      <title>${escapeXml(article.title)}</title>
+      <title>${escapeXml(headline)}</title>
       <link>${url}</link>
       <guid isPermaLink="true">${url}</guid>
       <description>${escapeXml(article.dek)}</description>
@@ -35,7 +38,9 @@ export function GET() {
     })
     .join('\n');
 
-  const lastBuildDate = new Date(sorted[0]?.publishDate ?? Date.now()).toUTCString();
+  const lastBuildDate = sorted[0]
+    ? new Date(getArticleDateModified(sorted[0])).toUTCString()
+    : new Date().toUTCString();
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"

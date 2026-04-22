@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { articles } from '@/data/articles';
+import { getArticleDateModified } from '@/data/article-history.server';
 import { categories } from '@/data/categories';
 import { authors } from '@/data/authors';
 import { harviaProducts } from '@/data/harvia-products';
@@ -21,7 +22,7 @@ function maxDateOrFallback(dates: Date[], fallback: Date): Date {
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const buildDate = new Date(DEFAULT_BUILD_TIMESTAMP);
-  const articleDates = articles.map((article) => toDate(article.publishDate));
+  const articleDates = articles.map((article) => toDate(getArticleDateModified(article)));
   const harviaDates = harviaProducts.map((product) => toDate(product.lastMentioned));
   const latestArticleDate = maxDateOrFallback(articleDates, buildDate);
   const latestHarviaDate = maxDateOrFallback(harviaDates, buildDate);
@@ -79,7 +80,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const articleRoutes: MetadataRoute.Sitemap = articles.map((article) => ({
     url: `${BASE_URL}/article/${article.slug}`,
-    lastModified: new Date(article.publishDate),
+    lastModified: new Date(getArticleDateModified(article)),
     changeFrequency: 'weekly' as const,
     priority: 0.8,
   }));
@@ -89,7 +90,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: maxDateOrFallback(
       articles
         .filter((article) => article.category === category.name)
-        .map((article) => toDate(article.publishDate)),
+        .map((article) => toDate(getArticleDateModified(article))),
       buildDate
     ),
     changeFrequency: 'daily' as const,
@@ -102,7 +103,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: maxDateOrFallback(
         articles
           .filter((article) => article.author.slug === author.slug)
-          .map((article) => toDate(article.publishDate)),
+          .map((article) => toDate(getArticleDateModified(article))),
         buildDate
       ),
       changeFrequency: 'weekly' as const,

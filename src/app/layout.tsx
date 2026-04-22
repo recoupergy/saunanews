@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import HeadlineTicker from '@/components/HeadlineTicker';
 import StickyNewsletterBar from '@/components/StickyNewsletterBar';
 import BackToTop from '@/components/BackToTop';
+import WebVitalsBudget from '@/components/WebVitalsBudget';
 import './globals.css';
 
 
@@ -81,6 +82,7 @@ export default function RootLayout({
         <Footer />
         <StickyNewsletterBar />
         <BackToTop />
+        <WebVitalsBudget />
         <Analytics />
         <SpeedInsights />
       </body>

@@ -1,8 +1,8 @@
 import { articles } from '@/data/articles';
+import { getArticleCanonicalUrl, getArticleHeadline } from '@/data/article-seo';
 
 export const dynamic = 'force-static';
 
-const BASE_URL = 'https://www.saunanews.com';
 
 function escapeXml(str: string): string {
   return str
@@ -21,15 +21,16 @@ export function GET() {
   const urls = sorted
     .map((article) => {
       const pubDate = new Date(article.publishDate).toISOString();
+      const headline = getArticleHeadline(article);
       return `  <url>
-    <loc>${BASE_URL}/article/${article.slug}</loc>
+    <loc>${getArticleCanonicalUrl(article)}</loc>
     <news:news>
       <news:publication>
         <news:name>SaunaNews</news:name>
         <news:language>en</news:language>
       </news:publication>
       <news:publication_date>${pubDate}</news:publication_date>
-      <news:title>${escapeXml(article.title)}</news:title>
+      <news:title>${escapeXml(headline)}</news:title>
     </news:news>
   </url>`;
     })
