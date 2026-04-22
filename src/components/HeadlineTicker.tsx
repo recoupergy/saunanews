@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { getLatestArticles } from '@/data/articles';
+import { getArticleHeadline } from '@/data/article-seo';
 
 export default function HeadlineTicker() {
   const articles = getLatestArticles(8);
@@ -27,7 +28,7 @@ export default function HeadlineTicker() {
                   <span className="inline-block w-1.5 h-1.5 rounded-full bg-brass/60 mr-2 shrink-0" />
                   <span className="font-medium">{article.contentType}</span>
                   <span className="mx-2 text-cream/30">|</span>
-                  <span>{article.title}</span>
+                  <span>{getArticleHeadline(article)}</span>
                 </Link>
               ))}
             </div>

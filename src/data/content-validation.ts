@@ -1,6 +1,12 @@
 import type { Article } from './types';
 import type { HarviaProduct } from './harvia-products';
 import type { ProductMediaBank } from './harvia-mediabank';
+import {
+  articleSeoConstraints,
+  getArticleCanonicalUrl,
+  getArticleHeadline,
+  validateCanonicalUrl,
+} from './article-seo';
 
 function assert(condition: unknown, message: string): asserts condition {
   if (!condition) throw new Error(`Content validation failed: ${message}`);
@@ -14,13 +20,17 @@ function isStringArray(value: unknown): value is string[] {
   return Array.isArray(value) && value.every(isString);
 }
 
+function isValidDateString(value: string): boolean {
+  return !Number.isNaN(Date.parse(value));
+}
+
 export function validateArticleIndex(data: unknown): asserts data is Array<Omit<Article, 'body'> & { bodyPath: string }> {
   assert(Array.isArray(data), 'articles index must be an array');
   data.forEach((article, i) => {
     assert(article && typeof article === 'object', `article[${i}] must be an object`);
     const a = article as Record<string, unknown>;
     [
-      'id','title','slug','dek','excerpt','contentType','category','publishDate','featuredImage','bodyPath',
+      'id', 'title', 'slug', 'dek', 'excerpt', 'contentType', 'category', 'publishDate', 'featuredImage', 'bodyPath',
     ].forEach((key) => assert(isString(a[key]), `article[${i}].${key} must be a string`));
     assert(Array.isArray(a.tags), `article[${i}].tags must be an array`);
     assert((a.tags as unknown[]).every(isString), `article[${i}].tags must contain strings`);
@@ -28,6 +38,24 @@ export function validateArticleIndex(data: unknown): asserts data is Array<Omit<
     assert(typeof a.featured === 'boolean', `article[${i}].featured must be boolean`);
     assert(typeof a.trending === 'boolean', `article[${i}].trending must be boolean`);
     assert(a.author && typeof a.author === 'object', `article[${i}].author must be an object`);
+
+    const author = a.author as Record<string, unknown>;
+    ['name', 'role', 'slug'].forEach((key) => {
+      assert(isString(author[key]) && author[key].trim().length > 0, `article[${i}].author.${key} is required`);
+    });
+
+    const publishDate = a.publishDate as string;
+    assert(isValidDateString(publishDate), `article[${i}].publishDate must be a valid date`);
+
+    const headline = getArticleHeadline({ title: a.title as string });
+    assert(headline.length > 0, `article[${i}].headline is required`);
+    assert(
+      headline.length <= articleSeoConstraints.MAX_HEADLINE_LENGTH,
+      `article[${i}].headline exceeds ${articleSeoConstraints.MAX_HEADLINE_LENGTH} chars (${headline.length})`
+    );
+
+    const canonicalUrl = getArticleCanonicalUrl({ slug: a.slug as string });
+    assert(validateCanonicalUrl(canonicalUrl), `article[${i}].canonicalUrl must be a valid HTTPS article URL`);
   });
 }
 

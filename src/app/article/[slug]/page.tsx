@@ -11,6 +11,8 @@ import ArticleImage from '@/components/ArticleImage';
 import SponsorSlot from '@/components/SponsorSlot';
 import EventsCalendar from '@/components/EventsCalendar';
 import type { EventCategory, EventOrganization } from '@/data/events';
+import { getArticleCanonicalUrl, getArticleHeadline } from '@/data/article-seo';
+import { getArticleDateModified } from '@/data/article-history.server';
 
 export const dynamicParams = false;
 
@@ -127,16 +129,16 @@ export function generateMetadata({ params }: { params: Promise<{ slug: string }>
   return params.then(({ slug }) => {
     const article = getArticleBySlug(slug);
     if (!article) return { title: 'Article Not Found' };
-    const canonicalUrl = `https://www.saunanews.com/article/${article.slug}`;
+    const canonicalUrl = getArticleCanonicalUrl(article);
     const entities = getPrimaryEntities(article);
     const imageAlt = entities.length > 0
-      ? `${article.title} — ${entities.join(', ')}`
-      : article.title;
+      ? `${getArticleHeadline(article)} — ${entities.join(', ')}`
+      : getArticleHeadline(article);
     return {
-      title: article.title,
+      title: getArticleHeadline(article),
       description: article.dek,
       openGraph: {
-        title: article.title,
+        title: getArticleHeadline(article),
         description: article.dek,
         type: 'article',
         url: canonicalUrl,
@@ -152,7 +154,7 @@ export function generateMetadata({ params }: { params: Promise<{ slug: string }>
       twitter: {
         card: 'summary_large_image',
         site: '@sauna_news',
-        title: article.title,
+        title: getArticleHeadline(article),
         description: article.dek,
         ...(article.featuredImage ? { images: [article.featuredImage] } : {}),
       },
@@ -176,20 +178,22 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     .slice(0, 3);
 
   const categorySlug = article.category.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-');
-  const articleUrl = `https://www.saunanews.com/article/${article.slug}`;
+  const articleUrl = getArticleCanonicalUrl(article);
+  const articleHeadline = getArticleHeadline(article);
+  const articleModifiedDate = getArticleDateModified(article);
   const primaryEntities = getPrimaryEntities(article);
   const imageAlt = primaryEntities.length > 0
-    ? `${article.title} — ${primaryEntities.join(', ')}`
-    : article.title;
+    ? `${articleHeadline} — ${primaryEntities.join(', ')}`
+    : articleHeadline;
 
   const jsonLd = [
     {
       '@context': 'https://schema.org',
       '@type': 'NewsArticle',
-      headline: article.title,
+      headline: articleHeadline,
       description: article.dek,
       datePublished: article.publishDate,
-      dateModified: article.publishDate,
+      dateModified: articleModifiedDate,
       url: articleUrl,
       ...(article.featuredImage ? { image: article.featuredImage } : {}),
       author: {
@@ -227,7 +231,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.saunanews.com' },
         { '@type': 'ListItem', position: 2, name: article.category, item: `https://www.saunanews.com/category/${categorySlug}` },
-        { '@type': 'ListItem', position: 3, name: article.title, item: articleUrl },
+        { '@type': 'ListItem', position: 3, name: articleHeadline, item: articleUrl },
       ],
     },
   ];
@@ -261,7 +265,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
             {/* Title */}
             <h1 className="font-editorial text-3xl sm:text-4xl lg:text-5xl font-bold text-charcoal dark:text-cream leading-tight mb-4">
-              {article.title}
+              {articleHeadline}
             </h1>
 
             {/* Dek */}
