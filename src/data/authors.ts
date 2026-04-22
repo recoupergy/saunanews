@@ -20,7 +20,7 @@ const arleneScott: Author = mergeAuthorSameAs({
   role: 'Senior Wellness Correspondent & Hospitality Consultant',
   avatar: '/images/authors/arlene-scott.svg',
   slug: 'arlene-scott',
-  email: 'hello@saunanews.com',
+  email: 'arlene@arlenescott.com',
   bio: 'Arlene Scott is a Senior Wellness Correspondent for SaunaNews.com, bringing over fifteen years of experience at the intersection of energy infrastructure, sustainable design, and thermotherapy.',
   shortBio:
     'Arlene Scott brings over fifteen years of reporting and consulting experience across energy infrastructure, sustainable design, and thermotherapy-focused hospitality.',
