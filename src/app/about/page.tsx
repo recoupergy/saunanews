@@ -93,16 +93,16 @@ export default function AboutPage() {
       {/* Mission */}
       <section className="bg-surface dark:bg-dark-surface">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <h2 className="font-editorial text-2xl font-bold text-charcoal dark:text-cream mb-6">Our Mission</h2>
+          <h2 className="font-editorial text-2xl font-bold text-charcoal dark:text-cream mb-6">WHY SAUNANEWS EXISTS</h2>
           <div className="space-y-5 text-lg text-warm-gray dark:text-dark-muted leading-relaxed">
             <p>
-              The global sauna equipment market passed $900 million in 2024 and is growing at roughly 6% annually, according to Grand View Research. Hundreds of manufacturers, thousands of dealers, and millions of consumers participate in an industry whose total addressable market is far larger when services, venues, and materials are included. Yet the industry has lacked a dedicated editorial voice with the depth, credibility, and design quality it deserves.
+              Sauna has outgrown the way it is usually covered.
             </p>
             <p>
-              SaunaNews was created to fill that gap. We provide daily reporting, market intelligence, product coverage, and editorial analysis for the professionals and enthusiasts who make up the sauna world.
+              It is no longer just a product niche or a generic wellness talking point. It now touches hospitality, public bathing, manufacturing, design, standards, real estate, trade, longevity, and culture.
             </p>
             <p>
-              Our coverage spans manufacturer news, product launches, hospitality and spa developments, wellness and longevity trends, tariffs and logistics, and market data. We aim to be the publication of record for an industry that is rapidly professionalizing and attracting serious capital.
+              SaunaNews exists to cover that category with independence, specificity, and context. For the people building it and the people trying to understand where it goes next.
             </p>
           </div>
         </div>
