@@ -141,6 +141,12 @@ export default function Header() {
                   <Link href="/events/product-launches" className="block px-4 py-2 text-sm text-charcoal hover:bg-ivory transition-colors">
                     &nbsp;&nbsp;Product Launches
                   </Link>
+                  <Link href="/events/competitions" className="block px-4 py-2 text-sm text-charcoal hover:bg-ivory transition-colors">
+                    &nbsp;&nbsp;Competitions
+                  </Link>
+                  <Link href="/events/industry" className="block px-4 py-2 text-sm text-charcoal hover:bg-ivory transition-colors">
+                    &nbsp;&nbsp;Industry Briefings
+                  </Link>
                   <Link href="/events/investor" className="block px-4 py-2 text-sm text-charcoal hover:bg-ivory transition-colors">
                     &nbsp;&nbsp;Investor Calendar
                   </Link>
@@ -272,6 +278,20 @@ export default function Header() {
               className="block px-3 py-2.5 text-sm text-stone-dark hover:bg-ivory rounded-md"
             >
               Product Launches
+            </Link>
+            <Link
+              href="/events/competitions"
+              onClick={() => setMobileOpen(false)}
+              className="block px-3 py-2.5 text-sm text-stone-dark hover:bg-ivory rounded-md"
+            >
+              Competitions
+            </Link>
+            <Link
+              href="/events/industry"
+              onClick={() => setMobileOpen(false)}
+              className="block px-3 py-2.5 text-sm text-stone-dark hover:bg-ivory rounded-md"
+            >
+              Industry Briefings
             </Link>
             <Link
               href="/events/investor"
