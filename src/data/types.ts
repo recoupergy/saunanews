@@ -23,6 +23,14 @@ export interface Author {
   avatar: string;
   slug: string;
   bio: string;
+  shortBio?: string;
+  extendedBio?: string[];
+  website?: string;
+  linkedin?: string;
+  sameAs?: string[];
+  image?: string;
+  alumniOf?: string;
+  knowsAbout?: string[];
 }
 
 export interface Article {

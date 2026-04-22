@@ -1,0 +1,15 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Arlene Scott portrait placeholder</title>
+  <desc id="desc">Illustrated placeholder avatar for Arlene Scott</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9E7D2"/>
+      <stop offset="1" stop-color="#A4B98B"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="256" cy="208" r="108" fill="#F3D9BF"/>
+  <path d="M140 420C140 344.889 200.889 284 276 284H292C367.111 284 428 344.889 428 420V512H140V420Z" fill="#263238" opacity="0.9"/>
+  <path d="M150 202C150 129.964 208.964 71 281 71C353.036 71 412 129.964 412 202V224H150V202Z" fill="#7B5B3E"/>
+  <text x="256" y="470" text-anchor="middle" fill="#F7F3E8" font-size="44" font-family="Arial, sans-serif" font-weight="700">AS</text>
+</svg>

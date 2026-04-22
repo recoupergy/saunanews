@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { articles, getArticleBySlug, getArticlesByCategory, getArticleBody } from '@/data/articles';
 import { formatDate } from '@/lib/utils';
 import ContentTypeBadge from '@/components/ContentTypeBadge';
@@ -201,6 +202,10 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         name: article.author.name,
         jobTitle: article.author.role,
         url: `https://www.saunanews.com/author/${article.author.slug}`,
+        ...(article.author.sameAs ? { sameAs: article.author.sameAs } : {}),
+        ...(article.author.image ? { image: article.author.image } : {}),
+        ...(article.author.alumniOf ? { alumniOf: article.author.alumniOf } : {}),
+        ...(article.author.knowsAbout ? { knowsAbout: article.author.knowsAbout } : {}),
       },
       publisher: {
         '@type': 'Organization',
@@ -276,7 +281,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             {/* Meta */}
             <div className="flex flex-wrap items-center gap-4 text-sm text-stone-dark dark:text-dark-muted">
               <Link href={`/author/${article.author.slug}`} className="flex items-center gap-2 group/author">
-                <div className="w-10 h-10 rounded-full bg-stone/30 dark:bg-dark-border" />
+                <div className="relative w-10 h-10 rounded-full overflow-hidden border border-border dark:border-dark-border"><Image src={article.author.avatar} alt={`${article.author.name} portrait`} fill sizes="40px" className="object-cover" /></div>
                 <div>
                   <span className="font-medium text-charcoal dark:text-dark-text block group-hover/author:text-green dark:group-hover/author:text-brass transition-colors">{article.author.name}</span>
                   <span className="text-xs">{article.author.role}</span>
@@ -377,16 +382,38 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             <div className="mt-10 p-6 bg-ivory dark:bg-dark-surface rounded-xl border border-border dark:border-dark-border">
               <div className="flex items-start gap-4">
                 <Link href={`/author/${article.author.slug}`} className="shrink-0">
-                  <div className="w-14 h-14 rounded-full bg-stone/30 dark:bg-dark-border" />
+                  <div className="relative w-14 h-14 rounded-full overflow-hidden border border-border dark:border-dark-border"><Image src={article.author.avatar} alt={`${article.author.name} portrait`} fill sizes="56px" className="object-cover" /></div>
                 </Link>
                 <div>
                   <Link href={`/author/${article.author.slug}`} className="hover:text-green dark:hover:text-brass transition-colors">
                     <h3 className="font-semibold text-charcoal dark:text-cream">{article.author.name}</h3>
                   </Link>
-                  <p className="text-sm text-stone-dark dark:text-dark-muted mb-2">{article.author.role}, SaunaNews</p>
+                  <p className="text-sm text-stone-dark dark:text-dark-muted mb-2">{article.author.role}</p>
                   <p className="text-sm text-stone-dark dark:text-dark-muted leading-relaxed">
-                    {article.author.bio}
+                    {article.author.shortBio ?? article.author.bio}
                   </p>
+                  <div className="mt-3 flex flex-wrap gap-3 text-sm">
+                    {article.author.website && (
+                      <a href={article.author.website} target="_blank" rel="noopener noreferrer" className="font-medium text-green dark:text-brass hover:underline">
+                        Professional site
+                      </a>
+                    )}
+                    {article.author.linkedin && (
+                      <a href={article.author.linkedin} target="_blank" rel="noopener noreferrer" className="font-medium text-green dark:text-brass hover:underline">
+                        LinkedIn
+                      </a>
+                    )}
+                  </div>
+                  {article.author.extendedBio && article.author.extendedBio.length > 0 && (
+                    <details className="mt-3 rounded-lg border border-border dark:border-dark-border p-3 bg-surface dark:bg-dark-bg">
+                      <summary className="cursor-pointer font-medium text-charcoal dark:text-cream">Full byline</summary>
+                      <div className="mt-2 space-y-2 text-sm text-stone-dark dark:text-dark-muted leading-relaxed">
+                        {article.author.extendedBio.map((paragraph) => (
+                          <p key={paragraph}>{paragraph}</p>
+                        ))}
+                      </div>
+                    </details>
+                  )}
                   <Link
                     href={`/author/${article.author.slug}`}
                     className="inline-block mt-3 text-sm font-medium text-green dark:text-brass hover:underline transition-colors"
