@@ -287,7 +287,7 @@ export const events: SaunaEvent[] = [
     venue: 'Paviljonki Convention Centre',
     venueUrl: 'https://paviljonki.fi/',
     officialUrl: 'https://worldsaunaforum.com/',
-    image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&q=80',
+    image: 'https://www.saunafromfinland.com/wp-content/uploads/2025/10/World-Sauna-Forum-2026-logo-square-image-bg.jpg',
     imageCaption: 'World Sauna Forum 2026 brings industry, manufacturing, and wellness research together in Jyvaskyla, Finland.',
     summary: 'The largest global sauna industry conference. Manufacturers, distributors, investors, and researchers gather in Jyvaskyla, Finland for keynotes, panels, and a trade exhibition.',
     body: `<p>The World Sauna Forum runs June 9 to 11, 2026 at Paviljonki Convention Centre in Jyvaskyla, Finland. It is the largest sauna-focused industry conference in the world and the one event where the full commercial stack (manufacturers, distributors, dealers, commercial operators, academics, and investors) gathers in person.</p>
@@ -342,7 +342,7 @@ export const events: SaunaEvent[] = [
     location: 'Oslo, Norway',
     venue: 'Oslo Congress Center',
     officialUrl: 'https://www.isa.sauna.fi/',
-    image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&q=80',
+    image: 'https://www.saunafromfinland.com/wp-content/uploads/2024/12/International-Sauna-Congress-logo-3.jpg',
     imageCaption: 'The International Sauna Congress is the biennial research and industry summit of the International Sauna Association.',
     summary: 'Biennial congress of the International Sauna Association covering research, standards, public health, and commercial sauna practice. Hosted by the Norwegian Sauna Association in 2026.',
     body: `<p>The XIX International Sauna Congress runs September 24 to 26, 2026 in Oslo, Norway, hosted by the Norwegian Sauna Association on behalf of the International Sauna Association (ISA). The Congress is biennial and is where the scientific, medical, and commercial-standards communities converge on the same agenda.</p>
