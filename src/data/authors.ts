@@ -1,6 +1,21 @@
 import { Author } from './types';
 
-const arleneScott: Author = {
+function mergeAuthorSameAs(author: Author): Author {
+  const sameAs = Array.from(
+    new Set([
+      ...(author.sameAs ?? []),
+      ...(author.website ? [author.website] : []),
+      ...(author.linkedin ? [author.linkedin] : []),
+    ]),
+  );
+
+  return {
+    ...author,
+    ...(sameAs.length > 0 ? { sameAs } : {}),
+  };
+}
+
+const arleneScott: Author = mergeAuthorSameAs({
   name: 'Arlene Scott',
   role: 'Senior Wellness Correspondent & Hospitality Consultant',
   avatar: '/images/authors/arlene-scott.svg',
@@ -17,7 +32,6 @@ const arleneScott: Author = {
   ],
   website: 'https://www.arlenescott.com',
   linkedin: 'https://www.linkedin.com/in/arlene-scott-b08229405/',
-  sameAs: ['https://www.arlenescott.com', 'https://www.linkedin.com/in/arlene-scott-b08229405/'],
   image: 'https://www.saunanews.com/images/authors/arlene-scott.svg',
   alumniOf: 'Nordic Institute of Passive Heat Studies (NIPHS)',
   knowsAbout: [
@@ -27,7 +41,7 @@ const arleneScott: Author = {
     'Energy infrastructure',
     'Hospitality consulting',
   ],
-};
+});
 
 export const authors: Record<string, Author> = {
   arlene: arleneScott,
@@ -39,6 +53,15 @@ export function getAuthorBySlug(slug: string): Author | undefined {
 
 export function getAllAuthorSlugs(): string[] {
   return Object.values(authors).map((author) => author.slug);
+}
+
+export function getAuthorProfileLinks(author: Author): { href: string; label: string }[] {
+  const profileLinks = [
+    ...(author.website ? [{ href: author.website, label: 'Professional site' }] : []),
+    ...(author.linkedin ? [{ href: author.linkedin, label: 'LinkedIn' }] : []),
+  ];
+
+  return profileLinks;
 }
 
 export const defaultAuthor = arleneScott;
