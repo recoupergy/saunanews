@@ -385,15 +385,18 @@ export default function HomePage() {
                 <span className="text-cream dark:text-charcoal font-bold text-2xl font-editorial">S</span>
               </div>
               <h2 className="font-editorial text-3xl font-bold text-charcoal dark:text-cream">
-                Why SaunaNews Exists
+                WHY SAUNANEWS EXISTS
               </h2>
             </div>
             <div className="lg:col-span-3">
               <p className="text-base text-warm-gray dark:text-dark-muted leading-relaxed mb-4">
-                The sauna equipment market is growing at roughly 6% annually, attracting significant investment, and reshaping wellness and hospitality. Yet it has lacked a dedicated editorial voice with the depth and credibility it deserves.
+                Sauna has outgrown the way it is usually covered.
               </p>
               <p className="text-base text-warm-gray dark:text-dark-muted leading-relaxed mb-6">
-                SaunaNews fills that gap. Independent reporting on the manufacturers, products, projects, and market forces shaping the category — for the people who build, sell, design, and follow the sauna world.
+                It is no longer just a product niche or a generic wellness talking point. It now touches hospitality, public bathing, manufacturing, design, standards, real estate, trade, longevity, and culture.
+              </p>
+              <p className="text-base text-warm-gray dark:text-dark-muted leading-relaxed mb-6">
+                SaunaNews exists to cover that category with independence, specificity, and context. For the people building it and the people trying to understand where it goes next.
               </p>
               <div className="flex flex-wrap gap-3">
                 <Link
