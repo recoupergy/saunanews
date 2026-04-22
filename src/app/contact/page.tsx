@@ -118,14 +118,14 @@ export default function ContactPage() {
             </p>
             <p>
               <strong>Newsroom inbox:</strong>{' '}
-              <a href="mailto:newsroom@saunanews.com" className="text-green dark:text-brass font-medium hover:underline">
-                newsroom@saunanews.com
+              <a href="mailto:arlene@arlenescott.com" className="text-green dark:text-brass font-medium hover:underline">
+                arlene@arlenescott.com
               </a>
             </p>
             <p>
               <strong>Editorial inbox:</strong>{' '}
-              <a href="mailto:editorial@saunanews.com" className="text-green dark:text-brass font-medium hover:underline">
-                editorial@saunanews.com
+              <a href="mailto:arlene@arlenescott.com" className="text-green dark:text-brass font-medium hover:underline">
+                arlene@arlenescott.com
               </a>
             </p>
           </div>

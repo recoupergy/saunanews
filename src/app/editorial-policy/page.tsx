@@ -38,7 +38,7 @@ const policySections = [
     points: [
       'If we publish a material error, we correct it promptly and transparently.',
       'Substantive corrections are noted on-page with a date and a plain-language explanation of what changed.',
-      'To report a potential error, email our newsroom at newsroom@saunanews.com.',
+      'To report a potential error, email our newsroom at arlene@arlenescott.com.',
     ],
   },
   {
@@ -100,8 +100,8 @@ export default function EditorialPolicyPage() {
       <section className="bg-ivory dark:bg-dark-bg border-t border-border dark:border-dark-border">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-10 text-sm sm:text-base text-stone-dark dark:text-dark-muted">
           Questions or concerns about this policy? Contact the editorial team at{' '}
-          <a href="mailto:newsroom@saunanews.com" className="text-green dark:text-brass font-medium hover:underline">
-            newsroom@saunanews.com
+          <a href="mailto:arlene@arlenescott.com" className="text-green dark:text-brass font-medium hover:underline">
+            arlene@arlenescott.com
           </a>
           . For sponsored placements, see{' '}
           <Link href="/sponsored-content-policy" className="text-green dark:text-brass font-medium hover:underline">
