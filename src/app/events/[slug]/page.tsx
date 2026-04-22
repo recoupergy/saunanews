@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { events, getEventBySlug, formatEventDateRange } from '@/data/events';
+import { stringifyJsonLd, toIso8601 } from '@/lib/structured-data';
 
 export const dynamicParams = false;
 
@@ -53,14 +54,17 @@ export default async function EventPage({ params }: { params: Promise<{ slug: st
     '@type': 'Event',
     name: event.title,
     description: event.summary,
-    startDate: event.startDate,
-    endDate: event.endDate,
+    startDate: toIso8601(event.startDate),
+    endDate: toIso8601(event.endDate),
     eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
     eventStatus: 'https://schema.org/EventScheduled',
     location: {
       '@type': 'Place',
       name: event.venue,
-      address: event.location,
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: event.location,
+      },
     },
     image: [event.image],
     url: eventUrl,
@@ -75,7 +79,7 @@ export default async function EventPage({ params }: { params: Promise<{ slug: st
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: stringifyJsonLd(jsonLd) }}
       />
       <article>
         <header className="bg-cream dark:bg-dark-bg border-b border-border dark:border-dark-border">

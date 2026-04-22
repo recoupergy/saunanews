@@ -20,6 +20,7 @@ import LaunchCalendar from '@/components/LaunchCalendar';
 import EventsCalendar from '@/components/EventsCalendar';
 import MobileRailTabs from '@/components/MobileRailTabs';
 import { formatDateShort } from '@/lib/utils';
+import { stringifyJsonLd } from '@/lib/structured-data';
 import type { Article } from '@/data/types';
 
 function curateMobileRailStories(
@@ -91,22 +92,47 @@ export default function HomePage() {
 
   const jsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'WebSite',
-    name: 'SaunaNews',
-    url: 'https://www.saunanews.com',
-    description: 'Daily reporting, market intelligence, and editorial analysis for the sauna industry.',
-    publisher: {
-      '@type': 'Organization',
-      name: 'SaunaNews',
-      url: 'https://www.saunanews.com',
-    },
+    '@graph': [
+      {
+        '@type': 'Organization',
+        '@id': 'https://www.saunanews.com/#organization',
+        name: 'SaunaNews',
+        url: 'https://www.saunanews.com',
+        logo: {
+          '@type': 'ImageObject',
+          url: 'https://www.saunanews.com/logo.png',
+        },
+        sameAs: [
+          'https://twitter.com/sauna_news',
+          'https://www.linkedin.com/company/saunanews',
+        ],
+      },
+      {
+        '@type': 'WebSite',
+        '@id': 'https://www.saunanews.com/#website',
+        url: 'https://www.saunanews.com',
+        name: 'SaunaNews',
+        description: 'Daily reporting, market intelligence, and editorial analysis for the sauna industry.',
+        publisher: {
+          '@id': 'https://www.saunanews.com/#organization',
+        },
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: {
+            '@type': 'EntryPoint',
+            urlTemplate: 'https://www.saunanews.com/search?q={search_term_string}',
+          },
+          'query-input': 'required name=search_term_string',
+        },
+      },
+    ],
   };
 
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: stringifyJsonLd(jsonLd) }}
       />
       {/* Market Data Bar */}
       <MarketDataBar />

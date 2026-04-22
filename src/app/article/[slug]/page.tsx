@@ -15,6 +15,7 @@ import type { EventCategory, EventOrganization } from '@/data/events';
 import { getArticleCanonicalUrl, getArticleHeadline } from '@/data/article-seo';
 import { getArticleDateModified } from '@/data/article-history.server';
 import { getAuthorBySlug, getAuthorProfileLinks } from '@/data/authors';
+import { getArticleImageVariants, stringifyJsonLd, toIso8601 } from '@/lib/structured-data';
 
 export const dynamicParams = false;
 
@@ -196,6 +197,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const imageAlt = primaryEntities.length > 0
     ? `${articleHeadline} — ${primaryEntities.join(', ')}`
     : articleHeadline;
+  const imageVariants = getArticleImageVariants(article.featuredImage);
 
   const jsonLd = [
     {
@@ -203,11 +205,11 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       '@type': 'NewsArticle',
       headline: articleHeadline,
       description: article.dek,
-      datePublished: article.publishDate,
-      dateModified: articleModifiedDate,
+      datePublished: toIso8601(article.publishDate),
+      dateModified: toIso8601(articleModifiedDate),
       url: articleUrl,
-      ...(article.featuredImage ? { image: article.featuredImage } : {}),
-      author: {
+      ...(imageVariants.length > 0 ? { image: imageVariants } : {}),
+      author: [{
         '@type': 'Person',
         name: articleAuthor.name,
         jobTitle: articleAuthor.role,
@@ -217,7 +219,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         ...(articleAuthor.alumniOf ? { alumniOf: articleAuthor.alumniOf } : {}),
         ...(articleAuthor.knowsAbout ? { knowsAbout: articleAuthor.knowsAbout } : {}),
         ...(articleAuthor.email ? { email: articleAuthor.email } : {}),
-      },
+      }],
       publisher: {
         '@type': 'Organization',
         name: 'SaunaNews',
@@ -256,7 +258,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: stringifyJsonLd(jsonLd) }}
       />
       <ReadingProgressBar />
 
