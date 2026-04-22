@@ -93,7 +93,7 @@ export default function EventsIndexPage() {
             aria-label="Event categories"
             className="flex flex-wrap gap-2 pt-5 border-t border-border dark:border-dark-border"
           >
-            {categoriesWithEvents.map((category) => (
+            {CATEGORY_ORDER.map((category) => (
               <Link
                 key={category}
                 href={`/events/${EVENT_CATEGORY_SLUGS[category]}`}

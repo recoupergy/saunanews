@@ -96,6 +96,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/search" className="text-sm text-cream/60 hover:text-brass transition-colors">
+                  Search Archive
+                </Link>
+              </li>
+              <li>
                 <Link href="/editorial-policy" className="text-sm text-cream/60 hover:text-brass transition-colors">
                   Editorial Policy
                 </Link>
