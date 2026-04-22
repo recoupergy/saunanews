@@ -83,7 +83,7 @@ export default function AboutPage() {
       {
         '@type': 'ContactPoint',
         contactType: 'newsroom',
-        email: 'newsroom@saunanews.com',
+        email: 'arlene@arlenescott.com',
         telephone: '+1-415-555-0142',
         areaServed: 'US',
         availableLanguage: ['en'],
@@ -91,7 +91,7 @@ export default function AboutPage() {
       {
         '@type': 'ContactPoint',
         contactType: 'editorial',
-        email: 'editorial@saunanews.com',
+        email: 'arlene@arlenescott.com',
         telephone: '+1-415-555-0141',
         areaServed: 'US',
         availableLanguage: ['en'],
@@ -197,8 +197,8 @@ export default function AboutPage() {
             </p>
             <p>
               <strong>Newsroom inbox:</strong>{' '}
-              <a href="mailto:newsroom@saunanews.com" className="text-green dark:text-brass font-medium hover:underline">
-                newsroom@saunanews.com
+              <a href="mailto:arlene@arlenescott.com" className="text-green dark:text-brass font-medium hover:underline">
+                arlene@arlenescott.com
               </a>
             </p>
           </div>
