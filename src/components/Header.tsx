@@ -92,6 +92,7 @@ export default function Header() {
             <Link href="/news" className="px-3 py-2 text-sm font-medium text-charcoal hover:text-green transition-colors">
               All News
             </Link>
+            <Link href="/commercial" className="px-3 py-2 text-sm font-medium text-charcoal hover:text-green transition-colors">Commercial</Link>
             <Link href="/harvia" className="px-3 py-2 text-sm font-medium text-charcoal hover:text-green transition-colors">
               Harvia
             </Link>
@@ -222,6 +223,13 @@ export default function Header() {
               className="block px-3 py-2.5 text-sm font-medium text-charcoal hover:bg-ivory rounded-md"
             >
               All News
+            </Link>
+            <Link
+              href="/commercial"
+              onClick={() => setMobileOpen(false)}
+              className="block px-3 py-2.5 text-sm font-medium text-charcoal hover:bg-ivory rounded-md"
+            >
+              Commercial
             </Link>
             <Link
               href="/harvia"
