@@ -5,7 +5,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Commercial Sauna Projects & Consulting',
   description:
-    'SaunaNews connects developers, architects, and hospitality operators with Europe\'s leading modular sauna manufacturers and vetted US installation teams.',
+    'SaunaNews connects developers, architects, and hospitality operators with vetted sauna manufacturers, builders, and installation teams for commercial projects of any scale.',
   alternates: { canonical: 'https://www.saunanews.com/commercial' },
 };
 
@@ -30,7 +30,7 @@ export default function CommercialHubPage() {
             Build the future of thermal wellness.
           </h1>
           <p className="text-lg sm:text-xl text-white/85 max-w-2xl leading-relaxed mb-10">
-            The US bathhouse boom is here, but domestic construction expertise hasn't caught up. We connect developers, architects, and hospitality operators with Europe's leading modular sauna manufacturers and vetted US installation teams.
+            The US commercial sauna market is booming but deeply fragmented. SaunaNews connects developers, architects, and hospitality operators with the right manufacturers, builders, and installation teams to get projects done right.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link
@@ -49,32 +49,32 @@ export default function CommercialHubPage() {
         </div>
       </section>
 
-      {/* Why modular section */}
-      <section className="bg-white">
+      {/* The Playbook section */}
+      <section className="bg-white dark:bg-dark-surface">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-[0.14em] text-green mb-3">The Modular Advantage</p>
-              <h2 className="font-editorial text-3xl sm:text-4xl font-bold text-charcoal mb-6">
-                Why modular European manufacturing?
+              <p className="text-sm font-semibold uppercase tracking-[0.14em] text-green mb-3">The SaunaNews Network</p>
+              <h2 className="font-editorial text-3xl sm:text-4xl font-bold text-charcoal dark:text-dark-text mb-6">
+                Connecting the commercial sauna ecosystem
               </h2>
-              <div className="space-y-5 text-base text-charcoal/80 leading-relaxed">
+              <div className="space-y-5 text-base text-charcoal/80 dark:text-dark-muted leading-relaxed">
                 <p>
-                  Building a commercial sauna is fundamentally different from framing a standard room. It is an extreme microclimate that subjects its structural envelope to intense heat, rapid temperature fluctuations, and high humidity for up to 18 hours a day.
+                  Building a commercial sauna is fundamentally different from framing a standard room. It requires specialized thermal engineering, precise ventilation pathways, and materials rated for 18-hour daily duty cycles.
                 </p>
                 <p>
-                  When general contractors attempt to build these spaces using traditional stick-built framing techniques, the results are often disastrous: vapor barrier failures, stagnant ventilation, and hidden mold growth.
+                  The biggest bottleneck in the US bathhouse boom isn't capital—it's finding the right partners. We solve this by acting as the central hub for your project. Whether your design calls for a precision-engineered European modular system or a complex, custom stick-built installation, we connect you with the exact expertise required.
                 </p>
                 <p>
-                  We bypass the domestic skills shortage by sourcing precision-engineered, factory-built modular systems from Estonia and Germany. These units arrive flat-packed, pre-drilled, and ready for rapid assembly by any competent general contractor.
+                  We evaluate your timeline, budget, and design intent, then tap into our vetted network of European manufacturers, specialized US sauna builders, and experienced general contractors to assemble the right team for your specific build.
                 </p>
               </div>
               <div className="mt-8">
                 <Link
-                  href="/article/modular-vs-stick-built-commercial-sauna-future"
+                  href="/commercial/services"
                   className="text-green font-semibold hover:underline inline-flex items-center gap-2"
                 >
-                  Read our analysis on modular vs. stick-built construction
+                  Explore our procurement and consulting services
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
@@ -93,6 +93,52 @@ export default function CommercialHubPage() {
         </div>
       </section>
 
+      {/* How it works */}
+      <section className="bg-ivory dark:bg-dark-surface border-y border-stone/30 dark:border-dark-border">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <p className="text-sm font-semibold uppercase tracking-[0.14em] text-brass mb-3">How It Works</p>
+            <h2 className="font-editorial text-3xl sm:text-4xl font-bold text-charcoal dark:text-dark-text mb-4">
+              From first call to ribbon cutting
+            </h2>
+            <p className="text-lg text-charcoal/70 dark:text-dark-muted">
+              We manage the entire lifecycle of your commercial sauna project.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="relative">
+              <div className="text-5xl font-editorial font-bold text-stone/40 dark:text-dark-border mb-3">01</div>
+              <h3 className="font-semibold text-charcoal dark:text-dark-text text-lg mb-2">Scope & Qualify</h3>
+              <p className="text-sm text-charcoal/70 dark:text-dark-muted leading-relaxed">
+                You tell us about your project: type, size, timeline, budget, and design vision. We assess the scope and identify the right construction approach.
+              </p>
+            </div>
+            <div className="relative">
+              <div className="text-5xl font-editorial font-bold text-stone/40 dark:text-dark-border mb-3">02</div>
+              <h3 className="font-semibold text-charcoal dark:text-dark-text text-lg mb-2">Match & Connect</h3>
+              <p className="text-sm text-charcoal/70 dark:text-dark-muted leading-relaxed">
+                We tap into our network of European manufacturers, US sauna builders, and general contractors to assemble the right team for your specific build.
+              </p>
+            </div>
+            <div className="relative">
+              <div className="text-5xl font-editorial font-bold text-stone/40 dark:text-dark-border mb-3">03</div>
+              <h3 className="font-semibold text-charcoal dark:text-dark-text text-lg mb-2">Design & Quote</h3>
+              <p className="text-sm text-charcoal/70 dark:text-dark-muted leading-relaxed">
+                Your matched partners develop detailed designs, engineering specs, and formal quotes. We coordinate the process and ensure competitive pricing.
+              </p>
+            </div>
+            <div className="relative">
+              <div className="text-5xl font-editorial font-bold text-stone/40 dark:text-dark-border mb-3">04</div>
+              <h3 className="font-semibold text-charcoal dark:text-dark-text text-lg mb-2">Build & Deliver</h3>
+              <p className="text-sm text-charcoal/70 dark:text-dark-muted leading-relaxed">
+                We manage logistics, coordinate between all parties, and provide oversight through manufacturing, shipping, and on-site installation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Stats bar */}
       <section className="bg-charcoal">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -106,8 +152,8 @@ export default function CommercialHubPage() {
               <p className="text-sm text-white/60 mt-1">Annual market growth (CAGR)</p>
             </div>
             <div>
-              <p className="font-editorial text-3xl sm:text-4xl font-bold text-white">2-5 days</p>
-              <p className="text-sm text-white/60 mt-1">Modular on-site assembly</p>
+              <p className="font-editorial text-3xl sm:text-4xl font-bold text-white">100+</p>
+              <p className="text-sm text-white/60 mt-1">Vetted US contractors</p>
             </div>
             <div>
               <p className="font-editorial text-3xl sm:text-4xl font-bold text-white">150+</p>
@@ -118,50 +164,50 @@ export default function CommercialHubPage() {
       </section>
 
       {/* Who we work with */}
-      <section className="bg-cream">
+      <section className="bg-cream dark:bg-dark-bg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <p className="text-sm font-semibold uppercase tracking-[0.14em] text-green mb-3">Our Clients</p>
-            <h2 className="font-editorial text-3xl sm:text-4xl font-bold text-charcoal mb-4">
+            <h2 className="font-editorial text-3xl sm:text-4xl font-bold text-charcoal dark:text-dark-text mb-4">
               Who we work with
             </h2>
-            <p className="text-lg text-charcoal/70">
+            <p className="text-lg text-charcoal/70 dark:text-dark-muted">
               We provide end-to-end procurement and consulting for the teams building the next generation of thermal wellness.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white border border-stone/40 rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
+            <div className="bg-white dark:bg-dark-surface border border-stone/40 dark:border-dark-border rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
               <div className="w-10 h-10 bg-green/10 rounded-lg flex items-center justify-center mb-5">
                 <svg className="w-5 h-5 text-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3H21m-3.75 3H21" />
                 </svg>
               </div>
-              <h3 className="font-editorial text-2xl font-semibold text-charcoal mb-3">Developers & Owners</h3>
-              <p className="text-charcoal/70 leading-relaxed">
+              <h3 className="font-editorial text-2xl font-semibold text-charcoal dark:text-dark-text mb-3">Developers & Owners</h3>
+              <p className="text-charcoal/70 dark:text-dark-muted leading-relaxed">
                 Whether you are building a 30,000 sq ft urban bathhouse or adding a thermal suite to a luxury multifamily project, we ensure your sauna assets are engineered for commercial duty cycles and long-term ROI.
               </p>
             </div>
-            <div className="bg-white border border-stone/40 rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
+            <div className="bg-white dark:bg-dark-surface border border-stone/40 dark:border-dark-border rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
               <div className="w-10 h-10 bg-green/10 rounded-lg flex items-center justify-center mb-5">
                 <svg className="w-5 h-5 text-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.876-5.814a1.151 1.151 0 00-1.597-1.597L14.146 6.32a15.996 15.996 0 00-4.649 4.763m3.42 3.42a6.776 6.776 0 00-3.42-3.42" />
                 </svg>
               </div>
-              <h3 className="font-editorial text-2xl font-semibold text-charcoal mb-3">Architects & Designers</h3>
-              <p className="text-charcoal/70 leading-relaxed">
-                We provide full AutoCAD/DWG integration for our modular systems, allowing you to drop precision-engineered sauna cabins directly into your master plans while maintaining complete control over surface materials and finishes.
+              <h3 className="font-editorial text-2xl font-semibold text-charcoal dark:text-dark-text mb-3">Architects & Designers</h3>
+              <p className="text-charcoal/70 dark:text-dark-muted leading-relaxed">
+                We connect you with manufacturers who work in full AutoCAD/DWG environments, so sauna designs drop directly into your master plans. You maintain complete control over surface materials, finishes, and spatial integration.
               </p>
             </div>
-            <div className="bg-white border border-stone/40 rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
+            <div className="bg-white dark:bg-dark-surface border border-stone/40 dark:border-dark-border rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
               <div className="w-10 h-10 bg-green/10 rounded-lg flex items-center justify-center mb-5">
                 <svg className="w-5 h-5 text-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M11.42 15.17l-5.384 3.077A1.5 1.5 0 014.5 17.06V6.94a1.5 1.5 0 011.536-1.188l5.384 3.077M11.42 15.17l5.384-3.077a1.5 1.5 0 000-2.614L11.42 6.4m0 8.77v-8.77" />
                 </svg>
               </div>
-              <h3 className="font-editorial text-2xl font-semibold text-charcoal mb-3">General Contractors</h3>
-              <p className="text-charcoal/70 leading-relaxed">
-                Stop guessing at Finnish ventilation standards. We deliver a complete, test-assembled system to your loading dock with precise assembly instructions, removing the liability of custom thermal engineering from your scope.
+              <h3 className="font-editorial text-2xl font-semibold text-charcoal dark:text-dark-text mb-3">General Contractors</h3>
+              <p className="text-charcoal/70 dark:text-dark-muted leading-relaxed">
+                Stop guessing at Finnish ventilation standards. We connect you with the engineering specs, manufacturer support, and specialized knowledge to remove thermal liability from your scope, regardless of the construction method.
               </p>
             </div>
           </div>
@@ -169,15 +215,15 @@ export default function CommercialHubPage() {
       </section>
 
       {/* Project types gallery */}
-      <section className="bg-white">
+      <section className="bg-white dark:bg-dark-surface">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <p className="text-sm font-semibold uppercase tracking-[0.14em] text-green mb-3">Project Types</p>
-            <h2 className="font-editorial text-3xl sm:text-4xl font-bold text-charcoal mb-4">
+            <h2 className="font-editorial text-3xl sm:text-4xl font-bold text-charcoal dark:text-dark-text mb-4">
               From urban bathhouses to alpine resorts
             </h2>
-            <p className="text-lg text-charcoal/70">
-              We source and manage modular sauna installations across every commercial category.
+            <p className="text-lg text-charcoal/70 dark:text-dark-muted">
+              We source and manage commercial sauna installations across every category.
             </p>
           </div>
 
@@ -232,7 +278,7 @@ export default function CommercialHubPage() {
             Ready to scope your project?
           </h2>
           <p className="text-lg text-white/75 mb-10 max-w-2xl mx-auto">
-            Use our project intake tool to share your requirements, timeline, and budget. We'll review your specs and connect you with the right manufacturing partner.
+            Tell us about your project. We will review your requirements, timeline, and budget, then connect you with the right combination of manufacturers, builders, and contractors from our vetted network.
           </p>
           <Link
             href="/commercial/start-project"
