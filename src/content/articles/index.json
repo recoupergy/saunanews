@@ -46,8 +46,8 @@
     },
     "publishDate": "2026-04-24",
     "readingTime": 12,
-    "featuredImage": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1240&auto=format&fit=crop",
-    "imageCaption": "A modern commercial sauna interior. Image: Unsplash.",
+    "featuredImage": "/images/commercial/commercial-sauna-hero.jpg",
+    "imageCaption": "A large-scale commercial sauna with tiered wooden benches and warm ambient lighting.",
     "featured": true,
     "trending": true,
     "bodyPath": "bodies/modular-vs-stick-built-commercial-sauna-future.html"

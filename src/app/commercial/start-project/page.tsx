@@ -43,13 +43,13 @@ export default function StartProjectPage() {
 
   return (
     <>
-      <section className="bg-cream dark:bg-dark-bg border-b border-border dark:border-dark-border">
+      <section className="bg-charcoal">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
-          <p className="text-sm font-semibold uppercase tracking-[0.14em] text-green dark:text-brass mb-4">Project Intake</p>
-          <h1 className="font-editorial text-4xl sm:text-5xl font-bold text-charcoal dark:text-cream mb-4 tracking-tight">
+          <p className="text-sm font-semibold uppercase tracking-[0.14em] text-brass mb-4">Project Intake</p>
+          <h1 className="font-editorial text-4xl sm:text-5xl font-bold text-white mb-4 tracking-tight">
             Scope Your Commercial Sauna
           </h1>
-          <p className="text-lg text-warm-gray dark:text-dark-muted mb-6">
+          <p className="text-lg text-white/75 mb-6">
             Tell us about your project. We'll review your requirements and connect you with the right European manufacturing partner and US installation team.
           </p>
         </div>
