@@ -7,6 +7,10 @@ const MAX_SUBSCRIBE_BODY_BYTES = 4 * 1024;
 const RATE_LIMIT_WINDOW_SECONDS = 60 * 60;
 const IP_ATTEMPT_LIMIT = 5;
 const EMAIL_ATTEMPT_LIMIT = 3;
+const INBOX = 'hello@saunanews.com';
+const AGENTMAIL_BASE = 'https://api.agentmail.to/v0';
+const SUBSCRIBE_TIMEOUT_MS = 10_000;
+const SUBSCRIBE_MAX_ATTEMPTS = 2;
 
 // Disposable email domains to reject
 const DISPOSABLE_DOMAINS = new Set([
@@ -49,6 +53,103 @@ function logEvent(level: 'info' | 'warn' | 'error', event: string, details: Reco
   } else {
     console.info(payload);
   }
+}
+
+async function sendWithTimeout(url: string, init: RequestInit, timeoutMs: number) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
+
+  try {
+    return await fetch(url, {
+      ...init,
+      signal: controller.signal,
+    });
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+function shouldRetry(error: unknown, response: Response | undefined, attempt: number) {
+  if (attempt >= SUBSCRIBE_MAX_ATTEMPTS) {
+    return false;
+  }
+
+  if (error) {
+    return true;
+  }
+
+  if (!response) {
+    return false;
+  }
+
+  return response.status >= 500;
+}
+
+async function notifyNewSubscriber(params: {
+  email: string;
+  source: string;
+  ip: string;
+  subscribedAt: string;
+  requestId: string;
+}) {
+  const apiKey = process.env.AGENTMAIL_API_KEY;
+  if (!apiKey) {
+    logEvent('warn', 'subscribe_notification_not_configured', { requestId: params.requestId });
+    return;
+  }
+
+  let response: Response | undefined;
+  let latestError: unknown;
+
+  for (let attempt = 1; attempt <= SUBSCRIBE_MAX_ATTEMPTS; attempt += 1) {
+    latestError = undefined;
+
+    try {
+      response = await sendWithTimeout(
+        `${AGENTMAIL_BASE}/inboxes/${encodeURIComponent(INBOX)}/messages/send`,
+        {
+          method: 'POST',
+          headers: {
+            Authorization: `Bearer ${apiKey}`,
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            to: [INBOX],
+            subject: `New SaunaNews subscriber: ${params.email}`,
+            text: [
+              'A new subscriber joined SaunaNews.',
+              `Email: ${params.email}`,
+              `Source: ${params.source}`,
+              `IP: ${params.ip}`,
+              `Subscribed at: ${params.subscribedAt}`,
+              `Request ID: ${params.requestId}`,
+            ].join('\n'),
+          }),
+        },
+        SUBSCRIBE_TIMEOUT_MS,
+      );
+    } catch (error) {
+      latestError = error;
+    }
+
+    if (!shouldRetry(latestError, response, attempt)) {
+      break;
+    }
+  }
+
+  if (!response || latestError || !response.ok) {
+    logEvent('warn', 'subscribe_notification_failed', {
+      requestId: params.requestId,
+      status: response?.status,
+      error: latestError instanceof Error ? latestError.message : latestError,
+    });
+    return;
+  }
+
+  logEvent('info', 'subscribe_notification_sent', {
+    requestId: params.requestId,
+    status: response.status,
+  });
 }
 
 export async function POST(request: NextRequest) {
@@ -163,6 +264,14 @@ export async function POST(request: NextRequest) {
         ip,
       });
       await redis.zadd('subscribers:byDate', { score: Date.parse(subscribedAt), member: email });
+
+      await notifyNewSubscriber({
+        email,
+        source,
+        ip,
+        subscribedAt,
+        requestId,
+      });
     } catch (redisError) {
       await enqueueFallback({
         type: 'subscribe',
