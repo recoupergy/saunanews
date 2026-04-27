@@ -1,5 +1,58 @@
 [
   {
+    "id": "57",
+    "title": "Cold Plunges Are Becoming the Sauna Industry's Next Code Fight",
+    "slug": "cold-plunges-sauna-industry-code-fight",
+    "dek": "As contrast-therapy studios scale, U.S. states are drawing very different regulatory lines between single-user recovery tubs and public multi-user plunge pools.",
+    "excerpt": "From California and Utah to Illinois and Washington, cold-plunge policy is splitting into multiple models that can materially change design, staffing, operating costs, and expansion risk for sauna operators.",
+    "contentType": "Analysis",
+    "category": "Market Intelligence",
+    "tags": [
+      "Cold Plunge",
+      "Contrast Therapy",
+      "Regulation",
+      "Public Health",
+      "Pool Code",
+      "Compliance"
+    ],
+    "author": {
+      "name": "Arlene Scott",
+      "role": "Senior Wellness Correspondent & Hospitality Consultant",
+      "avatar": "/images/authors/arlene-scott.svg",
+      "slug": "arlene-scott",
+      "bio": "Arlene Scott is a Senior Wellness Correspondent for SaunaNews.com, bringing over fifteen years of experience at the intersection of energy infrastructure, sustainable design, and thermotherapy.",
+      "shortBio": "Arlene Scott brings over fifteen years of reporting and consulting experience across energy infrastructure, sustainable design, and thermotherapy-focused hospitality.",
+      "extendedBio": [
+        "Arlene Scott is a Senior Wellness Correspondent for SaunaNews.com, bringing over fifteen years of experience at the intersection of energy infrastructure, sustainable design, and thermotherapy. Her work focuses on the physiological benefits of passive heat therapies and the sustainable integration of sauna culture into modern wellness routines.",
+        "Arlene's background is rooted in the clean energy transition. She was a founding writer at MicrogridMedia.com, where she covered the technical and economic viability of desalination projects, microgrid deployments, and distributed renewable energy systems. During the mid-2010s, she was a regular contributor to Greentech Media (GTM) during its independent era — prior to the Wood Mackenzie acquisition in 2016 — reporting on the early integration of thermal energy storage and sustainable infrastructure.",
+        "Transitioning her focus from macro-energy systems to human-scale wellness, Arlene now applies her technical background to the hospitality sector. She operates as an independent consultant, advising boutique hotels and eco-resorts on the design, energy efficiency, and historical authenticity of commercial sauna and thermal spa installations. Her consulting work ensures that high-end wellness facilities balance traditional Nordic bathing principles with modern sustainable engineering.",
+        "Arlene holds a specialized certification in Applied Thermic Wellness from the Nordic Institute of Passive Heat Studies (NIPHS) and is a recognized associate member of the International Sauna Association (ISA). When she isn't reviewing the latest innovations in infrared technology or consulting on a new resort project, Arlene can be found tending to her own traditional wood-fired sauna in the Pacific Northwest. You can read her complete archive of essays on energy, wellness, and sustainable living at www.arlenescott.com."
+      ],
+      "website": "https://www.arlenescott.com",
+      "linkedin": "https://www.linkedin.com/in/arlene-scott-4b8521405/",
+      "sameAs": [
+        "https://www.arlenescott.com",
+        "https://www.linkedin.com/in/arlene-scott-4b8521405/"
+      ],
+      "image": "https://www.saunanews.com/images/authors/arlene-scott.svg",
+      "alumniOf": "Nordic Institute of Passive Heat Studies (NIPHS)",
+      "knowsAbout": [
+        "Thermotherapy",
+        "Sauna culture",
+        "Sustainable wellness design",
+        "Energy infrastructure",
+        "Hospitality consulting"
+      ]
+    },
+    "publishDate": "2026-04-27",
+    "readingTime": 8,
+    "featuredImage": "https://plus.unsplash.com/premium_photo-1714346729179-ad0182261029?q=80&w=3480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageCaption": "A contrast-therapy setup with a cold immersion tub in a spa-like setting. Photo: Unsplash.",
+    "featured": true,
+    "trending": true,
+    "bodyPath": "bodies/cold-plunges-sauna-industry-code-fight.html"
+  },
+  {
     "id": "56",
     "title": "Saunum Releases Leil Software Update With Better AutoLeil Stability and Fan Control",
     "slug": "saunum-leil-software-update-autoleil-fan-control",
