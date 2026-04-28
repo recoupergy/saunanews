@@ -1,6 +1,15 @@
 import Image from 'next/image';
 import PlaceholderImage, { variantForCategory, PlaceholderVariant } from './PlaceholderImage';
 
+function shouldBypassOptimization(src: string): boolean {
+  try {
+    const hostname = new URL(src).hostname;
+    return hostname === 'manuals.plus';
+  } catch {
+    return false;
+  }
+}
+
 interface ArticleImageProps {
   src?: string;
   alt: string;
@@ -34,6 +43,7 @@ export default function ArticleImage({
           sizes={sizes}
           priority={priority}
           className="object-cover"
+          unoptimized={shouldBypassOptimization(src)}
         />
       </div>
     );

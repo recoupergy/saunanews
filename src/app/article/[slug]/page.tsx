@@ -187,18 +187,14 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     notFound();
   }
 
-  const related = getArticlesByCategory(article.category)
-    .filter((a) => a.id !== article.id)
-    .slice(0, 3);
-  const forcedRecommendations = ALWAYS_RECOMMENDED_SLUGS
-    .map((recommendedSlug) => getArticleBySlug(recommendedSlug))
-    .filter(
-      (recommendedArticle): recommendedArticle is NonNullable<typeof recommendedArticle> =>
-        Boolean(recommendedArticle) && recommendedArticle.slug !== article.slug
-    );
-  const recommendedArticles = Array.from(
-    new Map([...forcedRecommendations, ...related].map((recommendedArticle) => [recommendedArticle.slug, recommendedArticle])).values()
-  ).slice(0, 3);
+  const alwaysRecommended = ALWAYS_RECOMMENDED_SLUGS
+    .map((recommendedSlug) => articles.find((a) => a.slug === recommendedSlug))
+    .filter((a): a is (typeof articles)[number] => Boolean(a) && a.id !== article.id);
+
+  const fallbackRelated = getArticlesByCategory(article.category)
+    .filter((a) => a.id !== article.id && !alwaysRecommended.some((recommended) => recommended.id === a.id));
+
+  const recommendedArticles = [...alwaysRecommended, ...fallbackRelated].slice(0, 3);
 
   const categorySlug = article.category.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-');
   const articleUrl = getArticleCanonicalUrl(article);
