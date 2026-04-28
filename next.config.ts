@@ -149,6 +149,10 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
+        hostname: 'manuals.plus',
+      },
+      {
+        protocol: 'https',
         hostname: 'prosaunas.com',
       },
       {
