@@ -88,23 +88,15 @@ export default function Header() {
           </Link>
 
           {/* Desktop nav */}
-          <nav className="hidden lg:flex items-center gap-1">
-            <Link href="/news" className="px-3 py-2 text-sm font-medium text-charcoal hover:text-green transition-colors">
+          <nav className="hidden lg:flex items-center gap-2">
+            <Link href="/news" className="px-3 py-2 text-sm font-medium text-charcoal hover:text-green transition-colors whitespace-nowrap">
               All News
             </Link>
-            <Link href="/commercial" className="px-3 py-2 text-sm font-medium text-charcoal hover:text-green transition-colors">Commercial</Link>
-            <Link href="/harvia" className="px-3 py-2 text-sm font-medium text-charcoal hover:text-green transition-colors">
+            <Link href="/commercial" className="px-3 py-2 text-sm font-medium text-charcoal hover:text-green transition-colors whitespace-nowrap">Commercial</Link>
+            <Link href="/harvia" className="px-3 py-2 text-sm font-medium text-charcoal hover:text-green transition-colors whitespace-nowrap">
               Harvia
             </Link>
-            {categories.slice(0, 5).map((cat) => (
-              <Link
-                key={cat.slug}
-                href={`/category/${cat.slug}`}
-                className="px-3 py-2 text-sm text-stone-dark hover:text-green transition-colors"
-              >
-                {cat.name}
-              </Link>
-            ))}
+            <Link href="/events" className="px-3 py-2 text-sm text-stone-dark hover:text-green transition-colors whitespace-nowrap">Events</Link>
             <div className="relative group">
               <button className="px-3 py-2 text-sm text-stone-dark hover:text-green transition-colors flex items-center gap-1">
                 More
@@ -114,7 +106,7 @@ export default function Header() {
               </button>
               <div className="absolute right-0 top-full pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
                 <div className="bg-surface border border-border rounded-lg shadow-lg py-2 min-w-[220px]">
-                  {categories.slice(5).map((cat) => (
+                  {categories.map((cat) => (
                     <Link
                       key={cat.slug}
                       href={`/category/${cat.slug}`}
