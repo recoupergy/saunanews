@@ -2,12 +2,11 @@ import type { ReactNode } from 'react';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
+import dynamic from 'next/dynamic';
 import { articles, getArticleBySlug, getArticlesByCategory, getArticleBody } from '@/data/articles';
 import { formatDate } from '@/lib/utils';
 import ContentTypeBadge from '@/components/ContentTypeBadge';
 import ArticleCard from '@/components/ArticleCard';
-import NewsletterSignup from '@/components/NewsletterSignup';
-import ReadingProgressBar from '@/components/ReadingProgressBar';
 import ArticleImage from '@/components/ArticleImage';
 import SponsorSlot from '@/components/SponsorSlot';
 import EventsCalendar from '@/components/EventsCalendar';
@@ -18,6 +17,12 @@ import { getAuthorBySlug, getAuthorProfileLinks } from '@/data/authors';
 import { getArticleImageVariants, stringifyJsonLd, toIso8601 } from '@/lib/structured-data';
 
 export const dynamicParams = false;
+
+const ReadingProgressBarDeferred = dynamic(() => import('@/components/ReadingProgressBar'), {
+  ssr: false,
+});
+
+const NewsletterSignupDeferred = dynamic(() => import('@/components/NewsletterSignup'));
 
 
 const EMBED_REGEX =
@@ -260,7 +265,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: stringifyJsonLd(jsonLd) }}
       />
-      <ReadingProgressBar />
+      <ReadingProgressBarDeferred />
 
       {/* Article Header */}
       <article>
@@ -473,7 +478,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
       {/* Newsletter */}
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <NewsletterSignup />
+        <NewsletterSignupDeferred />
       </div>
 
       {/* Related Articles */}
