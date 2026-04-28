@@ -63,7 +63,7 @@ export default function CommercialHubPage() {
                   Building a commercial sauna is fundamentally different from framing a standard room. It requires specialized thermal engineering, precise ventilation pathways, and materials rated for 18-hour daily duty cycles.
                 </p>
                 <p>
-                  The biggest bottleneck in the US bathhouse boom isn't capital—it's finding the right partners. We solve this by acting as the central hub for your project. Whether your design calls for a precision-engineered European modular system or a complex, custom stick-built installation, we connect you with the exact expertise required.
+                  The biggest bottleneck in the US bathhouse boom isn&rsquo;t capital—it&rsquo;s finding the right partners. We solve this by acting as the central hub for your project. Whether your design calls for a precision-engineered European modular system or a complex, custom stick-built installation, we connect you with the exact expertise required.
                 </p>
                 <p>
                   We evaluate your timeline, budget, and design intent, then tap into our vetted network of European manufacturers, specialized US sauna builders, and experienced general contractors to assemble the right team for your specific build.
@@ -275,10 +275,10 @@ export default function CommercialHubPage() {
       <section className="bg-slate text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-24 text-center">
           <h2 className="font-editorial text-3xl sm:text-4xl font-bold mb-6">
-            Ready to scope your project?
+            Tailor-made for your project.
           </h2>
           <p className="text-lg text-white/75 mb-10 max-w-2xl mx-auto">
-            Tell us about your project. We will review your requirements, timeline, and budget, then connect you with the right combination of manufacturers, builders, and contractors from our vetted network.
+            Your sauna. Your experience. From compact 0.9 m² concepts to expansive 100 m² wellness destinations, we help you define the vision, then align the right manufacturing and delivery partners to bring it to life.
           </p>
           <Link
             href="/commercial/start-project"
