@@ -66,9 +66,10 @@ export default function StickyNewsletterBar() {
 
   return (
     <div
-      className={`fixed bottom-0 left-0 right-0 z-40 transition-transform duration-500 ease-out ${
-        visible ? 'translate-y-0' : 'translate-y-full'
+      className={`fixed bottom-0 left-0 right-0 z-40 transition-opacity duration-300 ease-out ${
+        visible ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
       }`}
+      aria-hidden={!visible}
     >
       <div className="bg-charcoal border-t border-cream/10 shadow-[0_-4px_20px_rgba(0,0,0,0.15)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between gap-4">
