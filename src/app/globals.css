@@ -355,20 +355,6 @@ body {
   line-height: 1.5;
 }
 
-/* Headline ticker animation */
-@keyframes ticker {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
-}
-
-.animate-ticker {
-  animation: ticker 60s linear infinite;
-}
-
-.animate-ticker:hover {
-  animation-play-state: paused;
-}
-
 /* Smooth transitions */
 .transition-editorial {
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
