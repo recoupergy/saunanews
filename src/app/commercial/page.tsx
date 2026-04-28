@@ -278,7 +278,7 @@ export default function CommercialHubPage() {
             Tailor-made for your project.
           </h2>
           <p className="text-lg text-white/75 mb-10 max-w-2xl mx-auto">
-            Your sauna. Your experience. From compact 0.9 m² concepts to expansive 100 m² wellness destinations, we help you define the vision, then align the right manufacturing and delivery partners to bring it to life.
+            Your sauna. Your experience. From compact 10 sq ft concepts to expansive 1,076 sq ft wellness destinations, we help you define the vision, then align the right manufacturing and delivery partners to bring it to life.
           </p>
           <Link
             href="/commercial/start-project"
