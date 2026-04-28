@@ -27,10 +27,10 @@ export default function CommercialHubPage() {
         <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24 w-full">
           <p className="text-sm font-semibold uppercase tracking-[0.14em] text-brass mb-4">Commercial Projects</p>
           <h1 className="font-editorial text-4xl sm:text-5xl lg:text-6xl font-bold text-white tracking-tight mb-6 max-w-3xl">
-            Build the future of thermal wellness.
+            Tailor-made thermal wellness, built for your project.
           </h1>
           <p className="text-lg sm:text-xl text-white/85 max-w-2xl leading-relaxed mb-10">
-            The US commercial sauna market is booming but deeply fragmented. SaunaNews connects developers, architects, and hospitality operators with the right manufacturers, builders, and installation teams to get projects done right.
+            Your sauna should reflect your space, your users, and your operating goals. We connect developers, architects, and hospitality operators with the right manufacturing and build partners to create commercial sauna experiences that are precise, durable, and design-led.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link
@@ -63,7 +63,7 @@ export default function CommercialHubPage() {
                   Building a commercial sauna is fundamentally different from framing a standard room. It requires specialized thermal engineering, precise ventilation pathways, and materials rated for 18-hour daily duty cycles.
                 </p>
                 <p>
-                  The biggest bottleneck in the US bathhouse boom isn't capital—it's finding the right partners. We solve this by acting as the central hub for your project. Whether your design calls for a precision-engineered European modular system or a complex, custom stick-built installation, we connect you with the exact expertise required.
+                  The biggest bottleneck in the US bathhouse boom is not capital—it is finding the right partners. We solve this by acting as the central hub for your project. Whether your design calls for a precision-engineered European modular system or a complex, custom stick-built installation, we connect you with the exact expertise required.
                 </p>
                 <p>
                   We evaluate your timeline, budget, and design intent, then tap into our vetted network of European manufacturers, specialized US sauna builders, and experienced general contractors to assemble the right team for your specific build.
@@ -275,10 +275,10 @@ export default function CommercialHubPage() {
       <section className="bg-slate text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-24 text-center">
           <h2 className="font-editorial text-3xl sm:text-4xl font-bold mb-6">
-            Ready to scope your project?
+            Let’s create your sauna experience.
           </h2>
           <p className="text-lg text-white/75 mb-10 max-w-2xl mx-auto">
-            Tell us about your project. We will review your requirements, timeline, and budget, then connect you with the right combination of manufacturers, builders, and contractors from our vetted network.
+            From compact wellness rooms to large multi-sauna destinations, we tailor each project to your goals. Share your vision and we will shape the right path from concept to installation with our vetted network.
           </p>
           <Link
             href="/commercial/start-project"
