@@ -128,7 +128,7 @@
       },
       {
         "title": "Use washed sauna stones in the specified size range",
-        "body": "Harvia specifies washed olivine-diabase stones in a 2-4 inch (5-10 cm) size range for Cilindro. Garden-center decorative rocks pack too tight, hide dust that can ignite on exposed elements, and can crack under the thermal cycling a sauna heater imposes. Use the specified sauna stones and wash them before first firing."
+        "body": "Harvia specifies washed olivine-diabase stones in a 2-4 inch size range for Cilindro. Garden-center decorative rocks pack too tight, hide dust that can ignite on exposed elements, and can crack under the thermal cycling a sauna heater imposes. Use the specified sauna stones and wash them before first firing."
       }
     ],
     "bestFor": "Rooms 318-670 cu ft, glass-front builds where the stone column is part of the design, and commercial sites that need 208V three-phase. Skip for rooms under 210 cu ft — at that size you're paying for stone mass you'll never use.",
@@ -153,7 +153,7 @@
     "category": "wood-burning-heater",
     "position": "flagship",
     "tagline": "The Cilindro visual signature, now wood-fired. 265 lbs of stone mass, glass hatch for firelight, unique rear ventilation duct. A genuinely new product, not a refresh.",
-    "intro": "The wood-burning Cilindro is a new product, announced 30 January 2025 as the first highlight of Harvia's 75th anniversary year. Development was completed in Q3 2024, and sales started in early 2025 after an October 2024 launch debut. It takes the cylindrical pillar that made the electric Cilindro famous and rebuilds it as a wood-fired heater: 120 kg (~265 lbs) of stones, a stainless steel shell, a cast-iron firebox with a glass hatch showing flame through the column, and a distinctive rear ventilation duct that accelerates room heat-up. Finnish Key Flag product, designed and built in Harvia's Muurame factory.",
+    "intro": "The wood-burning Cilindro is a new product, announced 30 January 2025 as the first highlight of Harvia's 75th anniversary year. Development was completed in Q3 2024, and sales started in early 2025 after an October 2024 launch debut. It takes the cylindrical pillar that made the electric Cilindro famous and rebuilds it as a wood-fired heater: ~265 lbs of stones, a stainless steel shell, a cast-iron firebox with a glass hatch showing flame through the column, and a distinctive rear ventilation duct that accelerates room heat-up. Finnish Key Flag product, designed and built in Harvia's Muurame factory.",
     "heroImage": "/images/harvia-mediabank/cilindro-wood/4925.jpg",
     "gallery": [
       "/images/harvia-mediabank/cilindro-wood/4925.jpg",
@@ -168,7 +168,7 @@
       },
       {
         "label": "Stone capacity",
-        "value": "~265 lbs (120 kg)"
+        "value": "~265 lbs"
       },
       {
         "label": "Launched",
@@ -192,7 +192,7 @@
         "model": "WKPC16S (Cilindro 16)",
         "kw": "Wood-fired, ~16 kW equivalent",
         "roomSize": "Medium saunas",
-        "stones": "~265 lbs (120 kg)",
+        "stones": "~265 lbs",
         "note": "Steel shell; US-available"
       },
       {
@@ -204,7 +204,7 @@
       }
     ],
     "keyFeatures": [
-      "~265 lbs (120 kg) of stones — generous for strong steam",
+      "~265 lbs of stones — generous for strong steam",
       "Cast-iron glass hatch shows flame through the pillar",
       "Unique rear ventilation duct accelerates room heat-up",
       "Stainless outer shell (quiet operation)",
@@ -253,7 +253,7 @@
       },
       {
         "title": "Chimney sizing and installation is critical",
-        "body": "The Cilindro wood-burning ships with Harvia's native 115 mm (4.5\") flue collar. North American code typically requires 6\" minimum insulated Class A chimney. Use Harvia's specified flue components and adapters through a qualified installer; skipping certified chimney hardware on a wood-fired heater is both a code violation and a real fire-safety risk."
+        "body": "The Cilindro wood-burning ships with Harvia's native 4.5\" flue collar. North American code typically requires 6\" minimum insulated Class A chimney. Use Harvia's specified flue components and adapters through a qualified installer; skipping certified chimney hardware on a wood-fired heater is both a code violation and a real fire-safety risk."
       },
       {
         "title": "Season new stones before heavy use",
@@ -660,7 +660,7 @@
       },
       {
         "title": "Stone quality matters more on smaller heaters",
-        "body": "Vega's comparatively modest stone capacity means each stone has to do more of the work. Use washed sauna stones in the size range Harvia specifies (typically 2-4 inch / 5-10 cm olivine-diabase). Landscape or decorative rocks can pack too tight, restrict airflow, and trip the high-limit cutout."
+        "body": "Vega's comparatively modest stone capacity means each stone has to do more of the work. Use washed sauna stones in the size range Harvia specifies (typically 2-4 inch olivine-diabase). Landscape or decorative rocks can pack too tight, restrict airflow, and trip the high-limit cutout."
       },
       {
         "title": "Size up when the room has glass or runs cold",
@@ -851,7 +851,7 @@
       "Modern grate structure for cleaner, more efficient burning",
       "Adjustable legs handle uneven floors",
       "Top or rear flue connection options",
-      "115 mm (4.5\") native flue collar — 6\" adapter required for North American code",
+      "4.5\" native flue collar — 6\" adapter required for North American code",
       "Optional pipe-mounted water heater (WHP1500) for changing-room water",
       "SL variant: external wood-feed door keeps firewood and ash out of the hot room"
     ],
@@ -883,7 +883,7 @@
       },
       {
         "title": "Plan the chimney for North American code",
-        "body": "Legend ships with Harvia's native flue collar sized for European specification (115 mm / 4.5\"). North American installations typically require a 6\" minimum insulated Class A chimney run from collar through roof termination. Use Harvia's flue components and adapters, and budget the full chimney package separately from the heater itself — skipping certified chimney components on a wood-fired heater is both a code violation and a real fire-safety risk."
+        "body": "Legend ships with Harvia's native flue collar sized for European specification (4.5\"). North American installations typically require a 6\" minimum insulated Class A chimney run from collar through roof termination. Use Harvia's flue components and adapters, and budget the full chimney package separately from the heater itself — skipping certified chimney components on a wood-fired heater is both a code violation and a real fire-safety risk."
       },
       {
         "title": "Stone selection for wood-fired operation",
@@ -939,11 +939,11 @@
       },
       {
         "label": "Firewood length",
-        "value": "Up to 15.3\" (390 mm)"
+        "value": "Up to 15.3\""
       },
       {
         "label": "Min ceiling",
-        "value": "81\" (2,060 mm)"
+        "value": "81\""
       }
     ],
     "sizes": [
@@ -1404,8 +1404,8 @@
         "body": "The automatic 60-minute shutoff is required for UL certification and for most US residential code. For a longer session, reset the dial. Heaters that claim unlimited on-time without a certified timer do not pass US insurance inspections. KIP's 60-minute cycle is standard across UL-certified residential heaters in the US market."
       },
       {
-        "title": "Stones: washed olivine-diabase, 2-4 inches (5-10 cm)",
-        "body": "Harvia's spec calls for stones in the 5-10 cm (2-4 inch) size range. KIP holds ~44 lbs regardless of model. Wash the stones before first fire to remove dust. Garden-center decorative rocks pack too tight and hide dust that can ignite on exposed elements. Stones are not included with the heater itself at Almost Heaven; plan to buy them separately."
+        "title": "Stones: washed olivine-diabase, 2-4 inches",
+        "body": "Harvia's spec calls for stones in the 2-4 inch size range. KIP holds ~44 lbs regardless of model. Wash the stones before first fire to remove dust. Garden-center decorative rocks pack too tight and hide dust that can ignite on exposed elements. Stones are not included with the heater itself at Almost Heaven; plan to buy them separately."
       }
     ],
     "bestFor": "Residential saunas from small closet builds through mid-sized home cabins (roughly 169 to 424 cu ft). Light commercial use like fitness centers, small boutique gyms, and apartment-complex amenity saunas. Builders who want a proven, UL-certified wall-mounted heater with 40+ years of field data behind it. Not the right spec for large commercial rooms over 425 cu ft (spec Virta Pro or Cilindro instead).",
@@ -1429,7 +1429,7 @@
     "category": "wood-burning-heater",
     "position": "commercial",
     "tagline": "Harvia's largest wood-burning stove. 40 kW rated output, 264 lbs of stone capacity, steel construction, black finish. Rated by Harvia for sauna rooms from 706 to 1,766 cubic feet and designated for professional use.",
-    "intro": "The Harvia 50 (model WK500) is the largest wood-burning sauna heater in Harvia's current catalog. It is rated at 40 kW output, holds 264.6 lbs of stones in a size range of Ø10-15 cm, and Harvia's spec places it in sauna rooms from 706 to 1,766 cubic feet. The stove is designated for professional user groups and is built for commercial and destination-scale wood-fired saunas: large public bathhouses, ski-town communal saunas, resort wellness facilities, and multi-session commercial operations. Floor-mounted, steel construction, black finish. Minimum ceiling clearance is 6.56 ft, and Harvia specifies meaningful safety-distance setbacks from combustible materials (see the spec sheet linked below). Manufactured in Harvia's Muurame, Finland factory.",
+    "intro": "The Harvia 50 (model WK500) is the largest wood-burning sauna heater in Harvia's current catalog. It is rated at 40 kW output, holds 264.6 lbs of stones in a size range of roughly 4-6 inches, and Harvia's spec places it in sauna rooms from 706 to 1,766 cubic feet. The stove is designated for professional user groups and is built for commercial and destination-scale wood-fired saunas: large public bathhouses, ski-town communal saunas, resort wellness facilities, and multi-session commercial operations. Floor-mounted, steel construction, black finish. Minimum ceiling clearance is 6.56 ft, and Harvia specifies meaningful safety-distance setbacks from combustible materials (see the spec sheet linked below). Manufactured in Harvia's Muurame, Finland factory.",
     "heroImage": "/images/harvia-mediabank/harvia-50-wood/1621.jpg",
     "gallery": [
       "/images/harvia-mediabank/harvia-50-wood/1621.jpg",
@@ -1454,11 +1454,11 @@
       },
       {
         "label": "Min ceiling height",
-        "value": "6.56 ft (2 m)"
+        "value": "6.56 ft"
       },
       {
         "label": "Stone size",
-        "value": "Ø10 – 15 cm"
+        "value": "~4-6 inches"
       },
       {
         "label": "Net weight",
@@ -1495,7 +1495,7 @@
       "40 kW rated output for very large commercial sauna rooms",
       "264.6 lbs of stone capacity for strong steam generation and commercial-duty recovery",
       "Floor-mounted steel construction with black finish",
-      "Harvia-specified stone size range: Ø10-15 cm",
+      "Harvia-specified stone size range: ~4-6 inches",
       "Harvia classifies the 50 as a professional-user product, not residential",
       "Manufactured in Harvia's Muurame, Finland factory"
     ],
@@ -1519,7 +1519,7 @@
       },
       {
         "title": "Use Harvia-specified stone sizes for a 40 kW stove",
-        "body": "Harvia specifies Ø10-15 cm stones for the Harvia 50 — larger than what's used in smaller Harvia heaters like KIP or Vega. At commercial output, smaller stones can fracture under thermal load and pack down, cutting airflow and steam output. Use the Harvia-specified stone size range and plan for periodic stone replacement under heavy commercial use."
+        "body": "Harvia specifies roughly 4-6 inch stones for the Harvia 50 — larger than what's used in smaller Harvia heaters like KIP or Vega. At commercial output, smaller stones can fracture under thermal load and pack down, cutting airflow and steam output. Use the Harvia-specified stone size range and plan for periodic stone replacement under heavy commercial use."
       }
     ],
     "bestFor": "Large commercial wood-fired saunas, destination and public bathhouses, ski-town communal rooms, and commercial wellness installations in rooms Harvia's own spec places at 706-1,766 cu ft. Not specified by Harvia for residential use; residential wood-fired buyers should look at the Harvia 20, Harvia 36, Legend 150, or Cilindro wood-burning instead.",
