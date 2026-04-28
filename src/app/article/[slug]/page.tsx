@@ -18,6 +18,13 @@ import { getArticleImageVariants, stringifyJsonLd, toIso8601 } from '@/lib/struc
 
 export const dynamicParams = false;
 
+
+const ALWAYS_RECOMMENDED_SLUGS = [
+  'bathhouse-120m-revenue-social-sauna',
+  'en-18164-europe-first-sauna-standard-nordic-pushback',
+  'ul-60335-2-53-sauna-heater-standard-transition',
+] as const;
+
 const ReadingProgressBarDeferred = dynamic(() => import('@/components/ReadingProgressBar'), {
   ssr: false,
 });
@@ -181,9 +188,14 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     notFound();
   }
 
-  const related = getArticlesByCategory(article.category)
-    .filter((a) => a.id !== article.id)
-    .slice(0, 3);
+  const alwaysRecommended = ALWAYS_RECOMMENDED_SLUGS
+    .map((recommendedSlug) => articles.find((a) => a.slug === recommendedSlug))
+    .filter((a): a is (typeof articles)[number] => Boolean(a) && a.id !== article.id);
+
+  const fallbackRelated = getArticlesByCategory(article.category)
+    .filter((a) => a.id !== article.id && !alwaysRecommended.some((recommended) => recommended.id === a.id));
+
+  const related = [...alwaysRecommended, ...fallbackRelated].slice(0, 3);
 
   const categorySlug = article.category.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-');
   const articleUrl = getArticleCanonicalUrl(article);
