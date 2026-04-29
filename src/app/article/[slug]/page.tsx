@@ -2,7 +2,6 @@ import type { ReactNode } from 'react';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
-import dynamic from 'next/dynamic';
 import { articles, getArticleBySlug, getArticlesByCategory, getArticleBody } from '@/data/articles';
 import { formatDate } from '@/lib/utils';
 import ContentTypeBadge from '@/components/ContentTypeBadge';
@@ -10,6 +9,8 @@ import ArticleCard from '@/components/ArticleCard';
 import ArticleImage from '@/components/ArticleImage';
 import SponsorSlot from '@/components/SponsorSlot';
 import EventsCalendar from '@/components/EventsCalendar';
+import ReadingProgressBar from '@/components/ReadingProgressBar';
+import NewsletterSignup from '@/components/NewsletterSignup';
 import type { EventCategory, EventOrganization } from '@/data/events';
 import { getArticleCanonicalUrl, getArticleHeadline } from '@/data/article-seo';
 import { getArticleDateModified } from '@/data/article-history.server';
@@ -24,13 +25,6 @@ const ALWAYS_RECOMMENDED_SLUGS = [
   'en-18164-europe-first-sauna-standard-nordic-pushback',
   'ul-60335-2-53-sauna-heater-standard-transition',
 ] as const;
-
-const ReadingProgressBarDeferred = dynamic(() => import('@/components/ReadingProgressBar'), {
-  ssr: false,
-});
-
-const NewsletterSignupDeferred = dynamic(() => import('@/components/NewsletterSignup'));
-
 
 const EMBED_REGEX =
   /<div\s+(data-events-calendar|data-events-org)=(?:"([^"]+)"|'([^']+)')\s*(?:\/>|><\/div>)/gi;
@@ -190,7 +184,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
   const alwaysRecommended = ALWAYS_RECOMMENDED_SLUGS
     .map((recommendedSlug) => articles.find((a) => a.slug === recommendedSlug))
-    .filter((a): a is (typeof articles)[number] => Boolean(a) && a.id !== article.id);
+    .filter((a): a is (typeof articles)[number] => a !== undefined && a.id !== article.id);
 
   const fallbackRelated = getArticlesByCategory(article.category)
     .filter((a) => a.id !== article.id && !alwaysRecommended.some((recommended) => recommended.id === a.id));
@@ -277,7 +271,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: stringifyJsonLd(jsonLd) }}
       />
-      <ReadingProgressBarDeferred />
+      <ReadingProgressBar />
 
       {/* Article Header */}
       <article>
@@ -490,7 +484,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
       {/* Newsletter */}
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <NewsletterSignupDeferred />
+        <NewsletterSignup />
       </div>
 
       {/* Related Articles */}
