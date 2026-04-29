@@ -305,6 +305,32 @@ export const events: SaunaEvent[] = [
     organizations: ['Sauna from Finland'],
   },
   {
+    id: 'finnish-sauna-essentials-workshop-2026',
+    slug: 'finnish-sauna-essentials-workshop-helsinki-wsf-2026',
+    title: 'Finnish Sauna Essentials Workshop',
+    category: 'Conference',
+    startDate: '2026-06-13',
+    endDate: '2026-06-13',
+    location: 'Helsinki, Finland',
+    venue: 'Downtown Helsinki',
+    officialUrl: 'https://saunologia.fi/wsf2026-side-event/',
+    image: 'https://saunologia.fi/wp-content/uploads/2026/03/wsf26-side-event-finnish-sauna-workshop-helsinki.jpg',
+    imageCaption: 'Saunologia workshop announcement for the World Sauna Forum 2026 side event in Helsinki. Image: Saunologia.',
+    summary: 'A practical Finnish sauna design and construction workshop in Helsinki after World Sauna Forum 2026, led by Lassi Liikkanen, PhD.',
+    body: `<p>Saunologia hosts <em>Finnish Sauna Essentials</em> in Helsinki on June 13, 2026, as a side event immediately following World Sauna Forum in Jyväskylä. The workshop is designed for professionals who need practical guidance on building saunas that deliver authentic Finnish bathing quality in real projects.</p>
+
+<h2>What Participants Learn</h2>
+
+<p>The approximately three-hour session is led by Lassi Liikkanen, PhD, founder of Saunologia. Using an integrated indoor sauna case study, participants work through core design and construction decisions: room layout and capacity, heater selection and placement, ventilation strategy, bench geometry, material specification, lighting, and finishing details.</p>
+
+<p>The workshop also covers terminology and standards professionals can use with clients, contractors, and project teams. Optional sauna time follows the session.</p>
+
+<div class="callout">
+<strong>Event details:</strong> June 13, 2026. Downtown Helsinki, Finland. Finnish sauna design and construction workshop led by Lassi Liikkanen, PhD. €250 per person including Finnish VAT. Advance registration required.
+</div>`,
+    tags: ['World Sauna Forum', 'Saunologia', 'Lassi Liikkanen', 'Helsinki', 'Sauna Design', 'Sauna Construction'],
+  },
+  {
     id: 'harvia-h1-2026',
     slug: 'harvia-h1-2026-half-year-report',
     title: 'Harvia H1 2026 Half-Year Report',
