@@ -1,3 +1,6 @@
+'use client';
+
+import { useState } from 'react';
 import Image from 'next/image';
 import PlaceholderImage, { variantForCategory, PlaceholderVariant } from './PlaceholderImage';
 
@@ -33,7 +36,9 @@ export default function ArticleImage({
   sizes = '(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw',
   variant,
 }: ArticleImageProps) {
-  if (src) {
+  const [hasError, setHasError] = useState(false);
+
+  if (src && !hasError) {
     return (
       <div className={`relative overflow-hidden rounded-lg ${className}`} style={{ aspectRatio }}>
         <Image
@@ -44,6 +49,7 @@ export default function ArticleImage({
           priority={priority}
           className="object-cover"
           unoptimized={shouldBypassOptimization(src)}
+          onError={() => setHasError(true)}
         />
       </div>
     );
