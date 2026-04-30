@@ -4,7 +4,7 @@ import PlaceholderImage, { variantForCategory, PlaceholderVariant } from './Plac
 function shouldBypassOptimization(src: string): boolean {
   try {
     const hostname = new URL(src).hostname;
-    return hostname === 'manuals.plus';
+    return hostname === 'manuals.plus' || hostname === 'www.submersive.com';
   } catch {
     return false;
   }
