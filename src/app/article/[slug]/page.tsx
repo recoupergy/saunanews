@@ -19,7 +19,6 @@ import { getArticleImageVariants, stringifyJsonLd, toIso8601 } from '@/lib/struc
 
 export const dynamicParams = false;
 
-
 const ALWAYS_RECOMMENDED_SLUGS = [
   'bathhouse-120m-revenue-social-sauna',
   'en-18164-europe-first-sauna-standard-nordic-pushback',
@@ -189,7 +188,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const fallbackRelated = getArticlesByCategory(article.category)
     .filter((a) => a.id !== article.id && !alwaysRecommended.some((recommended) => recommended.id === a.id));
 
-  const related = [...alwaysRecommended, ...fallbackRelated].slice(0, 3);
+  const recommendedArticles = [...alwaysRecommended, ...fallbackRelated].slice(0, 3);
 
   const categorySlug = article.category.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-');
   const articleUrl = getArticleCanonicalUrl(article);
@@ -488,14 +487,14 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       </div>
 
       {/* Related Articles */}
-      {related.length > 0 && (
+      {recommendedArticles.length > 0 && (
         <section className="bg-cream dark:bg-dark-bg border-t border-border dark:border-dark-border">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
             <h2 className="font-editorial text-2xl font-bold text-charcoal dark:text-cream mb-8 border-b border-border dark:border-dark-border pb-4">
-              More in {article.category}
+              Recommended Reads
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
-              {related.map((a) => (
+              {recommendedArticles.map((a) => (
                 <ArticleCard key={a.id} article={a} />
               ))}
             </div>
